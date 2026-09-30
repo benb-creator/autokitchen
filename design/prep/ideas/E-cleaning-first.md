@@ -6,7 +6,8 @@ Written independently; no other file in `design/prep/ideas/` was read.
 
 Inputs used: `BRIEF.md`, `DECISIONS.md`, `PLAN.md`, `requirements/requirements.md` (3.5, 5, 7),
 `research/06` (all), `research/04`, `research/01` (3–5), `research/05` (4–5).
-`research/02-meal-corpus.md` did not exist yet; the operation list of requirements 5.3 was used instead.
+`research/02-meal-corpus.md` arrived after the concepts were drafted; the concepts were then checked against it
+in section 5 (operation codes such as FLP, PLA are the corpus codes) and the vessel sizes were corrected.
 
 All numbers are my own estimates or derivations unless a research document is cited. They are design
 starting points, to be measured on a prototype.
@@ -80,8 +81,8 @@ Front view, one tub (interior 560 W x 480 D x 560 H, ~150 L, = tub of a 60 cm di
   |  turner scraper egg-cup           \        /     hook  spike  |
   |                               [tool]    [tool]                |--> side hatch 330 x 200
   |          board (GN 1/2)        ___________         jet gate   |    (exchange tray GN 1/2
-  |  _____________________________|  bowl 4 L |__   6 fan jets    |     in / out by transport)
-  |  floor, 5 deg to sump  ((( turntable Ø260, magnetic )))       |
+  |  _____________________________|  bowl 8 L |__   6 fan jets    |     in / out by transport)
+  |  floor, 5 deg to sump  ((( turntable Ø300, magnetic )))       |
   |__________________ lower spray arm ____________________________|
         | sump 6 L, heater 2 kW, drum strainer -> bio bin |
         | circulation pump 60 L/min, drain pump, 5 bar jet pump |
@@ -106,7 +107,7 @@ Duplex option: two tubs stacked (upper "green" 950-1550 mm, lower "red" 250-850 
 
 Rod tools with a taper-bayonet stem: chef's blade 200 mm (standard blade, welded stem), Y-peeler head (standard
 blade), tongs, egg cup-tongs, turner, steel scraper, whisk, dough hook, free roller Ø50 × 250, spike chuck and
-tailstock cup. Ware: 4 L bowl, perforated basket, chopper cup with blade lid, GN 1/2 HDPE board, silicone mat
+tailstock cup. Ware: 8 L bowl Ø300 (the corpus asks for 8 L working volume at 6 persons), perforated basket, chopper cup with blade lid, GN 1/2 HDPE board, silicone mat
 with a steel pull bar, 2 exchange trays. About 18 items, about 0.6 m² of surface.
 
 ### 1.5 Dosing and moving, by ingredient form
@@ -199,8 +200,8 @@ Front view, bay 900 W x 600 D x 750 H (at 850-1600 mm above floor)
         |    |
         |  [tool]                            power wall (flat, IP69K):
    box  |                                     (o) low-speed dog 20 Nm
-   dock |   bench 1      bench 2     bench 3  (o) high-speed magnet 500 W      washer
-  [tilt]|   GREEN        RED         WEIGH     |  ram 2 kN from above          380x380x350
+   dock |   bench 1      bench 2     bench 3  (o) high-speed magnet 500 W      washer, rack
+  [tilt]|   GREEN        RED         WEIGH     |  ram 2 kN from above          500x500, H 400
         |  [GN1/2-65]  [GN1/2-65]  [GN1/2-65]  v                             | dirty | clean |
   ______|__on frames with load cells and vibrators________________________   | door  | door  |
    floor 5 deg to drain, nozzle bar for the daily bay rinse                  tank 12 L 60 C
@@ -217,13 +218,15 @@ vibrators, box tilt and vibrator, two washer doors and a rack shuttle. **About 1
 
 ### 2.4 Tools and vessels
 
-* **Benches:** GN 1/2-65 steel trays (325 × 265 mm), 6 off; perforated GN 1/2-65, 2 off; flat GN 1/2 lids, 4;
-  GN 1/2 HDPE cutting board; GN 1/2 silicone mat. The tray is work surface, splash guard and transfer vessel in one.
+* **Benches:** GN 1/2-65 steel trays (325 × 265 mm, 4 L), 6 off; perforated GN 1/2-65, 2 off; GN 1/2-150
+  (9.5 L) as the large mixing and salad vessel, 2 off; flat GN 1/2 lids, 4; GN 1/2 HDPE cutting board; GN 1/2
+  silicone mat. The washer takes the standard 500 × 500 rack, so the corpus's largest cookware (36 cm pan,
+  9 L pot) fits as well. The tray is work surface, splash guard and transfer vessel in one.
   Loose steel rail bars (3, 5, 8, 22 mm) laid in a tray turn it into a **thickness gauge** for the roller.
 * **Stem tools** (S1), each a welded steel part with drip collar and knob: chef's blade, Y-peeler, tongs
   (spring-free: two leaf blades closed by the chuck's second jaw), turner 0.6 mm, scraper, roller, whisk, ring
   cutter Ø80, brush-free steel squeegee, spike. 14 off, in duplicate (green/red).
-* **Cassettes** (passive, fall apart into C2 shapes): rotating bowl 4 L with a hang-in roller and scraper
+* **Cassettes** (passive, fall apart into C2 shapes): rotating bowl 8 L with a hang-in roller and scraper
   (Ankarsrum principle, no seal); chopper cup with magnet-driven blade lid; ricer cylinder with plate; push-through
   grid on the ram; egg cracker (one ram stroke via a cam: score, spread); apron roller for Rouladen (S11).
 * About 45 items in total, two sets.
@@ -258,7 +261,7 @@ vibrators, box tilt and vibrator, two washer doors and a rack shuttle. **About 1
 | Knead, roll out | Rotating-bowl cassette, 20 Nm; roll out in a tray between rails, between two silicone mats (no flour) | 1 kg, 6–8 min | High / medium |
 | Mash | Ricer cassette under the ram; skins stay in the cylinder | 1–2 kN | High |
 | Toss salad | Lid on the tray, wrist inverts it 4 times | 10 s | High |
-| Flip steak / pancake | Turner stem with a counter-holder; for pancakes and fragile items the hourglass flip with a second hot pan | 3 kg on the wrist | Medium |
+| Flip steak / pancake (FLP, 12.9 % of meals, no purchase workaround) | Patties, steaks, cutlets: turner stem plus a counter-holder stem. Pancake, omelette, tortilla, Rösti, fish: **flip lid** (S4), a flat steel disc with a 10 mm rim, preheated on the second hob, set on the 28 cm pan, both inverted by the wrist, item slid back | pan + lid + food about 2.5 kg at 150 mm, 4 Nm | Medium–high for the lid flip, medium for the turner |
 | Stir while cooking | Pot turns on its hob drive against a loose scraper hung on the rim; or a paddle stem on the wrist spin | 5–10 Nm | High |
 
 ### 2.7 Cleaning and drying
@@ -394,6 +397,9 @@ tube, ferrules and laser-cut plate.
 * **Verification:** turbidity and conductivity in a 1.5 L last rinse (10 mg of residue is about 7 mg/L, easily
   seen); pump pressure signature proves the gap was not blocked; a camera with a ring light looks down the
   bore and sees 100 % of the inner surface in one image.
+* **Size limit:** the long tube holds 3.1 L, enough for 1.6 kg of dough (1.4 L), 1 kg of mince mass or 6 whipped
+  egg whites (1.5 L), but 1.5 kg of potatoes (2.3 L) takes two fills, dough rises in its tin, and the 5 L salad
+  of the corpus goes to the 9.5 L tray of the flat bench.
 * **Zone F per meal** about 0.5 m², the smallest of the four; the bay stays nearly clean because food is
   enclosed from box to pot.
 
@@ -471,6 +477,8 @@ liquids, so as a whole system it is always "D plus closed vessels".
 | Rouladen | The lower web dips into the trough slot and acts as the rolling apron (S11); a bar drags it over and the roll forms; seam-down channel or a wooden pick | 45 s per roll | Medium |
 | Knead | No | | — |
 | Roll out dough | Between the webs with the roller on gauge rails, 2–10 mm, no flour, no sticking; the lower paper then serves as the baking paper in the oven, so it is used twice | 20–60 N | High |
+| Line tins, unmould (LIN 8.9 %, UNM 4.4 %) | A sheet cut from the roll lines the tin or mould (pressed in by a former); the cake or terrine is turned out by hourglass inversion and the paper peeled; the mould stays nearly clean | | High |
+| Wrap (WRP 4.0 %): cabbage rolls, biscuit roll, strudel | Same apron as Rouladen; the biscuit roll is rolled in its own baking paper | | Medium |
 | Flip pancake / steak | Not here | | — |
 | Cut raw meat | **Not possible on paper** (paper fragments in food); must be done on a washable board | | — |
 | Peel, dice, herbs, egg, mash, salad, drain | Host concept | | — |
@@ -502,7 +510,50 @@ architecture inside the machine that has to earn its place against simply washin
 
 ---
 
-## 5. Standalone sub-mechanism ideas
+## 5. Check against the meal corpus (`research/02`)
+
+The corpus (248 meals) shows where a concept really has to deliver. "No workaround" means that buying
+pre-processed food does not help. Ratings: ++ natural fit, + works with the stated tool, o weak, – not covered.
+
+| Corpus operation | Share of meals | A | B | C (+ flat bench) | D | Mechanism from the cleaning-first rules |
+|---|---|---|---|---|---|---|
+| PLA peel onion / garlic | 52.0 % | o | + | + | – | Steam-slip through a silicone ring (S16) or lathe + jet; garlic: crushed skin-on through the 5 mm grid, skin stays on the plate. Buy peeled/frozen as fallback |
+| COR core / deseed / hull | 20.2 % | + | + | + | – | Apple, tomato stalk: hollow corer punch on the lathe axis or as a ram end tool. Pepper: parting cut round the stalk on the lathe, cap pulled with the seed core, inside flushed by one jet while spinning mouth-down |
+| FLP flip / turn (no workaround) | 12.9 % | – | + | + | – | Flip lid (S4) for pancake, omelette, tortilla, Rösti, fish; turner + counter-holder for patties, steak, cutlets |
+| TRE trim ends / stems | 12.5 % | + | + | ++ | – | Top and tail on the lathe; beans, asparagus, leek stood upright in a tube and the ends sliced off by the sickle (one stroke for the whole bundle) |
+| PLS / PLH peel thin or knobbly skins | 10.5 % / 7.3 % | + | + | + | – | Lathe peeler (apple, kohlrabi, celeriac with a 3 mm cut-away knife pass); iris peeler (cucumber, carrot); blanch and slip for tomato and peach |
+| SEP separate egg | 6.9 % | + | + | + | – | The cracked egg lands in a slotted steel saucer; tilting lets the white run through the slot, the yolk stays. Saucer is a C2 shape |
+| ASM assemble (no workaround) | 6.9 % | o | + | + | + | Pick and place with tongs, turner and freeze plate (S6) on a tray; layered bakes by tilt-pour and roller levelling |
+| STU stuff / fill | 6.5 % | o | + | ++ | – | DN40 syringe tube with a Ø15–25 nozzle deposits filling by stroke into peppers, tomatoes, cannelloni, apples (also PIP piping) |
+| CAR carve cooked meat (no workaround) | 4.8 % | o | + | + | – | Roast on the board held by a steel **comb fence**; the knife stem draws through between the teeth, so slice thickness is the comb pitch; 10–40 N. Boneless only |
+| UNM unmould (no workaround) | 4.4 % | – | + | + | ++ | Paper-lined mould, hourglass inversion onto board or plate, paper peeled |
+| WRP wrap | 4.0 % | o | + | + | ++ | Apron roller (S11) |
+| FRM shape small pieces | 2.8 % | o | o | ++ | – | Strand through a Ø15–20 plate cut by the sickle (gnocchi, Schupfnudeln, croquettes); balls rounded under an orbiting cup |
+| PLE peel boiled egg | 2.8 % | + | + | + | – | Shake-peel: eggs with 100 mL of water in a lidded tray shaken for 10 s, shell rinsed off in the perforated tray. To be tested |
+| SCO score | 2.8 % | + | + | + | – | Knife stem with force limit, depth by the collar's height reference |
+| SHD shape dough | 2.4 % | o | + | + | + | Loaf in its tin; rolls as Ø50 plugs rounded under the orbiting cup; pizza rolled between papers or mats |
+| BRD bread / coat | 2.0 % | o | + | + | ++ | Three trays, or the paper station |
+| RLT roll and tie | 1.6 % | o | + | + | ++ | Apron roller + seam-down channel |
+| STR strip / pluck / florets | 3.6 % | – | – | – | – | **Not solved** by any concept here; buy frozen florets and picked herbs |
+| TRM, DBN, FLT, PLQ butchery | 4.4 % | – | – | – | – | Excluded, buy prepared (X-03) |
+
+Consequences:
+
+* The corpus moves weight away from the brief's showpieces (Rouladen 1.6 %, breading 2.0 %) towards
+  **flipping, coring, trimming and onion peeling**. The flip lid, the spike lathe with a corer on its axis, and the
+  tube-and-sickle end trim are therefore more important than the paper station.
+* The shaping cluster (15.3 %) is where concept C is strongest: stuffing, piping, portioning and small shapes
+  are all "push a measured volume through a nozzle".
+* The four operations without any purchase workaround (FLP, ASM, CAR, UNM: union about 29 % with SCO and
+  poaching) are all flat-bench, loose-tool operations. This confirms that C cannot stand alone and that B's bench
+  is not optional.
+* Vessel sizes: 8–10 L mixing and 5 L salad exceed a tube; B's 9.5 L tray and 8 L bowl cover them. The 36 cm pan
+  is too heavy and wide for a wrist flip, so the flip lid is limited to the 28 cm pan and large batches are turned
+  piece by piece.
+
+---
+
+## 6. Standalone sub-mechanism ideas
 
 Each can be used in any concept. Feasibility: H high, M medium, L low/wild.
 
@@ -524,9 +575,11 @@ is exactly the cook's onion technique. Forces below 70 N. Feasibility H for peel
 deep potato eyes stay (within the 5 % of PRP-022).
 
 **S4 Hourglass transfer.** Two vessels with equal rims are clamped mouth to mouth and inverted. No pouring
-arc, no spill, no dust, works for powder, pieces and pastes (with a tap). With two hot pans it is a pancake,
-omelette, fish and Rösti flip that needs no spatula under a fragile item. Needs equal rim diameters as an
-architecture rule. Feasibility H; wrist must carry both vessels (3–4 kg).
+arc, no spill, no dust, works for powder, pieces and pastes (with a tap). For flipping in the pan the second
+vessel is a **flip lid**: a flat, preheated steel disc with a 10 mm rim; pan and lid are inverted together and
+the pancake, omelette, Rösti or fish is slid back, so no spatula goes under a fragile item. The same inversion
+unmoulds cakes. Needs equal rim diameters as an architecture rule. Feasibility H for transfer, M–H for the
+flip (hot fat must be drained to the pan's spout side first); wrist load 2.5–4 kg.
 
 **S5 Jet gate: the manipulator is the rack.** A fixed plane of 6 fan nozzles at 5 bar (12 L/min from a small
 sump). The manipulator passes each used tool through it while turning it, so every face meets a jet at 50 mm
@@ -618,30 +671,35 @@ plastic per meal).
 
 ---
 
-## 6. Which concept I would bet on
+## 7. Which concept I would bet on
 
 **B as the logistics, with the Kolbenrohr of C as its main cassette; D kept in reserve.**
 
 * B is the only concept whose cleaning is both already proven (rack washer, fixed poses, steel ware) and fast
   enough to wash within a meal, and it handles the flat and whole items that no clever vessel can: steak,
-  Schnitzel, salad, eggs, Rouladen.
+  Schnitzel, salad, eggs, Rouladen. The corpus confirms this: the operations with no purchase workaround
+  (flip, assemble, carve, unmould) are all loose-tool work on a flat bench.
 * C removes most of B's weakness. One tube with a ram replaces B's dicer, slicer discs, ricer, patty ring,
   paste scoops and mixing bowls, cuts the item count from about 45 to about 30 and the handling moves by
   roughly half, and it encloses flour and mince from box to pot. Its cleaning proof (pig, pipe flow, one
-  camera view down the bore) is the strongest of all.
+  camera view down the bore) is the strongest of all, and it is the best answer to the corpus's shaping
+  cluster (stuff, pipe, portion, small shapes).
 * A is the most elegant statement of the lens but soils and blocks a whole tub for every onion. I would keep
   two things from it: the spike lathe and the jet gate.
 * D is the fallback if washing of raw-meat and dough ware fails validation (HYG-021/022). It should not be
-  built first.
+  built first; but a plain sheet dispenser from the same roll, for lining tins and unmoulding, is cheap and
+  worth having from the start.
 
-First tests, in this order: reciprocating-extrusion kneading (bread crumb quality), dicing-grid force on a full
-Ø100 column, torpedo-holster cleaning of dried egg and dough with riboflavin, flash-dry of steel ware.
+First tests, in this order: flip lid on pancake and omelette, steam-slip onion peeling, reciprocating-extrusion
+kneading (bread crumb quality), dicing-grid force on a full Ø100 column, torpedo-holster cleaning of dried egg
+and dough with riboflavin, flash-dry of steel ware.
 
 ---
 
 ## Open issues
 
-1. Meal corpus not yet available; coverage of the four concepts was judged against requirements 5.3 only.
+1. The corpus check in section 5 is qualitative; no meal-by-meal walk-through was done. Stripping and plucking
+   (STR, 3.6 %) has no mechanism in any concept.
 2. Kneading and foaming by reciprocating extrusion (C) have no quality data.
 3. Dicing-grid force on a full tube cross-section is estimated at 2–5 kN; hand-dicer experience suggests the
    lower end, the research figure of 2–5 N/mm the upper.
