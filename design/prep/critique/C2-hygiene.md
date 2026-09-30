@@ -48,9 +48,10 @@ Two further findings become fatal if their concept's own kill test fails: K3-1 (
 
 **Findings that apply to all eight** (section 2) are as important as any single concept's defect:
 
-1. **No concept meets RES-005 (45 L) or RES-001 (4.0 kWh)** once the machine-washed dishes (DEC-6), produce
-   washing (DEC-8) and cooking water are booked and the arithmetic is redone: recomputed range **54–118 L** and
-   **4.0–8.9 kWh** per reference meal (C-2).
+1. **No concept meets RES-005 or RES-001** (re-based by DEC-18 to ≤ 35 L and ≤ 3.0 kWh for 2 persons, ≤ 55 L
+   and ≤ 4.5 kWh for 6) once the machine-washed dishes (DEC-6), produce washing (DEC-8) and cooking water are
+   booked and the arithmetic is redone: recomputed **54–118 L** and **4.0–8.9 kWh** for the 4-person benchmark
+   meal, hardly less for 2 persons because cleaning does not scale with persons (C-2).
 2. **Thermal-disinfection claims (HYG-021, A0 ≥ 60) have no margin in six concepts, and in two (K2, K3) the
    induction "flash" is dry heat, to which A0 does not apply** (C-1).
 3. **DEC-8 turns every produce intake into a class R path** (unwashed soil-bearing produce is class R by
@@ -97,8 +98,8 @@ coldest item of the worst load; a dry flash is a drying step.
 
 ### C-2 Water and energy per reference meal, recomputed
 
-Common additions to every concept's own cleaning figure [E]: **dishes 10 L / 0.9 kWh** (DEC-6; the RES-005
-rationale already assumes 10 L), **cooking water 4 L**, **produce washing 5 L** (DEC-8; GP-W1 in
+Common additions to every concept's own cleaning figure [E]: **dishes 10 L / 0.9 kWh** (DEC-6; RES-005 and RES-001 now
+include the meal's dishes), **cooking water 4 L**, **produce washing 5 L** (DEC-8; GP-W1 in
 `gaps/G-produce.md` needs 6–12 L per 200–300 g of gritty leaves, robust produce 2–4 L), **cooking energy
 1.3 kWh** (RES-001 rationale).
 
@@ -113,10 +114,16 @@ rationale already assumes 10 L), **cooking water 4 L**, **produce washing 5 L** 
 | K7 | 21–25 L + 17–20 L chamber | + cold side 0.2 kWh per meal | **57–64 L, 5.0–5.2 kWh** |
 | K8 | 26 L full wash + 3–8 L | gate 12 L/min × 6 s = 1.2 L per vessel, not 0.6; puck rinse 2 × 20 s × 12 L/min = 8 L uncounted: full wash ≈ 38 L, ≈ 2.8 kWh | **60–65 L, ~5.3 kWh** |
 
-RES-005 (M) is 45 L, RES-001 (M) 4.0 kWh. **Every concept misses water; only K2 reaches the energy limit, and
-only because its splash-zone wash is under-budgeted.** Either the requirement is re-based (it was written before
-DEC-6 and DEC-8), or round 2 needs water recovery as a design feature (final rinse kept as the next pre-rinse,
-heat recovery from the drain, washing only full loads).
+**Against the limits.** The concepts' benchmarks are for 4 persons; while this critique was written the
+requirements were re-based by DEC-18: RES-005 is now ≤ 35 L per reference meal of **2 persons** and ≤ 55 L per
+sizing meal of 6; RES-001 ≤ 3.0 kWh (2 persons) and ≤ 4.5 kWh (6 persons), both including the washing of the
+meal's dishes. Cleaning hardly scales with persons (the requirement says so itself): a 2-person meal soils the same
+stations and nearly the same ware, only fewer dishes. So the 4-person figures above minus about 5 L of dishes and
+produce are a fair estimate for 2 persons: **every concept misses the 35 L of the 2-person meal by 15–80 L**; for
+the 6-person sizing meal only K6 (~54 L, ~4.5 kWh) and K2 (~57 L, ~4.0 kWh) come near the 55 L / 4.5 kWh, and
+K2 only because its splash-zone wash is under-budgeted. Round 2 needs water and heat recovery as a design
+feature (final rinse kept as the next pre-rinse, drain heat recovery, washing only full loads, fewer soiled items
+per meal), and the 2-person case must be walked through by every concept.
 
 ### C-3 Splash-zone wash-down: budgets without nozzle plans, and HYG-045
 
@@ -173,8 +180,8 @@ of the hob surround.
 * Which washer takes them: K6's wells (five plates per load; dishes need a tanged carrier), K7's slot washer (flat
   plates at 70 s each: 12–16 dishes = 15–20 min), K2's lathe (one plate per 4.5 min: not realistic), K8 (tub
   explicitly not; §6.3), K1/K3/K4/K5 a central washer. Cutlery and glasses fit none of the in-cell washers.
-* The 10 L of the RES-005 rationale was meant for a human-loaded household machine; in-cell washers with 85 °C
-  rinses use more energy per dish.
+* RES-005 and RES-001 now include the dishes (DEC-18 wording). A household machine needs about 10 L per load;
+  in-cell washers with 85 °C rinses and small loads use more water and energy per dish.
 
 ### C-6 The oven, the hood and the grease path — nobody cleans them
 
@@ -218,7 +225,7 @@ loads, or hold at ≥ 60 °C; never let soiled liquor stand warm.
 | K1-5 | Four PEEK scraper rings and drained lantern chambers above food; the wettest items after the wash (about 30 min); plus V-ring leak-off troughs above the ceiling that collect jet water | §2.4, §6.3, §6.7 #2, #14 | major | partly (LRU cartridges; hot air through lanterns) |
 | K1-6 | **Mechanisms as ware:** the roll head is an open stainless worm with a PEEK wheel and plain bushes (wear debris of PEEK into food, soil in the mesh — explorer risk 6); pinch tongs V21 have a core-driven face cam and silicone fin-ray fingers (every fin a crevice) | §2.6, §2.7, §6.7 #13 | major | partly (closed wrist outside Zone F; one-piece tongs as in K6) |
 | K1-7 | **Aerosol of class R water in an open cell.** Mid-meal bench rinse after raw meat with an 80 °C, 5 bar lance while pots stand open on the hobs (B1: potatoes after Rouladen). The jet gates spin tools at 300–600 rpm to dry them and, under DEC-8, wash soil-bearing produce in the same fans | §2.8, §4.3, §6.5 | major | partly (lids on; flood rinse at < 1 bar; enclosed gate) |
-| K1-8 | **Water, energy, time.** Recomputed ~118 L, ~8.9 kWh per reference meal (C-2): 2.6 × RES-005, 2.2 × RES-001. Cell free 43–50 min after serving (relays 10–17 min + wash-down 33 min): PERF-005 (30 min) missed. Ware in three loads of 55–75 min in series: the third load starts about 2 h after the food left it (HYG-030: ≤ 60 min, M); everything clean after 3 h (90 min required) | §6.2, §6.3, §6.4 | major | partly (fast washer; half the ware) |
+| K1-8 | **Water, energy, time.** Recomputed ~118 L, ~8.9 kWh for the 4-person meal (C-2): about 2 × even the 6-person limits of RES-005 (55 L) and RES-001 (4.5 kWh). Cell free 43–50 min after serving (relays 10–17 min + wash-down 33 min): PERF-005 (30 min) missed. Ware in three loads of 55–75 min in series: the third load starts about 2 h after the food left it (HYG-030: ≤ 60 min, M); everything clean after 3 h (90 min required) | §6.2, §6.3, §6.4 | major | partly (fast washer; half the ware) |
 | K1-9 | **HDPE board discs** carry every knife job (2 cuts/s, 240 cuts for a cabbage). Scored HDPE holds soil; no roughness check, no replacement interval, and the steel core bond line is a crevice. Red and green discs share the one BT pedestal and its umbrella skirt | §2.7 fixtures, §6.7 #6 | major | yes (interval, camera roughness check, human exchange under HUM-007) |
 | K1-10 | Peel and trimmings wait in the open rear gutter under the rails and jet gates until the wash (B1: potato peel from t = 105 min); with DEC-8 the peel load rises to 100–400 g per meal | §6.6 | minor | yes (flush after each peeling job) |
 | K1-11 | **Verification and failure.** Seam interiors, rod bores and collar lanterns are never seen; a cell that fails its check has no spare (§9: "local lance path repeated once, then flagged") | §6.3, §9 | major | partly |
@@ -441,7 +448,7 @@ All numbers [D] unless marked.
 | R-1 | **Everything that touches food is ware** that leaves for a washer, or a smooth closed cavity (tube, drum) cleaned in place by a validated cycle **and seen whole by a camera after every cycle**. No flexible or textile food surface cleaned in place; no fixed cutting surface | K3-1, K4-1, K4-5, K5-1 |
 | R-2 | **Nothing above an open vessel**: no gap, seal, sealing band, rod collar, parked tool, oven mouth or condensing coil in the vertical projection of an open food vessel during work. Manipulators approach from the side or park their drives outside that column | K1-1, K2-2, K3-4, K4-6, K5-6, K6-2 |
 | R-3 | **Only moist heat counts for A0.** Every disinfection claim is shown with a data logger on the coldest item of the worst load; a rinse hold of ≥ 60 s at ≥ 82 °C (or saturated steam) is the default; an induction or hot-air flash is a drying step | C-1 |
-| R-4 | **Water and energy are budgeted from nozzle flow × time**, including machine-washed dishes (DEC-6), produce washing (DEC-8) and cooking water; RES-005 is to be re-based or met by recovery (final rinse → next pre-rinse, drain heat recovery) | C-2, K4-3, K8-2 |
+| R-4 | **Water and energy are budgeted from nozzle flow × time**, including machine-washed dishes (DEC-6), produce washing (DEC-8) and cooking water; the re-based RES-005/-001 (DEC-18) are to be met by recovery (final rinse → next pre-rinse, drain heat recovery) | C-2, K4-3, K8-2 |
 | R-5 | **Unwashed produce is class R**: the first wash station is a red station with its own basket and drain; no shared tool or surface touches produce before it is washed (FSF-042) | C-4 |
 | R-6 | **One-way flow**: soiled ware leaves by a path that clean ware does not use, or at least clean ware is stored behind a closed shutter outside the air space in which class R food is open; dishes returned at the hatch never share it with plated food at the same time | K2-3, K6-5, K7-1, K8-1, C-5 |
 | R-7 | **Time limits**: cold rinse within 2 min of emptying a hot vessel, wash start ≤ 60 min (HYG-030); splash zone dried within 60 min after every cooked meal (HYG-045, HYG-053); no soiled wash liquor held in the 25–55 °C band — dump after class R or allergen loads, or keep ≥ 60 °C | C-3, C-8, K1-8, K8-4 |
