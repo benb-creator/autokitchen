@@ -154,7 +154,7 @@ Gates (the "bridge" of the catalogue, reduced to two):
 
 Wall penetrations: four gate rods through the ceiling (rod seal, scraper and drained collar each, SM-191;
 rods are above the belt edges, not above the 250 mm food lane); belt drive shaft, two pocket roller shafts,
-dancer shaft, nose carriage rod (rear wall, rotary or rod seals). Six rotary or rod seals in the rear wall.
+dancer shaft, nose carriage rod (rear wall, rotary or rod seals). Five rotary or rod seals in the rear wall.
 
 Answer to catalogue question 6: the shortest line that still does the no-workaround operations is a 420 mm
 bed, a 370 mm nose, one blade gate, one turret beam and the pocket. Sifter, curtain, curl belt and dish
@@ -374,6 +374,8 @@ Time is for the quantity of 4 persons unless stated. "Untested" names what a ben
 | Sauté, sear mince, stir-fry | Drum as rotating wok at +15°, wall 160–250 °C | — | H |
 | Deglaze, add to a hot vessel | Vessel brought under the chute by the head; or into the drum directly | 20 s | H |
 | Baste, glaze | Pour from a beaker by the head; no brush | — | M |
+| Extrude Spätzle (EXT) | Sieve plate held by the head over the simmering pot on the deck; the drum pours the batter on it; T5 wipes it through | 3 min | M |
+| Fill a muffin tin | Beaker with four weir notches at the cavity pitch, poured by the head over a row at a time | 60 s | M |
 | Thin batter poured (PTH) | Beaker held by the head poured in a zigzag over the pan on the deck; batter levels itself | 10 s | M |
 
 ---
@@ -390,7 +392,7 @@ food first, raw animal food last on the belt and in the drum (SM-208). "Soiled" 
 | t | Step | Where |
 |---|---|---|
 | 0 | 2 peeled onions from the dock through C1 into the 4 L pot on the deck; lard; sweat 3 min on H0, stirred by T5 | dock, arm, deck |
-| 4 | Red cabbage head (≤ Ø 200) down the chute onto the extended nose; G2 press plate holds it; G1 shreds 2 mm slices at 2 cuts/s straight into the pot (90 s); stalk end to the tail chute. The core is shredded with the rest | belt |
+| 4 | Red cabbage head (≤ Ø 190, the chute is 200 wide) down the chute onto the extended nose; G2 press plate holds it; G1 shreds 2 mm slices at 2 cuts/s straight into the pot (90 s); stalk end to the tail chute. The core is shredded with the rest | belt |
 | 7 | Apple (bought cored pieces), vinegar, wine, sugar, spice from the dock; pot to R2, lid arm down, turntable: braise 80 min | dock, head, R2 |
 | 9 | Filling: gherkins cut to sticks by G1, onion slices (C3), diced bacon (bought diced) into a scoop | belt, arm |
 | 12 | Two beef slices slid onto the belt side by side; roller pass at 6 mm; salt, pepper; mustard ribbon from the cartridge, doctor blade; filling poured from the scoop over its long edge as a stripe across both slices (belt load cells stop the pour); pocket roll; seam down; nose lays both rolls into the rack in the braiser on the deck. Four cycles of 60 s | belt, dock, head, deck |
@@ -462,8 +464,8 @@ The belt is not used.
 | 55 | Passata ribbon from the cartridge in two lanes, doctor blade at 2 mm; mozzarella and toppings from dock and scoops while the belt shuttles; nose lays the topped sheet on the GN 2/3 tray on the deck; head pushes the tray into the oven | belt, dock, head |
 | 66 | Three trays on three levels, hot air 250 °C, 12 min | oven |
 
-Result: **adapted** in format only (three trays of 300 × 330 instead of two of 400 × 300: same area within
-20 %). Elapsed 80 min. About 30 moves. Soiled: 3 trays, scoops, T3, cartridge; belt (flour and dough), drum.
+Result: **adapted** in format only (three trays of 300 × 330 instead of two of 400 × 300: about a quarter
+more area in total, smaller pieces). Elapsed 80 min. About 30 moves. Soiled: 3 trays, scoops, T3, cartridge; belt (flour and dough), drum.
 Untested: dough sticking to a TPU belt; lay-down of a topped sheet.
 
 ### B6 Gemüseeintopf from whole vegetables (6 persons) — T_ref 35, limit 60 for six
@@ -719,7 +721,7 @@ about 4 L. A drum-only meal (B4, B9) needs 9 L in place.
 |---|---|
 | Wall width | **1450 mm** at 600 deep and 2000 high, including five heated positions, the oven and the dock. Preparation machines alone (drum bay, shaft, belt column): the same 1450; the stacking under them is what holds the cooking |
 | Motion actuators | **35** (16 preparation, 9 dosing front end, 10 vessel and cooking handling); plus 12 valves, 3 pumps, 2 fans, 5 induction generators |
-| Wall penetrations with dynamic seals | 16: tilt shaft, gutter shaft, arm (concentric), belt drive, 2 pocket shafts, dancer, nose rod, 4 gate rods, 2 lid arms, 2 turntable rims (labyrinth, no contact) |
+| Wall penetrations with dynamic seals | 19: tilt shaft, gutter shaft, arm (concentric), belt drive, 2 pocket shafts, dancer, nose rod, 4 gate rods, 2 lid arms, 2 turntable rims (labyrinth, no contact), dock tilt shaft, chute swivel, egg opener swing. The shuttle has none (magnet coupling) |
 | Seals inside a food volume | none |
 | Custom part types | about 65 (drum, yoke, pod, gutter, arm, 7 heads, 5 cartridge cages, 3 inserts, belt frame, nose carriage, pocket unit, dancer, 2 gates, comb, plate, dock, chute, cartridge, egg opener, mast, 2 carriages, telescope, gripper, turntables, lid arms, rack, scoops, trays, lids, caddy, enclosure) |
 | Bought part types | about 45 |
@@ -728,8 +730,190 @@ about 4 L. A drum-only meal (B4, B9) needs 9 L in place.
 | Peak power | Drum 3 + R1 3 + R2 2 + oven 3 kW = 11 kW on three phases with everything on; the power manager never runs the sump heater, steam bar or H0 together with that |
 | Noise sources | Rumbler peeling (potatoes on a knurled disc in a steel cup, 3–4 min, the loudest and longest), knives at 3000 rpm in the drum, cutter cartridge, spin at 480 rpm, G1 at 40 Hz, pumps. Peel plus chop plus spin exceed the 5 minutes that NOI-003 allows for loud operations in B3 and B6 |
 | Handling moves | 14–85, mean 36 per benchmark meal |
-| Elapsed time | all twelve benchmarks inside PERF-001; B3 and B8 with less than 10 min margin |
+| Elapsed time | all twelve benchmarks inside PERF-001; B8 with 8 min margin, B3 with no slack for a retry of a drum job |
 | Class R separation | by sequence and wash, one belt, one drum (6.4) |
 | Drum balancing (catalogue question 1) | Spin only with the basket and ≤ 1.2 kg of leaves: 0.3 kg of imbalance at 0.14 m and 480 rpm gives about 105 N rotating force on a module of more than 150 kg; ramp with redistribution at 90 rpm as in a washing machine; no spin with water in a bare drum |
 
-<!--NEXT-->
+---
+
+## 8. Coverage estimate against the 248-meal corpus
+
+Method: not a row-by-row recomputation. I took the eight meals that requirements 5.4 already lets fall out,
+then went through every corpus meal that contains one of the no-workaround or shaping operations (lists of
+STU, ASM, WRP, RLT, FRM, CAR, UNM, SCO, SHD, LSP, POA, EXT, JUI meals pulled from the corpus) and judged it
+against section 4. Purchases per MEAL-012 (a) are assumed: peeled onion and garlic, cored or deseeded fruit
+and vegetables, trimmed beans and sprouts, stripped or frozen herbs, citrus juice, grated hard cheese,
+butcher-cut meat, peeled asparagus.
+
+| Group | Meals | Verdict |
+|---|---|---|
+| Excluded by requirements 5.4 | CK11, DM21, DS13, BF08, AS05, BK06, CK08, BK02 | out (8) |
+| Falls out in K3 | DM12 Kohlrouladen (no way to separate leaves), DM05 Cordon bleu (no pocket, no sealed edge), BF14 poached eggs, IN07 samosa and AS08 spring rolls (tucked-end wrapping), CK13 Biskuitrolle (roll Ø 90 exceeds the pocket), DS11 Germknödel (dumpling core), VG04 stuffed zucchini (no lengthwise halving) | out (8) |
+| Doubtful (L): counted out in the low figure | DS15 Bratapfel (coring; rescued by a tube corer on the arm plunge, section 11.3), CK17 apple turnovers (fold in the half-closed pocket and seal with the press plate), CK02 cheesecake (lining a round tin with dough), CK07 muffins (greasing twelve cavities) | 4 |
+| Adapted, counted as preparable | DM02 Rouladen (untied); DM03, DM04 and the other breaded or floured cutlets (25 mL of fat); DM20 chicken (unstuffed, untrussed, served whole); DM17, US04, ME10 (bone-in: served uncarved); MX02, MX03, MX05, ME03, US02, US08 (components or open-ended roll); IT18 cannelloni (rolled sheets); DM13 peppers (halves filled with plugs); FI07; BF10 omelette (flat, not folded); BK04 (unbraided); the ten deep-fry and seven stir-fry meals and the three skewer or skim meals that the requirements already mark as adapted | about 38 |
+
+**Estimate: 228–232 of 248 preparable = 92–93.5 % by count; about 93–94 % by weight** (the meals that fall
+out in K3 have weight 1 or 2; every weight-3 staple is preparable, several of them at medium confidence).
+That is **below the 95 % of MEAL-002 by four to eight meals** on paper. The shortfall is concentrated in one
+place: closed wrapping and pocket filling (the tucked end, the sealed edge, the core inside a dumpling),
+which needs a second direction of folding that a belt with one pocket does not have.
+
+**Adapted share: about 15 %**, above the 10 % of MEAL-013. The large items are outside K3's control
+(deep-fry and stir-fry substitutes, 17 meals); K3 itself adds the low-fat frying forced by the pan-pair flip,
+untied Rouladen and "served as components".
+
+MEAL-005 (brief meals): salad, mash, boneless roasts, Frikadellen, soups, steak, pasta are yes; Rouladen is
+adapted and rests on the untested seam-down braise. MEAL-009 (whole produce): not met. K3 peels potatoes and
+roots natively and trims long goods, but buys onions, garlic, cored fruit, trimmed beans and stripped herbs.
+MEAL-016 (1 to 6 persons): the small end is done in beakers under the arm (B12); the large end fits the drum
+(9 L boil, 1.6 kg dough) and the GN 2/3 pan pair (four cutlets per batch, three batches for six).
+
+---
+
+## 9. Failure modes and recovery
+
+| Failure | Detection | Recovery | If recovery fails |
+|---|---|---|---|
+| Produce bridges in the chute or the cartridge hopper | dock and deck weights do not change | vibrator; chute swivel to and fro; hopper cleared by reversing the disc and a lance pulse | the drum helix takes the charge back through a scoop; user notified |
+| Last slices left in the dicing grid | deck weight short by 20–60 g | accepted as loss; grid pushed over the pusher comb before the wash | — |
+| Piece falls beside the vessel in the shaft | deck camera, weight | it lies on the deck plate or the shaft floor strainer: discarded, recipe scaled by the scale (SM-151); shaft spot wash | — |
+| Meat slice lands folded on the belt | top camera | one pass under the roller at 8 mm often opens it; otherwise belt reversed over the nose onto the peel tray and re-laid once | slice goes to the pan as it is (dish downgraded) or to waste |
+| Roll opens in the pocket or on lay-down | camera at the nose (seam position, diameter) | re-roll once | cooked as an open slice in the same braise; logged as a failed Roulade |
+| Mince log sticks in the pocket | belt load cells after opening | pocket opened and closed twice with the belt reversing; water mist | scraped at the nose into the pan as a loaf (Hackbraten fallback) |
+| Dough sticks to belt or roller | roller torque, camera | flour from the dock, gap widened one step | sheet scraped at the tail to waste; dough is lost |
+| Food sticks in the drum after pouring | drum weight | scraper pass, chase liquid | stays and is washed out: loss logged |
+| Unbalance at spin | yoke load cells | stop, tumble, retry three times | spin at 250 rpm for longer; wetter salad |
+| Cutlet not picked up by the nose | belt load cells | retry with the tray tilted 5° towards the nose | head slides the cutlet off the tilted tray onto the belt edge; coating on one side is patchy |
+| Pan-pair flip leaves the item in the upper pan | weight on the deck after lifting the cover | cover set down again, 2 s pulse, tap by a short roll jerk | the pair is turned back and the item finished under the oven grill |
+| Vessel not gripped or tang missed | grip sensor, head camera | re-approach twice | cell stops; vessel stays on its hob, which switches to hold; user call |
+| Shuttle carriage decouples from its magnet follower | encoder mismatch | pawl holds it; follower re-homes and re-couples | service |
+| Jam of the drum tilt, belt or nose | motor current, encoders | reverse 10 mm, retry | all hobs to hold or off; food in the drum kept at ≥ 65 °C or cooled by a cold-water jacket rinse on the outside is **not available**: after 2 h the content is discarded (FSF) |
+| Blade or disc damage (PRP-035) | G1 blade length by camera against a back light after each cutting cycle; cartridge discs by weight on their peg scale | batch discarded, tool locked out | spare cartridge; G1 has no spare: slicing and carving are down until service |
+| Part fails wash verification | stripe-light camera (drum), UV riboflavin self-test weekly, final-rinse conductivity | intensified cycle once (HYG-026) | drum: no meal possible. Belt: drum-only meals remain. Loose part: quarantined in the caddy |
+| Single points of failure | — | — | **the drum, the shuttle head and the dock each stop every meal**; the belt, G1, G2 and the arm each remove a class of meals |
+
+---
+
+## 10. Top risks and the cheapest experiment for each
+
+| # | Risk | Why it matters | Cheapest experiment that confirms or kills it |
+|---|---|---|---|
+| R1 | Untied Rouladen from a belt pocket do not roll tight or open in the braise | Brief meal; K3 has no fallback for securing (no pin setter) | A slack loop of 2 mm TPU between two Ø 25 rods and a hand crank; 20 filled slices; braise ten of them seam-down in a channel rack for two hours. One day. Kill if fewer than 8 of 10 stay closed |
+| R2 | Belt, pocket, nose and gates do not come clean | Decides whether a fixed food-contact belt is acceptable at all (catalogue X9) | 500 mm of the belt on two rollers in a plastic tub with one spray bar and a wallpaper steamer as steam bar; soil with egg, raw mince fat and flour paste dried 60 min; riboflavin under UV, ATP swabs at edges and inner face. Kill if edges or inner face fail after the full programme |
+| R3 | Pan-pair flip with realistic fat and with thin pancakes | 32 FLP meals; shared with all candidates, but here it is the only flip | Two bought pans and a hand-held hinge clamp; Schnitzel in 25, 50 and 100 mL of fat, pancakes, Rösti, fish. Half a day |
+| R4 | Nose pick-up of a wet, egg-coated cutlet from a tray | The breading line and every vessel → belt transfer of flat items | A bought bakery peel belt or a 300 mm belt on a 16 mm nose bar on a drawer slide; 20 cutlets. Kill if fewer than 18 come up unfolded |
+| R5 | One drum with quick rinses is too slow or carries taint and allergens between jobs of one meal | The serial bottleneck (catalogue question 1) | Time-and-motion run with a bought tilting concrete-mixer drum or a washing-machine drum on a tilt frame: B3 for four and for six, swabbing for mustard and egg after the 90 s rinse |
+| R6 | Rumbler peeling in a cup whose wall turns with the floor: loss and coverage | 60 PLP meals; the drum's claim to be a peeler | A knurled disc in a 300 mm pot on a pottery wheel with a fixed paddle; 1.5 kg of old and new potatoes; weigh loss, count eyes. Two hours |
+| R7 | Gravity-fed dicing cartridge without a pusher gives ragged dice and leaves the last pieces | 106 DIC meals; PRP-021 | A bought vegetable cutter with its bulk hopper, fed by hand without pressing; potatoes, carrots, onions; sieve the dice by size |
+| R8 | The shuttle (handle gripper on a telescope, 10 kg at 200 mm, hot vessels, 36 moves per meal) is not reliable to 98 % per meal | Every meal; 85 moves for pancakes means 99.98 % per move is needed | Tang and socket on a bought linear axis with a rotary stage; 2000 grip-carry-pour cycles with a 6 kg pot; count misses and measure spill |
+| R9 | TPU belt life and temperature: steam bar, hot fat drops at the pan, comb and scraper wear, pocket flex at r = 25 | Belt as a yearly service part (HUM-007) | Supplier data first; then a flex rig: 50 000 pocket cycles and 2000 steam passes on a belt loop |
+| R10 | Even sauce layers without a spreader in the dish; greasing a tin with one roll axis | Lasagne and gratin family (23 LAY meals), 22 LIN meals | Pour béchamel and ragù from a pot moved along a rail over a dish; weigh nine sample squares per layer. Swirl butter in a loaf tin about one axis and bake a cake |
+| R11 | Noise of peeling and chopping in a steel drum | NOI-003 | Sound level meter on the R6 rig inside a cabinet carcass |
+| R12 | Width and height were drawn from swing envelopes, not from a CAD model; the drum at pour position and the dock share the space above x = 590 | The 1450 mm claim | Half-day 2-D layout of the drum swing, arm arc, chute and nose to scale |
+
+---
+
+## 11. Improvements and changes
+
+### 11.1 Improvements found while exploring
+
+1. **The drum pours about its own lip.** The tilt axis passes through the lowest point of the mouth rim,
+   so the pouring point is fixed for all angles. One fixed point feeds the extended belt nose (30 mm below
+   it), the cutter cartridge and the vessel on the deck. This removes the chute, the pour arc and the
+   "how does food get from drum to belt" question of the catalogue.
+2. **One shaft as the meeting point.** Drum lip, belt nose, tool arm, dock chute and the lift deck all
+   meet in a 370 mm shaft. Every transfer is a fall of 30–150 mm into whatever the deck raises to it. The
+   shaft is also the lift well for the stacked hobs and the oven, which is why the whole cell is 1450 wide.
+3. **Bridge tools are washed face up.** The source concept's hardest cleaning problem was mechanisms
+   hanging over the belt, soiled from below. The turret beam turns each tool upward under a ceiling spray
+   bar; sifter, curtain trough and curl belt are gone (dusting through the dock sleeve, pouring from a
+   held beaker, rolling in the belt's own pocket). Fixed Zone F over the belt drops to 0.23 m².
+4. **The pocket is a general former**, not only a Rouladen roller: mince and dough logs that a blunt comb
+   divides into patties, dumplings, rolls, gnocchi and stuffing plugs. It replaces the piston box as the
+   forming device and adds no food-contact surface, because the pocket is the belt.
+5. **The arm serves two vessels.** Its heads work in the drum and in any pot or beaker on the raised deck,
+   so one egg white, a vinaigrette, a béchamel and a Spätzle batter never occupy the drum. With cutting
+   moved to cartridges over the shaft, this is what makes one drum enough.
+6. **Rumbler mode**: a loose knurled floor disc plus the stationary roller-scraper gives the kinematics
+   of a commercial disc peeler in a drum whose wall cannot stand still, with no abrasive shell liner.
+7. **The order on the belt is the order in the stack**: open-hand assembly by arranging on the belt and
+   laying down with the nose on a descending plate.
+8. **Breading without a flip**: flour bed, egg on a rocked peel tray, nose pick-up, crumb bed.
+9. **Boil and drain in the drum**: the 9 L pot, its basket and the act of lifting hot water are gone.
+
+### 11.2 Changes from the catalogue definition
+
+| Catalogue K3 | This document | Why |
+|---|---|---|
+| No manipulator | A **vessel shuttle** (deck and handle gripper, five actuators) handles vessels, never food | The exploration brief puts the four hobs and the oven inside the concept's own handling; the pan-pair flip, unmoulding and oven loading need a roll axis and a carrier. This is the largest departure and it is the concept's new single point of failure |
+| Loose liners (smooth, perforated, rasp, stud, helix, slicing ring, insert) | Fixed welded helix; loose basket, peel disc, stud disc | Fewer parts to move without a manipulator; the arm can carry only what has a hub |
+| Slicing head closing the drum mouth | Cutter cartridges over the shaft | Peeled produce has to leave the drum before it is cut anyway; dice fall straight into the pot |
+| Piston box meters pastes and forms patties between drum and belt | Paste cartridge only at the dock; forming by pocket log and comb | A mass mixed in the drum cannot be loaded into a piston box without a hand |
+| Bridge: sifter, curtain, press roller, knives with depth stop, guillotine, curl belt or pocket rollers, retracting nose, dish slide | Two gates (guillotine, turret beam), pocket, retracting nose; the dish stands on the deck | Cleanability, and the shortest station set (catalogue question 6) |
+| Belt nose or band spatula in the pan | The nose lays into the pan but never enters it hot; flipping only by pan pair | Hot fat on a TPU belt (catalogue question 4) |
+| Own-lid boxes at the dock | Plain boxes work; mesh and spout lids requested | Conflict X1 |
+| Drum cooks tumble dishes | Kept, and the drum is counted as one of the heated positions | — |
+| Book flipper as fallback if the bridge cannot be cleaned | Not designed. If R2 fails, the belt half falls back to loose silicone sheets on the deck and a separate slicer, and K3 becomes a drum with a shuttle | — |
+
+### 11.3 What I would borrow from other candidates
+
+* A **ram and grid** (SM-009, K5) if gravity-fed dicing fails R7, and with it a ricer (SM-184) and a
+  corer-wedger die (SM-041); K3's largest purchase dependencies after onions are coring and the riced mash.
+* A **tube corer on the arm plunge** (SM-040) with a centring cone on the deck: small, inside the concept,
+  rescues baked apples and whole-apple dishes.
+* A **pin setter** (SM-085) or snap rings (SM-086) if the seam-down braise fails R1.
+* A **freeze plate** (SM-098) on the turret beam's spare position for singulating stuck slices; or
+  tempering in the freezer airlock (SM-240) and slicing at the nose.
+* **Rim-to-rim closed inversion with a gasket** (SM-111, K2) for the pan pair, so that frying fat can be
+  50–100 mL.
+* A **core temperature probe** on the arm plunge (COK-013) as a further head.
+* Paper liners for tins (SM-204) if greasing fails R10.
+
+---
+
+## 12. Open issues and requests to the architect
+
+### 12.1 Open issues
+
+1. Coverage is 92–93.5 % on my count, below MEAL-002. The missing operations are closed wrapping with
+   tucked ends, flat pockets, dumpling cores and whole cabbage leaves. I found no mechanism for them
+   inside the concept.
+2. Meat slices that stick together in the pack (Rouladen slices, cutlets, bacon, cold cuts) cannot be
+   singulated. Assumed: one cut per box compartment, arranged by the package-opening module or at
+   ingestion; or the machine slices a tempered block itself.
+3. No core-temperature probe (COK-013), no basting brush, no ricer, no zester, no citrus press, no corer.
+4. The adapted share (about 15 %) exceeds MEAL-013.
+5. Frying in more than 30 mL of fat conflicts with the pan-pair flip; Schnitzel quality is the visible loss.
+6. Stirring on the deck hob occupies the arm; sauces that need continuous stirring should stand on R1 or R2.
+7. The deck cannot pass the head on the mast. With a dish on the deck, every fetch from a shelf costs a
+   full lowering of the dish (B10). A third carriage or a parking bracket at the shaft top was not designed.
+8. Sheet format is limited to 300 × 330 by the belt and the shaft (GN 2/3 trays instead of 400 × 300).
+9. The swing envelope of the drum (radius 555) is the price of pouring about the lip; it fixes the drum
+   bay at 590 mm width and pushes the oven under the drum.
+10. Lid arms and turntables on R1 and R2 were sketched, not designed; burnt-on soil on shelf walls is
+    reached only by nozzles.
+11. Coverage, times and move counts are estimates by reading, not by simulation; no meal was walked for
+    1 and 6 persons except B6 and B12.
+12. Water for a drum-and-belt meal with its ware load is above RES-005.
+
+### 12.2 Requests to the architect
+
+| # | Request | To |
+|---|---|---|
+| 1 | One **tang** (flat tongue 40 × 10 × 70 at rim height) on every vessel, lid, tray, tin, scoop and board; pans and GN 2/3 pans as pairs with equal rims | vessel standard, cooking, washing |
+| 2 | Baking tray and frying family **GN 2/3** (354 × 325) inside this cell; oven with GN 2/3 rails and a vertically sliding door facing the shaft; oven start and control without its own panel (COK-023) | cooking |
+| 3 | Box hand-over at the dock (x = 775, z about 1750), boxes presented with the pour edge to the front; mesh lid and spout lid as optional lid types (X1); egg tray insert; raw flat cuts one per compartment (X5) | box standard, transport, ingestion |
+| 4 | Paste cartridges Ø 60 × 150 filled at ingestion or first opening from jars and tubes (X6); brine box | ingestion |
+| 5 | Freezer airlock time of 20–40 min for tempering meat blocks (X7), if slicing at the nose is wanted | cold storage |
+| 6 | Hand-over port R3 on the right side wall at z = 120–290: vessels to serving and to the ware washer, clean ware back; ware washer capacity for 12–16 items per meal and the tool caddy once a day (X12) | transport, serving, washing |
+| 7 | Extraction at the rear wall of the shaft and of each shelf; the dock stays in dry supply air | cooking, environment |
+| 8 | Acceptance of a fixed food-contact belt and drum cleaned in place (X9), conditional on the riboflavin and swab tests of R2 | hygiene |
+| 9 | Spin at 480 rpm, knives at 3000 rpm and an 800 N gate behind a household door: interlock and noise allowance (X14) | safety |
+| 10 | Ruling on whether "served as components" and low-fat pan frying count as adapted methods (catalogue open issue 7) | requirements |
+
+## Risks
+
+The twelve items of section 10 are the risks of this concept. In order of consequence: R2 (belt cleanability)
+and R8 (shuttle reliability) decide whether K3 exists; R1 decides a brief meal; R5 decides whether one drum
+is enough.
+
