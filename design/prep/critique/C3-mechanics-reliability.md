@@ -260,8 +260,6 @@ preventive-exchange LRUs (REL-004 route), which then need a technician visit tha
 
 ## 3. Findings per concept
 
-(Findings for K1–K4 follow; K5–K8 are in the second part of this section.)
-
 ### K1 — Ceiling turret cell
 
 K1's explorer already corrected the source documents' reach geometry honestly (Ø 400 instead of Ø 470 per
