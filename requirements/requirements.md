@@ -2,7 +2,7 @@
 
 Document: `requirements/requirements.md` (task Q1) · Status: baseline for architecture (A1) and module design (D1–D10)
 Source of truth: [BRIEF.md](../BRIEF.md), then [DECISIONS.md](../DECISIONS.md) (customer decisions and project
-rulings 1–15 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
+rulings 1–16 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
 win and the conflict is to be raised as an open issue.
 
 ## 0. How to read this document
@@ -319,15 +319,16 @@ are in sections 3–10; the use cases are the end-to-end scenarios that reviewer
   food out manually. With the machine unpowered or faulty, a human can reach all stored food manually from the
   front without tools, so that food is not lost and the household is not locked out of its food.
 
-### UC-19 Drink or snack on request
+### UC-19 Drink on request
 
 * **Actor:** any household member (child role limited, SRV-025). **Trigger:** request on the panel or app,
-  e.g. "a glass of apple juice", "an apple", "a bowl of nuts".
-* **Flow:** (1) The system checks stock and profile. (2) It fetches a clean glass, bowl or plate and the box;
-  pours or portions (SRV-022, SRV-023), washing and cutting fruit if requested; re-closes and returns the box.
-  (3) It presents the item at the hatch within SRV-024 and notifies. (4) The used glass or bowl comes back
-  with the next dish return (UC-07).
+  e.g. "a glass of apple juice", "a glass of milk".
+* **Flow:** (1) The system checks stock and profile. (2) It fetches a clean glass and the drink's box or
+  carrier; pours (SRV-022); re-closes and returns the carton or bottle. (3) It presents the glass at the hatch
+  within SRV-024 and notifies. (4) The glass comes back with the next dish return (UC-07).
 * **Exceptions:** out of stock → alternatives offered, shopping list updated; hatch occupied → queued.
+* **Not a function (DEC-16):** snacks, bread, muesli and other breakfast goods are kept by the household outside
+  the machine and are not served by it.
 
 ---
 
@@ -492,10 +493,9 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | SRV-016 | The dish set shall consist of commercially available items: flat plates (Ø 260–280 mm), deep plates or bowls (≥ 0.5 L), small plates or bowls, drinking glasses (200–400 mL), and cutlery sets (knife, fork, spoon, dessert spoon). The machine dispenses a cutlery set with each plated main course (S) or on request (M). | Courses of traditional meals; drinks (SRV-022); DEC-6. | M | I | B8, B13, DEC-6 |
 | SRV-027 | Returned used dishes shall not contaminate food or clean dishes presented later: the hatch surfaces touched by returned items shall be cleaned (HYG-035) before the next presentation, or return and presentation shall use separate surfaces. | Dirty and clean flows meet at the hatch (HYG-005). | M | R, T | B6, DEC-6 |
 | SRV-022 | On request (app, panel, voice optional) the system shall pour a stored drink — juice, milk, water from the tap, other still drinks (M); carbonated drinks (S) — from its carton, bottle or the water supply into a glass of the dish set and present it at the hatch: 100–400 mL ±10 %, chilled drinks ≤ 8 °C at the hatch, no drips on the outside of the glass, and the carton or bottle exterior not touching the glass rim. Opened cartons and bottles are re-closed and returned to storage. | Customer decision: "pours a glass of juice from a juice carton". | M | D, T | DEC-13 |
-| SRV-023 | On request the system shall present snacks from storage in a bowl or on a plate of the dish set: a portion of loose snacks (nuts, crackers, crisps, dried fruit) by mass (M); washed whole fruit (M); fruit washed, peeled and cut into pieces (S); a packaged item such as a yoghurt cup or chocolate bar (M); a slice of bread or cake (S). | DEC-13. | M | D | DEC-13 |
-| SRV-024 | Response time of SRV-022 and SRV-023: first item at the hatch ≤ 60 s after the request when the machine is idle (M), ≤ 3 min while a meal is in progress (M); a running meal shall not be delayed by more than 2 min. | A snack machine that takes ten minutes is not used. | M | T, A | DEC-13 |
-| SRV-025 | Snack and drink requests shall respect the household profile (allergens) and the user role (UI-012: e.g. a daily limit of sweets for children). | Allergen safety; parents' control. | S | D | DEC-13 |
-| SRV-026 | Drinks and snacks are recorded in the inventory like any other retrieval; the time outside the cold chain of the box follows FSF-013. | Inventory and food safety. | M | D | DEC-13 |
+| SRV-024 | Response time of SRV-022: the glass at the hatch ≤ 60 s after the request when the machine is idle (M), ≤ 3 min while a meal is in progress (M); a running meal shall not be delayed by more than 2 min. | A drink that takes ten minutes is not requested twice. | M | T, A | DEC-13 |
+| SRV-025 | Drink requests shall respect the household profile (allergens) and the user role (UI-012: e.g. a daily limit of juice for children). | Allergen safety; parents' control. | S | D | DEC-13 |
+| SRV-026 | Drinks are recorded in the inventory like any other retrieval; the time outside the cold chain of the box follows FSF-013. | Inventory and food safety. | M | D | DEC-13 |
 | SRV-017 | The dish store capacity shall be as CAP-031. | — | M | A | drv |
 | SRV-018 | Food in shared serving vessels ("family style": one bowl of potatoes, one of vegetables, to be passed at the table) shall be offered as an alternative to individual plating. | Common at family tables; large meals. | C | D | B8 |
 | SRV-019 | All portioning tools and surfaces are Zone F and shall be cleaned as HYG-030 ff.; the hatch space is Zone S and shall be cleaned daily and after any spill. | Brief. | M | R, T | B6 |
@@ -625,7 +625,7 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 | UI-006 | A household profile shall hold persons, default portion sizes, allergens and intolerances, excluded ingredients and diets; orders conflicting with the profile shall require explicit confirmation. | Allergen safety. | M | D | drv |
 | UI-007 | The UI shall show the state of the machine: current activity, time to ready, inventory with use-by dates, consumable levels, waste fill level, due human tasks, faults with location and instructions. | Transparency. | M | D | drv |
 | UI-008 | Notifications shall be issued for: meal ready; dish pick-up overdue; human task due (section 7.8); ingestion rejects; food discarded; faults; alarms (SAF). Alarms shall also sound at the machine. | UC-06 ff. | M | D | drv |
-| UI-009 | The panel on the machine shall allow, without smartphone or network: order from favourites, request a drink or snack from a favourites list (SRV-022, -023), stop/cancel, open the hatch for returning dishes, start ingestion, confirm human tasks, present a box (UC-18), service mode, acknowledge alarms. | Works when the phone or network does not. | M | D | drv, DEC-13 |
+| UI-009 | The panel on the machine shall allow, without smartphone or network: order from favourites, request a drink from a favourites list (SRV-022), stop/cancel, open the hatch for returning dishes, start ingestion, confirm human tasks, present a box (UC-18), service mode, acknowledge alarms. | Works when the phone or network does not. | M | D | drv, DEC-13 |
 | UI-010 | A stop control shall be on the front of the machine that brings all motion and heating to a safe state within 1 s (SAF-050). | Safety. | M | T | drv |
 | UI-011 | UI languages: German and English (M); further languages addable as data (S). | Users. | M | I | drv |
 | UI-012 | Access shall be by user accounts with roles: adult (all functions), child (view, order from an approved list), maintainer (service mode). | Child safety; misuse. | S | D | drv |
@@ -893,8 +893,8 @@ vegetables are washed, peeled and cut by the machine. Corpus ingredient keys in 
 | Eggs and dairy | Eggs in shell; milk, cream, butter, yoghurt, quark, sour cream, crème fraîche, cream cheese, cheese (also sliced or grated), mozzarella, feta, paneer. | Liquid, pasteurised or dried egg products; peeled boiled eggs. |
 | Grains, staples, baking | Flour, semolina, oats, rice, couscous, bulgur, dried pasta and noodles incl. dried lasagne sheets, dried pulses, starch, sugar, honey, salt, yeast, baking powder, gelatine, cocoa, chocolate, vanilla, marzipan, nuts and seeds (whole or ground), tahini, oils, vinegar, wine and spirits for cooking, soy sauce, miso, coconut milk, nori, tofu. | Ready doughs and pastry sheets (pastry_dough, pizza, shortcrust, puff, filo, strudel), spring roll and dumpling wrappers (wrapper), fresh and filled pasta (pasta_fresh), cake and dessert mixes, pudding powder (pudding_powder). |
 | Seasonings and condiments | Dried herbs, whole and ground spices and spice blends without additives, fresh herbs, mustard, ketchup, horseradish, jam, pickles, sauerkraut, chili paste. | Stock, stock cubes and bouillon powder (stock: made by the machine, UO-96); ready sauces, dressings, mayonnaise (mayo), pesto; flavour enhancers. |
-| Bread and bakery | Bread, rolls, buns, toast bread, tortillas, sponge fingers, breadcrumbs (bought as bakery, like any household). Baking bread is a machine function (corpus BK rows). | Par-baked or frozen dough products counted as "home-made" bread. |
-| Drinks and snacks | Anything the household buys, stored and served (DEC-13, SRV-022, SRV-023). | Not counted towards meal coverage. |
+| Bread and bakery | Bread, rolls, buns, toast bread, tortillas, sponge fingers, breadcrumbs as cooking ingredients (bought as bakery, like any household; bread for eating is kept outside, DEC-16). Baking bread is a machine function (corpus BK rows). | Par-baked or frozen dough products counted as "home-made" bread. |
+| Drinks and household chilled goods | Any chilled or frozen product the household buys, and drinks, are stored (DEC-13); drinks are poured on request (SRV-022). Ambient breakfast goods and snacks are kept outside (DEC-16). | Not counted towards meal coverage. |
 
 The corpus ingredients hit by this list and the consequences: stock (49 meals) → UO-96; pesto, mayonnaise,
 pudding powder, saladmix, veg_fz, asianveg, spinach_fz, beet → made from scratch or fresh (R-16, class a or b);
@@ -930,23 +930,25 @@ The machine is *sized* for 6 and *optimised* for the reference household of 4.
 Basis (est., from `research/03-storage.md`): 1.2–1.6 kg of food per person per day excluding drinks →
 about 5–6.5 kg/day and 34–45 kg/week for the reference household; split by mass roughly ambient 30 %,
 chilled 50 %, frozen 20 %. The number of *distinct products* (one product per box), not the mass, sets the
-number of box positions. Since DEC-13 the machine is the household's **only** fridge and pantry: the numbers
-below cover all food and the drinks of an ordinary household fridge (breakfast, dairy, cold cuts, bread,
-fruit, snacks, opened drinks), not only cooking ingredients. Comparison: a 4-person household normally has
-a 250–300 L fridge, a 100 L freezer and a pantry cupboard; about half of the gross volume is usable, and
-products kept sealed in original packs (STOW lane) need more space than decanted goods.
+number of box positions. Since DEC-13 the machine is the household's **only** fridge and freezer: chilled and
+frozen capacity covers everything an ordinary household fridge and freezer hold (dairy, butter, cheese,
+yoghurt, cold cuts, opened jars, chilled drinks, frozen goods), not only cooking ingredients. By DEC-16,
+breakfast goods (bread, muesli, cereals), snacks and their ambient stock stay outside the machine, so ambient
+capacity covers cooking ingredients only, including sealed long-life packs (STOW lane), which need more space
+than decanted goods. Comparison: a 4-person household normally has a 250–300 L fridge and a 100 L freezer,
+of which about half the gross volume is usable.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
 | CAP-010 | Autonomy without grocery loading, reference household: ≥ 7 days for meals depending on fresh chilled food (M), ≥ 14 days for meals from frozen and ambient stock (M), ≥ 21 days for ambient staples and seasonings (S). | Weekly shopping. | M | A | B3, B4 |
 | CAP-011 | The MVC shall hold the stock for CAP-010 *plus* the variety needed to offer, at any time after a weekly shop, ≥ 30 different corpus meals as "cookable now". | Choice is the point of a stocked kitchen. | S | A | B1 |
-| CAP-012 | Reference retrieval pattern for sizing and for thermal tests: per day 60 box retrieve-and-return cycles from ambient, 50 from chilled, 10 from frozen, of which 15 are drink and snack requests; peaks of 15 retrievals in 10 min (est.). | Common basis for D1–D3; DEC-13 adds snack and drink traffic. | M | — | drv, DEC-13 |
-| CAP-020 | Ambient storage (MVC): ≥ 150 box positions, of which ≥ 30 of the smallest size for seasonings; usable box volume ≥ 150 L; ≥ 50 kg of food. Included: ≥ 20 L of ambient drinks and long-life stock (juice and UHT milk cartons, tins, jars, sealed), ≥ 20 L of snacks, ≥ 8 L for bread in a ventilated, not sealed, compartment. | 80–100 cooking ingredients plus breakfast, bread, snacks and sealed stock of a whole household. | M | A | B3, DEC-13 |
+| CAP-012 | Reference retrieval pattern for sizing and for thermal tests: per day 45 box retrieve-and-return cycles from ambient, 50 from chilled (of which 10 for drinks and household use of chilled goods), 8 from frozen; peaks of 15 retrievals in 10 min (est.). | Common basis for D1–D3. | M | — | drv, DEC-13, DEC-16 |
+| CAP-020 | Ambient storage (MVC), cooking ingredients only (DEC-16): ≥ 100 box positions, of which ≥ 30 of the smallest size for seasonings; usable box volume ≥ 90 L; ≥ 35 kg of food, including sealed long-life packs of the STOW lane (tins, jars, UHT cartons) and bread used as a cooking ingredient. | 80–100 cooking ingredients (corpus: a household holds 40–60 of its 180 ingredient types at a time, plus staples and seasonings); sealed packs add volume. | M | A | B3, DEC-16 |
 | CAP-021 | Chilled storage (MVC): ≥ 90 box positions; usable box volume ≥ 140 L; ≥ 45 kg; of which a raw meat/fish sub-zone of ≥ 8 boxes and ≥ 12 L of drinks in their original cartons and bottles (1 L cartons and bottles up to 1 L upright (M); 1.5 L bottles (S)), opened packs re-closed. | Dairy, cold cuts, cheese, spreads, fresh produce, opened jars, drinks of the whole household. | M | A | B4, DEC-13 |
-| CAP-022 | Frozen storage (MVC): ≥ 35 box positions; usable box volume ≥ 60 L; ≥ 20 kg; including frozen bread, ice cream, portions of machine-made stock (UO-96) and raw meat frozen at ingestion (FSF-052). | Household freezer. | M | A | B4, DEC-13 |
+| CAP-022 | Frozen storage (MVC): ≥ 35 box positions; usable box volume ≥ 60 L; ≥ 20 kg; including the household's frozen goods (e.g. ice cream), portions of machine-made stock (UO-96) and raw meat frozen at ingestion (FSF-052). | The only freezer. | M | A | B4, DEC-13 |
 | CAP-023 | In addition to CAP-020 to -022, the system shall hold a reserve of clean, dry, empty boxes: ≥ 15 % of all box positions, in a size mix matching the stored mix, and ≥ 25 boxes before a planned weekly ingestion. | One new box per ingested product; emptied boxes come back only after washing. | M | A | B10 |
-| CAP-024 | A cool ambient zone of 8–15 °C shall hold ≥ 15 boxes for produce that must not be chilled (potatoes, onions, tomatoes, bananas, citrus), with ethylene-emitting fruit kept apart from sensitive produce, and ≥ 5 kg of whole fruit available for snacks. | Storage quality; the household fruit bowl lives in the machine. | M | A | B3, DEC-13 |
-| CAP-025 | Total box positions of the MVC: ≥ 275 for food (CAP-020 to -022, -024) plus the empty-box reserve of CAP-023; the architect shall confirm the resulting length against PHY-004 and may use the extra height of PHY-002. | Summary for the layout. | M | A | DEC-13 |
+| CAP-024 | A cool ambient zone of 8–15 °C shall hold ≥ 12 boxes for cooking produce that must not be chilled (potatoes, onions, tomatoes, citrus), with ethylene-emitting produce kept apart from sensitive produce. | Storage quality. | M | A | B3 |
+| CAP-025 | Total box positions of the MVC: ≥ 237 for food (ambient 100, cool 12, chilled 90, frozen 35) plus the empty-box reserve of CAP-023; the architect shall confirm the resulting length against PHY-004 and may use the extra height of PHY-002. | Summary for the layout. | M | A | DEC-13, DEC-16 |
 | CAP-026 | Extension storage modules (MOD-032) shall be able to raise ambient and chilled capacity by ≥ 50 % each without redesign. | Stock-keeping households. | S | R | B11, DEC-13 |
 
 ### 6.3 Ware, consumables, waste
@@ -1150,7 +1152,7 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 | PHY-001 | Depth: no part of the closed machine shall extend more than 600 mm from the wall, including fronts, rear service space for pipes and cables, and wall unevenness allowance; handles and the hatch sill may add ≤ 30 mm. | Brief: 60 cm deep. | M | I | B12 |
 | PHY-002 | Height: 2 000–2 200 mm from the floor, including feet, plinth and any top ventilation parts; the design shall state its height and the minimum room height needed for installation. | Customer decision (was 2 000 mm in the brief). | M | I | B12, DEC-11 |
 | PHY-003 | Module widths shall be multiples of 150 mm, preferably 300, 450, 600, 900 or 1 200 mm; no module wider than 1 200 mm. | Kitchen grid; handling; fits between walls with standard fillers. | M | I | B12 |
-| PHY-004 | Total wall length of the MVC, including storage for all household food (DEC-13): ≤ 4 800 mm (M), ≤ 4 200 mm (S); straight or L-shaped. | Estimate: ambient storage 1.2 m, cold storage 1.8–2.4 m (three to four 600 mm cells), process cell 1.2 m, washing 0.6 m, ingestion B within a front. | M | I | B12, B13, DEC-13 |
+| PHY-004 | Total wall length of the MVC, including the chilled and frozen storage of the whole household (DEC-13): ≤ 4 200 mm (M), ≤ 3 600 mm (S); straight or L-shaped. | Estimate: ambient and cool storage 0.6–0.9 m (≈ 168 box positions per metre at 2 000 mm, `research/03`), cold storage 1.8 m (two chilled cells and one frozen cell of 600 mm; the S value needs the chilled capacity in about 1.5 cells, e.g. by using the 2 200 mm height), process cell 1.2 m, washing 0.6 m, ingestion B within a front. | M | I | B12, B13, DEC-13, DEC-16 |
 | PHY-005 | The system shall be installable in a straight line and, optionally, around one inside corner of 90° ("L"), left- or right-handed, with leg lengths free on the 150 mm grid (each leg ≥ 1 200 mm). | Brief. | M | R | B12 |
 | PHY-006 | Straight and L layouts shall use the same modules; only a corner element and transport parts may differ. | Modularity. | M | R | B11, B12 |
 | PHY-007 | In an L layout, ≥ 50 % of the corner cell (600 × 600 mm × height) shall be functionally used, and the transport system shall pass the corner. | Corners are the classic dead space. | S | A | B13 |
@@ -1262,10 +1264,10 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 
 | Mechanism / function | Per day | In 10 years |
 |----------------------|---------|-------------|
-| Ambient storage retrieve-and-return cycles | 60 | 219 000 |
+| Ambient storage retrieve-and-return cycles | 45 | 165 000 |
 | Chilled storage retrieve-and-return cycles; thermal exit openings | 50; 100 | 183 000; 365 000 |
 | Frozen storage retrieve-and-return cycles; thermal exit openings | 10; 20 | 37 000; 73 000 |
-| Transport moves (boxes, vessels, tools, dishes, glasses) | 330 | 1 200 000 |
+| Transport moves (boxes, vessels, tools, dishes, glasses) | 300 | 1 100 000 |
 | Box closure open/close (all boxes; per box ≤ 5 000) | 170 | 620 000 |
 | Dosing operations | 80 | 290 000 |
 | Tool changes | 40 | 150 000 |
@@ -1275,7 +1277,7 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 | Internal ware wash cycles | 4 | 14 600 |
 | Dish-set wash cycles | 2 | 7 300 |
 | In-place cleaning cycles; valve operations | 1.5; 40 | 5 500; 146 000 |
-| Serving hatch door cycles (meals, drinks, snacks, dish returns) | 30 | 110 000 |
+| Serving hatch door cycles (meals, drinks, dish returns) | 22 | 80 000 |
 | Dish handling (store → plate → hatch, hatch → store) | 24 | 88 000 |
 | Wash cycles per vessel or tool | up to 2 | 7 300 |
 | Wash cycles per box | — | ≤ 1 000 |
@@ -1428,6 +1430,7 @@ be confirmed by a regulatory expert (OQ-15).
 | NG-10 | Guaranteed allergen-free or medically prescribed diets; infant food preparation and sterilisation. |
 | NG-11 | Pet food; non-food items; medicines. |
 | NG-12 | Operation outdoors, in vehicles, or in unheated rooms. |
+| NG-13 | Storing or serving ambient breakfast goods (bread, muesli, cereals) and snacks (DEC-16). |
 
 ### 12.3 Open questions for the customer
 
@@ -1446,16 +1449,16 @@ where the last column says so.
 | OQ-08 | Is wiping the exterior fronts by the human acceptable? | Yes (AS-08). | — |
 | OQ-09 | Is it acceptable that the human empties waste containers about twice a week and refills consumables about monthly (section 7.8)? | Yes. | — |
 | OQ-10 | Cost target for the parts. | ≤ EUR 25 000 for the MVC (BLD-004). | — |
-| OQ-11 | Available wall length and corner geometry in the target kitchen. Because the machine is the only fridge and pantry (DEC-13), the minimum configuration needs about 4.2–4.8 m of wall. | Straight ≤ 4 800 mm for the MVC, or L with legs ≥ 1 200 mm (PHY-004, PHY-005). | — |
+| OQ-11 | Available wall length and corner geometry in the target kitchen. Because the machine is the only fridge and freezer (DEC-13), the minimum configuration needs about 3.6–4.2 m of wall. | Straight ≤ 4 200 mm for the MVC, or L with legs ≥ 1 200 mm (PHY-004, PHY-005). | — |
 | OQ-12 | Which cuisine defines "traditional meals"? | Central European home cooking plus established international everyday dishes (MEAL-001). | — |
 | OQ-13 | *Closed by DEC-6:* the machine uses its own dish set. | SRV-016, AS-11. | — |
 | OQ-14 | *Closed by DEC-12:* leftovers are discarded; stored if that is easy. | SRV-021. | — |
 | OQ-15 | Is the machine ever to be sold or installed for third parties (certification, liability)? | No: private prototype, designed to the standards (section 11.8). | Yes, by design to standards. |
-| OQ-16 | Should the machine also serve breakfast and cold meals (bread, cold cuts), and handle bread (bought loaf, slicing) or bake it? | Breakfast egg dishes, porridge, salads and cold plates yes; slicing a bought loaf S; baking simple bread S. | — |
+| OQ-16 | *Closed by DEC-16:* bread, muesli, cereals and snacks are kept outside the machine and not served. Warm breakfast dishes of the corpus (eggs, pancakes, porridge) are ordinary meals; baking bread remains a meal function (corpus BK rows). | CAP-020, UC-19, NG-13. | — |
 | OQ-17 | Items larger than a box (leek, whole cabbage, melon, a 3 kg roast): cut by the human before ingestion, or out of scope? | Accepted up to Ø 220 mm × 350 mm (INB-004) and cut by the machine on the way into boxes (S); larger items rejected. | — |
 | OQ-18 | Are the noise limits and quiet hours of section 6.5 acceptable (open-plan living)? | As NOI-001 to -005. | — |
 | OQ-19 | Is remote ordering from outside the home and any cloud service wanted? | Local operation; remote access optional and opt-in (UI-001 c, SEC-004). | Yes. |
-| OQ-20 | *Closed by DEC-13:* the machine is the household's only fridge and pantry and serves simple drinks and snacks. | CAP-020 to -026, SRV-022 to -026, UC-19. | — |
+| OQ-20 | *Closed by DEC-13 and DEC-16:* the machine is the household's only fridge and freezer and pours drinks on request; ambient breakfast goods and snacks stay outside. | CAP-020 to -025, SRV-022, SRV-024 to -026, UC-19. | — |
 | OQ-21 | Raw and rare dishes (tartare, soft eggs, rare minced meat): offer at all? | Only after explicit opt-in (FSF-024). | — |
 | OQ-22 | *Closed by DEC-14:* tacos and wraps may be served as components. | MEAL-020. | — |
 
@@ -1475,7 +1478,8 @@ where the last column says so.
 | DEC-10 (customer) | 1–6 persons per meal. | CAP-001, OQ-04 |
 | DEC-11 (customer) | Height 2 000–2 200 mm; depth 600 mm. | PHY-002, PHY-012 |
 | DEC-12 (customer) | Leftovers discarded; stored if easy. | SRV-021, OQ-14 |
-| DEC-13 (customer) | The machine is the only fridge and pantry; it serves simple drinks and snacks. | CAP-012, CAP-020 to -026, SRV-022 to -026, UC-19, UI-009, PHY-004, REL-004 table, NG-01, OQ-20 |
+| DEC-13 (customer) | The machine is the only fridge and pantry; it serves simple drinks and snacks. | CAP-012, CAP-021, CAP-022, CAP-025, CAP-026, SRV-022, SRV-024 to -026, UC-19, UI-009, PHY-004, REL-004 table, NG-01, OQ-20 |
+| DEC-16 (customer) | Clarifies DEC-13: breakfast goods and snacks are stored outside and not served; chilled items stay in the machine. | CAP-012, CAP-020, CAP-024, CAP-025, PHY-004, UC-19 (drinks only), SRV-023 deleted, NG-13, OQ-11, OQ-16, OQ-20 |
 | DEC-14 (customer) | Tacos and wraps may be served as components. | MEAL-020, OQ-22 |
 | DEC-15 (customer) | Commits are pushed to GitHub by a hook. | (process only) |
 
