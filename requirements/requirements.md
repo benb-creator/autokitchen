@@ -31,7 +31,7 @@ conflict is to be raised as an open issue.
 | B6 | Cleaning | B13 | Build constraints |
 | B7 | Cooking and baking | | |
 
-ID prefixes: GEN general · UC use case · STO ambient storage · CLD cold storage · TRN transport · PRP preparation ·
+ID prefixes: GEN general · UC use case · BOX storage box · MODE operating mode · X exclusion candidate · STO ambient storage · CLD cold storage · TRN transport · PRP preparation ·
 COK cooking and baking · SRV portioning and serving · WSH washing and cleaning module · ING ingestion (common) ·
 INA ingestion version A · INB ingestion version B · CTL control · UI user interface · MEAL meal coverage ·
 UO unit operation · CAP capacity · PERF performance · NOI noise · RES resources (energy, water) · HYG hygiene ·
@@ -59,7 +59,7 @@ preparation, cooking and baking, portioning and serving, dish washing, transport
 (versions A and B) — plus what is needed to make them work: frame and casing, utilities, control system,
 user interface, recipe library, inventory management, safety.
 
-Out of scope: see non-goals (section 11.2).
+Out of scope: see non-goals (section 12.2).
 
 ### 1.3 Stakeholders
 
@@ -330,13 +330,14 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | BOX-004 | No box shall exceed a gross mass of 5 kg when filled to its rated fill. | Bounds transport payload and gripping forces. | M | A | drv |
 | BOX-005 | All boxes shall present the same gripping/handling interface and the same identification feature to the transport system, regardless of size. | One transport interface. | M | R | B3, B11 |
 | BOX-006 | Every box shall carry a unique machine-readable identity that survives ≥ 11 000 wash cycles and is readable at −25 °C and when wet or frosted. | Inventory integrity. | M | T | drv |
-| BOX-007 | Every box shall have a closure that the machine opens and closes, that stays closed during transport, and that prevents spill of liquid contents in any transport motion and prevents entry of dust, insects and drips. | Liquids (milk), odour, cross-contamination. | M | T | B3, B6 |
+| BOX-007 | Every box shall have a closure that the machine opens and closes, that stays closed during transport, and that prevents spill of liquid contents in any transport motion and prevents entry of dust, insects and drips. A vented closure state or variant shall exist for fresh produce. | Liquids (milk), odour, cross-contamination; sealed wet produce rots. | M | T | B3, B6 |
 | BOX-008 | Boxes used for food class R and for liquids shall be leak-tight: no leakage when filled with water to rated fill and tilted 30° for 60 s. | Raw-meat drip must not escape. | M | T | drv |
 | BOX-009 | Box and closure shall withstand −25 °C to +85 °C, washing per HYG-021, and a drop of the filled box from 100 mm, without damage or deformation that impairs handling. | Freezer, thermal disinfection, mishandling. | M | T | B6 |
 | BOX-010 | Box interior shall be fully cleanable and drainable: internal radii ≥ 6 mm (est.), no undercuts, crevices, hollow rims or threads in Zone F, and self-draining in the wash and dry orientation. | Hygienic design. | M | I, T | B6 |
 | BOX-011 | Boxes shall be off-the-shelf food containers where a product meeting BOX-001 to BOX-010 exists; otherwise the deviation shall be justified. | Standard parts. | S | R | B13 |
 | BOX-012 | The fill level or content mass of a box shall be determinable without opening it (e.g. by weighing), to ±5 g or ±2 %, whichever is larger. | Inventory, shopping list. | M | T | drv |
 | BOX-013 | The machine shall be able to empty a box completely (residue ≤ 2 % of content mass for dry free-flowing goods, ≤ 5 % for sticky or wet goods) and to remove a partial, dosed quantity (PRP-010 ff.). | Use of contents. | M | T | B5 |
+| BOX-014 | The box material shall not take up colour or odour from food so that HYG-025 is met, and shall allow the contents to be inspected by camera with the closure removed; transparent material is preferred. | Tomato and curry stain polypropylene; spoilage check. | S | T | B6 |
 
 ### 3.2 Ambient storage (STO)
 
@@ -522,19 +523,19 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 | ING-015 | The module shall accept food without a bar code (loose produce, bakery, butcher's counter) by selection in the UI (M) and by camera-based proposal (S). | A large share of fresh food. | M | D | B10 |
 | ING-016 | Chilled and frozen products shall be in cold storage within the limits of FSF-011 after being handed to the machine. | Cold chain. | M | T, A | drv |
 | ING-017 | Before accepting a product, the module shall check that a clean, dry box of suitable size and a storage position of the right class are available, and otherwise refuse the product unopened. | No opened food without a place to go. | M | D | drv |
-| ING-018 | The system should be able to store a sealed long-life package (tin, jar, UHT carton, vacuum pack) unopened and open it only when first needed. | Avoids turning a 2-year shelf life into 3 days (see OQ-05). | S | R | B10, drv |
+| ING-018 | The ingestion shall have two routes, chosen per product by the control system: **decant** (open now, contents into a box — the brief's process) for products whose shelf life is not shortened by opening (dry goods, produce, frozen loose goods); and **stow sealed** (identify, register, store the unopened package in a box or carrier of the box family) for products whose shelf life collapses on opening (tins, jars, UHT cartons, vacuum and modified-atmosphere packs, dairy tubs). Stowed packages shall be opened by the machine at first use, with the same requirements on residue, fragments and hygiene (INA-007, INA-008, INA-014). | Opening at ingestion turns a shelf life of months or years into days (UHT milk 3–7 days, tins 2–4 days, vacuum meat 1–3 days); without this route CAP-010 cannot be met and much food would be discarded. Literal deviation from the brief, see OQ-05. | M | R, D | B10, drv |
 | ING-019 | Ingestion shall be possible while no meal is in progress (M) and during cooking without delaying the meal by more than 2 min (S). | Shared transport and washing resources. | M | D | drv |
 
 ### 3.10 Ingestion version A — automatic (INA)
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| INA-001 | The user shall place packages as bought into a container, unsorted, in any orientation; the machine shall pick one package at a time. | Brief. | M | D | B10 |
+| INA-001 | The user shall place packages as bought into a container; the machine shall pick one package at a time. Minimum (M): the user puts the items in one by one, in any orientation, ≤ 3 s per item, without sorting. Target (S): a jumbled pile tipped in from the shopping bag. | Brief. Picking deformable packages from a jumbled pile is the largest technical risk of version A (`research/07`), hence the staged requirement (OQ-06). | M | D | B10 |
 | INA-002 | Container capacity: ≥ 40 L and ≥ 20 packages and ≥ 15 kg per load (est.). | About half of a weekly shop per load; chilled goods are not left waiting long. | M | I | B10 |
 | INA-003 | Package envelope: from 40 × 30 × 10 mm to 350 × 250 × 150 mm; mass 20 g to 3 kg (est.). | Spice sachet to 2.5 kg potato bag, 1.5 L bottle, 500 g spaghetti. | M | T | B10 |
 | INA-004 | The machine shall find and read the bar code on any face of the package, including curved, glossy, crumpled and frosted surfaces, with a first-pass read rate ≥ 95 % on the reference basket (INA-006). | Brief. | M | T | B10 |
-| INA-005 | The machine shall open these package types and transfer their contents (M): folding carton; paper bag; plastic film bag and pouch (incl. frozen); tray with film lid; tub/cup with peel-off lid; beverage carton; net bag; vacuum pack; egg carton. (S): tin can; glass jar with twist-off lid; plastic bottle with screw cap; tube; foil-wrapped block (butter); carton with inner bag. | Brief: "cuts open the package". Coverage by frequency; S types have long shelf life and are candidates for ING-018. | M | T | B10 |
-| INA-006 | On a reference basket of 100 packages representative of a weekly household shop (to be defined from `research/07-ingestion-packaging.md`), ≥ 90 % of packages shall be ingested fully automatically (M), ≥ 97 % (S); the remainder shall be rejected *unopened and undamaged*. | Measurable success rate; graceful fallback to version B. | M | T | B10 |
+| INA-005 | The machine shall open these package types and transfer their contents, at ingestion or at first use as ING-018 decides. (M): paper bag; plastic film bag and pouch, dry and frozen; folding carton with or without inner bag; net bag; beverage carton; tin can; tray with film lid; tub/cup with peel-off lid; vacuum pack. (S): glass jar with twist-off lid; bottle with screw cap; tube; foil-wrapped block (butter); egg carton; clamshell punnet; flow-wrapped produce; shrink-wrapped multi-pack. | Brief: "cuts open the package". M types cover about 60 % of items and 55 % of mass of a weekly shop, M + S about 85 % (`research/07`, est.); the rest is loose produce needing no opening. | M | T | B10 |
+| INA-006 | On a reference basket of 100 items representative of a weekly household shop (defined from `research/07-ingestion-packaging.md`, table 1.2, excluding drinks and non-ingredients), ≥ 75 % of items shall be ingested without human help (M), ≥ 90 % (S). A package shall be accepted only if the machine can also open it later; all others shall be rejected *unopened and undamaged*. | Measurable success rate; graceful fallback to version B. | M | T | B10 |
 | INA-007 | Residue left in the package: ≤ 2 % of net mass for dry free-flowing goods, ≤ 5 % for pieces and frozen goods, ≤ 10 % for viscous goods (est.). | Food waste; inventory accuracy. | M | T | B10 |
 | INA-008 | No packaging material shall enter the box: no fragment > 2 mm in 100 packages of each M type; absorbent pads, desiccant sachets, clips, labels and inner wrappers shall be detected and kept out. | Foreign bodies. | M | T | drv |
 | INA-009 | Throughput: mean ≤ 60 s per package including storage and required cleaning (M), ≤ 40 s (S); a full container load in ≤ 25 min. | 40–60 packages per weekly shop. | M | T, A | B10 |
@@ -782,3 +783,553 @@ cheapest candidates to re-include are (in this order) X-06, X-01, X-09.
 | X-14 | Raw-egg, raw-meat and raw-fish dishes served uncooked (tartare, Mett, carpaccio, tiramisu with raw egg) | Food-safety risk without a human judging freshness; only on explicit user opt-in (FSF-024). | Pasteurised egg; cooked variants. |
 | X-15 | Drinks: coffee, tea, juices, smoothies, cocktails | Non-goal NG-01. | — |
 
+
+---
+
+## 6. Capacity and performance
+
+### 6.1 Persons, meals, portions
+
+**Proposal and justification for 1–6 persons.** The average EU household has 2.3 persons and fewer than 3 % of
+households have more than 5; a family of 4 with two guests is the common peak. Six portions are also what
+ordinary household cookware delivers from a 600 mm wide hob and one oven (5 L pot, 280 mm pan, one roast of
+1.5–2.5 kg), so 6 persons does not force larger-than-domestic vessels, heaters or power. Above 6, vessel
+sizes, the oven, the dish store and — on a single-phase supply — heating times grow out of proportion.
+The machine is *sized* for 6 and *optimised* for the reference household of 4.
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| CAP-001 | One meal run shall serve 1 to 6 persons. | See above. | M | D | B8 |
+| CAP-002 | The system shall sustain the reference household (4 persons, 3 meals per day, of which 1 full warm meal, 1 light warm meal, 1 cold/light meal) indefinitely, and 6 persons with 2 full warm meals per day for ≥ 3 consecutive days. | Everyday use; guests. | M | A | B13 |
+| CAP-003 | A meal shall comprise up to 3 courses. One course shall comprise up to 4 separately prepared hot components plus 2 cold components, all served together. | Starter/soup – main – dessert; main = protein + starch + vegetable + sauce, + salad. | M | A | B8 |
+| CAP-004 | Reference portions per person (M size): protein 150–250 g raw; starch side 200–250 g cooked; vegetable 150–200 g; sauce 80–120 mL; soup 300–400 mL; salad 100–150 g; dessert 120–180 g. Maximum plated mass per person per meal: 900 g. Maximum batch for 6 persons: one component 1.8 kg or 3 L; whole meal 5.4 kg. | Sizing of vessels, tools, dishes. | M | A | B8 |
+| CAP-005 | Within one meal, one alternative variant of one course for a subset of the persons (e.g. vegetarian, allergen-free, child's version) shall be possible. | Mixed households. | S | A, D | B8 |
+| CAP-006 | The system shall serve a second full warm meal for 6 with a serving time ≥ 2 h after the first (M), ≥ 1 h (S). | Lunch for some, then others; guests. | M | A | drv |
+| CAP-007 | Several independent orders shall be queued and executed in serving-time order; two light meals (≤ 2 components each) with serving times ≥ 15 min apart shall both be met. | Staggered breakfasts. | S | A | drv |
+
+### 6.2 Storage capacity and autonomy
+
+Basis (est., from `research/03-storage.md`): 1.2–1.6 kg of food per person per day excluding drinks →
+about 5–6.5 kg/day and 34–45 kg/week for the reference household; split by mass roughly ambient 30 %,
+chilled 50 %, frozen 20 %. The number of *distinct products* (one product per box), not the mass, sets the
+number of box positions.
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| CAP-010 | Autonomy without grocery loading, reference household: ≥ 7 days for meals depending on fresh chilled food (M), ≥ 14 days for meals from frozen and ambient stock (M), ≥ 21 days for ambient staples and seasonings (S). | Weekly shopping. | M | A | B3, B4 |
+| CAP-011 | The MVC shall hold the stock for CAP-010 *plus* the variety needed to offer, at any time after a weekly shop, ≥ 30 different corpus meals as "cookable now". | Choice is the point of a stocked kitchen. | S | A | B1 |
+| CAP-012 | Reference retrieval pattern for sizing and for thermal tests: per day 45 box retrieve-and-return cycles from ambient, 30 from chilled, 8 from frozen; peaks of 15 retrievals in 10 min (est.). | Common basis for D1–D3. | M | — | drv |
+| CAP-020 | Ambient storage (MVC): ≥ 80 box positions for food, of which ≥ 25 of the smallest size for seasonings; total usable box volume ≥ 60 L; ≥ 30 kg of food. | 60–80 distinct ambient products. | M | A | B3 |
+| CAP-021 | Chilled storage (MVC): ≥ 45 box positions; usable box volume ≥ 70 L; ≥ 25 kg; of which a raw meat/fish sub-zone of ≥ 6 boxes. | 40–60 chilled products; largest mass share. | M | A | B4 |
+| CAP-022 | Frozen storage (MVC): ≥ 20 box positions; usable box volume ≥ 28 L; ≥ 12 kg. | 15–25 frozen products. | M | A | B4 |
+| CAP-023 | In addition to CAP-020 to -022, the system shall hold a reserve of clean, dry, empty boxes: ≥ 15 % of all box positions, in a size mix matching the stored mix, and ≥ 25 boxes before a planned weekly ingestion. | One new box per ingested product; emptied boxes come back only after washing. | M | A | B10 |
+| CAP-024 | The system shall accept ambient-stored produce that must not be chilled (potatoes, onions, tomatoes, bananas) and should offer a cool ambient zone of 8–15 °C for ≥ 8 boxes. | Storage quality. | S | A | B3 |
+
+### 6.3 Ware, consumables, waste
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| CAP-030 | The clean stock of vessels and tools shall cover a 2-course meal with a 4+2-component main course for 6 persons without re-washing during the run. The designers shall state the resulting ware list; its total shall be minimised. | PRP-031; cleaning load. | M | A | drv |
+| CAP-031 | Dish store: ≥ 12 flat plates, ≥ 12 deep plates/bowls, ≥ 12 small plates/bowls. | Two consecutive meals for 6 (or 3 courses for 6) before the human returns dishes. | M | I | B9 |
+| CAP-040 | Consumable stores (detergent, rinse aid, softener salt, descaler, disinfectant if used) shall last ≥ 30 days of reference use (M), ≥ 180 days (S). | HUM-004. | M | A | B6 |
+| CAP-041 | Organic waste: ≥ 10 L and ≥ 3.5 days of reference use (est. 1.0–1.5 kg/day incl. peel, trimmings, leftovers). Packaging waste, where the machine opens packages: ≥ 25 L and ≥ 3.5 days of reference use (est. 40 L/week uncompacted; compaction permitted); deposit containers shall not be damaged. | HUM-003. | M | A | drv |
+| CAP-042 | The organic waste shall be kept so that no odour is noticeable in the room (no detection by 4 of 5 persons at 1 m with all doors closed) until 4 days after the first waste entered. | Home. | M | T | drv |
+| CAP-043 | Packaging waste should be kept in ≥ 2 separate fractions (recyclable light packaging / other), rinsed where it held perishable food. | Local recycling rules; odour. | S | I | drv |
+
+### 6.4 Time
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature, on the single-phase baseline supply: ≤ 1.25 × T_ref + 10 min (M); ≤ 1.1 × T_ref + 5 min (S). For 6 persons: a further + 10 min is allowed. | The machine has no mise-en-place head start but parallelises; the single-phase power budget costs time. | M | A, T | drv |
+| PERF-002 | Benchmark meals for 4 persons (est.; T_ref to be aligned with the corpus): (a) spaghetti with minced-meat tomato sauce ≤ 45 min; (b) Frikadellen, mashed potatoes, peas ≤ 60 min; (c) pan-fried steak, fried potatoes, mixed salad ≤ 50 min; (d) vegetable soup from fresh vegetables ≤ 55 min; (e) beef Rouladen, red cabbage, boiled potatoes ≤ 150 min; (f) roast beef 1.2 kg medium, gratin, green beans ≤ 120 min; (g) mixed salad with dressing alone ≤ 15 min; (h) scrambled eggs with toast ≤ 12 min. | Concrete yardsticks for V2. | M | A, T | B5 |
+| PERF-003 | From order "now" with the machine idle, the first process step shall start within 60 s. | No warm-up waiting. | M | T | drv |
+| PERF-004 | For scheduled meals, the first dish shall be at the hatch within −0/+5 min of the serving time in ≥ 90 % of meals. | Punctuality. | M | T | drv |
+| PERF-005 | After serving, the system shall be ready to start the next meal within 30 min (needed stations clean), and completely clean, dry and idle within 90 min (M), 45 min (S). | CAP-006; drying of soil makes cleaning harder. | M | A, T | B6 |
+| PERF-006 | Ingestion throughput: as INA-009 and INB-006. | — | M | — | B10 |
+
+### 6.5 Noise
+
+Sound pressure level L_pA at 1 m in front of the machine, 1.5 m above the floor, in a furnished room; all
+doors closed.
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| NOI-001 | Idle/standby including refrigeration: ≤ 35 dB(A) (M), ≤ 30 dB(A) (S). | Open-plan living; comparable to a quiet fridge. | M | T | drv |
+| NOI-002 | Storage and transport movements, washing, drying, ventilation at normal level: L_Aeq ≤ 48 dB(A) (M), ≤ 44 dB(A) (S). | Comparable to a quiet dish washer; runs for hours per day. | M | T | drv |
+| NOI-003 | Cooking including fume extraction at the level needed for searing: L_Aeq ≤ 58 dB(A). Short loud operations (chopping, blending, package opening, spin-drying): L_Aeq ≤ 68 dB(A), for ≤ 5 min in total per meal, L_AFmax ≤ 75 dB(A). | Comparable to a cooker hood at medium level; far quieter than a hand blender in the open. | M | T | drv |
+| NOI-004 | Quiet mode (MODE-002): L_Aeq ≤ 40 dB(A), L_AFmax ≤ 50 dB(A); no impacts or tonal alarms except safety alarms. | Night; neighbours. | M | T | drv |
+| NOI-005 | The machine shall not transmit structure-borne noise causing > 30 dB(A) in an adjacent room through a solid wall to which it is fixed (est.). | Flats. | S | T, A | drv |
+
+### 6.6 Energy and water
+
+All values est.; for the reference household / reference meal; energy as electrical energy at the mains.
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| RES-001 | Energy per reference meal including cleaning of everything it soiled and the dish washer load, excluding cold storage: ≤ 4.0 kWh (M), ≤ 2.8 kWh (S). | Manual equivalent: about 1–1.5 kWh cooking + 0.8–1.0 kWh dish washer; the machine adds a ware wash (≈ 1.3 kWh, `research/06`) and in-place cleaning. | M | T, A | drv |
+| RES-002 | Energy per day, reference household, everything included: ≤ 10 kWh (M), ≤ 7 kWh (S). | ≤ 3 650 kWh/year; running cost. | M | A, T | drv |
+| RES-003 | Idle power, excluding refrigeration compressors: ≤ 15 W (M), ≤ 8 W (S). | 8 760 h/year. | M | T | drv |
+| RES-004 | Cold storage energy: ≤ 1.2 kWh/day at 25 °C room temperature with the reference retrieval pattern (M); ≤ 0.8 kWh/day (S). | Fridge + freezer of class D/E plus exit losses. | M | T | B4 |
+| RES-005 | Water per reference meal including all cleaning and the dish washer load: ≤ 45 L (M), ≤ 30 L (S). | Household dish washer ≈ 10 L per load; a ware wash ≈ 17–20 L (`research/06`); plus in-place cleaning and cooking water. | M | T, A | drv |
+| RES-006 | Water per day, reference household: ≤ 110 L (M), ≤ 70 L (S). | ≤ 40 m³/year. | M | A, T | drv |
+| RES-007 | Holiday mode: ≤ 1.5 kWh/day and ≤ 3 L/day averaged. | Only cold storage, control and stagnation flushing. | S | A | drv |
+| RES-008 | Detergent consumption: ≤ 60 g (or mL) per day at reference use (est.). | Running cost; CAP-040 store size ≤ 2 L. | S | A | drv |
+| RES-009 | Food loss caused by the machine (residues in packages, boxes, vessels, tools, on the way; excluding peel/trimmings and plate leftovers): ≤ 5 % of ingested mass. | Yield. | S | A, T | drv |
+
+---
+
+## 7. Hygiene, cleaning and food safety
+
+The brief makes cleaning "a major consideration": the machine handles raw food daily, runs unattended, and no
+human cleans it. Prior art (`research/01-prior-art.md`, section 4.3) shows that no existing kitchen robot cleans
+more than its vessels and tools; this section therefore is where the design must go beyond the state of the
+art. Every module design shall contain a *surface inventory* (HYG-010).
+
+### 7.1 Zones and principles
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| HYG-001 | Every surface of the system shall be assigned to Zone F, S, N or X (definitions in 1.4). In doubt, the more demanding zone applies. | Basis of all cleaning requirements. | M | R | B6 |
+| HYG-002 | The design shall minimise Zone F and Zone S: each module design shall state its total Zone F and Zone S area in m² and the measures taken to reduce it (containment of splashes, steam and dust at the source). | What is not soiled need not be cleaned. | M | R | B6 |
+| HYG-003 | Zone F and Zone S shall be separated from Zone N by closed surfaces or seals that withstand the cleaning process (water jets, 85 °C, detergent, steam). | Electronics and drives survive cleaning; dirt cannot hide. | M | R, T | B6 |
+| HYG-004 | No Zone N part (drive, guide, cable, bearing) shall be located above open food, open vessels, open boxes or clean ware unless enclosed with a drip-proof cover that is itself Zone S. | Lubricant, wear debris, condensate. | M | I | B6 |
+| HYG-005 | Material flow shall run from clean to dirty without crossing: clean ware, RTE food and plated dishes shall not pass through spaces where soiled ware, waste or class R food is open at the same time. | Cross-contamination. | M | R | B6 |
+| HYG-006 | No cleaning of any Zone F or Zone S surface shall require a human, and none shall require dismantling by a human. | Brief. | M | R, D | B6 |
+| HYG-007 | The system shall clean itself after a human has reached into Zone F or S (service, jam clearing) before food contact resumes. | Hands are a contamination source. | M | D | drv |
+
+### 7.2 Hygienic design
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| HYG-010 | Each module design shall include a surface inventory: every Zone F and Zone S surface with material, finish, how it becomes soiled, cleaning method, frequency, how the cleaning medium reaches and leaves it, and how it dries. | Project rule; makes the hygiene audit (V3) possible. | M | R | B6 |
+| HYG-011 | Zone F materials shall be food-contact compliant (REG-010), non-absorbent, corrosion-resistant to the detergents used (pH 2–12.5) and stable at −25 °C (where applicable) to +85 °C (wash) or to their process temperature. | Durability under daily cleaning. | M | R | B6 |
+| HYG-012 | Surface finish: Zone F Ra ≤ 0.8 µm; Zone S Ra ≤ 1.6 µm (est.), closed, non-porous, no paint or coating that can flake. | Cleanability (EN 1672-2 / EHEDG practice). | M | I | B6 |
+| HYG-013 | Zone F geometry: internal radii ≥ 3 mm (≥ 6 mm preferred); no crevices, gaps, blind holes, exposed threads, screw heads, hollow sections open to soil, horizontal ledges or overlapping joints; permanent joints continuous and smooth. | No soil traps. | M | I | B6 |
+| HYG-014 | All Zone F and Zone S surfaces shall be self-draining (slope ≥ 3° towards a drain or edge) in their cleaning position; no standing liquid 10 min after the end of cleaning. | Standing water breeds biofilm. | M | T | B6 |
+| HYG-015 | Parts made by layer-wise 3D printing shall not form Zone F surfaces unless the surface is sealed or lined so that it meets HYG-011 to HYG-013, with evidence. In Zone S they shall be sealed or smoothed to HYG-012 and made of a material stable under HYG-011 conditions. | Layer grooves and porosity harbour bacteria; typical print materials soften below wash temperature. | M | I, T | B6, B13 |
+| HYG-016 | Dynamic seals and shaft passages through Zone F shall be avoided; where unavoidable they shall be cleanable in place on the product side and be an LRU. | Known weak point of kitchen machines (mixing-bowl seals). | M | R | B6 |
+| HYG-017 | Lubricants in Zone F/S or above them shall be food-grade (NSF H1) or the mechanism shall run dry. | Incidental food contact. | M | R | drv |
+| HYG-018 | No glass, ceramic or other brittle material shall be used in or above Zone F, except the dishes and viewing windows of safety glass with containment. | Foreign bodies. | M | I | drv |
+| HYG-019 | Every Zone F and S surface shall be reached by the cleaning medium: spray-shadow-free, proven by a fluorescent-tracer (riboflavin) coverage test or equivalent analysis. | Coverage is the usual failure of cleaning-in-place. | M | T, A | B6 |
+
+### 7.3 Acceptance criteria for "clean"
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| HYG-020 | **Visually clean:** after cleaning, 100 % of the Zone F and S surface shows no visible food residue, film, grease, scale or discolouration from soil, at ≥ 500 lx from 300 mm. Tested with the worst-case soils of WSH-006 and the dried-on soils of each module. | First criterion of every hygiene standard. | M | T | B6 |
+| HYG-021 | **Microbiologically clean (Zone F):** the cleaning process achieves a ≥ 5 log10 reduction of test organisms on ware and surfaces that had contact with class R food, by thermal disinfection (A0 ≥ 60, e.g. 80 °C for 1 min or 70 °C for 10 min at the surface) or a validated equivalent. Surface counts after cleaning: aerobic colony count ≤ 10 cfu/cm², Enterobacteriaceae < 1 cfu/cm². | Raw meat, unattended, no human check. | M | T | B6 |
+| HYG-022 | **Residue-free (Zone F):** ATP swab within the instrument maker's pass limit for food-contact surfaces, and allergen-specific rapid tests negative after soiling with milk, egg, wheat flour and mustard. | Allergen cross-contact; objective cleanliness. | M | T | B6 |
+| HYG-023 | **Chemically clean (Zone F):** after the final rinse, water draining from the surface differs from the supply water by ≤ 0.5 pH and ≤ 50 µS/cm (est.); no detergent taste or odour transferred to food. | Detergent residue. | M | T | drv |
+| HYG-024 | **Dry:** ware is stored and used only when dry: no visible droplets; adhering water ≤ 0.5 g per item up to 1 L size and ≤ 1.0 g per larger item (by weighing); boxes for dry goods ≤ 0.2 g. Cleaned-in-place surfaces dry within 60 min after cleaning. | Mould, clumping of powders, bacterial growth. | M | T | B6 |
+| HYG-025 | **Odour-neutral:** a box that held onion, fish or curry and was washed shall transfer no taint detectable in a triangle test to butter stored in it for 48 h at 4 °C. | Plastic boxes absorb odour. | S | T | B6 |
+| HYG-026 | **Verified in operation:** every cleaning cycle shall be verified by recorded process parameters (temperature, time, flow or pressure, detergent dose, final-rinse quality) and cooking vessels additionally by inspection of the result (e.g. camera). A failed cycle is repeated once with an intensified programme; after a second failure the item is quarantined and the user informed. | No human looks at the ware. | M | D, R | B6 |
+| HYG-027 | The cleaning process for every type of ware and every cleaned-in-place surface shall be validated once against HYG-020 to HYG-024 with worst-case soils and soil drying times, before the design is released. | Parameters are only proxies. | M | T (paper phase: A) | B6 |
+
+### 7.4 What is cleaned when
+
+| ID | Item | Zone | Trigger and latest time | Criteria | Prio | Trace |
+|----|------|------|--------------------------|----------|------|-------|
+| HYG-030 | Vessels, lids, tools, dosing and transfer parts, portioning tools | F | After each use; before contact with a different food, other than consecutive steps of the same component. Washing starts ≤ 60 min after use (M), ≤ 20 min (S). After class R: with disinfection. A shortened programme without disinfection and drying is permitted only for immediate re-use within the same meal, when the next use is heated to FSF-020 and the allergen profile does not change. | 020–024 | M | B6 |
+| HYG-031 | Ingestion funnel, opening tools, package grippers at the cut | F | Per ING-013; at the latest at the end of each ingestion session. | 020–024 | M | B6, B10 |
+| HYG-032 | Boxes and closures | F | Whenever emptied or their contents discarded, before any re-use; and at the latest after 14 days of continuous use for chilled goods, 12 months for frozen and ambient dry goods. Box exterior when soiled. | 020–025 | M | B6 |
+| HYG-033 | Fixed food-contact stations (cutting, forming, cooking positions, baking cavity, plating station) | F | After each meal in which they were used; burnt-on residue removed at each cleaning, not accumulated. | 020–023 | M | B6, B7 |
+| HYG-034 | Inner casing and splash surfaces of preparation, cooking, serving, washing and ingestion modules | S | Every day with use, ≤ 24 h after soiling; immediately (≤ 1 h) after a detected spill or boil-over. | 020, 024 | M | B6 |
+| HYG-035 | Serving hatch space and door inner side, funnel surround (B), container interior (A) | S | Daily when used; after every spill; container (A) after every session. | 020, 024 | M | B6 |
+| HYG-036 | Transport system parts in Zone S, grippers | S | Grippers daily; all other parts ≤ every 7 days; after any detected spill ≤ 1 h. | 020, 024 | M | B6 |
+| HYG-037 | Storage interiors (ambient), dish store | S | After any detected spill or box leak (≤ 1 h for class R, ≤ 24 h otherwise); routinely ≤ every 30 days. | 020, 024 | M | B6 |
+| HYG-038 | Cold storage interiors | S | As HYG-037, routinely ≤ every 90 days, without warming stored food above FSF limits. | 020 | M | B6 |
+| HYG-039 | Fume, steam and condensate path; grease separator | S | ≤ every 7 days and when its sensor indicates loading; no grease filter to be washed by a human. | 020 | M | B6 |
+| HYG-040 | Washing system itself: chambers, spray system, sump, filters, drains, hoses with standing water | S/F | Self-cleaning hot cycle (≥ 70 °C) ≤ every 7 days; descaling automatically as water hardness demands. | 020; no odour | M | B6 |
+| HYG-041 | Waste container bay | S | At every container change, and ≤ every 7 days. | 020 | M | B6 |
+| HYG-042 | All Zone F and S: intensified cleaning with disinfection | F, S | ≤ every 30 days; after holiday mode; after a spoilage, mould or pest event; after service access. | 020–024 | M | B6 |
+| HYG-043 | Zone N | N | Stays clean by design for ≥ 12 months; inspected at the annual service. | no food soil | M | B6 |
+| HYG-044 | Zone X (exterior fronts, handles, panel) | X | Smooth, closed, wipeable; hatch sill and funnel surround count as Zone S. Wiping the exterior like any furniture is the only cleaning left to the human (AS-08, OQ-08). | — | M | B6 |
+| HYG-045 | Any Zone F or S surface | F, S | No surface shall remain both soiled and wet for > 4 h, and none soiled for > 24 h; in faults (UC-14) exceeding this, the intensified programme HYG-042 applies to the affected items. | — | M | B6 |
+
+### 7.5 Hygiene of the machine's own systems
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| HYG-050 | Water for food and for final rinses shall be of drinking quality at the point of use: materials in contact with it approved for drinking water; no internal storage of fresh water for > 24 h; pipe sections without flow for > 72 h shall be flushed automatically before use. | Stagnation, Legionella, biofilm. | M | R, D | B12 |
+| HYG-051 | Wet areas (wash chambers, sumps, drains, condensate paths) shall be dried or ventilated after use so that no mould or biofilm develops: no visible growth and no odour after 12 months of reference use. | The usual fate of dish washers and drip trays. | M | T (accelerated), A | B6 |
+| HYG-052 | Scale shall not build up on Zone F/S surfaces, heaters, nozzles or sensors at water hardness up to 25 °dH (4.5 mmol/L); softening and descaling shall be automatic. | Hard water is common. | M | A, T | B12 |
+| HYG-053 | Relative humidity inside the machine shall return below 65 % within 60 min after the end of cooking and cleaning; no condensation shall form in ambient storage, on electronics or in Zone N at any time. | Mould; dry goods; corrosion. | M | T | drv |
+| HYG-054 | The machine shall offer no access or harbourage to insects and rodents: openings to the room > 1 mm screened or closed; no food residue left accessible; waste closed. | Pests. | M | I | drv |
+| HYG-055 | Waste shall be contained so that liquids cannot leak into the machine and the container can be removed without the user touching waste. | HUM-012. | M | D | drv |
+
+### 7.6 Food safety rules (time and temperature)
+
+Default limits; national guidance may set stricter values (`research/06-hygiene-cleaning.md` takes precedence
+where it cites a legal or normative value stricter than the one given here).
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| FSF-010 | Storage temperatures as CLD-002/003; ambient as STO-007. | — | M | T | B4 |
+| FSF-011 | Ingestion cold chain: from the moment the user hands products to the machine until the box is inside cold storage: frozen ≤ 20 min, chilled ≤ 45 min (at 25 °C room temperature). | Thaw onset of thin frozen packs; chilled goods have already travelled home. | M | A, T | B10 |
+| FSF-012 | Cold-storage excursion: if chilled air exceeds 7 °C for > 2 h, or frozen air exceeds −15 °C for > 2 h, the system shall alarm; boxes whose contents are calculated or measured to have exceeded 7 °C for > 4 h (chilled TCS) or 0 °C (frozen) shall be blocked, and discarded unless the user releases them knowingly. Thawed food shall never be refrozen raw. | Power loss, door fault. | M | D | drv |
+| FSF-013 | Retrieval excursion: a chilled box shall be outside cold storage ≤ 10 min per retrieval and a frozen box ≤ 5 min; the cumulative time outside is recorded per box; chilled TCS contents reaching 120 min cumulative shall be used in the current meal or discarded. | Partial use of a box over days. | M | A, D | drv |
+| FSF-014 | During preparation, class R food shall be above 7 °C for ≤ 30 min before its heating starts, other TCS food ≤ 60 min; longer waits only at ≤ 7 °C. | Danger zone. | M | A | drv |
+| FSF-020 | Core temperature at the end of cooking: ≥ 72 °C for ≥ 2 min (or equivalent lethality) for poultry, minced meat, rolled or stuffed meat, sausages, egg dishes and all reheated food; ≥ 63 °C for ≥ 3 min for whole-muscle pork and fish; soups and sauces ≥ 85 °C in bulk. Whole-muscle beef, veal and lamb may be cooked to the ordered doneness (core ≥ 48 °C) provided all outer surfaces were seared to ≥ 70 °C. | Pathogen kill; a rare steak is "normal". Values per `research/06`, section 5.2. | M | T | drv |
+| FSF-021 | FSF-020 shall be verified per batch by measurement (COK-013) for pieces ≥ 20 mm; for smaller pieces and liquids by a validated time–temperature profile of the vessel contents. | Evidence. | M | D, R | drv |
+| FSF-022 | Low-temperature cooking: food shall pass from 10 °C to 60 °C core within ≤ 4 h. | Slow roasting. | M | A | drv |
+| FSF-023 | Cooked food kept for later (SRV-021) shall be cooled per COK-022, stored at ≤ 4 °C for ≤ 48 h, reheated once to FSF-020, never stored again. | Leftovers are the highest-risk food. | M | D | drv |
+| FSF-024 | Dishes with raw or undercooked animal products (X-14, soft-boiled egg, rare minced meat) shall be offered only after explicit opt-in per household and never for persons marked as vulnerable in the profile. | Informed choice. | M | D | drv |
+| FSF-030 | Danger-zone rule: any food whose cumulative time between 7 °C and 60 °C — not counting continuous heating-up or cooling-down within the limits above — exceeds 2 h shall be discarded. This rule decides resume-or-discard after power loss, water failure, jam and stop. | One rule for all faults. | M | D, A | drv |
+| FSF-031 | Hot holding: ≥ 65 °C, for ≤ 2 h (quality limit 30 min, COK-017). | — | M | T | drv |
+| FSF-032 | Plated food not collected: reminders at 3 and 10 min; kept closed in the hatch or returned to holding; discarded 90 min after plating at the latest (cold RTE dishes: 120 min at ≤ 10 °C), dishes washed. | UC-06. | M | D | drv |
+| FSF-040 | Any surface that touched class R food shall be cleaned with disinfection (HYG-021) before it touches RTE food or food that will not be heated to FSF-020 afterwards. Within one meal, separate vessel and tool instances shall be used for class R and RTE components. | Cross-contamination. | M | R, D | B6 |
+| FSF-041 | Open class R food shall not be moved above open RTE food, clean ware or dishes, and its wash water shall not splash onto them. | Drip. | M | R | B6 |
+| FSF-042 | Soil-bearing produce shall be washed (UO-10) before cutting or peeling on shared tools; wash water goes to drain. | Soil bacteria, grit. | M | R | drv |
+| FSF-050 | Shelf life: every box has a use-by time = the earlier of (a) the date on the package and (b) ingestion time + shelf life after opening for its category and storage class. Defaults (conservative, editable table): raw minced meat and raw fish 1 day; raw poultry 2 days; other raw meat 3 days; cooked leftovers 2 days; opened dairy, tinned goods after opening, cut produce 3–5 days; hard cheese, eggs, whole produce per category; frozen 3–12 months; dry goods 6–12 months. | ING-008. | M | R, D | drv |
+| FSF-051 | Food past its use-by time shall be blocked and handled per UC-17 within 24 h. For "best before" dates of ambient dry goods the user may extend once per box, up to the category limit. | Spoiled-food handling. | M | D | drv |
+| FSF-052 | At ingestion, class R food not planned for a meal within its chilled shelf life shall be frozen (in portion-suitable amounts) unless the user objects. | Opening at ingestion shortens shelf life; avoids waste. | S | D | drv |
+| FSF-053 | At each opening of a box of perishable food the contents shall be checked for signs of spoilage (at least camera: mould, discolouration, liquid; S: gas/odour sensing), with UC-17 on suspicion. | Dates do not catch everything. | S | D | drv |
+| FSF-060 | The 14 allergens of Regulation (EU) 1169/2011 Annex II shall be tracked per product, per box and per meal, and shown with every meal. | Allergen information. | M | D | drv |
+| FSF-061 | Cleaning between allergen-containing and other food shall meet HYG-022. Airborne allergenic powders (flour) shall be contained (PRP-014). | Cross-contact. | M | T | B6 |
+| FSF-062 | The system shall not declare a meal "free from" an allergen that is present anywhere in the inventory unless the customer accepts the residual risk in the profile; a household setting "ban allergen" shall make ingestion refuse products containing it. | Honest limits of a shared machine. | M | D | drv |
+| FSF-070 | Foreign bodies: besides INA-008, PRP-035 and HYG-018, a dish, box or vessel broken or chipped inside the machine shall be detected; exposed food discarded; fragments removed by the cleaning process or the user called. | Safety. | M | D, A | drv |
+
+### 7.7 Hygiene records
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| HYG-060 | The system shall keep, per Zone F item and station, its cleaning state (clean / soiled with what, since when / quarantined) and refuse to use any item not "clean". | Enforcement. | M | D | B6 |
+| HYG-061 | Cleaning, temperature and discard records shall be kept per CTL-009 and summarised for the user monthly (cycles run, failures, food discarded and why). | Trust; fault finding. | S | I | drv |
+
+### 7.8 What the human still does
+
+This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
+
+| ID | Human task | Frequency (reference household) | Time | Prio | Trace |
+|----|------------|----------------------------------|------|------|-------|
+| HUM-001 | Order meals; take dishes from the hatch. | Per meal | — | M | B8 |
+| HUM-002 | Put used dishes into the dish washer; take clean dishes out and place them at the serving hatch. | Per meal or per day | ≤ 3 min | M | B9 |
+| HUM-003 | Exchange the organic waste container/liner; version A: also the packaging waste. | ≤ 2 × per week; packaging: ≤ once per ingestion session | ≤ 2 min | M | drv |
+| HUM-004 | Refill consumables (detergent, rinse aid, salt, descaler), all from the front, without tools, without spilling into the machine. | ≤ once per 30 days (M), per 180 days (S), all at the same visit | ≤ 5 min | M | B6 |
+| HUM-005 | Load groceries: version A — put packages into the container (INA-001); version B — scan and pour. | ≈ weekly | A: ≤ 3 s per item; B: ≤ 20 s per product | M | B10 |
+| HUM-006 | Deal with ingestion rejects (identify in the UI or ingest via B). | ≤ 25 % of items (M), ≤ 10 % (S) | ≤ 30 s each | M | B10 |
+| HUM-007 | Replace wear and filter parts (odour filter, water filter if any, blades, seals) as announced. | ≤ 2 × per year | ≤ 15 min | M | B13 |
+| HUM-008 | Wipe exterior fronts (Zone X). | As any kitchen furniture | — | M | AS-08 |
+| HUM-009 | Clear an unplanned stoppage following on-screen instructions. | ≤ 1 per 50 meals (REL-001) | ≤ 5 min | M | B13 |
+| HUM-010 | Annual inspection and service. | 1 × per year | ≤ 2 h | S | B13 |
+| HUM-011 | Sum of HUM-003, -004, -007, -009, -010: ≤ 10 min per week on average. | — | — | M | B1 |
+| HUM-012 | No human task shall require touching food residue, wash water, soiled internal surfaces, blades or detergent concentrate, nor the use of tools, except HUM-007 (announced part exchange) and HUM-010. | "The human will not clean anything." | — | M | B6 |
+
+---
+
+## 8. Physical and interface constraints
+
+### 8.1 Dimensions and layout
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| PHY-001 | Depth: no part of the closed machine shall extend more than 600 mm from the wall, including fronts, rear service space for pipes and cables, and wall unevenness allowance; handles and the hatch sill may add ≤ 30 mm. | Brief: 60 cm deep. | M | I | B12 |
+| PHY-002 | Height: ≤ 2 000 mm from the floor, including feet, plinth and any top ventilation parts; installable under a 2 250 mm ceiling. | Brief: 200 cm high. | M | I | B12 |
+| PHY-003 | Module widths shall be multiples of 150 mm, preferably 300, 450, 600, 900 or 1 200 mm; no module wider than 1 200 mm. | Kitchen grid; handling; fits between walls with standard fillers. | M | I | B12 |
+| PHY-004 | Total wall length of the MVC: ≤ 3 600 mm (M), ≤ 3 000 mm (S). | A typical single kitchen run. | M | I | B12, B13 |
+| PHY-005 | The system shall be installable in a straight line and, optionally, around one inside corner of 90° ("L"), left- or right-handed, with leg lengths free on the 150 mm grid (each leg ≥ 1 200 mm). | Brief. | M | R | B12 |
+| PHY-006 | Straight and L layouts shall use the same modules; only a corner element and transport parts may differ. | Modularity. | M | R | B11, B12 |
+| PHY-007 | In an L layout, ≥ 50 % of the corner cell (600 × 600 mm × height) shall be functionally used, and the transport system shall pass the corner. | Corners are the classic dead space. | S | A | B13 |
+| PHY-008 | Volume budget: each module shall state the split of its enclosed volume into storage/process/ware, transport, mechanisms, utilities and unused; unused voids > 10 L shall be justified; ≥ 85 % of the system's enclosed volume shall be functional. | "Does not waste footprint space." | M | A | B13 |
+| PHY-009 | After installation, no access from the rear, the sides or the top shall be needed for operation, human tasks, service or module exchange. | Built in between walls and under ceilings. | M | R | B13 |
+| PHY-010 | Open doors, drawers, the hatch door and removable containers shall project ≤ 600 mm into the room; all human tasks shall be possible with 1 000 mm free floor depth in front. | Kitchen aisle. | M | I | B12 |
+| PHY-011 | Operating mass including a full stock of food and water: ≤ 200 kg per 600 mm of width (est.), load per foot ≤ 1.0 kN, on feet with ≥ 20 cm² contact area each. | Domestic floors (2 kN/m² design imposed load) and floor coverings; comparable to a loaded fridge-freezer. | M | A | B12 |
+| PHY-012 | Delivery: every module (or its delivered sub-units) shall pass a door opening of 780 × 1 950 mm and a 900 mm wide stair with a 180° landing; no sub-unit heavier than 80 kg (M), 50 kg (S). | Getting it into a flat. | M | A | B11 |
+| PHY-013 | Levelling: adjustable for floor unevenness of ± 15 mm over the system length; the system shall be fixed to the wall against tipping. | Installation. | M | I | B12 |
+| PHY-014 | The fronts shall form a closed, flat, easily wiped surface in a regular grid. | It is a kitchen in a home. | S | I | B12 |
+| PHY-015 | Connection points of the house installation (water valve, drain, sockets) may lie anywhere behind the lower 600 mm of the system; isolating valve and mains isolator shall be reachable from the front without tools after installation. | Installation reality; service. | M | I | B12 |
+
+### 8.2 Utilities
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| UTL-001 | Water supply: one connection to cold drinking water, 2.2–5 bar static (functional over the full range; pressure-proof to 10 bar), 5–25 °C; the machine shall need ≤ 10 L/min. | Brief. | M | T | B12 |
+| UTL-002 | No hot-water supply is available; the machine heats all water it needs. | Brief: cold only. | M | R | B12 |
+| UTL-003 | Drain: one connection to the house waste pipe (DN 40/50, with odour trap); discharge ≤ 20 L/min, ≤ 75 °C, solids ≤ 1 mm; the machine shall lift waste water to a connection up to 900 mm above the floor. | Brief; domestic drain practice. | M | T | B12 |
+| UTL-004 | One connection point per utility for the whole system; distribution to modules through the module interfaces (MOD-012, MOD-013). | Installation; modularity. | M | I | B11 |
+| UTL-010 | Electrical baseline: single-phase 230 V (220–240 V ± 10 %), 50 Hz, one circuit protected at 16 A: available power 3.68 kW; the machine shall draw ≤ 3.5 kW and ≤ 15.2 A at any time, including refrigeration, control and inrush averaged over 1 s. | Brief: "220 V power". This is the binding baseline (OQ-01). | M | T | B12 |
+| UTL-011 | A power manager shall allocate the budget of UTL-010 in this priority: safety functions, cold storage, control, food being cooked, hot holding, washing, everything else; it shall be part of the scheduling (CTL-005). | **Consequence of the 16 A limit:** one fast boil (2 kW) plus one simmer plus the oven *holding* temperature is possible; oven pre-heating, fast boiling, wash-water heating and drying cannot coincide. Time targets (PERF-001) include this. | M | A, T | B12 |
+| UTL-012 | The design shall be preparable for a larger supply — a second 16 A circuit or a three-phase 400 V 3N 16 A cooker connection (11 kW) — by configuration and wiring of the supply module only, distributing heaters over the phases; the S time targets may assume this option. | In many European kitchens a three-phase cooker outlet exists; the customer has not confirmed it (OQ-01). | S | R | B12 |
+| UTL-013 | Earth leakage of the whole system shall stay ≤ 10 mA in normal operation. | Must not trip the 30 mA residual-current device of the house. | M | T | drv |
+| UTL-014 | Network: wired Ethernet (M) and Wi-Fi (S) to the home router; functions without Internet as CTL-012. | Brief: Internet. | M | I | B12 |
+
+### 8.3 Environment: room conditions, heat, steam, odour
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| ENV-001 | Operating room conditions: 10–32 °C, 20–80 % relative humidity non-condensing, altitude up to 2 000 m (boiling point accounted for in recipes). | Domestic rooms; climate class of household fridges. | M | T, A | B12 |
+| ENV-010 | No ducted exhaust to the outside is assumed (OQ-02). Moisture released into the room: ≤ 0.3 kg per reference meal including its cleaning; steam shall be condensed and drained. | Cooking and washing release 1–2 kg of vapour per meal; without a duct this would go into the room and the machine. | M | T, A | B12, drv |
+| ENV-011 | Air returned to the room shall be free of visible fumes; grease aerosol shall be separated to ≥ 90 % by mass (est.); cooking odour in the room after pan-frying shall be no stronger than with a good recirculating cooker hood (panel comparison). | Home. | M | T | drv |
+| ENV-012 | Each module design shall state its heat release to the room (average and peak); the system shall work at 32 °C room temperature in a closed 12 m² kitchen without exceeding any internal temperature limit (STO-007, CLD-002, electronics). | All 7–10 kWh/day end up as heat, partly in the drain. | M | A | B12 |
+| ENV-013 | Walls, floor and adjacent furniture shall not exceed 60 °C, and no condensation shall form on them or on the machine's exterior. | Building fabric; mould. | M | T | drv |
+| ENV-014 | Optional connection to a ducted extraction. | Where available, better odour removal. | C | R | B12 |
+
+---
+
+## 9. Modularity
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| MOD-001 | The system shall be divided into these modules: ambient storage; cold storage; transport; preparation; cooking and baking; portioning and serving; washing and cleaning; ingestion (A or B); frame, utilities and safety infrastructure; control. Preparation, cooking and portioning may share one enclosure ("process cell") but remain separately designed sub-modules with defined internal interfaces. | Brief. | M | R | B11 |
+| MOD-002 | **Designed independently:** a module shall depend on other modules only through the interfaces frozen in the architecture document (mechanical, transport hand-over, electrical, data, water/utilities, air). No module design shall assume internals of another. | Brief. | M | R | B11 |
+| MOD-003 | **Built and tested independently:** each module shall have its own supporting structure, stand on its own, and be fully testable on its own with an interface simulator (power, data, utilities) and test items at its hand-over points. | Parallel build; acceptance per module. | M | D | B11 |
+| MOD-004 | **Replaced independently:** one module shall be removable and re-installable from the front in ≤ 2 h by 2 persons, without removing neighbouring modules and without emptying other modules. Cold storage shall stay in operation. | Repair, upgrade. | M | D, A | B11, B13 |
+| MOD-010 | Mechanical interface: defined datum faces, fixing points and tolerances between neighbouring modules and to the transport system; modules shall be joinable without shimming or machining; residual misalignment shall be absorbed by automatic calibration (TRN-009). | Buildability. | M | R | B11 |
+| MOD-011 | Transport hand-over interface: one standard definition of a hand-over point (pose, approach envelope, item types, supporting features, presence sensing, handshake) used by all modules; each module has ≥ 1 such point. | The transport system is the binding element. | M | R | B11 |
+| MOD-012 | Electrical interface: one standard power connection per module, individually switchable and protected, with a declared maximum and average power; protective-earth continuity through the connector. | Independent operation and replacement. | M | R, I | B11 |
+| MOD-013 | Utility interface: standard couplings for fresh water, wash media (if centralised), drain and exhaust air, self-sealing on disconnection (≤ 5 mL loss), mechanically coded against wrong connection. | Replacement without a plumber. | M | R, D | B11 |
+| MOD-014 | Data interface: one standard bus and protocol for all modules; each module reports type, version, capabilities and hand-over points (self-description); a separate hard-wired or safety-rated channel carries the stop and safe-state signals. | Discovery; safety independent of software. | M | R, D | B11 |
+| MOD-015 | Interfaces shall be versioned and frozen in the architecture; module designers raise conflicts as open issues rather than deviate. | Project rule. | M | R | B11 |
+| MOD-016 | The order of modules along the transport system should be free, subject only to stated zoning rules (e.g. ambient storage not next to an unshielded heat source). | Fits different kitchens. | S | R | B11, B12 |
+| MOD-020 | For each module an interface simulator/test specification shall be defined so that the module can be accepted before integration. | MOD-003. | M | R | B11 |
+| MOD-030 | **Minimum viable configuration (MVC):** one ambient storage, one cold storage (chilled + frozen), transport, preparation, cooking and baking, portioning and serving with hatch, washing and cleaning including the dish washer, ingestion version B, frame/utilities, control. The MVC shall meet all M requirements for the reference household. | Smallest buildable system. | M | R | B11 |
+| MOD-031 | **Standard configuration:** MVC with ingestion version A added; version B's function remains available as fallback. | Brief: both versions. | M | R | B10 |
+| MOD-032 | **Extensions** without redesign of existing modules: up to 3 further ambient storage modules; a second cold storage; L corner; a second ingestion module. The control system adapts automatically (CTL-014). | Growing households, stock-keeping. | S | R | B11 |
+| MOD-033 | The transport system, as the one shared element, shall have the highest reliability target of all modules (REL-005) and a manual fallback (TRN-015); its failure shall not cause loss of stored food. | Single point of failure. | M | A | B11 |
+
+---
+
+## 10. Build, maintainability and robustness
+
+### 10.1 Build
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| BLD-001 | ≥ 85 % of BOM line items and ≥ 80 % of BOM value shall be catalogue parts purchasable in single quantities by a private buyer in the EU; every part with manufacturer part number, supplier and price. | Brief: standard parts. | M | R | B13 |
+| BLD-002 | Non-catalogue parts shall be limited to: (a) parts printable on a desktop FDM printer with a build volume of 250 × 210 × 210 mm in PETG, ASA, PA or TPU; (b) cut-to-length profiles, laser-cut and bent sheet metal, and simple turned or milled parts that can be ordered from online fabrication services from the supplied drawings. No injection moulding, casting, or welding by the builder. | Brief: "off-the-shelf parts and a 3D printer". | M | R | B13 |
+| BLD-003 | Printed parts shall not be used where HYG-015 forbids, where they would exceed their material's heat-deflection temperature minus 20 K, or as the sole load path for holding hot or heavy (> 2 kg) items above humans' reach zones without a safety factor ≥ 4. | Printed plastic creeps, softens and is anisotropic. | M | R | B13 |
+| BLD-004 | Target cost (parts, single unit, retail prices incl. VAT, without labour, tools and the printer): MVC ≤ EUR 25 000 (M), ≤ EUR 15 000 (S); ingestion version A ≤ EUR 4 000 extra; each additional storage module ≤ EUR 2 500 (all est.). The architect shall allocate a cost budget per module. | Proposal. Prior art places a complete automated kitchen in the fitted-kitchen class (EUR 20–60 k, `research/01`); parts count and cost must steer the design. | M | A (BOM) | B13 |
+| BLD-005 | Tools needed to build: hand tools (hex keys, screwdrivers, spanners, torque wrench, pliers), cordless drill, deburring and tapping tools, crimping and soldering tools, multimeter, desktop FDM printer, PC. No machine tools, welding equipment or special calibration equipment. | Buildable by a skilled amateur. | M | R | B13 |
+| BLD-006 | Build documentation per module: BOM, drawings and print files, wiring and plumbing diagrams, assembly sequence, commissioning and test procedure. | Reproducibility. | M | R | B13 |
+| BLD-007 | Variety shall be limited across modules: one profile system, one fastener family (≤ 15 fastener types), ≤ 3 motor/driver families, one controller family, one connector family per function. | Spare parts, learning effort. | S | R | B13 |
+| BLD-008 | Mains-voltage functions shall be realised with finished, certified components and appliances (power supplies, relays, heaters, appliances with their own protection), so that builder-made mains wiring is limited to connecting them; this wiring shall be inspected by a qualified electrician. | Electrical safety of a self-built machine. | M | R | B13 |
+| BLD-009 | Assembly effort of the MVC: ≤ 400 person-hours after parts are available (est.). | Feasible as a project. | S | A | B13 |
+
+### 10.2 Maintainability
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| MNT-001 | Every LRU shall be reachable and exchangeable from the front, without moving the machine or a module. | Brief: easily accessible. | M | R, D | B13 |
+| MNT-002 | Exchange time per LRU, one person, hand tools of BLD-005 only: ≤ 30 min for 90 % of LRU types, ≤ 60 min for all. | MTTR. | M | A, D | B13 |
+| MNT-003 | Mean time to repair including diagnosis: ≤ 45 min, given the spare part. | Availability. | M | A | B13 |
+| MNT-004 | The system shall identify the faulty LRU correctly in ≥ 90 % of failures, and guide the exchange step by step on the UI. | Diagnosis is usually the longest part. | S | A, D | B13 |
+| MNT-005 | Every place where an item can jam or fall shall be reachable by an adult's hand from the front after the safe state is established, without tools; clearing time ≤ 5 min. | UC-13. | M | D | B13 |
+| MNT-006 | After an LRU exchange the module shall recalibrate and self-test automatically; no manual adjustment with measuring instruments. | No special skills. | M | D | B13 |
+| MNT-007 | A wear-parts list shall state life, exchange time and price per part; yearly cost of wear parts and consumables at reference use ≤ EUR 300 (est.). | Running cost. | S | A | B13 |
+| MNT-008 | All LRUs shall be catalogue parts or reproducible from the build documentation; a recommended spares kit shall cost ≤ EUR 500 (est.); parts with a delivery time > 4 weeks shall be in the kit. | Spare parts. | M | R | B13 |
+| MNT-009 | Cables, hoses and connectors shall be labelled and keyed against wrong connection. | Repair errors. | M | I | B13 |
+| MNT-010 | Service on any other module shall not interrupt cold storage, and cold storage service shall be possible with the food transferred or kept cold for ≥ 2 h. | Food loss. | M | A | B13 |
+
+### 10.3 Robustness and lifetime
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| REL-001 | ≥ 98 % of ordered meals shall be completed without human intervention (M), ≥ 99.5 % (S), measured over ≥ 300 meals of the corpus mix. | "Fully automatic"; one intervention per 50 meals ≈ one every 2–3 weeks. | M | T (later), A (failure-mode analysis) | B1, B13 |
+| REL-002 | No fault or combination of a single fault with power loss shall lead to unsafe food being served; in doubt the food is discarded. | Food safety over availability. | M | A | drv |
+| REL-003 | Design life: 10 years at reference use = about 11 000 meal runs, of which 3 650 full warm meals. | Brief: robust for everyday use. | M | A | B13 |
+| REL-004 | Every mechanism shall be designed for the life-cycle counts of the table below × 1.5, or be an LRU with a declared exchange interval of ≥ 2 years. | Translates lifetime into design loads. | M | A | B13 |
+| REL-005 | Mean time between failures needing a part exchange: system ≥ 6 months (M), ≥ 12 months (S); transport system alone ≥ 5 years. | Everyday use. | M | A | B13 |
+| REL-006 | Availability for cooking: ≥ 98 % of days. | — | M | A | B13 |
+| REL-007 | Tolerance of input variation: natural variation of produce (size, shape, ripeness within PRP-020), fill levels, package variation, and foreseeable misuse (foreign object in the ingestion container or funnel, overfilled container, wrong dish at the hatch, hatch blocked, door left open) shall not damage the machine. | Real households. | M | A, T | B13 |
+| REL-008 | Cold storage shall keep its temperature when any other module or the central control fails. | No loss of stored food. | M | A, T | B4 |
+| REL-009 | The system shall withstand supply disturbances without damage and resume automatically: voltage dips and interruptions, water pressure surges up to 10 bar, water interruptions. | Fault recovery. | M | A, T | B12 |
+
+**Life-cycle counts for 10 years of reference use (est.; REL-004).**
+
+| Mechanism / function | Per day | In 10 years |
+|----------------------|---------|-------------|
+| Ambient storage retrieve-and-return cycles | 45 | 165 000 |
+| Chilled storage retrieve-and-return cycles; thermal exit openings | 30; 60 | 110 000; 220 000 |
+| Frozen storage retrieve-and-return cycles; thermal exit openings | 8; 16 | 30 000; 60 000 |
+| Transport moves (boxes, vessels, tools, dishes) | 270 | 1 000 000 |
+| Box closure open/close (all boxes; per box ≤ 5 000) | 170 | 620 000 |
+| Dosing operations | 80 | 290 000 |
+| Tool changes | 40 | 150 000 |
+| Cutting and peeling operating time | 12 min | 730 h |
+| Mixing, kneading, stirring operating time | 2 h | 7 300 h |
+| Cooking positions on-time (sum); baking cavity on-time | 3 h; 0.7 h | 11 000 h; 2 600 h |
+| Internal ware wash cycles | 4 | 14 600 |
+| Human-loaded dish washer cycles | 1.5 | 5 500 |
+| In-place cleaning cycles; valve operations | 1.5; 40 | 5 500; 146 000 |
+| Serving hatch door cycles | 14 | 51 000 |
+| Dish handling (store → plate → hatch, hatch → store) | 24 | 88 000 |
+| Wash cycles per vessel or tool | up to 2 | 7 300 |
+| Wash cycles per box | — | ≤ 1 000 |
+| Ingestion: items | 9 (60 per week) | 31 000 |
+
+Note: household dish washers are typically designed for about 280 cycles per year; an off-the-shelf unit
+used for internal ware at 4 cycles per day is a declared LRU under REL-004 or needs a commercial-grade unit.
+
+---
+
+## 11. Safety, regulatory, security
+
+These are requirements, not designs. A risk assessment decides the measures.
+
+### 11.1 General
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-001 | A risk assessment following EN ISO 12100 shall be made for each module and for the system, covering operation, human tasks, faults, service, building and foreseeable misuse including children. | Method. | M | R | drv |
+| SAF-002 | Safety functions shall be implemented independently of the application software (CTL-015), with a performance level determined per EN ISO 13849-1 from the risk assessment. | Integrity. | M | R | drv |
+| SAF-003 | Loss of power, of the network, of water or of the control system shall lead to a safe state without human action. | Fail-safe. | M | T, A | drv |
+
+### 11.2 Fire and unattended cooking
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-010 | No open flame; no heating surface accessible to room air outside the closed cooking space. | Unattended. | M | I | B7, drv |
+| SAF-011 | Every heater shall have a temperature limiter independent of the control system that cuts power before fat can ignite: vessel base and cavity walls ≤ 300 °C under any single fault; normal control limit ≤ 260 °C. | Oil self-ignites at about 350–370 °C. | M | T | drv |
+| SAF-012 | Heat shall be applied only when a vessel is present and its contents and their mass are known; heating of an empty or unexpectedly dry vessel shall stop within 60 s. | Dry-boiling is the classic cause of kitchen fires. | M | T | drv |
+| SAF-013 | Smoke, flame and abnormal temperature shall be detected in the cooking space and the exhaust path; on detection all heaters shall be de-energised within 2 s, the space closed, ventilation put into the safe state, and an alarm raised (UI-008). | Detection. | M | T | drv |
+| SAF-014 | The cooking space shall contain a fire of the largest permitted quantity of fat (COK-021) without flame or burning material leaving the space and without igniting adjacent modules, walls or furniture; materials in and around the cooking space shall be non-combustible; printed plastic parts are not permitted there. | Containment. | M | T, A | drv |
+| SAF-015 | An automatic means to extinguish a fire in the cooking space shall be provided. | Containment alone may be slow; nobody may be at home. | S | T | drv |
+| SAF-016 | Grease shall not accumulate in the exhaust path (HYG-039). | Secondary fire load. | M | R | drv |
+| SAF-017 | Alarms shall be audible in the home (≥ 75 dB(A) at 1 m) and sent to the app; an output for a home alarm system should be provided (C). | Unattended operation. | M | T | drv |
+
+### 11.3 Burns and scalding
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-020 | Parts hotter than 60 °C, liquids hotter than 55 °C and steam shall not be accessible to a human: enclosures and doors to such spaces shall be locked until the temperature has fallen, including after power loss. | Scalding. | M | T | drv |
+| SAF-021 | Accessible external surfaces: ≤ 50 °C. The areas by which a dish is grasped at the hatch: ≤ 55 °C. Hot food is indicated as such at the hatch. | Burn thresholds for brief contact; children. | M | T | drv |
+| SAF-022 | Opening the hatch or any door shall not release steam, hot air above 50 °C or spray towards the human. | Scalding. | M | T | drv |
+| SAF-023 | A spill of the largest vessel's hot contents shall be retained inside the machine and drained; it shall not reach the room, the floor or electrical parts. | 5 L of boiling liquid. | M | A, T | drv |
+
+### 11.4 Mechanical hazards
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-030 | Ingestion container (A): picking, cutting and moving parts shall be inaccessible while the container is open to the human (interlocked cover with guard locking, or a separating barrier); motion shall stop before access is possible. | Hands next to a cutting machine. | M | T | B10, drv |
+| SAF-031 | Funnel (B) and all other openings to the room: no hazardous part shall be reachable with the jointed test finger and the child-finger probes of EN 61032 (probes B, 18, 19), with covers in any position. | Children. | M | T | B10, drv |
+| SAF-032 | Serving hatch: door closing force ≤ 50 N (M), ≤ 25 N (S), reversing on contact within 0.5 s; no shearing or drawing-in points at door edges; no moving mechanism within reach through the open hatch while the door is open. | Pinch and crush. | M | T | B8, drv |
+| SAF-033 | All other moving, cutting, hot or pressurised parts shall be behind fixed guards (removable only with a tool) or interlocked movable guards. | Basic machinery safety. | M | I | drv |
+| SAF-034 | Service mode (MODE-004): energy isolated and lockable; stored energy (springs, pressure, raised loads, capacitors) released or blocked; hot parts cooled or indicated; blades covered or parked in guards; blades and other sharp tools exchangeable without touching the edge. | Maintenance is when people get hurt. | M | D, R | B13 |
+| SAF-035 | Forces and energy of mechanisms that a human can reach during jam clearing in the safe state shall be zero (de-energised, no gravity-driven motion). | UC-13. | M | T | drv |
+| SAF-036 | Stability: the installed system shall not tip with all doors open and 25 kg applied to any open door, drawer or sill. | Child climbing. | M | T | drv |
+| SAF-037 | No space accessible from the room shall be able to trap a child or pet; any accessible space > 40 L shall be openable from inside or not closable with an occupant detected. | Entrapment. | M | R, T | drv |
+
+### 11.5 Child safety
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-040 | A child lock shall prevent ordering, opening of the ingestion container, the consumables and waste compartments, and service mode. | Unsupervised children. | M | D | drv |
+| SAF-041 | Detergent and other chemical stores shall be inaccessible to children, and refilled from closed containers without open handling of concentrate. | Poisoning, eye injury. | M | I | drv |
+| SAF-042 | Small parts, blades and hot items shall never be presented at the hatch; only dishes with food (or a requested box, UC-18). | Foreseeable reach of a child. | M | R | drv |
+
+### 11.6 Electrical safety near water; leaks
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-050 | The stop control (UI-010) and the mains isolator shall bring the system into the safe state within 1 s; the isolator shall be lockable. | Emergency and service. | M | T | drv |
+| SAF-051 | Protection class I throughout, with all touchable conductive parts bonded to protective earth; supply via a 30 mA residual-current device (house installation, assumed). | Shock protection. | M | T, I | drv |
+| SAF-052 | Electrical parts inside Zone F/S shall be rated for the cleaning process there (at least IP65; IPX9 where exposed to hot jets). Actuators and sensors in Zone F/S should run on safety extra-low voltage (≤ 24 V DC). | Water and electricity in one enclosure. | M | I, T | drv |
+| SAF-053 | Water from any single leak, hose failure or overflow shall not reach live parts: electrical compartments above or sealed from water paths; every wet module has a base tray with leak detection. | Shock, fire. | M | A, T | drv |
+| SAF-054 | On a detected leak the supply shall be shut at the inlet within 2 s; water released into the room ≤ 1 L; the supply valve is closed whenever no water is being drawn and on loss of power. | Water damage in an unattended home. | M | T | drv |
+| SAF-055 | No single valve or sensor failure shall cause overflow of a vessel, sump or tray. | Flooding. | M | A | drv |
+| SAF-056 | Where an off-the-shelf appliance is modified, its own safety devices (door interlocks, thermal cut-outs, leak protection) shall remain effective, its refrigerant circuit untouched, and nothing added inside a compartment cooled with flammable refrigerant shall be a potential ignition source. | Modifying appliances voids their certification. | M | R | B4, B13 |
+
+### 11.7 Water and drain protection
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SAF-060 | The drinking-water supply shall be protected against backflow from the machine according to EN 1717 for the highest fluid category present (wash water, food, detergent: category 5 → air gap or equivalent), as also required by EN 61770. | Protection of the house and public water supply. | M | R, T | B12 |
+| SAF-061 | Waste water shall not flow or siphon back from the drain into the machine. | Sewage into a food machine. | M | T | B12 |
+
+### 11.8 Regulatory awareness
+
+The machine is first built as a prototype for private use (AS-13); formal conformity assessment is a non-goal
+(NG-07). It shall nevertheless be designed so that nothing precludes later conformity. Classification is to
+be confirmed by a regulatory expert (OQ-15).
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| REG-001 | Designers shall apply, as design guidance, the essential safety requirements of the Low Voltage Directive 2014/35/EU with EN 60335-1 and the relevant parts (-2-5 dish washers, -2-6 hobs and ovens, -2-14 kitchen machines, -2-24 refrigerating appliances, -2-31 range hoods), and those of the Machinery Directive 2006/42/EC / Machinery Regulation (EU) 2023/1230 (applicable from 20 January 2027) for the mechanical hazards, whichever is stricter per hazard. | Household appliances fall under the LVD and are excluded from machinery legislation, but this machine has hazards (autonomous motion, cutting, unattended remote operation) that the appliance standards do not fully cover. | M | R | drv |
+| REG-002 | EMC Directive 2014/30/EU; Radio Equipment Directive 2014/53/EU if radio is used; RoHS 2011/65/EU; General Product Safety Regulation (EU) 2023/988; Cyber Resilience Act (EU) 2024/2847 — to be observed as design guidance. | Awareness. | S | R | drv |
+| REG-010 | Every Zone F material shall comply with Regulation (EC) 1935/2004, plastics with Regulation (EU) 10/2011, and be produced under Regulation (EC) 2023/2006; a supplier declaration of compliance for the intended use (temperature, fatty/acidic food, repeated use) shall be on file for every Zone F part in the BOM. | Food-contact materials. | M | R | B6 |
+| REG-011 | Fluorinated non-stick coatings (PTFE/PFAS) should be avoided. | Pending restrictions; coating wear under machine cleaning. | S | R | drv |
+| REG-012 | Hygienic design shall follow EN 1672-2 and EN ISO 14159 (and EHEDG guidelines 8 and 13 as practice). | Basis of section 7. | M | R | B6 |
+| REG-013 | Materials in contact with drinking water shall be approved for it in the country of installation. | Water quality. | M | R | B12 |
+| REG-014 | No food waste shall be macerated into the drain; waste-water discharge shall respect UTL-003 and WSH-016. | Municipal waste-water rules. | M | R | B12 |
+
+### 11.9 Security and data privacy
+
+| ID | Requirement | Rationale | Prio | Verif. | Trace |
+|----|-------------|-----------|------|--------|-------|
+| SEC-001 | The online product look-up shall transmit only the product number and what the protocol technically requires; no user identity, location, inventory, consumption or household data. Look-ups are cached (ING-004) and the database's terms of use and licence observed. | Shopping data reveals health, religion and habits. | M | I (traffic inspection) | B10 |
+| SEC-002 | Household data (inventory, meals, profiles, allergy information, records) shall be stored locally and leave the home only after explicit opt-in per purpose; the user can export and delete all of it. | GDPR principles; allergy data is health data. | M | I, D | drv |
+| SEC-003 | Cameras shall view only the machine interior and items; images stay local; no microphone is active without opt-in. | Privacy at home. | M | I | drv |
+| SEC-004 | The system shall be fully usable without any cloud account. Remote access shall be authenticated and encrypted; no default passwords; no service reachable from the Internet unless the user enables it. | Lifetime of 10 years outlasts cloud services. | M | I, T | drv |
+| SEC-005 | No command from the network shall be able to override a safety function; remote start of heating requires the local safety conditions to be met and verified by the machine. | A hacked cooker is a fire hazard. | M | A, T | drv |
+| SEC-006 | Software updates shall be authenticated and installed only with user consent (CTL-020). | Integrity. | M | D | drv |
+
+---
+
+## 12. Assumptions, non-goals, open questions
+
+### 12.1 Assumptions
+
+| ID | Assumption |
+|----|------------|
+| AS-01 | The machine occupies its own stretch of kitchen wall and replaces the conventional kitchen there; it contains no worktop, hob or sink for human use. |
+| AS-02 | Installation in the EU (first: Germany): 230 V / 50 Hz, protective earth, 30 mA residual-current device, metric threads and EN standards. "220 V" in the brief means the nominal 230 V mains. |
+| AS-03 | One 16 A circuit is available for the machine alone (UTL-010). |
+| AS-04 | Cold-water valve and drain are within or directly beside the machine's length, as for a sink or dish washer. |
+| AS-05 | No ducted exhaust to the outside (ENV-010). |
+| AS-06 | Internet through the home router, not guaranteed to be always on. |
+| AS-07 | Users are cooperative adults who follow loading instructions; children may be near the machine unsupervised. |
+| AS-08 | Wiping the exterior fronts is acceptable as ordinary housekeeping, not as "cleaning the machine" (HUM-008). |
+| AS-09 | Food is bought in European supermarkets, packaged as described in `research/07-ingestion-packaging.md`. |
+| AS-10 | "Traditional meals" as defined in MEAL-001. |
+| AS-11 | A defined dish set belongs to the machine (SRV-016). Cutlery and glasses are kept and laid by the human and washed in the dish washer. |
+| AS-12 | Reference household: 4 persons, 3 meals per day from the machine. |
+| AS-13 | One-off prototype for private use; designed to the standards named, not formally certified. |
+| AS-14 | Heated indoor room, domestic floor, water hardness up to 25 °dH. |
+| AS-15 | The human carries waste from the machine's containers to the household bins. |
+| AS-16 | The machine may choose where and how each product is stored; users do not need to find food in it except through UC-18. |
+
+### 12.2 Non-goals
+
+| ID | Non-goal |
+|----|----------|
+| NG-01 | Beverages: coffee, tea, juices, smoothies, cocktails; storing and chilling drinks. |
+| NG-02 | Laying and clearing the table; carrying dishes between hatch and table. |
+| NG-03 | Handling cutlery, glasses and the household's other crockery inside the machine (apart from washing what the human loads into the dish washer). |
+| NG-04 | Buying food: the system produces a shopping list (CTL-016) but does not order or receive deliveries. |
+| NG-05 | Manual cooking by humans in or on the machine. |
+| NG-06 | Commercial throughput, restaurant or canteen use, meals for more than 6 persons in one run. |
+| NG-07 | Formal certification or CE marking in this project. |
+| NG-08 | Cleaning the room, the exterior fronts, or anything outside the machine. |
+| NG-09 | The capabilities excluded in section 5.4. |
+| NG-10 | Guaranteed allergen-free or medically prescribed diets; infant food preparation and sterilisation. |
+| NG-11 | Pet food; non-food items; medicines. |
+| NG-12 | Operation outdoors, in vehicles, or in unheated rooms. |
+
+### 12.3 Open questions for the customer
+
+Designers shall use the **default** until the customer decides; the design shall not preclude the alternative
+where the last column says so.
+
+| ID | Question | Default assumption for the design | Keep alternative open? |
+|----|----------|-----------------------------------|------------------------|
+| OQ-01 | Is only one 230 V / 16 A circuit available, or may a three-phase cooker connection (400 V, 3 × 16 A) or a second circuit be assumed? | One circuit, 3.5 kW, with power management (UTL-010, -011). Time targets at M level are for this case. | Yes: UTL-012. |
+| OQ-02 | Is a ducted exhaust to the outside available? | No: recirculation with grease separation, odour filter and steam condensation (ENV-010, -011). | Yes: ENV-014. |
+| OQ-03 | Dishes: literally as in the brief (human loads the dish washer, later puts clean dishes at the hatch), or may the human simply return *used* dishes at the hatch and the machine washes and stores them? The second removes two human steps and an uncontrolled input of possibly unclean dishes. | Literal brief (WSH-001, SRV-014, SRV-015). | Yes: the hatch and the transport shall not preclude accepting used dishes. |
+| OQ-04 | Number of persons and meals per day. | 1–6 persons per meal; sized for 4 persons × 3 meals/day. | — |
+| OQ-05 | The brief says every package is cut open at ingestion. For tins, jars, UHT cartons, vacuum packs and dairy tubs this shortens the shelf life from months to days. May such packages be stored sealed and opened by the machine at first use? | Yes: two routes, decant or stow sealed (ING-018). | If the customer insists on decant-only: CAP-010's 14- and 21-day autonomy no longer applies to those products. |
+| OQ-06 | Version A: must the user be able to tip a jumbled pile of packages into the container, or is placing items one by one (about 3 s each, no orientation) acceptable? | One by one is the minimum; jumbled pile is the target (INA-001). | Yes. |
+| OQ-07 | How much supermarket pre-processing of ingredients is acceptable (minced meat, fillets, pre-cut Rouladen slices, frozen chopped onions, ready pastry sheets)? It decides whether several hard operations are needed at all. | As MEAL-012: basic processed forms allowed, characteristic components made by the machine; peeling and cutting of fresh produce required. | — |
+| OQ-08 | Is wiping the exterior fronts by the human acceptable? | Yes (AS-08). | — |
+| OQ-09 | Is it acceptable that the human empties waste containers about twice a week and refills consumables about monthly (section 7.8)? | Yes. | — |
+| OQ-10 | Cost target for the parts. | ≤ EUR 25 000 for the MVC (BLD-004). | — |
+| OQ-11 | Available wall length and corner geometry in the target kitchen. | Straight ≤ 3 600 mm for the MVC; L optional with legs ≥ 1 200 mm. | — |
+| OQ-12 | Which cuisine defines "traditional meals"? | Central European home cooking plus established international everyday dishes (MEAL-001). | — |
+| OQ-13 | May the machine prescribe its own dish set, or must it handle the household's existing dishes? | Defined dish set of commercially available dishes (SRV-016). | — |
+| OQ-14 | Leftovers: discard, offer as second helpings, or store for later meals? | Second helpings for 30 min, then discard; storing is optional (SRV-021). | Yes. |
+| OQ-15 | Is the machine ever to be sold or installed for third parties (certification, liability)? | No: private prototype, designed to the standards (section 11.8). | Yes, by design to standards. |
+| OQ-16 | Should the machine also serve breakfast and cold meals (bread, cold cuts), and handle bread (bought loaf, slicing) or bake it? | Breakfast egg dishes, porridge, salads and cold plates yes; slicing a bought loaf S; baking simple bread S. | — |
+| OQ-17 | Items larger than a box (leek, whole cabbage, melon, a 3 kg roast): cut by the human before ingestion, or out of scope? | Accepted up to Ø 220 mm × 350 mm (INB-004) and cut by the machine on the way into boxes (S); larger items rejected. | — |
+| OQ-18 | Are the noise limits and quiet hours of section 6.5 acceptable (open-plan living)? | As NOI-001 to -005. | — |
+| OQ-19 | Is remote ordering from outside the home and any cloud service wanted? | Local operation; remote access optional and opt-in (UI-001 c, SEC-004). | Yes. |
+| OQ-20 | Must the household be able to take food out by hand (snacks, fruit), i.e. is the machine also the household's only fridge and pantry? | Yes, via "present a box" (UC-18, UI-009); not designed for frequent snack access. | — |
+| OQ-21 | Raw and rare dishes (tartare, soft eggs, rare minced meat): offer at all? | Only after explicit opt-in (FSF-024). | — |
