@@ -397,7 +397,7 @@ repeated. All times [E]. T_lim is the PERF-001 limit (1.15 × T_ref + 10).
 |---|---|---|
 | 0 | C sets braiser with cradle on P4, 4 L pot on P3, 2.5 L pot on P2. Red cabbage half docked onto K: CHOP out the core wedge (two oblique-free cuts: the stalk end is cut off as a 40 mm slab, accepted loss 10 %), CHOP 2 mm shreds, SLING + NOSE into P3 with fat; apple eighths and peeled onion diced (slab–strip–chop, 10 mm), into P3; vinegar, wine, sugar, spices by cups | K; P3 |
 | 12 | Onion for the filling diced 5 mm, gherkins CHOP into spears (as poured, lengthwise: CHOP cannot cut along X; spears are quartered gherkins bought, or slices are used: **adapted detail**), bacon block CHOP 3 mm slices; all parked in three cups by NOSE | K; 3 cups |
-| 18 | K retracted (washed). Beef block (tempered 30 min in the freezer airlock, request X7) on K?? K is in the wash: the block was sliced **before** the vegetables would breach "raw last". Resolution: Rouladen slices are bought cut (MEAL-012 a) and stored lengthwise; stack of 4 docked onto S, shingled by ENVELOPE shear; camera checks four separate slices | S |
+| 18 | K retracted (washed). Rouladen slices are bought cut (MEAL-012 a) and stored lengthwise; the stack of four is docked onto S and shingled by ENVELOPE shear; camera 1 checks for four separate slices | S |
 | 22 | Each slice: ENVELOPE flatten to 5 mm; mustard ribbon from the cup (C pours along Y while the mat jogs), spread by the smooth roller at 1 mm gap through a fold of the mat; bacon, gherkin, onion poured from the cups as a ribbon at the leading edge; small LOOP of 160 mm rolls it; loop opened, camera finds the seam, roll turned seam-leading; NOSE drops it seam-down into a cradle channel in the hot braiser | S; P4 |
 | 34 | Four (or eight) rolls seared seam-down 3 min; C sets the second GN pan on, inverts, cradle keeps the rolls; 3 min; back. Deglaze with wine and stock from cups, tomato paste puck, lid on. P4 at 95 °C for 100 min, turntable 2 rpm | P4 |
 | 40 | S retracted with steam. Potatoes docked onto R: LOOP rasp peel 5 min under spray; R retracted; potatoes on K: CHOP halves; NOSE into P2 with basket; water at t 125, boil 22 min | R, K; P2 |
@@ -407,11 +407,12 @@ repeated. All times [E]. T_lim is the PERF-001 limit (1.15 × T_ref + 10).
 Vessels: braiser + cradle + GN pan, two pots, basket, lids, 5 cups, tray, jug (13). Mats: K, S, R, K.
 Moves: 46. Soiled: K, S, R, smooth roller, disc roller 10 and 5, blade, all listed vessels.
 Weak points: the seam (SM-084), shingling a bought stack (L), gherkin spears (no lengthwise cut).
-Without shingling, the fallback is own slicing from a block at the very start of the meal on K, with K
-steam-disinfected... K cannot be steamed (UHMW-PE softens): it is disinfected by an 85 °C rinse hold of
-60 s, which the gate can do with the mat stopped in three steps. This costs 4 min.
+If shingling fails, the fallback is own slicing from a tempered block (request X7) on K after all vegetable
+work (raw last). K cannot take the steam slot (UHMW-PE softens); after raw meat it is disinfected by
+stopping it three times for 60 s under the 85 °C rinse (A0 ≥ 60), which costs 4 min. Self-cut slices come
+out with their long side along Y and need the turn plate (2.6) before rolling: 40 s each.
 
-### B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat (4 persons) — **yes** (Bratkartoffeln from potatoes boiled the same hour: slightly adapted), 62 min (T_lim 45 for the Schnitzel row alone; the menu T_ref is driven by the potatoes, 50 min + cooling) 
+### B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat (4 persons) — **yes**, 62 min (no PERF-002 row; T_ref of the slowest component about 50 min, so T_lim about 68)
 
 | t | Step |
 |---|---|
@@ -461,9 +462,8 @@ the table (the mass leaves the bowl as a lump; 3–5 % stays, flushed later: **P
 borderline here**). LOOP fold and NIP in ENVELOPE, 50 cycles, 5 min. NOSE back into the oiled bowl; C
 carries it to the oven (32 °C, steam), 60 min. t 70: C tips the dough onto D; CHOP in two; each half sheeted
 by SHUTTLE to 4 mm, 380 × 290, 8 passes; NOSE onto the tray held by C at the table edge height. Tomato
-sauce (canned, seasoned in a 1.5 L pot at P2) poured by C in three ribbons, spread by the tray's own
-tilt?? — no: spread with the smooth roller? no, the tray is not on the table. **Spread by the wall-peg
-scraper held still while C moves the tray under it in X** (the tray is the moving part). Mozzarella CHOP
+sauce (canned, seasoned in a 1.5 L pot at P2) poured by C in three ribbons and spread by a wall-peg scraper that stays still while C moves the tray
+under it in X (the tray is the moving part; evenness M). Mozzarella CHOP
 10 mm dice on K, salami CHOP 2 mm, NOSE as a ribbon while C moves the tray in X under the nose; C pushes
 the tray into the oven (250 °C, 10 min). Second tray likewise. Vessels 5, mats D, K; moves 34.
 This is the concept's home ground: kneading, sheeting and transfer of a tray-size sheet are all H if the
@@ -485,12 +485,10 @@ roller swaps per batch (smooth ↔ disc 10), 20 s each.
 t 0: potatoes on R (peel 3 min), onto K so that they lie along Y, CHOP 10 mm planks, planks fall flat,
 CHOP 10 mm sticks (70 s); NOSE into the bowl with 10 mL oil and brine, tossed under the scraper 20 s; C
 tips them onto the tray, shakes it level in X, into the oven at 220 °C, 25 min; C pulls the tray at 12 min
-and shakes it. t 8: lettuce head on K, CHOP 40 mm strips both… only across X; the head is cut into 40 mm
-slices, which fall apart into strips: accepted. Tomato wedges, cucumber slices, carrot (disc roller 5 mm
+and shakes it. t 8: lettuce head on K, CHOP 40 mm slices (cuts only across X; the slices fall apart into strips). Tomato wedges, cucumber slices, carrot (disc roller 5 mm
 after rasp), pepper halves deseeded on P. Leaves washed and spun at P1 (3 min). Vinaigrette in the beaker
 with the small whisk (oil, vinegar, mustard puck, brine). Toss in the bowl at serving. t 30: steaks docked
-onto S, NOSE into the 28 cm pan at 240 °C on P2 (seasoned by brine mist from the cup? — salt from the
-seasoning cup tipped by C, uneven: M); 2.5 min; pan-pair flip; 2.5 min; core probe is **not available to
+onto S, NOSE into the 28 cm pan at 240 °C on P2 (salt from the seasoning cup tipped by C: uneven, M); 2.5 min; pan-pair flip; 2.5 min; core probe is **not available to
 K4** (no tool that can insert a probe; doneness by time, thickness from camera and pan temperature:
 COK-013 not met for steak — open issue 6). Rest on the warm tray 5 min. Vessels 7, mats R, K, P, S;
 moves 40.
@@ -556,7 +554,7 @@ quantity is not a problem for the mat (it has no minimum fill); it is one for th
 | | Result | Elapsed / limit (min) | Moves | Mats used |
 |---|---|---|---|---|
 | B1 Rouladen menu | yes (M: seam, shingling) | 170 / 183 | 46 | K S R K |
-| B2 Schnitzel menu | yes | 62 / — | 52 | P K P K S K |
+| B2 Schnitzel menu | yes | 62 / ~68 | 52 | P K P K S K |
 | B3 Frikadellen menu | yes | 48 / 50 | 38 | R K S D |
 | B4 Bolognese | yes | 78 / 96 | 30 | K S D |
 | B5 Pizza | yes | 95 / 113 | 34 | D K |
@@ -569,3 +567,175 @@ quantity is not a problem for the mat (it has no minimum fill); it is one for th
 | B12 Scrambled egg | yes | 9 / 17 | 12 | K |
 
 Mean 35 moves per benchmark. B3 has 2 min of margin: any repeat of a mat wash breaks PERF-002 b.
+
+---
+
+## 6. Cleaning
+
+### 6.1 Principle
+
+Three classes of surface, three methods:
+
+1. **The mats** (the only surfaces that see sticky food) are washed by being retracted through the gate.
+   Washing is part of the mat exchange, happens within 1–10 min of soiling (R11) and needs no ware handling.
+2. **The fixed Zone F parts of the mat line** (table, cheeks, rollers E and L, bar B, blade, dock pour
+   edge, dump port) are flat plates and plain cylinders. They are rinsed by fixed fan nozzles after every
+   mat retraction (10 s, cold) and washed hot once at the end of the meal (HYG-033).
+3. **Everything else that touches food is loose ware with a tab** (vessels, lids, baskets, cups, rollers,
+   scrapers, spindle tools, spiders) and leaves through the vessel port to the washing module.
+
+### 6.2 The gate (mat wash)
+
+Sequence seen by a point of the mat during retraction at 25 mm/s, top to bottom:
+
+| Stage | Length | What | Medium |
+|---|---|---|---|
+| Doctor lip at bar B, then scraper lips at the gate mouth | — | gross soil to the dump port / strainer | — |
+| Pre-rinse | 30 mm | 2 fan nozzles per face, cold mains 3 bar | 0.3 L per pass, to drain |
+| Detergent | 120 mm (5 s) | 2 × 5 fan nozzles at 40 mm pitch per face, 55 °C, recirculated from a 2 L sump through a strainer | sump renewed twice per meal |
+| Rinse | 40 mm | fresh water 85 °C, 2 nozzles per face; runs into the sump | 0.5 L per pass |
+| Steam slot | 100 mm (4 s) | saturated steam both faces; a 1 mm silicone mat reaches > 90 °C: A0 > 60 [F] | 30 g per pass |
+| Squeegee lips | — | silicone lips close on both faces | — |
+
+Every square centimetre passes every nozzle row at 40 mm distance, so coverage is by construction for
+the two faces; it is **not** by construction for the flap-lip root, the hem pocket and the mesh and rasp
+apertures (6.5). A 2.5 m mat takes 100 s per pass. If camera 1 sees a film when the mat is next drawn
+out (the mat is a flat known surface under a top-down camera: the best inspection geometry a kitchen
+part can have), the mat makes a second pass with the sump at 65 °C.
+
+Mat K (UHMW-PE) and the mesh P skip the steam slot below 100 °C limit concerns: K is limited to the 85 °C
+rinse; after raw meat it is held three times for 60 s in the rinse stage (A0 ≥ 60 at 80 °C). P and R take
+steam.
+
+**Drying.** A silicone or steel mat leaves the steam slot at about 90 °C and the squeegee takes the film;
+it is wound warm. That is not proof of dryness: a wound roll cannot dry. At the end of the meal each used
+mat is drawn out once into the cell air (extraction fan on, oven waste heat, about 40 °C) for 3 min and
+rewound, and the cassette bay is ventilated. Whether this meets HYG-024 for the lip roots and the hem is
+open (risk R2).
+
+### 6.3 Surface inventory (HYG-010)
+
+| Surface | Zone | Area m² [E] | Soiled by | Cleaned by | Frequency | Dries by | Verified by |
+|---|---|---|---|---|---|---|---|
+| Mats K, S, D, P, R, both faces | F | 2.0 each (0.4 × 2.5 × 2) | everything | gate | every retraction | own heat, airing run | camera 1 on the drawn-out mat; gate temperature, flow, conductivity |
+| Table top with soft anvil strip | F | 0.14 | leakage past the lips, all drips through P and R | arm B lifts the mat off; spray bar above the table, 55 °C then 85 °C | rinse per retraction, wash per meal | 3° slope, warm air | camera 1 |
+| Cheeks (2) | F | 0.19 | loop contents, rasp slurry | 4 fan nozzles each | as table | vertical | camera 1 (oblique), coupon |
+| Rollers E and L with flanges | F | 0.09 | mat back, edge soil | fixed nozzles while turned by the mat | per meal | warm air | parameters only |
+| Bar B with key slot and doctor lip | F | 0.07 | soiled face of the mat is wound onto it | parked in front of 3 nozzles, spinning | per retraction (cold), per meal (hot) | spin 300 rpm | camera 1 |
+| Blade beam, both faces, and its front guide slot | F | 0.06 | every cut | 2 × 3 nozzles at the raised position; 85 °C | rinse after each cutting job, wash per meal | vertical | camera 1; edge check PRP-035 |
+| Dock pour edge and box grip | F | 0.03 | powders, drips | wiped by the rinse of the table bar; box lips are box ware | per meal | air | camera 1 |
+| Dump port, strainer basket | F/S | 0.10 | waste, pot water | flushed by the sump drain; basket is ware | per meal | — | level sensor |
+| Spindle nose and drip collar | F | 0.01 | splash | one nozzle | per use | spin | — |
+| Loose ware with tabs (36 items, 8–14 per meal) | F | 1.5–2.5 per meal | food | washing module | per use | washing module | washing module |
+| Gate interior, sump | S | 0.5 | wash water | own spray; sump drained and flushed | per meal | drained | turbidity |
+| Hob deck, collars, spiders' seats | S | 0.6 | boil-over, fat spatter | two deck nozzles per position; spiders to the washer | daily, and ≤ 1 h after a boil-over | 2° slope to the front gutter | camera 2 |
+| Back wall and gallery with arm links, roller and blade arms | S | 2.3 | splash, flour dust, fat aerosol | 2 rotating tank-wash heads + 6 fan nozzles | daily | warm air | riboflavin self-test weekly (SM-207) |
+| Door inner face, side walls, ceiling, oven underside, hood | S | 4.4 | aerosol, steam condensate | the same rotating heads | daily | warm air | as above |
+| Cassette bay | S | 0.5 | drips from the gate | one nozzle bar | daily | ventilated | — |
+
+Zone F fixed: **0.69 m²**. Zone F mats: 10 m² installed, 6–8 m² passed per meal. Zone S: **8.3 m²** — large,
+because the hob row is inside the cell and open to it. HYG-002 would favour a partition between the mat
+bay and the hob bay; the SLING crosses exactly there, so the partition can only be an air curtain
+(extraction above P1/P2 draws bay air towards the hobs).
+
+### 6.4 Water, energy, time per meal [E]
+
+| Item | Water L | Energy kWh | Time min |
+|---|---|---|---|
+| Gate: 5 retractions (mean of the benchmarks: 3.4 mats, 1.5 repeats) | 1.5 pre-rinse + 4 sump + 2.5 rinse = 8 | 0.45 | 8, of which about 6 parallel to cooking |
+| Fixed Zone F rinse and end-of-meal wash | 4 | 0.2 | 4 |
+| Zone S daily wash (half per meal at two meals a day) | 3 | 0.15 | 5 |
+| Airing run of the mats | — | 0.05 | 6 |
+| **In-cell total** | **15** | **0.85** | **cell clean and ready 12–15 min after the last food contact** |
+| Ware through the washing module (one chamber load [R6]) | 17–20 | 1.3 | 55–75 (other module) |
+| Produce washing and rasp peeling (process water, not cleaning) | 4–8 | — | — |
+
+With cooking water (2–6 L) the meal is at 40–48 L against RES-005 (45 L M, 30 L S): **at the limit**, and
+the mat wash is not the large item; the chamber load is.
+
+### 6.5 Crevices, seals and spray shadows — named
+
+1. **Flap-lip root** on every mat: a re-entrant corner of about 45°, folded flat when wound. Reached by the
+   fan jets only when the lip stands up; the gate has a plough that lifts it. Unproven.
+2. **Hem pocket and the key slot of bar B.** The mat is clamped in the slot while in use; soil can be
+   pressed into it. Washed only when the mat is parked. The first 300 mm of each mat is therefore a leader
+   that never carries food.
+3. **Mesh P**: every crossing of a woven, coated mesh is a crevice pair; fibres of leek and meat lodge in
+   4 mm apertures. Spray from both faces helps; I expect P to be the mat that fails HYG-020 first.
+4. **Rasp R**: burr undersides hold potato starch; starch dries hard. R must be retracted within 2 min.
+5. **Soft anvil strip**: a bonded joint line in the table, under the mat, in the wettest place.
+6. **Blade back joint and front guide slot**: the beam slides in a slot of the front frame; the slot is
+   Zone S 20 mm from Zone F.
+7. **Disc-knife roller**: discs, spacers and stripper comb are a stack of crevices. It is ware and must be
+   washed assembled; whether a chamber washer cleans between discs at 5 mm pitch is doubtful. Alternative:
+   a one-piece machined roller (custom, costly).
+8. **Bar joint seal of arm B**, 40 mm from the mat edge, and the elbow seals: dynamic seals in the splash
+   zone that move through the whole cell (X11).
+9. **PEEK forks of the roller arm** and the iglidur bushes of E and L: wet plain bearings.
+10. **Underside of the mat against the table**: a wet film is trapped there during work; it is rinsed only
+    at retraction.
+11. **Shoe and tabs**: dovetail faces; fat aerosol. Tabs are washed with the ware, the shoe by a nozzle.
+12. **Gallery gutter** behind the back cheek: collects everything that runs off the table slope; 60 mm
+    wide, straight, flushed from one end.
+13. Spray shadows: behind the arm links when parked (they are moved during the wash), the upper side of
+    the roller and blade arms, the oven-mouth lip, the cup bracket.
+
+### 6.6 Class R against ready-to-eat; washable mat against disposable web
+
+Within one meal, class R food goes on mat S (sticky work) and, for cutting, on K **after** all RTE cutting;
+RTE and dough go on D and K. The S mat is steam-disinfected at every retraction, so FSF-040 is met by
+separate instances for the sticky work and by sequence for cutting. A recipe that needs RTE cutting after
+raw meat cutting (garnish at the end is the common case: herbs, lemon) waits for the 4 min disinfection of
+K or uses the sixth cassette position for a second K (+€130). The fixed parts (table, cheeks, blade, bar
+B) are shared by R and RTE: they get the 85 °C wash between the last R job and the next RTE job. This
+costs 4 min and is the weakest point of the R/RTE argument: **the blade and the cheeks are single
+instances.**
+
+Disposable web: a roll of baking paper (400 mm × 50 m) in the sixth cassette position can be drawn out
+over mat S as an interleaf; used paper is torn at the gate scraper and wound by bar B into the dump port.
+It gives certainty for mince and breading (the mat stays clean, nothing to verify), costs about 0.6 m per
+class R job (3 ct), and a 50 m roll lasts about 80 jobs, i.e. 6–10 weeks — a refill more often than
+HUM-004 likes but within 30 days only for light users. It cannot be cut on, it tears in LOOP kneading
+when wet, and it is a consumable the brief does not foresee. Verdict: not in the baseline; it is the
+fallback if experiment R1 or R2 fails for mince, and then only for ENVELOPE and NOSE work.
+
+### 6.7 Mat life and replacement
+
+Reference use (2 meals a day): K about 700 draws and 60 000 blade landings a year; S and D about 450 draws
+each, 50 000–150 000 flex cycles over Ø 30–40 bars [E]. Expected life [E, unproven]: silicone on aramid 1–2
+years (glass fabric is likely to crack at this bend radius: aramid or a Ø 40 minimum is preferred);
+UHMW-PE 6–12 months until the scored band under the blade line no longer passes HYG-020 (the scoring
+is spread over the mat length because the mat jogs); mesh and rasp 1–2 years. Odour (HYG-025): onion and
+garlic touch K (polyethylene, low uptake expected [K, to verify]); mustard, mince and curry paste touch S;
+D never sees them. Silicone S is aired after every steam pass; no bake-out is possible in the cassette.
+
+Replacement by the human: open the door, quarter-turn latch, pull the cassette off its spline, push the
+new one on, lay the hem rod in its park fork. 2 min per cassette, no tool; all five once a year, K a second
+time after six months: within HUM-007 (≤ 2 × per year, ≤ 15 min). Mats €40–160 each; €570 per set [E].
+
+### 6.8 Peelings and scraps
+
+Everything unwanted ends at the dump port: by NOSE (peel slurry from R, cores, trimmings, heels),
+through the mesh P onto a waste bowl on P1, by the gate scrapers into the strainer, or poured by arm C.
+The strainer basket (3 L) under the table drains to the waste pipe; the basket is ware with a tab and
+leaves through a low hatch to the organic-waste handling of the architecture (request). Peel slurry
+from the rasp is wet and starchy: it must be flushed the same minute.
+
+---
+
+## 7. Numbers
+
+| Quantity | Value [E] | Note |
+|---|---|---|
+| Wall width | **1 560 mm** | mat bay 380 + hob bay 1 180; oven above P3/P4; 600 deep, 2 000 high. Without the hob row (F's scope): 760 |
+| Actuators (motion) | **26** | mat line 11 (5 cassette reels, arm B 3, roller arm, blade arm, gate lips); spindle 2 (crank, spin); turntables 4; arm C 3; dock 3 (tilt, lid, vibrator); egg module 3 |
+| Other switched devices | 22 | 14 valves, pump, heater, steam generator, extraction fan, 2 EPM, release-spray pump, oven |
+| Rotary passages | 17 in walls and deck, 5 on the arms | section 2.5 |
+| Custom part types | about 48 | arms 9, cartridges 3, table, cheeks 2, cassette parts 6, gate 7, rollers 4, blade beam 2, spindle crank 4, deck and collars 3, spider, shoe, tabs 2, dock 4 |
+| Loose ware | 36 items, 22 types | 2.4 |
+| Parts cost | **about €16 000** ± 30 %, without the oven (€1 500) | arms and drives 3 700; cassettes and mats 1 400; roller, blade, gate, tools 1 100; spindle 650; hob row 2 000; shoe 250; dock and egg 850; wash system 1 200; structure 1 800; ware 1 100; control, cameras, sensors 1 600; hood 300 |
+| Peak power | 11 kW managed (hobs ≤ 7.4, oven 3, wash heater 3, steam 2, not all at once) | DEC-1 |
+| Noise sources | blade landings 3/s (est. 62–66 dB(A) through the door), whisk and blender, P1 spin at 500 rpm, steam slot, pump, extraction | chopping ≤ 2 min per meal; within NOI-003 on paper |
+| Handling moves per meal | 35 (benchmarks 12–52) | arm C moves + mat exchanges + dockings |
+| Mat strokes per meal | 300–900 | not counted as handling; each is a wind/unwind |
+| Zone F fixed / Zone S | 0.69 m² / 8.3 m² | 6.3 |
