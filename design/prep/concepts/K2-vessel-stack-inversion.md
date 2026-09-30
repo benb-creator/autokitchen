@@ -31,9 +31,10 @@ round-to-GN transition plate was added (without it nothing gets from a pot onto 
 
 **Result in one paragraph.** A cabinet 1600 wide × 600 deep × 2000 high holds the whole cell including
 four heated positions, a sideways built-in combi-steam oven, the washer and the ware rack. 21 motion
-actuators, 76 loose ware pieces of 50 types, parts cost about EUR 24 000 [E, ±35 %]. Ten of the
-twelve benchmarks run (two of them as adapted methods), two are marked "yes, test pending" on one
-untested step each. Estimated corpus coverage is **91 % (range 88–93 %)**, below the 95 % target: the
+actuators, 76 loose ware pieces of 50 types, parts cost about EUR 24 000 [E, ±35 %]. Eleven of the
+twelve benchmarks run as "yes" (three of them with a test pending on one step), one (Rouladen) as an
+adapted method. Estimated corpus coverage is **89 % (220 of 248; range 86–92 %)**, below the 95 %
+target: the
 concept has no way to pick one piece up and put it down oriented, which costs the open-hand assemblies
 and the stuffed vegetables. It is strongest exactly where the catalogue expected (flip, unmould, drain,
 dice, mash, enclosed breading, no seal in any washed part) and weakest in traffic through one carriage
@@ -326,3 +327,512 @@ Time is for the 4-person quantity. "Moves" are Wender pick-and-place cycles.
 | Deglaze, baste, glaze (DGL, BST, GLZ) | deglaze by tip-in; baste by flipping the piece in its own fat; glaze as a paste stripe | | 2 | M | true basting is not possible |
 | Spin-spread batter (PTH) | pan on the K/H turntable, batter tipped in by weight, 150 rpm for 2 s | 10 s | 0 | M–H | — |
 | Proof (PRF) | dough in its lidded pot on F2 held at 32 °C | | 1 | H | — |
+
+## 5. Benchmark walk-throughs
+
+Conventions: t in minutes from the order; "→" a Wender move; "flip" a rim-to-rim inversion; "tip" a
+tip-in at K/H; onions and garlic arrive peeled (section 4.2 of the catalogue, assumption 1); opened
+vacuum or MAP packs arrive from ingestion (request R3). Moves are counted per step in brackets. A move
+averages 9 s, so 60 moves are 9 min of carriage time. Limits are PERF-001: 1.15 × T_ref + 10 min.
+
+### B1 Rinderrouladen, Rotkohl, Salzkartoffeln (4 persons) — **adapted**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Red cabbage head (1 kg) tipped from its box into S250 over the slicer disc clipped on a tall pot; follower; 300 rpm; shredded whole, **core included** | K/H; TP1, S250, SLC | 5 |
+| 3 | Apple through the wedge-and-core disc, then with one onion through the 10 mm grid into a beaker | K/H; WDG, S90, grid, CP90, SWK, BK1 | 8 |
+| 6 | Lard cubes, vinegar, wine, sugar, salt, spices dosed at the dock; TP1 to S1, scraper lid; all tipped in cold (no separate sweating: reordered) ; simmer 90 min, lid turning at 10 rpm | dock, S1; BK2, SB1, SCR250 | 6 |
+| 8 | Four slices lifted one by one with the cold sheet, freed by the induction pulse on F1, flipped onto the apron in the rolling tray (two lanes) | F1; T20c, T65a + apron | 4 × 4 |
+| 12 | Mustard stripe, then a row of bacon cubes, onion dice and gherkin dice (gherkins from the jar through the basket and the grid) laid while the tray travels under the fork | K/H; cartridge, S90, BK3 | 8 |
+| 16 | Apron hem hooked on the bar, 250 mm X stroke, two rolls drop into channels 1–2 of the trough insert; repeat for slices 3–4; camera check, a loose roll is rolled again | shaft; T65a, trough A | 6 |
+| 22 | Rolling tray with trough on F1, 15 mL oil, 220 °C, 3 min; second trough tray preheated on F2; flip; 3 min | F1, F2; T65b, trough B | 4 |
+| 30 | Tray to K/H: tomato paste, wine, stock tipped in (fork load pins); braiser lid on; oven 160 °C, 100 min | K/H, oven; BK4 | 5 |
+| 95 | 1 kg potatoes tipped into the rasp sleeve, peeled 2 min, slurry pot emptied at the seat; potatoes through the wedge disc (quarters) into the basket | K/H; S250r, RSP, P1, WDG, BS1 | 9 |
+| 105 | Basket into P2 with 1.5 L salted water on K/H; boil 20 min | K/H; P2 | 2 |
+| 130 | Tray out of the oven; braising liquid poured off by partial inversion through the GN rack into a beaker; beaker on S1 after the cabbage pot moved to F2; flour slurry tipped in; SCR160 stirs 5 min | S1, F2; BK5, SCR160 | 7 |
+| 128 | Basket lifted, 20 s drip, set into a warm lidded pot on F1; potato water out by the drain stalk | K/H; P3 | 3 |
+| 140 | Hand-over: trough tray, cabbage pot, potato basket, sauce beaker to the serving port | | 4 |
+
+Elapsed **about 145 min** plus serving (limit for the corpus menu with dumplings 183). Moves **about
+83**. Soiled: 31 pieces (2 trough trays and inserts, apron, cold sheet, braiser lid, TP, 3 P, 5 BK, SB,
+BS, S250, S250r, RSP, SLC, WDG, grid set, S90, 2 scraper lids, cartridge nozzle, 2 collars, 2 couplers).
+Adapted because: untied rolls held by channels, diced instead of sliced bacon, cabbage core shredded in,
+onions of the cabbage not sweated first. Three steps are L–M and chained (slice pick-up, rolling, untied
+braise); first-time success of the whole chain is guessed at 60–70 %.
+
+### B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat (4) — **yes, tests pending**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 1 kg small potatoes rasp-peeled, into the basket, boiled 18 min in P1 | K/H; S250r, RSP, P1, BS1, P2 (slurry) | 9 |
+| 3 | Cucumber through S60 over the slicer (2 mm) into BK1; vinegar, oil, sugar, salt, frozen dill, sour cream dosed into BK2; tipped onto the slices at the dock; pair tumbled 4 turns; rests | K/H (2 min, potatoes moved to S1 meanwhile), dock; BK1, BK2, S60, SLC, SB1 | 8 |
+| 8 | Onion through the grid; bacon cubes dosed | K/H; grid set, BK3 | 5 |
+| 12 | Flour on T20a (sieve collar), two eggs cracked, whisked, strained, poured on T20b; crumbs on T65c | dock, K/H; EGG, SB2, WSKs, RIC | 9 |
+| 22 | Potatoes: basket lifted, cold flush at the seat 60 s, sliced 5 mm on the slicer into P3 (crumbling expected: 10–15 % broken, M) | K/H; SLC, S160 | 5 |
+| 25 | Slices and bacon into T65a on F1, 170 °C, 20 min; flipped into T100 (preheated on S1) at 30, 35, 40 min, onion added at 35 (tip at K/H) | F1, S1; T65a, T100 | 8 |
+| 28 | Cutlets (bought thin; otherwise platen 1.5 kN between folders) tipped from the opened pack onto the flour tray, shaken flat, camera | dock; T20a | 3 |
+| 30 | Breading by flipping: flour → rack → egg → rack → crumb, platen press 40 N; two cutlets per pass, two passes | shaft, K/H; rack, T20b, T65c, PLG | 2 × 9 |
+| 36 | T65b on F2 with 100 mL clarified butter at 165 °C; cutlets flipped in from the crumb tray (gasket frame in the joint); 3 min; flipped onto the hot rack-tray T65d (fat drains through the rack), 3 min in T65d; second pair | F2; T65b, T65d, gasket frame | 2 × 4 |
+| 50 | Hand-over | | 4 |
+
+Elapsed **about 52 min** (limit 67). Moves **about 77**. Soiled: 33 pieces; **all seven GN trays are
+in use**, so this meal defines the tray stock. Untested: cutlets landing flat from the pack, crumb
+coverage at the edges, slicing warm boiled potatoes, 100 mL of hot fat in a flipped pair (the gasket
+frame is silicone, 230 °C rated; the fat is poured through the rack into a pot before the second flip).
+
+### B3 Frikadellen, Kartoffelpüree, Erbsen-Möhren (4) — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 800 g potatoes rasp-peeled, basket, boil 22 min in P1 on S1 | K/H then S1; S250r, RSP, BS1, P1, P2 | 9 |
+| 4 | Carrots rasp-peeled with the potatoes' second load, through the grid (10 mm) into BS2 | K/H; grid set, S90 | 5 |
+| 7 | Stale roll soaked in a beaker, pressed on the ricer disc by P160; onion through the grid; egg cracked; mustard from the cartridge; mince tipped from its pack into P3; all tipped in; kneading lid, 80 rpm, 3 min | dock, K/H; BK1, BK2, EGG, P3, KNL, RIC, P160 | 14 |
+| 14 | P3 inverted into S160 on the die disc; pan PN1 on the turntable; 8 pucks of 100 g cut by the sweep knife, four per pan (PN1, PN2), the pan indexing 90° | K/H; S160, DIE, SWK, PN1, PN2 | 8 |
+| 18 | PN1 on K/H, PN2 on F1, 160 °C, 5 min; PN3 preheated on F2; flip PN1 → PN3, then PN2 → PN1 (rinsed at the seat, reheated 60 s); 5 min; core 72 °C by probe through the lid | K/H, F1, F2; PN3 | 8 |
+| 22 | Carrots in BS2 in P4 with 0.4 L water, butter, sugar on F2 (after PN3 left), 8 min; frozen peas added through the dock into the basket at 27 | F2, dock; P4, BS2 | 4 |
+| 24 | Potatoes: basket lifted; P1 water out (lidded carry to the seat); butter and milk warmed in P1 on K/H; basket inverted into S160 on the ricer over P1; P160; SCR250 folds 1 min | K/H; S160b, RIC, SCR250 | 9 |
+| 33 | Hand-over | | 4 |
+
+Elapsed **about 37 min** plus serving: **at the 50 min limit with little margin**; K/H is occupied
+without pause from minute 0 to 28. Moves **about 61**. Soiled: 28 pieces. The die disc and the mince
+pot are class R and are rinsed at the seat before the ricer job; the ricer disc is used first for the
+bread (RTE), and a second instance is not in the kit: the mash uses the same disc after a seat rinse and
+a lathe cycle of 4 min, or the order is reversed (mash first, kept warm). This is a real scheduling
+constraint of the single-instance discs.
+
+### B4 Spaghetti Bolognese with grated cheese (4) — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Carrot and celeriac rasp-peeled; with onion through the grid into BK1; garlic unpeeled through the ricer | K/H; S250r, RSP, grid set, RIC, BK1 | 10 |
+| 6 | P1 on K/H: oil, mince tipped from the pack, seared 4 min, pot turning against the scraper lid; vegetables tipped in, 5 min | K/H; P1, SCR250 | 4 |
+| 16 | Tomato paste (cartridge), wine and stock tipped in. P1 moves to S1. The tin of tomatoes is opened on the now free turntable; it cannot be inverted onto the full pot (C4), so it is inverted into a beaker and that is tipped in at S1's neighbour K/H: P1 returns for 20 s | K/H, S1; can cup, BK2 | 9 |
+| 22 | Simmer 50 min on S1, scraper lid 10 rpm | S1 | 0 |
+| 25 | Parmesan block through S90 on the grater disc into the small beaker | K/H; GRT, S90, SB | 4 |
+| 45 | TP1 with 4 L water on K/H, boils at 55; 400 g spaghetti slid into the basket at the dock, basket lowered in; 10 min | K/H, dock; TP1, BS1 | 3 |
+| 66 | Basket lifted, 20 s drip; basket inverted into an empty warm pot P2; 100 mL pasta water kept in the tall pot for the sauce (drain stalk stops by weight) | shaft, K/H; P2 | 4 |
+| 70 | Hand-over; pasta water out by the drain stalk | | 4 |
+
+Elapsed **about 72 min** (limit 96). Moves **about 38**. Soiled: 19 pieces. The walk-through exposes
+C4 plainly: every one of the five additions to the sauce pot is a tip-in, and the tinned tomatoes need
+a beaker in between.
+
+### B5 Pizza from flour, two trays — **yes, tests pending**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 500 g flour, salt, sugar, dry yeast dosed into TP1 on the dock scale; water 320 mL and oil at K/H; kneading lid, 80 rpm, 8 min | dock, K/H; TP1, KNL, BK1 | 5 |
+| 10 | Lid on, F2 at 32 °C, 60 min | F2 | 2 |
+| 15 | Tinned tomatoes opened, blade stalk 10 s with salt and oregano in BK2; mozzarella diced through the grid into BK3; salami sliced on the slicer into BK4 | K/H; can cup, BLD, grid set, SLC, S90 | 12 |
+| 70 | Dough inverted into S160 on the die disc (gate open d 70), extruded, cut in two by weight (fork load pins) onto two oiled folders on T20a and T20b | K/H; S160, DIE | 6 |
+| 74 | Each sheet: folder closed, GN platen in three steps to 5 mm; top folder peeled by the Wender gripping its spine clip against the fork | K/H; PLG, folders | 6 |
+| 80 | Sauce as six stripes (beaker in the tip cradle, tray travelling in X), spread by one light platen stroke through a folder; cheese and salami from a coarse sprinkle collar in a shaken partial inversion through the transition plate | K/H, shaft; TRP, collar | 8 |
+| 86 | Oven 250 °C, both sheets on two levels (second shelf) or in sequence, 10 min each | oven | 4 |
+| 100 | Hand-over on the sheets (the pizza bakes on the lower folder or directly on the oiled sheet) | | 2 |
+
+Elapsed **about 100–110 min** (T_ref 90, limit 113). Moves **about 45**. Soiled: 20 pieces. Untested:
+sheeting 500 g of proved dough to 5 mm with 5 kN (springback; expected 5–7 mm and a rounded rectangle
+of about 280 × 300), peeling the folder, evenness of toppings (±30 % allowed). The base is rectangular
+and tray-baked, not a round stone-baked pizza; the corpus counts tray pizza as the home form.
+
+### B6 Gemüseeintopf from whole vegetables (6 persons) — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Carrots, parsnip, potatoes, celeriac half (1.6 kg together) rasp-peeled in two loads of 2 min | K/H; S250r, RSP, P1 | 8 |
+| 6 | Leek through S60 on the slicer (first and last cut to the waste beaker); tomatoes through the wedge disc; frozen cut beans and peas dosed (whole beans are not trimmed: bought cut) | K/H, dock; S60, SLC, WDG, BK1, BK2 | 8 |
+| 10 | Peeled roots through the grid in four loads into TP1 (it is the rotor and the soup pot) | K/H; grid set, S90, TP1 | 4 |
+| 15 | Oil; 5 min sauté with the pot turning against the scraper lid; 2.5 L stock from the quill and the dock; remaining vegetables tipped in; simmer 25 min | K/H; SCR250 | 4 |
+| 35 | Frozen parsley tipped in at 40; seasoning beaker | | 2 |
+| 42 | Hand-over in TP1 (8 kg: carried upright with a clamped lid) | | 2 |
+
+Elapsed **about 45 min** (limit 60 for six). Moves **about 28**. Soiled: 15 pieces. The best case of
+the concept: the receiving vessel of the dicer is the cooking pot, the food is never transferred.
+
+### B7 Steak, oven fries, mixed salad with vinaigrette (2 persons) — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 500 g potatoes rasp-peeled; pushed whole through the grid without the sweep knife: 10 mm sticks; rinsed and spun in the basket (600 rpm, 20 s); 10 mL oil and salt; pair tumbled; emptied through the transition plate onto T20a | K/H, shaft; S250r, RSP, grid set, BS1, P1, P2, TRP | 14 |
+| 10 | Oven (preheated from t = 0) 220 °C hot air, 25 min; at 22 min the sheet is flipped onto T20b and returned | oven | 5 |
+| 12 | Lettuce quarter (wedge disc in S250) into BS2 in TP1: water, ±90° agitation 30 s, basket lifted, spun at 700 rpm | K/H; WDG, S250, TP1, BS2 | 7 |
+| 18 | Cucumber and radish on the slicer, carrot on the grater, tomato through the wedge disc, all into P3; raw pepper: bought as cored strips or left out (W4) | K/H; SLC, GRT, S60, S90, P3 | 8 |
+| 24 | Vinaigrette: oil, vinegar, mustard, salt, pepper in the small beaker, small whisk 20 s | dock, K/H; SB, WSKs | 3 |
+| 27 | Steaks tipped from the opened pack onto T65a preheated to 250 °C on F1 (15 mL oil); 2.5 min; T65b preheated on F2; flip; butter cube and thyme tipped in; 2 min; flipped once more to coat; probe 54 °C; rests 5 min lidded on F2 at 55 °C | F1, F2; T65a, T65b | 7 |
+| 36 | Leaves into P3, dressing tipped in, pair P3 + P1 tumbled 4 turns | shaft | 4 |
+| 38 | Hand-over; the steaks are not carved | | 4 |
+
+Elapsed **about 40 min** (corpus menu with baked potato: limit 79). Moves **about 52**. Soiled: 26
+pieces for two persons. Basting is replaced by flipping in butter (adapted in a small way, not counted).
+
+### B8 Pfannkuchen, 8 pieces — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 250 g flour (sieve collar), salt, sugar into BK1; 3 eggs cracked into BK2, whisked, inverted through the ricer disc onto the flour; 500 mL milk from the dock; whisk kit 40 s | dock, K/H; BK1, BK2, EGG, RIC, WSK | 9 |
+| 5 | Batter rests 20 min in the tip cradle; pans PN1–PN3 preheat on K/H, S1, F1 | | 3 |
+| 25 | Cycle per pancake: butter cube into PN on K/H; 100 mL batter tipped by weight; 150 rpm for 2 s; 80 s at 190 °C; hot empty pan brought upside down from S1, squeezed on, roll, the pair's lower pan set on S1 for side two (60 s); the freed pan returns to K/H. A finished pancake is flipped onto the stack on a platter disc held warm on F1 | K/H, S1, F1; PLD | 8 × 5 |
+| 47 | Hand-over of the stack | | 1 |
+
+Elapsed **about 48 min** (limit 50). About 2.7 min per pancake with two pans in rotation and the third
+as the turning partner. Moves **about 53**. Soiled: 10 pieces. Untested: release from the first pan (bare tri-ply sticks; a seasoned carbon-steel or
+ceramic-coated pan is needed, which the lathe and the induction flash tolerate but which adds a ware
+material), and batter running into the rim joint.
+
+### B9 Chicken curry with rice (4) — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | 300 g rice rinsed in the basket under the quill, inverted into P1 with 600 mL water and salt; lid; F1: boil, then 90 °C, 15 min, boil-dry watched by base temperature | K/H, F1; BS1, P1 | 5 |
+| 4 | Onion through the grid; garlic through the ricer; ginger as a frozen puck; pepper as bought frozen strips | K/H; grid set, RIC, BK1 | 6 |
+| 9 | P2 on K/H: oil, onion tipped, 4 min turning against the scraper lid; curry paste (cartridge) 1 min; chicken cubes (bought cut) tipped from the pack, 4 min | K/H; P2, SCR250 | 5 |
+| 19 | Coconut milk: can opened after P2 has moved to S1; inverted into BK2; P2 back for the tip-in with stock, pepper strips, sugar, salt; simmer 15 min on S1, scraper lid | K/H, S1; can cup, BK2, SB | 9 |
+| 36 | Lime juice omitted or bottled; hand-over of P1 and P2 | | 3 |
+
+Elapsed **about 38 min** (corpus 40–50; limit 56–67). Moves **about 28**. Soiled: 14 pieces. Again two
+pot shuttles between S1 and K/H only because the can opener and the tip cradle live at K/H.
+
+### B10 Lasagne, béchamel from scratch — **yes, one test pending (sheets)**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Bolognese as B4 without pasta, 45 min simmer on S1 | K/H, S1; P1 … | 24 |
+| 25 | Béchamel by the cold-start method: 50 g butter cubes, 50 g flour, 700 mL cold milk, nutmeg, salt in P2; whisk kit 20 s; then on K/H at 95 °C with the pot turning against the scraper lid, 8 min | dock, K/H; P2, WSK, SCR250b | 6 |
+| 35 | Cheese: block on the grater into BK; mozzarella through the grid | K/H (béchamel to F1 to hold); GRT, grid set | 8 |
+| 50 | Layering in T65a, held by the Wender: sauce by partial inversion of P1 through the transition plate, a third by weight each time; béchamel likewise; **dry sheets**: the sheet box in the dock with the slot collar over the tray on the dock scale, four sheets slid out by angle and vibration, landing shingled; the tray is jogged in X; camera checks coverage; three rounds; cheese from the sprinkle collar | shaft, dock; T65a, TRP | 18 |
+| 62 | Oven 190 °C, 40 min; rest 15 min | oven | 2 |
+| 118 | Hand-over in the tray (cut by the serving module) | | 1 |
+
+Elapsed **about 120 min** (limit 148). Moves **about 59**. Soiled: 24 pieces. Untested and rated L–M:
+laying dry sheets as a closed layer. If it fails, the fallback is fresh sheet pasta bought in tray
+size, turned out of its pack by a flip with the paper interleaf staying on top (not solved).
+
+### B11 Rührkuchen in a tin, unmoulded — **yes**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Tin = pot P1: 10 g butter melted on K/H, spun at 200 rpm; 20 g flour, lid clamped, tumbled, surplus inverted into the waste at the seat | K/H, shaft; P1, lid | 5 |
+| 3 | 250 g butter cubes and 200 g sugar in TP1 on K/H at 28 °C, whisk kit (flat beater wires) 4 min; 4 eggs cracked into BK1, tipped in one by one; flour and baking powder through the sieve collar into BK2, tipped in in three parts with milk, 60 rpm | K/H, dock; TP1, WSK, EGG, BK1, BK2 | 12 |
+| 14 | TP1 inverted onto P1, 20 s drip, two knocks with the squeeze axis (residue guessed 6 %, limit 8 %) | shaft; coupler | 2 |
+| 15 | Oven 175 °C, 60 min; doneness by core probe 96 °C | oven | 2 |
+| 76 | Cools 20 min on the rack position; 3 s induction pulse on F1; platter disc on top, flip, pot lifted off; camera checks the surface | F1, shaft; PLD | 5 |
+| 100 | Hand-over on the platter disc | | 1 |
+
+Elapsed **about 100 min** (limit 125). Moves **about 27**. Soiled: 9 pieces. The cake is a round of
+d 245 × 55 with a 4° taper, not a loaf or a Gugelhupf.
+
+### B12 Scrambled eggs from shell eggs and toast, 1 person — **yes, at a high cleaning price**
+
+| t | Step | Station, ware | Moves |
+|---|---|---|---|
+| 0 | Egg box into the dock with the egg cassette as collar; one roll; cassette to a beaker in the K/H fork; two eggs cracked (carousel indexes twice); cassette back on the box, roll, four eggs return | dock, K/H; EGG, BK1 | 6 |
+| 2 | Milk 20 mL, salt; small whisk 10 s in BK1; the shaft camera looks for shell (the 110 mL film is 5 mm deep in the beaker) | K/H; WSKs | 3 |
+| 3 | Two slices of toast slid from their pack onto T20a on F1 at 200 °C; 90 s; flip onto T20b; 60 s | dock, F1; T20a, T20b | 5 |
+| 4 | BK1 (tri-ply base) on S1 with a butter cube, 110 °C, SCR160 at 40 rpm, 2.5 min, ended by base temperature and the torque of the scraper | S1; SCR160 | 3 |
+| 8 | Chives (frozen chopped) into the beaker; hand-over | | 3 |
+
+Elapsed **about 9 min** (limit 17). Moves **about 20**. Soiled: 8 pieces including the egg cassette,
+which goes to the central washer. About 6 L of water and 12 min of lathe time for 110 mL of egg: the
+minimum-quantity case works but is expensive.
+
+### Summary of the benchmarks
+
+| | Result | Elapsed min | Limit | Moves | Pieces soiled |
+|---|---|---|---|---|---|
+| B1 | adapted | 145 | 183 | 83 | 31 |
+| B2 | yes (tests) | 52 | 67 | 77 | 33 |
+| B3 | yes | 37 | 50 | 61 | 28 |
+| B4 | yes | 72 | 96 | 38 | 19 |
+| B5 | yes (tests) | 105 | 113 | 45 | 20 |
+| B6 | yes | 45 | 60 | 28 | 15 |
+| B7 | yes | 40 | 79 | 52 | 26 |
+| B8 | yes | 48 | 50 | 53 | 10 |
+| B9 | yes | 38 | 56 | 28 | 14 |
+| B10 | yes (test) | 120 | 148 | 59 | 24 |
+| B11 | yes | 100 | 125 | 27 | 9 |
+| B12 | yes | 9 | 17 | 20 | 8 |
+
+Mean 48 moves per meal (range 20–83). The source's estimate for the same concept was 60–90; the
+difference comes from C1 and C3. Elapsed times assume no retry; B3 and B8 have no margin.
+
+## 6. Cleaning
+
+### 6.1 Principle and zones
+
+No fixed surface of the cell is meant to touch food. Zone F is the ware (76 pieces, about 9 m² in
+total, about 3 m² soiled per reference meal). The only fixed Zone F item is the drinking-water outlet
+in the quill nose. Everything else inside the cabinet is Zone S, and there is much of it: **about
+12 m²** (shaft 3.7, four hob tiers 5.2, dock 0.8, lathe chamber 1.1, oven cavity 1.3). The catalogue's
+claim "the machine around the stacks stays clean" holds for the press work (closed stacks) and for
+inversions with a gasket; it does not hold for hot frying flips (fat at the metal joint), for tip-ins,
+for open pots under a scraper lid, or for the shaft under any leaking joint.
+
+### 6.2 Ware: rinse seat, wash lathe, induction flash
+
+1. **Cold rinse within minutes** (catalogue rule R11). On its way from use every class R or sticky piece
+   is held upside down on the rinse seat: mains cold water, fan nozzle, 6 s, 0.4 L. Solids stay on the
+   1 mm strainer drawer (see 6.5).
+2. **Lathe.** The piece stands upside down on the turntable (pots, beakers, sleeves on the skirt lugs;
+   discs and lids on a three-tier spindle fixture, up to three per load, or one pot with its lid and one
+   disc above it; a GN tray on the cradle, tilted 10°). 60 rpm past two fixed masts: inside meridian
+   (floor centre, floor, corner, wall, rim) and outside meridian (rim, neck, wall, skirt), 10 nozzles
+   d 1.5 at 5 bar, 12 L/min recirculated from a 3 L sump at 55 °C with enzymatic detergent, 120 s.
+   Because the part turns, every point of a body of revolution passes every jet; a GN tray's corners
+   pass the same jets at a changing distance (coverage there is a claim, to be shown by riboflavin).
+3. **Rinse** 0.8 L fresh through the same masts, 20 s. **Spin** 900 rpm, 15 s (GN tray 300 rpm).
+4. **Induction flash**: the 2.5 kW ring heats the wet tri-ply part to 105 °C for 45 s. A0 at 105 °C
+   accumulates at 316 per second, so the A0 ≥ 60 of HYG-021 is reached in the first second at
+   temperature; the limit is evenness, not dose (a wall pyrometer on the outside mast checks the coldest
+   band, the rim spool, which is monolithic stainless and heats by conduction only: **M**). About 25 Wh
+   per kg of ware instead of 300 Wh of 80 °C rinse water.
+5. **Verify**: lathe camera while the part turns once under a stripe light; recorded liquor temperature,
+   pump pressure, flash temperature, turbidity of the rinse (HYG-026). A failed part gets one longer
+   cycle, then goes to the central washer, then to quarantine.
+
+One load: **4.5 min**. The liquor is reused for up to three loads, RTE loads first, class R loads last.
+
+| Goes to | Pieces | Why |
+|---|---|---|
+| Lathe, flash | all cans, sleeves, baskets, plain and scraper lids, platter discs, coupler rings (flash limited to 95 °C: silicone bead), GN trays and sheets, ricer, rasp floor, platen | bodies of revolution or flat; monolithic |
+| Lathe, no flash (80 °C rinse instead, +0.3 kWh) | whisk and blade kits, grater, slicer, sickle, sweep knife, wedge disc, grid and comb piston (the comb has pushed the grid clean first), kneading lid, folders, apron, gasket frame | blades and polymers must not be flashed; blade roots and wire ends face the jets only partly |
+| Central washer D7 | egg cassette, die disc with gate, dosing collars, paste-cartridge parts, trough inserts, GN rack, divider | hinges, slides, channels: not provable on a lathe |
+
+### 6.3 Honest list of crevices, seals and shadows
+
+| Place | Problem | Answer, and how good it is |
+|---|---|---|
+| Rim spool weld and neck | fillet outside, under the flange | outside mast aims at it; visible to the camera; good |
+| Coupler bead, gasket frame | moulded silicone on steel: the bond line | moulded, not glued; dated wear part, yearly; odour uptake (onion, curry) not solved |
+| Perforated baskets, ricer, rasp floor | 1 500 holes; starch and fibre in holes | comb or piston first; back-light check in the lathe; M |
+| Grid blades, slicer and sickle blade roots | blade clamped or welded to a frame | welded and ground only, no clamped blades; still a shadow on the downstream side: fan jet from the outside mast; M |
+| Whisk wire ends, scraper-lid silicone edges | sockets, bond | wires welded flush; silicone edge moulded on; M |
+| Egg cassette, die gate, collar shutters | pins, slides | central washer; the weakest pieces of the kit |
+| Quill nose above food | bayonet, bellows, spindle lip seal with leak-off | drip collar on every stalk; the nose is fixed and cannot go to the lathe; it is washed only by the K/H tier nozzles, daily, and is an LRU. **A Zone N drive above open food behind a bellows is a conflict with HYG-004 and HYG-016** |
+| K/H annular turntable | labyrinth gap between ring and pedestal; boil-over runs in | flushed by two dedicated nozzles into the deck drain; inspected by endoscope at service; a real harbourage risk |
+| Wender telescopic slide and jaws | open profile, rack, plain bearings, in the shaft beside the carried vessel, in the splash of any leaking joint | jaws rinsed at the seat after every class R grip (2 nozzles, 3 s); slide washed by the shaft ring daily; grease-free polymer bearings; M |
+| Sealing band of the Z slot | full-height dynamic seal in Zone S | band is wiped by the carriage; replaced yearly; M |
+| Dock cradle and clamp | flour dust, drips of oil | a dry zone with no dust removal; washed weekly by two nozzles, then dried by the dock's air; wetting flour dust makes paste. **L–M** |
+| Oven cavity | a bought household oven has no wash | all oven ware is lidded or deep; steam-soak programme weekly; **burnt-on spills are not removed: open issue, request R6** |
+| Shaft, hob tiers | fat aerosol from flips and frying, steam | fixed nozzles per tier (5 each) and a spray ring on the Wender carriage for the shaft: daily wash-down with 55 °C liquor from the lathe sump, rinse, fan dry 30 min; glass hobs are flat; tier ceilings slope 3° |
+
+### 6.4 Water, energy and time per reference meal
+
+Reference meal: 24 pieces soiled (mean of B1–B12: 20; B2: 33), of which 16 round, 5 GN, 3 to D7.
+
+| Item | Count | Water | Energy | Time |
+|---|---|---|---|---|
+| Cold rinse at the seat | 15 pieces | 6 L | — | in passing |
+| Lathe loads | 12 (7 round trees, 5 trays) | liquor 4 × 3 L = 12 L; rinse 12 × 0.8 = 10 L | liquor heat 0.6 kWh, flash 0.4, 80 °C rinse for blade loads 0.2, pump 0.1 | 54 min |
+| Central washer share | 3 pieces, quarter load | 5 L | 0.3 kWh | within its cycle |
+| Daily wash-down, half a day's share | tiers, shaft, dock | 5 L | 0.2 kWh | 12 min + 30 min drying |
+| **Total for preparation** | | **about 38 L** (range 26–45) | **about 1.8 kWh** | **about 55 min after serving**, first stations free after 10 min |
+
+This does **not** meet RES-005 (45 L per meal including the dish washer and the cooking water): with
+10 L for the dishes the meal is at about 50 L. The lathe's water is dominated by the rinse and by the
+number of loads, not by soil; fewer loads (nesting four pieces per tree) is the lever. PERF-005 (next
+meal possible after 30 min, all clean after 90 min) is met, since the ware stock covers two meals
+except for the single-instance discs.
+
+### 6.5 Raw and ready-to-eat, waste
+
+* **Class R / RTE**: separation is by instance and by time. Trays T65a/b and the cold sheet are the
+  raw set for a meal; salad and dessert use pots and beakers that raw food has not touched. The
+  single-instance parts (grid, ricer, slicer, die disc, egg cassette) are the weak point: RTE jobs are
+  scheduled first ("dry before wet, raw last"), otherwise a rinse and a 4.5 min lathe cycle sit in the
+  critical path (B3). The Wender's jaws grip only necks and flanges, below the pouring edge, and are
+  rinsed after every class R grip; they are the one shared contact path between raw and RTE ware (M).
+* **Peel slurry, trimmings, shells, can lids, surplus flour and crumbs**: collected in a pot or beaker
+  under the stack, carried upright and inverted on the seat; water passes, solids stay on the strainer
+  drawer (10 L), which drains and is pushed to the organic-waste container of the waste module. Waste
+  is never carried over open food: open vessels travel only in the shaft, and the seat is at its foot.
+* Breading leftovers (flour, egg, crumbs after raw meat) are discarded each time: about 60 g per meal.
+
+## 7. Numbers
+
+| Item | Value [E] |
+|---|---|
+| Wall width | **1600** (left column 520, shaft 440, hot column 560, walls 80); depth 600; height 2000 |
+| Heated positions | K/H 3.5 kW with turntable, quill and tipper; S1 3.5 kW with stirring spindle; F1, F2 flex 3 kW each; oven 45 L class, sideways; warm-hold on any free hob at low power |
+| Motion actuators | **21** (Wender 6, K/H 5, S1 2, dock 5, lathe 2, oven door 1) |
+| Other driven items | 3 pumps, about 10 valves, 5 induction generators, 2 fans, 1 vibrator (counted in the dock) |
+| Wall penetrations with a moving seal | Z slot band; quill (bellows + lip seal); tip-cradle shaft; S1 spindle; dock roll shaft and clamp rod; lathe turntable shaft (from below, umbrella); K/H ring labyrinth: **8** |
+| Ware | 76 pieces, 50 types; 62 custom pieces of 43 custom types, the rest bought GN trays and mats |
+| Custom machine assemblies | about 24 (Wender head, jaws, telescope, C-frame, crosshead, fork, turntable ring, pedestal, tip cradle, S1 spindle unit, dock cradle, clamp, cone, lathe chamber, masts, fixtures, seat, oven door, tier liners, shaft liner, frame) |
+| Parts cost | **about EUR 24 000 ±35 %**: Wender 3 500; K/H 3 300; S1 and flex hobs 1 500; oven and door 2 600; dock 1 000; lathe, seat, pumps 1 900; ware 5 000 (custom tri-ply cans at EUR 90–150 are the largest item); frame, liners, extraction 3 200; controls, drives, sensors 2 300 |
+| Peak power | installed 3.5 + 3.5 + 3 + 3 + 3.3 (oven) + 2 + 2.5 (lathe) + 1.5 (drives) = 22 kW; managed to 11 kW (DEC-1): two hobs at full power plus oven, the rest pulsed; the lathe runs after cooking |
+| Noise sources | rasp peeling (2 min, est. 70–75 dB(A) at source), blade stalk at 6000 rpm (20–60 s), spin at 900 rpm, press strokes and the sweep knife, lathe pump and jets for 54 min after the meal (NOI-002 limit 48 dB(A): needs an insulated chamber), Wender moves |
+| Handling moves per meal | mean 48, range 20–83 (section 5); 7–11 s each |
+| Reliability arithmetic | at 48 moves, 99.9 % per move gives 95 % per meal; REL-001 (98 %) needs 99.96 % per move or recovery from most faults without a human (section 9) |
+
+## 8. Coverage estimate against the 248-meal corpus
+
+Method: the 57 corpus rows that contain a no-workaround or shaping operation (FLP excluded, which K2
+does natively) were judged one by one against section 4; the remaining rows were judged by operation.
+Purchases as MEAL-012 allows (peeled onions, trimmed beans, cut meat, grated or block cheese). This is
+an estimate by reading, not the recomputation of corpus appendix A.
+
+| Group | Meals | Verdict |
+|---|---|---|
+| Excluded by requirements 5.4 | CK11, DM21, DS13, BF08, AS05, BK06, CK08, BK02 (8) | out for every candidate |
+| **Needs one piece picked up and placed in a given orientation, or a single thin slice or sheet laid** | DM13 stuffed peppers, VG04 stuffed zucchini, IT18 cannelloni, IT12 saltimbocca, FR06 croque monsieur, MX04 quesadilla, US08 sandwich or wrap, MX03 burrito, MX07 enchiladas (9) | **no** |
+| Folding, pleating, pocketing, braiding | DM05 cordon bleu, AS08 spring rolls, AS09 gyoza, IN07 samosa, CK17 Apfeltaschen, CK12 strudel, CK13 sponge roll, DS11 filled yeast dumplings, BK04 braided loaf (9) | **no** |
+| Others | DM12 cabbage rolls (leaf separation), BF14 poached egg (2) | **no** |
+| Covered only if an M or L–M mechanism passes its test | 9 roasts carved by the sickle (DM06, 07, 08, 11, 16, 29, ME10 and two more); DM02 Rouladen; IT05 lasagne (sheets); 8 unmoulded cakes and desserts; DS15 baked apple (cored and filled in the feed sleeve); US01 burger (ring-build); 5 breaded dishes | yes, test pending: **about 26 meals hang on five tests** |
+| Adapted methods | 9 oven or shallow-fried instead of deep-fried, 7 stir-fries in a tumbled tray, 3 of X-13, and K2's own: DM02, BF11 and ME03 and MX02 and US02 and US06 served as components, DM20 and US04 served uncarved, US07 with diced ham and grated cheese, SD25, DS16, SA15, SD22, BF10, AS06, CK05 (16) | **about 35 meals = 14 %**, above the 10 % of MEAL-013 |
+
+Count: 248 − 8 − 20 = **220 preparable = 88.7 %**; by weight about 90 % (none of the 20 K2-specific
+losses has weight 3; BF11 and US07, both weight 3, are kept only as adapted). Range: 86 % if sickle
+carving of hot braised meat fails for half of the roasts and the Rouladen chain fails; 92 % if a
+minimal pick-and-place aid is added (section 11). MEAL-002 (95 %) is **not met**, MEAL-003 is met only
+through adapted methods, MEAL-004 fails for Mexican (3 of 7) and is marginal for cakes, MEAL-005 is met
+on paper (Rouladen at L–M). MEAL-009 is not met (onions, peppers, beans, soft fruit are bought
+prepared). Of MEAL-018 the concept solves FLP, UNM, SCO, BRD, FRB, FRK, KND natively, ROL, SHD, FRM,
+RLT and layered ASM with tests, CAR for boneless roasts with a test, and fails open-hand ASM, most STU
+and most WRP. Of the catalogue's gap list it solves none of G1–G10; it sidesteps G9 for thick pieces
+and offers the cold sheet for slices.
+
+## 9. Failure modes and recovery
+
+| Failure | Detection | Recovery | Human needed? |
+|---|---|---|---|
+| Mis-seated stack before a press stroke | squeeze position outside ±0.5 of the expected sandwich height; fork load pins show tilt; press limited to 300 N for the first 5 mm and the force-travel curve compared with the recipe's signature | restack once; then abort the step | no |
+| Food jams in the grid or die (stringy celeriac, bone chip) | force above 4.5 kN or no travel | retract, comb piston again at low speed; then the stack goes to the seat, is inverted and flushed; the load is lost; PRP-035 camera check of the grid | no |
+| Joint leaks during an inversion | jaw load pins lose mass; shaft camera; conductivity strip in the seat gutter | the roll stops at the nearest upright; shaft wash-down; the dish continues if the loss is under 5 % | no, unless hot fat on the telescope (then a wash cycle before the next move) |
+| Food sticks in the upper vessel after an inversion | jaw B still heavy | two knocks with the squeeze axis, 3 Hz shake; then chase with the recipe liquid at K/H; then accept the residue and scale the recipe | no |
+| Dropped vessel or tray | jaw load pin goes to zero in a move | **no recovery**: a pot on its side at the shaft foot cannot be gripped by neck jaws. The shaft foot slopes to the seat and is washed; the meal is aborted | **yes** |
+| Piece falls beside the vessel at a tip-in or in the dock | tier camera or missing mass | stays on the deck, washed down daily; recipe scaled | no |
+| Boil-over at K/H into the turntable labyrinth | base temperature and load cells | flush nozzles; turntable dried at 300 rpm | no |
+| Pancake, cutlet or patty torn at a flip | shaft camera | served as it is, or repeated if ingredients allow | no |
+| Roulade opens | camera on the trough tray | rolled again once; then served as a braised slice with its filling (the dish is degraded, not lost) | no |
+| Part fails wash verification twice | lathe camera, turbidity | central washer, then quarantine shelf; the kit has no second instance of 14 part types, so the affected operations are blocked until a human replaces the part | later |
+| Wender fails (any of 6 axes) | drive faults | **everything stops**: no food moves, hot pots stay on hobs, which switch to hold and then off; no redundancy | **yes** |
+| K/H fails | drive faults | cooking continues on S1, F1, F2; no cutting, kneading, whisking, tip-ins, can opening | yes for most meals |
+| Power loss with a stack clamped inverted | — | roll brake and jaw screws are self-locking; on return the pair is finished or set down | no |
+
+## 10. Top risks and the cheapest experiment for each
+
+| # | Risk | Kills the concept? | Cheapest experiment |
+|---|---|---|---|
+| 1 | **Traffic and single points**: 48 moves per meal through one carriage, all press work and all merges through one station; REL-001 needs 99.96 % per move | degrades, does not kill | discrete-event simulation of B1, B2, B3 and reference menus 9 and 15 with the move times of section 2.2 (one week, no hardware); a plywood shaft with a manual roll head to time real moves |
+| 2 | **Hot inversion**: fat or sauce leaves a metal joint or a gasket at 100–200 °C | yes for FLP, the concept's main claim | two bought 24 cm steel pans, a turned coupler ring and a lathe chuck as roll axis: flip 50 steaks, pancakes, fried potatoes with 5 / 15 / 30 / 60 mL of fat; weigh what escapes; measure drop damage |
+| 3 | **Slices and single pieces**: cold sheet picks one slice, releases it flat; cutlets land flat from the pack | kills Rouladen as a machine-made dish (brief) | a 3 mm steel sheet from the freezer on supermarket Rouladen, cutlets, bacon, 30 trials each; induction hob pulse for release |
+| 4 | **Rouladen chain**: apron roll by tray travel, drop into the channel, untied braise for 100 min | as 3 | silicone mat on a baking tray pulled under a fixed rod by hand; trough insert bent from sheet; 12 rolls braised (shared test of the catalogue) |
+| 5 | **Residue of inversions** for dough, batter, mince, mash against PRP-013 (3 % / 8 %) | no, but adds chase steps and moves | weigh residue in a tapered pot after inversion and two knocks, ten foods, greased and bare |
+| 6 | **Wash lathe and flash**: coverage on GN corners, blade roots, holes; evenness of induction heating on walls and the solid rim | yes for "all ware on a lathe" (falls back to the central washer and 60 min cycles, doubling the ware stock) | a pot on a turntable in a bin with four nozzles and a 5 bar pump, riboflavin under UV; a 2.5 kW hob coil wound as a ring round a wet tri-ply pot with thermocouples at rim, wall, floor |
+| 7 | **Press work at 5 kN on a hot, wet station**: dicing force with two-tier blades, ricing skin-on potatoes, dough sheeting by platen; bellows and nose above food | partly | bench drill frame with a 5 kN servo cylinder, bought push-dicer grid and ricer plate; measure force curves for potato, carrot, celeriac, onion halves; press 500 g of dough between mats |
+| 8 | **Dock**: flour through the vibrated sieve at 60–70 % RH; pouring by angle from cartons; dust and drips in a zone that is hard to wash | no | a box on a hand-rolled cradle over a kitchen scale |
+| 9 | **Width and depth**: sideways oven in 560, roll head passing the oven mouth, 440 shaft | no, costs width | CAD of the three columns with a real compact oven and the largest inverted sets |
+| 10 | **Part count** (76 pieces, 50 types) against PRP-003, and 14 single-instance types in the critical path | no | walk the 15 reference menus with the ware list and count conflicts |
+
+## 11. Improvements found, answers to the catalogue's questions, and what to borrow
+
+### 11.1 Improvements found while exploring (all are changes to the catalogue definition)
+
+| # | Improvement | Value |
+|---|---|---|
+| I1 | **Inverter on the lift** (C1): roll axis, two neck-jaw pairs and a squeeze axis on the carriage in a shaft | the most valuable one: removes a station and about a third of the moves, makes flip, toss, drain, unmould, lid-clamped carry and weighing one device; answers catalogue rule R2 ("one horizontal roll axis somewhere") once for preparation and cooking |
+| I2 | **Rim spool with a gripping neck**, gaskets only on interposers | a single vessel can be held inverted; vessels stay bare metal; the joint is a known hygienic standard |
+| I3 | **Hourglass dock** at the port with roll-angle metering | dosing costs no carriage move; boxes are never handled by the cell |
+| I4 | **Press column on a hob** with an annular turntable | purée, mash, knead, whisk, spin-spread in the cooking pot; one station less |
+| I5 | **Weighing jaws and partial inversion** | layering and portioning by weight without a ladle; residue and leaks are measured at every transfer |
+| I6 | **Finding C4: inversion cannot merge**, answered by the tip cradle | not an improvement but a correction; without it the concept cannot cook a sauce |
+| I7 | **Rinse seat** at the shaft foot: drain, cold flush, waste strainer and jaw rinse in one fixed funnel | rule R11 for 0.4 L per piece; hot water is never poured in the open |
+| I8 | **Cold sheet with induction release**: a frozen flat GN sheet lifts one slice, a 1 s pulse frees it | a freeze gripper with no power on the tool (L–M) |
+| I9 | **Kits**: stalk tools hang in their lids, discs ride on their sleeves, vessels nest | fewer moves, one rack footprint per family |
+| I10 | **Wender as X table** under the fork and against a fixed bar | stripes, rows and apron rolling without a new axis |
+| I11 | **Grease by spin, flour by tumbling, release by an induction pulse** | LIN and UNM (22 and 11 meals) without a brush |
+| I12 | Eggs moved from the box tray into the cassette by one inversion; beaten egg strained through the ricer by inversion | no egg gripper; shell insurance for mixtures |
+
+### 11.2 The catalogue's questions for the K2 explorer
+
+1. *Moves, elapsed time, who moves the parts, mis-seat detection.* Mean 48 moves, 20–83; times in
+   section 5. The cell's own Wender moves all ware; the transport system only pushes boxes into the
+   dock and takes finished vessels at the serving side of the shaft (TRN-002 is respected at the module
+   border, conflict X8 remains inside). Mis-seat: squeeze position and force, fork load pins, 300 N
+   probing stroke (section 9).
+2. *Hot inversion.* Gasketed coupler or frame for anything wet (silicone, 230 °C); metal to metal only
+   for frying flips with under 30 mL of free fat; fill limit 60 % of the receiving vessel; more than
+   3.5 L of hot liquid is never inverted (basket and drain stalk instead); inversions happen only in the
+   closed shaft above the seat; clamp force is measured, the roll has a brake and the jaws are
+   self-locking. Untested (risk 2).
+3. *One inverter for R260 and GN 2/3.* Yes: neck-and-flange jaws with an arc pocket and straight slots,
+   roll about the tray's long axis, largest swing 400, shaft 440 × 520.
+4. *Cut the kit.* From about 55 to 76 pieces: the kit **grew**, because the source list lacked the GN
+   inserts, the transition plate, the dosing collars, platter discs and package tools. Seven source
+   parts were cut (section 2.5). A cut to about 60 is possible by dropping sickle, wedge disc, S60,
+   coarse die, one folder, one platter disc, the divider and the second trough insert, at the price of
+   about 14 more meals.
+5. *Lathe against the central washer.* Section 6.2: about 60 pieces on the lathe, 14 without flash,
+   about 12 to D7. Flash on tri-ply walls is plausible, on the monolithic rim spool it relies on
+   conduction (M).
+6. *Rim against the box standard.* No box is inverted onto the round rim any more. The dock takes
+   GN 1/9 and 1/6 directly and GN 1/3 through a funnel collar; the collar, not the vessel, adapts.
+7. *Tilting column.* Not worth it; the roll axis on the carriage gives the same inverter and tumbler
+   with a 400 swing instead of 850 and leaves the press frame stiff.
+
+### 11.3 What I would borrow from other candidates
+
+* **A small pick-and-place hand** (K1's rod hand or K6's stem tools) for one piece in a given pose:
+  it would recover the 9 meals of the second row of section 8 and replace the cold sheet, the dock's
+  piece chute for cutlets and the egg transfer. This is the single largest gain in coverage (+3–4 %).
+* **The belt-metered guillotine or a knife with a comb fence** (SM-017, SM-032) for carving and for
+  slicing cooked potatoes, if the sickle fails.
+* **Pins counted by a magnet** (SM-085) as the fallback for Rouladen.
+* **K6's three-minute washer** instead of the lathe if the riboflavin test on GN corners and blade
+  roots fails: the ware is already all loose.
+* **K5's piston box or tube** as the paste cartridge, filled at ingestion.
+* **The venturi wand** is not needed; the drain stalk with a pump uses no motive water.
+
+## 12. Open issues and requests to the architect
+
+### Open issues
+
+1. **The rack holds only about 60 % of the ware.** 1050 mm of column height takes the flats magazine
+   (19 slots), the GN stack and one nest of pots and beakers. Tall pots, pans, the S250 sleeves and
+   about twelve flats park on S1, F2 and in the lathe while these are idle and are moved when the
+   station is needed (4–6 extra moves in large menus), or the cabinet grows by about 300 mm. The width
+   of 1600 is therefore a lower bound.
+2. **COK-008** (every cooking position stirs) is met at two of four positions; **COK-010** (add at any
+   time) only by taking the vessel to K/H. Menus with three stirred pots at once (reference menu 9:
+   red cabbage, dumplings, gravy plus the roast) need a third scraper drive or accept unstirred
+   simmering of one pot.
+3. K/H occupancy: in B3 it is busy for 28 minutes without pause; for six persons the dicing and
+   forming loads grow by half and the 50-minute target is lost.
+4. The oven is a bought household unit mounted sideways with a changed door; its cavity is not washed
+   by the machine, and the roll head has about 5 mm of clearance in its mouth. Not checked against a
+   real model.
+5. Adapted methods are at about 14 % of the corpus against the 10 % of MEAL-013.
+6. HYG-004 and HYG-016 at the quill (drive above food behind a bellows and a lip seal) and the slot
+   band of the Z axis are accepted conflicts, not solved ones.
+7. Safety: a 5 kN press, a 900 rpm turntable, a blade at 6000 rpm and a roll axis with 8 kg behind a
+   household door (catalogue X14); only interlocks are assumed here.
+8. Onion peeling, stripping herbs, trimming small items, bone-in carving, trussing (G1, G2, G5, G8,
+   G10) are untouched.
+9. The 1-person case soils 8 pieces and costs about 6 L and 12 min of washing for 110 mL of egg.
+10. Software: about 25 skills (stack recipes with force signatures, flips, tip-ins by weight, dock
+    metering per product class); fewer than a manipulator concept needs, but every one is safety- or
+    hygiene-relevant.
+
+### Requests to the architect
+
+| # | Request | Collides with |
+|---|---|---|
+| R1 | **Vessel standard**: R260 rim spool with neck, base skirt with three notches, tri-ply bases; GN 2/3 thermoplates as the flat family; both frozen as the interface of preparation, cooking, serving and washing | X15 (ware material fixed by the induction flash) |
+| R2 | **Box**: GN 1/9, 1/6, 1/3 with a plane top rim that seals against a silicone face when lifted by 60 N; delivered to the port with the lid removed and pushed 200 mm on rails into the cradle; box walls stiff enough to be rolled over full. Spice boxes keep a sifter insert; egg boxes a 2 × 3 tray insert | X1, X3, X5; BOX-005, BOX-007 |
+| R3 | **Ingestion / package opening**: vacuum packs and MAP trays arrive opened, just in time, in a box-size carrier, without absorbent pad where possible; pastes (mustard, tomato paste, honey, quark) are decanted once into piston cartridges; butter, cheese and bacon blocks may be diced by this cell at first opening and returned to cold storage as pieces | X6, DEC-3 |
+| R4 | **Cold storage**: one freezer position for the cold sheet (GN 2/3 × 20) and the ginger and herb pucks; chilled boxes may stay at the dock up to 3 min per dosing | X7, FSF-013 |
+| R5 | **Transport**: serves only the port (boxes in and out, about 20 per meal) and the serving side of the shaft (finished vessels and platter discs out, soiled ones back); never enters the cell | TRN-002, X8 |
+| R6 | **Cooking module**: the four induction positions, the oven with a motor door facing the shaft, extraction per tier and the cavity cleaning are inside this cabinet; the architect decides whether they are owned by D5 with this geometry, and whether a self-washing compact combi oven replaces the household unit | open issue 1 of the catalogue |
+| R7 | **Washing module**: accepts about 12 awkward pieces per meal (egg cassette, die gate, collars, trough inserts, rack) through the transport system; supplies detergent and softened water to the lathe; takes the strainer drawer's solids | X12, D7 scope |
+| R8 | **Serving**: takes food in R260 vessels, baskets, GN trays and on platter discs; owns slicing of baked goods, plate-side assembly of component meals (tacos, Abendbrot, hot dog, burger as fallback) and the final merge of pasta and sauce | UO-81 to UO-88 |
+| R9 | **Utilities**: 400 V 3N~ with load management to 11 kW; cold water at 2.2–5 bar to quill, dock, seat and lathe; a drain rated for 95 °C with a tempering valve; extraction of about 150 m³/h from the hot column | UTL |
+
+## Verdict of the explorer
+
+K2 is a good cooking-side mechanism and an incomplete preparation system. Rim-to-rim inversion on the
+lift answers flipping, unmoulding, draining, tossing and enclosed breading with one device and no seal
+in any washed part, and the closed stack dices, rices, forms and kneads well. It cannot merge, cannot
+place a piece, and handles slices badly; its width, its part count and its dependence on one carriage
+and one press station are real. As a whole system it reaches about 89 % of the corpus. Its parts worth
+keeping for any hybrid in round P5 are I1 (inverter on the lift), I2 (rim spool), I3 (hourglass dock)
+and the grid-over-rotor dicer in the cooking pot.
