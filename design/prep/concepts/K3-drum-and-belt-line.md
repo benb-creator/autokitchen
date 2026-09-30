@@ -235,9 +235,11 @@ and 10 are vessel handling and cooking-side handling. Fluid and thermal: 12 sole
 | Scoop (GN 1/4-like pan with a spout end) | 2 | custom |
 | Peel tray (flat tray with one rimless ramped side), also the unmoulding board | 2 | custom |
 | Beaker 0.8 L with weir spout; weigh cup 0.3 L for the dock | 2 / 2 | custom |
-| Lift-out basket for the 6 L pot | 1 | bought |
+| Lift-out basket for the 4 L and 6 L pots | 2 | bought |
+| Spätzle sieve plate (held by the head over the pot on the deck, batter wiped through by T5) | 1 | bought, tang added |
+| Tool caddy (three sockets; carries arm heads and drum inserts to the ware washer and back) | 1 | custom |
 
-28 loose ware items, plus the 15 arm heads and drum inserts of 2.3. The 9 L pot is not needed: six portions
+31 loose ware items, plus the 15 arm heads and drum inserts of 2.3. The 9 L pot is not needed: six portions
 of pasta are boiled and drained in the drum.
 
 ---
@@ -279,7 +281,7 @@ shared surface and must be dry.
 | (f) Solid fat | Butter as a bar on the belt: G1 cuts by length and the pieces fall from the nose into the vessel (SM-148). Cold butter cuts cleanly | ±3 g | H |
 | (i) Raw meat, pieces and mince | Pack or box tipped at the dock: mince and cubes into the drum or a pan; chute rinsed afterwards | one piece | H |
 | (i) Raw meat, flat cuts | Slide from the tilted box down the chute onto the moving belt (chute exit tangential, belt speed = slide speed, so the cut lies flat). One cut per box compartment works; **a stuck stack of slices does not** (section 12, open issue 2). Alternative: the block is tempered in the freezer airlock and sliced by G1 (SM-100, SM-240) | — | M single cut, L stack |
-| Egg | Egg opener at the dock (SM-164: two cups, scribe, pull), over an inspection saucer on the weigh position; camera; then tipped through the chute (SM-168). Eggs arrive in a tray insert; the cups take one at a time | 10 s per egg | M |
+| Egg | Egg opener on the shaft side wall at z = 1400 (SM-164: two cups, scribe, pull), swung over the shaft. The contents fall 40 mm into an inspection saucer or beaker held by the head; camera (SM-168); the head then tips it into the drum mouth, a vessel on the deck, or slides a whole egg into the pan from 20 mm (fried egg). Eggs arrive in a tray insert at the dock and roll down a small rail to the cups one at a time | 10 s per egg | M |
 | (j) Frozen loose | As granular. Blocks fall into the hot drum and are tumbled free | ±3 g | H |
 | (k) Long goods | Spaghetti: box tilted, strands slide down the chute into the drum (boiled there); dose by weight loss, ±15 g. Leek, cucumber, carrot: slid onto the belt lengthwise; the chute aligns them | ±15 g | M |
 | Stowed sealed packs | Opened just in time by the package-opening mechanism (not part of K3), which delivers the contents in a box, or the opened can, carton or tub in a carrier that the dock clamps and tilts like a box. Jars of paste go into paste cartridges once. Vacuum-packed meat arrives unpacked in a box | — | depends on the opener |
@@ -351,7 +353,7 @@ Time is for the quantity of 4 persons unless stated. "Untested" names what a ben
 | Grate (GRC, GRF) | Cartridge C4. Hard cheese and nutmeg bought grated; zest not done | 30 s | H coarse, not done: zest | — |
 | Juice citrus (JUI) | Not done natively; bought juice, or halves (G1) pressed under the press plate on the grooved bed end: low yield | — | L | — |
 | Wedge, halve (WED) | G1 on the belt; tomato and apple wedges as thick slices | — | M | shape differs |
-| Crack eggs (CRK) | Egg opener at the dock, saucer, camera | 10 s/egg, 12 in 3 min with two saucers | M | scribe force; fragments |
+| Crack eggs (CRK) | Egg opener over the shaft, saucer on the head, camera | 10 s/egg, 12 in 3 min with two saucers | M | scribe force; fragments |
 | Separate (SEP) | Slotted saucer: white drains into the beaker on the weigh position | 20 s | M | — |
 
 ### 4.4 Everyday operations
@@ -586,5 +588,148 @@ the drum** (cartridges over the shaft, beaker under the arm) and because a 90 s 
 same meal. The tight case is B3 (four drum jobs, one of them raw): the drum is busy 80 % of the time and any
 retry breaks the 50-minute limit. A second drum is not proposed; a meal with five drum jobs is scheduled
 with boiling moved to a pot on R1.
+
+---
+
+## 6. Cleaning
+
+### 6.1 Surface inventory (HYG-010)
+
+Areas are estimates. F = food contact, S = splash. "Per meal" = cleaned after every meal in which the item
+was used (HYG-033); "daily" = HYG-034.
+
+| # | Surface | Zone, m² | Material | Soiled by | Cleaning | Water in / out | Drying | When |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Drum inside, helix, lip | F 0.42 | 1.4404, Ra 0.4 | everything | Self-wash 6.2 | lance; pours to the gutter | own coil, 110 °C | per meal; rinse between jobs |
+| 2 | Drum outside near the lip (30 mm), outer wall | S 0.33 | 1.4016 outer ply | pouring dribble, bay splash | Two fixed fan nozzles on the yoke while the drum turns | bay floor | coil heat | per meal |
+| 3 | Drain gutter | F/S 0.10 | 1.4404 | wash liquor, peel, cooking water | Flushed by every pour; one nozzle | strainer | air | per meal |
+| 4 | Arm heads T1–T7, cartridges, basket, discs | F 0.9 in total | stainless, silicone | food | Inserted in the dirty drum during its wash, spindle turning (SM-194); grids pushed over the fixed pusher comb first; in the tool caddy to the ware washer daily | drum | drum heat (steel parts), air (silicone) | per use; daily |
+| 5 | Arm tube, quill collar, rack pegs | S 0.20 | 1.4404 | splash, steam | Bay nozzles; collar flushed | bay floor | air | daily |
+| 6 | Belt, food face | F 0.57 | TPU | food, raw meat | Wash box on the return strand 6.3 | box drain | air knife, steam bar | per meal; between raw and RTE |
+| 7 | Belt inner face, bed, nose bar, rollers, pocket rollers, side rails | S 0.75 | TPU, 1.4404 | juice and wash water running round the edges | Tension released, belt inched, four lance nozzles between the strands | drip tray | air, 20 min | per meal with raw food, else daily |
+| 8 | G1 blade and bow | F 0.03 | knife steel, 1.4404 | food | Two fan nozzles each side; blade oscillates and travels through them | onto the belt, wash box | hot rinse, air | per meal |
+| 9 | G2 beam: roller, comb, doctor plate | F 0.20 | 1.4404, silicone | food | **Each face is indexed upward under a spray bar on the ceiling; the roller spins** | onto the belt | hot rinse, air | per meal |
+| 10 | Gate rods and collars (4) | S 0.06 | hard-chromed 1.4404 | splash | Collar ring nozzle on every stroke of the wash | belt | air | per meal |
+| 11 | Bridge ceiling, belt bay walls, wash box | S 1.5 | 1.4301 | flour dust, splash, condensate | Two rotary nozzles; ceiling sloped 5° | drip tray | 70 °C air | daily |
+| 12 | Dock chute, sleeve, egg cups, saucer rail | F 0.15 | 1.4404, silicone | every ingredient | Chase liquid after sticky doses; three nozzles; egg cups to the ware washer weekly | shaft, deck drain tray | air; must be dry before powder | per meal |
+| 13 | Dock frame, box clamp | S 0.15 | 1.4301 | dust | Nozzle | shaft | air | daily |
+| 14 | Shaft walls, floor, mast tubes | S 3.2 | 1.4301 | splash from pours, drips of fat at the flip | Rotary jet head at the top and eight wall nozzles; carriages travel the full stroke, head rolls, telescope extended | floor drain with strainer | 70 °C air | daily; at once after a detected spill |
+| 15 | Deck plate, head, gripper, telescope | S 0.45 | glass ceramic, 1.4404, polymer bushings | drips, vessel bottoms | As 14; the telescope's plain guides are open round rods | floor | air | daily |
+| 16 | Drum bay walls and floor | S 2.2 | 1.4301 | peel splash, steam | Six wall nozzles | floor to the sump | air | daily |
+| 17 | Shelves R1–R3: walls, ceilings, lid arms | S 2.7 | 1.4301 | frying aerosol, boil-over | Two nozzles per shelf; hob plates are loose glass-ceramic discs with a tang and go to the ware washer when soiled | shelf floor, drain | air | daily |
+| 18 | Oven cavity | S/F | — | — | The oven's own programme (cooking module) | — | — | — |
+| 19 | Sump, strainer, pumps, hoses | S | — | liquor | Weekly 70 °C cycle (HYG-040) | — | — | weekly |
+| 20 | Loose ware (31 items), scraper lids | F | stainless, glass ceramic | food | Ware washer through the hand-over port | — | — | per use |
+
+Fixed Zone F that is cleaned in place: **about 1.5 m²** (drum, belt, gates, chute, gutter). Zone S: **about
+11.5 m²**, of which 6 m² are the shuttle shaft and the three hob shelves, that is cooking-side surface that
+any concept with four hobs inside the cell would have. The belt and drum halves alone are 1.5 m² F and
+5 m² S.
+
+### 6.2 Drum self-wash
+
+1. Last pour with the roller-scraper on the wall.
+2. 1.5 L cold from the lance, tumble with reversal 30 s, pour to the gutter. (This alone is the 90 s
+   **quick rinse** between two jobs of the same component chain, HYG-030.)
+3. 1.5 L with detergent, heated by the coil to 55 °C (2 min), tumble, lance jets, the used heads and inserts
+   spinning in the liquor one after another, 3 min; pour.
+4. Two rinses of 1 L; pour at −35°; spin 450 rpm 10 s.
+5. Coil heats the empty drum to 110 °C for 60 s: dry and thermally disinfected (A0 far above 60).
+
+6 L, 0.25 kWh, 9 min (as the source concept B:B). Verification: wall temperature log, conductivity of the
+last rinse at the gutter, camera image of the mirror-finished inside against a stripe light.
+
+Honest weak points: the inner root of the helix fin (fillet r = 6, continuous weld: a welding quality
+item); the rolled lip (must be seal-welded, not an open roll); silicone parts of heads do not take the
+110 °C flash and leave wet; the knurled peel disc holds starch in its knurls and is the part most likely to
+fail a swab (daily to the ware washer, hot alkaline).
+
+### 6.3 Belt and gates
+
+1. Scraper at the tail during use.
+2. Cold pre-rinse, two revolutions, 2 L of mains water, to drain.
+3. Wash: 5 L at 55 °C with detergent from the sump, 8 L/min at 2 bar through both spray bars, ten
+   revolutions at 0.15 m/s (13 s each), nose extended and retracted once per revolution so that the nose bar
+   and rails are wetted, pocket formed and opened twice. During this the gates wash themselves as in rows 8
+   to 10.
+4. Rinse, two revolutions, 2 L fresh.
+5. **Steam bar**: a 200 mm hood over the return strand fed by a 1.5 kW flash boiler; the belt passes at
+   20 mm/s, surface about 90–95 °C for 8–10 s (A0 ≥ 60), one revolution in 95 s. Then the air knife.
+6. With raw food in the meal, or daily: tension released, inner face and bed washed (2 min, 2 L).
+
+About 9 L, 0.6 kWh, 8 min; with step 6, 11 L and 10 min. The same programme runs **inside a meal between a
+raw step and a ready-to-eat step**; the sequencing rule makes that rare (none of the twelve benchmarks needs
+it).
+
+Honest weak points, all needing a riboflavin test (catalogue question 2, risk R2):
+
+* the belt edges and the first 10 mm of the inner face, where egg and meat juice creep round;
+* the pocket rollers and the bed gap at the pocket;
+* the nose bar and its carriage rails under the extended nose (sprayed from the wash box only when the
+  nose is retracted; two extra nozzles in the shaft wall aim at the extended rails);
+* the root of the comb blades (nine blade roots in a row: radius 3 mm, the comb is one milled piece);
+* the G1 blade clamps at both ends of the bow;
+* the rod collars, which are dynamic seals above the belt edge (HYG-016: cleanable in place, LRU);
+* whether 8 s of steam gives the disinfection on a wet TPU surface, and whether the belt grade tolerates it.
+
+What is no longer a spray shadow compared with the source concept: there is no sifter, no curtain trough
+and no curl belt over the food, and the tools of the turret beam are washed face up.
+
+### 6.4 Raw meat and ready-to-eat food (FSF-040)
+
+* Order: all ready-to-eat cutting on the belt first, raw meat last; then belt wash with steam bar.
+* Raw mince, poultry and meat cubes never touch the belt: dock → drum or pan. The drum is flashed to
+  110 °C after raw use before anything else enters it; if the drum seared the meat at 220 °C a rinse is
+  enough.
+* The chute is the one shared surface that raw and ready-to-eat doses both pass. Raw packs are tipped last;
+  if a later ready-to-eat dose is unavoidable (garnish), it goes through the narrowing sleeve, which raw
+  food never uses, or is dosed at the hand-over.
+* The vessel shuttle touches only tangs; tangs are outside the vessels.
+
+### 6.5 Waste
+
+Peel slurry, wash water and cooking water: gutter → rotating wedge-wire strainer (0.5 mm) under the drum
+bay → solids to the organic bin by a back-flush and a short screw, liquid to the sump or drain. Belt waste
+(trimmings, first and last slices, surplus flour and crumbs that touched raw meat) leaves dry at the tail
+chute at the far right, 800 mm from the shaft, into the same bin through a closed duct. Egg shells are
+dropped by the cups into a side funnel of the gutter. No waste path crosses the shaft (PRP-033). No
+macerator.
+
+### 6.6 Totals per meal [E]
+
+| | Water | Energy | Time |
+|---|---|---|---|
+| Drum: two quick rinses and one full wash | 9 L | 0.3 kWh | 3 + 9 min |
+| Belt and gates (with inner face) | 11 L | 0.6 kWh | 10 min |
+| Chute, gutter, bay and shaft spot wash | 4 L | 0.1 kWh | 4 min |
+| Drying air, belt bay and shaft | — | 0.3 kWh | 20 min |
+| **In-place total** | **about 24 L** | **about 1.3 kWh** | **12 min wet (drum and belt run in parallel), dry after 35 min** |
+| Daily wash-down of shaft, bays, shelves (once per day, not per meal) | 12 L | 0.5 kWh | 12 min |
+| Ware washer load (12–16 items per meal, not part of K3) | 17–20 L | 1.3 kWh | 55–75 min |
+
+With the ware load and the plates, a meal that uses drum and belt is at about 50–55 L, above the 45 L of
+RES-005. Using the drum's last rinse as the belt pre-rinse and the belt rinse as the next pre-rinse saves
+about 4 L. A drum-only meal (B4, B9) needs 9 L in place.
+
+---
+
+## 7. Numbers
+
+| Quantity | Value [E] |
+|---|---|
+| Wall width | **1450 mm** at 600 deep and 2000 high, including five heated positions, the oven and the dock. Preparation machines alone (drum bay, shaft, belt column): the same 1450; the stacking under them is what holds the cooking |
+| Motion actuators | **35** (16 preparation, 9 dosing front end, 10 vessel and cooking handling); plus 12 valves, 3 pumps, 2 fans, 5 induction generators |
+| Wall penetrations with dynamic seals | 16: tilt shaft, gutter shaft, arm (concentric), belt drive, 2 pocket shafts, dancer, nose rod, 4 gate rods, 2 lid arms, 2 turntable rims (labyrinth, no contact) |
+| Seals inside a food volume | none |
+| Custom part types | about 65 (drum, yoke, pod, gutter, arm, 7 heads, 5 cartridge cages, 3 inserts, belt frame, nose carriage, pocket unit, dancer, 2 gates, comb, plate, dock, chute, cartridge, egg opener, mast, 2 carriages, telescope, gripper, turntables, lid arms, rack, scoops, trays, lids, caddy, enclosure) |
+| Bought part types | about 45 |
+| Loose ware and tools | 31 ware items, 15 heads and inserts |
+| Parts cost | **about 20 k€** (18–23) without the oven: enclosure and frame 2.5, drum with drive, tilt and coil 2.2, arm and heads 1.8, belt, nose, pocket 1.8, gates 1.5, dock and egg opener 1.3, shuttle 2.5, shelves with four more induction modules 2.2, wash kit and steam bar 1.0, sensors and cameras 0.8, drives and control 2.5, ware 1.2 |
+| Peak power | Drum 3 + R1 3 + R2 2 + oven 3 kW = 11 kW on three phases with everything on; the power manager never runs the sump heater, steam bar or H0 together with that |
+| Noise sources | Rumbler peeling (potatoes on a knurled disc in a steel cup, 3–4 min, the loudest and longest), knives at 3000 rpm in the drum, cutter cartridge, spin at 480 rpm, G1 at 40 Hz, pumps. Peel plus chop plus spin exceed the 5 minutes that NOI-003 allows for loud operations in B3 and B6 |
+| Handling moves | 14–85, mean 36 per benchmark meal |
+| Elapsed time | all twelve benchmarks inside PERF-001; B3 and B8 with less than 10 min margin |
+| Class R separation | by sequence and wash, one belt, one drum (6.4) |
+| Drum balancing (catalogue question 1) | Spin only with the basket and ≤ 1.2 kg of leaves: 0.3 kg of imbalance at 0.14 m and 480 rpm gives about 105 N rotating force on a module of more than 150 kg; ramp with redistribution at 90 rpm as in a washing machine; no spin with water in a bare drum |
 
 <!--NEXT-->
