@@ -291,7 +291,7 @@ scrambles; liquid egg in cartons as the default for batters and baking.
 | Spiral mixer (small pro) | Spiral hook plus rotating bowl | 750 W for 5-10 kg dough; 1.5 kW for 8 kg (Amazon listing); 1.8 kW for 25 kg (Spiralmac) | | [S R30] |
 | Kenwood Chef | Planetary bowl tools plus three outlets | 1,000 W class [M] | | [S R6, M] |
 | Immersion blender | Bell-guarded blade | 200-800 W, 10,000-15,000 rpm [M] | | [M] |
-| Potato ricer / food mill | Piston or paddle pushes cooked food through a 2.5-3 mm perforated plate | Piston force 100-300 N for 500 g hot potato [E]; motorised 500-1,000 N electric cylinder | Skins stay in the hopper | [E] |
+| Potato ricer / food mill | Piston or paddle pushes cooked food through a 2.5-3 mm perforated plate | Piston force about 300-1,000 N for 500 g hot potato through 3 mm holes (hand ricers use a lever) [E]; use a 1-2 kN electric cylinder | Skins stay in the hopper | [E] |
 
 ### 6.2 Torque and power per batch (derived)
 
@@ -507,3 +507,296 @@ and cuts washer load.
 | **Draining oil from fried food** | Basket lift with pause; paper, or a rack | |
 
 ---
+
+## 12. End-effectors and tool changing
+
+### 12.1 Load case for the manipulator tools ([E])
+
+Tool 0.2-0.5 kg, food load up to 1-1.5 kg (basket, ladle), lever arm 0.25 m: static moment
+about 5 Nm, design for 10-15 Nm with dynamics. Scraping and pressing: 20-50 N. Heavy work
+(chopping, kneading, pressing 1-2 kN) is done at fixed stations, not by the arm. So the changer
+handles light tools only.
+
+### 12.2 Grippers
+
+| Gripper | Data | Fit | Tag |
+|---------|------|-----|-----|
+| **Festo HPSX** universal adaptive gripper | Silicone fingers, 0.5 kg payload, 15 g acceleration, sizes 40, 70, 100 mm, IP69K washdown, food-grade and metal-detectable, tool-free finger replacement, about 5 million cycles per finger, ISO 50 interface, 2-, 3- and 4-finger versions, direct contact with raw proteins allowed | Eggs, tomatoes, potatoes, meat slices; price on quote (estimate EUR 1,500-3,000) | [S R28], price [M] |
+| **Festo DHAS** adaptive fin-ray fingers | Sizes 60, 80, 120 mm; fin-ray effect; used on fruit and vegetables | Cheap way to add compliance to a parallel gripper | [S R28] |
+| **Soft Robotics mGrip** | Pneumatic soft fingers, food-grade, washdown | Produce and meat pieces | [M] |
+| **OnRobot soft gripper / Piab piSOFTGRIP** | Silicone bellows or vacuum-driven soft gripper | Fragile produce | [M] |
+| **Chef Robotics utensils** | "Food safe, IP67 pneumatic parallel actuator" with proprietary utensils; a limited set per class of food (sauces vs diced vs long); under 10 minutes to disassemble, clean and reassemble modules | Shows that a small set of utensils per food class works in production | [S R14] |
+| **Hygienic parallel grippers** (Schunk, Zimmer, Festo, stainless IP69K) | Stainless, sealed bearings | Rigid jaws for handled tools | [M] |
+
+Hygienic design rules for grippers and tools ([M], EHEDG-style): no hollow tubes, no exposed
+threads, smooth surface (Ra of about 0.8 um or better), radii of at least 3 mm, self-draining
+slopes, food-grade silicone/PEEK/316L, sealed IP69K joints, no electronics in the wet zone.
+
+### 12.3 Ways to change tools
+
+| Option | Principle | Data | Pros | Cons |
+|--------|-----------|------|------|------|
+| **A. Grasp-the-tool (no changer)** | One good two-finger gripper picks handled tools (spatula, ladle, tongs, scraper, brush) by a standard handle with a V-groove and a flange | Utensils are passive, 100-300 g [E] | No electrics or air in the tool; every tool is a plain stainless or PP part that goes in the washer; Chef Robotics does this with utensils [S R14] | Limited torque transfer; tools are passive; handle must self-locate (cone plus flange) |
+| **B. Kinematic coupling with a lock hook** (Prusa XL, E3D ToolChanger, Jubilee) | Three balls seated in three pairs of cylindrical pins; a rotary hook draws the tool tight | Prusa XL holds up to 5 toolheads with a Kelvin coupling and a motor-driven hook; repeatability +/-0.015 mm when clean, over 0.08 mm with dust [S R27]; XL+ single-tool price EUR 2,299 [S R27b] | Repeatable, mechanically simple, 3D-printable [E]; kitchens need only 0.5 mm | Balls and pin pockets are crevices; must sit in a dry, shielded zone; pogo pins for electrics are not washable |
+| **C. Magnetic plus kinematic** | Magnets pull the tool onto a 3-ball seat; a small bayonet twist locks it | Hold force 10-30 N per magnet pair [E] | Flat, wipeable faces (seal the magnets in PEEK or steel) | Magnets attract swarf; hold force marginal for scraping; NdFeB temperature limit |
+| **D. Pneumatic industrial** (ATI QC-11, Schunk SWS, Zimmer) | Locking piston and balls, compressed air | QC-11: payload 35 lb (16 kg), static moment 180 lbf-in (20 Nm) X/Y and 110 lbf-in (12 Nm) Z, lock force 240 lb (about 1.07 kN) at 80 psi, repeatability 0.0004 in (10 um), coupled mass about 0.25 kg, six air passes [S R27d]; Schunk SWS has 14 sizes [S R27e] | Robust, tested, vendor support | Not hygienic; needs a compressed-air line (compressor 6 bar); overkill for 0.5 kg tools; price not published, estimated USD 700-1,200 per pair [M] |
+| **E. Manual flange** (ISO 9409-1-50, Festo HPSX has an ISO 50 interface [S R28]) | Bolted | | Cheapest | Human in the loop; rejected |
+
+**Rack and washer.** All changing options need a tool rack. The tool rack should be part of a
+spray cabinet: the manipulator returns each used tool to a washing slot; the next clean one is
+taken from a dry slot. This removes the "dirty tool touches clean tool" problem.
+
+**Recommendation.** Use option A for passive tools (spatula, scraper, ladle, tongs, skimmer,
+brush). Use option B or C only where a tool needs a different actuator (e.g., a soft gripper
+versus the rigid tool-gripper). Avoid pneumatics unless a compressor is already present for air
+peeling.
+
+### 12.4 Reusing commercial mixer attachments
+
+| Ecosystem | Interface | Data | Attachments of interest | Tag |
+|-----------|-----------|------|-------------------------|-----|
+| **KitchenAid** | Power hub with square socket and thumbscrew; any attachment from any era fits any mixer since 1937 | Motor about 325-500 W; hub tops out near 280 rpm | Slicer/shredder, food processor, grinder, pasta roller and cutters, pasta extruder, fruit and vegetable strainer (food mill), spiraliser, sausage stuffer. Many parts are dishwasher-safe [M]; price USD 50-200 each [M] | [S R5], [M] |
+| **Kenwood Chef / Major** | Three outlets: high-speed (blender, processor), slow-speed "Twist Connection" (product codes KAX; pasta, mincer, etc.; adapter for old bar type), and a bowl-tool outlet on top | | Mincer, slicer, food processor, pasta | [S R6] |
+| **Bosch MUM** | Side power take-off plus bowl tools | | Cutters, mincer, juicer | [M] |
+| **Ankarsrum** | Bowl-rotating base; side hub for attachments | 600 W | Grain mill, meat grinder, roller-and-knife | [S R29] |
+
+**Reuse strategy.** Build a small **power-hub module** with the KitchenAid hub geometry
+(brushless motor 200-300 W, 10:1 planetary, 20-300 rpm, thumbscrew replaced by a cam or a
+bayonet). The hub stays dry; the attachments (grinder, slicer-shredder, food mill, pasta
+extruder) are washed in the washer. Only use it if D4 chooses those devices; otherwise a custom
+cutter head is simpler. The cost of attachments is far below the cost of a professional unit.
+
+---
+
+## 13. Synthesis: unit operation to mechanism
+
+Column "Rec." is the recommended mechanism. "Avoid" means solve by ingredient choice.
+
+| # | Unit operation | Candidate mechanisms (best first) | Rec. | Avoid by ingredient choice |
+|---|----------------|-----------------------------------|------|-----------------------------|
+| 1 | Wash produce | Basket in the prep bowl with agitation; spray; ozone/PAA dose | Basket in bowl | Pre-washed leaves |
+| 2 | Spin dry | Bottom-drive basket at 600-900 rpm | Bottom drive | |
+| 3 | Scrub roots | Silicone brush on arm; drum | Brush on the arm | |
+| 4 | Peel potato, root | Skin-on; ricer/food mill retains skin; abrasive drum | Skin-on and ricer; drum optional | Vacuum-peeled potatoes |
+| 5 | Peel onion, garlic | Top-and-tail plus rollers; air blast; buy peeled | Buy peeled or frozen; garlic press with skin | Peeled garlic, frozen diced onion |
+| 6 | Peel tomato | Blanch and shock; food mill | Food mill for sauce | Canned tomato |
+| 7 | Core, destem, stone | Push-through corer; halve and scrape | Avoid | Frozen, canned, pitted |
+| 8 | Slice vegetable | Feed-through slicing disc; push-through grid; harp | Disc | |
+| 9 | Dice vegetable | Disc plus grid; push-through dicer; bowl blade (rough) | Disc plus grid; bowl blade for sauces | |
+| 10 | Julienne, sticks | Julienne disc; slice then cross-cut | Julienne disc | |
+| 11 | Grate, shred | Shredding disc; bowl blade | Disc | |
+| 12 | Chop onion, herbs | Bowl blade pulses; dicing grid | Bowl blade | Frozen herbs |
+| 13 | Mince garlic | Press; bowl blade | Press | Paste, frozen cubes |
+| 14 | Slice bread, sausage, cooked roast | Deli slicer; guillotine; buy pre-sliced | Slicer optional | Pre-sliced bread and cold cuts |
+| 15 | Portion raw meat (cubes, strips) | Buy cut; semi-frozen slicer plus grid | Buy cut | Goulash, Geschnetzeltes packs |
+| 16 | Mince meat | Bowl blade with semi-frozen cubes; grinder; buy mince | Bowl blade, or buy | Frozen mince |
+| 17 | Pound, flatten | Press plate 0.5-1.5 kN; roller | Press station | Pre-flattened cutlets |
+| 18 | Form patty, Frikadelle | Ring mould with plunger; sphere pair | Press station | |
+| 19 | Roll, stuff (Rouladen) | Silicone mat with clip; buy pre-rolled | Optional recipe set | Ready Rouladen |
+| 20 | Skewer | Skewer press | Avoid | Serve loose |
+| 21 | Crack egg | Blade and jaws module; liquid egg | Module | Liquid egg |
+| 22 | Separate egg | Slotted cup on the module | Module | Liquid yolk and white |
+| 23 | Whisk, whip | Bottom-drive whisk; concept C whisk | Concept C bowl | |
+| 24 | Knead | Concept C roller and scraper; planetary hook | Concept C | Bought dough |
+| 25 | Mix, stir | Fixed scraper plus rotating vessel; robot spatula | Concept C | |
+| 26 | Fold | Slow reversing paddle; robot spatula | Slow paddle | |
+| 27 | Emulsify | Bottom blade plus pump dribble | Bottom blade | Bought mayonnaise |
+| 28 | Puree, blend | Bottom blade; immersion blender; food mill | Bottom blade | |
+| 29 | Mash | Ricer / food mill; slow paddle | Ricer in press station | |
+| 30 | Roll out dough | Robot pin; plate press; twin rollers | Plate press | Bought dough sheets |
+| 31 | Pasta | Buy dried or chilled; extruder attachment | Buy | Dried pasta |
+| 32 | Shape bread, cake | Tins; bread-machine approach | Tins | Bought pastry |
+| 33 | Coat, bread (Schnitzel) | Tray plus press and brush; three trays | Tray plus press | Frozen breaded |
+| 34 | Dose thin liquid | Peristaltic; mains valve; tilt-pour | Pump / valve | |
+| 35 | Dose viscous paste | Pouch and rollers; scoop; piston | Scoop or pouch | Bottled sauces |
+| 36 | Dose powder, spice | Shaker lid with vibration; rotary cup; auger | Shaker lid, weigh cup | |
+| 37 | Dose granulate | Tilt-pour with gate and vibration | Tilt-pour | |
+| 38 | Dose whole produce | Tilt onto a ramp and pick by vision; gripper | Ramp and gripper | |
+| 39 | Dose leafy | Gripper with weigh check | Gripper | Frozen spinach |
+| 40 | Dose sticky | Scoop with sweeper; push-out box; robot scraper | Scoop | |
+| 41 | Vessel to vessel | Tilt-pour; ramp and scraper; rinse | Tilt plus scraper plus rinse | |
+| 42 | Drain, blanch | Lift-out basket; drain valve | Basket | |
+| 43 | Skim | Skimmer on the arm; overflow | Skimmer | |
+| 44 | Deglaze | Liquid dose plus scraper | Dose plus scraper | |
+| 45 | Citrus juice | Reamer press in the press station | Press station | Bottled juice |
+| 46 | Zest | Shredding disc or grater plate | Avoid | Dried zest |
+
+---
+
+## 14. Minimal tool set
+
+| # | Tool / station | Function | Key specification ([E]) | Operations covered (numbers from section 13) |
+|---|----------------|----------|-------------------------|-----------------------------------------------|
+| 1 | **Chopping bowl** with bottom drive (concept A or B) and perforated basket | Chop, mince, puree, emulsify, whip, wash and spin | 2.5 L, 500 W, 40-10,000 rpm, basket 600-900 rpm, blade unit and basket dishwasher-safe | 1, 2, 12, 13, 16, 27, 28 |
+| 2 | **Rotating-bowl kneader / stirrer** (concept C), which is also the cooking pot with a fixed silicone scraper | Knead, whisk, fold, stir; dough up to 1.5 kg | 4-7 L, 300 W, 10-20 Nm at 100 rpm | 23-26, 32 |
+| 3 | **Feed-through cutter head** | Slice, shred, stick, dice | 300-500 W, 400 rpm, chute at most 40 x 40 mm, 5-8 discs and a 10 mm grid, jam detection by motor current | 8-11 |
+| 4 | **Press station**: 2 kN electric cylinder, 150 mm stroke, tool plates | Flatten cutlets, patty ring, ricer chamber, citrus reamer, garlic press, pizza plate, coating press | 2 kN, 20-50 mm/s | 5, 17, 18, 29, 30, 33, 45 |
+| 5 | **Egg module** | Crack, separate | 1 egg per 10 s; blade 0.1 J | 21, 22 |
+| 6 | **Weigh and dose station** | Dose all forms from boxes | Two load cells (200 g and 10 kg), tilt gantry with vibration, pumps, mains valve and flow meter | 34-41 |
+| 7 | **Manipulator with passive utensil set** | Scrape, flip, skim, lift baskets, pick, brush | 3 kg payload, soft or fin-ray gripper, 6 utensils | 3, 41-44 |
+| 8 | **Tool rack in a spray cabinet** | Wash and store utensils and discs | | all |
+| 9 | Optional: **deli slicer**, **pasta extruder**, **abrasive drum**, **grinder attachment** | Carving; fresh pasta; peeled potatoes; mincing | | 4, 14, 31 |
+
+**Fit against the 95 % goal (qualitative).** Items 1-8 do every operation in section 13 except
+skewering, coring of many fruits, Rouladen rolling, hand-shaped pastry and bone work. Those are
+either avoided by ingredient choice (frozen, canned, pre-cut, pre-sliced) or listed as optional
+recipes. The measured coverage must be computed against the meal corpus of R2.
+
+**Count of moving mechanisms:** 2 bowl drives, 1 cutter drive, 1 press cylinder, 1 egg module,
+1 tilt gantry with vibration, pumps, 1 manipulator, 2 load cells. This is a small set for the
+range covered.
+
+---
+
+## 15. Operations better avoided by ingredient choice
+
+| Operation | Why it is hard | Substitute |
+|-----------|----------------|-----------|
+| Peeling potatoes, carrots | Irregular, water, waste; abrasive drum is bulky | Skin-on, ricer or food mill, vacuum-peeled potatoes |
+| Peeling onions and garlic | Delicate skins; air or blades | Peeled cloves, frozen diced onion, garlic paste |
+| Coring, stoning (avocado, cherries, mango) | Each fruit needs its own head | Frozen or canned pitted; avocado pulp |
+| Butchering, deboning, trimming fat | Force and safety | Boneless, trimmed and portioned packs |
+| Cutting raw meat to cubes or strips | Workholding and hygiene | Goulash, Geschnetzeltes and stir-fry packs |
+| Slicing Rouladen | Thin slices from a muscle | Pre-sliced Rouladen meat |
+| Skewering | Needs pointed skewers and force | Serve loose; cook cubes on the plate |
+| Cracking many eggs | Shell, spill | Liquid egg in cartons |
+| Fresh pasta, dumplings | Rolling, cutting, filling | Dried or chilled pasta; frozen dumplings, Maultaschen |
+| Fish (gutting, filleting) | Bones | Fillets |
+| Shaping bread and pastry | Skill | Tin loaves, bought puff pastry |
+| Shelling peas, beans, nuts | Small parts | Frozen or shelled |
+| Segmenting citrus, carving fruit | Skill | Canned or juice |
+| Decorative plating cuts | Aesthetic | Standard shapes |
+
+Trade-offs: pre-cut and vacuum-packed items cost more and last days to weeks [M]. The ingestion
+module (R7) must record the pack type and shelf life, and the meal planner (D10) must prefer
+recipes that match the available forms.
+
+---
+
+## 16. Candidate components with prices
+
+Prices marked [S] were seen in a listing; the rest are approximate street or list prices from
+memory [M], +-30 %, to be verified in D4 or the BOM (B1).
+
+| Component | Model or class | Price | Tag |
+|-----------|----------------|-------|-----|
+| Prototype chopping bowl | Vorwerk Thermomix TM6 (500 W, 40-10,700 rpm, 2.2 L) | EUR 1,300-1,500 (TM5 launch EUR 1,139) | [S R4b], [M] |
+| Prototype chopping bowl | Robot Coupe R2 or R301 cutter-mixer | USD 1,500-2,500 | [M] |
+| Custom bowl drive | BLDC 500 W plus controller, SmCo ring coupling | USD 150-350 | [E] |
+| Prototype rotating-bowl mixer | Ankarsrum Original (600 W, 7 L bowl) | USD 650-800 | [M] |
+| Custom kneader drive | 300 W BLDC plus 10:1 planetary | USD 150-300 | [E] |
+| Prototype cutter head | Robot Coupe CL50 (1.5 HP, 425 rpm) | USD 2,500-3,500 | [M] |
+| Dicing kit | Robot Coupe 10 x 10 mm, CL50 | USD 250-400 | [M] |
+| Push-through dicer | Vollrath Redco InstaCut 3.5, 3/8 inch | USD 285; blade assembly USD 107 | [S R24] |
+| Kitchen attachments | KitchenAid slicer/shredder, grinder, strainer | USD 50-200 each | [M] |
+| Meat grinder (if used) | #12, 750 W, 170-200 rpm | USD 250-500 | [M] |
+| Press | 2 kN electric cylinder, 150 mm stroke | USD 150-400 | [M] |
+| Load cells | 200 g and 10 kg strain-gauge, HX711 or NAU7802 amplifier | USD 3-15 each; amplifier USD 1-10 | [M] |
+| Peristaltic pump | Small food-grade (about 100-500 mL/min) | USD 30-60; large USD 200-500 | [M] |
+| Vibration motor | Eccentric 12-24 V | USD 5-20 | [M] |
+| Egg cracker reference | Electric small-scale, about 100 eggs/h | USD 120-150 | [S R7b] |
+| Tool changer (printed) | Kinematic coupling, servo-driven hook | USD 30-80 | [E] |
+| Tool changer (industrial) | ATI QC-11 or Schunk SWS | USD 700-3,000 per pair | [M] |
+| Reference multi-tool platform | Prusa XL+ single tool | EUR 2,299 | [S R27b] |
+| Gripper | Festo HPSX (0.5 kg, IP69K) | quote; estimate EUR 1,500-3,000 | [S R28], [M] |
+| Fin-ray fingers | Festo DHAS | EUR 50-150 per pair | [M] |
+| Compressor (only if needed) | Diaphragm, 6 bar | USD 60-150 | [M] |
+| Ultrasonic blade | 20 kHz kit | USD 600-2,000; industrial five figures | [M], [S R11] |
+| Pasta extruder | Philips 7000 series (150-200 W) | EUR 200-350 | [S R21] for power, [M] for price |
+| Pasta sheeter | Marcato Atlas 150 | EUR 80-120 | [M] |
+| Deli slicer | 250 mm | USD 500-1,500 | [M] |
+
+---
+
+## 17. Sources
+
+R1. Effects of knife edge angle and speed on peak force and specific energy when cutting vegetables of diverse texture. https://www.researchgate.net/publication/305488455_Effects_of_knife_edge_angle_and_speed_on_peak_force_and_specific_energy_when_cutting_vegetables_of_diverse_texture_Cutting_force_and_specific_energy_for_vegetables_23 ; https://pdfs.semanticscholar.org/c0fd/d64045bf6337bad1130543b93fc3a54121b1.pdf (Int. J. Food Studies, 2016; only the abstract-level numbers were readable)
+R2. Energy requirements for cutting of selected vegetables: a review (CIGR Journal 2018). https://cigrjournal.org/index.php/Ejounral/article/download/4949/2892/22924
+R3. Robot Coupe CL50: https://webstaurantstore.com/robot-coupe-cl50-continuous-feed-food-processor-1-1-2-hp/649CL50ND.html ; dicing kit https://www.amazon.com/Robot-Coupe-Dicing-Kit-CL50/dp/B0017S4J92 ; https://www.robot-coupe.com/export/en/p/discs-dicing-equipment-10x10x10-mm/18324
+R4. Vorwerk Thermomix TM6 manual and specification. https://www.vorwerk.com/gb/en/c/dam-home/service/instruction-manuals/TM6_digital_manual_MGB-en-GB_prefill_20190207.pdf ; https://thespoon.tech/here-they-are-the-full-thermomix-tm6-specs/
+R4b. https://en.wikipedia.org/wiki/Thermomix
+R5. KitchenAid attachment hub. https://medium.com/@MrProduct/kitchenaid-mixer-attachments-all-83-attachments-add-ons-and-accessories-explained-45e49e71ef64 ; https://www.kitchenaid.com/content/dam/global/documents/201904/spec-sheet-ksm8990.pdf
+R6. Kenwood outlets. https://www.kenwoodworld.com/en/products/attachments/high-speed-outlet-attachments/c/high_speed_outlet ; https://thekenwoodguys.com/collections/slow-speed-outlet
+R7. Sanovo egg breakers. https://www.sanovogroup.com/en/egg/solutions/egg-processing/optibreaker-plus-12/ ; https://www.thepoultrysite.com/articles/easing-the-pains-of-egg-and-chick-processing
+R7b. Small-scale egg breaking. https://making.com/equipment/small-scale-egg-breaking-and-separation ; https://rbtx.com/en-US/solutions/jsl-solution-egg-cracking-machine-room-linear-robot-xyz-gantry
+R8. Abrasive and steam peeling. https://www.potatopro.com/about/carborundum-peelers ; https://www.potatopro.com/news/2025/abrasive-peeling-%E2%80%93-gentle-yet-effective-delicate-produce ; https://www.potatopro.com/about/steampeeler ; https://www.tomra.com/food/machines/peeling-line
+R9. Air-blast garlic and onion peeling. https://www.verfoodsolutions.com/products/vegetable-process/garlic-peeling-machine/automatic-garlic-peeling-machine/ ; https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4602559
+R10. Warner-Bratzler shear force. https://www.ars.usda.gov/ARSUserFiles/30400510/protocols/shearforceprocedures.pdf ; https://agrilife.org/animalscience/files/2012/04/ASWeb072-warnerbratzler.pdf
+R11. Ultrasonic cutting. https://hackaday.com/2025/03/21/high-frequency-food-better-cutting-with-ultrasonics/ ; https://www.sciencedirect.com/science/article/abs/pii/S0958694608002276 ; https://www.sciencedirect.com/science/article/abs/pii/S1466856406000439 ; https://www.sciencedirect.com/science/article/abs/pii/S0260877410005467 (abstracts only)
+R12. Water-jet food cutting. https://www.hydroprocess.fr/en/special-water-jet-cutting-machine-for-the-catering-trade-chefcut/ ; https://www.techniwaterjet.com/cutting-food-with-a-waterjet-cutter/
+R13. YORI modular robotic kitchen. https://arxiv.org/html/2405.11094v3
+R14. Chef Robotics. https://www.automationworld.com/process/robotics/article/55131189/amys-kitchen-boosts-yields-and-production-with-chef-robotics
+R15. Dosing selection, load cell batching, spice screw dosing. https://www.palamaticprocess.com/blog/how-select-your-dosing-system ; https://industrialmonitordirect.com/blogs/knowledgebase/designing-load-cell-based-powder-batching-system ; https://www.ddw-online.com/automation-of-solid-powder-dispensing-much-needed-but-cautiously-used-917-200908/ ; https://www.palamaticprocess.com/en-us/case-studies/food-feed/spice-dosing
+R16. Peristaltic pumps. https://www.axflow.com/en-gb/applications/technical-support/pump-technologies/hygienic-pump-articles/food-grade-peristaltic-pumps/ ; https://www.coleparmer.com/tech-article/how-to-achieve-accurate-dispensing-with-peristaltic-pumps (page returned 403; figures from the search summary)
+R17. Volumetric cup dosers. https://www.vtops.com/product/dry-solids-volumetric-cup-rotary-filling-dispenser/ ; https://heritageequipment.com/product-detail/243/8671/
+R18. Vibratory feeders for food. https://www.processingmagazine.com/material-handling-dry-wet/powder-bulk-solids/article/21293774/selecting-electromagnetic-vibratory-feeders-for-food-applications ; https://www.foodengineeringmag.com/articles/99711-vibratory-feeder-dosing-system
+R19. Load cell and HX711 accuracy. https://zbotic.in/hx711-load-cell-interface-weight-scale-project-step-by-step/ ; https://forum.arduino.cc/t/how-to-get-more-accurate-reading-out-of-load-cells-with-hx711/500770
+R20. Breading machines. https://jbtmarel.com/en/prepared-foods/battered-and-breaded-products/coating/ ; https://nothum.com/equipment/predust-breading/superflex/ ; https://www.ayrking.com/food-prep-equipment/breading-equipment/drumroll-automated-breader/ ; https://www.anko.com.tw/en/food/Batter-Crumb-Breading.html
+R21. Philips pasta maker. https://www.documents.philips.com/assets/20221015/1fa0b6cdd833474e9540af2f00cb40a5.pdf ; https://www.home-appliances.philips/gb/en/p/HR2665_93
+R22. Patty forming. https://www.provisur.com/en/equipment/forming/f6/ ; https://waltons.com/categories/patty-makers
+R23. Meat grinders. https://www.vollrathfoodservice.com/products/countertop-equipment/food-preparation-equipment/grinders/grinders/40743 ; https://www.walmart.com/ip/Weston-12-Heavy-Duty-Electric-Grinder-1-HP/208140460 ; https://www.hubert.com/product/PAF.MC-12/ALFA-12-MEAT-GRINDER-SS-1-HP--110V60HZ---ETL-170-RPM
+R24. Vollrath Redco InstaCut. https://www.webstaurantstore.com/vollrath-15001-redco-instacut-3-5-3-8-fruit-and-vegetable-dicer-tabletop-mount/92215001.html ; https://www.webstaurantstore.com/vollrath-15063-redco-3-8-dicing-blade-assembly-for-vollrath-redco-instacut-3-5/92215063.html
+R25. Produce washing. https://www.osti.gov/pages/servlets/purl/1981610 ; https://www.foodprotection.org/files/food-protection-trends/Aug-12-Fishburn.pdf ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8000956/ ; https://www.sciencedirect.com/science/article/pii/S0362028X22054588
+R26. Salad spinners. https://sammic.com/en/products/salad-spinner ; https://lifetips.alibaba.com/kitchen-hacks/equipment-the-best-salad-spinner (low-confidence; the a = w^2 r arithmetic was re-derived, its "4-6 g" claim is inconsistent and is not used)
+R27. Prusa XL tool changer. https://www.theindustrialmaker.com/machines/fdm-3d-printers/prusa-xl-toolchanger-problems-fixes ; https://3dprintingindustry.com/news/prusa-debuts-its-large-format-toolchanger-system-the-xl-3d-printer-technical-specifications-and-pricing-199965/ ; E3D: https://e3d-online.com/blogs/news/research-and-development-motion-system-and-tool-changer (returned HTTP 429, search summary only)
+R27b. https://www.prusa3d.com/product/original-prusa-xl-2/
+R27d. ATI QC-11. https://www.ati-ia.com/products/toolchanger/QC.aspx?ID=QC-11
+R27e. Schunk tool changers. https://schunk.com/de/en/automation-technology/tool-changer/c/PUB_11563
+R28. Festo grippers. https://www.therobotreport.com/festo-hpsx-compliant-gripper-designed-meet-industry-requirements/ ; https://www.festo.com/media/catalog/202802_documentation.pdf ; https://press.festo.com/en/node/5135
+R29. Ankarsrum. https://www.tasteofhome.com/article/ankarsrum-mixer-review/ ; https://www.ankarsrum.com/us/product/assistent-original-red-r/ ; https://en.wikipedia.org/wiki/Electrolux_Ankarsrum_Assistent
+R30. Spiral mixers. https://www.agrieuro.co.uk/dough-mixers/spiral-mixers-c-2322_105.html ; https://pleasanthillgrain.com/spiralmac-25kg-spiral-dough-mixer
+R31. Cheddar cutting force and wire cutting. https://texturetechnologies.com/application-studies/cheddar-cheese-cut ; https://labomat.eu/gb/texture-faq/861-case-study-cheddar-cutting-force-measurement.html ; https://www.sciencedirect.com/science/article/abs/pii/S0013794404001997
+R32. Robotic meat cutting and knife control. https://pmc.ncbi.nlm.nih.gov/articles/PMC9056033/ (search summary only; page blocked) ; https://arxiv.org/pdf/2508.02604
+R33. Other cooking robots for context. https://www.livingetc.com/news/nymble-kitchen-robot ; https://newatlas.com/robotics/moley-robotic-kitchen-launch/ ; https://newatlas.com/cooki-robotic-chef/35510/
+
+Verification limits: the web-search quota was exhausted mid-task, and several pages (E3D blog,
+Cole-Parmer, ScienceDirect, PMC, Kenwood guide, arXiv PDFs) could not be read in full.
+
+---
+
+## 18. Open issues
+
+1. **Coverage is not yet measured.** The meal corpus (R2) was not available. The tool set in
+   section 14 must be checked against unit-operation counts; particularly how many meals need
+   peeled potatoes, chopped onion, diced meat, Rouladen, skewers.
+2. **Box lid interface.** Section 9.5 proposes three lid types (pour, shaker, liquid) on the
+   standard storage box. This touches the box standard frozen by A1. D4 must raise this with A1
+   and D1 if the box has no room for a gate or a shaker plate.
+3. **Vessel standard.** Chopping bowl (bottom drive), kneading bowl (rotating) and cooking pots
+   are proposed as different vessel classes. The number and sizes of vessels, and who moves them
+   (transport or manipulator), belong to A1 and D4.
+4. **Magnetic coupling.** Torque (2-4 Nm), slip, heat, and the interaction with induction
+   heating are estimates. A bench test is needed before choosing between concepts A and B.
+5. **Shaft seal hygiene** in concept A: cleaning validation (R6/V3), seal lifetime.
+6. **Feed-through cutter quality** on tomatoes, onions and leafy herbs; jams on long items;
+   need for a pre-halving step.
+7. **Press station tooling.** One 2 kN press with seven tool plates (flatten, patty ring, ricer,
+   citrus, garlic, pizza, coating) needs tool-change logistics and washing of each plate.
+8. **Egg module reliability**, shell fragments, raw-egg cleaning cycle.
+9. **Residue table** in 10.2 is an estimate; measure with real food.
+10. **Peeling.** Decide whether the optional abrasive drum is built, and how starch and peel
+    waste is kept out of the drain (screen, settling trap).
+11. **Sanitising wash.** Ozone or peracetic acid: legal status, materials compatibility and
+    residue limits are open (R6).
+12. **Number of manipulators** (one or two) and their payload, especially for lifting a 4-5 kg
+    hot pot for draining or pouring.
+13. **Noise and vibration** of blades at 10,000 rpm and the dryer at 900 rpm in a home kitchen.
+14. **Prices** in section 16 marked [M] are unverified.
+
+## 19. Risks
+
+| Risk | Effect | Mitigation |
+|------|--------|------------|
+| Cutting quality is worse than a human's (bruised tomato, ragged onion) | Users reject the meals | Use slicing and dicing discs with sharp blades, keep onion for bowl blade, allow cut-form substitutes |
+| Feed-through jams and blade wear | Stalls, service calls | Motor-current detection, reversing, standard discs and easy replacement |
+| Biofilm in seal crevices, disc hubs, tool-changer pockets | Food safety | Seal-free designs (concepts B and C), smooth radii, flush ports, hot wash at 70 C or above (R6) |
+| Raw meat and egg cross-contamination | Salmonella, Campylobacter | Raw and clean zones, tool tags, hot wash between raw and clean use, core-temperature cooking |
+| Allergen carry-over (nuts, gluten, milk) | Health | Validate cleaning cycles per allergen; label boxes (R6) |
+| Powder caking from steam and humidity | Dosing errors, blockages | Weigh-cup dosing away from the pot, shutters, desiccant, extraction |
+| Load-cell drift with temperature and vibration | Wrong recipe amounts | Thermal isolation, two ranges, tare before each dose, redundant check by box weight |
+| Magnetic coupling slips or overheats | Blade stops, product left raw | SmCo magnets, torque sensing, fallback concept A |
+| Tool-changer contamination or wear | Missed pick, tool drop | Use passive grasp-the-tool option, keep changers in dry zones, teach re-calibration |
+| Blade injury during service | Injury | Interlocks, guarded stations, blades removable only when powered off |
+| Reliance on ingredient choice | Shorter shelf life, higher cost, region-dependent supply | Make recipe planner aware of pack forms (D10), provide optional attachments (drum, slicer, grinder) |
+| Mechanism count grows with each recipe | Cost, failure rate, maintenance | Stick to the minimal set; every additional device needs a cleaning method (R6) |
+| Unverified numbers | Design errors | Tags [S], [M], [E] in every table; verify [M] and [E] items in the prototype phase |
