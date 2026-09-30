@@ -365,7 +365,7 @@ Times for 4 persons unless stated. "Mat" names the cassette.
 
 | Operation | Mechanism | Conf. | Untested |
 |---|---|---|---|
-| Mash (MSH) | Boiled skin-on potatoes in a fold of mesh P through the NIP at 3 mm over the table, flesh collects on mat D?? — **no**: two mats cannot be threaded at once. Flesh is pressed through onto the *table* and wiped off? Rejected. Instead: potatoes are peeled (R) before or slipped (P) after boiling, returned to the pot on P1 and mashed by the flat beater with the pot turning, milk and butter added from cups | M | lumps > 5 mm; gluey if over-beaten. **The mangle ricer (SM-161) does not work with one active mat** |
+| Mash (MSH) | Potatoes are rasp-peeled (R) before boiling or slipped in the LOOP on P after it, returned to the pot on P1 and mashed by the flat beater with the pot turning; milk and butter from cups. The mangle ricer of F (SM-161) is **not used**: it needs the mesh and a receiving mat at the same time, and only one mat can be threaded | M | lumps > 5 mm; gluey if over-beaten |
 | Whip, emulsify, cream | Spindle at P1, bowl or 0.4 L beaker turning slowly | H | one egg white in the beaker |
 | Fold gently (FLD) | Flat beater at 30 rpm with the bowl at 10 rpm | M | volume loss |
 | Purée hot (PUR) | Blender bell in the pot at P1 | H | splash guard lid with a slot |
@@ -377,7 +377,195 @@ Times for 4 persons unless stated. "Mat" names the cassette.
 | Stir and scrape while cooking | Turntable under wall-peg scraper, all four positions at once | H | scraper following a 36 cm pan edge |
 | Flatten meat (POU) | ENVELOPE on S, smooth roller in passes to 4–10 mm | H | — |
 | Thin batter poured and spread (PTH) | Arm C pours from the bowl by weight on the receiving load cell; turntable spin-coat at 90 rpm (SM-097) | M | ±10 % by pouring from an 8 L bowl; a 1 L jug with a lip is used instead |
-| Grease a tin (LIN) | 8 g of butter melted in the tin on a hob for 20 s; arm C rolls the tin through 360° about Y, then the turntable spins it tilted?? — not possible. End faces in Y are greased only by the melt running when the tin is rocked. Baking-paper-free alternative: release spray from one fixed mist nozzle at P1 while the tin turns | M | coverage of corners |
+| Grease a tin (LIN) | Release spray from one fixed mist nozzle at P1 while the tin turns on the turntable. (Melting butter in the tin and rolling it with arm C coats only the four faces around Y, not the two end faces: rejected) | M | coverage of corners and of a Gugelhupf tube |
 | Baste, glaze | Arm C tilts the roasting tray so the juices run over the roast; glaze poured from a cup | L–M | no brush |
 | Proof (PRP-037) | Dough in the bowl or on the tray in the oven at 32 °C with steam | H | — |
 | Hold cold (PRP-036) | In a lidded vessel handed out through the vessel port to cold storage | — | request to the architect |
+
+---
+
+## 5. Benchmark walk-throughs
+
+Conventions: t = minutes from order. "Moves" = handling moves of arm C plus mat exchanges plus box
+dockings (the things that can fail), not mat strokes. "Soiled" lists what must be cleaned afterwards;
+the fixed parts of the mat line (table, cheeks, blade, E, L, bar B) are soiled in every meal and not
+repeated. All times [E]. T_lim is the PERF-001 limit (1.15 × T_ref + 10).
+
+### B1 Rinderrouladen, Rotkohl, Salzkartoffeln (4 persons) — **yes**, 170 min (T_lim 183)
+
+| t | Step | Where |
+|---|---|---|
+| 0 | C sets braiser with cradle on P4, 4 L pot on P3, 2.5 L pot on P2. Red cabbage half docked onto K: CHOP out the core wedge (two oblique-free cuts: the stalk end is cut off as a 40 mm slab, accepted loss 10 %), CHOP 2 mm shreds, SLING + NOSE into P3 with fat; apple eighths and peeled onion diced (slab–strip–chop, 10 mm), into P3; vinegar, wine, sugar, spices by cups | K; P3 |
+| 12 | Onion for the filling diced 5 mm, gherkins CHOP into spears (as poured, lengthwise: CHOP cannot cut along X; spears are quartered gherkins bought, or slices are used: **adapted detail**), bacon block CHOP 3 mm slices; all parked in three cups by NOSE | K; 3 cups |
+| 18 | K retracted (washed). Beef block (tempered 30 min in the freezer airlock, request X7) on K?? K is in the wash: the block was sliced **before** the vegetables would breach "raw last". Resolution: Rouladen slices are bought cut (MEAL-012 a) and stored lengthwise; stack of 4 docked onto S, shingled by ENVELOPE shear; camera checks four separate slices | S |
+| 22 | Each slice: ENVELOPE flatten to 5 mm; mustard ribbon from the cup (C pours along Y while the mat jogs), spread by the smooth roller at 1 mm gap through a fold of the mat; bacon, gherkin, onion poured from the cups as a ribbon at the leading edge; small LOOP of 160 mm rolls it; loop opened, camera finds the seam, roll turned seam-leading; NOSE drops it seam-down into a cradle channel in the hot braiser | S; P4 |
+| 34 | Four (or eight) rolls seared seam-down 3 min; C sets the second GN pan on, inverts, cradle keeps the rolls; 3 min; back. Deglaze with wine and stock from cups, tomato paste puck, lid on. P4 at 95 °C for 100 min, turntable 2 rpm | P4 |
+| 40 | S retracted with steam. Potatoes docked onto R: LOOP rasp peel 5 min under spray; R retracted; potatoes on K: CHOP halves; NOSE into P2 with basket; water at t 125, boil 22 min | R, K; P2 |
+| 150 | C lifts the potato basket, drains, sets it in the warm 4 L pot. C lifts the cradle with the rolls onto a warm tray; sauce at P4 thickened with a starch slurry from a cup under the scraper; C moves the braiser to P1 only if blending is wanted | — |
+| 165 | Hand-over of tray, P3 pot, potato pot and sauce (poured by C into a jug) through the vessel port | — |
+
+Vessels: braiser + cradle + GN pan, two pots, basket, lids, 5 cups, tray, jug (13). Mats: K, S, R, K.
+Moves: 46. Soiled: K, S, R, smooth roller, disc roller 10 and 5, blade, all listed vessels.
+Weak points: the seam (SM-084), shingling a bought stack (L), gherkin spears (no lengthwise cut).
+Without shingling, the fallback is own slicing from a block at the very start of the meal on K, with K
+steam-disinfected... K cannot be steamed (UHMW-PE softens): it is disinfected by an 85 °C rinse hold of
+60 s, which the gate can do with the mat stopped in three steps. This costs 4 min.
+
+### B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat (4 persons) — **yes** (Bratkartoffeln from potatoes boiled the same hour: slightly adapted), 62 min (T_lim 45 for the Schnitzel row alone; the menu T_ref is driven by the potatoes, 50 min + cooling) 
+
+| t | Step |
+|---|---|
+| 0 | Potatoes (skin-on) docked onto P, washed in LOOP, NOSE into P3 pot with basket, boil 22 min |
+| 4 | P retracted. Cucumbers docked lengthwise onto K: CHOP 2 mm slices (2 cucumbers, 70 s), dill CHOP fine; NOSE into the bowl on P1; dressing (vinegar, oil, sugar, brine, sour cream) from cups, tossed under the scraper; C moves the bowl out through the vessel port to cold storage |
+| 12 | Onion dice on K for the potatoes; parked in a cup. K retracted |
+| 28 | Potatoes: C lifts basket, NOSE is not possible from a basket: C tips the basket onto mat P at the table; LOOP on P rubs the skins off (SM-055/S12), skins through the mesh to the waste bowl on P1; P retracted; potatoes on K, CHOP 5 mm slices; NOSE into the 36 cm GN pan on P4 with fat and onion; turntable + scraper as a plough, 15 min |
+| 36 | Cutlets docked onto S; ENVELOPE to 5 mm; breaded two at a time (4.1); NOSE into the 28 cm pan on P2 (80 mL fat); 3 min; C pours the fat into the second pan through the rim gap, pan-pair flip; 3 min; C slides them onto a tray in the oven at 70 °C. Second pair likewise |
+| 58 | Lemon CHOP wedges on K (K drawn out again, RTE after the potatoes — allowed; K never saw raw meat in this meal) |
+
+Vessels 9. Mats P, K, P, K, S, K. Moves 52. Weak points: six mat exchanges (8 min of gate time, mostly
+parallel to cooking); crust loss in the pan-pair flip with 80 mL of fat (catalogue TEST); egg wash
+running under the flap lips; Schnitzel larger than 200 × 150 do not fit a 28 cm pan two at a time.
+
+### B3 Frikadellen, Kartoffelpüree, Erbsen-Möhren (4 persons) — **yes**, 48 min (T_lim 50)
+
+| t | Step |
+|---|---|
+| 0 | Potatoes on R, rasp peel 5 min; on K: CHOP halves; NOSE into P3 pot; boil 20 min |
+| 9 | Carrots docked lengthwise on K: CHOP ends, CHOP 100 mm lengths; (not peeled: scrubbed on R for 60 s before, same session) dice 10 mm; NOSE into P2 pot; onion dice 5 mm into a cup; parsley CHOP into a cup. K retracted |
+| 16 | Roll soaked in milk in the beaker at P1 (beater, 30 s); egg into it from the egg cup. Mince docked onto S; onion, parsley, mustard puck, brine, and the soaked-roll mix poured by C over the mince; ENVELOPE closes it (liquid is held in the fold); LOOP fold and NIP, 30 cycles, 90 s; log Ø 60 in LOOP; CHOP 8 pucks; NOSE, two rows of four, into the GN pan on P4 (170 °C) |
+| 24 | Pan-pair flip after 5 min (presses the pucks to shape); 5 min; S retracted with steam |
+| 30 | Peas (IQF) on D by SLING into P2; butter. Potatoes: C drains (basket), tips them back into the pot on P1; flat beater 60 s with hot milk and butter from cups; nutmeg from the seasoning cup |
+| 44 | Hand-over |
+
+Vessels 8, mats R, K, S, D; moves 38. PRP-023 (12 patties in ≤ 5 min): met on paper (3–4 min).
+Weak point: the wet mince mass in ENVELOPE and LOOP is exactly the release experiment R1.
+
+### B4 Spaghetti Bolognese with grated cheese (4 persons) — **yes**, 78 min (T_lim 96)
+
+t 0: 9 L pot with basket on P4, 4.5 L water from the spout, heat (16 min). Onion, carrot, celeriac
+(bought peeled or rasped on R) diced 5 mm on K; garlic CHOP fine; SLING + NOSE into the 4 L pot on P3
+with oil, sweat under the scraper. t 10: K retracted; mince docked onto S and NOSEd straight into P3
+(S is used as a conveyor only, 40 s), seared with the scraper breaking it up; wine from a cup; canned
+tomatoes poured by C from the opened can in its carrier, chased with the stock; paste puck; simmer 50 min
+at 2 rpm. t 58: spaghetti docked onto D (strands along Y), NOSE into the basket; 10 min. t 70: C lifts the
+basket, drips 20 s, tips the pasta into a warm bowl... tipping a basket of long pasta is a known weak
+step for every candidate; here it is a pour about Y into the GN braiser. Grated cheese (bought grated)
+into a cup. Vessels 6, mats K, S, D; moves 30. Weak point: none specific to K4; mat S soiled for one
+transfer — a disposable paper leaf would do (section 6.6).
+
+### B5 Pizza with yeast dough from flour (2 trays) — **yes**, 95 min incl. 60 min proof (T_ref 90, T_lim 113)
+
+t 0: bowl on P1; 320 mL water at 30 °C, yeast, brine, oil from cups; flour (500 g) from the dock onto D,
+NOSE into the bowl in three portions while the beater turns (shaggy mass, 90 s). C tips the bowl onto D at
+the table (the mass leaves the bowl as a lump; 3–5 % stays, flushed later: **PRP-013 for dough is
+borderline here**). LOOP fold and NIP in ENVELOPE, 50 cycles, 5 min. NOSE back into the oiled bowl; C
+carries it to the oven (32 °C, steam), 60 min. t 70: C tips the dough onto D; CHOP in two; each half sheeted
+by SHUTTLE to 4 mm, 380 × 290, 8 passes; NOSE onto the tray held by C at the table edge height. Tomato
+sauce (canned, seasoned in a 1.5 L pot at P2) poured by C in three ribbons, spread by the tray's own
+tilt?? — no: spread with the smooth roller? no, the tray is not on the table. **Spread by the wall-peg
+scraper held still while C moves the tray under it in X** (the tray is the moving part). Mozzarella CHOP
+10 mm dice on K, salami CHOP 2 mm, NOSE as a ribbon while C moves the tray in X under the nose; C pushes
+the tray into the oven (250 °C, 10 min). Second tray likewise. Vessels 5, mats D, K; moves 34.
+This is the concept's home ground: kneading, sheeting and transfer of a tray-size sheet are all H if the
+mat releases the dough.
+
+### B6 Gemüseeintopf from whole vegetables (6 persons) — **yes** (green beans bought trimmed: permitted purchase), 50 min (T_lim 60 for 6)
+
+t 0: 6 L pot on P4. Potatoes and celeriac half on R: rasp peel 6 min (the celeriac is cut into 40 mm slabs
+first so the knobbly skin is reachable: loss 25–30 %). Carrots, parsnip scrubbed on R in the same run.
+Leek docked lengthwise on K: CHOP root and dark green, CHOP 5 mm rings, washed in the basket at P1
+(grit between layers, FSF-042), spun. t 9: all on K in three batches: slab–strip–chop 10 mm, 2.4 kg in
+7 min (PRP-023: 1 kg in ≤ 6 min — met with margin on paper); each batch by SLING + NOSE into P4 with
+oil; stock 2.5 L from the spout and a stock cup; tomato CHOP eighths; beans and frozen peas by D at t 30.
+Simmer 25 min, scraper 3 rpm. Parsley CHOP. Vessels 3 + basket, mats R, K, D; moves 22. Weak point: three
+roller swaps per batch (smooth ↔ disc 10), 20 s each.
+
+### B7 Steak, oven fries, mixed salad with vinaigrette (2 persons) — **yes** (fries are the X-01 adapted method for every candidate), 45 min (T_lim 79 with baked potato)
+
+t 0: potatoes on R (peel 3 min), onto K so that they lie along Y, CHOP 10 mm planks, planks fall flat,
+CHOP 10 mm sticks (70 s); NOSE into the bowl with 10 mL oil and brine, tossed under the scraper 20 s; C
+tips them onto the tray, shakes it level in X, into the oven at 220 °C, 25 min; C pulls the tray at 12 min
+and shakes it. t 8: lettuce head on K, CHOP 40 mm strips both… only across X; the head is cut into 40 mm
+slices, which fall apart into strips: accepted. Tomato wedges, cucumber slices, carrot (disc roller 5 mm
+after rasp), pepper halves deseeded on P. Leaves washed and spun at P1 (3 min). Vinaigrette in the beaker
+with the small whisk (oil, vinegar, mustard puck, brine). Toss in the bowl at serving. t 30: steaks docked
+onto S, NOSE into the 28 cm pan at 240 °C on P2 (seasoned by brine mist from the cup? — salt from the
+seasoning cup tipped by C, uneven: M); 2.5 min; pan-pair flip; 2.5 min; core probe is **not available to
+K4** (no tool that can insert a probe; doneness by time, thickness from camera and pan temperature:
+COK-013 not met for steak — open issue 6). Rest on the warm tray 5 min. Vessels 7, mats R, K, P, S;
+moves 40.
+
+### B8 Pfannkuchen (8 pieces) — **yes**, 42 min incl. 20 min rest (T_lim 50)
+
+Bowl on P1: milk 500 mL from a 1 L cup, 3 eggs from the egg cup, brine; whisk 150 rpm; flour 250 g from D
+by NOSE in a slow ribbon while whisking (lumps: M); rest 20 min. C pours the batter into the 1 L jug.
+Pans 28 cm on P2 and P3 at 190 °C, 3 g butter each (CHOP pat, carried on D). Per pancake: C pours 100 mL by
+the P2 load cell (±10 mL), turntable 90 rpm for 3 s (spin-coat), 90 s; C sets pan 2 on, inverts, lifts the
+first pan off; 70 s in pan 2 on P3; C slides the pancake onto the plate stack tray; meanwhile pan 1 has
+batter again. Cycle 2 min, 8 pieces in 17 min. Vessels 5, mat D once; moves 8 + 8 × 5 = 48. Weak point:
+the thin pancake sticking to pan 1 at inversion; jug drip.
+
+### B9 Chicken curry with rice (4 persons) — **yes**, 40 min without marinating (T_ref 50 with; T_lim 68)
+
+Rice 280 g docked onto D, SLING into the 2.5 L pot on P2, rinsed in the pot (fill, turn, C pours off
+through the lid gap into the dump port), 560 mL water, brine, lid, absorption 15 min. Onion dice, garlic
+and ginger fine CHOP on K (ginger peeled on R or bought as paste puck); into the 4 L pot on P3 with oil
+under the scraper. K stays out: chicken thigh fillets docked onto K **last** (raw last, R11): ENVELOPE is
+not needed; slab 20 mm, disc roller 20, CHOP 20: cubes in 60 s — the step a push grid does badly.
+NOSE into P3; K retracted with the 85 °C hold. Curry spice from the seasoning cup, canned tomatoes,
+coconut milk or cream from cups; simmer 15 min. Optional blending of the sauce before the chicken goes
+in: C moves the pot to P1, blender bell 40 s. Vessels 5, mats D, K; moves 26.
+
+### B10 Lasagne with béchamel from scratch (4–6 persons) — **yes, quality M**, 125 min (T_lim 148)
+
+Bolognese as B4 on P3 (45 min). Béchamel: 1.5 L pot on P1; butter pat, flour 50 g from the cup, whisked
+2 min at 110 °C; milk 600 mL from the jug in three pours under the whisk at 300 rpm with the pot at 20 rpm;
+nutmeg; 8 min (this is the operation the turntable-plus-spindle station was designed for: H). C moves
+the béchamel pot to P2 (hold 70 °C), sets the gratin dish on P1. Layers, four times: C pours Bolognese
+(220 g by the P1 load cell) in a ribbon along X, dish oscillates; dry sheets docked onto D (they slide
+out lengthwise, three abreast is not controllable — camera 1 counts and measures the row), NOSE lays a row
+of sheets while the nose travels; C pours béchamel; grated cheese ribbon from D on top. 8 min. C carries
+the dish into the oven: 190 °C, 40 min, rest 15. Vessels 6, mats K, S, D; moves 44. Weak points: sheets
+overlapping or lying skew (broken sheets and gaps are filled by the sauce; a cook would tile them);
+sauce layer evenness ±20 % is a claim.
+
+### B11 Rührkuchen in a tin, unmoulded — **yes** (unmoulding is the catalogue TEST), 105 min (T_ref 100, T_lim 125)
+
+Loaf tin on P1, release spray while turning; C sets it aside. Bowl on P1: butter 250 g (CHOP slices from
+the block on K, softened 60 s at 30 °C on the hob), sugar 200 g from D, flat beater 400 rpm 4 min (CRM);
+4 eggs one at a time from the egg cup; flour 300 g with baking powder (both onto D as one ribbon: that is
+the sifting and dry mixing, LOOP two turns) NOSEd in at 60 rpm; milk from a cup. C pours the batter into
+the tin: about 10 % stays in the bowl; C holds the bowl inverted over the tin for 20 s and taps it against
+the wall peg (residue then about 5 % [E]) — **this is where a scraper hand is missed**. Oven 175 °C,
+60 min; doneness by time and oven core probe if the oven has one that a machine can place (it cannot).
+Cool 15 min; C sets a tray on the tin, inverts, lifts the tin. Vessels 4, mats K, D; moves 22.
+
+### B12 Scrambled eggs from shell eggs, toast, 1 person — **yes**, 9 min (T_lim 17)
+
+t 0: 28 cm pan on P2 at 110 °C is too large for 2 eggs: the 1.5 L pot is used as a small pan (Ø 160).
+Butter pat from the block (K drawn out: 15 s; CHOP one slice; NOSE). Two eggs cracked into the
+inspection cup, milk 20 mL and brine added to the cup from the dock, C swirls the cup (no whisking
+station needed for two eggs; streaky scramble) or tips it into the beaker at P1 for 10 s of whisk. C pours
+into the pot; turntable 20 rpm under the small scraper, 2.5 min. Two slices of bought sliced bread
+docked onto K, NOSE onto the tray, oven top heat 3 min (oven preheat decides the 9 min; a dry pan with a
+pan-pair flip is the alternative). Chives CHOP on K. Vessels 3 + cups, mat K; moves 12. The minimum
+quantity is not a problem for the mat (it has no minimum fill); it is one for the 28 cm pan.
+
+### Summary
+
+| | Result | Elapsed / limit (min) | Moves | Mats used |
+|---|---|---|---|---|
+| B1 Rouladen menu | yes (M: seam, shingling) | 170 / 183 | 46 | K S R K |
+| B2 Schnitzel menu | yes | 62 / — | 52 | P K P K S K |
+| B3 Frikadellen menu | yes | 48 / 50 | 38 | R K S D |
+| B4 Bolognese | yes | 78 / 96 | 30 | K S D |
+| B5 Pizza | yes | 95 / 113 | 34 | D K |
+| B6 Eintopf (6) | yes | 50 / 60 | 22 | R K D |
+| B7 Steak menu | yes; no core probe | 45 / 79 | 40 | R K P S |
+| B8 Pfannkuchen | yes | 42 / 50 | 48 | D |
+| B9 Curry, rice | yes | 40 / 68 | 26 | D K |
+| B10 Lasagne | yes, tiling quality M | 125 / 148 | 44 | K S D |
+| B11 Rührkuchen | yes (bowl residue, unmould TEST) | 105 / 125 | 22 | K D |
+| B12 Scrambled egg | yes | 9 / 17 | 12 | K |
+
+Mean 35 moves per benchmark. B3 has 2 min of margin: any repeat of a mat wash breaks PERF-002 b.
