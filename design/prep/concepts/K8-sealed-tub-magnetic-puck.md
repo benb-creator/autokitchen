@@ -18,7 +18,7 @@ measured on the rig of risk 1 before anything else is decided.
 in-plane force and is pessimistic for torque: a Ø 150 magnet ring through a 1.5 mm wall gives about
 110–130 N while moving, 220–250 N while holding still, and 12 Nm of spindle torque (design values). The
 in-plane force is limited by skid friction as much as by magnetism. The concept therefore works only if
-force is made *from torque inside the ware* (a screw cassette gives 3 kN from 12 Nm), *by leaning on the
+force is made *from torque inside the ware* (a screw cassette gives 2.5 kN from 12 Nm), *by leaning on the
 wall* (compression is unlimited), and by *canned* radial couplings for the turntable (25 Nm). With these
 three rules no sealed through-wall spindle, ball port or bellows press is needed for the benchmark meals.
 What the concept cannot buy back is the missing depth axis and the long list of loose parts; and all of it
@@ -535,12 +535,13 @@ Elapsed **140 min** (T_ref 150; limit 183). About **95 moves**. Soiled: braiser,
 
 Potatoes boiled skin-on first (GN 1/4-150, 20 min) while the cucumber is peeled on the spike (long item:
 tail held by the tongs of P1), sliced 2 mm (150 cuts, 70 s), dressed in the 1.5 L bowl (sour cream, dill,
-vinegar from cups), tossed with a paddle and parked cold at the hatch for the transport to chill. Potatoes:
-skin slipped after cooking? Not solved here; they are peeled raw on the spike before boiling (8 × 25 s).
-Sliced 5 mm, fried in GN 1/2-65 on hob 2 with onion, turned by paddle sweep and roll every 2 min, 15 min.
-Cutlets (bought thin): three breading trays in a row on the hob-side floor; P1 tongs flour–egg–crumb, 40 s
-each; two griddles on hobs 1 and 3… the front position takes only GN 1/4, so two cutlets per GN 1/2 griddle
-on hob 1, two batches of 2 × 3 min per side, first batch held warm in the oven at 70 °C. Lemon wedges by U1.
+vinegar from cups), tossed with a paddle and parked cold at the hatch for the transport to chill. Potatoes are peeled raw
+on the spike before boiling (8 × 25 s; slipping the skin after cooking is not solved here), then sliced
+5 mm and fried in GN 1/2-65 on hob 2 with onion, turned by paddle sweep and roll every 2 min, 15 min.
+Cutlets (bought thin): three breading trays in a row on the floor of column B; P1 tongs flour–egg–crumb,
+40 s each. The front positions take only GN 1/4 and hob 2 is occupied, so the cutlets are fried two at a
+time in the GN 1/2 griddle on hob 1: two batches of 3 min per side, the first held warm in the oven at
+70 °C. Lemon wedges by U1.
 
 Elapsed **48 min** (T_ref 30 for the schnitzel alone, 45 with the potatoes; limit about 62). About **80
 moves**. Soiled: 3 trays, griddle, GN 1/2-65, GN 1/4-150, 2 bowls, 2 boards, spike, 8 utensils. Class R
@@ -647,8 +648,8 @@ quality; release of the loaf.
 ### B12 Scrambled eggs from shell eggs, toast, 1 person — **yes**, high
 
 Two eggs from the dock module into the 0.3 L beaker on T, camera check, 20 mL milk, salt; whisk wheel Ø 50,
-15 s. GN 1/6-100… too deep for the paddle: GN 1/4-20 griddle on hob 3, butter, eggs poured, paddle 150 swept
-every 5 s, 2 min at 110 °C. Toast: two slices laid on the hot griddle on hob 1, turned once with the low
+15 s. GN 1/4-20 griddle on hob 3 (the GN 1/6 is too narrow for the paddle): butter, eggs poured, paddle 150
+swept every 5 s, 2 min at 110 °C. Toast: two slices laid on the hot griddle on hob 1, turned once with the low
 turner, 90 s per side. Chives: U1 on the board, 10 cuts. Elapsed **9 min** (limit about 17). **22 moves.**
 Soiled: beaker, 2 griddles, board, whisk wheel, paddle, turner, knife, cup: a *short wash* (§6), 10 min, 12 L.
 The minimum-quantity case works; its cost is that a 6-minute dish occupies a 1.75 m machine and one wash.
