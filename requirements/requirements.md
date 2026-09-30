@@ -417,8 +417,8 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | PRP-020 | Accepted raw pieces: up to 130 mm diameter and 300 mm length (potato, onion, apple, carrot, cucumber, courgette, celeriac half) (M); up to 220 mm diameter (cabbage, cauliflower, whole lettuce) (S). Meat and fish pieces up to 2.5 kg and 300 × 200 × 120 mm. | Bounds tool envelopes. | M | D | B5 |
 | PRP-021 | Cutting results: slices 1–20 mm thick, dice and sticks 3–25 mm, within ±1 mm or ±20 % (whichever is larger) for ≥ 90 % of pieces by mass; fine chopping to < 3 mm (onion, herbs, garlic). | Even cooking, appearance. | M | T | B5 |
 | PRP-022 | Peeling: ≤ 5 % of the surface with residual peel; peel loss ≤ 25 % of the mass for potatoes and carrots (est.). | Quality; waste. | M | T | B5 |
-| PRP-023 | Throughput: wash, peel and cut 1.5 kg of potatoes in ≤ 10 min; cut 1 kg of mixed vegetables in ≤ 6 min; knead 1 kg of dough; mix 1.2 kg of minced-meat mass. | Time targets for 6 persons. | M | T | drv |
-| PRP-024 | The module shall form the meat, dough and filled items required by the M unit operations (section 5.3, UO-40 ff.) with piece-mass variation ≤ ±10 %. | Frikadellen, Rouladen, Klöße named in or implied by the brief. | M | T | B5 |
+| PRP-023 | Throughput: wash, peel and cut 1.5 kg of potatoes in ≤ 10 min; cut 1 kg of mixed vegetables in ≤ 6 min; knead 1.6 kg of dough; mix 1.2 kg of minced-meat mass; form 12 patties in ≤ 5 min. | Time targets for 6 persons. | M | T | drv |
+| PRP-024 | The module shall perform the forming and assembling operations of MEAL-018 (section 5.3, UO-40 to UO-49, UO-90 to UO-94) with piece-mass variation ≤ ±10 %. | Frikadellen and Rouladen are named in the brief; the shaping cluster is 15 % of the corpus. | M | T | B5 |
 | PRP-030 | Every tool and vessel shall be completely cleanable by the machine (HYG-030 ff.) and shall be sent to washing after use without human action. | Brief: "especially for these tools". | M | D, T | B6 |
 | PRP-031 | The module shall hold enough clean tools and vessels to prepare the reference meal for 6 persons without waiting for a wash cycle (CAP-030). | Time target. | M | A | drv |
 | PRP-032 | Food class R shall be prepared physically or temporally separated from RTE food as FSF-040 requires. | Cross-contamination. | M | R | B6 |
@@ -426,18 +426,19 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | PRP-034 | Cutting edges shall keep the performance of PRP-021 for ≥ 1 year of reference use without sharpening or exchange by a human, or be resharpened by the machine. | Human does not maintain weekly. | M | A, T | B13 |
 | PRP-035 | The module shall detect tool breakage or loss of a tool part (e.g. blade fragment) and shall then discard the affected food. | Foreign bodies. | M | A, D | drv |
 | PRP-036 | The module shall be able to hold prepared ingredients and intermediate products at ≤ 7 °C (marinating, dough resting, prepared salad, set desserts) for up to 24 h, e.g. by returning them in a closed vessel or box to cold storage. | Multi-stage recipes; FSF limits. | M | D | drv |
-| PRP-037 | The module shall be able to hold dough at 25–35 °C for proofing. | Yeast dough. | S | D | B5 |
+| PRP-037 | The module shall be able to hold dough at 28–35 °C for proofing. | Yeast dough: 11 corpus meals, no workaround. | M | D | B5 |
+| PRP-038 | Mixing, whipping and kneading shall work over the full quantity range of 1–6 persons: from 1 egg white (30 mL) or 100 g of dough up to 6 egg whites, 1.6 kg of dough (rising to 4–5 L), 1.2 kg of salad leaves (≈ 5 L) and 1 kg of mince mass. | Corpus 6.3: one fixed bowl cannot do both ends. | M | T | B5, B8 |
 
 ### 3.6 Cooking and baking (COK)
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
 | COK-001 | The cooking module shall perform all thermal unit operations marked M in section 5.3, and should perform those marked S. | 95 % goal. | M | D | B7 |
-| COK-002 | Number of simultaneously heated cooking positions: ≥ 3 (M), 4 (S), plus 1 baking/roasting cavity usable at the same time. | Reference meal: protein, starch, vegetable, sauce; roast in the oven with 2–3 positions for sides. | M | I | B7, B8 |
-| COK-003 | Cooking positions: controlled vessel-base temperature 40–250 °C; content temperature control 40–100 °C within ±3 K (simmering, poaching, holding, melting). | Searing to gentle simmer. | M | T | B7 |
-| COK-004 | Heating performance: bring 2 L of water from 15 °C to 95 °C in ≤ 6 min in one vessel, while one further cooking position and the baking cavity are heating. | Pasta and potato water is the time driver; one phase (≈ 3.4 kW) per fast position. | M | T | drv, DEC-1 |
+| COK-002 | Number of simultaneously heated cooking positions: ≥ 4, of which ≥ 2 with ≥ 3 kW, plus 1 baking/roasting cavity and warm-holding usable at the same time (within UTL-011). | Corpus 4.9: single dishes need up to 3 heat sources, but 5 of 15 typical menus (roast + dumplings + red cabbage + gravy; asparagus + hollandaise + potatoes + schnitzel; breakfast for 6) need 4 plus the oven. | M | I, A | B7, B8 |
+| COK-003 | Cooking positions: controlled vessel-base temperature 40–260 °C; content temperature control 40–100 °C within ±3 K (simmering, poaching, holding, melting, water-bath-like heat at 65–80 °C). | Searing to hollandaise (corpus 4.9). | M | T | B7 |
+| COK-004 | Heating performance: bring 2 L of water from 15 °C to 95 °C in ≤ 6 min, and 6 L in ≤ 16 min, in one vessel, while one further cooking position and the baking cavity are heating. | Pasta and potato water is the time driver; one phase (≈ 3.4 kW) per fast position. | M | T | drv, DEC-1 |
 | COK-005 | Searing: a vessel base shall reach 220 °C in ≤ 5 min and recover to ≥ 180 °C within 60 s after 600 g of meat at 4 °C is added. | Browning instead of stewing (steak, Rouladen, roast). | M | T | B5, B7 |
-| COK-006 | Baking/roasting cavity: 30–250 °C, ±10 K at the centre; top heat for gratinating/browning; usable space for at least a 2.5 kg roast, or a baking dish for 6 portions (≥ 3.5 L, e.g. 350 × 250 × 60 mm), or a tray of ≥ 0.10 m². | Roast beef, gratin, lasagne, cake, pizza. | M | T, I | B7 |
+| COK-006 | Baking/roasting cavity: 30–250 °C (M), to 280 °C (S), ±10 K at the centre; top heat for gratinating; usable volume ≥ 45 L with space for a tray of 400 × 300 mm, a 26 cm springform, a roast of 2.5 kg, or a 6 L lidded braising vessel (320 × 240 × 110 mm). | Corpus 4.9 and 6.3: 57 meals bake or roast; only pizza and Flammkuchen want more than 250 °C. | M | T, I | B7 |
 | COK-007 | The cavity should offer controlled humidity (steam injection or steam baking up to 100 °C). | Bread crust, gentle roasting, regeneration, steaming in bulk. | S | D | B7 |
 | COK-008 | Every cooking position shall be able to stir or agitate the contents automatically, including scraping the bottom and wall so that thickened sauces, porridge, risotto and roux do not burn on; stirring speed and pattern selectable per recipe step. | Brief: "cooking, including stirring". | M | D, T | B2 |
 | COK-009 | The module shall cook individual pieces (steak, schnitzel, Frikadelle, fish fillet, pancake, fried egg) with browning on both sides as the recipe demands — by turning them or by heating from both sides — without breaking them: ≥ 95 % of pieces intact. | Pan-fried dishes are a large share of the corpus; the method is left open. | M | T | B5 |
@@ -447,7 +448,7 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | COK-013 | The module shall measure the core temperature of pieces ≥ 20 mm thick to ±1 K and use it to end the cooking step. | Food safety (FSF-020); doneness of steak and roast. | M | T | drv |
 | COK-014 | The module shall measure the mass of each vessel's contents during cooking to ±10 g. | Reduction, evaporation compensation, dosing check. | S | T | drv |
 | COK-015 | The module shall detect boil-over, dry-boiling and burning (e.g. by temperature, mass, humidity, vision) and react before food is spoiled or a hazard arises. | Unattended cooking. | M | T | drv |
-| COK-016 | Cooking vessels: working volumes covering 0.3 L (sauce for 1) to ≥ 5 L (soup, pasta water for 6); at least one frying surface with ≥ 600 cm² base (6 schnitzels in 2 batches, 6 Frikadellen in 1). | 1–6 persons. | M | A | B8 |
+| COK-016 | Cooking vessels shall cover: sauce 0.15 L (1 person) to 0.8 L; rice 0.2–1.7 L; potatoes/vegetables up to 1.5 kg + water (4 L nominal); soups and stews up to 3 L content (5 L nominal); pasta for 6 in ≥ 4.5 L of water (6 L nominal; 9 L nominal: S); a lidded braising vessel of ≥ 6 L usable on a cooking position and in the cavity; a frying surface of ≥ 600 cm² (M) and ≥ 1 000 cm² (S). Pan-fried components for 6 may be cooked in ≤ 3 batches with warm-holding (COK-017). Asparagus and long pasta need ≥ 250 mm inner length. | Corpus 6.3. 1–6 persons: every vessel must also work at its 1-person minimum fill. | M | A | B8 |
 | COK-017 | The module shall keep finished components at ≥ 65 °C without further cooking them noticeably, for up to 30 min, and cold components at ≤ 7 °C. | All components ready together; late pick-up. | M | T | B8 |
 | COK-018 | Steam, fumes and grease aerosol from cooking shall be captured inside the machine (ENV-010 ff.). | Home environment; casing cleaning. | M | T | B6, drv |
 | COK-019 | All surfaces of the cooking positions and the cavity, including burnt-on residue, shall be cleaned by the machine (HYG-033). | Brief. | M | T | B6 |
@@ -634,14 +635,15 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| MEAL-001 | The reference for "traditional meals" is the meal corpus in `research/02-meal-corpus.md`: Central European home cooking (the brief's examples are German) plus the internationally established everyday dishes cooked in such households, across breakfast dishes, soups, salads, mains with sides, one-pot dishes, egg and flour dishes, bakes and gratins, simple baked goods and desserts. Beverages are not meals. | Defines the population for the 95 %. | M | R | B5 |
-| MEAL-002 | Coverage by count: ≥ 95 % of the meals in the corpus shall be *preparable* as defined in MEAL-010. | Brief. | M | A (V2 walk-through), later T on a sample | B5 |
-| MEAL-003 | Coverage by frequency: if the corpus gives a frequency weight per meal, the weighted coverage shall be ≥ 97 %. | The meals eaten most often matter most. | S | A | B5 |
-| MEAL-004 | Coverage by category: in every category of the corpus with ≥ 10 meals, ≥ 85 % shall be preparable. | The 5 % must not wipe out a whole category (e.g. all baking). | S | A | B5 |
-| MEAL-005 | Regardless of percentages, the meals named in the brief shall be preparable: a mixed salad with dressing; mashed potatoes; roast beef; Frikadellen; Rouladen; soups (clear with garnish, puréed, stew-like); pan-fried steak; pasta with sauce. | Brief, literally. | M | A, D | B5 |
+| MEAL-001 | The reference for "traditional meals" is the meal corpus in `research/02-meal-corpus.md`: 248 meals and meal components in 19 categories (56 % German/Austrian/Swiss home cooking, the rest the internationally established everyday dishes cooked in such households), each decomposed into unit operations and weighted 1–3 by how often it is cooked. Beverages are not meals. | Defines the population for the 95 %. | M | R | B5 |
+| MEAL-002 | Coverage: ≥ 95 % of the corpus meals by count (≥ 236 of 248) **and** ≥ 95 % by weight shall be *preparable* as defined in MEAL-010, with ingredients bought in the forms permitted by MEAL-012 and no others. | Brief. The purchase rule is part of the measure: with heavily pre-made products the corpus reaches 97 % with four hard operations; without any pre-processed purchase 95 % needs twenty. | M | A (V2 walk-through and recomputation per corpus appendix A), later T on a sample | B5 |
+| MEAL-003 | Every corpus meal of weight 3 (staple) shall be preparable, except those listed as falling out in section 5.4. | The meals eaten most often matter most. | M | A | B5 |
+| MEAL-004 | Coverage by category: in every corpus category with ≥ 10 meals, ≥ 85 % shall be preparable. | The 5 % must not wipe out a whole category (e.g. all baking). | S | A | B5 |
+| MEAL-005 | Regardless of percentages, the meals named in the brief shall be preparable: mixed salad with dressing (SA01); mashed potatoes (SD02); roast beef and other boneless roasts with gravy (DM08 and equivalents); Frikadellen (DM01); Rouladen (DM02), rolled and secured by the machine; soups (clear with garnish, puréed, stew-like: SP01–SP19); pan-fried steak (DM23); pasta with sauce (IT01 and equivalents). | Brief, literally. | M | A, D | B5 |
 | MEAL-006 | Every meal that is not preparable shall be listed with the reason and the missing unit operation, so that the 5 % is known, not accidental. | Transparency; basis for customer decisions. | M | R | B5 |
-| MEAL-007 | The corpus coverage shall be evaluated by walking each meal's recipe through the designed unit operations, tools, vessels and capacities, for 4 persons; and a sample of ≥ 20 meals spread over all categories for 1 and 6 persons. | Verification method for the paper phase (V2). | M | R | B5, B8 |
-| MEAL-008 | If `research/02-meal-corpus.md` and section 5.3 disagree on the set or naming of unit operations, section 5.3 shall be updated to the corpus; until then the union of both applies. | Single source for designers. | M | R | drv |
+| MEAL-007 | Coverage shall be evaluated by walking each corpus row's ordered unit operations through the designed tools, vessels and capacities, for 4 persons; the 15 reference menus of corpus section 4.9 (Annex A) and ≥ 20 further meals spread over all categories also for 1 and 6 persons. | Verification method for the paper phase (V2). | M | R | B5, B8 |
+| MEAL-008 | The corpus taxonomy (codes, definitions, difficulty and avoidability ratings) is the common vocabulary of all design documents and of the recipe format (CTL-002); section 5.3 allocates every corpus code. If the corpus is revised, section 5.3 shall be updated to it. | Single source for designers. | M | R | drv |
+| MEAL-009 | Coverage from whole fresh produce: ≥ 90 % of the corpus by count shall be preparable when, in addition, no peeled, cored, trimmed, pre-cut, grated or frozen-chopped produce and no liquid egg is bought (i.e. the S operations UO-06, UO-12, UO-13, UO-24 are implemented). | 80 % of the meals covered under MEAL-002 otherwise depend on at least one such purchase, mostly peeled onion and garlic (52 % of meals); fresh produce is cheaper, keeps longer unprocessed and tastes better. | S | A | B5 |
 
 ### 5.2 What "preparable" means
 
@@ -649,145 +651,167 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 |----|-------------|-----------|------|--------|-------|
 | MEAL-010 | A meal is **preparable** when all of MEAL-011 to MEAL-017 hold. | Definition. | M | — | B5 |
 | MEAL-011 | All steps from stored ingredients to plated dish are performed by the machine without human action. | B1. | M | D | B1 |
-| MEAL-012 | Ingredients are in a form sold in ordinary supermarkets and ingestible under section 3.9. Basic processed forms are permitted: butchered and portioned cuts, minced meat, filleted fish, shelled nuts, dried pasta, flour, stock or stock concentrate, tinned tomatoes and pulses, frozen vegetables, ready-made puff/filo pastry sheets, breadcrumbs. Ready-made meal components that are the characteristic part of the dish are not permitted (ready sauce for a sauce dish, ready dumplings for a dumpling dish, pre-formed patties, pre-rolled Rouladen, instant mash). | Otherwise 95 % is trivially reached by buying convenience food. | M | R | B5 |
+| MEAL-012 | **Permitted purchases by default** (OQ-07). (a) Commodity pre-processed food sold all year in ordinary supermarkets (corpus level 1): boneless, trimmed, filleted and shelled meat, fish and seafood; minced meat; meat cut by the butcher into cutlets, thin Rouladen slices, strips and cubes; peeled or frozen chopped onion and garlic; peeled, cored, trimmed or cut vegetables and fruit, fresh, frozen or tinned; frozen chopped herbs; grated cheese; liquid pasteurised egg for mixtures; ground spices; breadcrumbs; sliced bread and cold cuts. (b) Staples that the traditional home recipe itself buys ready: dried and fresh pasta incl. filled pasta, lasagne sheets, stock, tinned tomatoes and pulses, puff, filo and strudel pastry sheets, tortillas and wrappers, bread and buns. **Not permitted** (corpus level 2): products in which the shaping, coating or assembly of the dish has already been done — formed patties and meatballs, ready dumplings, breaded cutlets and fish, ready-rolled Rouladen, ready-stuffed vegetables, pre-blanched cabbage leaves for rolls, ready pizza/shortcrust/yeast dough and bases, instant mash, ready sauces and dessert mixes where the sauce or dessert is the dish. | Otherwise 95 % is reached trivially by buying convenience food, which the brief ("Frikadellen, Rouladen") plainly does not mean. | M | R | B5 |
 | MEAL-013 | The method may differ from the traditional one if the result is equivalent (*adapted method*, e.g. oven-crisped instead of deep-fried). Adapted meals shall be marked; they count as preparable only if rated per MEAL-015, and no more than 10 % of the corpus may be covered by adapted methods. | Leaves design freedom ("novel tools welcome") without hollowing out the goal. | M | R, T | B5 |
 | MEAL-014 | The result is safe: FSF requirements met. | — | M | T | drv |
 | MEAL-015 | The result is accepted: in a blind comparison with the same dish by a competent home cook, ≥ 5 raters give a mean ≥ 3.0 of 5 (3 = "as good as normal home cooking") for taste and texture, and none of the recipe's objective criteria (doneness, core temperature, consistency, browning) is missed. | "Cook … normal meals" means edible to home standard, not merely processed. | M | T (prototype), R (paper phase: objective criteria only) | B1 |
 | MEAL-016 | It can be prepared for every number of persons from 1 to 6 (largest single pieces, e.g. a roast, may have a minimum size serving more than 1). | B8. | M | A | B8 |
 | MEAL-017 | It meets the time target PERF-001 and is completed without human intervention in ≥ 98 % of attempts (REL-001). | — | M | A, T | drv |
+| MEAL-018 | **Operations the machine shall perform itself.** (a) Those with no purchase workaround at all — browning on both sides (FLP, 12.9 % of meals), assembling (ASM, 6.9 %), carving (CAR, 4.8 %), unmoulding (UNM, 4.4 %), scoring (SCO, 2.8 %); together 29 % of the corpus. (b) The shaping cluster, avoidable only with products that MEAL-012 forbids — stuff/fill (STU), wrap (WRP), hand-form small pieces (FRM), dough rolling and shaping (ROL, SHD), breading (BRD), roll-and-secure (RLT), and forming patties and dumplings (FRB, FRK); the cluster alone blocks 38 meals = 15.3 %. These operations are priority M in section 5.3, within the limits stated there; the 95 % target cannot be met without them. A design that omits one of them shall show, meal by meal, that MEAL-002 and MEAL-003 still hold. | Makes explicit where the difficulty of the 95 % goal lies (corpus sections 4.5–4.7, 7). | M | R, A | B5 |
 
 ### 5.3 Unit operations the machine shall support
 
-Module: P preparation, C cooking/baking, S portioning/serving, X any (architect's choice). Priority M = needed
-for the 95 %; S = raises coverage or quality, expected; C = optional. The "limits" are minimum capabilities.
+The taxonomy of `research/02-meal-corpus.md` section 2 (126 operations, three-letter codes) is authoritative
+for naming and definitions; the table below allocates every corpus code to a requirement, with priority and
+minimum capability. Module: P preparation, C cooking/baking, S portioning/serving, X any. Priority M = needed
+for MEAL-002; S = needed for MEAL-009 or raises quality; C = optional. "n" = number of corpus meals using
+the operation(s).
 
 **Handling and dosing**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-01 | Dose from box: all ingredient forms of PRP-010 | PRP-011 | M | P | everything |
-| UO-02 | Dose water | PRP-015 | M | P/C | soups, pasta |
-| UO-03 | Transfer vessel → vessel / cooking vessel / baking dish | PRP-013 | M | P/C | all |
-| UO-04 | Weigh (ingredient, vessel contents, portion) | ±1 g below 500 g, ±0.5 % above | M | X | all |
-| UO-05 | Crack eggs, shell-free (no fragment > 1 mm in 99 % of eggs) | 12 eggs in ≤ 3 min | M | P | cakes, Schnitzel, pancakes, fried egg (yolk intact ≥ 90 %) |
-| UO-06 | Separate egg white and yolk | yolk in white ≤ 1 % of cases | S | P | meringue, mousse, hollandaise |
-| UO-07 | Open/close lids of boxes and vessels | — | M | X | all |
-| UO-08 | Thaw | CLD-013; or thaw as part of cooking | M | X | frozen meat, vegetables |
-| UO-09 | Rest / marinate / soak / proof for a set time at a set temperature | 0.1–24 h; ≤ 7 °C, ambient, or 25–35 °C | M | P | Sauerbraten, yeast dough, dried pulses |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-01 | Dose from box: free-flowing solids DSO, powders and spice pinches DPO, viscous/sticky DVI, countable whole items DUN, block solids DBL (cut a portion off butter, cheese), raw meat/fish pieces DME | 238 | PRP-010, PRP-011 | M | P |
+| UO-02 | Dose thin liquids DLI, incl. water | 218 | PRP-015 | M | P/C |
+| UO-03 | Transfer vessel → vessel / cooking vessel / baking dish | all | PRP-013 | M | P/C |
+| UO-04 | Weigh (ingredient, vessel contents, portion) | all | ±1 g below 500 g, ±0.5 % above | M | X |
+| UO-05 | Crack eggs CRK, shell-free (no fragment > 1 mm in 99 % of eggs), yolk intact ≥ 90 % for fried egg | 36 | 12 eggs in ≤ 3 min | M | P |
+| UO-06 | Separate egg SEP | 17 | yolk in white in ≤ 1 % of eggs | S | P |
+| UO-07 | Open/close lids of boxes and vessels | all | — | M | X |
+| UO-08 | Thaw | — | CLD-013; or as part of cooking | M | X |
+| UO-09 | Soak SOK, marinate MAR, rest RES (dough, batter, meat) for a set time at a set temperature | 55 | 0.1–72 h; ≤ 7 °C or ambient | M | P |
+| UO-23 | Rinse grains, pulses, cooked pasta RNS | 16 | — | M | P/C |
 
-**Cleaning and cutting of raw food**
+**Cleaning, peeling, trimming and cutting**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-10 | Wash produce (remove soil, sand) and spin/drain dry | leaf salad: ≤ 5 % adhering water; no grit | M | P | salad, potatoes, leeks, herbs |
-| UO-11 | Peel round/oblong firm produce | potato, carrot, apple, cucumber, kohlrabi, celeriac; PRP-022 | M | P | most mains |
-| UO-12 | Peel onion and garlic | ≥ 95 % skin-free | M | P | most savoury dishes |
-| UO-13 | Trim/core/de-seed/remove stalk | pepper, apple, tomato stalk, cabbage stalk, lettuce heart, bean ends | S | P | stuffed peppers, salads |
-| UO-14 | Slice | 1–20 mm, PRP-021 | M | P | cucumber, potato, onion rings, mushrooms |
-| UO-15 | Dice / cut sticks and strips | 3–25 mm | M | P | soup vegetables, potatoes, bacon, goulash meat |
-| UO-16 | Chop finely | < 3 mm | M | P | onion, herbs, garlic |
-| UO-17 | Grate / shred | 1–6 mm | M | P | cheese, carrot, potato (Reibekuchen), cabbage (slaw) |
-| UO-18 | Cut raw meat and fish: slices, cubes, strips | 5–50 mm; across the grain as the recipe states | M | P | goulash, Geschnetzeltes, schnitzel from a loin |
-| UO-19 | Mince meat | 3–5 mm plate equivalent | C | P | (minced meat is bought, MEAL-012) |
-| UO-20 | Flatten / tenderise | to 4–10 mm ±1 mm, area up to 250 × 150 mm | S | P | Schnitzel, Rouladen (may be bought pre-cut thin) |
-| UO-21 | Juice / zest citrus | — | S | P | dressings, desserts |
-| UO-22 | Halve, quarter, segment; cut bread | pieces up to PRP-020 | M | P | tomatoes, eggs, lemons, potatoes |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-10 | Wash robust produce WSH; wash leafy/delicate produce WLF; spin or pat dry DRY | 146 / 86 | leaf salad ≤ 5 % adhering water; no grit | M | P |
+| UO-11 | Peel potato and smooth roots PLP | 60 | PRP-022 | M | P |
+| UO-12 | Peel onion and garlic PLA | 129 | ≥ 95 % skin-free | S (first upgrade; by default bought peeled or frozen, MEAL-012) | P |
+| UO-24 | Peel soft fruit and vegetables PLS; hard/knobbly PLH (celeriac, kohlrabi, asparagus, pumpkin); tomato by blanching PLM; boiled egg PLE | 26 / 18 / 2 / 7 | — | S | P |
+| UO-13 | Trim ends TRE; core/deseed/hull COR; pit PIT; strip/pluck/break into florets STR; separate whole cabbage leaves LSP | 31 / 50 / 3 / 9 / 1 | — | S | P |
+| UO-14 | Slice SLI | 70 | 1–20 mm, PRP-021 | M | P |
+| UO-15 | Dice DIC; sticks and strips JUL | 106 / 13 | 3–25 mm | M | P |
+| UO-16 | Mince fine MIN; chop herbs CHH | 35 / 26 | < 3 mm | M | P |
+| UO-17 | Grate coarse GRC; grate fine and zest GRF | 22 / 29 | 1–6 mm; zest without pith | M | P |
+| UO-18 | Slice raw meat and fish SLM; butterfly/pocket-cut BFL | 15 / 1 | 5–50 mm | S (bought cut by default) | P |
+| UO-19 | Grind meat GRM; grind spices GRS | 1 / 108 | — | C (mince and ground spices are bought) | P |
+| UO-20 | Pound / flatten POU | 5 | to 4–10 mm ±1 mm, up to 250 × 150 mm | S (thin cutlets bought by default) | P |
+| UO-21 | Juice citrus JUI | 8 | — | M | P |
+| UO-22 | Halve, quarter, wedge WED | 14 | pieces up to PRP-020 | M | P |
+| UO-25 | Crush/chop coarse hard items CRH (nuts, chocolate); make crumbs BCR | 5 / 1 | — | M / C | P |
+| UO-26 | Cut dough and pasta CUD | 10 | strips, pieces, cutter shapes | M | P |
 
 **Mixing and transforming**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-30 | Stir / mix / toss | 0.05–5 L; gentle (salad, without bruising) to vigorous | M | P/C | all |
-| UO-31 | Whisk / whip / emulsify | cream and egg white to stiff peaks; dressings, mayonnaise | M | P | desserts, sauces, dressings |
-| UO-32 | Knead | 0.2–1.5 kg; yeast dough, shortcrust, pasta/Spätzle dough, dumpling and minced-meat masses | M | P | bread, pizza, cake, Frikadellen |
-| UO-33 | Mash | potatoes to lump-free (no lump > 5 mm) without becoming gluey | M | P/C | mashed potatoes |
-| UO-34 | Purée / blend, hot or cold | to < 1 mm particle size, up to 3 L, up to 95 °C | M | P/C | cream soups, sauces |
-| UO-35 | Strain / sieve / press through | 1–3 mm mesh | S | P/C | sauces, Spätzle, lump-free custard |
-| UO-36 | Drain / press out liquid | — | M | P/C | grated potato, tinned goods, tofu, thawed spinach |
-| UO-37 | Season to recipe and preference | UO-01 at seasoning accuracy; optional closed-loop salt check | M | P/C | all |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-30 | Mix dry MXD; mix/stir cold or batter MXW; toss/coat TOS | 25 / 39 / 36 | 0.05–8 L; gentle (salad, no bruising) to vigorous | M | P/C |
+| UO-31 | Whisk WHK; whip to volume WHP; cream fat with sugar CRM; emulsify EMU | 32 / 10 / 7 / 10 | from 1 egg white to 6; mayonnaise, vinaigrette, hollandaise | M | P |
+| UO-38 | Fold gently FLD; sift SFT | 11 / 9 | volume loss ≤ 20 % | M / S | P |
+| UO-32 | Knead dough KND; mix/knead mince mass KNM; rub in fat RUB | 17 / 12 / 5 | 0.1–1.6 kg dough (1 kg flour); 1.2 kg mince mass | M | P |
+| UO-33 | Mash MSH | 9 | no lump > 5 mm, not gluey | M | P/C |
+| UO-34 | Purée / blend PUR, hot or cold | 15 | < 1 mm particles, up to 3 L, up to 95 °C | M | P/C |
+| UO-35 | Extrude / press through EXT (Spätzle, ricer) | 3 | — | S | P/C |
+| UO-36 | Drain / strain DRN; squeeze out liquid SQZ | 56 / 4 | COK-011 | M | P/C |
+| UO-37 | Season surface SEA; season to recipe and household preference | 29 | UO-01 at seasoning accuracy; user factor 0.8–1.2 (UI-013) | M | P/C |
 
-**Forming and assembling**
+**Forming and assembling — no purchase workaround at the permitted level (MEAL-018)**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-40 | Form patties and balls from a mass | 20–250 g, ±10 % | M | P | Frikadellen, meatballs, Klöße/Knödel, fish cakes |
-| UO-41 | Coat / bread (flour – egg – crumbs), dust with flour | full coverage ≥ 95 % of the surface | M | P | Schnitzel, fish, dusting meat before searing |
-| UO-42 | Spread, fill, roll up and secure | meat slice up to 250 × 150 mm with spread + filling, stays closed during browning and braising | M | P | Rouladen (brief), cabbage rolls (S) |
-| UO-43 | Layer in a baking dish | alternate solids and sauces, even layers ±20 % | M | P | lasagne, gratin, casseroles, moussaka |
-| UO-44 | Stuff hollow vegetables or poultry | — | S | P | stuffed peppers |
-| UO-45 | Roll out dough / press into a mould / line a tin | 2–10 mm ±1 mm, up to the tray size | S | P | pizza, tarts, quiche, biscuits |
-| UO-46 | Shape small dough items | Spätzle, gnocchi, bread rolls, dumplings from dough | S | P | Spätzle, rolls |
-| UO-47 | Pour batter in metered amounts into a pan or mould | ±10 % | M | P/C | pancakes, cakes, omelette |
-| UO-48 | Skewer, tie, lard | — | C | P | roasts are bought ready-tied |
-| UO-49 | Grease / line a baking vessel | — | M | P/C | cakes, gratins |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-40 | Form patties and balls from mince FRB; form dumplings FRK | 6 / 3 | 20–250 g, ±10 %; dumplings hold together in simmering water | M | P |
+| UO-41 | Bread (flour – egg – crumbs) BRD; dust with flour; batter-dip BAT | 5 / 1 | coverage ≥ 95 % of the surface | M (BAT: S) | P |
+| UO-42 | Roll and secure RLT; wrap a flat item around a filling WRP | 4 / 10 | Rouladen: meat slice up to 250 × 150 mm with spread and filling, stays closed through browning and braising (M, brief). Cabbage rolls, bacon wrap, burrito/wrap, enchilada (M). Strudel, biscuit roll, trussing poultry (S). Sushi excluded (X-12). | M | P |
+| UO-43 | Layer LAY | 23 | alternate solids, sheets and sauces, even layers ±20 % | M | P |
+| UO-44 | Stuff / fill STU | 16 | rigid cavities and tubes: peppers, tomatoes, apples, cannelloni, dumpling cores, poultry cavity (M); flat pockets such as cordon bleu (S); hand-filled pasta excluded (X-06) | M | P |
+| UO-45 | Roll out dough ROL; shape dough SHD | 10 / 6 | 2–10 mm ±1 mm up to tray size; line a tin, form loaf and rolls, pizza base (M); braids and pretzels excluded (X-09) | M | P |
+| UO-46 | Shape small pieces FRM | 7 | gnocchi, Schupfnudeln, croquettes, falafel, cookie balls; ±15 % mass | M | P |
+| UO-47 | Pour and spread thin batter PTH; fill moulds (part of LIN) | 3 / 22 | ±10 % | M | P/C |
+| UO-48 | Skewer SKW | 1 | — | C | P |
+| UO-49 | Grease / line a baking vessel LIN | 22 | — | M | P/C |
+| UO-90 | Spread evenly SPR (mustard on Roulade, sauce on pizza, cream on cake) | 11 | layer ±30 % | M | P |
+| UO-91 | Sprinkle / top TOP | 24 | even over the area ±30 % | M | P |
+| UO-92 | Score / slash SCO (pork rind, bread, tomato) | 7 | depth 2–10 mm ±2 mm | M | P |
+| UO-93 | Pipe / deposit shaped portions PIP | 3 | — | S | P/S |
+| UO-94 | Glaze / brush GLZ | 7 | — | M | P/C |
 
 **Thermal**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-50 | Boil in water | up to 5 L, COK-004 | M | C | pasta, potatoes, eggs, vegetables |
-| UO-51 | Simmer / poach with temperature control | 60–98 °C ±3 K | M | C | soups, dumplings, sausages, poached fish/eggs |
-| UO-52 | Steam | up to 1.5 kg of food | M | C | vegetables, potatoes, fish |
-| UO-53 | Blanch and shock-cool | — | S | C | green vegetables, tomato skinning |
-| UO-54 | Sweat / sauté with stirring | 100–180 °C | M | C | onions, mirepoix, mushrooms |
-| UO-55 | Sear / pan-fry pieces, browned on both sides | COK-005, COK-009 | M | C | steak, Schnitzel, Frikadellen, fish, fried potatoes |
-| UO-56 | Shallow-fry in ≤ 250 mL fat | COK-021 | M | C | Schnitzel, Reibekuchen |
-| UO-57 | Braise / stew, lidded, long duration | up to 4 h at 85–160 °C, hob or cavity | M | C | Rouladen, goulash, Sauerbraten |
-| UO-58 | Roast in the cavity with core-temperature control | up to 2.5 kg; 80–250 °C | M | C | roast beef, roast pork, chicken parts |
-| UO-59 | Bake | 30–250 °C; COK-006 | M | C | gratin, lasagne, cake, quiche, pizza, bread (S) |
-| UO-60 | Gratinate / brown from above | — | M | C | gratins, toast dishes |
-| UO-61 | Deglaze, reduce, thicken (roux, starch slurry, liaison, cold butter) | reduction to a target mass ±5 % | M | C | sauces, gravy |
-| UO-62 | Make a sauce in the pan/roasting vessel from the fond | — | M | C | roast gravy, Rahmsoße |
-| UO-63 | Fry thin batter items, cooked on both sides | Ø up to 240 mm, ≥ 95 % intact | M | C | pancakes, omelette, crêpes |
-| UO-64 | Fry / scramble / boil eggs to a set doneness | — | M | C | breakfast, egg dishes |
-| UO-65 | Baste / glaze during roasting | — | S | C | roasts, poultry |
-| UO-66 | Skim fat or foam | — | C | C | stocks |
-| UO-67 | Toast / dry-roast | bread slices; nuts, crumbs with stirring | S | C | croutons, toast |
-| UO-68 | Melt / temper gently | 30–60 °C ±2 K | S | C | chocolate, butter, gelatine |
-| UO-69 | Deep-fry | — | excluded (X-01); C | C | chips, doughnuts |
-| UO-70 | Hold hot / hold cold | COK-017 | M | C/S | all |
-| UO-71 | Cool down quickly / set in the cold | COK-022; set desserts ≥ 2 h at ≤ 7 °C | S | C/P | pudding, potato salad, jelly |
-| UO-72 | Rest cooked meat | 3–20 min at 50–60 °C ambient | M | C/S | steak, roast |
-| UO-73 | Reheat stored leftovers or cooked components | core ≥ 72 °C | S | C | SRV-021 |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-50 | Boil BOL | 47 | up to 6 L of water, COK-004 | M | C |
+| UO-51 | Simmer / poach gently SIM; poach egg POA | 79 / 1 | 60–98 °C ±3 K (POA: S) | M | C |
+| UO-52 | Steam STM | 3 | up to 1.5 kg of food | M | C |
+| UO-53 | Blanch and shock BLA | 3 | — | S | C |
+| UO-54 | Sauté / sweat SAU, incl. slow caramelising of onions | 84 | 100–180 °C, with stirring | M | C |
+| UO-55 | Sear SER; pan-fry PFR; browned on both sides FLP | 25 / 43 / 32 | COK-005, COK-009; surface up to 260 °C | M | C |
+| UO-56 | Shallow-fry in ≤ 250 mL fat (PFR) | — | COK-021 | M | C |
+| UO-57 | Braise BRS | 9 | lidded, up to 4 h, 85–170 °C, hob or cavity | M | C |
+| UO-58 | Roast RST with core-temperature control | 13 | up to 2.5 kg; 80–250 °C | M | C |
+| UO-59 | Bake BKE | 44 | 30–250 °C (280 °C: S); COK-006 | M | C |
+| UO-60 | Grill / gratinate GRL | 8 | top heat | M | C |
+| UO-61 | Deglaze DGL; reduce RED; thicken THK | 24 / 14 / 29 | reduction to a target mass ±5 %; lump-free | M | C |
+| UO-62 | Make a sauce from the fond in the pan or roasting vessel | — | — | M | C |
+| UO-63 | Thin batter items cooked on both sides (PTH + FLP) | — | Ø up to 280 mm, ≥ 95 % intact | M | C |
+| UO-64 | Fry / scramble / boil eggs to a set doneness | — | — | M | C |
+| UO-65 | Baste BST | 9 | every 20–30 min | M | C |
+| UO-66 | Skim foam or fat SKM | 2 | — | C | C |
+| UO-67 | Toast dry TST | 13 | bread, nuts, crumbs | M | C |
+| UO-68 | Melt MLT; gentle water-bath heat BMA; caramelise sugar CRL | 24 / 5 / 4 | 30–80 °C ±2 K; sugar to 180 °C | M | C |
+| UO-69 | Deep-fry DFR | 10 | excluded (X-01): adapted methods | — | C |
+| UO-70 | Keep warm KWM / hold cold | 8 | COK-017 | M | C/S |
+| UO-71 | Chill / set CHL; cool down COL | 15 / 27 | COK-022; set ≥ 2 h at ≤ 7 °C | M | C/P |
+| UO-72 | Rest cooked meat (RES) | — | 3–20 min at 50–60 °C | M | C/S |
+| UO-73 | Reheat stored leftovers or cooked components | — | core ≥ 72 °C | S | C |
+| UO-74 | Cook by absorption ABS (rice, couscous) | 23 | measured water, lid, boil-dry detection | M | C |
+| UO-75 | Stir continuously on heat STC (risotto, custard, béchamel, porridge, scrambled egg) | 16 | COK-008; no scorching | M | C |
+| UO-76 | Stir-fry STW | 7 | adapted method permitted: agitated pan at 230–260 °C | M (adapted) | C |
+| UO-77 | Proof dough PRF | 11 | 28–35 °C; or 12–16 h cold | M | P/C |
+| UO-78 | Contact bake CNT (toasted sandwich; waffle) | 2 | sandwich by pan or double-sided heat (M, adapted); waffles excluded (X-11) | S | C |
+| UO-79 | Freeze / churn FRZ | 1 | excluded (X-11) | — | — |
 
-**Finishing and plating**
+**Finishing and plating — no purchase workaround (MEAL-018)**
 
-| ID | Unit operation | Minimum capability | Prio | Mod. | Examples |
-|----|----------------|--------------------|------|------|----------|
-| UO-80 | Carve / slice cooked meat | 2–15 mm slices, roast up to 2.5 kg; slices intact | M | S/P | roast beef (brief), roast pork |
-| UO-81 | Portion by mass or count onto N dishes | SRV-002, SRV-003 | M | S | all |
-| UO-82 | Ladle / pour liquids and sauces without drips on the rim | 30–400 mL ±10 % | M | S | soup, gravy |
-| UO-83 | Place pieces in a defined position and orientation | SRV-005 | M | S | all mains |
-| UO-84 | Garnish: sprinkle, dollop, place | 0.5–30 g | M | S | herbs, cream, lemon |
-| UO-85 | Cut and lift portions from a baking dish or tin | pieces intact ≥ 90 % | M | S | lasagne, gratin, cake |
-| UO-86 | Dress and toss salad immediately before serving | — | M | P/S | salads |
-| UO-87 | Unmould | — | C | S | pudding, terrine |
+| ID | Unit operation (corpus codes) | n | Minimum capability | Prio | Mod. |
+|----|-------------------------------|---|--------------------|------|------|
+| UO-80 | Carve / slice cooked meat CAR | 12 | 2–15 mm slices, boneless roast up to 2.5 kg, slices intact (M); bone-in poultry into portions (S) | M | S/P |
+| UO-81 | Portion into servings PRT | 28 | SRV-002, SRV-003 | M | S |
+| UO-82 | Sauce / ladle onto plate SCE | 18 | 30–450 mL ±10 %, no drips on the rim | M | S |
+| UO-83 | Plate / arrange PLT | 231 | SRV-005 | M | S |
+| UO-84 | Garnish / dust / drizzle GAR | 37 | 0.5–30 g | M | S |
+| UO-85 | Slice baked goods, portion cake, pizza, casserole SLB | 33 | pieces intact ≥ 90 % | M | S |
+| UO-86 | Dress and toss salad immediately before serving (TOS) | — | — | M | P/S |
+| UO-87 | Unmould / turn out UNM | 11 | cake from tin, pudding, panna cotta; ≥ 95 % undamaged | M | S/C |
+| UO-88 | Assemble / build ASM (burger, taco, sandwich, wrap, bowl, pizza toppings, layered cake) | 17 | components placed in order, stack stable on the way to the hatch | M | S/P |
+| UO-95 | Shred cooked meat SHR | 3 | — | S | S/P |
 
 ### 5.4 Candidates for exclusion (the "5 %")
 
-Designers may treat the following as outside the required capability. If a candidate can be included at little
-cost, it should be. Meals that need an excluded operation, with no adapted method (MEAL-013), fall into the
-5 %. V2 shall check that the exclusions together cost no more than 5 % of the corpus; if they cost more, the
-cheapest candidates to re-include are (in this order) X-06, X-01, X-09.
+The corpus has 248 meals, so at most 12 may be not preparable. With the exclusions below, the meals known to
+fall out are 8 (3.2 %): CK11 yeast doughnuts, DM21 roast goose (duck ≤ 2.5 kg remains), DS13 ice cream,
+BF08 waffles, AS05 sushi, BK06 pretzels, CK08 Black Forest cake, BK02 sourdough bread. This leaves a reserve of
+4 meals for operations that prove infeasible in design. V2 shall recompute the list. If the reserve is
+exceeded, the cheapest candidates to re-include are, in this order, X-11 (waffle plates), X-09, X-01.
 
-| ID | Excluded capability | Justification | Adapted method / consequence |
-|----|---------------------|---------------|------------------------------|
-| X-01 | Deep-frying in an oil bath (> 250 mL oil) | Fire load incompatible with unattended operation; oil storage, filtering and disposal; hardest cleaning task. | Oven/hot-air crisping of chips, croquettes; shallow-frying of Schnitzel. Doughnuts, tempura fall out. |
-| X-02 | Open-flame or charcoal grilling, smoking, flambéing | No flame in an enclosed unattended machine; smoke. | Pan-searing, top-heat browning. |
-| X-03 | Butchery: gutting, scaling, filleting and skinning whole fish; boning and jointing; plucking; shellfish opening, prawn peeling | Rare in today's households; supermarket sells prepared cuts (MEAL-012); complex anatomy-dependent manipulation. | Buy fillets and cuts. |
-| X-04 | Whole large roasts and birds > 2.5 kg (goose, turkey, suckling pig); carving whole birds | A few festive meals per year; sets oven and vessel size for everything else. | Poultry parts and breast/leg roasts up to 2.5 kg. Whole chicken ≤ 1.6 kg roasted and served in halves/quarters: S. |
+| ID | Excluded capability | Justification | Corpus meals affected; adapted method or consequence |
+|----|---------------------|---------------|------------------------------------------------------|
+| X-01 | Deep-frying DFR in an oil bath (> 250 mL oil). The corpus proposes a 3 L fryer; this specification does not require one. | Fire load incompatible with unattended operation (SAF-014); oil storage, filtering, ageing and disposal; hardest cleaning task; 4 % of meals. | 10 meals. **Adapted methods permitted (MEAL-013):** SD04 French fries, SD21 croquettes, IN07 samosa, AS08 spring rolls → hot-air/oven crisping at 200–230 °C with ≤ 15 mL oil per 500 g. ME05 falafel, FI02 Backfisch, US05 fried chicken, AS07 sweet-and-sour chicken → shallow-frying in ≤ 250 mL fat with turning (UO-56), or hot-air. IN05 biryani (fried onions) → shallow-fried. CK11 Krapfen/Berliner → no acceptable substitute, falls into the 5 %. SD04 has weight 3: its adapted result shall pass MEAL-015 explicitly. |
+| X-02 | Open-flame or charcoal grilling, smoking, flambéing, torching | No flame in an enclosed unattended machine. | Pan-searing, top-heat browning (UO-60). |
+| X-03 | Butchery: debone DBN, trim sinew and silverskin TRM, fillet/gut/scale fish FLT, shell seafood PLQ | Difficulty 5, no household-scale solution; supermarkets sell the prepared form (MEAL-012 a). | 11 meals, all preparable with bought boneless, trimmed, filleted or shelled goods. Whole gutted fish (FI07) is baked whole and carved by the guest. |
+| X-04 | Whole roasts and birds > 2.5 kg; carving whole large birds | A few festive meals per year would set oven and vessel size for everything. | DM21 goose falls out; duck, chicken ≤ 2.5 kg and poultry parts remain (bone-in carving: S). |
 | X-05 | Meals for more than 6 persons in one run | CAP-001. | Two runs, or family-style serving (SRV-018). |
-| X-06 | Hand-shaped filled pasta and dumplings (ravioli, Maultaschen, tortellini, pierogi), hand-pulled strudel dough, laminated dough (croissant, puff pastry from scratch) | Delicate thin-dough manipulation; ready sheets and filled pasta are sold everywhere. | Bought pastry sheets; bought filled pasta with home-made sauce (counts as preparable only if the filling is not the characteristic part). |
-| X-07 | Decorative patisserie: multi-layer tortes, piping, icing decoration, sugar work | Not "meals"; endless variety of manual finishing. | Plain cakes, tray bakes, tarts, muffins (S). |
-| X-08 | Preserving, canning, jam-making, fermenting, curing, sausage-making | Not meal preparation. | — |
-| X-09 | Sourdough and artisan bread with long multi-stage processes; shaped bakery items (pretzels, plaits) | Mostly bought; many hours of process time block the cavity. | Simple yeast bread, rolls, pizza base: S. |
-| X-10 | Table-cooking formats: fondue, raclette, hot pot, table grill | The cooking *is* the human activity. | Machine prepares the raw components on platters (C). |
-| X-11 | Techniques needing special single-purpose equipment: pressure-cooking, sous-vide in bags, wok cooking over a jet flame, ice-cream churning, waffle/sandwich irons, rotisserie | Each adds a device and a cleaning task for < 1 % of meals. | Longer braising; pan-frying; oven. |
-| X-12 | Dishes whose assembly is fine manual craft: sushi, spring rolls, stuffed vine leaves, canapés, decorated open sandwiches | Low share of traditional corpus. | — |
-| X-13 | Produce needing special handling: artichokes, whole pineapple, coconut, pomegranate seeds, fresh peas/beans from the pod, chestnut peeling, stoning cherries/plums, asparagus peeling | Shape-specific tools. | Frozen, tinned or prepared forms. White asparagus peeling: S (seasonal staple in Germany). |
-| X-14 | Raw-egg, raw-meat and raw-fish dishes served uncooked (tartare, Mett, carpaccio, tiramisu with raw egg) | Food-safety risk without a human judging freshness; only on explicit user opt-in (FSF-024). | Pasteurised egg; cooked variants. |
-| X-15 | Drinks: coffee, tea, juices, smoothies, cocktails | Non-goal NG-01. | — |
-
+| X-06 | Hand-made filled pasta (ravioli, Maultaschen, tortellini), hand-pulled strudel dough, laminated dough from scratch | Thin-dough manipulation of difficulty 5; the traditional home recipe itself buys these (corpus DM33, IT17 use bought Maultaschen/tortellini). | Bought fresh filled pasta, puff and filo/strudel sheets are permitted purchases (MEAL-012 b). CK12 apple strudel with bought dough sheets: preparable. |
+| X-07 | Decorative patisserie: multi-layer cream tortes, piped decoration, icing work | Endless variety of manual finishing. | CK08 Black Forest cake falls out; plain cakes, tray bakes, tarts, muffins (with simple topping) remain. |
+| X-08 | Preserving, canning, jam-making, fermenting, curing, sausage-making | Not meal preparation; not in the corpus. | — |
+| X-09 | Sourdough with a living starter; braided and knotted shapes | Starter culture needs weekly feeding; shaping of difficulty 5. | BK02, BK06 fall out. Yeast bread, rolls, pizza and Flammkuchen bases remain (UO-45). |
+| X-10 | Table-cooking formats: fondue, raclette, hot pot, table grill | The cooking is the human activity; not in the corpus. | — |
+| X-11 | Single-purpose equipment: waffle iron, ice-cream churn, pressure cooker, sous-vide, rotisserie, jet-flame wok | Each adds a device and a cleaning task for < 1 % of meals. | BF08 waffles, DS13 ice cream fall out. US07 toasted sandwich → pan or double-sided heat. The 7 stir-fry meals → agitated hot pan (UO-76, adapted). |
+| X-12 | Fine manual assembly: sushi rolling, canapés | Difficulty 5. | AS05 sushi falls out. |
+| X-13 | Skewering SKW, skimming SKM | Alternatives exist. | ME04 souvlaki cooked as loose cubes or on bought skewers; SP05, DM29 without skimming (slightly cloudy broth accepted) — all three count as adapted. |
+| X-14 | Raw-egg, raw-meat and raw-fish dishes served uncooked | Food-safety risk without a human judging freshness. | Only on explicit opt-in (FSF-024); DS06 tiramisu with pasteurised egg by default. |
+| X-15 | Drinks | Non-goal NG-01; not in the corpus. | — |
 
 ---
 
@@ -807,7 +831,7 @@ The machine is *sized* for 6 and *optimised* for the reference household of 4.
 | CAP-001 | One meal run shall serve 1 to 6 persons. | See above. | M | D | B8 |
 | CAP-002 | The system shall sustain the reference household (4 persons, 3 meals per day, of which 1 full warm meal, 1 light warm meal, 1 cold/light meal) indefinitely, and 6 persons with 2 full warm meals per day for ≥ 3 consecutive days. | Everyday use; guests. | M | A | B13 |
 | CAP-003 | A meal shall comprise up to 3 courses. One course shall comprise up to 4 separately prepared hot components plus 2 cold components, all served together. | Starter/soup – main – dessert; main = protein + starch + vegetable + sauce, + salad. | M | A | B8 |
-| CAP-004 | Reference portions per person (M size): protein 150–250 g raw; starch side 200–250 g cooked; vegetable 150–200 g; sauce 80–120 mL; soup 300–400 mL; salad 100–150 g; dessert 120–180 g. Maximum plated mass per person per meal: 900 g. Maximum batch for 6 persons: one component 1.8 kg or 3 L; whole meal 5.4 kg. | Sizing of vessels, tools, dishes. | M | A | B8 |
+| CAP-004 | Reference portions per person (corpus 6.1, 6.2): boneless meat 150 g raw (120–200), bone-in 300 g; starch side 200 g cooked; pasta as a main 100–150 g dry; vegetable 150–200 g; sauce 80 mL; soup as a main 450 mL; salad 100–150 g; dessert 120–250 g. Plated mass per person: typically 550–650 g, maximum 900 g. Maximum batch for 6 persons: one component 1.8 kg or 3 L (plus cooking water); whole meal 5.4 kg. | Sizing of vessels, tools, dishes. | M | A | B8 |
 | CAP-005 | Within one meal, one alternative variant of one course for a subset of the persons (e.g. vegetarian, allergen-free, child's version) shall be possible. | Mixed households. | S | A, D | B8 |
 | CAP-006 | The system shall serve a second full warm meal for 6 with a serving time ≥ 2 h after the first (M), ≥ 1 h (S). | Lunch for some, then others; guests. | M | A | drv |
 | CAP-007 | Several independent orders shall be queued and executed in serving-time order; two light meals (≤ 2 components each) with serving times ≥ 15 min apart shall both be met. | Staggered breakfasts. | S | A | drv |
@@ -834,7 +858,7 @@ number of box positions.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| CAP-030 | The clean stock of vessels and tools shall cover a 2-course meal with a 4+2-component main course for 6 persons without re-washing during the run. The designers shall state the resulting ware list; its total shall be minimised. | PRP-031; cleaning load. | M | A | drv |
+| CAP-030 | The clean stock of vessels and tools shall cover a 2-course meal with a 4+2-component main course for 6 persons without re-washing during the run; at least 6 food vessels shall be usable at the same time. The designers shall state the resulting ware list; its total shall be minimised. | PRP-031; corpus 4.9: peak of 6 concurrent food vessels for one menu. | M | A | drv |
 | CAP-031 | Dish store: ≥ 12 flat plates, ≥ 12 deep plates/bowls, ≥ 12 small plates/bowls. | Two consecutive meals for 6 (or 3 courses for 6) before the human returns dishes. | M | I | B9 |
 | CAP-040 | Consumable stores (detergent, rinse aid, softener salt, descaler, disinfectant if used) shall last ≥ 30 days of reference use (M), ≥ 180 days (S). | HUM-004. | M | A | B6 |
 | CAP-041 | Organic waste: ≥ 10 L and ≥ 3.5 days of reference use (est. 1.0–1.5 kg/day incl. peel, trimmings, leftovers). Packaging waste, where the machine opens packages: ≥ 25 L and ≥ 3.5 days of reference use (est. 40 L/week uncompacted; compaction permitted); deposit containers shall not be damaged. | HUM-003. | M | A | drv |
@@ -845,8 +869,8 @@ number of box positions.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature: ≤ 1.15 × T_ref + 10 min (M); ≤ 1.0 × T_ref + 5 min (S). For 6 persons: a further + 10 min is allowed. | The machine has no mise-en-place head start but parallelises, and has about the power of a domestic cooker (UTL-010). | M | A, T | drv |
-| PERF-002 | Benchmark meals for 4 persons (est.; T_ref to be aligned with the corpus): (a) spaghetti with minced-meat tomato sauce ≤ 45 min; (b) Frikadellen, mashed potatoes, peas ≤ 60 min; (c) pan-fried steak, fried potatoes, mixed salad ≤ 50 min; (d) vegetable soup from fresh vegetables ≤ 55 min; (e) beef Rouladen, red cabbage, boiled potatoes ≤ 150 min; (f) roast beef 1.2 kg medium, gratin, green beans ≤ 120 min; (g) mixed salad with dressing alone ≤ 15 min; (h) scrambled eggs with toast ≤ 12 min. | Concrete yardsticks for V2. | M | A, T | B5 |
+| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature: ≤ 1.15 × T_ref + 10 min (M); ≤ 1.0 × T_ref + 5 min (S). T_ref of a meal is the corpus column "min"; T_ref of a menu is the longest T_ref of its components. For 6 persons: a further + 10 min is allowed. Scheduled waiting (marinating, proofing, chilling) is part of T_ref. | The machine has no mise-en-place head start but parallelises, and has about the power of a domestic cooker (UTL-010). | M | A, T | drv |
+| PERF-002 | Benchmarks for 4 persons, from PERF-001 (M level) and the corpus times: (a) spaghetti bolognese IT01, T_ref 75 → ≤ 96 min; (b) Frikadellen DM01 with mashed potatoes SD02 and peas, 35 → ≤ 50 min; (c) steak DM23 + baked potato + mixed salad, 60 → ≤ 79 min; (d) vegetable soup SP06, 35 → ≤ 50 min; (e) Rouladen DM02 + red cabbage SD11 + potato dumplings SD07, 150 → ≤ 183 min; (f) roast pork DM06 + dumplings + red cabbage + gravy, 190 → ≤ 229 min; (g) lasagne IT05 + salad, 120 → ≤ 148 min; (h) mixed salad SA01, 15 → ≤ 27 min; (i) scrambled eggs BF03, 6 → ≤ 17 min. | Concrete yardsticks for V2. | M | A, T | B5 |
 | PERF-003 | From order "now" with the machine idle, the first process step shall start within 60 s. | No warm-up waiting. | M | T | drv |
 | PERF-004 | For scheduled meals, the first dish shall be at the hatch within −0/+5 min of the serving time in ≥ 90 % of meals. | Punctuality. | M | T | drv |
 | PERF-005 | After serving, the system shall be ready to start the next meal within 30 min (needed stations clean), and completely clean, dry and idle within 90 min (M), 45 min (S). | CAP-006; drying of soil makes cleaning harder. | M | A, T | B6 |
@@ -1323,7 +1347,7 @@ where the last column says so.
 | OQ-04 | Number of persons and meals per day. | 1–6 persons per meal; sized for 4 persons × 3 meals/day. | — |
 | OQ-05 | The brief says every package is cut open at ingestion. The project ruling DEC-3 (pending customer objection) adds the STOW lane: tins, jars, cartons, tubs, vacuum packs are stored sealed and opened just in time. Does the customer object? | Two lanes, DECANT and STOW (ING-018). | If decant-only were required: CAP-010's 14- and 21-day autonomy would no longer apply to those products. |
 | OQ-06 | Version A: must the user be able to tip a jumbled pile of packages into the container, or is placing items one by one (about 3 s each, no orientation) acceptable? | One by one is the minimum; jumbled pile is the target (INA-001). | Yes. |
-| OQ-07 | How much supermarket pre-processing of ingredients is acceptable (minced meat, fillets, pre-cut Rouladen slices, frozen chopped onions, ready pastry sheets)? It decides whether several hard operations are needed at all. | As MEAL-012: basic processed forms allowed, characteristic components made by the machine; peeling and cutting of fresh produce required. | — |
+| OQ-07 | Which pre-processed purchases are acceptable? This decides how many hard operations the machine needs: allowing everything incl. formed patties and ready Rouladen needs 4 hard operations; allowing only peeled/boneless/cut commodity forms needs 9 plus breading and rolling; allowing nothing needs 20. | MEAL-012: commodity pre-processed forms (incl. peeled or frozen onions) allowed; products with shaping, coating or assembly already done not allowed; MEAL-009 (whole fresh produce) as S. | Yes: the S operations of 5.3 are the upgrade path. |
 | OQ-08 | Is wiping the exterior fronts by the human acceptable? | Yes (AS-08). | — |
 | OQ-09 | Is it acceptable that the human empties waste containers about twice a week and refills consumables about monthly (section 7.8)? | Yes. | — |
 | OQ-10 | Cost target for the parts. | ≤ EUR 25 000 for the MVC (BLD-004). | — |
@@ -1359,7 +1383,7 @@ where the last column says so.
 | B2 Parts list | MOD-001; sections 3.1–3.13 |
 | B3 Rectangular plastic boxes, small to medium, in a grid; a specific box to the exit; "design this transport system" | BOX-001 to -014; STO-001 to -015; TRN-001 to -016; CAP-020, -023 |
 | B4 Cold storage works the same; exit thermally closed; ideally off-the-shelf fridge/freezer with modified door | CLD-001 to -014; CAP-021, -022; RES-004; SAF-056 |
-| B5 Multi-tool or tools; all steps for most meals; ≥ 95 %; named meals; pouring from box to bucket, bucket to bucket, bucket to pan; novel tools welcome | PRP-001 to -037; MEAL-002, -005; section 5.3 (UO-01 to UO-87); section 5.4 |
+| B5 Multi-tool or tools; all steps for most meals; ≥ 95 %; named meals; pouring from box to bucket, bucket to bucket, bucket to pan; novel tools welcome | PRP-001 to -037; MEAL-002, -005; MEAL-018; section 5.3 (UO-01 to UO-95); section 5.4 |
 | B6 Everything cleaned automatically; hygienic; human cleans nothing; including boxes and transport | GEN-002; section 7 (HYG, FSF, HUM); WSH-004 to -013; PRP-030; TRN-011, -012; STO-012; COK-019; SRV-019; ING-013; INA-013 |
 | B7 Cooking (e.g. induction) and baking, designer free | COK-001 to -023 |
 | B8 Portion on a dish, nicely presented; several persons at once; specific place with automatic door | SRV-001 to -013; CAP-001 to -007; SAF-032 |
@@ -1373,11 +1397,12 @@ where the last column says so.
 
 ## 14. Open issues
 
-1. **Meal corpus not yet available.** `research/02-meal-corpus.md` did not exist when this document was
-   written. Section 5 defines the measure and the unit operations from the brief and from general culinary
-   knowledge. When the corpus arrives: (a) align the unit-operation list (MEAL-008), (b) check that the
-   exclusions of 5.4 cost ≤ 5 % of the corpus, (c) replace the estimated benchmark times in PERF-002 by the
-   corpus' T_ref values, (d) replace annex A.
+1. **Meal corpus: resolved.** Section 5, PERF-001/-002, COK-002/-003/-004/-006/-016, CAP-004/-030, PRP-023/
+   -024/-037/-038 and Annex A are aligned with `research/02-meal-corpus.md`. Remaining: the corpus' difficulty,
+   avoidability and weight values are its author's estimates, and the list of meals falling out (5.4) was
+   compiled by keyword, not by a full recomputation; V2 shall recompute coverage with the corpus' appendix A
+   method. One deliberate deviation from the corpus: it proposes a deep fryer, this specification does not
+   (X-01). The corpus has no plain "roast beef" row; MEAL-005 uses DM08 and equivalents.
 2. **Estimated numbers.** Everything marked (est.) is to be confirmed by research and by the architecture's
    budgets, in particular: storage box counts (CAP-020 to -022), energy and water (RES), cost (BLD-004),
    life-cycle counts (REL-004), mass per width (PHY-011), noise limits (NOI).
@@ -1421,19 +1446,26 @@ where the last column says so.
 
 ---
 
-## Annex A — Provisional benchmark meals (until the corpus is available)
+## Annex A — Reference menus (from the corpus, section 4.9)
 
-Placeholder for coverage walk-throughs; superseded by `research/02-meal-corpus.md`. All for 1–6 persons.
+The meal list itself is the corpus (`research/02-meal-corpus.md`, section 3). These 15 menus are the
+reference for scheduling, heat-source, vessel and time walk-throughs (MEAL-007); H = peak concurrent heat
+sources, B = peak concurrent food vessels.
 
-| Category | Meals |
-|----------|-------|
-| Named in the brief | Mixed salad with vinaigrette · mashed potatoes · roast beef with gravy · Frikadellen · beef Rouladen · clear soup with garnish, cream of vegetable soup, lentil or pea stew · pan-fried steak · pasta with sauce |
-| Soups and stews | Potato soup · chicken noodle soup · goulash soup · tomato soup · vegetable stew with beef |
-| Meat mains | Wiener/pork Schnitzel · goulash · Sauerbraten · roast pork with crackling · Königsberger Klopse · chicken fricassee · roast chicken legs · cabbage rolls · liver with onions · bratwurst with sauerkraut · Geschnetzeltes in cream sauce · stuffed peppers · meatloaf |
-| Fish | Pan-fried fish fillet · baked salmon · fish in mustard sauce · breaded fish with potato salad |
-| Potato, flour and egg dishes | Boiled, fried, roast and gratin potatoes · potato dumplings · Reibekuchen · Spätzle, Käsespätzle · pancakes · omelette, scrambled and fried eggs · Semmelknödel · potato salad · Bauernfrühstück |
-| Pasta and rice | Spaghetti bolognese · lasagne · macaroni cheese · risotto · rice pudding · pasta bake · rice with vegetables and chicken |
-| Vegetables and sides | Red cabbage · sauerkraut · creamed spinach · green beans with bacon · glazed carrots · cauliflower with breadcrumb butter · kohlrabi in white sauce · asparagus with hollandaise |
-| Salads | Cucumber salad · tomato salad · coleslaw · carrot-apple salad · pasta salad · lettuce with yoghurt dressing |
-| Baked | Quiche · pizza · vegetable gratin · apple cake (tray) · marble cake · crumble · simple yeast bread and rolls |
-| Desserts and breakfast | Vanilla pudding · stewed fruit · semolina pudding · fruit salad · quark dessert · porridge · Kaiserschmarrn |
+| # | Menu | H | B | Note for this specification |
+|---|------|---|---|-----------------------------|
+| 1 | Spaghetti bolognese | 2 | 3 | PERF-002 a |
+| 2 | Schnitzel + French fries + mixed salad | 2 | 5 | fries by adapted method (X-01); breading by the machine |
+| 3 | Steak + baked potato + salad | 2 | 3 | PERF-002 c |
+| 4 | Frikadellen + potato salad + cucumber salad | 2 | 4 | pan in batches, warm-hold |
+| 5 | Pizza + salad | 1 | 3 | one pizza at a time; 250 °C (280 °C: S) |
+| 6 | Käsespätzle + salad | 3 | 4 | EXT is S: Spätzle by press or cut |
+| 7 | Fish fingers + mash + creamed spinach | 3 | 4 | breading by the machine |
+| 8 | Rouladen + red cabbage + potato dumplings | 3 | 5 | PERF-002 e |
+| 9 | Roast pork + dumplings + red cabbage + gravy | 4 | 6 | PERF-002 f; sizes COK-002 and CAP-030 |
+| 10 | Goose + red cabbage + dumplings + gravy | 4 | 6 | goose excluded (X-04); run with duck ≤ 2.5 kg |
+| 11 | White asparagus + hollandaise + potatoes + schnitzel | 4 | 6 | asparagus peeling is S (bought peeled by default) |
+| 12 | Butter chicken + rice + naan + raita | 4 | 5 | naan in the pan, in batches |
+| 13 | Burger + fries + coleslaw | 3 | 4 | assembly ASM; fries adapted |
+| 14 | Lasagne + salad | 3 | 4 | PERF-002 g |
+| 15 | Breakfast for 6: scrambled eggs, pancakes, bacon, porridge | 4 | 5 | pancakes are the bottleneck (12 in sequence) |
