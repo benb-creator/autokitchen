@@ -2,7 +2,7 @@
 
 Document: `requirements/requirements.md` (task Q1) · Status: baseline for architecture (A1) and module design (D1–D10)
 Source of truth: [BRIEF.md](../BRIEF.md), then [DECISIONS.md](../DECISIONS.md) (customer decisions and project
-rulings 1–17 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
+rulings 1–18 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
 win and the conflict is to be raised as an open issue.
 
 ## 0. How to read this document
@@ -108,8 +108,8 @@ Out of scope: see non-goals (section 12.2).
 | **Danger zone** | Food temperature between 5 °C and 60 °C. |
 | **Clean** | Meets the acceptance criteria of HYG-020 to HYG-025. |
 | **Soiled** | A Zone F or Zone S surface that has had food contact or contamination since its last cleaning. |
-| **Reference household** | 4 persons, 2 warm meals per day from the machine (1 full, 1 light). Basis for all per-day figures. |
-| **Reference meal** | Full warm meal for 4 persons: 1 course, 4 components (protein, starch, vegetable, sauce), 2.2 kg plated food in total. |
+| **Reference household** | 2 persons, 2 warm meals per day from the machine (1 full, 1 light); guest meals for 3–6 persons occasionally (≤ 2 per week). Basis for storage, autonomy, per-day, energy, water and lifetime figures (DEC-18). |
+| **Reference meal** | Full warm meal for 2 persons: 1 course, 4 components (protein, starch, vegetable, sauce), 1.1 kg plated food. The **sizing meal** is the same for 6 persons (3.3 kg); vessels, batches, heat sources, ware and dish stock are sized for it. |
 | **T_ref** | Reference time of a recipe: start to ready-to-serve for a skilled home cook in a normal kitchen, as given in the meal corpus. |
 | **Human intervention** | Any unplanned action a human must take for the machine to continue (clearing a jam, removing an object, restart). Routine tasks of section 7.8 are not interventions. |
 | **LRU** | Line-replaceable unit: the smallest sub-assembly exchanged in a repair. |
@@ -550,6 +550,7 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 | ING-019 | Ingestion shall be possible while no meal is in progress (M) and during cooking without delaying the meal by more than 2 min (S). | Shared transport and washing resources. | M | D | drv |
 | ING-020 | The outside of packages stored sealed (STOW) shall not contaminate Zone F: either it is cleaned before storage, or the carrier/box that held it is treated as soiled and the opening mechanism as class R contact (HYG-031). | Supermarket packaging is not clean. | M | R | B6, DEC-3 |
 | ING-021 | Just-in-time opening of stowed packages shall be available in every configuration, including the MVC with ingestion version B; the opening mechanism may be shared between ingestion and preparation. | STOW is useless without opening at use. | M | R | B10, DEC-3 |
+| ING-022 | A guest shop of 30 items (CAP-013) shall be ingested with version A in ≤ 30 min machine time (user ≤ 2 min), with version B in ≤ 15 min user time, chilled items within FSF-011. | Shopping shortly before a guest meal. | M | T, A | B10, DEC-18 |
 
 ### 3.10 Ingestion version A — automatic (INA)
 
@@ -913,12 +914,12 @@ households have more than 5; a family of 4 with two guests is the common peak. S
 ordinary household cookware delivers from a 600 mm wide hob and one oven (5 L pot, 280 mm pan, one roast of
 1.5–2.5 kg), so 6 persons does not force larger-than-domestic vessels, heaters or power. Above 6, vessel
 sizes, the oven, the dish store and the heating power per vessel grow out of proportion to a 600 mm deep machine on a domestic cooker connection.
-The machine is *sized* for 6 and *optimised* for the reference household of 4.
+The machine is *sized* for 6 per meal and its storage, running costs and lifetime are sized for the reference household of 2 (DEC-18).
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
 | CAP-001 | One meal run shall serve 1 to 6 persons. | See above. | M | D | B8 |
-| CAP-002 | The system shall sustain the reference household (4 persons, 2 warm meals per day, of which 1 full and 1 light) indefinitely, and 6 persons with 2 full warm meals per day for ≥ 3 consecutive days. | Everyday use; guests. | M | A | B13 |
+| CAP-002 | The system shall sustain the reference household (2 persons, 2 warm meals per day) indefinitely, guest meals for up to 6 persons up to twice a week, and 6 persons with 2 full warm meals per day for ≥ 3 consecutive days when the ingredients are ingested beforehand. | DEC-18: 2 regular persons, guests occasionally. | M | A | B13, DEC-18 |
 | CAP-003 | A meal shall comprise up to 3 courses. One course shall comprise up to 4 separately prepared hot components plus 2 cold components, all served together. | Starter/soup – main – dessert; main = protein + starch + vegetable + sauce, + salad. | M | A | B8 |
 | CAP-004 | Reference portions per person (corpus 6.1, 6.2): boneless meat 150 g raw (120–200), bone-in 300 g; starch side 200 g cooked; pasta as a main 100–150 g dry; vegetable 150–200 g; sauce 80 mL; soup as a main 450 mL; salad 100–150 g; dessert 120–250 g. Plated mass per person: typically 550–650 g, maximum 900 g. Maximum batch for 6 persons: one component 1.8 kg or 3 L (plus cooking water); whole meal 5.4 kg. | Sizing of vessels, tools, dishes. | M | A | B8 |
 | CAP-005 | Within one meal, one alternative variant of one course for a subset of the persons (e.g. vegetarian, allergen-free, child's version) shall be possible. | Mixed households. | S | A, D | B8 |
@@ -933,27 +934,30 @@ and fish, fresh produce, opened jars) and frozen ingredients and stock. Breakfas
 table drinks and other non-cooking chilled goods may live in a separate ordinary fridge; ambient breakfast
 goods and snacks stay outside. A larger-storage configuration (CAP-026) can take over the separate fridge.
 
-**Derivation** (reference household: 4 persons, 2 warm meals/day = 14 meals/week; autonomy CAP-010).
-*Types:* the corpus Monte-Carlo (`research/02`, 5.4) gives about 38 ingredient types for 7 dinners and 58 for
-14; primary storage classes are 54 % fridge, 4 % freezer, 41 % ambient by type. For one week of 14 meals:
-≈ 30 chilled types, ≈ 5 frozen types, plus a standing ambient stock of ≈ 55–65 staples and seasonings (the
-corpus uses 74 ambient types). *Boxes per type:* × 1.3 for split and partly used boxes; plus separate boxes
-for raw meat and fish portions (≈ 6 per week), intermediate products (marinating, resting dough, leftovers:
-≈ 6), frozen meat portions (FSF-052: ≈ 8) and frozen stock portions (UO-96: ≈ 6). *Mass:* ≈ 0.5 kg of raw
-ingredients per person per warm meal → ≈ 4 kg/day, 28 kg/week; ≈ 50 % chilled, 30 % ambient, 20 % frozen by
-mass; bulk density in boxes 0.5–0.6 kg/L at 85 % fill.
+**Derivation** (reference household: 2 persons, 2 warm meals/day = 14 meals/week; autonomy CAP-010; DEC-18).
+*Types — independent of the number of persons:* the corpus Monte-Carlo (`research/02`, 5.4) gives about 38
+ingredient types for 7 dinners and 58 for 14; primary storage classes are 54 % fridge, 4 % freezer, 41 %
+ambient by type. For one week of 14 meals: ≈ 30 chilled types, ≈ 5 frozen types, plus a standing ambient stock
+of ≈ 55–65 staples and seasonings. *Boxes per type:* × 1.15 for split and partly used boxes (smaller
+quantities for 2 persons need fewer splits); plus raw meat and fish portions (≈ 5 per week), intermediate
+products (≈ 4), frozen meat portions (FSF-052: ≈ 5) and frozen stock portions (UO-96: ≈ 4). *Mass:* ≈ 0.5 kg
+of raw ingredients per person per warm meal → ≈ 2 kg/day, 14 kg/week; ≈ 50 % chilled, 30 % ambient, 20 %
+frozen by mass; the average box is smaller (more S and M sizes). **Consequence:** halving the household
+halves the mass and volume but reduces the number of box positions by only about 10–20 %, because positions
+are set by the variety of ingredients, not by the number of eaters.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| CAP-010 | Autonomy without grocery loading, reference household: ≥ 7 days for meals depending on fresh chilled food (M), ≥ 14 days for meals from frozen and ambient stock (M), ≥ 21 days for ambient staples and seasonings (S). | Weekly shopping. | M | A | B3, B4 |
+| CAP-010 | Autonomy without grocery loading, reference household (2 persons): ≥ 7 days for meals depending on fresh chilled food (M), ≥ 14 days for meals from frozen and ambient stock (M), ≥ 21 days for ambient staples and seasonings (S). Guest meals may depend on a shopping trip shortly before (CAP-013). | Weekly shopping. | M | A | B3, B4, DEC-18 |
 | CAP-011 | The MVC shall hold the stock for CAP-010 *plus* the variety needed to offer, at any time after a weekly shop, ≥ 30 different corpus meals as "cookable now". | Choice is the point of a stocked kitchen. | S | A | B1 |
-| CAP-012 | Reference retrieval pattern for sizing and for thermal tests: per day 35 box retrieve-and-return cycles from ambient, 30 from chilled, 6 from frozen; peaks of 15 retrievals in 10 min (est.). | Two warm meals per day; common basis for D1–D3. | M | — | drv, DEC-17 |
-| CAP-020 | Ambient storage (MVC), cooking ingredients only: ≥ 80 box positions, of which ≥ 30 of the smallest size for seasonings; usable box volume ≥ 60 L; ≥ 25 kg of food, including sealed long-life packs of the STOW lane (tins, jars, UHT cartons) and bread used as a cooking ingredient. | 55–65 standing staples and seasonings × split factor; 3 weeks of ambient mass. | M | A | B3, DEC-16, DEC-17 |
-| CAP-021 | Chilled storage (MVC): ≥ 50 box positions; usable box volume ≥ 55 L; ≥ 18 kg; of which a raw meat/fish sub-zone of ≥ 6 boxes, and room for chilled cooking liquids in their original cartons (≥ 3 L, 1 L cartons upright). | ≈ 30 chilled types × 1.3 + 6 raw portions + 6 intermediates ≈ 50; 7 days × 2 kg/day chilled = 14 kg + intermediates. | M | A | B4, DEC-17 |
-| CAP-022 | Frozen storage (MVC): ≥ 25 box positions; usable box volume ≥ 30 L; ≥ 12 kg; including portions of machine-made stock (UO-96) and raw meat frozen at ingestion (FSF-052). | ≈ 5 frozen types × 1.3 + 8 meat portions + 6 stock portions + reserve ≈ 25; 14 days × 0.8 kg/day. | M | A | B4, DEC-17 |
+| CAP-012 | Reference retrieval pattern for sizing and for thermal tests: per day 30 box retrieve-and-return cycles from ambient, 25 from chilled, 5 from frozen; peaks of 15 retrievals in 10 min (est.). | Retrievals follow the number of ingredients per meal, not the number of persons. | M | — | drv, DEC-18 |
+| CAP-013 | Guest shop: on top of the reference stock, the storage shall accept the ingredients for a guest meal for 6 persons bought ≤ 24 h before — ≥ 25 products, ≥ 8 kg, of which ≥ 4 kg chilled — using the empty-box reserve (CAP-023) and free positions, and ingest them per ING-022. | DEC-18: storage is sized for 2, guests are supplied by a shopping trip. | M | A | DEC-18 |
+| CAP-020 | Ambient storage (MVC), cooking ingredients only: ≥ 70 box positions, of which ≥ 30 of the smallest size for seasonings; usable box volume ≥ 45 L; ≥ 18 kg of food, including sealed long-life packs of the STOW lane and bread used as a cooking ingredient. | 55–65 standing staples and seasonings × 1.15; 3 weeks of ambient mass for 2 persons. | M | A | B3, DEC-16, DEC-18 |
+| CAP-021 | Chilled storage (MVC): ≥ 45 box positions; usable box volume ≥ 35 L; ≥ 10 kg; of which a raw meat/fish sub-zone of ≥ 5 boxes, and room for chilled cooking liquids in their original cartons (≥ 2 L, 1 L cartons upright). | ≈ 30 chilled types × 1.15 + 5 raw portions + 4 intermediates ≈ 45; 7 days × 1 kg/day chilled + intermediates. | M | A | B4, DEC-17, DEC-18 |
+| CAP-022 | Frozen storage (MVC): ≥ 20 box positions; usable box volume ≥ 20 L; ≥ 8 kg; including portions of machine-made stock (UO-96) and raw meat frozen at ingestion (FSF-052). | ≈ 5 frozen types × 1.15 + 5 meat portions + 4 stock portions + reserve ≈ 20; 14 days × 0.4 kg/day + stock. | M | A | B4, DEC-17, DEC-18 |
 | CAP-023 | In addition to CAP-020 to -022, the system shall hold a reserve of clean, dry, empty boxes: ≥ 15 % of all box positions, in a size mix matching the stored mix, and ≥ 25 boxes before a planned weekly ingestion. | One new box per ingested product; emptied boxes come back only after washing. | M | A | B10 |
-| CAP-024 | A cool ambient zone of 8–15 °C shall hold ≥ 10 boxes for cooking produce that must not be chilled (potatoes, whole onions, garlic, tomatoes, citrus, squash), with ethylene-emitting produce kept apart from sensitive produce. | Storage quality. | M | A | B3 |
-| CAP-025 | Total box positions of the MVC: ≥ 165 for food (ambient 80, cool 10, chilled 50, frozen 25) plus the empty-box reserve of CAP-023; the architect shall confirm the resulting length against PHY-004 and may use the extra height of PHY-002. | Summary for the layout; consistent with the corpus estimate of 100–180 boxes for a stocked machine. | M | A | DEC-17 |
+| CAP-024 | A cool ambient zone of 8–15 °C shall hold ≥ 8 boxes for cooking produce that must not be chilled (potatoes, whole onions, garlic, tomatoes, citrus, squash), with ethylene-emitting produce kept apart from sensitive produce. | Storage quality. | M | A | B3 |
+| CAP-025 | Total box positions of the MVC: ≥ 143 for food (ambient 70, cool 8, chilled 45, frozen 20) plus the empty-box reserve of CAP-023 (which also receives the guest shop, CAP-013); the architect shall confirm the resulting length against PHY-004 and may use the extra height of PHY-002. | Summary for the layout. | M | A | DEC-17, DEC-18 |
 | CAP-026 | **Larger-storage configuration** (optional, ≤ 4 200 mm, PHY-004): chilled ≥ 90 positions / ≥ 140 L / ≥ 45 kg incl. ≥ 12 L of table drinks, and frozen ≥ 35 positions / ≥ 60 L / ≥ 20 kg, so that the machine can replace the separate household fridge (DEC-13); added by extension modules (MOD-032) without redesign. Ambient +50 % likewise. | Households without a separate fridge. | S | R | B11, DEC-13, DEC-17 |
 
 ### 6.3 Ware, consumables, waste
@@ -963,7 +967,7 @@ mass; bulk density in boxes 0.5–0.6 kg/L at 85 % fill.
 | CAP-030 | The clean stock of vessels and tools shall cover a 2-course meal with a 4+2-component main course for 6 persons without re-washing during the run; at least 6 food vessels shall be usable at the same time. The designers shall state the resulting ware list; its total shall be minimised. | PRP-031; corpus 4.9: peak of 6 concurrent food vessels for one menu. | M | A | drv |
 | CAP-031 | Dish store: ≥ 12 flat plates, ≥ 12 deep plates/bowls, ≥ 12 small plates/bowls, ≥ 12 glasses, ≥ 8 cutlery sets. | Two consecutive meals for 6 (or 3 courses for 6) plus drinks while the first dishes are being washed. | M | I | B9, DEC-6 |
 | CAP-040 | Consumable stores (detergent, rinse aid, softener salt, descaler, disinfectant if used) shall last ≥ 30 days of reference use (M), ≥ 180 days (S). | HUM-004. | M | A | B6 |
-| CAP-041 | Organic waste: ≥ 10 L and ≥ 3.5 days of reference use (est. 1.0–1.5 kg/day incl. peel, trimmings, leftovers). Packaging waste, where the machine opens packages: ≥ 25 L and ≥ 3.5 days of reference use (est. 40 L/week uncompacted; compaction permitted); deposit containers shall not be damaged. | HUM-003. | M | A | drv |
+| CAP-041 | Organic waste: ≥ 10 L and ≥ 3.5 days of reference use (est. 0.5–0.8 kg/day incl. peel, trimmings, plate leftovers), and one guest meal for 6 on top. Packaging waste, where the machine opens packages: ≥ 20 L and ≥ 3.5 days of reference use (est. 20 L/week uncompacted for 2 persons, `research/07`; compaction permitted); deposit containers shall not be damaged. | HUM-003. | M | A | drv, DEC-18 |
 | CAP-042 | The organic waste shall be kept so that no odour is noticeable in the room (no detection by 4 of 5 persons at 1 m with all doors closed) until 4 days after the first waste entered. | Home. | M | T | drv |
 | CAP-043 | Packaging waste should be kept in ≥ 2 separate fractions (recyclable light packaging / other), rinsed where it held perishable food. | Local recycling rules; odour. | S | I | drv |
 
@@ -971,7 +975,7 @@ mass; bulk density in boxes 0.5–0.6 kg/L at 85 % fill.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature: ≤ 1.15 × T_ref + 10 min (M); ≤ 1.0 × T_ref + 5 min (S). T_ref of a meal is the corpus column "min"; T_ref of a menu is the longest T_ref of its components. For 6 persons: a further + 10 min is allowed. Scheduled waiting (marinating, proofing, chilling) is part of T_ref. | The machine has no mise-en-place head start but parallelises, and has about the power of a domestic cooker (UTL-010). | M | A, T | drv |
+| PERF-001 | Order-to-ready time, for 1–4 persons, from stock at storage temperature: ≤ 1.15 × T_ref + 10 min (M); ≤ 1.0 × T_ref + 5 min (S). T_ref of a meal is the corpus column "min"; T_ref of a menu is the longest T_ref of its components. For 5–6 persons (sizing meal): a further + 10 min is allowed. Scheduled waiting (marinating, proofing, chilling) is part of T_ref. | The machine has no mise-en-place head start but parallelises, and has about the power of a domestic cooker (UTL-010). | M | A, T | drv |
 | PERF-002 | Benchmarks for 4 persons, from PERF-001 (M level) and the corpus times: (a) spaghetti bolognese IT01, T_ref 75 → ≤ 96 min; (b) Frikadellen DM01 with mashed potatoes SD02 and peas, 35 → ≤ 50 min; (c) steak DM23 + baked potato + mixed salad, 60 → ≤ 79 min; (d) vegetable soup SP06, 35 → ≤ 50 min; (e) Rouladen DM02 + red cabbage SD11 + potato dumplings SD07, 150 → ≤ 183 min; (f) roast pork DM06 + dumplings + red cabbage + gravy, 190 → ≤ 229 min; (g) lasagne IT05 + salad, 120 → ≤ 148 min; (h) mixed salad SA01, 15 → ≤ 27 min; (i) scrambled eggs BF03, 6 → ≤ 17 min. | Concrete yardsticks for V2. | M | A, T | B5 |
 | PERF-003 | From order "now" with the machine idle, the first process step shall start within 60 s. | No warm-up waiting. | M | T | drv |
 | PERF-004 | For scheduled meals, the first dish shall be at the hatch within −0/+5 min of the serving time in ≥ 90 % of meals. | Punctuality. | M | T | drv |
@@ -997,14 +1001,14 @@ All values est.; for the reference household / reference meal; energy as electri
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| RES-001 | Energy per reference meal including cleaning of everything it soiled and washing its dishes, excluding cold storage: ≤ 4.0 kWh (M), ≤ 2.8 kWh (S). | Manual equivalent: about 1–1.5 kWh cooking + 0.8–1.0 kWh dish washer; the machine adds a ware wash (≈ 1.3 kWh, `research/06`) and in-place cleaning. | M | T, A | drv |
-| RES-002 | Energy per day, reference household, everything included: ≤ 10 kWh (M), ≤ 7 kWh (S). | ≤ 3 650 kWh/year; running cost. | M | A, T | drv |
+| RES-001 | Energy per reference meal (2 persons) including cleaning of everything it soiled and washing its dishes, excluding cold storage: ≤ 3.0 kWh (M), ≤ 2.0 kWh (S); per sizing meal (6 persons) ≤ 4.5 kWh. | Cleaning dominates and hardly scales with persons; a ware wash ≈ 1.3 kWh (`research/06`). | M | T, A | drv, DEC-18 |
+| RES-002 | Energy per day, reference household, everything included: ≤ 7 kWh (M), ≤ 5 kWh (S). | ≤ 2 550 kWh/year; running cost. | M | A, T | drv, DEC-18 |
 | RES-003 | Idle power, excluding refrigeration compressors: ≤ 15 W (M), ≤ 8 W (S). | 8 760 h/year. | M | T | drv |
-| RES-004 | Cold storage energy for the capacity of CAP-021 and CAP-022: ≤ 1.8 kWh/day at 25 °C room temperature with the reference retrieval pattern (M); ≤ 1.2 kWh/day (S). | A household fridge plus freezer of class D/E, about one and a half times the usual volume (DEC-13), plus exit losses. | M | T | B4, DEC-13 |
-| RES-005 | Water per reference meal including all cleaning and washing its dishes: ≤ 45 L (M), ≤ 30 L (S). | Household dish washer ≈ 10 L per load; a ware wash ≈ 17–20 L (`research/06`); plus in-place cleaning and cooking water. | M | T, A | drv |
-| RES-006 | Water per day, reference household: ≤ 110 L (M), ≤ 70 L (S). | ≤ 40 m³/year. | M | A, T | drv |
+| RES-004 | Cold storage energy for the capacity of CAP-021 and CAP-022: ≤ 1.2 kWh/day at 25 °C room temperature with the reference retrieval pattern (M); ≤ 0.8 kWh/day (S). | Two cold cells of class D/E plus exit losses. | M | T | B4, DEC-18 |
+| RES-005 | Water per reference meal (2 persons) including all cleaning and washing its dishes: ≤ 35 L (M), ≤ 22 L (S); per sizing meal ≤ 55 L. | A ware wash ≈ 17–20 L (`research/06`); dishes, in-place cleaning and cooking water. | M | T, A | drv, DEC-18 |
+| RES-006 | Water per day, reference household: ≤ 75 L (M), ≤ 50 L (S). | ≤ 27 m³/year. | M | A, T | drv, DEC-18 |
 | RES-007 | Holiday mode: ≤ 1.5 kWh/day and ≤ 3 L/day averaged. | Only cold storage, control and stagnation flushing. | S | A | drv |
-| RES-008 | Detergent consumption: ≤ 60 g (or mL) per day at reference use (est.). | Running cost; CAP-040 store size ≤ 2 L. | S | A | drv |
+| RES-008 | Detergent consumption: ≤ 45 g (or mL) per day at reference use (est.). | Running cost; CAP-040 store size ≤ 2 L. | S | A | drv, DEC-18 |
 | RES-009 | Food loss caused by the machine (residues in packages, boxes, vessels, tools, on the way; excluding peel/trimmings and plate leftovers): ≤ 5 % of ingested mass. | Yield. | S | A, T | drv |
 
 ---
@@ -1157,7 +1161,7 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 | PHY-001 | Depth: no part of the closed machine shall extend more than 600 mm from the wall, including fronts, rear service space for pipes and cables, and wall unevenness allowance; handles and the hatch sill may add ≤ 30 mm. | Brief: 60 cm deep. | M | I | B12 |
 | PHY-002 | Height: 2 000–2 200 mm from the floor, including feet, plinth and any top ventilation parts; the design shall state its height and the minimum room height needed for installation. | Customer decision (was 2 000 mm in the brief). | M | I | B12, DEC-11 |
 | PHY-003 | Module widths shall be multiples of 150 mm, preferably 300, 450, 600, 900 or 1 200 mm; no module wider than 1 200 mm. | Kitchen grid; handling; fits between walls with standard fillers. | M | I | B12 |
-| PHY-004 | Total wall length of the MVC: ≤ 3 600 mm (M), straight or L-shaped. The larger-storage configuration (CAP-026) may use ≤ 4 200 mm. | Estimate: ambient and cool storage 0.6 m (≈ 168 positions per metre, `research/03`, 90 positions + empties), cold storage 1.2 m (one chilled and one frozen cell of 600 mm; the chilled cell must hold 50 positions, about 10 % more than an off-the-shelf 1 780 mm cell, e.g. by using the 2 200 mm height), process cell 1.2 m, washing 0.6 m, ingestion B within a front. | M | I | B12, B13, DEC-17 |
+| PHY-004 | Total wall length of the MVC: ≤ 3 600 mm (M), ≤ 3 300 mm (S), straight or L-shaped. The larger-storage configuration (CAP-026) may use ≤ 4 200 mm. | Estimate: ambient and cool storage ≈ 0.45 m (78 positions + reserve at ≈ 168 positions per metre, `research/03`); cold storage 1.2 m, because chilled (45) and frozen (20) still need two cells of 33–45 positions each — the 2-person household does not remove a cell; process cell 1.2 m; washing 0.6 m → ≈ 3.45 m. The S value of 3.3 m requires one more saving, e.g. ambient storage placed above or within another module, chilled and frozen in one 600 mm cell with ≥ 65 positions (2 200 mm height), or washing below the process cell. 3.0 m is not supported by the numbers. | M | I | B12, B13, DEC-17, DEC-18 |
 | PHY-005 | The system shall be installable in a straight line and, optionally, around one inside corner of 90° ("L"), left- or right-handed, with leg lengths free on the 150 mm grid (each leg ≥ 1 200 mm). | Brief. | M | R | B12 |
 | PHY-006 | Straight and L layouts shall use the same modules; only a corner element and transport parts may differ. | Modularity. | M | R | B11, B12 |
 | PHY-007 | In an L layout, ≥ 50 % of the corner cell (600 × 600 mm × height) shall be functionally used, and the transport system shall pass the corner. | Corners are the classic dead space. | S | A | B13 |
@@ -1269,27 +1273,27 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 
 | Mechanism / function | Per day | In 10 years |
 |----------------------|---------|-------------|
-| Ambient storage retrieve-and-return cycles | 35 | 128 000 |
-| Chilled storage retrieve-and-return cycles; thermal exit openings | 30; 60 | 110 000; 220 000 |
-| Frozen storage retrieve-and-return cycles; thermal exit openings | 6; 12 | 22 000; 44 000 |
-| Transport moves (boxes, vessels, tools, dishes, glasses) | 230 | 840 000 |
+| Ambient storage retrieve-and-return cycles | 30 | 110 000 |
+| Chilled storage retrieve-and-return cycles; thermal exit openings | 25; 50 | 91 000; 183 000 |
+| Frozen storage retrieve-and-return cycles; thermal exit openings | 5; 10 | 18 000; 37 000 |
+| Transport moves (boxes, vessels, tools, dishes, glasses) | 200 | 730 000 |
 | Box closure open/close (all boxes; per box ≤ 5 000) | 170 | 620 000 |
-| Dosing operations | 60 | 220 000 |
-| Tool changes | 30 | 110 000 |
-| Cutting and peeling operating time | 12 min | 730 h |
-| Mixing, kneading, stirring operating time | 2 h | 7 300 h |
-| Cooking positions on-time (sum); baking cavity on-time | 3 h; 0.7 h | 11 000 h; 2 600 h |
-| Internal ware wash cycles | 3 | 11 000 |
-| Dish-set wash cycles | 2 | 7 300 |
+| Dosing operations | 50 | 183 000 |
+| Tool changes | 25 | 91 000 |
+| Cutting and peeling operating time | 8 min | 490 h |
+| Mixing, kneading, stirring operating time | 1.5 h | 5 500 h |
+| Cooking positions on-time (sum); baking cavity on-time | 2 h; 0.5 h | 7 300 h; 1 800 h |
+| Internal ware wash cycles | 2.5 | 9 100 |
+| Dish-set wash cycles | 1.5 | 5 500 |
 | In-place cleaning cycles; valve operations | 1.5; 40 | 5 500; 146 000 |
-| Serving hatch door cycles (meals, drinks, dish returns) | 15 | 55 000 |
-| Dish handling (store → plate → hatch, hatch → store) | 20 | 73 000 |
+| Serving hatch door cycles (meals, drinks, dish returns) | 10 | 37 000 |
+| Dish handling (store → plate → hatch, hatch → store) | 12 | 44 000 |
 | Wash cycles per vessel or tool | up to 2 | 7 300 |
 | Wash cycles per box | — | ≤ 1 000 |
-| Ingestion: items | 9 (60 per week) | 31 000 |
+| Ingestion: items | 6 (40 per week incl. guest shops) | 22 000 |
 
 Note: household dish washers are typically designed for about 280 cycles per year; an off-the-shelf unit
-used for internal ware at 3 cycles per day is a declared LRU under REL-004 or needs a commercial-grade unit.
+used for internal ware at 2–3 cycles per day is a declared LRU under REL-004 or needs a commercial-grade unit.
 
 ---
 
@@ -1413,7 +1417,7 @@ be confirmed by a regulatory expert (OQ-15).
 | AS-09 | Food is bought in European supermarkets, packaged as described in `research/07-ingestion-packaging.md`. |
 | AS-10 | "Traditional meals" as defined in MEAL-001. |
 | AS-11 | The machine owns a defined dish set including glasses and cutlery (SRV-016); it washes, stores and dispenses it (DEC-6). Household crockery outside the set is not handled. |
-| AS-12 | Reference household: 4 persons, 2 warm meals per day from the machine. |
+| AS-12 | Reference household: 2 persons, 2 warm meals per day; guests up to 6 persons occasionally (DEC-18). |
 | AS-13 | One-off prototype for private use; designed to the standards named, not formally certified. |
 | AS-14 | Heated indoor room, domestic floor, water hardness up to 25 °dH. |
 | AS-15 | The human carries waste from the machine's containers to the household bins. |
@@ -1447,14 +1451,14 @@ where the last column says so.
 | OQ-01 | *Closed by DEC-1:* a three-phase cooker connection (400 V 3N~, 3 × 16 A) is available. | UTL-010; power management still required (UTL-011). | Single-circuit fallback: UTL-012 (C). |
 | OQ-02 | Is a ducted exhaust to the outside available? | No: recirculation with grease separation, odour filter and steam condensation (ENV-010, -011). | Yes: ENV-014. |
 | OQ-03 | *Closed by DEC-6:* used dishes are returned at the serving hatch; the machine washes, dries, stores and dispenses its own dishes. | WSH-001 to -003, SRV-014 to -016, -027, HUM-002. | — |
-| OQ-04 | *Closed by DEC-10:* 1–6 persons per meal. | CAP-001; reference household 4 persons × 2 warm meals/day. | — |
+| OQ-04 | *Closed by DEC-10:* 1–6 persons per meal. | CAP-001; reference household 2 persons × 2 warm meals/day (DEC-18). | — |
 | OQ-05 | The brief says every package is cut open at ingestion. The project ruling DEC-3 (pending customer objection) adds the STOW lane: tins, jars, cartons, tubs, vacuum packs are stored sealed and opened just in time. Does the customer object? | Two lanes, DECANT and STOW (ING-018). | If decant-only were required: CAP-010's 14- and 21-day autonomy would no longer apply to those products. |
 | OQ-06 | *Closed by DEC-7:* ingestion A minimum one by one, jumbled pile as target. | INA-001. | — |
 | OQ-07 | *Closed by DEC-8 and DEC-9:* only products pre-processed by cutting and portioning, peeled onions as baseline, no industrial or semi-finished ingredients. | MEAL-009, MEAL-012, section 5.6. | Onion peeler as upgrade (UO-12). |
 | OQ-08 | Is wiping the exterior fronts by the human acceptable? | Yes (AS-08). | — |
 | OQ-09 | Is it acceptable that the human empties waste containers about twice a week and refills consumables about monthly (section 7.8)? | Yes. | — |
 | OQ-10 | Cost target for the parts. | ≤ EUR 25 000 for the MVC (BLD-004). | — |
-| OQ-11 | Available wall length and corner geometry in the target kitchen. | Straight ≤ 3 600 mm for the MVC (≤ 4 200 mm with larger storage), or L with legs ≥ 1 200 mm (PHY-004, PHY-005). | — |
+| OQ-11 | Available wall length and corner geometry in the target kitchen. | Straight ≤ 3 600 mm for the MVC (target ≤ 3 300 mm; ≤ 4 200 mm with larger storage), or L with legs ≥ 1 200 mm (PHY-004, PHY-005). | — |
 | OQ-12 | Which cuisine defines "traditional meals"? | Central European home cooking plus established international everyday dishes (MEAL-001). | — |
 | OQ-13 | *Closed by DEC-6:* the machine uses its own dish set. | SRV-016, AS-11. | — |
 | OQ-14 | *Closed by DEC-12:* leftovers are discarded; stored if that is easy. | SRV-021. | — |
@@ -1484,6 +1488,7 @@ where the last column says so.
 | DEC-11 (customer) | Height 2 000–2 200 mm; depth 600 mm. | PHY-002, PHY-012 |
 | DEC-12 (customer) | Leftovers discarded; stored if easy. | SRV-021, OQ-14 |
 | DEC-13 (customer) | The machine is the only fridge and pantry; it serves simple drinks and snacks. | CAP-012, CAP-021, CAP-022, CAP-025, CAP-026, SRV-022, SRV-024 to -026, UC-19, UI-009, PHY-004, REL-004 table, NG-01, OQ-20 |
+| DEC-18 (customer) | Regular household 2 persons; up to 6 occasionally with guests; storage, autonomy, daily and lifetime figures sized for 2; guest meals supplied by a shop shortly before. | Reference household and reference meal (1.4), CAP-002, CAP-010, CAP-012, CAP-013, CAP-020 to -025, CAP-041, ING-022, PERF-001, RES-001 to -008, REL-004 table, PHY-004, AS-12, OQ-11 |
 | DEC-17 (customer + ruling) | A separate ordinary fridge is allowed; the machine's cold storage is sized for cooking ingredients; MVC ≤ 3.6 m, larger storage ≤ 4.2 m as option; drink pouring kept for drinks the machine stores. | Section 6.2 derivation, CAP-002, CAP-012, CAP-020 to -026, PHY-004, SRV-022, SRV-024, REL-003, REL-004 table, NG-13, OQ-11, OQ-20 |
 | DEC-16 (customer) | Clarifies DEC-13: breakfast goods and snacks are stored outside and not served; chilled items stay in the machine. | CAP-012, CAP-020, CAP-024, CAP-025, PHY-004, UC-19 (drinks only), SRV-023 deleted, NG-13, OQ-11, OQ-16, OQ-20 |
 | DEC-14 (customer) | Tacos and wraps may be served as components. | MEAL-020, OQ-22 |
