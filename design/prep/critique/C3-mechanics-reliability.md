@@ -21,9 +21,12 @@ grippers, house standard) and R4 (forces, torques, end-effectors). Hygiene is C2
 where it becomes a mechanical or reliability problem (condensation, corrosion, seal wear). Coverage and food
 result are another critic's dimension; I use the concepts' own coverage figures without judging them.
 
-Requirements changed after the concepts were written (commit 30d3b47): PHY-002 now allows 2 000–2 200 mm
-(DEC-11), PHY-004 allows 4 800 mm for the whole MVC and budgets **about 1.2 m for the process cell**, and
-MEAL-012 no longer permits cut, cored or trimmed vegetables (DEC-8). I judge against the current text.
+Requirements changed after the concepts were written and are still changing while this critique is written:
+PHY-002 now allows 2 000–2 200 mm (DEC-11); PHY-004 allows **3 600 mm for the whole MVC and budgets 1.2 m for
+the process cell plus 0.6 m for washing** (DEC-17); MEAL-012 no longer permits cut, cored or trimmed vegetables
+(DEC-8); the reference household is 2 persons and a meal serves **at most 4** (DEC-18, DEC-19), so REL-003
+falls to about 7 300 meal runs. The concepts were sized for 6 persons; where that matters below I say so. I
+judge against the current text.
 
 ---
 
@@ -31,14 +34,14 @@ MEAL-012 no longer permits cut, cored or trimmed vegetables (DEC-8). I judge aga
 
 | | Score (1–10) | Fatal as drawn | Major | One-line verdict |
 |---|---|---|---|---|
-| K1 ceiling turret | **3** | 2 (fixable) | 8 | Three 5-axis hands that cannot meet each other; the geometry forces 175 moves per meal and the dearest cell |
-| K2 vessel stack | **4.5** | 1 (fixable) | 7 | Strong sensing and inversion, but one carriage carries everything, a dropped pot needs a human, and hot tiers are stacked to 2 m |
+| K1 ceiling turret | **3** | 2 (fixable) | 6 | Three 5-axis hands that cannot meet each other; the geometry forces 175 moves per meal and the dearest cell |
+| K2 vessel stack | **4.5** | 1 (fixable) | 6 | Strong sensing and inversion, but one carriage carries everything, a dropped pot needs a human, and hot tiers are stacked to 2 m |
 | K3 drum and belt | **3.5** | 0 | 8 | "No manipulator" hides two (a 5-axis vessel shuttle and a tool-changing arm); 35 actuators and 19 dynamic seals |
-| K4 shuttle mat | **3.5** | 1 (fixable) | 7 | A 470 mm cantilevered bar on a 28 mm thin arm cannot keep a mat tracking; zero margin in depth; mats are consumables |
-| K5 ram and die | **5** | 3 (fixable) | 5 | The right principle for cutting, drawn with an open C-frame, a 4× force error in the frying book and dies that cost 3× more |
+| K4 shuttle mat | **3.5** | 1 (fixable) | 5 | A 470 mm cantilevered bar on a 28 mm thin arm cannot keep a mat tracking; zero margin in depth; mats are consumables |
+| K5 ram and die | **5** | 3 (fixable) | 3 | The right principle for cutting, drawn with an open C-frame, a 4× force error in the frying book and dies that cost 3× more |
 | K6 loose ware | **6** | 1 (fixable) | 6 | Fewest physical unknowns and the best interfaces, but the widest cell, 100–145 grips per meal and a mast that collides with its own press |
-| K7 state change | **4** | 0 | 7 | Sound refrigeration physics; the most loose parts (132), the highest cost, and a 45 Hz knife on a loose coupling |
-| K8 sealed tub | **6** | 1 (fixable) | 5 | Fewest actuators, no dynamic seal, all drives serviceable from the room, cheapest; everything hangs on unmeasured magnet and friction figures and on a 45 kg door that has no opening path |
+| K7 state change | **4** | 0 | 5 | Sound refrigeration physics; the most loose parts (132), the highest cost, and a 45 Hz knife on a loose coupling |
+| K8 sealed tub | **6** | 1 (fixable) | 4 | Fewest actuators, no dynamic seal, all drives serviceable from the room, cheapest; everything hangs on unmeasured magnet and friction figures and on a 45 kg door that has no opening path |
 
 No concept is robust enough as drawn. The two best (K6, K8) are best for opposite reasons: K6 because every
 mechanism exists somewhere in catering, K8 because it has the fewest things that can wear. The worst (K1, K3,
@@ -55,8 +58,9 @@ K4) are those whose defining idea generated the most hidden actuators or the lea
   rims, stubs on bought pots; welded cells and tubs), several also on wire-EDM, deep drawing, metal spinning,
   tri-ply welding or refrigerant brazing. BLD-002 must be amended (ordered TIG and laser welding, EDM and
   electropolishing as services) or every concept fails it.
-* **X3 Width.** PHY-004 budgets about 1.2 m for the process cell. Normalised to the same scope (preparation,
-  four heated positions, oven, clean-ware store and ware-washing capacity), the concepts need **1.75–3.1 m**.
+* **X3 Width.** PHY-004 (MVC ≤ 3.6 m) budgets 1.2 m for the process cell and 0.6 m for washing. Normalised
+  to that scope (preparation, four heated positions, oven, clean-ware store and ware-washing capacity), the
+  concepts need **1.75–3.1 m against 1.8 m**. Only K8 (1.75 m) fits, K2 (1.6–1.9 m) nearly; the rest do not.
 
 ---
 
@@ -111,9 +115,11 @@ types (section 4) is therefore a better buildability measure than the number of 
 | K7 | 2 280 | prep, 4 hobs, oven, slot washer | chamber share for 12–15 bulky items | 2.4–2.6 m |
 | K8 | 1 750 | prep, 4 hobs, oven, washing of all its own ware | — | 1.75 m |
 
-None fits the 1.2 m that PHY-004 now budgets. K2, K3, K4 and K8 are narrow because they stack (K2 hot tiers
-over the oven, K3 hob shelves under the belt, K4 the oven above the hobs, K8 the washer is the cell); stacking
-is what creates their thermal problems (X5).
+PHY-004 now budgets 1.2 m for the process cell plus 0.6 m for washing, 1.8 m together. Only K8 fits, K2
+nearly; K3 and K4 are 0.2–0.4 m over, K5, K7 and K6 0.5–0.8 m, K1 more than 1 m. K2, K3, K4 and K8 are narrow
+because they stack (K2 hot tiers over the oven, K3 hob shelves under the belt, K4 the oven above the hobs, K8
+the washer is the cell); stacking is what creates their thermal problems (X5). DEC-19 (at most 4 persons)
+shrinks the vessel set (no 9 L pot, 28 cm pans at most) but does not shorten any of the width-setting bays.
 
 DEC-11 (2 200 mm) helps exactly three concepts mechanically: K1 (the Z stroke had 5 mm of margin, [D K1 2.3]),
 K2 (the ware rack that holds only 60 % of the ware, [D K2 12.1-1]) and K7 (quill retraction). It does not help
@@ -155,8 +161,9 @@ Two conclusions follow, and they apply to every concept:
    tool changes per meal) and a magnetic friction drive whose failure is a fall (K8) are one to two orders of
    magnitude short until a rig proves otherwise.
 
-The cycle counts of REL-003 add a wear dimension: 245 grips a day (K6's own figure [D K6 7.3]) are 0.9 million
-in ten years; a bayonet or chuck at that count is an LRU, as K6 states honestly.
+The cycle counts of REL-003 add a wear dimension: 245 grips a day (K6's own figure for 4 persons [D K6 7.3],
+perhaps 170 for the 2-person household of DEC-18 [E]) are 0.6–0.9 million in ten years; a bayonet or chuck at
+that count is an LRU, as K6 states honestly.
 
 ### X5 — Heat, steam, condensation and corrosion
 
@@ -330,3 +337,225 @@ carriages in sealed tubes have no penetration.
 What K4 does well: rotary shafts only, no slot or linear seal through a wall; a flat, uniform mat under a
 top camera is the best vision background of all eight; mats are changed by the householder in 2 minutes
 without tools.
+
+### K5 — Ram-and-die column
+
+| # | Finding | Severity | Fixable? |
+|---|---|---|---|
+| K5-1 | **The "closed frame" is an open C-frame.** Deck and ceiling plates are joined by two Ø 40 tie columns at the *rear* corners of bay A [D K5 2.1]; PRESS is the *front* seat of the turret (Ø 230 pitch circle about an axis near the bay centre), about 300 mm in front of the columns [C, from the top view]. At 8 kN: 2.4 kNm, 1.2 kNm per column, **σ ≈ 190 MPa** (W = 6 283 mm³), rotation ≈ 0.03 rad (1.7°) over 600 mm, **≈ 9 mm of opening** at the ram [C]; plate bending comes on top. Welded column-to-plate joints fail in fatigue at this stress range within 10⁵ strokes. The ≈ 35 J stored in the frame is released when produce breaks through the grid: a snap, an impact noise (NOI-003 L_AFmax 75) and a comb piston thrown into the grid | fatal as drawn | yes: two columns flanking PRESS left and right at ≥ 205 mm from the turret axis (clear of the tubes), which also frees the rear for the shuttle (K5-3) |
+| K5-2 | **Grid dies are overstressed and under-priced.** At 8 kN a two-tier Ø 140 grid with 1 mm × 9 mm blades spanning 140 mm loads each of ~28 blades with ~290 N: σ ≈ 370 MPa and lateral buckling [C]; blades must be ~20 mm tall or 1.5 mm thick (which raises the cutting force). A monobloc grid wire-eroded from 20–25 mm plate is 8–30 h of EDM with tapered cuts for the edges [E]: 800–2 000 € per grid, not 250–400 € [D K5 7]. Seventeen dies then cost 6–12 k€, not 2.6 k€. Monobloc grids cannot be resharpened (PRP-034 only by exchange) | major | partly: lower the force rule (single layer, smaller bore), buy commercial push-dicer grids and adapt the rim |
+| K5-3 | **The shuttle arm collides with the frame.** The shuttle's Ø 60 arm hangs vertically through a downward-facing slot and travels X 1 250 mm "from the drop position to 250 mm inside the oven mouth" along the rear [D K5 2.4]. To reach the drop position under the carousel in bay A it must pass the tie column at the rear right corner of bay A, which spans z 880–1 480 exactly in its path | fatal as drawn | yes: the column move of K5-1 cures both |
+| K5-4 | **Frying book force is 4.4× too small.** "60 Nm, which is 2 kN at the centre of the leaf" [D K5 2.3]: the leaf centre is 132 mm from the hinge (GN 1/2, 265 mm), so 60 Nm gives **450 N** [C]. Flattening cutlets and pressing dough (the book is the concept's flat bench) need 1–6 kN; 2 kN needs 265 Nm per leaf, i.e. larger worm drives on the two lip seals that the explorer already calls the weakest of the concept (in the hinge trough beside frying fat) | fatal as drawn | yes: bigger drives, or move pressing to the ram |
+| K5-5 | **Shear-gate moves and the loose die carousel.** A loaded tube slid from one window to the next over a flat plate [D K5 2.1] is a knife-edge wiping a plate: it wears the UHMW lip ring and smears. Loose dies on 4 mm ledges under 8 kN fret | minor | yes: restrict to stiff masses, as the explorer does |
+| K5-6 | **Width 1 770 mm, 25 actuators, 96 loose parts**: the column's own simplicity (7 actuators) does not survive the cell [D K5 12.1-13] | major | no |
+| K5-7 | Cost 20–22 k€; with realistic dies, safety chain and ware washing 33–38 k€ | major | partly |
+
+What K5 does well: force goes where it can be measured (ram force-travel signature per stroke detects a
+jam, a dull blade and a mis-seat before damage); the ram acts inside a closed tube, which is inherently
+guarded; the bore camera looks into a controlled scene; the frying book is the safest hot-fat flip of the
+eight (guided, gasketed, fixed hinge) once its drives are right.
+
+### K6 — Loose ware and fast washer
+
+| # | Finding | Severity | Fixable? |
+|---|---|---|---|
+| K6-1 | **The hanging mast cannot cross its own press bench.** The mast (60 × 120, fixed length, foot at z 1 000) hangs from the rear and passes "above the rear hob row" [D K6 1.2, 2.4]; the B2 press has two Ø 30 bars 230 mm above the plate, i.e. at z ≈ 1 080, "carried by the rear wall and a front post" [D K6 2.3]. Bars that run from the rear wall to the front cross every Y position the mast can occupy, 80 mm above its foot. The mast can therefore never travel from the dock and sink side (x < 645) to the hob and wells side (x > 990). Lowering the bars is impossible (tube Ø 110 × 200 plus piston); raising the mast foot loses the deck | fatal as drawn | yes: put the press at one end of the travel (beyond the wells), or make the bars a cassette that the chuck sets in place |
+| K6-2 | **The tang on a thin GN flange carries too much moment.** A GN 2/3 tray is held by one 6 × 32 mm tang at the middle of a long side [D K6 2.2]; a 3 L tray with 3 kg of food is 4 kg at 162 mm: **6.4 Nm into a 0.8–1.0 mm flange** [C]. The plastic moment of a 60 mm effective strip of 1 mm 1.4301 is about 3–4 Nm [C]: the rim yields at the tang. A rim-to-rim pair held only at one side gapes more than the "≤ 1 mm" assumed [D K6 2.2] | major | yes: tang on a welded spine along the rim (more weld, more crevice) or carry trays level on a fork |
+| K6-3 | **Mast stiffness and settling.** A 950 mm hanging cantilever with a slot for its sealing band is an open section; a 70 N draw cut at the end of the 440 mm Y arm is ≈ 31 Nm of torsion on it [C]. A bought covered linear module used as a free cantilever will twist; with a closed inner tube the first bending mode is ~20–30 Hz [C], acceptable, but every X move at 3 m/s² has a settling time | major | yes: closed torsion tube inside the mast, lower acceleration |
+| K6-4 | **Handling count**: 100 grips per meal with returns, 130–145 for full menus [D K6 5.13]; normalised with dosing ≈ 115 events: p ≤ 9 × 10⁻⁵. The explorer states this honestly and makes the tang a form-fit grip with jaw-position and motor-current checks, which is the right answer; it still has to be proven on the proposed 10 000-cycle rig | major | partly (rig) |
+| K6-5 | **Open hot wells in the manipulator bay.** One well is always open as wet parking; 60 °C tank liquor at pH 12–13 and 85 °C rinse steam condense on the mast, arm and camera windows (X5) | major | yes: lids closed except during a hang, extraction over the wells |
+| K6-6 | **Washer noise** 52–56 dB(A) for 25–30 min against 48 [D K6 7.1]; **width 2.6 m**, the widest | major | noise yes (double wall); width no |
+| K6-7 | Cost 21.9 k€ incl. oven and washer; 93 welded items; re-estimate 28–31 k€ | major | no |
+
+What K6 does well: the best interfaces of all eight (one tang with pins through holes: form fit, no latch,
+no bayonet, detected by jaw position); nothing novel in physics; redundancy where it is cheap (two wash
+wells); every jam point reachable through the front door; a Cartesian gantry, the most robust manipulator per
+euro that R8 lists.
+
+### K7 — State change and rigid handling
+
+| # | Finding | Severity | Fixable? |
+|---|---|---|---|
+| K7-1 | **A 45 Hz knife on a loose coupling.** The bow knife is a loose C-bow mounted by the gantry onto a rod that reciprocates ±6 mm at 45 Hz through a welded bellows [D K7 2.2]. Acceleration ≈ 48 g [C]; a 0.3–0.5 kg bow needs 150–240 N of alternating force through a joint that must also be releasable: it hammers, wears, rattles and is loud. The bellows sees 45 Hz × a few minutes a day = 10⁷–10⁸ cycles over the design life; welded metal bellows at ±6 mm are rated far lower [E] | major | yes: fixed counter-balanced twin blades (as K3-4) with a drive that stays in place; blade exchange as an LRU |
+| K7-2 | **R290 in the base under an oven and induction generators.** A 150 g charge in a ventilated base is standard in a fridge; here the base also holds 11 kW of induction electronics and contactors, and the oven above has a grill element whose surface exceeds the 470 °C auto-ignition of propane [E]. Brazing and charging need a certified technician (X2) | major | yes: bought pre-charged unit, R600a or a sealed unit with its own ventilated compartment, no ignition sources in the leak path |
+| K7-3 | **The rigid-body idea did not simplify the machine.** 24 actuators, 105 loose preparation items plus 27 cookware (132, the most), 120 moves per meal, 2.28 m, 32 k€ [D K7 8]. The state change itself costs only 2 actuators and the refrigeration set; everything else is a conventional kitchen that K7 still needs | major | no |
+| K7-4 | **Contact coefficient depends on flat thin trays.** h = 300 W/m²K needs the 0.6 mm trays to follow 0.2 mm of waviness under 2 kPa [D K7 3.1]. Trays of 0.6 mm ferritic steel that are induction-flashed (1.5 s), washed at 85 °C and carried by a welded 40 × 45 × 3 tab distort; halving h doubles every clamp time [D K7 3.1] | major | partly: thicker trays (less rigid-state benefit per kJ), flatness check in the slot washer |
+| K7-5 | **Keep-clear rules make the gantry a scheduling problem**: T1 must be empty of anything above 40 mm when a tray enters the oven, the bow knife must be dismounted before anything crosses from sink to hob, the braiser on P3 overlaps P1 [D K7 2.4]. Each rule is a collision if the software gets it wrong | minor | yes: layout |
+| K7-6 | Gantry: a cantilevered Y module 550 mm from a belt module on the rear wall carries ~16 kg at the quill: ~90 Nm on the X carriage [C]. Plain igus ZLW modules are rated for 300 N radial and low moments [R8 2.3]; a profile-rail module is needed | minor | yes: cost |
+| K7-7 | Cost 32 k€ incl. oven; re-estimate 37–41 k€ | major | no |
+
+What K7 does well: the thermal physics is checked properly (enthalpy model, handling windows [D K7 3]); fixed
+evaporator plates with loose aluminium slabs as a thermal store remove every moving refrigerant line — a
+genuinely good mechanism; the under-deck pull-down press on two rods in pure tension (σ ≈ 5 MPa per Ø 20 rod
+[C]) with a symmetric crosshead is **the soundest press structure of all eight**; rigid items make grasping
+more reliable.
+
+### K8 — Sealed tub with magnetic pucks
+
+The explorer's magnetic model is careful; my rough magnetic-circuit estimate gives about 500 N of clamp at the
+4 mm gap [C: B ≈ 0.55–0.6 T in the gap after leakage, 20 poles of 196 mm²], close to the design value of
+610 N. The force numbers are therefore plausible; they are also the concept's single point of truth and are
+unmeasured.
+
+| # | Finding | Severity | Fixable? |
+|---|---|---|---|
+| K8-1 | **The drive door has no opening path inside the envelope.** The front door (1 100 × 700 × 115 mm) carries the skin, two X bridges, two Z carriages, two heads with 20 magnets each and their drives: 40–50 kg [E]. Its hinge is not specified. Side-hinged it sweeps 1 100 mm into the room, bottom-hinged about 815 mm at 900 mm height, both against PHY-010 (≤ 600 mm); top-hinged it would reach about 2 400 mm, above PHY-002's 2 200. MNT-005 needs the door opened for every jam | fatal as drawn | yes, by a ruling on PHY-010 for a service-only door, or a tub no taller than about 480 mm, or a lift-and-slide door with counterbalance |
+| K8-2 | **Drives in a hot, closed door.** Steppers, BLDC servos, belts, Hall sensors and electronics sit in a 115 mm cassette behind a 1.5 mm skin that reaches 85 °C in the wash and faces four induction positions; the décor panel must stay ≤ 50 °C (SAF-021), so the cassette must be insulated from the room and ventilated from somewhere (noise). The explorer lists it as risk 12 | major | yes: forced ventilation of the door cassette, electronics outside the door |
+| K8-3 | **Tribology of the wall.** 610 N per puck is squeezed through the skin between four PEEK skids and three ball transfer units [D K8 2.3]. A 15–25 mm steel ball at ~200 N on 1.5 mm austenitic sheet gives Hertz stresses of 1–1.5 GPa [C], far above yield: the dry face will be tracked and dented over 10⁵ passes, and the gap budget (± 0.5 mm) drifts. PEEK skids at PV ≈ 1–2.5 MPa·m/s wear 1–5 mm over the design life [C, k ≈ 10⁻⁶ mm³/Nm] against a wet clearance of 1.2 mm; grit (salt, sugar, bone chips) scores the wet face | major | yes: PTFE or UHMW glide pads instead of balls on the dry side; skids as dated wear parts on the puck (they are ware anyway) |
+| K8-4 | **Every force path sits at its limit.** 110 N moving, 20 Nm tilt, 12 Nm rotor [D K8 2.1]; a 100 N push cut at 200 mm is "at the limit"; a decoupling during a hot-fat flip drops puck and pan pair; a falling 1.1 kg puck delivers 4.3 J to the glass-ceramic [D K8 2.1]. The concept's margins are those of a magnetic sensor-actuator, not of a machine | major | partly: the Hall lag loop yields before breakaway, which is the right design; the margin itself cannot be bought without clamp force |
+| K8-5 | **Jets drumming on the room-facing skin.** The 1.5 mm skin is the front wall; the wash jets and the spray balls hit it for 25 min after every warm meal [D K8 7], against NOI-002 (48 dB(A)) | major | yes: constrained-layer damping on the dry side of the skin (without changing the magnet gap) |
+| K8-6 | **Cell blocked 25–35 min after a meal**; two pucks and two bridges cannot pass each other [D K8 9] | minor | scheduling |
+| K8-7 | **Tub weldment under-priced.** A 1 100 × 475 × 700 coved, polished tub with a flush glass-ceramic plate, two deep-drawn welded thimbles and a door skin flat to ± 0.5 mm over 150 mm for 3.0 k€ [D K8 7] is optimistic; 5–6 k€ one-off [E] | minor | — |
+
+What K8 does well: **zero dynamic seals** and no drive, cable or bearing inside the food space; every actuator
+is serviceable from the room behind a décor panel (the best MNT-001 case of all eight); the magnet coupling is
+a torque limiter (a pole slip is harmless) and a free force and torque sensor (Hall lag); canned radial
+couplings through welded thimbles are known practice in magnetic-drive pumps and mixers; torque-to-thrust
+screw cassettes put 2.5 kN inside ware without a penetration; the cheapest cell, and the decisive experiments
+cost under 1 000 € [D K8 12].
+
+---
+
+## 4. Normalised comparison
+
+Definitions. **Width** as stated, and normalised to the same scope (X3). **Actuators**: motion actuators as
+stated; normalised = without the common front end (dock and egg module) and without the oven door, so that
+the cells are compared on their own mechanics. **Custom part types**: machine assemblies plus ware and tool
+types made to drawing. **Loose parts**: everything that is picked up, including cookware. **Events per
+meal**: handling events of X4 for a 4-person reference meal [E]. **p required**: unrecovered failures per
+event allowed if handling gets half of the REL-001 budget (0.01 / events). **Cost**: stated scope, and
+re-estimated with oven, ware-washing capacity, safety chain, realistic custom stainless and 15 % contingency
+(X1). **Skills**: distinct canned skills; in brackets those that need closed-loop vision on deformable food
+(X8).
+
+| | K1 | K2 | K3 | K4 | K5 | K6 | K7 | K8 |
+|---|---|---|---|---|---|---|---|---|
+| Width stated, mm | 2 270 | 1 600 | 1 450 | 1 560 | 1 770 | 2 595 | 2 280 | 1 750 |
+| Width normalised, m (budget 1.8) | 2.9–3.2 | 1.6–1.9 | 2.0–2.1 | 2.1–2.2 | 2.3–2.4 | 2.6 | 2.4–2.6 | **1.75** |
+| Motion actuators stated | 17 (+3) | 21 | 35 | 26 | 25 | 16 | 24 | 16 |
+| Actuators normalised (cell only) | 17 | 15 | 25 | 20 | 16 | 12 | 17 | **13** |
+| Of which in hidden manipulators | 15 (3 turrets) | 6 (Wender) | 8 (shuttle 5, arm 3) | 6 (arms B, C) | 5 (shuttle) | 6 (gantry) | 5 (gantry) | 8 (2 heads) |
+| Dynamic seals and bands in the splash zone | 13 | 8 | 19 | 22 | ~10 | 7 | 7 + bellows | **0** |
+| Custom part types | ~86 | ~67 | ~65 | ~48 | ~39 (+ dies) | ~85 | ~52 | ~45 |
+| Loose parts | ~110 | 76 | 46 | ~41 (+5 mats) | ~96 | 93 | **132** | ~70 |
+| Moves per meal as stated | 175 | 48 | 36 | 35 (+300–900 strokes) | 34 | 69 (100 with returns) | 80 (120 with washing) | 65 (+40 washing) |
+| Handling events per meal, normalised [E] | ~190 | ~90 | ~85 | ~95 | ~90 | ~115 | ~145 | ~120 |
+| p required per event | 5 × 10⁻⁵ | 1.1 × 10⁻⁴ | 1.2 × 10⁻⁴ | 1.1 × 10⁻⁴ | 1.1 × 10⁻⁴ | 9 × 10⁻⁵ | 7 × 10⁻⁵ | 8 × 10⁻⁵ |
+| Grip interface in soil | bayonet, stub (weak) | neck jaws + load pins (strong) | tang socket + latch | EPM dovetail | lug fork | tang pins (strong) | tab + cone pin (strong) | bayonet on puck + magnet |
+| Recovery from a dropped vessel | tongs, often human | **none: human** | human | human (hot fat) | human for a toppled pot | from above if tang reachable | tongs | other puck lifts it |
+| Cost stated, k€ (scope) | 27.5 (no oven, no washer) | 24 (all) | 20 (no oven, no washer) | 16 (no oven, no washer) | 20–22 (no washer) | 21.9 (all) | 32 (no chamber share) | 14 (no oven, no dock) |
+| Cost re-estimated, k€ [E] | **40–45** | 32–37 | 29–33 | 25–29 | 33–38 | 28–31 | 37–41 | **24–28** |
+| Skills (vision on deformable food) | ~38 (12) | ~25 (5) | ~30 (6) | ~30 (6) | ~22 (4) | ~45 (10) | ~35 (8) | ~35 (10) |
+| MTBF, unplanned part exchanges (X10) [E] | ~3 months | ~4 months | ~2 months | ~2.6 months | ~3 months | ~3 months | ~3.5 months | **~20 months** |
+| Loudest source vs NOI | wash-down on 5 m² steel > 48 | rasp 70–75 at source; lathe 54 min | rumbler + chop + spin > 5 min loud | blade landings 3/s | grid crack, frame snap (L_AFmax) | washer 52–56 for 25–30 min | 45 Hz knife + rasp near 5 min | jets drumming on the room-facing skin |
+
+Two readings of the table:
+
+* **Per actuator and per seal, K8 and K6 are the simplest cells; K3 and K4 the most complex.** K5 and K2 are in
+  between, and their complexity is concentrated in one heavily loaded station (press, Wender), which is good
+  for maintenance and bad for single-point failure.
+* **Per event, all concepts need 5 × 10⁻⁵ to 1.2 × 10⁻⁴.** The spread is only a factor of 2.4; the grip
+  interface and the recovery path matter more than the count. K2, K5, K6 and K7 have form-fit grips on
+  fixtured parts; K1's bayonets and K4's magnet shoe are the weakest interfaces.
+
+---
+
+## 5. Scores and justification
+
+| | Score | Justification |
+|---|---|---|
+| **K6** | **6** | Every mechanism exists in catering or in a hardware store; the tang with pins is the best grip interface; a Cartesian gantry is the most robust manipulator per euro; failures are recoverable from the front door. Against it: 2.6 m, a mast that collides with its press (fixable), a tang that overloads thin GN rims, the highest grip count per meal of the robust concepts, washer noise. It is the concept with the fewest unknowns and the most logistics. |
+| **K8** | **6** | Fewest actuators, zero dynamic seals, all drives in the room-side door (best serviceability), torque limiting and force sensing built into the coupling, cheapest and the only concept inside the 1.8 m budget. Against it: all margins are magnetic and unmeasured, the drive door has no legal opening path as drawn, its drives live in a hot box, the wall is a wear surface, and a decoupling is a fall. It is the best cost–robustness bet if a 1 000 € rig confirms the magnet and friction figures. |
+| **K5** | **5** | The right principle for cutting, ricing and forming, with the best process sensing (ram signature) and the safest flipper (book). Three drawing errors are fatal as drawn and all fixable: C-frame instead of a closed frame, shuttle through a tie column, book torque 4.4× too low. Dies cost 3× the estimate. |
+| **K2** | **4.5** | Excellent sensing (load pins in the jaws), few events, one strong grip feature. But everything goes through one carriage with no recovery from a drop, the press frame is two cantilevered Ø 30 columns, hot tiers are stacked to 2 m with hot-fat flips at head height, the rim has no centring, and its custom tri-ply cans are metallurgically hard to make. |
+| **K7** | **4** | Honest thermodynamics and two excellent mechanisms (plate stack with loose slabs; under-deck press in pure tension). But the state change adds cost and 132 loose parts without removing any conventional mechanism; the bow knife is a 45 Hz hammer on a loose coupling; R290 sits under an oven; the dearest after K1. |
+| **K3** | **3.5** | Elegant fixed-point drum pour, but two hidden manipulators, 35 actuators, 19 dynamic seals (MTBF ~2 months), a hard-mounted 35 kg spinning drum on the building wall, a nose that cannot hold a 0.5 mm blade gap, a 40 Hz guillotine, three single points of failure. |
+| **K4** | **3.5** | Rotary-only penetrations and the best vision background, but the defining 400 mm mat on a 470 mm cantilever hangs from links 28 mm thick and will not track; the depth stack has zero margin and ignores the installation allowance; the mat is a consumable over budget; the oven hangs at head height. |
+| **K1** | **3** | Clean retraction safety and stiff rods, but 15 servo axes buy three hands that cannot meet; 175 moves per meal with bayonet tool changes in soil; the four hobs under T3 collide; the press hangs on two pegs in a 2 mm sheet; 30–40 kg turret LRUs at 1.4–2 m height; the dearest cell (40–45 k€) and the widest after normalisation. |
+
+---
+
+## 6. Which concepts are simpler, and which only moved the complexity
+
+| | Claim in the catalogue | What exploration added | Verdict |
+|---|---|---|---|
+| K1 | "nothing hangs in the cell but three rods; all tools passive" | 17 axes, roll head (a gearbox as ware), turntable relay, prep cups as carriers, 110 loose parts | The passive-tool idea is sound; the turret multiplies axes (5 per hand) and moves, it does not reduce them |
+| K2 | "no shaft through a food wall; inversion does everything" | Wender with 6 axes and a 1.9 m slot, tip cradle (inversion cannot merge), hourglass dock with 5 actuators, 76 ware pieces | Simpler in the food path, not in the machine; complexity concentrated in one carriage |
+| K3 | "two process machines and **no manipulator**" | vessel shuttle (5 axes) and tool-changing arm (3 axes, 15 heads) | **Complexity moved, not removed.** The most actuators of all eight |
+| K4 | "lowest mechanical complexity, 13 actuators" | 26 actuators, arm C (a rigid vessel manipulator), turntables at every hob, liquid station | **Complexity moved.** The mat line proper is still 11 actuators, but it needs a hand-equivalent beside it |
+| K5 | "push and fall; very few surfaces" | vessel shuttle (5 axes), book (2), rings (2), 96 loose parts | The column is genuinely simple (7 actuators); the cell around it is not. Honestly stated by the explorer |
+| K6 | "conservative: gantry plus loose ware" | 93 items, twin washer inside | What it says it is. Complexity is in logistics (grips), not in mechanisms |
+| K7 | "only a plain gantry, trays and a knife" | 24 actuators, press, sink turntable, spin head, slot washer, refrigeration | **Complexity added.** The state change is a booster on top of a full kitchen, as the explorer says |
+| K8 | "the manipulator is a dish; zero penetrations" | 16 actuators, 20 utensils, screw cassettes, Y-slide utensil, 70 resident parts | **Genuinely simpler in the machine** (13 cell actuators, 0 seals); complexity moved into ware and software (two pucks, lag control) |
+
+Hidden manipulators and actuators worth naming: K3's shuttle and tool arm; K4's arm C and the five driven
+cassette reels; K5's shuttle; K2's hourglass dock (5 actuators for dosing alone); K8's Y-slide utensil (a
+depth axis bought back by giving up the roll axis) and the screw cassettes (a press in ware); K1's roll head
+(a gearbox carried as ware).
+
+---
+
+## 7. Mechanisms ranked by robustness per unit cost
+
+Across all eight concepts and the two gap documents. "Robustness" = physical margin, precedent in products or
+catering, tolerance of soil and wear, recoverability; "cost" = parts plus the actuators and seals it brings.
+
+| Rank | Mechanism | Where | Why |
+|---|---|---|---|
+| 1 | **Turning vessel under a fixed or hung scraper** (stirring, kneading on the Ankarsrum principle) | K3, K4, K5, K6, K7, K8 (T) | Product precedent, one small drive under the deck, no shaft in food, no tool change, frees the manipulator |
+| 2 | **Canned radial magnet coupling through a welded thimble** | K8 T and S | Magnetic-drive pumps and mixers; no seal at all; torque limiting built in |
+| 3 | **Pull-down press under the deck on two rods in tension, symmetric crosshead, loose tube and end plates** | K7 (best), K6 (swing variant) | Closed force loop through the frame, drive below food, 3 kN is enough with single-layer loading |
+| 4 | **Rasp can or knurled disc on a turning position** (raw peeling) | K5, K7, K3 (rumbler) | Commercial peeler principle, no extra actuator; noise is its cost |
+| 5 | **Form-fit tang with pins, or neck jaws with load pins** | K6, K2 (also K7's tab and cone) | Positive lock in every direction, self-checking by jaw position or weight |
+| 6 | **Cartesian gantry in a dry box with a 2-axis wrist** | K6, K7 | Cheapest stiffness per euro [R8]; straight paths in a shallow cabinet |
+| 7 | **Twin top-loading wash wells** | K6 | Commercial glass- and utensil-washer practice; redundancy for one extra well |
+| 8 | **Fixed evaporator plates with loose aluminium slabs** | K7 | No moving refrigerant line; thermal store shaves the peak — robust but only worth its cost where the corpus needs it |
+| 9 | **Frying book** (two hinged pans, gasketed) | K5 | Guided, safest hot-fat flip; costs two worm drives and two seals near fat |
+| 10 | **Torque-to-thrust screw cassette in ware** | K8 | 2.5 kN from 12 Nm without penetration; thread wear and cleaning to be proven |
+| 11 | **Ram and die in a closed tube** | K5 | Excellent process control; expensive in frame and dies at 8 kN; right at 3 kN (see 3) |
+| 12 | **Drum tilting about its pouring lip** | K3 | Robust geometry; the spin function is what costs (dynamics, noise) |
+| 13 | **Jet gate with the manipulator as the conveyor** | K8 | Programmed wash path; cheap; coverage unproven |
+| 14 | **Rim-to-rim inversion on a lift carriage** | K2 | Strong function, one carriage; sealing needs a centring feature |
+| 15 | **Wash lathe with induction flash** | K2 | Rotating part past fixed jets is sound; flash on welded rims and tri-ply is doubtful |
+| 16 | **Magnetic puck through a flat wall** | K8 | Cheap and seal-free; margins small and unmeasured |
+| 17 | **Pan pair turned by a manipulator** (one-side grip, roll head, EPM shoe, puck) | K1, K3, K4, K6, K7, K8 | Food result 70–80 % first time; hot fat in free motion |
+| 18 | **Belt with a retracting nose and a guillotine** | K3 | Belt life, nose stiffness and blade gap all marginal |
+| 19 | **Roller-blind mat cassettes and the cantilevered mat arm** | K4 | Consumable mats; the arm lacks out-of-plane stiffness |
+| 20 | **Reciprocating blades at 40–45 Hz on single blades or loose couplings** | K3 G1, K7 bow knife | Vibration, noise, fatigue; replace by counter-reciprocating twin blades |
+| 21 | **Disc-in-disc ceiling turret with rod hand** | K1 | 5 axes and 2.4 m of seam per hand for a Ø 400 reach |
+
+---
+
+## 8. Recommendations for round 2 (P5)
+
+1. **Get three customer or orchestrator rulings before any concept is merged**: (a) BLD-004 cost for the whole
+   MVC is not reachable; set a budget for the process cell (my estimate: 25–30 k€ for the best hybrid);
+   (b) amend BLD-002 to allow ordered TIG and laser welding, wire-EDM and electropolishing as services;
+   (c) decide the oven question once (X6): factory automatic door and side opening, or served by transport.
+2. **Build the hybrid on a Cartesian gantry with form-fit grips** (K6's tang with pins, or K7's tab and cone;
+   add K2's load pins in the jaws), not on turrets (K1), cantilevered mat arms (K4) or a single shaft carriage
+   without drop recovery (K2). Give the gantry a telescoping or retractable mast so that it can clear stations
+   (K6-1).
+3. **Take force out of the manipulator with K7's under-deck press** (two rods in tension, 3 kN, loose tube and
+   end plates from K5 and K6); do not build K5's 8 kN C-frame. Use bought push-dicer grids with an adapted rim
+   instead of wire-eroded monobloc dies.
+4. **Stir and knead by turning the vessel** (rank 1), preferably with K8's canned couplings where a seal would
+   otherwise be needed.
+5. **Flip hot fat only in a guided device**: K5's frying book with corrected torque (≈ 265 Nm per leaf for
+   2 kN, or pressing moved to the press), or G-assembly-meat's lift-rack turn; not in free manipulator motion.
+6. **Run K8's 1 000 € magnet-and-friction rig now** (risks 1, 2, 7, 8 of K8). If it confirms ≥ 200 N holding
+   shear and ≥ 12 Nm, K8 is the cheapest, narrowest and most maintainable base and deserves a full P5 design
+   with a solved door (K8-1) and a ventilated drive cassette (K8-2). If it fails, drop K8 entirely.
+7. **Design recovery as "degrade and continue"** from the start (X4): every food-process failure must have an
+   automatic path that serves or remakes, because REL-001 cannot be met by handling reliability alone.
+8. **Count seals as a design currency** (X10): no concept with more than about 8 dynamic seals in the splash
+   zone meets REL-005 without planned technician exchanges. K3's and K4's seal counts disqualify them as bases.
+9. **Keep heat below electronics**: no stacking of hot tiers above drives or load cells (K2, K3, K4) without a
+   thermal budget per tier; ventilate every drive box that shares a wall with the cooking space (K1, K8).
+10. **Borrow, do not adopt**: from K3 the lip-pivot pour geometry; from K4 the white mat as a vision background
+    for flat work and the householder-changeable cassette; from K7 the plate stack only if the coverage critic
+    confirms the meals it rescues; from K1 the rule "all moving parts retract before the door unlocks".
+11. **Rigs that decide the most per euro**, in this order: K8 magnet and friction (1 000 €); tang and pin grip,
+    10 000 cycles wet and floured (K6 risk 1, 2 k€); pan-pair flip against frying book (hand rigs, 200 €);
+    press force and dice quality with a bought push-dicer grid in a Ø 110 tube on a workshop press (500 €);
+    thermal survey of a drive box behind an 85 °C skin (K8 risk 12, 300 €).
