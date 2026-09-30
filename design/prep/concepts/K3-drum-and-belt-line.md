@@ -92,8 +92,8 @@ with a modified door). Four positions and the oven can heat together within 3 ×
      |   drum Ø 300     |      shaft        |  ============================   |
      |   (axis in the   |   370 x 540       |  belt 300 wide, bed 970..1390   |
      |    x-z plane)    |   vessel up to    |  ============================   |
-     |                  |   GN 2/3 or tray  |  gate rods (4) at the belt edges|
- 140 |  trunnion yoke   |   400 x 300       |                                 |
+     |                  |   GN 2/3          |  gate rods (4) at the belt edges|
+ 140 |  trunnion yoke   |   354 x 325       |                                 |
      |  (from rear wall)| (o) (o) mast tubes|  belt drive shaft, pocket shafts|
   60 +------------------+---+-------+-------+---------------------------------+
      | dry spine 60 mm: tilt drive, arm drive, belt drive, shuttle, lid arms  |
@@ -231,13 +231,13 @@ and 10 are vessel handling and cooking-side handling. Fluid and thermal: 12 sole
 | Pan Ø 280 tri-ply, as a pair (either may be the cover) | 2 | bought, tang added |
 | GN 2/3 pan 354 × 325 × 40, as a pair | 2 | bought thermoplate, tang added |
 | Braiser GN 2/3 × 100 with lid and seam-down rack (five channels) | 1 | bought GN, rack custom |
-| Baking tray 400 × 300; lasagne dish 300 × 200 × 60; loaf tin, 26 cm ring tin (ferritic) | 2 / 1 / 1 / 1 | bought, tang added |
+| Baking tray GN 2/3 (354 × 325 × 20; the 370 mm shaft does not pass a 400 × 300 tray lying long side in x); lasagne dish 300 × 200 × 60; loaf tin, 26 cm ring tin (ferritic) | 3 / 1 / 1 / 1 | bought, tang added |
 | Scoop (GN 1/4-like pan with a spout end) | 2 | custom |
 | Peel tray (flat tray with one rimless ramped side), also the unmoulding board | 2 | custom |
 | Beaker 0.8 L with weir spout; weigh cup 0.3 L for the dock | 2 / 2 | custom |
 | Lift-out basket for the 6 L pot | 1 | bought |
 
-27 loose ware items, plus the 15 arm heads and drum inserts of 2.3. The 9 L pot is not needed: six portions
+28 loose ware items, plus the 15 arm heads and drum inserts of 2.3. The 9 L pot is not needed: six portions
 of pasta are boiled and drained in the drum.
 
 ---
@@ -248,7 +248,7 @@ of pasta are boiled and drained in the drum.
 
 One tipper dock above the shaft (x = 775, z = 1600–1900): clamp frame on a horizontal axis (0–180°, 15 Nm),
 on three load cells (loss in weight, ±1 g to 3 kg), 150 Hz vibrator, one lid finger. Under it a **swivel
-chute**, a stainless spout 140 × 100 on a vertical axis with three positions: into the drum mouth (drum at
+chute**, a stainless spout 200 × 150 (with a swing-in narrowing sleeve 140 × 60 for powders) on a vertical axis with three positions: into the drum mouth (drum at
 +60°), straight down the shaft (onto the extended nose at 1150 or, with the nose retracted, into the cutter
 cartridge or the vessel on the raised deck), and to the fixed part of the belt. The chute ends 120 mm above
 the belt, so powders fall through a closed sleeve and not as a cloud (PRP-014).
@@ -323,7 +323,7 @@ Time is for the quantity of 4 persons unless stated. "Untested" names what a ben
 | Form dumplings (FRK), small pieces (FRM) | As above with logs Ø 35–60; pucks tumbled in the wetted or floured drum for 20 s to round them (SM-074); gnocchi as cut log pieces; Schupfnudeln: log pieces rolled under the press plate by belt to-and-fro | 4–5 min | M | rounding of sticky dumpling mass in the drum; tapered ends |
 | Bread (BRD) | 1 flour bed from the dock on the belt; cutlet laid on it; flour on top. 2 Nose lays the cutlet on a peel tray with 60 g of whisked egg, held by the head; the head rocks ±10°: egg washes over. 3 The nose crawls under the cutlet and takes it back onto a crumb bed; crumbs on top; roller presses at 30 N. 4 Nose lays it in the pan. No flip, no gripper | 50 s per cutlet | M | nose pick-up of a wet cutlet; coverage of the underside edge; crumbs in the egg |
 | Roll and secure (RLT), wrap (WRP) | Slice on the belt, long side along x, two slices side by side. Paste ribbon from the cartridge, spread by the doctor blade; filling from a scoop or the chute as a stripe across the first third. Belt carries the slice over the pocket, dancer releases, the filled part sags in, rollers close, belt runs 300 mm: two tight rolls. Belt position sets the seam down. Pocket opens; the nose lays the rolls seam-down into the rack in the braiser on the deck (SM-084). No tying | 30 s per pair | M roll, **M–L secure** | start of the first turn; filling squeezed out at the ends; rolls staying shut through a two-hour braise |
-| Roll out dough (ROL), shape (SHD) | Dough poured on the belt, reversing passes under the roller, gap 20 → 3 mm, flour from the dock between passes. The last pass elongates the sheet over the nose directly onto the baking tray, which the head moves away at belt speed. Sheet up to 300 × 400. Rolls: log and comb, rounded in the drum. Loaf: log into the tin. Lining a tin: sheet laid over the tin by the nose, pressed in by the press plate only for a rectangular tin 280 wide | 2–3 min | H sheet, M rolls, L lining a round tin | sticking to belt and roller; a round base for a 26 cm tin is pressed in as crumbs (adapted) |
+| Roll out dough (ROL), shape (SHD) | Dough poured on the belt, reversing passes under the roller, gap 20 → 3 mm, flour from the dock between passes. The last pass elongates the sheet over the nose directly onto the baking tray, which stands on the deck; or the sheet stays on the belt for topping and is laid on the tray by the retracting nose. Sheet up to 300 × 330 (GN 2/3 tray). Rolls: log and comb, rounded in the drum. Loaf: log into the tin. Lining a tin: sheet laid over the tin by the nose, pressed in by the press plate only for a rectangular tin 280 wide | 2–3 min | H sheet, M rolls, L lining a round tin | sticking to belt and roller; a round base for a 26 cm tin is pressed in as crumbs (adapted) |
 | Stuff rigid cavities (STU) | No nozzle is fed by the drum, so the filling is made a solid first: mass from the drum rolled to a log Ø 45 in the pocket, divided by the comb, and each plug dropped by the nose into the cavity (pepper, tomato, apple standing in a rack on the deck; the deck has no x axis, so the rack is held by the head and stepped in x). Soft fillings (quark, cream) only from a paste cartridge filled beforehand. Cannelloni: not filled; made as rolled sheets in the pocket instead (adapted) | 20 s per item | **L–M** | plug hitting a 60 mm opening from the nose (±10 mm); dumpling cores and poultry cavity not done |
 | Flatten meat (POU) | Roller passes at 12 → 8 → 5 mm, 800 N line force, on the belt | 20 s | H | — |
 | Spread (SPR) | Ribbon from the cartridge or poured line, doctor blade at 1–3 mm | 10 s | H | — |
@@ -373,5 +373,218 @@ Time is for the quantity of 4 persons unless stated. "Untested" names what a ben
 | Deglaze, add to a hot vessel | Vessel brought under the chute by the head; or into the drum directly | 20 s | H |
 | Baste, glaze | Pour from a beaker by the head; no brush | — | M |
 | Thin batter poured (PTH) | Beaker held by the head poured in a zigzag over the pan on the deck; batter levels itself | 10 s | M |
+
+---
+
+## 5. Benchmark walk-throughs
+
+Conventions. t = minutes from start. A **move** is one shuttle pick-carry-place, one box cycle at the dock,
+one head or insert change on the arm, or one drum ↔ belt ↔ vessel transfer. Times are estimates [E]; limits
+are PERF-001 (1.15 × T_ref + 10 min, T_ref from the corpus). Sequencing rule in every meal: ready-to-eat
+food first, raw animal food last on the belt and in the drum (SM-208). "Soiled" lists what needs washing.
+
+### B1 Rinderrouladen, Rotkohl, Salzkartoffeln (4 persons, 8 Rouladen) — T_ref 150, limit 183
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 2 peeled onions from the dock through C1 into the 4 L pot on the deck; lard; sweat 3 min on H0, stirred by T5 | dock, arm, deck |
+| 4 | Red cabbage head (≤ Ø 200) down the chute onto the extended nose; G2 press plate holds it; G1 shreds 2 mm slices at 2 cuts/s straight into the pot (90 s); stalk end to the tail chute. The core is shredded with the rest | belt |
+| 7 | Apple (bought cored pieces), vinegar, wine, sugar, spice from the dock; pot to R2, lid arm down, turntable: braise 80 min | dock, head, R2 |
+| 9 | Filling: gherkins cut to sticks by G1, onion slices (C3), diced bacon (bought diced) into a scoop | belt, arm |
+| 12 | Two beef slices slid onto the belt side by side; roller pass at 6 mm; salt, pepper; mustard ribbon from the cartridge, doctor blade; filling poured from the scoop over its long edge as a stripe across both slices (belt load cells stop the pour); pocket roll; seam down; nose lays both rolls into the rack in the braiser on the deck. Four cycles of 60 s | belt, dock, head, deck |
+| 18 | Braiser on H0 at 220 °C, 3 min seam-side sear in 15 mL fat; into the oven under the grill 6 min for the top; back on the deck: onion, tomato paste, wine, stock through the chute; lid on; oven 160 °C, 105 min | deck, oven |
+| 20 | Belt, gates, pocket, chute: full wash with hot pass (raw beef) | — |
+| 120 | 1 kg potatoes into the drum: peel disc in, wash and peel 4 min, slurry to the gutter, disc out; 2 L water and brine; boil 22 min in the drum; drain to the gutter through T7; hold at 70 °C | drum |
+| 135 | Braiser out; head pours the liquid (rack holds the rolls back) into the 1.5 L pot; R1 with turntable and scraper: reduce, flour slurry from the dock; Rouladen in the braiser to R3 | head, R1, R3 |
+| 152 | Potatoes poured by the helix into a pot on the deck; all three components at the hand-over port | drum, deck |
+
+Result: **adapted** (untied rolls in a rack, top browned under the grill; cabbage core shredded in; apple
+bought prepared). Elapsed 155 min. About 48 moves. Soiled: 3 pots, 2 lids, braiser, rack, 2 scoops, C1, C3,
+T5, T7, peel disc, paste cartridge; belt (raw), drum.
+Weakest step: the rolls. If a roll opens in the braise the dish is still edible but fails MEAL-005 as stated.
+
+### B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat (4 persons) — T_ref 50, limit 67
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 800 g potatoes: drum, peel disc, 3 min; helix feeds C3, 4 mm slices into a scoop on the deck; disc out, drum rinsed and heated to 170 °C with 20 mL oil; head tips the scoop into the drum; fry by slow tumbling (6 rpm, +15°) for 22 min; diced bacon and onion (C1) added at t = 15 | drum, arm, head |
+| 1 | Cucumber slid onto the belt, ends to the tail, G1 2 mm slices into the 4 L pot on the deck; sour cream, vinegar, sugar, salt, frozen dill from the dock; T5 stirs; pot to the hand-over port (cold holding is serving's task) | belt, deck |
+| 8 | 2 eggs: opener, saucer, into the beaker on the deck; T2 whisks; egg poured on a peel tray | dock, arm |
+| 10 | Breading line as 4.2, four cutlets (bought cut thin, one per box compartment), roller to 5 mm first: 5 min | belt, head |
+| 15 | GN 2/3 pan on H0, 25 mL clarified butter at 170 °C; nose lays two cutlets; 2.5 min; cover pan from R1, pan-pair flip; 2.5 min; slid onto a warm tray on R3; second batch | deck, head, R1 |
+| 28 | Belt and gates: full wash with hot pass. Lemon: slices cut by G1 before the raw work and kept in a cup | — |
+| 30 | Fried potatoes poured by the helix into a pot; all at the hand-over port | drum |
+
+Result: **adapted** (cutlets fried in 25 mL of fat because the pan-pair flip cannot hold more, so they do
+not float; potatoes fried from raw slices by tumbling, some break). Elapsed 32 min. About 42 moves. Soiled:
+GN pan pair, peel tray, beaker, saucer, 2 pots, scoop, tray, C1, C3, T2, T5, peel disc; belt (raw), drum.
+
+### B3 Frikadellen, Kartoffelpüree, Erbsen-Möhren (4 persons) — T_ref 35, limit 50
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 300 g carrots: drum with peel disc 2 min; helix feeds C1; dice into the 1.5 L pot on the deck with 150 mL water, butter, sugar; to R2, simmer 9 min; frozen peas added at t = 14 (pot fetched under the chute) | drum, arm, R2 |
+| 3 | 1 kg potatoes: peel 3 min; helix feeds C2; 20 mm cubes into the 4 L pot with the lift-out basket, 1.2 L water, brine; to R1, 3 kW: boiling at t = 12, done at t = 26 | drum, arm, R1 |
+| 7 | Disc out, quick rinse (90 s). Onion into the drum, T1 three pulses; soaked roll, egg (opener), mustard slug, 500 g mince, seasoning (weigh cup); T3 40 rpm 2 min | drum, dock, arm |
+| 12 | Mass poured on the belt; pocket: two logs; comb; press plate to 20 mm: eight patties of 100–110 g (two pucks pressed together are not needed at this size); nose lays them into the GN 2/3 pan at 160 °C on H0 | belt, deck |
+| 15 | Fry 5 min; pan-pair flip; 5 min; core 72 °C by time (no probe, section 12); to R3 | deck, head |
+| 14–23 | Drum full wash with 110 °C flash (raw mince); belt full wash with hot pass | — |
+| 27 | Head lifts the basket out of the potato pot, drains 20 s, tips it into the drum; T4, 40 passes; butter and cold milk from the dock, the drum wall held at 80 °C so that the mash stays hot; 3 min | head, drum, arm |
+| 32 | Mash poured with the scraper into a pot; all at the hand-over port | drum |
+
+Result: **yes** (mash is a fine "Stampf", not riced). Elapsed 34 min. About 40 moves. The drum is used four
+times with one quick rinse and one full wash in between; it is busy 27 of 34 minutes. Soiled: 3 pots, basket,
+GN pan pair, C1, C2, T1, T3, T4, peel disc; belt (raw), drum.
+
+### B4 Spaghetti Bolognese with grated cheese (4 persons) — T_ref 75, limit 96
+
+| t | Step | Where |
+|---|---|---|
+| 0 | Carrot and celeriac pieces (celeriac bought peeled): peel carrot 2 min in the drum; helix feeds C1; onion and garlic (bought peeled) from the dock through C1; all into the 6 L pot; oil; to R1, sweat 8 min under the scraper | drum, arm, R1 |
+| 5 | Drum rinsed, heated to 230 °C, oil; 500 g mince from the dock; seared by tumbling 5 min; tomato paste 1 min; wine to deglaze; poured into the pot (pot fetched to the deck); tinned tomatoes and stock from the dock; back to R1, simmer 50 min, turntable 1 turn in 10 s | drum, dock, head |
+| 13 | Drum wash (no disinfection step needed beyond the rinse: the wall was at 230 °C) | — |
+| 50 | 4 L water and brine in the drum, 8 min to the boil; 400 g spaghetti slid in from the dock; 10 min, drum rocking ±20° | drum, dock |
+| 68 | T7 on the mouth, tilt to −10°, water to the gutter; sauce pot tipped into the drum by the head; four turns; poured into the pot for the hand-over port | drum, head |
+| 70 | Cheese bought grated, dosed from the dock at plating; or a block through C4 into a cup | dock |
+
+Result: **yes**. Elapsed 72 min. About 26 moves. Soiled: 6 L pot and lid, cup, C1, C4, T7, peel disc; drum.
+The belt is not used.
+
+### B5 Pizza with yeast dough from flour (two trays asked; three GN 2/3 trays made) — T_ref about 90 with proof
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 600 g flour through the mesh, 380 g water from the lance, yeast, salt, oil; T3, 80 rpm, 6 min | dock, drum |
+| 7 | Proof in the drum at 30 °C wall, 1 rev/min, 45 min. Meanwhile toppings: mushrooms, pepper strips (bought), salami sliced by G1 into scoops | drum, belt |
+| 52 | Dough poured on the belt, G1 divides it in three by weight; each piece: five reversing passes under the roller with flour from the dock, the last pass towards the nose; sheet 300 × 330 × 4 lies on the belt | belt |
+| 55 | Passata ribbon from the cartridge in two lanes, doctor blade at 2 mm; mozzarella and toppings from dock and scoops while the belt shuttles; nose lays the topped sheet on the GN 2/3 tray on the deck; head pushes the tray into the oven | belt, dock, head |
+| 66 | Three trays on three levels, hot air 250 °C, 12 min | oven |
+
+Result: **adapted** in format only (three trays of 300 × 330 instead of two of 400 × 300: same area within
+20 %). Elapsed 80 min. About 30 moves. Soiled: 3 trays, scoops, T3, cartridge; belt (flour and dough), drum.
+Untested: dough sticking to a TPU belt; lay-down of a topped sheet.
+
+### B6 Gemüseeintopf from whole vegetables (6 persons) — T_ref 35, limit 60 for six
+
+| t | Step | Where |
+|---|---|---|
+| 0 | Potatoes, carrots, parsnip, half celeriac together (1.4 kg) into the drum: wash, peel disc 4 min (celeriac keeps skin in its hollows: loss or residue, M); helix feeds C1 over the 6 L pot on the deck | drum, arm, deck |
+| 1 | Leek slid onto the belt, root and dark top to the tail (camera finds the colour change), G1 5 mm rings into a scoop; tomatoes as G1 slices into the pot | belt |
+| 7 | Disc out, basket in; leek rings tipped into the drum by the head, washed 40 s (grit), spun, poured into the pot | head, drum |
+| 9 | Pot to R1: oil, 4 min sweat under the scraper; pot under the chute: 2.2 L water, stock paste slug, trimmed green beans (bought frozen cut), seasoning; R1 simmer 20 min; frozen peas at t = 28 | R1, dock |
+| 10 | Parsley bunch: drum basket wash and spin; T1 chop with the basket removed; into a cup | drum, arm |
+| 36 | Pot to the hand-over port with the parsley cup | head |
+
+Result: **yes** (green beans bought trimmed; celeriac quality M). Elapsed 37 min. About 28 moves. 3 L of
+soup in the 6 L pot. Soiled: pot and lid, scoop, cup, C1, T1, basket, peel disc; belt (RTE only, short
+wash), drum.
+
+### B7 Steak, oven fries, mixed salad with vinaigrette (2 persons) — T_ref 60, limit 79
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 600 g potatoes: peel 2.5 min; helix feeds C5; sticks fall on a GN 2/3 tray on the deck; 10 mL oil and salt from the dock; head shakes the tray in x; oven hot air 220 °C, 30 min, tray shaken once at t = 20 | drum, arm, head, oven |
+| 5 | Disc out, basket in. Lettuce head on the belt, stalk end to the tail, G1 cuts 30 mm ribbons into a scoop; tomato as 12 mm slices, cucumber 3 mm, radish 2 mm into the same scoop; carrot through C4 | belt, arm |
+| 10 | Scoop tipped into the drum; wash 60 s, drain, spin 2 × 15 s | head, drum |
+| 12 | Vinaigrette: oil, vinegar, mustard slug, salt in the beaker on the deck, T2 20 s; head pours it into the drum; six turns at 12 rpm; helix discharges into the salad bowl (a pot) on the deck; to the hand-over port | arm, head, drum |
+| 25 | Two steaks (single layer in the box) slid onto the belt, salted; pan Ø 280 on H0 at 240 °C with 15 mL oil; nose lays both; 2.5 min; pan-pair flip; 2.5 min; butter; to R3 for 5 min rest | belt, deck, head |
+| 28 | Belt: full wash with hot pass; drum wash | — |
+| 36 | Fries out; steaks handed over whole, or carried on the (washed) belt and sliced by G1 | head |
+
+Result: **yes** (oven fries are the adapted method that X-01 prescribes). Elapsed 38 min. About 34 moves.
+Doneness is by time, pan temperature and thickness (measured by the G2 plate touching the steak); K3 has no
+core-temperature probe (COK-013, section 12). Soiled: pan pair, tray, 2 scoops, beaker, bowl, C4, C5, T2,
+basket, peel disc; belt (raw), drum.
+
+### B8 Pfannkuchen (8 pieces) — T_ref 35, limit 50
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 250 g flour through the mesh (sifted by construction), 500 mL milk, 3 eggs, salt into the drum; T2 60 s at +30°; poured into two beakers; rest 20 min on R3 (off). Drum washed | dock, drum, arm |
+| 20 | Pan A on H0 at 190 °C with 3 g butter; head pours 100 mL from the beaker in a zigzag (deck weighs); 80 s | deck, head |
+| 22 | Pan B, preheated on R1, is rolled over and set on A; both tangs gripped; roll 180°; B now below on H0 with the pancake, A lifted off and returned to R1; 60 s; head slides the pancake onto the warm tray on R3; B gets butter and batter. Pans alternate | head, R1, R3 |
+| 40 | Eight pancakes at 140 s each with two pans overlapping | — |
+
+Result: **yes**, with the whole-pan flip as the untested step (a thin pancake may fold or stick to the upper
+pan). Elapsed 42 min. About 85 moves, nearly all of them the shuttle: the slowest and most repetitive
+benchmark. Soiled: pan pair, 2 beakers, tray, T2; drum.
+
+### B9 Chicken curry with rice (4 persons) — T_ref 50, limit 67
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 280 g rice into the drum, two rinses against T7 (1.5 mm holes), poured into the 4 L pot with 560 mL water and brine; R2, lid down: absorption 15 min, rest 8 min (boil-dry watched by the hob sensor) | drum, arm, R2 |
+| 4 | Onion through C1 into a scoop; drum at 220 °C, oil; 500 g chicken cubes (bought cut) from the dock; seared by tumbling 4 min; onion tipped in; ginger and garlic (frozen cubes), spices from the weigh cup, 2 min | arm, drum, dock, head |
+| 12 | Tinned tomatoes, cream or coconut milk from the dock; drum at +45°, 3 rpm, 95 °C, 18 min; thickened by reduction | drum |
+| 31 | Curry poured into the 6 L pot on the deck; both pots at the hand-over port; frozen coriander from the dock | drum, head |
+
+Result: **yes** (sauce not puréed; if wanted, T1 at 3000 rpm before the chicken goes back, which the drum
+cannot do with the meat in it: adapted). Elapsed 33 min. About 20 moves. Soiled: 2 pots, lid, scoop, C1, T7;
+drum. The belt is not used. This is the kind of meal the drum does best.
+
+### B10 Lasagne, béchamel from scratch (4–6 persons) — T_ref 120, limit 148
+
+| t | Step | Where |
+|---|---|---|
+| 0 | Ragù as B4 in the 6 L pot on R1 (45 min simmer) | drum, R1 |
+| 35 | Béchamel in the 1.5 L pot on H0: 40 g butter (bar cut by G1), 40 g flour, T5 2 min; 600 mL cold milk at once, T2 whisk at 300 rpm to the boil, 6 min; nutmeg; to R2 on low | belt, deck, arm |
+| 46 | Dish on the deck. Per layer: head fetches the ragù pot, pours while travelling 250 mm in x, returns it (50 s); twelve dry sheets have been slid from the box onto the belt in two lanes, the nose lays four per layer (20 s); béchamel poured the same way. Four layers; grated cheese and mozzarella from the chute. The deck goes down and up with the dish for every fetch | head, belt, deck, dock |
+| 58 | Head pushes the dish into the oven, 190 °C, 40 min; rest 15 min | oven |
+| 113 | Dish at the hand-over port; portion cutting is serving's task (SLB) | head |
+
+Result: **yes**, medium confidence on layer evenness (sauces are levelled only by pouring in a travelling
+line and a shake) and on sheet placement across the belt (two lanes from the chute, ±15 mm). Elapsed
+115 min. About 46 moves. Soiled: 2 pots and lids, dish, C1, T2, T5; belt (dry sheets and butter), drum.
+
+### B11 Rührkuchen in a tin, unmoulded — T_ref 100, limit 125
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 250 g soft butter (pack tipped at the dock), 200 g sugar into the drum at +35°, wall 25 °C; T3 120 rpm 3 min; 4 eggs singly (opener, saucer); 60 s each; 375 g flour with baking powder through the mesh, milk; six slow turns | dock, drum, arm |
+| 10 | Tin on the deck: 8 g melted butter, head rolls the tin ±70° (two walls and floor wetted), flour dust from the chute; half of the batter poured by weight with the scraper; cocoa into the rest, two turns; poured on top | head, drum, deck |
+| 14 | Oven 175 °C, 60 min (end by time and tin mass loss); cool 20 min on R3 (off) | oven |
+| 95 | Tin on H0, 2 s pulse; peel board on top, both tangs gripped, roll 180°, set down, tin lifted off | deck, head |
+
+Result: **yes**, with two medium-to-low steps: greasing (end walls of a loaf tin are not reached by a
+single roll axis; a ring tin is worse) and the release. A paper liner (SM-204) would make it safe at the
+price of a consumable. Elapsed 97 min. About 16 moves. Batter left in the drum about 4 % with the scraper.
+Soiled: tin, board, saucer, T3; drum.
+
+### B12 Scrambled eggs from shell eggs, toast, 1 person (minimum quantity) — T_ref 6, limit 17
+
+| t | Step | Where |
+|---|---|---|
+| 0 | 1.5 L pot with 8 g butter (cut by G1) on R1 at 110 °C. Two eggs: opener, saucer, camera, tipped into the beaker on the deck; 20 mL milk, salt; T2 15 s | belt, dock, deck, arm |
+| 2 | Two slices of bread (bought sliced) slid onto the belt; pan Ø 280 dry on H0 at 190 °C; nose lays both; 60 s; pan-pair flip; 50 s | belt, deck, head |
+| 3 | Head pours the egg into the pot on R1 (lid arm up for 5 s); turntable 20 rpm against the scraper, 2.5 min; frozen chives from the dock at the hand-over | head, R1 |
+| 7 | Pot and toast pan at the hand-over port | head |
+
+Result: **yes**. Elapsed 8 min. About 14 moves. The drum is not used; the smallest quantity is handled in a
+beaker under the arm (this is what makes the drum's minimum fill irrelevant). Soiled: pot, scraper lid,
+beaker, saucer, pan pair, T2 (washed in the next drum wash or in a 1.5 L drum rinse); belt (crumbs, butter).
+
+### 5.13 Summary
+
+| # | Meal | Result | Elapsed / limit (min) | Moves | Drum uses | Belt used |
+|---|---|---|---|---|---|---|
+| B1 | Rouladen, Rotkohl, Salzkartoffeln | adapted | 155 / 183 | 48 | 1 | yes (raw) |
+| B2 | Schnitzel, Bratkartoffeln, Gurkensalat | adapted | 32 / 67 | 42 | 2 | yes (raw) |
+| B3 | Frikadellen, Püree, Erbsen-Möhren | yes | 34 / 50 | 40 | 4 | yes (raw) |
+| B4 | Spaghetti Bolognese | yes | 72 / 96 | 26 | 3 | no |
+| B5 | Pizza | adapted (tray format) | 80 / about 113 | 30 | 1 | yes |
+| B6 | Gemüseeintopf, 6 persons | yes | 37 / 60 | 28 | 3 | yes |
+| B7 | Steak, oven fries, salad | yes | 38 / 79 | 34 | 2 | yes (raw) |
+| B8 | Pfannkuchen | yes (flip untested) | 42 / 50 | 85 | 1 | no |
+| B9 | Chicken curry, rice | yes | 33 / 67 | 20 | 2 | no |
+| B10 | Lasagne | yes | 115 / 148 | 46 | 2 | yes |
+| B11 | Rührkuchen | yes (greasing, release M–L) | 97 / 125 | 16 | 1 | no |
+| B12 | Scrambled eggs, toast | yes | 8 / 17 | 14 | 0 | yes |
+
+Nine yes, three adapted, none fails. Mean 36 moves per meal. Answer to catalogue question 1: one drum is
+enough for these meals, also for six persons, **because cutting and small-quantity work were moved out of
+the drum** (cartridges over the shaft, beaker under the arm) and because a 90 s rinse separates jobs of the
+same meal. The tight case is B3 (four drum jobs, one of them raw): the drum is busy 80 % of the time and any
+retry breaks the 50-minute limit. A second drum is not proposed; a meal with five drum jobs is scheduled
+with boiling moved to a pot on R1.
 
 <!--NEXT-->
