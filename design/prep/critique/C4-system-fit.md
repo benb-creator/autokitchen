@@ -9,10 +9,11 @@ machine washes, peels and cuts produce, stock is made in house (UO-96), frozen p
 permitted; #11 height up to 2200 mm; #13/#16/#17 the machine stores cooking ingredients incl. chilled cooking
 liquids and pours drinks it stores, a separate household fridge is allowed, the MVC must fit **≤ 3600 mm**;
 #18 the **regular household is 2 persons** (2 warm meals a day); #19 **at most 4 persons per meal**. The
-requirements were aligned to #18 (PHY-004 ≤ 3600 M / ≤ 3300 S with an allocation of 1.2 m for the process cell;
-CAP-020…025: 143 box positions; RES-001 ≤ 3.0 kWh and RES-005 ≤ 35 L per 2-person meal; RES-002 ≤ 7 kWh and
-RES-006 ≤ 75 L per day; SRV-022/-024 drinks; WSH-001/-002 dish washing) but not yet to #19 (CAP-001, -004, -006,
--030, -031, COK-016 and SRV-009 still say 6 persons). Where they disagree, the decision is used.
+requirements as aligned to #18 and #19 (commits up to 5418e62): PHY-004 ≤ 3600 M / ≤ 3300 S with an allocation
+of 0.9–1.2 m for the process cell; CAP-020…025: 143 box positions; COK-002 ≥ 3 heated positions (M), 4 (S);
+COK-004 4 L to 95 °C in ≤ 11 min; RES-001 ≤ 3.0 kWh and RES-005 ≤ 35 L per 2-person meal (4 persons: 4.0 kWh,
+45 L); RES-002 ≤ 7 kWh and RES-006 ≤ 75 L per day; SRV-009 a course for 4 at the hatch **within 3 min**;
+SRV-022/-024 drinks; WSH-001/-002 dish washing.
 
 The concepts were written earlier, against 3.6 m for the whole household's storage, 2000 mm, a human-loaded
 dish washer, pre-cut and frozen produce, a 4-person reference household and 6-person sizing. They are judged
@@ -51,15 +52,16 @@ inputs, meant to be recomputed by the architect.
 **Budget verdict.** No concept fits the machine. The modules other than preparation and cooking need **2.25 m
 of wall at the floor and ≈ 2.7 m realistically** (storage for CAP-020…025, dish washing, hatch, drinks,
 ingestion B), **€17–23 k of parts** and **≈ 25 L of water a day**. PHY-004 (≤ 3600 mm) therefore leaves the
-process cell **0.9–1.35 m including the oven** — PHY-004's own allocation is 1.2 m. The cells as drawn take
+process cell **0.9–1.35 m including the oven** — PHY-004's own allocation is 0.9–1.2 m. The cells as drawn take
 1.45–2.6 m (1.2–2.2 × the allocation), €18.5–32 k (3–15 × the €2–7 k the M cost target leaves) and
 43–127 L of in-cell water a day. The machines that result are **3.7–5.3 m wide, €36–55 k and 68–152 L per
 day** against 3.6 m, €25 k (S €15 k) and 75 L. **Per 2-person meal no concept meets RES-005 (35 L) or RES-001
 (3.0 kWh)**; K8 comes closest (42 L, 3.1 kWh). Every cell claims the whole 3 × 16 A connection for itself,
 and every cell turns a 595 mm wide oven across a depth of at most 555 mm. The honest allocation to
-preparation plus cooking is **≤ 1200 mm including the oven, ≤ 5.6 kW for all four hob positions together
+preparation plus cooking is **≤ 1200 mm including the oven, ≤ 5.6 kW for all hob positions together
 (oven on its own phase, no water heating while it heats), ≤ 15 L of in-cell water per meal and ≤ €9 k of
-parts without the oven** — and BLD-004 still needs a customer ruling (section 9).
+parts without the oven** — and BLD-004 still needs a customer ruling (section 9). COK-002 now asks only three
+heated positions (M), which is the cheapest single lever on width.
 
 **Round-2 recommendation in one line.** Carry K8 (tub, washer and cell in one) and K5 (separable press column)
 forward as the system-fit base, with K2's inverter-on-a-lift as the hybrid candidate for pan work; drop K1 and
@@ -81,7 +83,7 @@ with a correction, **R** rejected.
 | d | Water per day exceeds 110 L in most concepts at three meals a day | **M** (limit now 75 L at two meals) | For the 2-person household: six of eight over RES-006 (K1 ≈ 152 L, K3 ≈ 107, K5 ≈ 101, K7 ≈ 92, K2 ≈ 80, K4 ≈ 76), K6 ≈ 73 and K8 ≈ 68 just under [C/E, 3.3]. Per meal **none** meets RES-005 (35 L). Cleaning hardly shrinks with persons (the requirement's own rationale), so the 2-person household pays the 4-person cleaning bill. No concept counts box washing, produce washing (except K4), glasses (SRV-022) or unscraped dishes (DEC-6) |
 | e | Sideways 60 cm ovens (≈ 595 wide) do not fit 540–555 mm internal depth | **C, all eight** | K1, K2, K3, K4, K5, K7, K8 turn a built-in oven 90°; K6 states "its 595 width lies along Y" in a bay of 555 inner depth. Inner depth at the oven: K2 520, K3 ≈ 500, K4 ≈ 510, K5 540, K6 555, K7 550; K1 and K8 at best the full 600 outer with zero skin. Also: the oven's cooling-air slots sit in its front, which now faces the wet, greasy cell; its service side faces sideways, so it cannot be exchanged from the front (MNT-001); four concepts replace the door of a certified appliance (BLD-008) |
 | f | Most concepts have single-instance ware, so a second meal waits 55–75 min for a washer | **M** | True where ware goes to an R6-type chamber (55–75 min): K1 (three loads, ≈ 3 h to all clean), K3, K4, K7 (bulky ware), and K2's 14 single-instance types. Not true for K5 (ware set ×2.6), K6 (3.5 min wells) or K8 (the tub washes itself in 25–35 min but is blocked meanwhile). CAP-006 (second meal 2 h later) is met by all but K1; **PERF-005 (next meal possible within 30 min)** is missed by K1 and marginal for K8 |
-| g | Plating is pushed to "serving" everywhere and hot-holding is undefined | **C** | K1 open issue 12, K2 R8, K3 port R3, K4 A7, K5 request 7, K6 request 5, K7 transport request, K8 A-4: all hand over the cooking vessel (up to 8 kg). K2 also hands over "the final merge of pasta and sauce". Nobody checks SRV-009 (a course at the hatch within 4 min: for 4 persons one plating action every 10 s, 4.5). Hot-holding is "a free hob at low power" or "the oven at 70–80 °C", i.e. on the positions the next course needs; only K3 defines a heated hand-over shelf |
+| g | Plating is pushed to "serving" everywhere and hot-holding is undefined | **C** | K1 open issue 12, K2 R8, K3 port R3, K4 A7, K5 request 7, K6 request 5, K7 transport request, K8 A-4: all hand over the cooking vessel (up to 8 kg). K2 also hands over "the final merge of pasta and sauce". Nobody checks SRV-009 (a course for 4 at the hatch within 3 min: one plating action every 7.5 s, 4.5). Hot-holding is "a free hob at low power" or "the oven at 70–80 °C", i.e. on the positions the next course needs; only K3 defines a heated hand-over shelf |
 | h | Noise has almost no numbers | **M** | K4, K5, K6, K7, K8 give dB(A) estimates for short loud operations; only K6 gives one for washing (52–56 dB(A) for 25–30 min per meal, above NOI-002's 48). K1 gives none. Nobody addresses quiet mode (NOI-004, MODE-002 from 22:00), although K1's dinner clean-up runs to ≈ 22:00 |
 
 Findings the list missed (all eight unless stated):
@@ -96,7 +98,7 @@ Findings the list missed (all eight unless stated):
 | n | **ENV-010 (≤ 0.3 kg of moisture into the room per meal) is unaddressed.** Extraction of 60–150 m³/h [D] through an air-cooled condenser releases up to 2 kg/h [C: saturated 25 °C exhaust 23 g/m³ against room air 9.7 g/m³, × 150 m³/h]. Meeting 0.3 kg needs the exhaust dried to a dew point of ≈ 13 °C: a refrigerant dehumidifier (0.2 kWh/kg, 0.3–0.5 kW, €300–600, 20–30 L of volume) or 27 L of mains water per kg of steam (R5 §2.3) | major | Power, water, noise, and a shared unit nobody owns |
 | o | **PHY-003** (modules ≤ 1200 mm on a 150 mm grid): every cell as drawn is one enclosure of 1450–2600 mm; only K8's tub (1150) and K5's column-and-hob (1170) could become 1200 mm modules | major | Modularity, delivery (PHY-012) |
 | p | **Unscraped dishes, glasses and cutlery** come back at the hatch (DEC-6, WSH-001/-002: a 2-course meal's set clean within 90 min). The concepts' "10 L for the dish load" assumes a household machine loaded by a human; a machine-loaded washer with scraping and cutlery handling is a module of its own (600 mm, €1.5–7 k) | major | Width, cost, every water ledger |
-| q | **DEC-19 (max 4 persons) is a gift nobody has used yet**: the 9 L pot, 8–10 L mixing, 36 cm pan, 12 Rouladen and 12 pancakes that set several cells' sizes and bottlenecks are gone. Worth an estimated 0–150 mm of width, not the 300–1400 mm needed (3.1), but it removes K6's rear-row pot problem, K1's and K2's 6-person time overruns and part of K5's tube-size limit | — (opportunity) | Round-2 dimensioning |
+| q | **DEC-19 (max 4 persons) is a gift nobody has used yet**: the 9 L pot, 8–10 L mixing, 36 cm pan, 12 Rouladen and 12 pancakes that set several cells' sizes and bottlenecks are gone (COK-016 now: pasta pot 5 L, braiser ≥ 4 L), and COK-002 asks only 3 heated positions (M). Smaller vessels are worth ≈ 0–150 mm; dropping the fourth position ≈ 250–300 mm of hob in a one-row cell (K6, K7, K5) and a tier in a stacked one (K2, K3). Not the 250–1400 mm needed everywhere (3.1), but it removes K6's rear-row pot problem, K1's and K2's 6-person time overruns and part of K5's tube-size limit | — (opportunity) | Round-2 dimensioning |
 | r | **CAP-003 courses**: hot-holding on the hob positions blocks the dessert or second course (up to 3 courses) | minor | Scheduling |
 
 ---
@@ -105,9 +107,9 @@ Findings the list missed (all eight unless stated):
 
 ### 3.1 Width (PHY-004 ≤ 3600 mm M, ≤ 3300 mm S; PHY-003; height ≤ 2200 mm)
 
-PHY-004's rationale allocates ≈ 0.45 m to ambient and cool storage, 1.2 m to cold storage, **1.2 m to the
-process cell**, 0.6 m to washing, ingestion B "within a front": 3.45 m. Checked against R3 [E, from R3 §3.2,
-§4.1, §6 and R5 §10]:
+PHY-004's rationale allocates ≈ 0.45 m to ambient and cool storage, 1.2 m to cold storage, **0.9–1.2 m to
+the process cell**, 0.6 m to washing, ingestion B "within a front": 3.15–3.45 m. Checked against R3 [E, from
+R3 §3.2, §4.1, §6 and R5 §10]:
 
 | Module | Floor | Realistic | Basis |
 |---|---|---|---|
@@ -166,9 +168,10 @@ The only phase plan that closes [C]:
 
 Consequences for every concept:
 
-1. **Four hob positions share ≈ 5.6 kW**, not 11–13 kW. COK-004 (6 L to 95 °C in 16 min: 2.0 MJ at 75 %
-   efficiency = 2.8 kW [C]) is met only while the paired coil is off. 3.5 kW zones are neither needed nor
-   allowed; 3.0 kW coils on 13 A, managed per pair, are the right size.
+1. **All hob positions share ≈ 5.6 kW**, not 11–13 kW. COK-004 (now 4 L to 95 °C in 11 min: 1.34 MJ at
+   75 % efficiency = 2.7 kW [C]) is met only while the paired coil is off. 3.5 kW zones are neither needed
+   nor allowed; 3.0 kW coils on 13 A, managed per pair, are the right size. With COK-002 at three positions
+   (M), the plan is one fast position per channel plus a third coil sharing a channel.
 2. **No water heating while the oven heats.** K6's wash-as-you-go needs ≈ 0.26 kWh per load for the 85 °C
    rinse [C: 3.2 L × 4.19 kJ/kgK × 70 K], 7 loads per meal: ≈ 2.7 kW on average over a 40-min meal. It gets
    0 kW during oven meals and stalls once its 8 L boiler is drawn down. K8's tank and boiler (8 kW), K5's 6 kW
@@ -350,10 +353,11 @@ figures. The all-ware and wash-down concepts suffer most (K1 spends 23 L on one 
 
 ### 4.5 Plating and hot-holding
 
-SRV-009: all dishes of one course at the hatch within 4 min. A main course of four hot components for four
-persons is 16 placements plus 4 sauce and 4 garnish actions: **one action every 10 s** [C] (for 2 persons
-every 20 s). That is at or beyond one plating head with ring moulds and ladles (≈ 15–30 s per component and
-plate, R5 §9.2). No concept plans for it; all hand the problem to serving in their cooking vessels:
+SRV-009: all dishes of one course for up to 4 persons at the hatch within 3 min. A main course of four hot
+components for four is 16 placements plus 4 sauce and 4 garnish actions: **one action every 7.5 s** [C] (for 2
+persons every 15 s). That is beyond one plating head with ring moulds and ladles (≈ 15–30 s per component and
+plate, R5 §9.2) unless plating starts before the 3-min window with the first plates held warm. No concept plans
+for it; all hand the problem to serving in their cooking vessels:
 
 | | Hands over [D] | Could the cell plate? | Hot-holding [D] |
 |---|---|---|---|
@@ -362,7 +366,7 @@ plate, R5 §9.2). No concept plans for it; all hand the problem to serving in th
 | K3 | vessels at R3 (z 120–290, 1.5 kW warm-hold) | partly: the belt nose lays flat items onto a dish | **R3 is the only defined hot hand-over position of all eight** |
 | K4 | tabbed vessels through the right-wall port | partly: NOSE lays flat items; no yaw for a ladle | not defined |
 | K5 | vessels by the shuttle; fried pieces sit on the fixed book leaves and must first go to a tray | no (the shuttle pours and carries) | not defined |
-| K6 | tanged GN trays and pots, "or directly from the hob" | yes, serially (≈ 24 × 10 s = 4 min) | hob positions |
+| K6 | tanged GN trays and pots, "or directly from the hob" | yes, serially (≈ 24 × 10 s = 4 min: over SRV-009's 3 min) | hob positions |
 | K7 | vessels through the right wall at bench height | partly (gripper and trays) | oven, hob, or the T1 coil (55–70 °C) |
 | K8 | GN vessels up to 8 kg at the left hatch | in principle (scoop, turner), but a clean plate entering the soiled tub is an HYG-005 problem | hob positions |
 
@@ -583,12 +587,12 @@ budgets and runs a household's day without help; 1 = cannot be made to fit witho
 |---|---|---|---|---|
 | R-1 | **Module boundary** | all: an internal handler moving vessels between preparation, hob, oven and (K2, K6, K7, K8) washing (X8) | TRN-002, MOD-001 | The **process cell is one module** (preparation, cooking, portioning **and plating**) with its own internal handler; TRN-002 applies at its boundary. Washing inside the cell only if the cell's washer also replaces the ware washer of the washing module (K8, K2), never as a third wash system |
 | R-2 | **Grip feature on ware** | K1 lift stub Ø 22 × 40 + rim ears; K2 R260 spool with neck + notched skirt; K3 tang 40 × 10 × 70; K4 ferritic dovetail tab; K5 two rim lugs + notched skirt; K6 tang 6 × 32 × 60 with two Ø 8 holes; K7 "K7 tab"; K8 bayonet/pucks on GN | seven incompatible features; the transport, washer racks, hob and oven must all clear them | **One flat tang at rim height on one side** (K6 geometry, which K3, K4, K7 approximate; a ferritic insert allowed), plus equal rims for pair inversion (catalogue R1). Transport grips the same tang |
-| R-3 | **Vessel families** | GN 2/3 (K1, K3, K6, K7, K2 flat); GN 1/2 and 1/4 (K5, K8); round Ø 220–300 (K1, K2 R260, K4, K5, K6 Ø 240) | the oven rails, hob bridge mode, washer and serving must take all | **GN 2/3 as the flat, oven and braising family** (fits compact ovens, 8 Rouladen, matches the 176 mm box family) and **one round pot family Ø 240** sized for **4 persons** (DEC-19: 6 L maximum, 28 cm pan) |
+| R-3 | **Vessel families** | GN 2/3 (K1, K3, K6, K7, K2 flat); GN 1/2 and 1/4 (K5, K8); round Ø 220–300 (K1, K2 R260, K4, K5, K6 Ø 240) | the oven rails, hob bridge mode, washer and serving must take all | **GN 2/3 as the flat, oven and braising family** (fits compact ovens, 8 Rouladen, matches the 176 mm box family) and **one round pot family Ø 240** sized for **4 persons** (COK-016 after DEC-19: pasta pot 5 L nominal, braiser ≥ 4 L, 28 cm pan) |
 | R-4 | **Box** | plain GN 176 family accepted by all; wishes: pour edge (K3, K5, K8), sifter/mesh lids (K2, K3, K4, K5, K6, K8), egg insert (K1, K2, K3, K6), plane top rim sealing under 60 N (K2), lid removed before the dock (K2) or knob for a stub (K1), lengthwise storage (K4) | X1, X4, X5; BOX-005/-007 | **Plain GN 1/9, 1/6, 1/3 with a flat lid; the lid is removed and replaced by a lid station outside the cell; the box tolerates a 135–180° tilt; inner radius ≥ 10 mm; egg insert.** Mesh lids only for flour and starch, as an option |
 | R-5 | **Stowed packs and conversions** | "arrive opened, upright, in a carrier" (K1, K2, K4, K6, K8); paste cartridges (K3), small tubes (K5), frozen pucks (K4, K7), piston cartridges (K2), dicing butter and bacon at first opening (K2) | four formats; DEC-3 (open just in time); ingestion scope | **One JIT opening cell served by the transport**, delivering opened packs upright in a GN 1/3 carrier; pastes spooned or squeezed from the opened pack. No ingestion-time conversion in the MVC |
 | R-6 | **Cold store** | freezer-airlock tempering 20–40 min (K3, K4, K5); 12–15 extra freezer positions for pucks (K7); cold sheet position (K2); chilled boxes up to 3 min at the dock (K2, K6) | CLD-004, FSF-013, CAP-022 | Not in the MVC; dock dwell ≤ 3 min accepted |
 | R-7 | **Oven** | all: a bought oven turned 90° with its mouth into the cell, machine-driven door, start without a button | does not fit the depth; MNT-001, BLD-008, COK-023 | **Front-facing oven in a transport-served column, or stacked in a 1200 mm cell and loaded by its handler — decided on a CAD model of a real appliance** before round 2 draws any cell |
-| R-8 | **Hob** | four OEM induction positions, two or four with turntables or ring drives (K4, K5, K6, K7), load cells, bridge mode for GN 2/3, 3.5 kW front zones | UTL-010/-011 | **Four 3.0 kW coils as two pairs of ≈ 2.8 kW each, on L1 and L2**; two positions with a slow turntable; bridge mode for GN 2/3 |
+| R-8 | **Hob** | four OEM induction positions, two or four with turntables or ring drives (K4, K5, K6, K7), load cells, bridge mode for GN 2/3, 3.5 kW front zones | UTL-010/-011 | **Three (M) or four (S) 3.0 kW coils on two channels of ≈ 2.8 kW each, on L1 and L2**; two positions with a slow turntable; bridge mode for GN 2/3 |
 | R-9 | **Ports** | side-wall and ceiling ports at z 120–1980 (finding m) | TRN-003, MOD-011 | **One box port in the cell ceiling or upper wall reached from an overhead transport gallery (z 2000–2200), and one ware/vessel port at deck height at the module joint**, both to the MOD-011 standard; a buffer position at the dock |
 | R-10 | **Washing** | K1: 3 loads per meal in 90 min; K3: 12–16 items per meal; K4: 36 tabbed items; K5: class R load back in 30 min; K7: 12–15 bulky items in 60 min; K2, K6, K8: own washers | D7 scope, RES-005, WSH-002 | **One commercial under-counter washer (500 × 500 rack, 2–4 min cycles, 85 °C rinse, robot-loaded) for dishes, glasses, cutlery, boxes and whatever ware the cell does not wash itself**; a ware set that needs at most one load per meal |
 | R-11 | **Serving, plating, hot-holding, drinks** | all hand over cooking vessels; K3 defines a heated hand-over shelf | SRV-005/-009, COK-017, SRV-022/-024 | **Plating in the process cell** with warmed plates brought in; **a heated hand-over shelf** at the cell's port; the serving module is dish store, dish washer, hatch and a **drink pour station** that never uses the cell |
@@ -602,9 +606,10 @@ budgets and runs a household's day without help; 1 = cannot be made to fit witho
 
 1. **Fix the budgets before anyone draws.** Every round-2 cell receives the same sheet: wall width **≤ 1200 mm
    including the oven** (or ≤ 600 mm plus a shared oven column), height ≤ 2200 mm with the top 200 mm left to
-   the transport; hob **two channels of ≤ 2.8 kW**, oven alone on the third phase, no water heating while it
-   heats; in-cell water **≤ 15 L per 2-person meal** and ≤ 1.0 kWh of cleaning; **≤ €9 k of parts** without
-   the oven; **≤ 50 handling moves per full meal**; washing noise ≤ 48 dB(A); vessels for **1–4 persons**.
+   the transport; **three heated positions** (COK-002 M) on **two channels of ≤ 2.8 kW**, oven alone on the
+   third phase, no water heating while it heats; in-cell water **≤ 15 L per 2-person meal** and ≤ 1.0 kWh of
+   cleaning; **≤ €9 k of parts** without the oven; **≤ 50 handling moves per full meal**; washing noise
+   ≤ 48 dB(A); vessels for **1–4 persons** (COK-016 as re-derived).
    A concept that cannot meet a line says by how much, with the arithmetic.
 2. **Ask the customer three questions now** (through the orchestrator): (a) BLD-004 — with storage, dish
    washing and transport at €17–23 k, is €25 k still the target, or is €35–40 k acceptable? The S target of
@@ -624,8 +629,9 @@ budgets and runs a household's day without help; 1 = cannot be made to fit witho
    the hygiene critique clears its belt and drum; K6 continues as the reference for ware, wells and
    verification, at ≤ 1.7 m and without wash-as-you-go during oven meals; **K1 and K7 stop as systems** (keep
    K1's passive-tool interface and K7's cold cabinet as optional module ideas).
-5. **Put plating into the cell** and give it a number: a course for 4 at the hatch within 4 min, i.e. one
-   placement every 10 s, or plates moving under fixed dispensers. Define the heated hand-over shelf and where
+5. **Put plating into the cell** and give it a number: a course for 4 at the hatch within 3 min, i.e. one
+   placement every 7.5 s, or plates moving under fixed dispensers, or plating started early with the first
+   plates held warm. Define the heated hand-over shelf and where
    finished components are held without blocking the hob.
 6. **Make each round-2 document carry a whole-day ledger** for the 2-person household and for a 4-person
    guest meal: water, energy, peak power per phase on a timeline for reference menus 2, 8, 9 and 15, noise by
@@ -637,8 +643,7 @@ budgets and runs a household's day without help; 1 = cannot be made to fit witho
    8, 9, 15 (one day); K8's magnet and friction rig (one week, < €1000); a handling-reliability rig that
    counts unrecovered failures per move for the chosen grip and tang (two weeks).
 9. **Rule on the requirements that fight the concepts** (R-1, R-14): a process cell with an internal handler
-   as one module; washing inside it only as a replacement of, never an addition to, the ware washer; and align
-   CAP-001/-004/-006/-030/-031, COK-016 and SRV-009 with DEC-19.
+   as one module; washing inside it only as a replacement of, never an addition to, the ware washer.
 
 ---
 
@@ -653,8 +658,9 @@ budgets and runs a household's day without help; 1 = cannot be made to fit witho
 3. The phase plan (3.2) assumes a household oven that cannot be throttled and two compressors; a three-phase
    commercial oven or a custom cavity would change it.
 4. Stoppage arithmetic (4.6) assumes 10⁻³ unrecovered failures per move as a reference, not as a prediction.
-5. The requirements are being aligned to DEC-19 while this is written; limits quoted for 6 persons (CAP-006,
-   SRV-009 etc.) were read as 4.
+5. The decisions and requirements changed four times while this critique was written (DEC-16 to DEC-19);
+   it uses the state of commit 5418e62. Later changes to storage capacity or PHY-004 move the width verdict
+   by the same amount.
 6. I read benchmark walk-throughs step by step only for B1–B3 of K1, K3, K5 and K8; other time claims were
    checked for margin and consistency, not recomputed.
 
