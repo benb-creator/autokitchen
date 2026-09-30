@@ -766,7 +766,7 @@ the operation(s).
 |----|-------------------------------|---|--------------------|------|------|
 | UO-50 | Boil BOL | 47 | up to 4 L of water, COK-004 | M | C |
 | UO-51 | Simmer / poach gently SIM; poach egg POA | 79 / 1 | 60–98 °C ±3 K (POA: S) | M | C |
-| UO-52 | Steam STM | 3 | up to 1.5 kg of food | M | C |
+| UO-52 | Steam STM | 3 | up to 1.0 kg of food | M | C |
 | UO-53 | Blanch and shock BLA | 3 | — | S | C |
 | UO-54 | Sauté / sweat SAU, incl. slow caramelising of onions | 84 | 100–180 °C, with stirring | M | C |
 | UO-55 | Sear SER; pan-fry PFR; browned on both sides FLP | 25 / 43 / 32 | COK-005, COK-009; surface up to 260 °C | M | C |
