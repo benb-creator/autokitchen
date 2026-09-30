@@ -506,7 +506,7 @@ M = sound but needs a bench test, L = speculative. "Hands" = number of hands bus
 | Roll out dough (ROL) | Tray-size: dough on a mat in the tray on the bench, rolling pin V11 on the rod axis, 150–200 N, linear passes in two directions, thickness from Z at contact. Round: cone roller V12 on the turning board. The mat or tray goes to the oven; the sheet is never lifted. | 3 min | 1 | H | spring-back of yeast dough; corners |
 | Shape dough (SHD) | Loaf in its tin; rolls: knife portions by weight, rounding cup; pizza: as ROL. | 10 s per roll | 1 | M–H | — |
 | Line a tin with a sheet (LIN) | Sheet rolled on a mat; tin set upside down on it; pair turned with the turn-out plate sequence; press plate presses the sheet into the corner. | 2 min | 1 | L–M | sheet tearing at the edge |
-| Knead (KND, KNM) | 8.5 L bowl on BT turning at 8 rpm; hook V7 on T1's yaw at 60–100 rpm and 15–20 Nm, 60 mm off the bowl axis. Energy target from the yaw torque. 100 g of dough: jug bowl. | 8 min dough; 90 s mince | 1 | H | side load on the rod from stiff dough (est. 100 N) |
+| Knead (KND, KNM) | 8.5 L bowl on BT turning at 8 rpm; hook V7 on T1's yaw at 60–100 rpm and 15–20 Nm, 75 mm off the bowl axis. Energy target from the yaw torque. 100 g of dough: jug bowl. | 8 min dough; 90 s mince | 1 | H | side load on the rod from stiff dough (est. 100 N) |
 
 ### 4.3 Peeling, trimming, cutting, egg
 
@@ -581,7 +581,7 @@ Onions are bought peeled; all times and counts are estimates [E].
 | 153 | Three lidded vessels ready at ≥ 65 °C | |
 
 Result: **yes**, provided the untied, packed rolls stay closed (otherwise pins, + 2 min). Elapsed 153 min
-(limit 182). About 280 handling moves, of which 38 tool changes and about 70 are relays. Soiled: 3 cooking
+(limit 183). About 280 handling moves, of which 38 tool changes and about 70 are relays. Soiled: 3 cooking
 vessels with lids and basket, tray, 7 cups, 2 beakers, 2 cassettes, red mat, board disc, 2 rails with 10
 tools, 3 roll heads with 8 stub tools — about 45 items, 3 washer loads.
 
@@ -728,7 +728,7 @@ Result: **yes**. Elapsed 38 min. About 140 moves. Red board, knife and comb go t
 
 Result: **yes**. Elapsed 125 min. About 230 moves.
 
-### B11 Rührkuchen in a tin, unmoulded — T_ref about 100 min (bake 60, cool 20), limit about 125 min
+### B11 Rührkuchen in a tin, unmoulded — T_ref 100 min, limit 125 min
 
 | t | Step | Hands |
 |---|---|---|
@@ -762,7 +762,7 @@ six tools, three roll heads and a rail) for one portion: one full washer load.
 
 | # | Meal | Result | Elapsed / limit (min) | Moves | Depends on untested |
 |---|---|---|---|---|---|
-| B1 | Rouladen, Rotkohl, Salzkartoffeln | yes | 153 / 182 | 280 | mandrel roll; untied braise |
+| B1 | Rouladen, Rotkohl, Salzkartoffeln | yes | 153 / 183 | 280 | mandrel roll; untied braise |
 | B2 | Schnitzel, Bratkartoffeln, Gurkensalat | yes | 62 / 67.5 | 210 | breading coverage |
 | B3 | Frikadellen, Püree, Erbsen-Möhren | yes | 41 / 50 | 190 | air corer release |
 | B4 | Spaghetti Bolognese | yes | 72 / 96 | 150 | — |
@@ -772,7 +772,7 @@ six tools, three roll heads and a rail) for one portion: one full washer load.
 | B8 | Pfannkuchen × 8 | yes | 42 / 50 | 190 | pan-pair flip |
 | B9 | Chicken curry, rice | yes | 38 / 56 | 140 | — |
 | B10 | Lasagne | yes | 125 / 148 | 230 | — |
-| B11 | Rührkuchen, unmoulded | yes | 98 / ≈ 125 | 110 | unmoulding |
+| B11 | Rührkuchen, unmoulded | yes | 98 / 125 | 110 | unmoulding |
 | B12 | Scrambled eggs, toast, 1 person | yes | 9 / 17 | 60 | egg station fragments |
 
 No benchmark needs an adapted method beyond the oven fries that the brief's B7 already names. None has
@@ -807,4 +807,371 @@ The 15 reference menus of corpus 4.9, read against sections 4 and 5:
 
 ---
 
-[[PART4]]
+## 6. Cleaning
+
+### 6.1 Principle and zones
+
+By intent the cell has **no fixed food-contact surface**: food touches only ware. The fixed cell is Zone S.
+The exceptions are the three rod tips (they sit inside tool sockets directly above food) — treated as
+Zone F and washed in the collar after every use.
+
+| Group | Zone | Area [E] | Cleaned |
+|---|---|---|---|
+| Ware: vessels, lids, trays, cups, tools, roll heads, fixtures, board discs, mats, rails | F | about 3.5 m² per 4-person meal | wash chamber (the R6 backbone, programme P1), after each meal |
+| Rod tips and the lowest 100 mm of the rods | F | 0.04 m² | collar, after each use |
+| Rods above that, ram | S, above food | 0.17 m² | collar, at every retraction |
+| Ceiling sheet and discs | S, above food | 0.91 m² | lance, squeegee |
+| Seam gaps (both walls of 7.3 m × 45 mm) | S, above food | 0.65 m² | top-fed flush |
+| Walls, door inner pane, port gate, oven collar | S | 2.4 m² | lance, squeegee |
+| Deck with hob plates, bench, gutter, dock shelf, BT pedestal, pegs | S | 1.2 m² | lance, fixed gutter nozzles, squeegee |
+| Extraction slot and duct to the condenser | S | 0.3 m² | fixed nozzles weekly (HYG-039) |
+| **Fixed Zone S total** | | **about 5.6 m²** | |
+
+Measures that keep the area down (HYG-002): food only on ware; lids on simmering vessels; the air flow
+from the seams to the extraction slot behind the hobs; searing only under turret 3. The fixed area is
+nevertheless large for a preparation cell, because the hobs are inside it and the ceiling cannot be
+shielded.
+
+### 6.2 After every meal
+
+| Step | What | Time | Water |
+|---|---|---|---|
+| 1 | Leftovers scraped into the gutter (spoon-scraper), pans' fat poured into a fat cup, cooking water removed by the drain wand | 2–4 min | — |
+| 2 | Cold rinse of the worst ware in the jet gate (starch, egg, dough) so that nothing dries on (rule R11) | 1–2 min | 2–3 L |
+| 3 | Ware out: tools back on their rails or rim rests; 25–45 items relayed to the port | 5–8 min | — |
+| 4 | Rods through their collars with 80 °C flush, 60 s after class R work (A0 60), otherwise 10 s | 1–3 min | 1–2 L |
+| 5 | Wash-down of the cell (6.3) after every warm meal; after a cold or 1-person meal only the deck round the used stations | 33 min / 5 min | 33 L / 4 L |
+| 6 | Ware in the wash chamber: 3 loads for a full menu, 1 for a light meal, 55–75 min each [S, R6] | in parallel | 17–20 L each |
+
+### 6.3 Wash-down of the cell
+
+All ware and all fixtures are out; the cell contains three rods, the pedestal, six pegs and the dock shelf.
+
+1. Squeegees sweep crumbs and peel to the gutter; gutter nozzles flush them to the chip drain (1 min).
+2. Each hand takes a rotary jet lance (two Ø 1.2 nozzles, 5 bar, 4 L/min, plus a ring of back nozzles that
+   spray up along its own shank). Pass 1: recirculated pre-rinse at ≤ 35 °C, 8 L from the sump, then
+   drained. Pass 2: 8 L with alkaline enzymatic detergent at 55 °C, recirculated. Pass 3: fresh water at
+   80 °C, 1.5 L/min per lance. Each pass follows a fixed path at 100 mm stand-off, 150 mm swath, 60 mm/s:
+   1.9 m² per hand in 3.5 min. The path is a program; coverage is the same every day and is validated once
+   with riboflavin (HYG-019, HYG-027).
+3. During pass 2 the six seams are flushed one after the other (30 s each, discs turning), during pass 3
+   each with 5 s of fresh hot water.
+4. Squeegees wipe ceiling, walls and deck (3 min). Each hand wipes the ceiling round its neighbour's rod.
+5. Dry-out: ceiling heater on, 60 °C air through the seam inlets for 15 min, extraction running.
+
+Totals [E]: **33 min, 33 L** (8 + 8 recirculated, 16 + 1 fresh), **1.8 kWh** (heating 1.4, pumps 0.1, air
+0.3). The final rinse could be kept as the next pre-rinse (−8 L).
+
+**Drying.** Steel at 80 °C flashes dry; the squeegee takes the sheet water; the heated ceiling stays above
+the dew point during cooking and drying. The seam gaps are dried by their own air flow. The PEEK scraper
+rings and the door gasket stay wet longest (est. 30 min).
+
+**Verification (HYG-026).** Logged per cycle: lance path completed, flow and pressure per lance, liquor
+and rinse temperature, flush flow per seam, conductivity of the last rinse water at the drain, lantern and
+trough sensors dry. The ceiling cameras compare deck and walls with the clean reference image at 500 lx.
+Weekly: a riboflavin solution is sprayed by one lance, the normal pass 3 follows, and the cameras look
+for fluorescence under UV LEDs (SM-207). A part of the cell that fails is washed again by a local path
+(section 9). Ware is verified in the wash module.
+
+### 6.4 Per meal: water, energy, time
+
+| | Full warm meal for 4 (B1–B3 class) | Light meal (B12) |
+|---|---|---|
+| Ware loads | 3 × 18 L, 3 × 1.3 kWh | 1 × 18 L, 1.3 kWh |
+| Cell | 33 L, 1.8 kWh | 4 L, 0.2 kWh |
+| Jet gates, collars, pre-rinse | 5 L, 0.2 kWh | 1 L |
+| **Total cleaning** | **about 90 L, 5.9 kWh** | about 23 L, 1.5 kWh |
+| Hand time after the meal | 10–17 min of relays and rinsing, then 33 min wash-down | 4 min + 5 min |
+| Until everything is clean and dry | 3 h with one wash chamber (three loads in sequence) | 75 min |
+
+These figures miss RES-005 (45 L per reference meal) by a factor of two and RES-001 (4.0 kWh including
+cooking) clearly, and PERF-005 (completely clean within 90 min) unless the wash module has two chambers or
+is a fast tank washer. Three fifths of the water is the ware, which is the price of "everything is a
+passive loose part": a B1 menu soils about 45 items.
+
+### 6.5 Raw meat and ready-to-eat food in one meal (FSF-040, PRP-032)
+
+* Separate instances: red board disc, red mat, red breading trays, red knife, comb, fork and tongs.
+* Order: ready-to-eat components first, raw animal food last (SM-208). When the order cannot be kept
+  (B1: potatoes after the Rouladen) the red ware leaves the cell first, the bench is rinsed with the lance
+  at 80 °C (1 min), and the rods that carried red tools pass the 60 s hot collar flush.
+* Raw meat is never carried over open ready-to-eat food (FSF-041): raw work is on the bench and travels
+  right to zone 3 only; salads are made on BT and leave to the left.
+* The deck is never a food surface. Food that falls on it is discarded.
+
+### 6.6 Peelings, scraps, liquids
+
+Peel, shells and trimmings are swept off the board's rear edge or dumped from the shell cradle into the
+**rear gutter**, which runs along the back wall under the rails and jet gates and falls to the chip drain
+at x = 550. They never pass over a vessel (PRP-033). Below the drain a perforated **chip box** in
+storage-box format (2 mm holes) keeps the solids; wash water runs through it to the sump, a self-flushing
+fine filter and the drain pump. The transport system takes the chip box away to the organic waste and the
+box washer (request A8). No macerator. Frying fat goes into a fat cup and leaves as ware. Cooking water is
+drawn off by the drain wand and mixed with cold water to below 75 °C.
+
+### 6.7 Every crevice, seal and spray shadow
+
+| # | Place | Why it is a concern | What is done | Residual risk |
+|---|---|---|---|---|
+| 1 | Seam gaps, 4 × 45 mm, 7.3 m | above food; the fixed coaming wall carries the jets and may stay partly dry | jets on the turning rim wall, film and splash on the other; air sweep in operation | **high until a riboflavin test passes** |
+| 2 | Collar scraper rings (4) | soil collects under the lip | flush ring directly above, LRU cartridge | medium |
+| 3 | Core-shaft seal, hex and bore at each rod tip | dynamic seal and a Ø 4 bore on a food-side surface | collar flush, bore flushed top-down after every fluid use, air purge, LRU tip | medium |
+| 4 | Bayonet taper and pins of the rod | contact faces under a tool | exposed and flushed whenever the tool is off | low |
+| 5 | Ring of disc surface Ø 45–120 round each rod | shadowed by the lance's own body | back nozzles of the lance; neighbour's squeegee | medium |
+| 6 | Underside of the BT umbrella skirt and the boss | upward-facing shadow | four fixed nozzles inside the annulus, drains to the deck | low–medium |
+| 7 | Six wall pegs, dock shelf posts | fillets, undersides | lance path goes round each; round bar only | low |
+| 8 | Hob plates: silicone joint between glass and deck | joint can lift; burnt-on spill on the glass | flush bonded, no step; detergent pass; a scraper tool is **not** provided | medium for burnt sugar or milk |
+| 9 | Door gaskets and sill, port gate seal, oven collar gasket, oven door outer face | static seals with a fold; the oven front must tolerate jets | drained sill; lance angle limited at the gaskets | medium; depends on the oven (request A4) |
+| 10 | Camera and light windows | bond line; fogging | heated, flush | low |
+| 11 | Extraction slot and duct | grease condensate out of lance reach | fixed nozzles, weekly hot cycle, removable condenser cassette | medium |
+| 12 | Gutter, chip drain, chip box, sump, filter | wet, soiled, warm | flushed at every wash, sump emptied and dried, chip box exchanged | low |
+| 13 | Ware: roll head worm and bushes, die-grid blade roots, J-slots of the sockets, hook tabs of the pans, tong hinges | the only real mechanisms in the food zone | open construction; wash chamber; grids monobloc; cold rinse within minutes | medium for the grids and the worm |
+| 14 | Dry side of the coamings: V-rings, leak-off troughs | water shot over a coaming | trough drain with sensor | low |
+
+---
+
+## 7. Numbers
+
+| Item | Value [E] |
+|---|---|
+| Wall width | cell 1700 outside (1650 inside); with the oven niche 2270. Two-turret variant: 1150 / 1720 |
+| Height use | sump and services 0–850, cell 850–1400, drive room 1400–2000 |
+| Servo axes | 17 (3 × 5 hands, ram, turntable); with dock tilter, vibrator and oven door 20 |
+| Valves | about 25 (9 rod media, 7 seam diverter, 2 jet gates, gutter, lance feed, boiler, drains, inlet) |
+| Load cells | 11 (dock 3, C1 1, W 1, BT 3, hob block 3) |
+| Cameras | 3 in the free ceiling corners, plus 2 light windows |
+| Dynamic seals at the cell | 3 core seals and 4 collar lip seals behind scrapers; 6 V-rings outside the coamings; 0 in the deck |
+| Custom machine part types | about 25 (cell tub, ceiling with coamings, 9 per turret cassette, ram, pedestal, collar and tip cartridges, dock shelf, gate) |
+| Tool and fixture types | 46, in about 75 pieces |
+| Vessel types with welded features | 15, in about 35 pieces |
+| Loose parts in total | about 110 |
+| Skills to program (canned cycles with probe, process, verify) | about 38 |
+| Handling moves per meal | 110–280 for the 4-person benchmarks, mean 175; 60 for B12 |
+| Tool changes per meal | 20–40 at 6–8 s |
+| Reliability needed per move | for 98 % of meals (REL-001) at 175 moves: ≤ 1.1 × 10⁻⁴ unrecovered failures per move |
+| Peak power | hob block 11 kW nameplate, held to 7 kW by the power manager; oven 3.3 kW; boiler and sump heater 2 kW (not during searing); drives 0.4 kW average, 1.5 kW peak |
+| Heat to the room | 0.3–0.5 kW average during cooking after condensation [E, rough] |
+
+**Parts cost estimate** (EUR, ±30 %, without the oven, the wash module, assembly and development):
+
+| Group | Cost |
+|---|---|
+| Three turret cassettes (each: rings and rollers 250, discs and coamings 600, rod with core shaft 500, Z axis 250, five drives 1000, collar and tip 200, cabling 100) | 8 700 |
+| Press ram with C-frame | 700 |
+| Turntable with load cells | 600 |
+| Cell tub, ceiling, door, port gate (welded 1.4404, polished inside) | 3 500 |
+| Frame, drive room, panels | 800 |
+| Wash and water system (sump, two pumps, heaters, boiler, 25 valves, nozzles, filter, chip box) | 1 300 |
+| Air (filter plenum and fan, extraction, condenser, ceiling heater) | 700 |
+| Cameras, lights, load cells, flow meters, leak sensors | 900 |
+| Hob block (four OEM induction modules, glass plates) | 1 200 |
+| Tools and fixtures (75 pieces; roll heads 350, cassettes 250, others 30–80) | 4 500 |
+| Vessels (35 pieces, bought and modified) | 2 400 |
+| Control (17 axes, I/O, computer, safety relay) | 2 200 |
+| **Total** | **about 27 500** |
+
+The hands alone cost 8 700, in line with D:A's 9 000–11 000 for three turrets.
+
+**Noise sources.** Stick blender at 6000 rpm (short); knife on the board at 2 cuts per second; ram strokes
+and the cut-off sweep; turntable spinning a basket at 600 rpm (imbalance); belts of six disc drives; air
+(130–180 m³/h in total); and the wash-down, where three 5 bar lances play on 5 m² of stainless sheet for
+10 min. The cell is a steel drum: without damping mats on the dry side the wash will probably exceed the
+48 dB(A) of NOI-002. Not estimated in numbers.
+
+**Two-turret variant.** T1 with dock and BT, T2 over the hob block, no bench (tray work on cold hob
+positions, flat work on BT): 12 axes, 1150 inside, about 23 000 EUR. It loses the parallel hand during
+cooking: B2 and B6 exceed their limits, B1 grows by about 15 min [E]. It is a fallback for narrow kitchens,
+not the proposal.
+
+---
+
+## 8. Coverage estimate
+
+Method: the requirement's own list of eight meals that fall out (5.4), plus every corpus meal whose hard
+operation has no mechanism in section 4, under purchase scenario S1 (MEAL-012). This is a reading of the
+corpus rows against the operation table, not a walk-through of 248 meals.
+
+**Meals that fall out**
+
+| Meal | Reason |
+|---|---|
+| CK11 doughnuts, DM21 goose, DS13 ice cream, BF08 waffles, AS05 sushi, BK06 pretzels, CK08 Black Forest cake, BK02 sourdough | excluded by the requirements (X-01, X-04, X-07, X-09, X-11, X-12) |
+| DM12 Kohlrouladen | whole cabbage leaves cannot be separated (LSP); rolling itself would work |
+| AS08 spring rolls, AS09 gyoza, IN07 samosa | folding, pleating and sealing thin wrappers round a filling: no mechanism (part of gap G4) |
+
+12 of 248 fall out: **95.2 % on paper**, exactly at the limit, with no reserve.
+
+**Meals that depend on a medium-confidence mechanism**
+
+| Mechanism | Meals at stake | Examples |
+|---|---|---|
+| Pan-pair flip | about 5 | BF06, SP11, DS05, thick omelette, Rösti |
+| Mandrel or mat rolling; untied braise | about 12 | DM02, MX03, CK12, CK13, bacon wraps, enchiladas |
+| Unmoulding | 11 | CK01–CK07, CK16, DS03, DS08 |
+| Open-hand assembly | about 10 | US01, US02, US08, MX02, BF11, BF14, AS06 |
+| Egg station (where liquid egg cannot replace it) | 5 | BF03–BF05, BF12, BF14 |
+| Air-corer forming, rounding | about 12 | DM01, DM10, ME09, SD07, SD21, CK14 |
+
+If every one of these mechanisms works, coverage is 95 %. If each fails in a quarter of its meals, 10 to
+14 more fall out: about **90 %**. My estimate is **90–95 %, most likely 92 %**, below the requirement
+until the medium items are proven. The source documents claimed 93–96 % (A:A2) and 90–96 % (D:A); the reach
+correction of 2.2 does not remove any operation, it costs time.
+
+**Other coverage requirements**
+
+* MEAL-004 (every category ≥ 85 %): missed in the Asian category (3 of 12 out: 75 %).
+* MEAL-005 (the brief's meals): all have a mechanism; Rouladen depend on the untested securing.
+* MEAL-009 (≥ 90 % from whole produce): not met. Onion peeling (52 % of meals) has only an upgrade slot;
+  herb stripping, bean and sprout trimming in quantity and pepper deseeding are slow or uncertain.
+* MEAL-013 (adapted methods ≤ 10 %): the requirements themselves adapt 20 meals (deep-frying 10, stir-fry 7,
+  skewer and skimming 3 = 8.1 %). K1 adds roast chicken without trussing and carved as parts (DM20), whole
+  fish carved by the guest (FI07), and, if packing is judged not to be "securing", the Rouladen family
+  (up to 4). Total 22–26 meals, **8.9–10.5 %**: at the limit.
+* PERF for 6 persons: not shown. Per-piece operations scale linearly; B3 and B6 are already at their
+  4-person limits.
+
+---
+
+## 9. Failure modes and recovery
+
+| Failure | Detection | Recovery | Human needed? |
+|---|---|---|---|
+| Tool not picked up, or dropped | Z motor current shows no tool weight; ceiling camera | retry twice with a 0.5 mm search spiral; a tool lying on the deck is taken by another hand's tongs and sent to the washer; a spare is used | no, unless it fell into a full pot: then tongs, else the batch is discarded |
+| Tool does not release (soil in the socket) | yaw torque at release | flush the socket from inside through the bore, retry; park the hand with the tool on and continue with two hands; washer at the end of the meal | no |
+| Stub does not lock, vessel slips from the roll head | roll torque and weight signal | worm is self-locking, so nothing swings; lower, re-seat, retry; a dropped vessel of ≤ 4 kg falls ≤ 250 mm onto the deck: contents discarded, deck rinsed | no; the meal may be lost |
+| Jam in a die cassette | ram force above limit, or no stroke | retract; push-out foot cycles twice; cassette changed for a spare and sent to the washer; piece diced by knife instead | no |
+| Blade or grid wire broken (PRP-035) | camera check of blade and grid after every cutting cycle; cut force signature | batch discarded, tool quarantined | blade exchange at the next service (HUM-007) |
+| Food dropped on the deck | camera | discarded, swept to the gutter; dosing repeated by weight | no |
+| Food stuck: patty in the air corer, dough in the bowl, pancake in the pan, cake in the tin | weight not transferred; camera | second air pulse or tap; scraper by the second hand; pancake loosened with the wide turner before the flip; a cake that tears is served as it is or discarded by rule | no |
+| Egg with shell fragments or broken yolk | camera on the inspection saucer | saucer emptied to the gutter, next egg | no |
+| Roulade opens while searing | camera | re-rolled with tongs and pinned | no |
+| Pan pair does not hook, or separates | weight and roll torque during the first 10° of lift | set down, re-seat once, otherwise turn the item with the wide turner (may break) | no |
+| Rod collar leaks | lantern sensor | finish the meal; collar cartridge exchange | service, 15 min |
+| Seam: water over the coaming | trough sensor | wash continues with reduced lance pressure near that seam; if repeated, V-ring or flush check | service |
+| Turret axis fault | following error | the other two turrets take over within their reach. With T1 or T2 down most meals run slower; **with T3 down only the left hob column (H1, H2) can be served, by T2, and the oven not at all** | service; limp-home covers roughly half of the menus [E] |
+| Part fails cleaning verification | camera or tracer check | cell: local lance path repeated once, then flagged; ware: rewashed by the wash module, spare used | only after a repeated failure |
+| Power loss | — | Z brakes hold the rods, the worm holds tilted vessels, hobs off; on return each hand sets its load down, state is rebuilt from the cameras and the weights; open food beyond its time limit is discarded (UC-12) | no |
+| Human reached into the cell (jam clearing, service) | door interlock | all rods retract fully into the ceiling and the ram rises before the door unlocks, so the open cell contains no moving part (SAF-033, SAF-035); wash-down before food contact resumes (HYG-007) | — |
+
+---
+
+## 10. Top risks, each with the cheapest experiment that confirms or kills it
+
+| # | Risk | Consequence if true | Cheapest experiment | Kill criterion |
+|---|---|---|---|---|
+| 1 | The coaming gap cannot be flushed clean, or drips after the wash | 7.3 m of uncleanable gap above food: the concept fails HYG-004/-019 and has no fallback inside itself | One seam at full size: a laser-cut Ø 500 disc on a lazy-Susan bearing in a transparent acrylic coaming with the flush groove, a garden pump, a fan. Soil with flour paste and sprayed oil, dry 2 h, flush, inspect with riboflavin under UV. 3 days, < 500 EUR | any fluorescence on either wall after the standard flush, or any drop leaving the gap later than 10 min after it |
+| 2 | With rod-axis reach of Ø 400 and no overlap, relays and tool changes make meals too slow and too many moves fail | PERF-001 and REL-001 missed; for 6 persons certainly | (a) Half a day: a full-size plywood deck with the real vessels; three people, each holding one stick through a Ø 400 hole in a board at ceiling height, play B3 and B1 against a clock. (b) One week: a kinematic script that runs the B1–B3 step lists with real axis speeds and collision checks | B3 for 4 persons above 50 min, or more than 250 moves, with no obvious re-layout |
+| 3 | The pan pair turned in the air leaks fat, does not hook with slightly warped pans, or tears pancakes | every whole-pan item falls back on a turner (corpus difficulty 5); about 5 meals | Two identical Ø 280 pans with tack-welded tabs and half stubs on a hand crank: 8 pancakes, 2 omelettes, 1 Rösti with 10 g of fat. 1 day | fewer than 9 of 11 intact, or fat leaving the pair |
+| 4 | An untied Roulade opens during the braise; the mandrel does not grip a wet slice | the brief's named dish needs pins, or fails | By hand: slotted Ø 12 rod, 8 Rouladen rolled along the slice, packed in a Ø 260 pot, seared, braised 100 min. 1 day | more than 1 of 8 open, or the mandrel slips on more than 1 of 8 |
+| 5 | Bayonet or stub pick-up fails on soiled sockets | a stopped meal every few days at 30–45 changes per meal | Socket and spigot in a CNC mill or drill press, 1000 cycles, socket smeared with flour paste, then mince, then dried starch. 3 days | more than 1 failure in 1000 without cleaning in between |
+| 6 | The roll head's open worm gear holds soil or wears into the food | the wrist, on which reach, flipping and pouring rest, is not acceptable as ware | One head (printed frame for the test, real worm and PEEK wheel), soiled with egg and mince, dried 1 h, household dishwasher, ATP swab and inspection; then 20 000 roll cycles under 4 kg and a particle check. 1 week | ATP above the pass limit in the mesh, or visible wear debris |
+| 7 | Rod collar and core seal do not survive wet, starchy, greasy strokes | leaks into the drive room; the only dynamic seals on the food side fail early | One rod rig: 10 000 strokes and 100 h of core rotation with starch water and oil on the rod. 2 weeks unattended | lantern wet before 10 000 strokes; core seal leaking outwards |
+| 8 | The lance leaves shadows on the ceiling round its own rod and behind the pedestal | HYG-019 failed after selection | Same mock-up as risk 1 plus a lance on a stick through the rod hole, following the planned path by hand; riboflavin | any shadow that a path change does not remove |
+| 9 | 38 skills with vision and force thresholds take years, not months | coverage on paper only (the weakness both inventors named) | Implement the three hardest on a single-turret rig: spit peeling with patch detection, Roulade rolling, egg station with inspection. 6–8 weeks | none reaches 95 % first-time success |
+| 10 | Water, energy and wash capacity: 45 soiled items and 5.6 m² of cell per menu | RES-001, RES-005 and PERF-005 missed by a factor of about two | Desk study with the wash-module explorer: racks for the K1 ware set in a 480 × 480 × 400 chamber; count loads for B1–B3 | more than two loads per full menu with no faster washer in the architecture |
+| 11 | Grease aerosol and steam deposit on the heated ceiling and inside the gaps in spite of the air sweep | daily wash becomes a scrubbing task; smell | Sear 4 steaks under a heated steel plate with a 4 mm gap and 0.3 m/s outflow, 400 mm above the pan; weigh and inspect the deposit. 1 day | visible film inside the gap after one session |
+| 12 | The air corer does not release sticky mince | forming falls back on slab and ring cutter (slower) | A Ø 60 tube and a bicycle pump, 600 g of Frikadellen mass. 1 hour | fewer than 9 of 10 portions released by one pulse |
+
+## 11. Improvements found, and what changed from the catalogue definition
+
+### 11.1 Changes (each is a deviation from K1 as defined in the catalogue)
+
+| # | Catalogue or source said | This document | Why |
+|---|---|---|---|
+| 1 | Reach Ø 470–480 for Ø 470–500 discs; two rods pinch large objects | Reach Ø 400 for Ø 500; circles never overlap; one-hand carrying; layout built round that | the drawn geometry puts the rod outside the inner disc (2.2) |
+| 2 | Flush ceiling with PTFE-lip labyrinth or inflatable seals in the seam | Open coaming gap, air-swept in operation, flushed from the top in the wash; V-ring on the dry side; the seams are the cell's air inlets | takes the dynamic seal and its debris out of the food zone; gives the gap a defined cleaning flow |
+| 3 | One rod with a welded roll elbow and a Ø 20 seal in the cell | Every rod is plain and has a coaxial core shaft; the wrist (roll head) is a passive part of ware | rods retract completely through their collars; all three hands are identical and can flip, pour and relay; the offset of the wrist repairs the reach |
+| 4 | Push rod through the rod (three-media interface) | Core rotation instead of a push rod, plus the fluid bore | one rotary lip seal instead of a sliding seal at the tip; also drives the blender |
+| 5 | Turret spins as a planetary mixer | Discs limited to ±190°; the bowl turns on the turntable | no slip rings or rotary water joints on the discs |
+| 6 | Turning and tilting board; separate spin chuck | One turntable pedestal on the zone boundary that does not tilt: board, relay between two hands, carousel under the ram, mixing and spin chuck | a tilt axis through the deck is not a round penetration; one axis instead of three |
+| 7 | 3 kN quill, or a press bracket | Fixed ram in the ceiling triangle between two turrets; die cassette on wall pegs; cut-off by a hand-held blade | keeps press load out of the seams; no cut-off actuator |
+| 8 | Flip bracket or tip bar on the wall | Hermaphroditic pan pair with half stubs, turned in the air by the roll head | a fixed bracket would be in the wrong zone for the cook hand; no vessel position is lost |
+| 9 | Holsters with local wash, or magnet-parked utensils | Two tool rails that are ware; cooking tools ride on the rim of their vessel; spin-rinse in a jet gate | holsters are fixed structured surfaces in the cell; there is no room above the hobs |
+| 10 | Pocket band or mat roll for Rouladen | Slotted mandrel rolling along the stationary slice | one hand, one trivial part; no band to drive or wash |
+| 11 | Slab and ring cutter, or press-pot extrusion for patties | Air corer: a plain tube, ejected by an air pulse through the rod bore | no mass transfer, no trimmings, 8 s per patty |
+| 12 | Board tilts and is scraped into the pot; hands carry vessels | Everything travels between zones in 1.5 L prep cups with a stub | follows from change 1 |
+| 13 | Side-wall lathe spindle as an option | Not included | the roll head is a hand-held horizontal spindle |
+| 14 | Ceiling sloped 5° (A:A2) | Horizontal, heated, wiped | discs cannot be sloped to a gutter |
+
+The most valuable of these is change 2 together with change 3: the concept's acknowledged weak point, a
+large dynamic seal above open food, is replaced by an open gap that can be given air and water on purpose,
+and the rod becomes a plain cylinder that leaves the cell completely.
+
+### 11.2 Improvements not yet taken, and what I would borrow
+
+* **Breading by flipping a locked tray pair** (SM-093, from the vessel lens): two GN 1/4 trays with the same
+  half stubs as the pans, turned and shaken by the roll head; the cutlet is never gripped. Probably better
+  than the fork method; one more pair of welded trays.
+* **Pots that turn on their hob against a hung scraper** (SM-180, SM-225): four more axes and four large
+  deck seals, but continuous stirring would no longer bind the cook hand. The single most useful addition
+  for 6 persons.
+* **A fast tank washer** in place of the 60-minute chamber (K6, SM-201): K1 soils more ware than any
+  concept with fixed stations, so it gains most from a 3–4 min cycle.
+* **Crust-freezing of meat slices** (K7, SM-240) or interleaving at ingestion, for the unsolved
+  singulation of slices that stick together.
+* **A belt and cross blade** (K3, SM-017) would slice and carve better than knife and comb. Excluded by the
+  concept; a die cassette with a slicing harp under the ram is the in-concept substitute for firm produce.
+* **A piston tube** (K5, SM-117) as the former cassette, filled by the air corer, for masses that must not
+  be smeared through a bowl transfer.
+* **A ware hatch in the deck** above an under-deck wash chamber with a rising rack (top-loading), so that
+  soiled ware leaves zone 2 straight down and not by three relays to the left port.
+* **The front door as serving hatch**: because all rods retract into the ceiling, the open cell is free of
+  moving parts. Plates filled on the bench could be taken from there. It costs a wash-down after each
+  serving (HYG-007) and is an architecture decision.
+
+## 12. Open issues and requests to the architect
+
+### 12.1 Open issues
+
+1. The layout was fitted by hand to a rod-axis coverage of 42 % of the deck. It has not been checked for
+   collisions between two rods with tools over the turntable, nor for the reach of the oven rack. The Z
+   stroke has no margin against the 2000 mm height.
+2. Six-person times were not walked through; B3 and B6 are at the 4-person limit already.
+3. The bench has no scale. Weighing is at the dock, C1, W, the turntable and the hob block; the hob block
+   weighs its four positions as one sum.
+4. The drain wand sucks cooking water through a rod bore that also doses drinking water into food. A hot
+   flush after each use is planned; whether this is acceptable, or the wand needs its own path, is open.
+5. Warm-holding (COK-017) uses the oven at 70–80 °C when it is free, otherwise a lidded vessel on a hob at
+   low power. There is no warming drawer in reach of the hands.
+6. Chilling, resting and proofing in cold storage go out and in through the single port.
+7. I assumed a full wash-down after every warm meal because of grease on the ceiling; HYG-034 asks only
+   for daily. With one wash-down per day the cell's share falls from 33 L per warm meal to about 17 L.
+8. Gaps of the catalogue that K1 does not close: onion peeling (G1, only a test slot), herb stripping (G2),
+   flat pockets and folded wrappers (G4), bone-in carving (G5), whole cabbage leaves (G7), trussing (G8),
+   slices stuck together (G9). G3 (open-hand assembly) and G10 (trimming small items) are covered at
+   medium confidence and slowly.
+9. Programming effort for about 38 skills is not estimated.
+10. Noise of the wash-down and of chopping is not estimated.
+11. Storage volume for about 110 loose parts plus a second set of the frequent ones, and the racks that hold
+    them in the washer, are not designed.
+12. Plating is outside the scope; the hands could do it (ladle, tongs, turner, pipette under a ceiling
+    camera) if plates reach the bench.
+13. The burnt-on spill on a hob plate has no mechanical remover.
+
+### 12.2 Requests to the architect
+
+| # | Request | Collides with |
+|---|---|---|
+| A1 | **Vessel standard**: two rim ears (span 290) on every vessel; a horizontal lift stub Ø 22 × 40 on every vessel up to 4 kg gross, on cups, lids, baskets, rails and roll heads; half stub and hook tab on frying pans, turn-out plates and tin carriers; a V-saddle tool rest on pot rims. Hob, oven rack, wash racks and store must clear these features. | one vessel interface for all modules |
+| A2 | **Box**: lid with a knob that a stub socket can take, or boxes delivered open; wiper insert for spice boxes; egg-tray insert; a perforated chip box in box format. No other change: K1 reaches into a plain open box and also uses the common dock tilter. | BOX-005, BOX-007 (catalogue X1, X4, X5) |
+| A3 | **Port**: one lift-gate 380 × 300 in the left end wall, with the dock shelf inside the cell. The transport system must bring and take not only boxes but ware: rails 450 long, trays 400 × 300, vessels to Ø 360. A second way out for soiled ware (deck hatch to the wash module, 11.2) would remove about 70 relay moves per full menu. | TRN-002; catalogue X8 |
+| A4 | **Oven**: compact combi-steam oven turned by 90° at the right end, its mouth in the cell wall. Needed: a front that tolerates wash jets (IPX5) or controls behind a sealed cover, a driven door that does not swing into the hob block (side-hinged or sliding), telescopic rack with a front bar at deck + 250, local control without a button press (COK-023). This adds 570 mm of wall width. | standard built-in installation; COK-020, COK-023 |
+| A5 | **Hob block**: four OEM induction modules under glass-ceramic plates bonded flush into the deck, on three load cells; front positions Ø 280 at 3.5 kW, rear Ø 220 at 2.0 kW, columns bridgeable. Glass-ceramic below vessels in Zone S needs a ruling under HYG-018. | HYG-018 |
+| A6 | **Ingestion**: meat slices interleaved or laid singly; onions and garlic peeled; herbs frozen chopped; stowed packs delivered opened in a carrier box at the dock. | DEC-3, catalogue X6 |
+| A7 | **Wash module**: envelope 480 × 480 × 400 must take the rails, the Ø 360 pan and the trays; a disinfecting programme for class R ware; capacity of three loads per full menu within 90 min (two chambers or a fast washer); clean store for the full ware set. | scope of D7; RES-001, RES-005 |
+| A8 | **Waste**: the transport system exchanges the chip box; a fat cup is emptied by the wash or waste module. | — |
+| A9 | **Utilities at the module**: cold water with EN 1717 separation (the rod bores dose drinking water), 6 L boiler at 80 °C, 5 bar pump, drain with lift; three-phase supply; filtered supply air 30 m³/h at +50 Pa for the seams and 100–150 m³/h extraction with a condenser. | UTL-001, ENV-010 |
+| A10 | **Plating and serving**: a decision on whether plates come to the bench and the hands plate, and whether the front door may serve as the hatch (11.2). | SRV, HYG-007 |
+| A11 | **Adapted-method ruling**: whether Rouladen packed seam-down without pins count as "secured by the machine" (MEAL-005, UO-42), and whether patties formed as pressed cylinders are accepted. | MEAL-013 |
+
+### 12.3 Verdict of the explorer
+
+K1 can do on paper what its inventors claimed for it — it is the generalist, every benchmark has a path,
+and a missing operation is one more passive part — but it is weaker than both source documents said, for a
+reason neither of them saw: a rod in a disc-in-disc turret reaches 42 % of its zone and never meets its
+neighbour. The design above repairs that with a wrist that is ware, a turntable on the zone boundary and
+cups that travel; the repair works at the price of 110–280 handling moves per meal, about 110 loose parts,
+17 axes, and a wall width of 2.27 m with the oven. Its three largest weaknesses are, in this order: the
+handling count and serial hands that follow from the reach geometry; 7.3 m of rotating seam above open
+food, improved but unproven; and the cleaning bill of an all-ware concept inside a 5.6 m² wash-down cell,
+which misses the water, energy and turnaround requirements by about a factor of two.
