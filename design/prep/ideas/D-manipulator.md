@@ -4,8 +4,9 @@ Round P1 (idea finding) for meal preparation. Lens: start from a cook's two hand
 board, and find the cheapest mechanical equivalent that can be hosed down.
 
 Tags: [S] from the research files, [E] my engineering estimate, [U] unverified recollection.
-`research/02-meal-corpus.md` did not exist when this was written; coverage is judged against
-requirements section 5.3 (UO list) and the meals named in the brief.
+The concepts were drafted against requirements section 5.3 before `research/02-meal-corpus.md` was
+finished; section 8 checks them against the finished corpus (248 meals, 126 operations) and states what that
+check changed. Operation codes such as FLP, ASM, PLA are the corpus codes.
 
 ## 0. What the lens says before any concept
 
@@ -713,7 +714,7 @@ egg opening; mandrel-wound Rouladen; chucked tumble drum as salad tosser and spi
 
 | | A Twin turret | B Wall puck | C Rollo | D Sock arm | E Spit & stations |
 |---|---|---|---|---|---|
-| Servo axes | 11 | 8–10 | 8 | 8 (6 bought) | 10 |
+| Servo axes | 11 (15–16 with a third, cook-side turret, see 8.4) | 8–10 | 8 (+1 roll elbow, required by FLP) | 8 (6 bought) | 10 (+1 roll elbow) |
 | Tool force | 200 N, 15 Nm | 60–100 N, 4–8 Nm | 600 N gate, 200 N hand | 30 N (90 N by lever) | 125 N tool, 1 kN table |
 | Dynamic seals at the cell | 6 (4 large circles, 2 rods) + 1 elbow | **0** | 5 | **0** (one static sleeve) | 6 |
 | Objects left in the wet cell | 2 smooth rods | nothing | belt, gate, 1 rod | 1 sleeved arm | 3 rods |
@@ -723,7 +724,7 @@ egg opening; mandrel-wound Rouladen; chucked tumble drum as salad tosser and spi
 | Flat work (meat, dough) | good | weak | **best** | fair | fair |
 | Flip / pour / plate | good (roll axis) | very good | weak | **best** | weak |
 | Software difficulty | medium | medium | low–medium | high | medium |
-| Parts cost [E] | 6–8 kEUR | 2–3 kEUR | 5–7 kEUR | 7–9 kEUR | 5–6 kEUR |
+| Parts cost [E] | 6–8 kEUR (9–11 with three turrets) | 2–3 kEUR | 5–7 kEUR | 7–9 kEUR | 5–6 kEUR |
 | Main risk | ceiling seams | force limit, puck drop | belt hygiene | sleeve life | narrow scope of the lathe |
 
 ---
@@ -835,9 +836,95 @@ A consumable the human refills twice a year; to be checked against GEN-003/HUM l
 
 ---
 
-## 8. Which concept I would bet on
+## 8. Check against the meal corpus (R2)
 
-**Concept A, Twin Turret**, with three transplants: the ice chuck and fakir hand (N1, N2) on its board, the
+The corpus ranks the hard operations by the share of meals they block and by whether buying a prepared
+ingredient can avoid them. That changes the weighting of this document in four ways.
+
+### 8.1 What the corpus says matters most for a manipulator
+
+| Corpus fact [S, R2 §4.5] | Consequence for this lens |
+|---|---|
+| FLP flip/turn: 12.9 % of meals, **no purchase workaround**; pancakes and omelettes rated D5 | A horizontal roll axis is not optional. Concepts C and E as drawn (one vertical rod) fail this; they need turret 2's roll elbow (+1 axis) *and* the clamshell pan (N13). A, B and D have it |
+| ASM assemble (burger, taco, pizza topping, layered cake): 6.9 %, no workaround; LAY layer 9.3 %; TOP sprinkle 9.7 %; SPR spread 4.4 % | Pick-and-place of soft items and spreading are core skills, not extras: vacuum cup, fork, spatula and scoop on a top-down hand with a camera. This favours the hand-based concepts (A, D) over the process-based ones (C, E) |
+| CAR carve cooked meat: 4.8 %, no workaround | A: fork or comb holds the roast, draw cut with U1, 200 N available. C: overhang cut is a slicer, the best answer here. B: 60 N pivot cut is marginal on a crusted roast. D: lever knife. E: not covered by the lathe, falls to the hand |
+| UNM unmould: 4.4 %, no workaround | Needs a 180° inversion of a tin or mould of up to 26 cm and about 1.5 kg. The tip bar gives 120° only. Answer: clamshell principle again — board or plate laid on the tin, pair turned 180° about the bar (bail made as a pin-in-eye so it can pass over the top), tin lifted off; rim freed first by a thin blade run round by yaw. Silicone moulds are pressed out with the press plate |
+| Shaping cluster (STU, WRP, FRM, SHD, BRD, RLT, SKW): 15.3 %, avoidable only with semi-finished products, which MEAL-012 forbids for the characteristic part | This is the two-hands argument in numbers. See 8.2 |
+| PLA peel onion/garlic: 52 % of meals, D4, but buyable peeled | The single most frequent hard operation. None of the three skinning methods proposed here is proven. Honest plan: start with peeled onions and garlic paste (allowed at purchase level 1), develop the score-thumb-jet or lathe method in parallel, and count PLA as covered only after a test at ≥ 95 % |
+| COR core/deseed: 20 %; TRE trim ends: 12.5 %; PLS/PLH other peeling: 10.5 % / 7.3 %; STR strip/pluck: 3.6 % | Underweighted in sections 1–5. See 8.3 |
+| SEP separate egg: 6.9 %; PLE peel boiled egg: 2.8 % | Slotted cup under the opened egg (A, E). Boiled egg: rolled under the press plate at 15 N to craze the shell, then tumbled in a lidded tray with water on the roll axis; residual shell checked by camera. Medium confidence |
+| Largest vessels at 6 persons: 9 L boil pot, 8–10 L mixing bucket, 28 and 36 cm pans; up to 4 hobs plus oven at once | See 8.4: the 1000 mm cell drawn in concept A is too small |
+
+### 8.2 The shaping cluster, operation by operation (concept A; C and E where they differ)
+
+| Op | Share | How | Confidence |
+|---|---|---|---|
+| STU stuff | 6.5 % | Rigid cavities (pepper, tomato, apple, cannelloni stood in a rack): carry hand fills by scoop or wide pipette while the blade hand's fork steadies; weight-controlled. Soft flat pockets (cordon bleu): slice laid open, filling placed, folded with the spatula, pinned — a Roulade variant | high / medium |
+| WRP wrap | 4.0 % | Mat roll (burrito, Kohlroulade, biscuit roll, bacon wrap by rolling the item over a bacon strip). C: belt curl against the doctor bar. E: mandrel winding. Sushi excluded (X-12) | medium-high |
+| FRM small shapes | 2.8 % | Gnocchi, Schupfnudeln, croquettes: strand rolled under the press plate moving to and fro on the board (a palm), cut by blade, rounded or tapered by the cup; balls by orbiting cup | medium |
+| SHD shape dough | 2.4 % | Rolls: portion by blade and weight, round with the orbiting cup (this is exactly a baker's rounding). Loaf: mat roll. Line a tin: sheet rolled on the mat, tin pressed on, flipped by clamshell, pressed in with the press plate. Braids and pretzels not covered (X-09) | medium |
+| BRD bread | 2.0 % | Three trays, fork on the roll axis | high |
+| RLT roll and tie | 1.6 %, corpus: "no solution known" | Mat roll plus pin or snap C-ring (A); belt curl (C); slotted mandrel (E). Three independent mechanisms; the C-ring removes the precise piercing step. Roast tying and trussing not covered (buy tied, UO-48) | medium-high for Rouladen |
+| SKW skewer | 0.4 % | Fork pieces onto a skewer held in a wall clip; low priority | low, skip |
+
+### 8.3 Trimming, coring, stripping — added after the corpus check
+
+* **COR.** Pepper: blade cuts the cap off 12 mm below the shoulder, fork lifts the cap with the seed core
+  attached, the gouge U6 and a mains jet through the hollow rod (N7) clear loose seeds; camera checks for
+  white ribs. Apple: a tube corer utensil pushed through along the stalk axis, 100–150 N [E] (on E's lathe
+  along the spindle axis). Cabbage: quarter, then one angled cut per quarter — needs the blade tilted, so
+  it is done by laying the quarter on its side and using U2. Cucumber and courgette seeds: halve, drag
+  the gouge along the centre line. Pumpkin: spoon utensil at 50 N with yaw sweeps. Tomato stalk: gouge.
+  All are vision-guided top-down tasks at one to three cuts each; medium confidence, high software effort
+  because every vegetable is its own skill.
+* **TRE.** Beans, asparagus, spring onions, leeks: the scraper pushes the bundle against a fence so the ends
+  align, one blade cut per end (C: overhang cut, the natural trimming machine). Sprouts, radishes,
+  mushrooms, strawberries: single items found by the camera, pinned by the fork, cut: 3–4 s each, so 500 g
+  of Brussels sprouts takes about 2 min. Acceptable.
+* **PLS / PLH.** Apple, pear, kohlrabi, cucumber: sprung peeler on the spit (A, B, E). Knobbly items
+  (celeriac, swede, pumpkin, ginger): cut-away peeling with the blade in 8–12 flats on the indexed spit,
+  loss about 30 % (the corpus's own estimate). Tomato and peach: score and blanch (N15).
+* **STR.** Florets: the head is held stalk-up on the fork and the blade cuts round the stalk; this wants a
+  tilted blade, available in D, clumsy in A (done as a series of vertical cuts with board turns). Herb
+  leaves from stems: not solved by any concept here; soft herbs are minced with their fine stems, woody
+  herbs (thyme, rosemary) go in whole and are removed with the fork. Kale and lettuce: cut the stem out
+  as a wedge. Low-medium confidence; 3.6 % of meals at stake.
+* **Garlic** (part of PLA): cloves are pressed unpeeled through a small grid press by the blade hand
+  (Ø25 piston, 200 N is 0.4 MPa, to be tested [E]); the skin stays in the press, which is ware.
+
+### 8.4 Vessel sizes and concurrent heat sources
+
+* A 9 L pot with 6.6 L of water and pasta is about 9–10 kg. No concept lifts that; all concepts drain by
+  lifting the **basket** (about 1.5 kg) out of the pot, and the pot is emptied through a floor-level drain
+  valve or a sink pump, not poured. The tip bar is limited to vessels up to about 6 kg gross (a rod lifts
+  roughly half the weight: 30 N).
+* The 8–10 L mixing bucket (about Ø260 × 200) fits the planetary turret: orbit radius up to 230 mm, hook
+  torque 15 Nm. Whipping one egg white in it does not work (corpus remark); a 1.5 L bowl is needed as a
+  second size, which the variable orbit handles.
+* A 36 cm pan plus a 28 cm pan, a board, a box dock and a pot do not fit a 1000 mm cell, and "up to 4 hobs
+  plus oven" cannot be served by hands that are busy cutting. Concept A therefore grows to **three turrets
+  at 480 mm pitch in a cell about 1500 mm wide**: prep hand, shared carry hand, cook hand (the cook hand
+  with the roll elbow, for flipping and stirring). 15–16 servo axes and about 9–11 kEUR [E]. The
+  alternative is a separate cooking module with self-stirring vessels and its own simple flipper; that is
+  an architecture decision.
+* Concept B: a puck can steady and flip in a 36 cm pan but cannot tip any vessel over about 3 kg.
+  Concept D: 3 kg payload rules out handling any full cooking vessel; tip docks are mandatory.
+
+### 8.5 Coverage estimate, concept A with three turrets [E]
+
+Against the corpus's S1 scenario (purchase level 1 allowed: peeled, trimmed, boneless), the nine hard
+operations needed for ≥ 95 % are FLP, ASM, STU, UNM, CAR, WRP, SCO, FRM, SHD. Concept A has a stated method
+for all nine, at high confidence for FLP (patties, steaks, cutlets), CAR, SCO and STU (rigid), medium for
+ASM, WRP, UNM, FRM, SHD and for pancake flipping. If every medium item fails in a third of its meals, the
+loss is roughly 5–6 % of meals, i.e. coverage around 90–91 % instead of 96 %: **the 95 % goal is reachable
+with this concept but not with margin, and it depends on software maturity more than on mechanics.** Under
+S0 (machine peels and trims everything) PLA alone decides the outcome.
+
+---
+
+## 9. Which concept I would bet on
+
+**Concept A, Twin Turret — in its three-turret form from 8.4 —** with three transplants: the ice chuck and fakir hand (N1, N2) on its board, the
 clamshell pan (N13), and — if walk-throughs show that dicing time or dough and meat sheeting are the
 bottleneck — concept C's gate over a short belt section in place of the turntable board in round 2.
 
@@ -854,20 +941,26 @@ Reasons:
    ceiling seams, where it can be tested early on a single-turret mock-up.
 4. **Software is 2.5D.** Top-down camera, vertical tools, force from the board. That is a tractable
    perception and control problem for a small team; D's is not.
-5. **Standard parts.** Slewing rings, steppers, ball screws, load cells; the custom parts are flat discs and
+5. **The corpus agrees.** A third of all meals need a manipulation or finishing operation (flip, assemble,
+   carve, unmould, score, separate) and 15 % a shaping operation; these are pick, hold, turn and place jobs
+   for which fixed process stations have no answer. C's gate and E's lathe are excellent at cutting and
+   peeling, which can partly be bought away; the hand is needed for what cannot.
+6. **Standard parts.** Slewing rings, steppers, ball screws, load cells; the custom parts are flat discs and
    round rods that any sheet-metal and turning shop makes.
 
 B deserves a P3 exploration anyway because a zero-penetration cell whose manipulator is ware is the most
-radical answer to "clean everything", and because it is cheap enough to build as an experiment. E's lathe
+radical answer to "clean everything", is cheap enough to build as an experiment, and its through-wall
+wrist is the most natural flipper (FLP is the largest hard operation without a purchase workaround). E's lathe
 is the best peeling and egg answer found here and could be grafted onto A as one spindle through the side
 wall if A's hand-held spit proves too weak.
 
 ---
 
-## 9. Open issues
+## 10. Open issues
 
-1. No meal corpus yet: utensil count and the value of U2, U6, U13, U14, U20 cannot be weighed against
-   frequencies.
+1. Utensil justification against corpus frequencies (PRP-003) is only sketched in section 8; by the
+   corpus, U6 (COR 20 %), U13 (FRM, SHD, FRB) and U20 (RLT) earn their place, U14 and the gang wheel are
+   marginal. Herb stripping (STR) has no mechanism.
 2. Ceiling seam design of concept A (lip material, purge flow, drip edge, how it is proven with
    riboflavin) is the first thing to detail and test.
 3. Magnetic shear stiffness and torque through a 1.5 mm wall (concept B) are estimates; a bench test with
@@ -875,7 +968,8 @@ wall if A's hand-held spit proves too weak.
 4. Ice adhesion on stainless for real produce (N1) and frost management are unmeasured.
 5. Onion skin removal has three proposed methods (thumb and jet, belt rub, centrifugal); none is proven at
    ≥ 95 %. The fallback is losing one fleshy layer, or buying peeled.
-6. Whether the prep cell and the cooking positions share one wash-down cell (as assumed for stirring and
+6. Cell width and number of turrets (8.4): two turrets in 1000 mm do not hold the 6-person vessels.
+   Whether the prep cell and the cooking positions share one wash-down cell (as assumed for stirring and
    flipping by the same hands) is an architecture decision; it puts grease and steam on the manipulator.
 7. Cycle-time totals for a reference meal have not been summed; serial hand work may exceed PERF targets
    for 6 persons.
@@ -884,7 +978,7 @@ wall if A's hand-held spit proves too weak.
 9. N20 (paper interleaf) and N15 (peel after boiling) change recipes or add a consumable; customer view
    needed.
 
-## 10. Risks
+## 11. Risks
 
 | Risk | Concepts | Consequence | Mitigation |
 |------|----------|-------------|------------|
