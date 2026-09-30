@@ -5,15 +5,18 @@ batch plant would do it, and what the smallest honest version of each machine is
 reading the other files in `design/prep/ideas/`.
 
 Inputs used: `BRIEF.md`, `DECISIONS.md`, `PLAN.md`, `requirements/requirements.md` (sections 3.1,
-3.5, 5, 7), `research/01`, `03`, `04`, `06`. `research/02-meal-corpus.md` did not exist yet; the
-unit-operation list of requirements section 5.3 was used instead.
+3.5, 5, 7), `research/01`, `03`, `04`, `06`. The concepts in section 2 were written before
+`research/02-meal-corpus.md` existed, against the unit-operation list of requirements section 5.3.
+They were then checked against the finished corpus (248 meals, 126 operations); the result is
+section 3.1, and it changed the bet in section 5. Section 2 is left as first written, so where
+section 2 and section 3.1 differ (vessel sizes, what counts as a satellite), section 3.1 applies.
 
 All numbers are my own estimates unless a research document is cited. Nothing here is tested.
 Box sizes assume the Gastronorm 176 mm family proposed in R3 (GN 1/6: 176 x 162 x 100 mm, 1.5 L).
 
 Contents: 0 what factories teach us, 1 shared front end, 2 four concepts (A Fallturm,
-B Trommelwerk, C Kolbenstrang, D Flachband), 3 cross-comparison, 4 standalone sub-mechanisms,
-5 the bet, 6 open issues, 7 risks.
+B Trommelwerk, C Kolbenstrang, D Flachband), 3 cross-comparison and corpus check, 4 standalone
+sub-mechanisms, 5 the bet, 6 open issues, 7 risks.
 
 ---
 
@@ -518,6 +521,60 @@ requirements section 5.3, preparation operations UO-01 to UO-49: about 30 of 38 
 27, D about 16, C about 14). The missing ones are complementary: B lacks exactly what D and C
 do best.
 
+### 3.1 Check against the meal corpus (`research/02-meal-corpus.md`)
+
+The corpus ranks the hard operations by the share of the 248 meals they block. Rating per
+concept: ++ native strength, + credible, o weak or adapted method, - not done by this concept.
+"Buy" = a level-1 purchase removes the operation (corpus 4.7). The ratings are my judgement from
+section 2, not measurements.
+
+| Code | Operation | Meals | Buy? | A | B | C | D | Best mechanism in this document |
+|---|---|---|---|---|---|---|---|---|
+| PLA | peel onion, garlic | 52.0 % | yes | o | o | - | o | N7 slit and rub; every concept is weak here. Corpus advice (buy peeled or frozen first, peeler as upgrade) is right. |
+| COR | core, deseed, hull | 20.2 % | yes | - | o | + | - | Not covered in section 2. Added: N20 corer-wedger die (apple, pear) on the press; N21 halve and tumble-rinse (pepper). |
+| FLP | flip, turn | 12.9 % | **no** | - | - | - | + | N1 clamshell flip (two-sided contact, which the corpus names as the alternative) and N4 band spatula. Pieces (diced potato, strips, meatballs) turn by tumbling in B. |
+| TRE | trim ends, stems, roots | 12.5 % | yes | - | - | o | + | D: items lie lengthwise, camera finds the ends, guillotine cuts. Added: N22 snipper drum for beans. |
+| PLS / PLH | peel soft / hard produce | 10.5 / 7.3 % | yes | + | + | - | + | Abrasive disc, drum or roller bed; N10 thermal shock for tomato and peach. Knobbly celeriac and ginger: high loss (30 %). |
+| ASM | assemble, build, layer | 6.9 % | **no** | o | o | + | ++ | Not covered in section 2. Added: N23 miniature lasagne line (dish moves under fixed depositors). |
+| SEP | separate egg | 6.9 % | yes | + | + | + | + | N6 with a slotted cup under it. |
+| STU | stuff, fill | 6.5 % | level 2 | - | o | ++ | + | Nozzle die on the piston (rigid cavities: peppers, cannelloni). Flat pockets not solved. |
+| CAR | carve cooked meat | 4.8 % | **no** | - | - | o | ++ | D: roast rides the belt in steps, guillotine with draw cut, 120 mm clearance needed (roast 250 x 150 x 120). C fits only roasts under 110 mm. Bone-in poultry: not solved by anything here. |
+| UNM | unmould, turn out | 4.4 % | **no** | - | - | ++ | o | N5 push-up floor in every mould; added N24 induction release pulse; N1 inverts the mould onto the dish. |
+| WRP / RLT | wrap, roll (and tie) | 4.0 / 1.6 % | level 2 | - | - | - | ++ | Curl belt or N2 roll loop, N3 cassette instead of tying. |
+| STR | strip, pluck | 3.6 % | yes | - | - | - | - | Not solved. Buy. |
+| FRM / SHD | hand-form, shape dough | 2.8 / 2.4 % | level 2 | o | o | ++ | + | Piston former, N11 rounder cup, sheeter and curl belt. Braids and pretzels: not solved. |
+| PLE | peel boiled egg | 2.8 % | yes | o | + | - | - | B: crack by tumbling at 60 rpm, then rubber-stud liner with water, 30 s (factory egg peelers work this way). |
+| SCO | score, slash | 2.8 % | **no** | - | - | - | ++ | D: gang knives or guillotine with a depth stop of 3-5 mm. |
+| BRD | bread, coat | 2.0 % | level 2 | - | o | - | ++ | Flatbed passes on the belt, or N1. |
+
+Conclusions from the check:
+
+1. **The flat, formed and finished-item domain is larger than I assumed.** Flipping, carving,
+   scoring, assembling and unmoulding have no purchase workaround and their union blocks 29 % of
+   the meals; the shaping cluster adds 15 %. Section 5 set a threshold of "about a quarter of the
+   meals" for promoting D from an option to a fixed part. The corpus is above it.
+2. **Concept B alone is weaker than I rated it.** Of the six no-workaround operations the drum
+   does none. Its strength is the foundation tier (dose, wash, cut, mix, knead, heat), which is
+   the precondition for any coverage claim (61 % with level-1 purchase), and peeling, which the
+   corpus says to buy away first. B remains the best *bulk* machine, not the best machine.
+3. **Coring and deseeding (20 %)** was missing entirely. It is mainly apple, pepper and tomato.
+   The press with a corer-wedger die is the factory answer for apple and pear; peppers are
+   unsolved beyond N21; frozen pepper strips and canned tomato are the corpus workaround.
+4. **Vessel sizes for six persons.** The corpus asks for a 9 L boil pot, 8-10 L mixing volume and
+   28 and 36 cm pans. The B drum (24.7 L gross) holds 18 L when tilted mouth-up at 60 deg
+   (volume = pi r2 (L - D tan 30 deg / 2)), so 9 L of boiling water or 10 L of mixing volume fit;
+   the "5 L" in section 2 was conservative. The A mixing bowl must grow from 5 L to 10 L (dia 280 x
+   200), which still fits the vessel position. The C cartridge (2.3 L) takes 1.6 kg of dough or
+   1 kg of mince mass but not a salad. The D belt (300 mm) and the band spatula (200 mm) reach
+   into a 36 cm pan; a 28 cm pan takes one pancake of 240 mm, so six persons means many flip
+   cycles (about 12 pancakes at 40 s handling each).
+5. **Minimum quantities.** None of the large vessels can whip one egg white (30 mL) or make
+   100 g of dough. A small top-driven whisk beaker (the C whisk lid on a 110 mm cartridge) is
+   needed in every concept.
+6. **Still unsolved by everything in this document:** stripping and plucking (kale, thyme
+   leaves), carving bone-in poultry, flat pocket stuffing (cordon bleu), braiding, skewering,
+   meat trimming. All but poultry carving have a purchase workaround in the corpus.
+
 ---
 
 ## 4. Standalone sub-mechanism ideas
@@ -654,16 +711,58 @@ by pushing the cup down onto the rim of the target vessel. All seasonings of one
 weighed into it together (±0.1 g each) in dry air and dropped in one go. One cup per meal, washed
 as ware. Feasibility H.
 
+**N20 Corer-wedger die.** A tube punch of 22 mm in the centre of a slicing frame with 6 or 8
+radial blades, as a die under a press (C, or the N14 cylinder): apple or pear pushed through at
+200-400 N comes out as cored wedges, the core stays in the tube and is ejected to waste by the
+next stroke. The fruit must be centred stalk-up: a three-finger self-centring cone above the die.
+Also halves peppers around the seed core if they are pushed stalk-first (seed core goes up the
+tube; about 70 % success expected because pepper cores are off-centre). Feasibility H for apple,
+L-M for pepper.
+
+**N21 Pepper deseeding by halve and tumble-rinse.** Cut the cap off (first slice of the slicing
+disc, diverted to waste by the chute flap), halve, then tumble 30 s in the basket liner with 8 mm
+holes under a water spray: seeds and loose ribs leave through the holes. White ribs remain.
+Feasibility M.
+
+**N22 Snipper drum for bean ends.** Factory bean snippers tumble the beans in a drum whose wall
+has tapered slots; bean ends poke through and a knife outside the rotating wall cuts them off.
+At home: a slotted basket of 200 mm diameter rotating inside a fixed shell with one blade bar,
+40 rpm, 2-3 min for 500 g. Also tops radishes and tails gooseberries. Feasibility M; the gap
+between basket and blade is a cleaning concern, so basket and shell must separate for the washer.
+
+**N23 Miniature lasagne line (assembly by moving the dish, not the food).** Assembly is 6.9 % of
+the corpus and has no workaround. Factories never pick and place sauce or layers: the tray
+travels under fixed depositors. Put the baking dish (or the plate, or a burger bun on the belt) on
+an X-slide with 400 mm travel under three fixed outlets: a slot die on a piston box (sauce ribbon
+100 mm wide, 3 passes cover 300 mm; layer mass by stroke, +/-5 %), the sifter (cheese, crumbs)
+and a suction plate that takes one pasta sheet, slice or patty from its box and sets it down.
+Layer evenness comes from dish speed times piston speed. Covers lasagne, gratins, casseroles,
+moussaka, pizza topping, open sandwiches, burgers, trifle. Feasibility H for sauce and sprinkle
+layers, M for the suction pick of wet or perforated items.
+
+**N24 Release by induction pulse.** Unmoulding (4.4 %, no workaround) fails when the contact
+layer sticks. For steel moulds: invert the mould over the dish (N1 book flip), then heat the mould
+wall by a 1-2 s induction pulse (2 kW: a 400 g mould rises by about 15 K). The fat or gel film
+at the wall melts, the content drops, the core stays cold. It is what a cook does by dipping a
+pudding mould in hot water. With N5 (loose floor pushed by a pin) as the positive ejector.
+Feasibility M-H; aluminium and silicone moulds do not couple, so moulds must be ferritic steel.
+
 ---
 
 ## 5. The concept I would bet on
 
-**B, the Trommelwerk, as the core, with two satellites: a small flat station (Buch-Wender N1
-with roll loop N2 and band spatula N4; the full belt of D only if the corpus shows that flat and
-dough items exceed about a quarter of the meals) and the piston box N5 as forming and paste
-metering device.**
+**A two-machine cell: B (Trommelwerk) for everything that is bulk or liquid, and a shortened D
+(Flachband, 500 mm belt) for everything that is flat, formed, layered or carved, with the piston
+box N5 as the forming and paste-metering device between them.**
 
-Reasons:
+Before the corpus check I would have bet on B alone with a small book-flipper as a satellite. The
+corpus moved me: the operations without any purchase workaround (flip 12.9 %, assemble 6.9 %,
+carve 4.8 %, unmould 4.4 %, score 2.8 %) and the shaping cluster (15.3 %) are all "item on a
+surface" operations. A drum does none of them, and a belt with a guillotine, a roller, a curl
+belt, a nose and a dish slide does nearly all of them with one drive concept. So the flat machine
+is not a satellite; it is the second half.
+
+Why B for the bulk half:
 
 1. Cleaning decides this machine, and the drum is the only concept whose cleaning is already a
    mass-produced appliance: a rotating smooth cup with a liquor, a spin and a drain. It has
@@ -672,27 +771,38 @@ Reasons:
    usual bottleneck of "wait for the washer" between components of one meal.
 2. It has the fewest axes (9 with the dock) and all of them are rotary; there is no robot arm and
    no precision positioning. The main drive is a washing-machine part made in millions.
-3. It covers the operations that prior art never solved (R1 4.3: washing, peeling, cutting
-   arbitrary produce) with proven factory principles: drum peeler, drum washer and spinner,
-   bowl chopper, rotating-bowl kneader, tumble coater, rotating wok.
+3. It covers the foundation tier and the produce operations that prior art never solved (R1 4.3)
+   with proven factory principles: drum peeler, drum washer and spinner, bowl chopper,
+   rotating-bowl kneader, tumble coater, rotating wok. It holds the corpus maxima (9 L boil,
+   10 L mixing).
 4. Rotation brings the food to the tool and wipes the wall under a fixed scraper, which answers
    the transfer-residue requirement (PRP-013) without a manipulator.
-5. Its gaps (flat items, regular forming) are closed by small passive devices rather than by a
-   second large machine.
 
-What would change my mind: if the corpus shows that four-component meals cannot be scheduled
-through one drum within the time target, take two drums (dia 300 and dia 200) or take A's
-through-flow stages for the produce and keep the drum for mixing and cooking. If regular dice
-and formed items dominate, C's press moves from satellite to centre.
+Why D, shortened, for the flat half:
 
-The Fallturm (A) is the most elegant on paper and the worst in wash area; I would keep from it
-the own-lid free-fall dosing, the downdraft and the wash cartridge, which fit on top of B.
+1. It is the only concept here that flips, carves, scores, rolls, breads, sheets and layers, and
+   it does them with factory principles rather than with a dexterous arm.
+2. Shortened to a 500 mm belt with four stations (roller, guillotine with depth stop, curl belt,
+   nose) plus the sifter and the dish slide of N23, its wetted area drops to about 0.9 m2.
+3. It is used in perhaps a third of the meals, so its weak point (the station bridge above the
+   belt, the hardest thing to wash in this document) is loaded less often than the drum.
+
+What I am least sure of: whether the station bridge passes a riboflavin test; whether a belt nose
+can flip a 240 mm pancake; and whether one drum can be scheduled through a four-component meal.
+If the bridge cannot be cleaned, fall back to N1 (book flipper, loose silicone sheets washed as
+ware) plus a separate slicer: less capable, far easier to wash. If the drum is the bottleneck,
+add a second drum of 200 mm.
+
+From A (Fallturm) I would keep the own-lid free-fall dosing, the downdraft and the wash cartridge,
+which fit on top of B. A is the most elegant on paper and has the largest wash area. From C I
+would keep the press only if the corpus walk-through shows regular dice, coring and formed items
+justify a 5-10 kN axis; the piston box alone gives most of its forming value.
 
 ---
 
 ## 6. Open issues
 
-1. No meal corpus yet: the coverage counts in section 3 are against the unit-operation list only.
+1. The corpus check in section 3.1 is a judgement per operation, not a meal-by-meal walk-through; the counts in section 3 are against the requirements' unit-operation list.
 2. Own-lid dosing changes the box standard and the storage height pitch; this needs the storage
    and architecture designers' agreement. Mesh sizes per product class need tests.
 3. Drum scheduling for a four-component meal for six persons has not been simulated.
@@ -705,7 +815,9 @@ the own-lid free-fall dosing, the downdraft and the wash cartridge, which fit on
 7. Kneading by reciprocating extrusion (C) may not develop gluten adequately.
 8. Flat pan work (flip steak, pancake) sits on the border to the cooking module; ownership
    between preparation and cooking has to be decided by the architecture.
-9. Induction self-drying needs a drum material that is both induction-capable and meets HYG-011
+9. Assembly of soft items by suction plate (N23), carving of bone-in poultry, stripping and
+   plucking are open; the last two are unsolved in this document.
+10. Induction self-drying needs a drum material that is both induction-capable and meets HYG-011
    (ferritic 1.4016 or clad 1.4301/ferritic); corrosion under detergents to be checked.
 
 ## 7. Risks
