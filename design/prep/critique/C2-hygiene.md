@@ -121,7 +121,9 @@ meal's dishes. Cleaning hardly scales with persons (the requirement says so itse
 stations and nearly the same ware, only fewer dishes. So the 4-person figures above minus about 5 L of dishes and
 produce are a fair estimate for 2 persons: **every concept misses the 35 L of the 2-person meal by 15–80 L**; for
 the 6-person sizing meal only K6 (~54 L, ~4.5 kWh) and K2 (~57 L, ~4.0 kWh) come near the 55 L / 4.5 kWh, and
-K2 only because its splash-zone wash is under-budgeted. Round 2 needs water and heat recovery as a design
+K2 only because its splash-zone wash is under-budgeted. DEC-19 (maximum 4 persons per meal, recorded as this
+critique was finished) makes the 4-person benchmark meal the sizing meal; if the sizing limits are re-based below
+55 L / 4.5 kWh, no concept is inside them. Round 2 needs water and heat recovery as a design
 feature (final rinse kept as the next pre-rinse, drain heat recovery, washing only full loads, fewer soiled items
 per meal), and the 2-person case must be walked through by every concept.
 
