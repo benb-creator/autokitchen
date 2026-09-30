@@ -1,8 +1,9 @@
 # AutoKitchen — Requirements Specification
 
 Document: `requirements/requirements.md` (task Q1) · Status: baseline for architecture (A1) and module design (D1–D10)
-Source of truth: [BRIEF.md](../BRIEF.md). Where this document and the brief disagree, the brief wins and the
-conflict is to be raised as an open issue.
+Source of truth: [BRIEF.md](../BRIEF.md), then [DECISIONS.md](../DECISIONS.md) (customer decisions and project
+rulings 1–5 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
+win and the conflict is to be raised as an open issue.
 
 ## 0. How to read this document
 
@@ -15,8 +16,8 @@ conflict is to be raised as an open issue.
   **A** analysis/calculation/simulation, **I** inspection of the built item, **R** review of design documents.
   During the paper design phases (A1, D1–D10, V1–V3) every T/D is to be substituted by A/R with the numbers
   shown; the T/D definition states what a later prototype must pass.
-* **Trace** — B1…B13 refer to the brief sections in the table below; "drv" = derived requirement, needed to
-  make a brief requirement achievable, safe or legal.
+* **Trace** — B1…B13 refer to the brief sections in the table below; "DEC-n" refers to decision n in DECISIONS.md;
+  "drv" = derived requirement, needed to make a brief requirement achievable, safe or legal.
 * Numbers marked **(est.)** are the requirements engineer's estimates, to be confirmed by research R1–R8;
   they are nevertheless binding until changed in this document.
 * Requirements state *what*, not *how*. Examples in parentheses ("e.g.") are illustrations, not prescriptions.
@@ -155,8 +156,9 @@ are in sections 3–10; the use cases are the end-to-end scenarios that reviewer
   category, net quantity, storage class (ambient/chilled/frozen), food class, allergens, package type,
   (5) determines the use-by date (read from the package, or category default), (6) selects and fetches a clean,
   dry, empty box of suitable size, or an existing box of the *same product and lot* only if HYG/FSF rules allow
-  topping up, (7) opens the package and transfers the contents into the box through the funnel, without
-  packaging fragments, (8) weighs the box, closes it, records it in the inventory, (9) sends the box to the
+  topping up, (7) DECANT lane: opens the package and transfers the contents into the box through the funnel, without
+  packaging fragments; STOW lane (ING-018): places the sealed package in a box or carrier, to be opened just in
+  time before its first use, (8) weighs the box, closes it, records it in the inventory, (9) sends the box to the
   right storage, chilled and frozen goods first, (10) discards the packaging into the packaging waste,
   (11) cleans funnel and opener as required by the hygiene rules before the next product, (12) repeats until
   the container is empty, then reports a summary to the user.
@@ -433,12 +435,12 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | COK-001 | The cooking module shall perform all thermal unit operations marked M in section 5.3, and should perform those marked S. | 95 % goal. | M | D | B7 |
 | COK-002 | Number of simultaneously heated cooking positions: ≥ 3 (M), 4 (S), plus 1 baking/roasting cavity usable at the same time. | Reference meal: protein, starch, vegetable, sauce; roast in the oven with 2–3 positions for sides. | M | I | B7, B8 |
 | COK-003 | Cooking positions: controlled vessel-base temperature 40–250 °C; content temperature control 40–100 °C within ±3 K (simmering, poaching, holding, melting). | Searing to gentle simmer. | M | T | B7 |
-| COK-004 | Heating performance (single-phase baseline, UTL-010): bring 2 L of water from 15 °C to 95 °C in ≤ 8 min in one vessel while all other heaters are off. | Pasta/potato water is the time driver. | M | T | drv |
+| COK-004 | Heating performance: bring 2 L of water from 15 °C to 95 °C in ≤ 6 min in one vessel, while one further cooking position and the baking cavity are heating. | Pasta and potato water is the time driver; one phase (≈ 3.4 kW) per fast position. | M | T | drv, DEC-1 |
 | COK-005 | Searing: a vessel base shall reach 220 °C in ≤ 5 min and recover to ≥ 180 °C within 60 s after 600 g of meat at 4 °C is added. | Browning instead of stewing (steak, Rouladen, roast). | M | T | B5, B7 |
 | COK-006 | Baking/roasting cavity: 30–250 °C, ±10 K at the centre; top heat for gratinating/browning; usable space for at least a 2.5 kg roast, or a baking dish for 6 portions (≥ 3.5 L, e.g. 350 × 250 × 60 mm), or a tray of ≥ 0.10 m². | Roast beef, gratin, lasagne, cake, pizza. | M | T, I | B7 |
 | COK-007 | The cavity should offer controlled humidity (steam injection or steam baking up to 100 °C). | Bread crust, gentle roasting, regeneration, steaming in bulk. | S | D | B7 |
 | COK-008 | Every cooking position shall be able to stir or agitate the contents automatically, including scraping the bottom and wall so that thickened sauces, porridge, risotto and roux do not burn on; stirring speed and pattern selectable per recipe step. | Brief: "cooking, including stirring". | M | D, T | B2 |
-| COK-009 | The module shall turn and flip individual pieces (steak, schnitzel, Frikadelle, fish fillet, pancake, fried egg) without breaking them: ≥ 95 % of pieces intact. | Pan-fried dishes are a large share of the corpus. | M | T | B5 |
+| COK-009 | The module shall cook individual pieces (steak, schnitzel, Frikadelle, fish fillet, pancake, fried egg) with browning on both sides as the recipe demands — by turning them or by heating from both sides — without breaking them: ≥ 95 % of pieces intact. | Pan-fried dishes are a large share of the corpus; the method is left open. | M | T | B5 |
 | COK-010 | The module shall put on and take off lids, and add ingredients to a hot vessel at any time during cooking (deglazing, seasoning, staged addition). | Braising, sauces. | M | D | B5 |
 | COK-011 | The module shall drain cooking water from solids (pasta, potatoes, vegetables) with ≤ 3 % of the water remaining, and shall be able to retain a measured part of the liquid. | Boiled sides. | M | T | B5 |
 | COK-012 | The module shall separate fat, liquid and solids as the M unit operations require (pour off frying fat, strain a sauce). | Sauces, gravy. | S | D | B5 |
@@ -449,9 +451,10 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | COK-017 | The module shall keep finished components at ≥ 65 °C without further cooking them noticeably, for up to 30 min, and cold components at ≤ 7 °C. | All components ready together; late pick-up. | M | T | B8 |
 | COK-018 | Steam, fumes and grease aerosol from cooking shall be captured inside the machine (ENV-010 ff.). | Home environment; casing cleaning. | M | T | B6, drv |
 | COK-019 | All surfaces of the cooking positions and the cavity, including burnt-on residue, shall be cleaned by the machine (HYG-033). | Brief. | M | T | B6 |
-| COK-020 | Off-the-shelf cooking and baking appliances or their heating modules should be used where they meet the requirements. | Standard parts. | S | R | B7, B13 |
+| COK-020 | Off-the-shelf cooking and baking equipment should be used where it meets the requirements. The cooking positions shall be built from controllable OEM or commercial induction modules, not from a finished consumer hob. | Standard parts. Consumer hobs cannot be started remotely (DEC-5). | M | R | B7, B13, DEC-5 |
 | COK-021 | The quantity of free fat or oil in any vessel shall be limited to 250 mL (est.). | Fire load for unattended cooking; excludes deep frying (section 5.4). | M | R | drv |
 | COK-022 | The module shall cool a cooked component from 65 °C to ≤ 10 °C within 120 min when the recipe needs it cold (potato salad, pudding, cooked components of salads). | Food safety; cold dishes. | S | T | drv |
+| COK-023 | Any off-the-shelf appliance integrated into the machine (oven, dish washer, fridge, induction module) shall be started, controlled and monitored by the control system without a human action at the appliance (no "remote start" button to be pressed), and without dependence on a manufacturer cloud service. | Consumer appliances often require a manual remote-start confirmation and a cloud API (`research/05`); both defeat autonomy and CTL-012. | M | D | B1, drv |
 
 ### 3.7 Portioning and serving (SRV)
 
@@ -523,8 +526,10 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 | ING-015 | The module shall accept food without a bar code (loose produce, bakery, butcher's counter) by selection in the UI (M) and by camera-based proposal (S). | A large share of fresh food. | M | D | B10 |
 | ING-016 | Chilled and frozen products shall be in cold storage within the limits of FSF-011 after being handed to the machine. | Cold chain. | M | T, A | drv |
 | ING-017 | Before accepting a product, the module shall check that a clean, dry box of suitable size and a storage position of the right class are available, and otherwise refuse the product unopened. | No opened food without a place to go. | M | D | drv |
-| ING-018 | The ingestion shall have two routes, chosen per product by the control system: **decant** (open now, contents into a box — the brief's process) for products whose shelf life is not shortened by opening (dry goods, produce, frozen loose goods); and **stow sealed** (identify, register, store the unopened package in a box or carrier of the box family) for products whose shelf life collapses on opening (tins, jars, UHT cartons, vacuum and modified-atmosphere packs, dairy tubs). Stowed packages shall be opened by the machine at first use, with the same requirements on residue, fragments and hygiene (INA-007, INA-008, INA-014). | Opening at ingestion turns a shelf life of months or years into days (UHT milk 3–7 days, tins 2–4 days, vacuum meat 1–3 days); without this route CAP-010 cannot be met and much food would be discarded. Literal deviation from the brief, see OQ-05. | M | R, D | B10, drv |
+| ING-018 | The ingestion shall have two lanes, chosen per product by the control system. **DECANT** (open now, contents through the funnel into a box — the brief's process) for dry, ambient-stable, free-flowing goods and for other products whose shelf life is not shortened by opening (produce, frozen loose goods). **STOW** for products whose shelf life collapses on opening (tins, jars, bottles, beverage cartons, tubs, vacuum and modified-atmosphere packs): scanned, weighed, registered and stored sealed inside a box or carrier of the box family, and opened by the machine's package-opening mechanism just in time before preparation, with the same requirements on residue, fragments and hygiene (INA-007, INA-008, INA-014). In version B the user places the sealed package into the presented box instead of pouring. | Opening at ingestion turns a shelf life of months or years into days (UHT milk 3–7 days, tins 2–4 days, vacuum meat 1–3 days; `research/07`); without STOW, CAP-010 cannot be met. Project ruling, pending customer objection (OQ-05). | M | R, D | B10, DEC-3 |
 | ING-019 | Ingestion shall be possible while no meal is in progress (M) and during cooking without delaying the meal by more than 2 min (S). | Shared transport and washing resources. | M | D | drv |
+| ING-020 | The outside of packages stored sealed (STOW) shall not contaminate Zone F: either it is cleaned before storage, or the carrier/box that held it is treated as soiled and the opening mechanism as class R contact (HYG-031). | Supermarket packaging is not clean. | M | R | B6, DEC-3 |
+| ING-021 | Just-in-time opening of stowed packages shall be available in every configuration, including the MVC with ingestion version B; the opening mechanism may be shared between ingestion and preparation. | STOW is useless without opening at use. | M | R | B10, DEC-3 |
 
 ### 3.10 Ingestion version A — automatic (INA)
 
@@ -725,7 +730,7 @@ for the 95 %; S = raises coverage or quality, expected; C = optional. The "limit
 | UO-52 | Steam | up to 1.5 kg of food | M | C | vegetables, potatoes, fish |
 | UO-53 | Blanch and shock-cool | — | S | C | green vegetables, tomato skinning |
 | UO-54 | Sweat / sauté with stirring | 100–180 °C | M | C | onions, mirepoix, mushrooms |
-| UO-55 | Sear / pan-fry pieces with turning | COK-005, COK-009 | M | C | steak, Schnitzel, Frikadellen, fish, fried potatoes |
+| UO-55 | Sear / pan-fry pieces, browned on both sides | COK-005, COK-009 | M | C | steak, Schnitzel, Frikadellen, fish, fried potatoes |
 | UO-56 | Shallow-fry in ≤ 250 mL fat | COK-021 | M | C | Schnitzel, Reibekuchen |
 | UO-57 | Braise / stew, lidded, long duration | up to 4 h at 85–160 °C, hob or cavity | M | C | Rouladen, goulash, Sauerbraten |
 | UO-58 | Roast in the cavity with core-temperature control | up to 2.5 kg; 80–250 °C | M | C | roast beef, roast pork, chicken parts |
@@ -733,7 +738,7 @@ for the 95 %; S = raises coverage or quality, expected; C = optional. The "limit
 | UO-60 | Gratinate / brown from above | — | M | C | gratins, toast dishes |
 | UO-61 | Deglaze, reduce, thicken (roux, starch slurry, liaison, cold butter) | reduction to a target mass ±5 % | M | C | sauces, gravy |
 | UO-62 | Make a sauce in the pan/roasting vessel from the fond | — | M | C | roast gravy, Rahmsoße |
-| UO-63 | Fry thin batter items, flip | Ø up to 240 mm, ≥ 95 % intact | M | C | pancakes, omelette, crêpes |
+| UO-63 | Fry thin batter items, cooked on both sides | Ø up to 240 mm, ≥ 95 % intact | M | C | pancakes, omelette, crêpes |
 | UO-64 | Fry / scramble / boil eggs to a set doneness | — | M | C | breakfast, egg dishes |
 | UO-65 | Baste / glaze during roasting | — | S | C | roasts, poultry |
 | UO-66 | Skim fat or foam | — | C | C | stocks |
@@ -794,7 +799,7 @@ cheapest candidates to re-include are (in this order) X-06, X-01, X-09.
 households have more than 5; a family of 4 with two guests is the common peak. Six portions are also what
 ordinary household cookware delivers from a 600 mm wide hob and one oven (5 L pot, 280 mm pan, one roast of
 1.5–2.5 kg), so 6 persons does not force larger-than-domestic vessels, heaters or power. Above 6, vessel
-sizes, the oven, the dish store and — on a single-phase supply — heating times grow out of proportion.
+sizes, the oven, the dish store and the heating power per vessel grow out of proportion to a 600 mm deep machine on a domestic cooker connection.
 The machine is *sized* for 6 and *optimised* for the reference household of 4.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
@@ -840,7 +845,7 @@ number of box positions.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature, on the single-phase baseline supply: ≤ 1.25 × T_ref + 10 min (M); ≤ 1.1 × T_ref + 5 min (S). For 6 persons: a further + 10 min is allowed. | The machine has no mise-en-place head start but parallelises; the single-phase power budget costs time. | M | A, T | drv |
+| PERF-001 | Order-to-ready time, for 4 persons, from stock at storage temperature: ≤ 1.15 × T_ref + 10 min (M); ≤ 1.0 × T_ref + 5 min (S). For 6 persons: a further + 10 min is allowed. | The machine has no mise-en-place head start but parallelises, and has about the power of a domestic cooker (UTL-010). | M | A, T | drv |
 | PERF-002 | Benchmark meals for 4 persons (est.; T_ref to be aligned with the corpus): (a) spaghetti with minced-meat tomato sauce ≤ 45 min; (b) Frikadellen, mashed potatoes, peas ≤ 60 min; (c) pan-fried steak, fried potatoes, mixed salad ≤ 50 min; (d) vegetable soup from fresh vegetables ≤ 55 min; (e) beef Rouladen, red cabbage, boiled potatoes ≤ 150 min; (f) roast beef 1.2 kg medium, gratin, green beans ≤ 120 min; (g) mixed salad with dressing alone ≤ 15 min; (h) scrambled eggs with toast ≤ 12 min. | Concrete yardsticks for V2. | M | A, T | B5 |
 | PERF-003 | From order "now" with the machine idle, the first process step shall start within 60 s. | No warm-up waiting. | M | T | drv |
 | PERF-004 | For scheduled meals, the first dish shall be at the hatch within −0/+5 min of the serving time in ≥ 90 % of meals. | Punctuality. | M | T | drv |
@@ -906,7 +911,7 @@ art. Every module design shall contain a *surface inventory* (HYG-010).
 | HYG-012 | Surface finish: Zone F Ra ≤ 0.8 µm; Zone S Ra ≤ 1.6 µm (est.), closed, non-porous, no paint or coating that can flake. | Cleanability (EN 1672-2 / EHEDG practice). | M | I | B6 |
 | HYG-013 | Zone F geometry: internal radii ≥ 3 mm (≥ 6 mm preferred); no crevices, gaps, blind holes, exposed threads, screw heads, hollow sections open to soil, horizontal ledges or overlapping joints; permanent joints continuous and smooth. | No soil traps. | M | I | B6 |
 | HYG-014 | All Zone F and Zone S surfaces shall be self-draining (slope ≥ 3° towards a drain or edge) in their cleaning position; no standing liquid 10 min after the end of cleaning. | Standing water breeds biofilm. | M | T | B6 |
-| HYG-015 | Parts made by layer-wise 3D printing shall not form Zone F surfaces unless the surface is sealed or lined so that it meets HYG-011 to HYG-013, with evidence. In Zone S they shall be sealed or smoothed to HYG-012 and made of a material stable under HYG-011 conditions. | Layer grooves and porosity harbour bacteria; typical print materials soften below wash temperature. | M | I, T | B6, B13 |
+| HYG-015 | Parts made by layer-wise (FDM) 3D printing shall not form Zone F surfaces. Zone F parts shall be stainless steel or moulded or machined food-grade standard parts. In Zone S, printed parts are permitted only if sealed to HYG-012, replaceable as an LRU, and kept below 60 °C in operation and cleaning. In Zone N they are unrestricted (subject to BLD-003). | Layer grooves and porosity harbour bacteria; print materials soften at wash temperatures. Project ruling confirmed by the customer. | M | I, R | B6, B13, DEC-4 |
 | HYG-016 | Dynamic seals and shaft passages through Zone F shall be avoided; where unavoidable they shall be cleanable in place on the product side and be an LRU. | Known weak point of kitchen machines (mixing-bowl seals). | M | R | B6 |
 | HYG-017 | Lubricants in Zone F/S or above them shall be food-grade (NSF H1) or the mechanism shall run dry. | Incidental food contact. | M | R | drv |
 | HYG-018 | No glass, ceramic or other brittle material shall be used in or above Zone F, except the dishes and viewing windows of safety glass with containment. | Foreign bodies. | M | I | drv |
@@ -1047,9 +1052,9 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 | UTL-002 | No hot-water supply is available; the machine heats all water it needs. | Brief: cold only. | M | R | B12 |
 | UTL-003 | Drain: one connection to the house waste pipe (DN 40/50, with odour trap); discharge ≤ 20 L/min, ≤ 75 °C, solids ≤ 1 mm; the machine shall lift waste water to a connection up to 900 mm above the floor. | Brief; domestic drain practice. | M | T | B12 |
 | UTL-004 | One connection point per utility for the whole system; distribution to modules through the module interfaces (MOD-012, MOD-013). | Installation; modularity. | M | I | B11 |
-| UTL-010 | Electrical baseline: single-phase 230 V (220–240 V ± 10 %), 50 Hz, one circuit protected at 16 A: available power 3.68 kW; the machine shall draw ≤ 3.5 kW and ≤ 15.2 A at any time, including refrigeration, control and inrush averaged over 1 s. | Brief: "220 V power". This is the binding baseline (OQ-01). | M | T | B12 |
-| UTL-011 | A power manager shall allocate the budget of UTL-010 in this priority: safety functions, cold storage, control, food being cooked, hot holding, washing, everything else; it shall be part of the scheduling (CTL-005). | **Consequence of the 16 A limit:** one fast boil (2 kW) plus one simmer plus the oven *holding* temperature is possible; oven pre-heating, fast boiling, wash-water heating and drying cannot coincide. Time targets (PERF-001) include this. | M | A, T | B12 |
-| UTL-012 | The design shall be preparable for a larger supply — a second 16 A circuit or a three-phase 400 V 3N 16 A cooker connection (11 kW) — by configuration and wiring of the supply module only, distributing heaters over the phases; the S time targets may assume this option. | In many European kitchens a three-phase cooker outlet exists; the customer has not confirmed it (OQ-01). | S | R | B12 |
+| UTL-010 | Electrical supply: three-phase cooker connection 400 V 3N~ (3 × 230 V ± 10 % to neutral), 50 Hz, protected at 3 × 16 A: about 11 kW. The machine shall draw ≤ 15 A on each phase at any time (inrush averaged over 1 s), and ≤ 10.3 kW in total. | Brief: "220 V power"; customer decision: the cooker connection is available and designs may rely on it. | M | T | B12, DEC-1 |
+| UTL-011 | A power manager shall keep every phase within UTL-010 by distributing loads over the phases and scheduling them, in this priority: safety functions, cold storage, control, food being cooked, hot holding, washing, everything else. It shall be part of the scheduling (CTL-005). | Power management remains required (DEC-1). **Consequence of 3 × 16 A:** each phase carries about 3.4 kW, so e.g. two cooking positions at full power and the baking cavity can heat together, but a third full-power position, wash-water heating and drying must be interleaved. No single load may exceed one phase (3.4 kW) unless it is a three-phase device. | M | A, T | B12, DEC-1 |
+| UTL-012 | The machine should remain usable, with longer cooking and cleaning times, on a single 230 V / 16 A circuit (≤ 3.5 kW), by configuration of the supply module and the power manager only. | Kitchens without a cooker connection; time targets do not apply in this mode. | C | A | B12 |
 | UTL-013 | Earth leakage of the whole system shall stay ≤ 10 mA in normal operation. | Must not trip the 30 mA residual-current device of the house. | M | T | drv |
 | UTL-014 | Network: wired Ethernet (M) and Wi-Fi (S) to the home router; functions without Internet as CTL-012. | Brief: Internet. | M | I | B12 |
 
@@ -1272,8 +1277,8 @@ be confirmed by a regulatory expert (OQ-15).
 | ID | Assumption |
 |----|------------|
 | AS-01 | The machine occupies its own stretch of kitchen wall and replaces the conventional kitchen there; it contains no worktop, hob or sink for human use. |
-| AS-02 | Installation in the EU (first: Germany): 230 V / 50 Hz, protective earth, 30 mA residual-current device, metric threads and EN standards. "220 V" in the brief means the nominal 230 V mains. |
-| AS-03 | One 16 A circuit is available for the machine alone (UTL-010). |
+| AS-02 | Installation in the EU (first: Germany): 230/400 V, 50 Hz, protective earth, 30 mA residual-current device, metric threads and EN standards. "220 V" in the brief means the nominal 230 V mains. |
+| AS-03 | The three-phase cooker connection (UTL-010) is available for the machine alone (DEC-1). |
 | AS-04 | Cold-water valve and drain are within or directly beside the machine's length, as for a sink or dish washer. |
 | AS-05 | No ducted exhaust to the outside (ENV-010). |
 | AS-06 | Internet through the home router, not guaranteed to be always on. |
@@ -1312,11 +1317,11 @@ where the last column says so.
 
 | ID | Question | Default assumption for the design | Keep alternative open? |
 |----|----------|-----------------------------------|------------------------|
-| OQ-01 | Is only one 230 V / 16 A circuit available, or may a three-phase cooker connection (400 V, 3 × 16 A) or a second circuit be assumed? | One circuit, 3.5 kW, with power management (UTL-010, -011). Time targets at M level are for this case. | Yes: UTL-012. |
+| OQ-01 | *Closed by DEC-1:* a three-phase cooker connection (400 V 3N~, 3 × 16 A) is available. | UTL-010; power management still required (UTL-011). | Single-circuit fallback: UTL-012 (C). |
 | OQ-02 | Is a ducted exhaust to the outside available? | No: recirculation with grease separation, odour filter and steam condensation (ENV-010, -011). | Yes: ENV-014. |
 | OQ-03 | Dishes: literally as in the brief (human loads the dish washer, later puts clean dishes at the hatch), or may the human simply return *used* dishes at the hatch and the machine washes and stores them? The second removes two human steps and an uncontrolled input of possibly unclean dishes. | Literal brief (WSH-001, SRV-014, SRV-015). | Yes: the hatch and the transport shall not preclude accepting used dishes. |
 | OQ-04 | Number of persons and meals per day. | 1–6 persons per meal; sized for 4 persons × 3 meals/day. | — |
-| OQ-05 | The brief says every package is cut open at ingestion. For tins, jars, UHT cartons, vacuum packs and dairy tubs this shortens the shelf life from months to days. May such packages be stored sealed and opened by the machine at first use? | Yes: two routes, decant or stow sealed (ING-018). | If the customer insists on decant-only: CAP-010's 14- and 21-day autonomy no longer applies to those products. |
+| OQ-05 | The brief says every package is cut open at ingestion. The project ruling DEC-3 (pending customer objection) adds the STOW lane: tins, jars, cartons, tubs, vacuum packs are stored sealed and opened just in time. Does the customer object? | Two lanes, DECANT and STOW (ING-018). | If decant-only were required: CAP-010's 14- and 21-day autonomy would no longer apply to those products. |
 | OQ-06 | Version A: must the user be able to tip a jumbled pile of packages into the container, or is placing items one by one (about 3 s each, no orientation) acceptable? | One by one is the minimum; jumbled pile is the target (INA-001). | Yes. |
 | OQ-07 | How much supermarket pre-processing of ingredients is acceptable (minced meat, fillets, pre-cut Rouladen slices, frozen chopped onions, ready pastry sheets)? It decides whether several hard operations are needed at all. | As MEAL-012: basic processed forms allowed, characteristic components made by the machine; peeling and cutting of fresh produce required. | — |
 | OQ-08 | Is wiping the exterior fronts by the human acceptable? | Yes (AS-08). | — |
@@ -1333,3 +1338,102 @@ where the last column says so.
 | OQ-19 | Is remote ordering from outside the home and any cloud service wanted? | Local operation; remote access optional and opt-in (UI-001 c, SEC-004). | Yes. |
 | OQ-20 | Must the household be able to take food out by hand (snacks, fruit), i.e. is the machine also the household's only fridge and pantry? | Yes, via "present a box" (UC-18, UI-009); not designed for frequent snack access. | — |
 | OQ-21 | Raw and rare dishes (tartare, soft eggs, rare minced meat): offer at all? | Only after explicit opt-in (FSF-024). | — |
+
+### 12.4 Decisions incorporated (DECISIONS.md)
+
+| Decision | Content | Reflected in |
+|----------|---------|--------------|
+| DEC-1 (customer) | Three-phase cooker connection 400 V 3N~, 3 × 16 A, ≈ 11 kW is available; power management still required. | UTL-010, UTL-011, UTL-012, COK-004, PERF-001, AS-03, OQ-01 closed |
+| DEC-2 (customer) | Meal preparation is the most novel part and is developed in several rounds of idea finding, exploration, critique and iteration. | Section 3.5 and 5.3 are deliberately solution-neutral (capabilities and limits, no mechanisms); PRP-003 asks for a justification of every tool type. |
+| DEC-3 (ruling, pending customer objection) | Two ingestion lanes: DECANT and STOW with just-in-time opening. | ING-018, ING-020, ING-021, INA-005, INA-006, UC-02, FSF-050, OQ-05 |
+| DEC-4 (ruling, confirmed by customer) | No FDM-printed parts on food-contact surfaces; splash zone only if sealed, replaceable and below about 60 °C. | HYG-015, BLD-002, BLD-003, SAF-014 |
+| DEC-5 (ruling) | The hob is built from a controllable OEM/commercial induction module, not from a consumer hob. | COK-020, COK-023 |
+
+---
+
+## 13. Traceability: brief → requirements
+
+| Brief statement | Covered by |
+|-----------------|-----------|
+| B1 Fully automatic; cooks most normal meals autonomously | GEN-001 to -003, -007; MEAL-001 to -017; REL-001; section 7.8 |
+| B2 Parts list | MOD-001; sections 3.1–3.13 |
+| B3 Rectangular plastic boxes, small to medium, in a grid; a specific box to the exit; "design this transport system" | BOX-001 to -014; STO-001 to -015; TRN-001 to -016; CAP-020, -023 |
+| B4 Cold storage works the same; exit thermally closed; ideally off-the-shelf fridge/freezer with modified door | CLD-001 to -014; CAP-021, -022; RES-004; SAF-056 |
+| B5 Multi-tool or tools; all steps for most meals; ≥ 95 %; named meals; pouring from box to bucket, bucket to bucket, bucket to pan; novel tools welcome | PRP-001 to -037; MEAL-002, -005; section 5.3 (UO-01 to UO-87); section 5.4 |
+| B6 Everything cleaned automatically; hygienic; human cleans nothing; including boxes and transport | GEN-002; section 7 (HYG, FSF, HUM); WSH-004 to -013; PRP-030; TRN-011, -012; STO-012; COK-019; SRV-019; ING-013; INA-013 |
+| B7 Cooking (e.g. induction) and baking, designer free | COK-001 to -023 |
+| B8 Portion on a dish, nicely presented; several persons at once; specific place with automatic door | SRV-001 to -013; CAP-001 to -007; SAF-032 |
+| B9 Human puts used dishes into the dish washer and clean dishes back on the same spot | WSH-001 to -003; SRV-014 to -017; HUM-002; OQ-03 |
+| B10 Ingestion: container, one package at a time, bar code, Internet look-up, cut open, funnel into box; alternative: user scans and pours; two versions | ING-001 to -021; INA-001 to -015; INB-001 to -010; SEC-001; SAF-030, -031 |
+| B11 Modular; transport binds the parts; each part designed independently | MOD-001 to -033; TRN-002, -003, -014; CTL-013, -014 |
+| B12 600 mm deep, 2 000 mm high; L form optional; cold water 2.2–5 bar, waste water, 220 V, Internet | PHY-001 to -015; UTL-001 to -014; ENV-001 to -014; SAF-060, -061 |
+| B13 Standard parts and 3D printer; self-cleaning; accessible for repair; robust; no wasted footprint | BLD-001 to -009; MNT-001 to -010; REL-001 to -009; PHY-007, -008; STO-005 |
+
+---
+
+## 14. Open issues
+
+1. **Meal corpus not yet available.** `research/02-meal-corpus.md` did not exist when this document was
+   written. Section 5 defines the measure and the unit operations from the brief and from general culinary
+   knowledge. When the corpus arrives: (a) align the unit-operation list (MEAL-008), (b) check that the
+   exclusions of 5.4 cost ≤ 5 % of the corpus, (c) replace the estimated benchmark times in PERF-002 by the
+   corpus' T_ref values, (d) replace annex A.
+2. **Estimated numbers.** Everything marked (est.) is to be confirmed by research and by the architecture's
+   budgets, in particular: storage box counts (CAP-020 to -022), energy and water (RES), cost (BLD-004),
+   life-cycle counts (REL-004), mass per width (PHY-011), noise limits (NOI).
+3. **Microbiological and allergen criteria** (HYG-021, HYG-022) are taken from general hygiene practice;
+   `research/06` could not verify the dish-washer standards (DIN 10510/10534, NSF/ANSI 184). To be validated
+   with a laboratory on the prototype.
+4. **Cooling of cooked food** (COK-022: 65 → 10 °C in 120 min) is stricter than the FDA two-stage rule quoted
+   in `research/06`; kept as S until the leftover question (OQ-14) is decided.
+5. **Regulatory classification** (household appliance under the LVD vs. machinery) is unresolved (REG-001,
+   OQ-15).
+6. **Cleaning inside cold storage** (HYG-038) and **in-place cleaning of the transport system** (HYG-036) are
+   required but no proven method exists in prior art; the architecture must assign an owner.
+7. **Automatic verification of cleanliness** (HYG-026) by sensors and camera has no proven prior art;
+   thresholds must be found by prototyping.
+8. **Measuring core temperature** automatically and cleanably (COK-013) is unresolved in the research.
+9. **Off-the-shelf appliances without manual remote-start** (COK-023): the choice of oven and dish washer
+   depends on finding models that can be controlled locally.
+10. **Dish-washer duty** (REL-004 note): 4 ware-wash cycles per day exceed household appliance design life.
+11. The **reference basket** for INA-006 and the **test soils** for HYG-027 need to be fixed as test
+    specifications.
+12. The acceptance panel methods (MEAL-015, SRV-006, CAP-042, ENV-011) need a test protocol.
+
+## 15. Risks
+
+| # | Risk | Effect | Mitigation in this specification |
+|---|------|--------|----------------------------------|
+| 1 | The scope exceeds any existing product: no prior system combines storage, raw preparation, cooking, plating, self-cleaning and ingestion. | Unbuildable or unaffordable machine. | Priorities M/S/C; explicit exclusions (5.4); MVC (MOD-030); cost budget per module (BLD-004). |
+| 2 | "No human cleaning" fails at the casing, transport and storage interiors. | Hygiene hazard or hidden manual work. | Zones, surface inventory, schedule and acceptance criteria (section 7); exhaustive human task list (7.8); hygiene audit V3. |
+| 3 | 95 % coverage is claimed but not achieved in quality. | Meals processed but not good. | MEAL-010 to -017 define "preparable" including acceptance and adapted-method cap. |
+| 4 | Raw-ingredient preparation (peeling, meat handling, forming, Rouladen) has no prior art. | Largest development effort; coverage gap. | Solution-neutral unit operations with measurable limits; permitted ingredient forms (MEAL-012, OQ-07); multi-round preparation design (DEC-2). |
+| 5 | Version A ingestion of arbitrary packages from a pile. | Low automatic rate, many rejects. | Staged requirement (INA-001, INA-006), reject path, version B as fallback (ING-001). |
+| 6 | Opening everything at ingestion destroys shelf life. | Food waste, autonomy lost. | Two lanes (ING-018), FSF-050 to -052. |
+| 7 | Power and heat: cooking, washing and drying compete even on 11 kW; all heat and steam stay in the room. | Slow meals; damp, hot kitchen; mould in dry storage. | UTL-011; ENV-010 to -013; STO-007; HYG-053. |
+| 8 | Unattended heating of fat. | Fire with nobody at home. | COK-021, SAF-010 to -017, exclusion X-01. |
+| 9 | Reliability of a machine with many mechanisms: 98 % meal completion needs very high reliability per step (≈ 300 steps per meal → ≥ 99.993 % per step). | Frequent interventions. | REL-001 to -009; closed-loop control (CTL-007); automatic recovery (CTL-010); few tool types (PRP-003). |
+| 10 | Modified consumer appliances (fridge, dish washer, oven) lose certification, have short duty life, or cannot be controlled locally. | Safety, lifetime, integration risk. | SAF-056, COK-023, REL-004 note. |
+| 11 | Standard parts and 3D printing conflict with hygienic design in Zones F and S. | Custom stainless parts raise cost. | HYG-015, BLD-002 (online fabrication services allowed), BLD-004. |
+| 12 | Requirements based on estimates prove too tight or too loose. | Over- or under-design. | (est.) marking; open issue 2; architect to confirm budgets and raise conflicts. |
+| 13 | Dishes returned by the human are an uncontrolled hygiene input and a recurring chore. | Contaminated dish store; user annoyance. | SRV-015; OQ-03. |
+| 14 | Water damage or scalding in an unattended home. | Property damage, injury. | SAF-020 to -023, SAF-053 to -055. |
+
+---
+
+## Annex A — Provisional benchmark meals (until the corpus is available)
+
+Placeholder for coverage walk-throughs; superseded by `research/02-meal-corpus.md`. All for 1–6 persons.
+
+| Category | Meals |
+|----------|-------|
+| Named in the brief | Mixed salad with vinaigrette · mashed potatoes · roast beef with gravy · Frikadellen · beef Rouladen · clear soup with garnish, cream of vegetable soup, lentil or pea stew · pan-fried steak · pasta with sauce |
+| Soups and stews | Potato soup · chicken noodle soup · goulash soup · tomato soup · vegetable stew with beef |
+| Meat mains | Wiener/pork Schnitzel · goulash · Sauerbraten · roast pork with crackling · Königsberger Klopse · chicken fricassee · roast chicken legs · cabbage rolls · liver with onions · bratwurst with sauerkraut · Geschnetzeltes in cream sauce · stuffed peppers · meatloaf |
+| Fish | Pan-fried fish fillet · baked salmon · fish in mustard sauce · breaded fish with potato salad |
+| Potato, flour and egg dishes | Boiled, fried, roast and gratin potatoes · potato dumplings · Reibekuchen · Spätzle, Käsespätzle · pancakes · omelette, scrambled and fried eggs · Semmelknödel · potato salad · Bauernfrühstück |
+| Pasta and rice | Spaghetti bolognese · lasagne · macaroni cheese · risotto · rice pudding · pasta bake · rice with vegetables and chicken |
+| Vegetables and sides | Red cabbage · sauerkraut · creamed spinach · green beans with bacon · glazed carrots · cauliflower with breadcrumb butter · kohlrabi in white sauce · asparagus with hollandaise |
+| Salads | Cucumber salad · tomato salad · coleslaw · carrot-apple salad · pasta salad · lettuce with yoghurt dressing |
+| Baked | Quiche · pizza · vegetable gratin · apple cake (tray) · marble cake · crumble · simple yeast bread and rolls |
+| Desserts and breakfast | Vanilla pudding · stewed fruit · semolina pudding · fruit salad · quark dessert · porridge · Kaiserschmarrn |
