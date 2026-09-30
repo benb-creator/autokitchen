@@ -438,7 +438,7 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | COK-003 | Cooking positions: controlled vessel-base temperature 40–260 °C; content temperature control 40–100 °C within ±3 K (simmering, poaching, holding, melting, water-bath-like heat at 65–80 °C). | Searing to hollandaise (corpus 4.9). | M | T | B7 |
 | COK-004 | Heating performance: bring 2 L of water from 15 °C to 95 °C in ≤ 6 min, and 6 L in ≤ 16 min, in one vessel, while one further cooking position and the baking cavity are heating. | Pasta and potato water is the time driver; one phase (≈ 3.4 kW) per fast position. | M | T | drv, DEC-1 |
 | COK-005 | Searing: a vessel base shall reach 220 °C in ≤ 5 min and recover to ≥ 180 °C within 60 s after 600 g of meat at 4 °C is added. | Browning instead of stewing (steak, Rouladen, roast). | M | T | B5, B7 |
-| COK-006 | Baking/roasting cavity: 30–250 °C (M), to 280 °C (S), ±10 K at the centre; top heat for gratinating; usable volume ≥ 45 L with space for a tray of 400 × 300 mm, a 26 cm springform, a roast of 2.5 kg, or a 6 L lidded braising vessel (320 × 240 × 110 mm). | Corpus 4.9 and 6.3: 57 meals bake or roast; only pizza and Flammkuchen want more than 250 °C. | M | T, I | B7 |
+| COK-006 | Baking/roasting cavity: 30–250 °C (M), to 280 °C (S), ±10 K at the centre; top heat for gratinating; usable volume ≥ 45 L with space for a tray of ≥ 0.10 m² (e.g. 400 × 300 mm or Gastronorm 2/3, 354 × 325 mm), a 26 cm springform, a roast of 2.5 kg, or a 6 L lidded braising vessel (320 × 240 × 110 mm). | Corpus 4.9 and 6.3: 57 meals bake or roast; only pizza and Flammkuchen want more than 250 °C. The tray format is the designer's choice. | M | T, I | B7 |
 | COK-007 | The cavity should offer controlled humidity (steam injection or steam baking up to 100 °C). | Bread crust, gentle roasting, regeneration, steaming in bulk. | S | D | B7 |
 | COK-008 | Every cooking position shall be able to stir or agitate the contents automatically, including scraping the bottom and wall so that thickened sauces, porridge, risotto and roux do not burn on; stirring speed and pattern selectable per recipe step. | Brief: "cooking, including stirring". | M | D, T | B2 |
 | COK-009 | The module shall cook individual pieces (steak, schnitzel, Frikadelle, fish fillet, pancake, fried egg) with browning on both sides as the recipe demands — by turning them or by heating from both sides — without breaking them: ≥ 95 % of pieces intact. | Pan-fried dishes are a large share of the corpus; the method is left open. | M | T | B5 |
@@ -649,15 +649,18 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| MEAL-010 | A meal is **preparable** when all of MEAL-011 to MEAL-017 hold. | Definition. | M | — | B5 |
+| MEAL-010 | A meal is **preparable** when all of MEAL-011 to MEAL-017 hold, within the limits of MEAL-019 and MEAL-020. | Definition. | M | — | B5 |
 | MEAL-011 | All steps from stored ingredients to plated dish are performed by the machine without human action. | B1. | M | D | B1 |
 | MEAL-012 | **Permitted purchases by default** (OQ-07). (a) Commodity pre-processed food sold all year in ordinary supermarkets (corpus level 1): boneless, trimmed, filleted and shelled meat, fish and seafood; minced meat; meat cut by the butcher into cutlets, thin Rouladen slices, strips and cubes; peeled or frozen chopped onion and garlic; peeled, cored, trimmed or cut vegetables and fruit, fresh, frozen or tinned; frozen chopped herbs; grated cheese; liquid pasteurised egg for mixtures; ground spices; breadcrumbs; sliced bread and cold cuts. (b) Staples that the traditional home recipe itself buys ready: dried and fresh pasta incl. filled pasta, lasagne sheets, stock, tinned tomatoes and pulses, puff, filo and strudel pastry sheets, tortillas and wrappers, bread and buns. **Not permitted** (corpus level 2): products in which the shaping, coating or assembly of the dish has already been done — formed patties and meatballs, ready dumplings, breaded cutlets and fish, ready-rolled Rouladen, ready-stuffed vegetables, pre-blanched cabbage leaves for rolls, ready pizza/shortcrust/yeast dough and bases, instant mash, ready sauces and dessert mixes where the sauce or dessert is the dish. | Otherwise 95 % is reached trivially by buying convenience food, which the brief ("Frikadellen, Rouladen") plainly does not mean. | M | R | B5 |
-| MEAL-013 | The method may differ from the traditional one if the result is equivalent (*adapted method*, e.g. oven-crisped instead of deep-fried). Adapted meals shall be marked; they count as preparable only if rated per MEAL-015, and no more than 10 % of the corpus may be covered by adapted methods. | Leaves design freedom ("novel tools welcome") without hollowing out the goal. | M | R, T | B5 |
+| MEAL-013 | **Deviations from the traditional method are classified in three classes.** **(a) Process aid:** a change in how the machine gets there that the diner cannot detect in the finished dish — other tool, fixture, order of steps, batch size, vessel, tempering or chilling for handling, fasteners. Free: not marked, not counted, no panel. **(b) Equivalent method:** a different cooking or forming method that aims at the same traditional result (e.g. hot-air instead of oil bath, two-sided heat instead of turning, parts instead of whole). Marked in the design documents; to be confirmed once per method family by the panel of MEAL-015: equivalent if the mean is ≥ 3.0 *and* not more than 0.5 points below the traditionally made reference. If confirmed it is not counted; if the panel notices (more than 0.5 below, but still ≥ 3.0) it is treated as class (c); below 3.0 the meal is not preparable. **(c) Visibly different result:** the diner sees or tastes, without a comparison, that the dish is not the traditional one (other shape, other cut where the cut is the dish, a part left out, another form of serving). Must reach ≥ 3.0, is marked as such to the user on the menu, and is counted against MEAL-019. "Adapted" in this document means class (b) or (c). | Leaves design freedom ("novel tools welcome") without hollowing out the goal; ends the explorers' disagreement on what counts. | M | R, T | B5 |
 | MEAL-014 | The result is safe: FSF requirements met. | — | M | T | drv |
 | MEAL-015 | The result is accepted: in a blind comparison with the same dish by a competent home cook, ≥ 5 raters give a mean ≥ 3.0 of 5 (3 = "as good as normal home cooking") for taste and texture, and none of the recipe's objective criteria (doneness, core temperature, consistency, browning) is missed. | "Cook … normal meals" means edible to home standard, not merely processed. | M | T (prototype), R (paper phase: objective criteria only) | B1 |
 | MEAL-016 | It can be prepared for every number of persons from 1 to 6 (largest single pieces, e.g. a roast, may have a minimum size serving more than 1). | B8. | M | A | B8 |
 | MEAL-017 | It meets the time target PERF-001 and is completed without human intervention in ≥ 98 % of attempts (REL-001). | — | M | A, T | drv |
 | MEAL-018 | **Operations the machine shall perform itself.** (a) Those with no purchase workaround at all — browning on both sides (FLP, 12.9 % of meals), assembling (ASM, 6.9 %), carving (CAR, 4.8 %), unmoulding (UNM, 4.4 %), scoring (SCO, 2.8 %); together 29 % of the corpus. (b) The shaping cluster, avoidable only with products that MEAL-012 forbids — stuff/fill (STU), wrap (WRP), hand-form small pieces (FRM), dough rolling and shaping (ROL, SHD), breading (BRD), roll-and-secure (RLT), and forming patties and dumplings (FRB, FRK); the cluster alone blocks 38 meals = 15.3 %. These operations are priority M in section 5.3, within the limits stated there; the 95 % target cannot be met without them. A design that omits one of them shall show, meal by meal, that MEAL-002 and MEAL-003 still hold. | Makes explicit where the difficulty of the 95 % goal lies (corpus sections 4.5–4.7, 7). | M | R, A | B5 |
+| MEAL-019 | **Budget for adaptations.** (1) *Mandated adaptations* — those this specification itself prescribes by its exclusions (section 5.4: X-01, X-11, X-13; at present 19 meals = 7.7 %, listed in 5.5) — are kept in a separate list and do not consume the designers' budget, whatever class the panel assigns them. (2) *Designer-chosen class (c)*: ≤ 24 meals (10 % of the corpus), and ≤ 5 of the weight-3 meals. (3) *Designer-chosen class (b)* pending panel confirmation: ≤ 50 meals (20 %); in the paper phase they count as zero against (2) but each shall name its fallback if the panel notices. (4) Ceiling for everything the user can notice — mandated meals that turn out class (c), plus (2): ≤ 40 meals (16 %). | The former single 10 % limit was almost used up by the specification's own substitutions. | M | A, T | B5 |
+| MEAL-020 | **Served as components for assembly at the table.** Counts as preparable, as class (a), only for meals that are traditionally assembled by the diner: fajitas (MX05, per the corpus row), tacos, raclette-like platters, cold platters, soup garnishes served alongside. For soft wraps and burritos it counts as preparable but class (c). It does not count as preparable for meals whose identity is the assembly made in the kitchen: burger, sandwich and toast, hot dog, pizza, enchiladas, layered and filled dishes and cakes. | Default pending the customer (OQ-22). | M | R | B5, B8 |
+| MEAL-021 | One register of adaptations shall be kept for the whole project (owner: architecture/V2): per corpus meal its class, the method, whether mandated, the panel status and the fallback. Every design document shall use the class letters of MEAL-013 and the rulings of section 5.5. | "Not yet counted by anyone" (explorers). | M | R | drv |
 
 ### 5.3 Unit operations the machine shall support
 
@@ -797,7 +800,7 @@ exceeded, the cheapest candidates to re-include are, in this order, X-11 (waffle
 
 | ID | Excluded capability | Justification | Corpus meals affected; adapted method or consequence |
 |----|---------------------|---------------|------------------------------------------------------|
-| X-01 | Deep-frying DFR in an oil bath (> 250 mL oil). The corpus proposes a 3 L fryer; this specification does not require one. | Fire load incompatible with unattended operation (SAF-014); oil storage, filtering, ageing and disposal; hardest cleaning task; 4 % of meals. | 10 meals. **Adapted methods permitted (MEAL-013):** SD04 French fries, SD21 croquettes, IN07 samosa, AS08 spring rolls → hot-air/oven crisping at 200–230 °C with ≤ 15 mL oil per 500 g. ME05 falafel, FI02 Backfisch, US05 fried chicken, AS07 sweet-and-sour chicken → shallow-frying in ≤ 250 mL fat with turning (UO-56), or hot-air. IN05 biryani (fried onions) → shallow-fried. CK11 Krapfen/Berliner → no acceptable substitute, falls into the 5 %. SD04 has weight 3: its adapted result shall pass MEAL-015 explicitly. |
+| X-01 | Deep-frying DFR in an oil bath (> 250 mL oil). The corpus proposes a 3 L fryer; this specification does not require one. | Fire load incompatible with unattended operation (SAF-014); oil storage, filtering, ageing and disposal; hardest cleaning task; 4 % of meals. | 10 meals. **Adapted methods permitted (MEAL-013):** SD04 French fries, SD21 croquettes, IN07 samosa, AS08 spring rolls → hot-air/oven crisping at 200–230 °C with ≤ 15 mL oil per 500 g. ME05 falafel, FI02 Backfisch, US05 fried chicken, AS07 sweet-and-sour chicken → shallow-frying in ≤ 250 mL fat with turning (UO-56), or hot-air. IN05 biryani (fried onions) → shallow-fried. CK11 Krapfen/Berliner → no acceptable substitute, falls into the 5 %. SD04 has weight 3: its result shall pass MEAL-015 explicitly. These are mandated adaptations (MEAL-019 (1), section 5.5). |
 | X-02 | Open-flame or charcoal grilling, smoking, flambéing, torching | No flame in an enclosed unattended machine. | Pan-searing, top-heat browning (UO-60). |
 | X-03 | Butchery: debone DBN, trim sinew and silverskin TRM, fillet/gut/scale fish FLT, shell seafood PLQ | Difficulty 5, no household-scale solution; supermarkets sell the prepared form (MEAL-012 a). | 11 meals, all preparable with bought boneless, trimmed, filleted or shelled goods. Whole gutted fish (FI07) is baked whole and carved by the guest. |
 | X-04 | Whole roasts and birds > 2.5 kg; carving whole large birds | A few festive meals per year would set oven and vessel size for everything. | DM21 goose falls out; duck, chicken ≤ 2.5 kg and poultry parts remain (bone-in carving: S). |
@@ -809,9 +812,44 @@ exceeded, the cheapest candidates to re-include are, in this order, X-11 (waffle
 | X-10 | Table-cooking formats: fondue, raclette, hot pot, table grill | The cooking is the human activity; not in the corpus. | — |
 | X-11 | Single-purpose equipment: waffle iron, ice-cream churn, pressure cooker, sous-vide, rotisserie, jet-flame wok | Each adds a device and a cleaning task for < 1 % of meals. | BF08 waffles, DS13 ice cream fall out. US07 toasted sandwich → pan or double-sided heat. The 7 stir-fry meals → agitated hot pan (UO-76, adapted). |
 | X-12 | Fine manual assembly: sushi rolling, canapés | Difficulty 5. | AS05 sushi falls out. |
-| X-13 | Skewering SKW, skimming SKM | Alternatives exist. | ME04 souvlaki cooked as loose cubes or on bought skewers; SP05, DM29 without skimming (slightly cloudy broth accepted) — all three count as adapted. |
+| X-13 | Skewering SKW, skimming SKM | Alternatives exist. | ME04 souvlaki as loose cubes; SP05, DM29 without skimming — mandated adaptations (5.5). |
 | X-14 | Raw-egg, raw-meat and raw-fish dishes served uncooked | Food-safety risk without a human judging freshness. | Only on explicit opt-in (FSF-024); DS06 tiramisu with pasteurised egg by default. |
 | X-15 | Drinks | Non-goal NG-01; not in the corpus. | — |
+
+### 5.5 Adaptation rulings
+
+Binding examples for MEAL-013 (class a = process aid, free; b = equivalent method, panel; c = visibly
+different, counted). New cases are decided by analogy and added here.
+
+**Mandated adaptations (MEAL-019 (1)) — 19 meals, outside the designers' budget**
+
+| Meals | Mandated by | Method | Class to assume until the panel |
+|-------|-------------|--------|--------------------------------|
+| SD04 fries, SD21 croquettes, IN07 samosa, AS08 spring rolls | X-01 | hot-air/oven crisping | b (SD04, weight 3, shall be panel-tested first) |
+| ME05 falafel, FI02 Backfisch, US05 fried chicken, AS07 sweet-and-sour chicken, IN05 biryani onions | X-01 | shallow-fry ≤ 250 mL or hot-air | b |
+| AS01, AS02, AS04, AS11, MX05, VG01 stir-fry dishes (AS07 counted above) | X-11 | agitated pan at 230–260 °C | b |
+| US07 toasted sandwich | X-11 | pan or two-sided heat | a (the home method) |
+| ME04 souvlaki | X-13 | grilled as loose cubes | c |
+| SP05 chicken soup, DM29 boiled beef | X-13 | not skimmed | b |
+
+**Rulings on cases raised in the concept phase**
+
+| # | Case | Ruling |
+|---|------|--------|
+| R-01 | Rouladen not tied with twine but held by skewers, pins or clips, or braised seam-down without fastener | **a**. Pins and skewers are themselves traditional; the fastener is removed before plating or is removable by the diner without tools. Condition: ≥ 90 % of rolls closed at plating (UO-42). One large Roulade sliced into portions: **c**. |
+| R-02 | Tempering, chilling or surface-freezing an ingredient as a handling aid (meat before slicing or breading, bacon to 12–15 °C, butter to 18–22 °C, chill-slice-reheat of a braised roast) | **a**, provided the food is served in the traditional state, FSF-013/-014/-030 are met and thawed raw food is not refrozen. |
+| R-03 | Flip by a pair of pans (turning one over onto the other) with ≤ 30 mL free fat | **a**: it is turning. With more fat another turning method is required (COK-021 is unaffected). |
+| R-04 | Browning both sides by two-sided contact heat or top heat instead of turning | **b**. |
+| R-05 | Pizza, Flammkuchen or tray cake baked on a rectangular tray (e.g. Gastronorm 2/3) instead of 400 × 300 mm or a round 320 mm stone | **a**: tray pizza is a traditional home form; COK-006 asks only for ≥ 0.10 m². Portions per run shall still serve the ordered persons (several trays in sequence allowed within PERF-001). |
+| R-06 | Poultry roasted as parts instead of whole and carved | **b** (plated portions are the same pieces; skin and juiciness go to the panel). Whole goose remains excluded (X-04). Aromatics injected or added as liquid instead of a cavity stuffing: **b**. Where the stuffing is served as a component: **c**. |
+| R-07 | Diced bacon instead of slices | **a** where the bacon is cooked into the dish (Bratkartoffeln, carbonara, beans, quiche); **c** where the rasher is the item on the plate or wraps something (breakfast bacon, bacon-wrapped dishes). |
+| R-08 | Frozen diced or bought peeled onion, garlic paste | Permitted purchase (MEAL-012 a), no adaptation, where the onion is cooked into the dish. Where rings, slices or raw onion are the visible component (onion rings, Zwiebelrostbraten, salads, Zwiebelkuchen), diced onion is **c**; fresh onion is then needed (UO-12). Counts against MEAL-009 in any case. |
+| R-09 | Potatoes boiled in the skin and slipped afterwards, for mash, potato salad, fried potatoes, dumplings | **a** (traditional). For plain boiled potatoes (Salzkartoffeln): **b**. |
+| R-10 | Other cut than the recipe's: cauliflower in slabs instead of florets, square instead of pleated gyoza/samosa, strawberries with calyx | **c**. Dice instead of slices inside a stew or sauce: **a**. |
+| R-11 | Other batter or mixing method with the same product: whole-egg sponge instead of separated eggs, oil or melted-butter method instead of creaming, carton egg white | **b**. |
+| R-12 | More batches, other vessel, other order of steps, warm-holding between batches | **a**. |
+| R-13 | A component or garnish of the corpus row left out | **c**; if it is the characteristic component, the meal is not preparable. |
+| R-14 | Served as components | MEAL-020. |
 
 ---
 
@@ -1362,6 +1400,7 @@ where the last column says so.
 | OQ-19 | Is remote ordering from outside the home and any cloud service wanted? | Local operation; remote access optional and opt-in (UI-001 c, SEC-004). | Yes. |
 | OQ-20 | Must the household be able to take food out by hand (snacks, fruit), i.e. is the machine also the household's only fridge and pantry? | Yes, via "present a box" (UC-18, UI-009); not designed for frequent snack access. | — |
 | OQ-21 | Raw and rare dishes (tartare, soft eggs, rare minced meat): offer at all? | Only after explicit opt-in (FSF-024). | — |
+| OQ-22 | Hand food served as separate components for assembly at the table: acceptable? | MEAL-020: yes for meals traditionally assembled by the diner (fajitas, tacos); wraps and burritos yes but counted as visibly different; no for burger, sandwich, hot dog, pizza and other dishes whose identity is the assembly. | Yes. |
 
 ### 12.4 Decisions incorporated (DECISIONS.md)
 
@@ -1379,7 +1418,7 @@ where the last column says so.
 
 | Brief statement | Covered by |
 |-----------------|-----------|
-| B1 Fully automatic; cooks most normal meals autonomously | GEN-001 to -003, -007; MEAL-001 to -017; REL-001; section 7.8 |
+| B1 Fully automatic; cooks most normal meals autonomously | GEN-001 to -003, -007; MEAL-001 to -021; REL-001; section 7.8 |
 | B2 Parts list | MOD-001; sections 3.1–3.13 |
 | B3 Rectangular plastic boxes, small to medium, in a grid; a specific box to the exit; "design this transport system" | BOX-001 to -014; STO-001 to -015; TRN-001 to -016; CAP-020, -023 |
 | B4 Cold storage works the same; exit thermally closed; ideally off-the-shelf fridge/freezer with modified door | CLD-001 to -014; CAP-021, -022; RES-004; SAF-056 |
@@ -1431,7 +1470,7 @@ where the last column says so.
 |---|------|--------|----------------------------------|
 | 1 | The scope exceeds any existing product: no prior system combines storage, raw preparation, cooking, plating, self-cleaning and ingestion. | Unbuildable or unaffordable machine. | Priorities M/S/C; explicit exclusions (5.4); MVC (MOD-030); cost budget per module (BLD-004). |
 | 2 | "No human cleaning" fails at the casing, transport and storage interiors. | Hygiene hazard or hidden manual work. | Zones, surface inventory, schedule and acceptance criteria (section 7); exhaustive human task list (7.8); hygiene audit V3. |
-| 3 | 95 % coverage is claimed but not achieved in quality. | Meals processed but not good. | MEAL-010 to -017 define "preparable" including acceptance and adapted-method cap. |
+| 3 | 95 % coverage is claimed but not achieved in quality. | Meals processed but not good. | MEAL-010 to -021 define "preparable", the classes of adaptation and their budgets. |
 | 4 | Raw-ingredient preparation (peeling, meat handling, forming, Rouladen) has no prior art. | Largest development effort; coverage gap. | Solution-neutral unit operations with measurable limits; permitted ingredient forms (MEAL-012, OQ-07); multi-round preparation design (DEC-2). |
 | 5 | Version A ingestion of arbitrary packages from a pile. | Low automatic rate, many rejects. | Staged requirement (INA-001, INA-006), reject path, version B as fallback (ING-001). |
 | 6 | Opening everything at ingestion destroys shelf life. | Food waste, autonomy lost. | Two lanes (ING-018), FSF-050 to -052. |
