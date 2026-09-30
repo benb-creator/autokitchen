@@ -19,4 +19,5 @@ They rank directly below the brief and above all research, requirements and desi
 | 12 | 2026-09-30 | Customer | Leftovers: discard; store them if that is easy. |
 | 13 | 2026-09-30 | Customer | **The machine is the household's only fridge and pantry.** Storage capacity must cover all household food, not only cooking ingredients. The machine also serves simple drinks and snacks from storage, e.g. pours a glass of juice from a juice carton on request. |
 | 14 | 2026-09-30 | Customer | Tacos and wraps may be served as components for simple assembly by the human at the table. |
+| 16 | 2026-09-30 | Customer | Clarification of #13: **breakfast goods (bread, muesli, cereals etc.) and snacks are stored the traditional way**, outside the machine, and are not served by it. Orchestrator's reading, pending customer objection: this concerns ambient breakfast goods and snacks; chilled items (milk, butter, cheese, yoghurt, cold cuts, drinks) stay in the machine, which is still the only fridge. |
 | 15 | 2026-09-30 | Customer | Every commit is pushed to the GitHub repo benb-creator/autokitchen. (A post-commit hook in the local repo does this; agents need not push manually.) |
