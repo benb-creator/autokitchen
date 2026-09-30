@@ -29,7 +29,45 @@ the gap documents; the catalogue's cleaning mechanisms SM-188…216 and its comm
 
 ## 1. Summary
 
-(Scores and counts are completed in section 5; draft.)
+| Concept | Score (1–10) | Fatal | Major | Verdict in one line |
+|---|---|---|---|---|
+| K1 ceiling turret | **3** | 1 | 10 | 7.3 m of uncleanable-until-proven gap over the food, a rod bore that carries both drinking water and cooking water, and 2.5 × the water budget |
+| K2 vessel stack | **5** | 0 | 8 | Excellent bare-metal ware on a wash lathe, but the "flash" is dry heat, a drive sits above the press pot and 12 m² of splash zone get 10 L a day |
+| K3 drum and belt | **3.5** | 0 | 7 | The drum is a credible self-cleaning vessel; the TPU belt, the shared chute and 19 dynamic seals are not |
+| K4 shuttle mat | **3** | 0 | 7 | 10 m² of textile-cored elastomer food surface stored wound and wet; the raw-meat disinfection of the cutting mat covers 5 % of its length |
+| K5 ram and die | **5** | 0 | 8 | Best in-place cleaned food part (the pigged tube with a bore camera), spoiled by a shared die carousel, twin-lip pistons and a chip box in the wash loop |
+| K6 loose ware, wash wells | **7** | 0 | 8 | No fixed food surface, commercial wash hardware, per-item verification; a large open splash zone washed only at night and a gripper that carries soil from tang to tang — all fixable |
+| K7 state change | **5.5** | 0 | 4 | Loose ware and a steam-finished slot washer; the slot sprays raw-meat liquor beside the clean tray rack, and the sink is raw bench, produce wash and waste port at once |
+| K8 sealed tub | **6** | 0 | 6 | Zero dynamic seals and full containment; but clean ware lives in the soiled tub, the rinse does not disinfect raw-meat ware, and the rinse water is under-counted by 12 L |
+
+Major counts include the RES-005 miss that every concept shares; weight, not count, sets the score (section 5).
+
+**The one fatal finding** is K1-1: the six annular seam gaps above the whole work deck, flushed only from one
+side, invisible to every sensor, and — by the explorer's own statement — without a fallback inside the concept.
+Two further findings become fatal if their concept's own kill test fails: K3-1 (belt) and K4-1 (mats).
+
+**Findings that apply to all eight** (section 2) are as important as any single concept's defect:
+
+1. **No concept meets RES-005 (45 L) or RES-001 (4.0 kWh)** once the machine-washed dishes (DEC-6), produce
+   washing (DEC-8) and cooking water are booked and the arithmetic is redone: recomputed range **54–118 L** and
+   **4.0–8.9 kWh** per reference meal (C-2).
+2. **Thermal-disinfection claims (HYG-021, A0 ≥ 60) have no margin in six concepts, and in two (K2, K3) the
+   induction "flash" is dry heat, to which A0 does not apply** (C-1).
+3. **DEC-8 turns every produce intake into a class R path** (unwashed soil-bearing produce is class R by
+   definition 1.4) and brings sand into wash sumps whose pumps and 1–1.5 mm nozzles were not designed for it
+   (C-4). DEC-6 makes the hatch a dirty return and a clean serving point at once (C-5).
+4. **Splash zones of 5–12 m² are washed with 0.5–1 L of fresh water per m² once a day**, with no nozzle plan and
+   no drying step after the meals in between; HYG-045 (not soiled and wet for more than 4 h) is not shown by any
+   open-bay concept (C-3).
+5. **Nobody cleans the oven cavity, the hood or the grease path** (C-6), and **no concept can verify allergen
+   removal** online (C-7).
+
+**Recommendation for round 2** (section 8): build on K6's rule "everything that touches food is ware, washed in a
+fast tank washer, hung by one grip feature, verified per item", add K5's pigged tube as the press cassette, K8's
+enclosure of the frying zone, K7's steam finish for flat ware, K3's drum as a closed produce-wash vessel, and
+K2's wash lathe for round ware only if the flash is redone as moist heat. Drop K1 and K4 as whole-cell concepts;
+keep K3's belt only if its riboflavin/swab test passes. Twelve hygiene rules for every round-2 concept are in
+section 8.1.
 
 ---
 
