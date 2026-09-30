@@ -273,7 +273,7 @@ over a vessel; they are closed welded boxes and count as Zone S.
 | Long items lengthwise under the blade (trim ends, coins) | **Pour direction sets orientation**: the dock tilts the box about a Y axis, so carrots, leeks, cucumbers and meat slices stored lengthwise in a GN 1/3 box slide out along X and stay so as long as they are not tumbled | M |
 | A cut across Y | **Disc-knife roller**: cuts planes perpendicular to Y at a fixed pitch (5, 10, 20 mm). After LOOP work, cylinders lie along Y, and the disc roller cross-cuts them | M |
 | Turn a flat item by 90° (a meat slice that must be rolled from its narrow end) | **Turn plate on P1**: NOSE the item onto the plate, turntable 90°, arm C tilts the plate and slides the item back onto the SLING | M–L, 40 s per item |
-| Distribute over a round pan or a rectangular dish | Turntable under the nose; nose travels in X | H |
+| Place or deposit at any point of a dish (muffin cups, toppings, sheets) | **Polar placement**: turntable angle plus nose or pour position in X | M–H |
 | Stir | Turntable under a fixed scraper | H |
 
 ---
@@ -603,9 +603,8 @@ apertures (6.5). A 2.5 m mat takes 100 s per pass. If camera 1 sees a film when 
 out (the mat is a flat known surface under a top-down camera: the best inspection geometry a kitchen
 part can have), the mat makes a second pass with the sump at 65 °C.
 
-Mat K (UHMW-PE) and the mesh P skip the steam slot below 100 °C limit concerns: K is limited to the 85 °C
-rinse; after raw meat it is held three times for 60 s in the rinse stage (A0 ≥ 60 at 80 °C). P and R take
-steam.
+Mat K (UHMW-PE) does not take the steam slot: it is limited to the 85 °C rinse, and after raw meat it is
+held three times for 60 s in the rinse stage (A0 ≥ 60 at 80 °C). S, D, P and R take steam.
 
 **Drying.** A silicone or steel mat leaves the steam slot at about 90 °C and the squeegee takes the film;
 it is wound warm. That is not proof of dryness: a wound roll cannot dry. At the end of the meal each used
@@ -739,3 +738,216 @@ from the rasp is wet and starchy: it must be flushed the same minute.
 | Handling moves per meal | 35 (benchmarks 12–52) | arm C moves + mat exchanges + dockings |
 | Mat strokes per meal | 300–900 | not counted as handling; each is a wind/unwind |
 | Zone F fixed / Zone S | 0.69 m² / 8.3 m² | 6.3 |
+
+---
+
+## 8. Coverage estimate against the 248-meal corpus
+
+Method: I walked the twelve benchmarks in full (section 5) and every corpus row that contains one of the
+hard operations STU, ASM, WRP, RLT, FRM, SHD, BRD, CAR, UNM, LSP, POA, EXT, PIP, SKW, SHR (listed from
+the corpus table by code). The other rows were judged by operation, not walked. Onion and garlic are
+bought peeled, fruit cored where the recipe allows pieces (MEAL-012 a). This is an estimate, not the V2
+recomputation.
+
+| Group | Meals | Count |
+|---|---|---|
+| Excluded for every candidate (requirements 5.4) | CK11, DM21, DS13, BF08, AS05, BK06, CK08, BK02 | 8 |
+| **Fall out on K4, no mechanism** | DM12 cabbage rolls (leaf separation; the rolling itself is native); BF14 poached eggs; DS15 baked apple (coring a whole apple); AS09 gyoza and IN07 samosa (fold and seal a filled pocket); DS11 filled yeast dumplings (core); MX02 tacos (filling a standing shell) | 7 |
+| **Doubtful on K4 (L or M–L)**, about half expected to fail | SD09, IT19, DM28 Spätzle (only by scraping a scored batter layer off the nose with the doctor lip — "vom Brett", untested — or bought fresh); DM05 cordon bleu (fold in ENVELOPE, no pin); IT18 cannelloni (as rolled sheets); US01 hamburger and BF11 bread with cold cuts (stacking, slice singulation); FR01 quiche and CK02 cheesecake (lining a tin with a dough sheet; press-in base instead); ME03 gyros in pita (served open) | 10 → about 5 |
+| Preparable | the rest | 228–233 |
+
+**Coverage: 92–94 % by count (central estimate 93 %), against the required 95 %.** K4 alone does not reach
+MEAL-002 on my count. It is one to five meals short, and the shortfall is almost entirely *assembly of
+stacked or pocketed food and deposits into cavities* — the things a two-dimensional machine without a
+hand cannot do. Five of the doubtful meals have weight 3 (SD09, IT19, US01, BF11, CK02), so
+MEAL-003 is at risk as well.
+
+What K4 covers natively and well (H or M–H): the whole sheet-and-roll family (pizza, bread, rolls,
+strudel, sponge roll, burritos, enchiladas, croquettes, gnocchi, Schupfnudeln, Frikadellen, meat loaf),
+breading (5 meals), carving of boneless roasts (9 of 12 CAR meals; DM20, DM17, US04 are bone-in and served
+as parts), all slicing, shredding and dicing, unmoulding by inversion (10 meals, TEST), layered bakes.
+
+**Adapted methods (MEAL-013, limit 10 % = 24 meals).** Common to all candidates: 10 deep-fry meals,
+7 stir-fry meals, 3 of X-13: 20. K4-specific: stuffed peppers and stuffed zucchini as boats (2),
+cannelloni as rolls (1), gyros served open (1), saltimbocca without pin (1), pulled pork chopped instead
+of pulled (1), Rouladen with gherkin slices instead of spears (0: detail), bone-in poultry as parts (3).
+Total about 29 = **11.7 %: over the limit** unless the customer rules that some of these are not
+"adapted".
+
+**Persons.** One person: no problem on the mat (no minimum fill); the small pot serves as pan; the 0.4 L
+beaker whips one egg white. Six persons: 1.6 kg of dough fits the loop (15 L [E]); 12 Rouladen take
+14 min of rolling; 12 Schnitzel take 6 breading cycles and 6 pan loads in two pans (36 min: over
+PERF-001 for six); 2.4 kg of vegetables are diced in three batches (B6).
+
+**MEAL-009 (whole produce, S).** Not met: onions are not peeled, apples and peppers only partly cored,
+nothing is stripped or plucked (STR, 9 meals).
+
+**Catalogue gaps (2.4):** G1 no · G2 no · G3 partly (wraps, quesadilla, burrito yes; stacks no) · G4 partly
+(fold-over pockets, turnovers) · G5 no · G6 peppers yes (M), apples no · G7 no · G8 no · G9 by own slicing
+only · G10 only for goods that arrive lengthwise.
+
+---
+
+## 9. Failure modes and recovery
+
+| Failure | Detection | Recovery | Human needed? |
+|---|---|---|---|
+| Food sticks to the mat at the nose (dough film, mince smear) | camera 1 sees the mat after the nose; load cell of the receiving position reads short | doctor lip pass; second NOSE pass in the other direction; residue is washed off at retraction and the dose is corrected (mince: accepted; dough: flour ribbon and repeat) | no |
+| Sticky mass wound onto bar B | bar torque and wound diameter from the two encoders disagree | unwind over the dump port against the doctor lip; spray; batch lost if class R | no; batch lost |
+| Mat tracks off, lip climbs a flange | edge seen by camera 1; reel torque rises | slacken, LOOP two turns without load (re-centres on the flanges), retry. Persistent: cassette quarantined | after second failure: cassette exchange |
+| Hem rod not caught by bar B, or dropped from the key slot | bar torque stays zero when winding | re-approach three times. A hem that fell behind the table cannot be retrieved | **yes** (door, 1 min) |
+| Mat torn or lip detached | camera 1; tension drops | retract without wash lips, quarantine, continue on the other silicone mat (S and D are the same build) | cassette exchange later |
+| Blade lands too deep / mat cut through | torque signature; camera | cutting continues on a fresh length of K; K flagged | exchange at next visit |
+| Blade edge damaged, fragment lost (PRP-035) | camera 1 images the edge against the white mat after every cutting job; torque signature | batch discarded to the dump port, mat washed twice, blade flagged | blade exchange (LRU) |
+| Jam between disc roller and table (hard item, stone) | roller arm torque | lift, reverse mat, discard | no |
+| Item falls beside the vessel at the nose | load cell short; camera 2 | lost to the deck; deck wash after the meal; dose repeated if stock allows | no |
+| Item falls off the SLING edge (lip failure) | camera 2 | lands on the deck or in a vessel it was not meant for: the affected vessel is discarded if class R is involved | possibly meal lost |
+| Round produce rolls off the table while docking | camera 1, dock weight | it rolls into the loop zone (caught by the mat) or over E into P1's vessel: P1 holds the waste bowl during docking | no |
+| Loop contents wedge between lip and cheek | reel torque | open the loop, LOOP reversed | no |
+| Roll (Roulade) lands seam-up | camera 2 | not recoverable without a hand: it is seared as it lies and may open | no; quality loss |
+| Pan pair drops from the shoe | EPM flux sensor; load cells | EPM is fail-safe without power; a drop is a meal loss and a deck wash | possibly (hot fat on the deck) |
+| Arm B and arm C collide | planned exclusion zones; torque limits | stop, back off | no |
+| Mat fails verification after two gate passes | camera 1 | cassette quarantined (HYG-026); the twin silicone mat or paper interleaf is used; user informed | exchange ≤ 2 min |
+| Fixed part fails verification (cheek, table) | camera 1 | repeat hot wash with the mat lifted; then stop class R work | service if persistent |
+| Power loss with a mat drawn out and soiled | — | on return: retract through the gate; food on the mat older than the FSF limit is discarded | no |
+| Steam generator or gate heater fails | temperature | class R work blocked; cold work continues on K and D | service |
+
+The single-line structure means most faults stop the whole preparation, not one station. REL-001 (98 %)
+with about 35 handling moves and several hundred mat strokes per meal needs each mat stroke to be far
+more reliable than a gripper move; that is plausible for winding, not shown for LOOP and NOSE with
+sticky food.
+
+---
+
+## 10. Top risks and the cheapest experiment for each
+
+| # | Risk | If true | Cheapest experiment (kills or confirms) |
+|---|---|---|---|
+| R1 | **Release.** Silicone does not release 65 % hydration yeast dough and raw mince mass by peeling alone | ENVELOPE, LOOP kneading and NOSE fail; the concept loses its core | Two geared motors, a Ø 40 bar, a baking mat and a rolling pin: 20 cycles of fold-and-nip and a nose transfer each for dough (60, 65, 70 %) and Frikadellen mass; weigh the residue. Kill at > 5 % or if flour is needed every cycle. 2 days, €200 |
+| R2 | **Gate wash.** One 5 s detergent pass does not remove mince fat and dried dough; lip roots and hem stay soiled; a wound mat does not dry | hygiene case lost (HYG-019/-020/-024) | Same rig plus two spray bars and a wallpaper steamer; riboflavin and ATP swabs on faces, lip root and hem after fresh and 20 min old soil; weigh the mat after the airing run. 3 days |
+| R3 | **Blade on the mat.** UHMW-PE over a soft anvil is scored within weeks; scores hold soil | K becomes a monthly consumable or the blade needs another anvil | Bench lever with a blade, 5 000 landings at 0.2 mm over a strip of film on silicone; roughness and dye-penetrant check every 1 000. 1 day |
+| R4 | **Slab–strip–chop.** Slabs do not lie flat in one layer; the disc roller pushes them instead of cutting; dice outside PRP-021 | dicing (43 % of meals) needs the die-head fallback (+2 drives, +€900, 8 dies to wash) | By hand: knife, rolling pin as leveller, a gang of five pizza wheels on a rod, on a cutting mat: potato, carrot, onion halves, tomato, raw chicken; sieve the dice. Half a day |
+| R5 | **Flex life and tracking** of a fabric-cored mat over Ø 30–40 cantilevered bars | mats last months, not a year; HUM-007 missed | Rig of R1 run unattended: 100 000 reversals at 0.7 N/mm; inspect fabric; measure edge wander |
+| R6 | **Loop roll and seam-down.** First turn does not start; filling is squeezed out; seam position not controllable; seam opens in a 2 h braise (shared, SM-084) | Rouladen (named in the brief) not preparable | Rig of R1 with two cheeks: 20 Rouladen; then braise them untied in a channel rack. 2 days |
+| R7 | **Flap lips** do not hold rice, peas and 50 mL of egg on the SLING and in the LOOP | spills onto the deck; granular dosing by mat fails, needs cups for everything | Rig of R1 with a lip glued on: rice, peas, flour, egg wash; count what leaves. 1 day |
+| R8 | **Arm stiffness**: a 470 mm cantilever on an 860 mm arm under 300 N | mat skews; blade and roller forces must be kept off the arm | FE estimate, then a welded dummy arm with a dial gauge |
+| R9 | **Odour** of silicone S after onion-free but mustard, curry and mince use | HYG-025 missed; S becomes a quarterly consumable | Triangle test with butter after 20 soil-and-steam cycles |
+| R10 | **Throughput of one line**: six-person menus with breading or many Rouladen exceed PERF-001 | 6-person time targets missed | Simulation of the twelve benchmarks with measured stroke times from R1 |
+| R11 | Zone S of 8.3 m² with fat aerosol from open pans inside the cell | daily casing wash is long and wet | not an experiment: a design decision on a partition and on lids during frying |
+
+R1, R2, R5 and R7 are one rig and one week, as F proposed. R4 can be done at a kitchen table tomorrow.
+I would run R4 and R1 first: if both pass, K4 is a serious candidate for the flat half of a hybrid; if
+R1 fails, nothing else in this document matters.
+
+---
+
+## 11. Improvements found, and what I would borrow
+
+### 11.1 Found while exploring (all unproven)
+
+1. **Roller-blind cassettes with wash-on-retract** (C2). The most valuable change: it turns the weakest
+   step (exchanging a limp mat) into the cleaning step, removes the magazine and lets the human replace
+   a mat like a printer cartridge. It also makes "one mat per duty" (cutting, class R, dough, mesh, rasp)
+   affordable, which is the concept's answer to stickiness, odour and blade wear at once.
+2. **ENVELOPE** (C3): one mat as both sheets of the cook's cling-film method.
+3. **SLING**: the mat as the only solids conveyor from the dock to every vessel; no chutes, no carried bowls.
+4. **Turntable everywhere** (C5): stirring by a passive wall-peg scraper, spin-coat, salad spinner,
+   planetary whisking, and **polar placement** — turntable angle plus nose or pour position in X reaches
+   every point of a dish (muffin cups, pizza topping, lasagne sheets), which gives the two-dimensional
+   cell its missing second horizontal axis at the target.
+5. **Slab–strip–chop** (C4) and its relatives: fries by chopping planks twice; cross-cutting Y-aligned
+   cylinders with the disc roller; meat cubes without a grid.
+6. **Pour direction sets orientation** (2.6): long goods and slices stored lengthwise arrive lengthwise.
+7. **Three-slab coring** (sketch, M–L): an apple lying with its axis along Y is chopped into two cheeks
+   and a centre slab; the slab falls flat with the core still along Y and two more chops remove it as a
+   strip. Loss about 15 %. Needs the apple to settle on its axis in the loop.
+8. **Spätzle from the nose** (sketch, M–L): batter layer scored by the disc roller, scraped off the nose
+   by the doctor lip over the pot.
+9. **Inspection for free**: every mat is drawn flat under a top-down camera before use.
+
+### 11.2 What one cold clamp would add (not relied on; K7 owns it)
+
+A −25 °C double contact plate (SM-098/-240, 250 W) beside the table, fed by NOSE and emptied by arm C,
+would (a) make bought meat slices separable and own slicing of Rouladen and cutlets precise, removing the
+L-rated shingling; (b) make patties and breaded cutlets rigid so that they can be slid and flipped without
+the pan pair; (c) allow the ice-weld seam for Rouladen (SM-088). It would raise my coverage estimate by
+about one meal and several confidence ratings from M to H, at +2 drives and a condensate problem. It does
+not help the assembly gap.
+
+### 11.3 What I would borrow from other candidates
+
+| From | What | Why |
+|---|---|---|
+| K5 / W23 | die head as a cassette on the blade arm's position | fallback for R4 |
+| K1 / K6 | **one small top-down hand** (a rod with a suction or clamshell tool in X–Y–Z over P1) | it closes the assembly, deposit, probe and scraping gaps that cost K4 its 95 %; it is what I miss most |
+| K5 | piston box or syringe for pastes and fillings | K4 has no paste dosing and no stuffing nozzle |
+| K2 | rim-to-rim inversion standard for bowl → tin (closed transfer of batter) | bowl residue, PRP-013 |
+| K3 | drum for bulk washing and peeling | the rasp loop is slow and wears the cheeks |
+| K6 | everything-is-ware rule for the blade (blade as a cassette to the washer) | the blade is a single fixed instance shared by R and RTE |
+
+My judgement after exploring: the mat is an excellent **flat-food station** (sheet, roll, fold, bread,
+knead, slice, carve, convey) and a poor **whole kitchen**. Its natural place is as the flat half of a
+hybrid, 760 mm wide with 11 drives, next to a bulk and liquid half with a hand.
+
+---
+
+## 12. Open issues and requests to the architect
+
+### 12.1 Answers to the catalogue's six questions
+
+1. *Release, life, odour*: unknown; experiments R1, R3, R5, R9; one rig, one week.
+2. *Loop control*: slack length from the two reel encoders and the arm pose is enough on paper; camera 1
+   checks loop depth. Winding round the roller is avoided by ENVELOPE, round bar B by the doctor lip and a
+   clean leader.
+3. *Throughput, second reel pair, exchange*: no second line; instead five cassettes with 75–100 s
+   exchange including wash. The line is still strictly serial. The human replaces cassettes once or twice
+   a year, 2 min each.
+4. *Liquid path*: cups carried by arm C, water from fixed spouts, station P1 for whisking, beating and
+   blending, turntable hobs for cooking. This is a second machine as large as the first.
+5. *Fixed Zone F*: 0.69 m², sprayed in place with the mat lifted; blade, cheeks and table are single
+   instances (6.6).
+6. *Paper against mat*: section 6.6; paper is a fallback for class R ENVELOPE work only.
+
+### 12.2 Open issues
+
+1. Coverage is 92–94 % on my count; the missing meals need a hand or a customer ruling on "served as
+   components".
+2. Adapted-method budget exceeded on my count (11.7 %).
+3. One line: the twelve benchmarks pass PERF-001 for four persons, B3 with 2 min of margin; six persons
+   with breading do not.
+4. Paste dosing (mustard, tomato paste, honey, quark) has no mechanism of its own; it depends on pucks
+   or pouches made at ingestion.
+5. Bowl-to-tin transfer of batter misses PRP-013 without chasing.
+6. No core-temperature probe can be placed (COK-013) except by the oven's own wired probe, which nothing
+   can insert.
+7. Seasoning of surfaces (steak, cutlet) is a tipped cup: uneven.
+8. The oven is a bought unit turned 90° with a lift door; tray push-in on rails by the bar of arm C is
+   sketched, not designed. Warm-hold is the oven at 70 °C or a hob at low power; there is no separate
+   warm-hold position.
+9. Arm B and arm C exclusion zones and the cycle-time cost of parking one for the other are not simulated.
+10. Stack-up in Y has no margin (section 1); 10 mm more anywhere breaks the 600 mm depth.
+11. Drying of wound mats (6.2) and hygiene of the mesh and the rasp (6.5) are the weakest hygiene claims.
+12. Zone S is 8.3 m² because hobs and mat share one cell.
+13. Operations not designed: glaze and brush, baste properly, zest, pit, skewer, pipe, shred, sift
+    separately, line a tin with a sheet.
+14. Safety: a 1.5 kN blade and two arms behind a household door need an interlocked door (section 11.4 of
+    the requirements); not designed here.
+
+### 12.3 Requests to the architect
+
+| # | Request | Collides with |
+|---|---|---|
+| A1 | Box port in the left wall at Z 1400–1650; boxes presented with the pour edge along Y; GN 1/3 as the largest box at the dock | transport layout |
+| A2 | Long goods, meat slices and block goods are stored **lengthwise** in the box, slices flat in one orientation | ingestion (funnel drop does not orient); X6 |
+| A3 | Spout lid for liquids, mesh-valve lid for powders, sifter lid for spices (X1) | BOX-007, BOX-002 |
+| A4 | Pastes as frozen pucks or in squeeze pouches, made at ingestion (X6) | ingestion scope, freezer capacity |
+| A5 | Stowed packs arrive opened, in a carrier box the dock can tilt | package-opening module, DEC-3 |
+| A6 | Freezer airlock tempering of meat blocks for 30 min (X7) | CLD-004, FSF-013 |
+| A7 | Vessel port in the right wall at hob-deck height (Z 700–950, 400 wide) to washer, ware store, cold storage and plating; all ware carries a ferritic dovetail tab on one side (X15) | ware standard of the other modules; washing of the tab |
+| A8 | Pans and the GN 2/3 pair with one rim standard for inversion (R1) | vessel standard |
+| A9 | Oven turned 90° with a machine-operated door and extending rails; the human has no access to it from the front | COK-020, serviceability |
+| A10 | Waste: strainer basket with tab handed out at floor level; wet starch slurry accepted by the waste system | waste module |
+| A11 | Washing module accepts assembled disc rollers, spiders, 36 tabbed items; one chamber load per meal | WSH capacity, RES-005 |
+| A12 | Water: 85 °C rinse and 2 kW steam inside the preparation module (X12); detergent supply to the gate sump | HUM-004, scope of washing |
+| A13 | Customer decisions: "served as components" for tacos and pita; whether boats count as stuffed; disposable paper as an allowed consumable | MEAL-013, HUM-004 |
+| A14 | Household replaces five mat cassettes per year (X13) | HUM-007 |
