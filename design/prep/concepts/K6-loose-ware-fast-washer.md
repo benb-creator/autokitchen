@@ -12,7 +12,7 @@ speculative.
 
 **One-paragraph verdict.** The concept works on paper for all twelve benchmarks (nine "yes", three "adapted"),
 with proven cleaning and no fixed food-contact surface. It pays for that with wall width (2.6 m including hob
-and oven), about 93 loose items, 45–100 gripper cycles before a meal is served, and a washer that sits at the
+and oven), about 93 loose items, 35–100 gripper cycles before a meal is handed over, and a washer that sits at the
 limits for water, energy and noise. It is the candidate with the fewest physical unknowns and the most
 logistics.
 
@@ -844,3 +844,296 @@ rehung for the long programme, then quarantined in the last pigeonhole. Weekly: 
 load and on the bay, rinse, UV check (SM-207). Tang grip zones of soiled trays are looked at by the bay camera
 before the grip; a soiled tang forces the jet gate afterwards.
 
+---
+
+## 7. Numbers
+
+### 7.1 Summary
+
+| Quantity | Value | Note |
+|---|---|---|
+| Wall width | **2.6 m** (2595 mm) at 600 deep, 2000 high | preparation 1385, hob 600, oven and store tower 560, casing 50 |
+| Motion actuators | **16** | manipulator 6, dock 3, press 1, ring drives 2, well lids 2, strainer 1, oven door 1 |
+| Other powered parts | 3 pumps, about 12 valves, 2 fans, 4 induction modules, boiler, tank heater | |
+| Loose items | **93** of about 58 types | 40–55 used in a full menu |
+| Custom part types | about 85 (50 ware, 35 machine) | all laser-cut, bent, turned or welded steel, moulded silicone, turned PE; no FDM in Zone F |
+| Bought food-contact items | 21 GN trays and lids, thermoplates, basket, blades, whisk head, peeler blade | each gets a welded tang |
+| Gripper cycles per meal | **69 before hand-over, 100 with returns** (mean of 12 benchmarks); full menus 130–145 | section 5.13 |
+| Gripper cycles per day, reference household | about 245 | full warm 135, light warm 70, cold 40 |
+| Wash loads per meal | 2–9, reference meal 7 | |
+| Water and energy for cleaning, reference meal | 35 L, 2.3 kWh | section 6.2 |
+| Zone F fixed | 0 m² | |
+| Zone F ware | 5.0 m² food-side; 1.3–1.6 m² soiled per reference meal | |
+| Zone S | 10.7 m² | |
+| Peak power | installed about 21 kW (hob 11.4, oven 3.3, boiler 3.0, tank 2.0, drives and pumps 1.3); managed to ≤ 10.3 kW | washer heating yields to cooking (section 6.1) |
+| Noise sources | wash pump and spray in a steel well: estimated 52–56 dB(A) at 1 m through the closed front, for 25–30 min per meal (NOI-002 allows 48); blade at 6000 rpm: 65–70 dB(A) for under 2 min; press and slide strokes; well lids; ware set down on steel (impacts); X axis at 1 m/s | the washer is over the limit without a double-walled well and a slower, longer cycle |
+| Parts cost | **about 22 k€ ± 30 %**, single unit, gross | below |
+
+| Cost block | k€ |
+|---|---|
+| Manipulator (X 1.8 m, Z with brake, Y, wrist, chuck, cladding) | 3.7 |
+| Dock, press, sink, strainer, bin, water valves and spouts | 1.4 |
+| Hob: four OEM induction modules, glass, two ring drives, load cells | 2.0 |
+| Oven, combi-steam, with door drive | 2.5 |
+| Wash wells, tank, boiler, pumps, dosing, softener, nozzles | 2.1 |
+| Ware: trays and thermoplates with tangs 2.0; pots, pans, lids 1.1; tools 1.4; cassettes 1.5 | 6.0 |
+| Frame, deck, cladding, door, stores, shutter | 2.8 |
+| Cameras, lights, inspection window, controls, drives, wiring | 1.4 |
+| **Total** | **21.9** |
+
+Of this, 6.6 k€ (hob, oven, washer) would otherwise sit in the cooking and washing modules. Against BLD-004
+(25 k€ for the whole machine) the process cell alone takes most of the budget; K6 is not a cheap concept,
+because 93 welded steel items cost money even when each is simple.
+
+### 7.2 Why the bay is this wide
+
+1. Every station needs top access for the chuck, so stations cannot be stacked: two benches, the dock zone,
+   four hob positions and the wells are all on one deck.
+2. A Ø 240 pot and a GN 2/3 tray set the pitch (300 and 345 mm). The hob is already two deep and the wells
+   are front and back; benches cannot be two deep because a GN 2/3 is 354 mm.
+3. Storage was the hard part. Ninety-odd items need parking with single access. A chuck hanging from an
+   overhead bridge reaches a store only from above, which would add about 0.8 m of deck for hanging-file
+   wells. The arm that moves in Z lets trays slide onto rails above the oven and tools into a wall rack, and
+   pots live on the hob: no deck is spent on storage.
+4. What could still be cut: one bench (−345 mm) if the critique accepts that breading and Rouladen block the
+   sink; a 45 cm oven turned with its door to the front and loaded through a side hatch is not possible with
+   a bought appliance.
+
+### 7.3 Handling reliability (catalogue question 1)
+
+REL-001 allows 2 % of meals to need a human. A full menu has about 140 gripper cycles; food-process failures
+(an egg with shell, a roll that opens, a patty stuck in the ring) need their own share of the 2 %. If handling
+gets half, the allowed rate is 0.01 / 140 = **7 × 10⁻⁵ unrecovered failures per cycle (99.993 %)**. Nobody
+reaches that open-loop. With detection and one automatic retry that recovers 9 faults in 10, the raw success
+per cycle must be **99.93 %**; with recovery of 19 in 20, 99.86 %.
+
+What the design gives towards this:
+
+* **Form-fit grip**: pins through holes; a closed jaw on a missing tang is detected by jaw position (0, 6 or
+  12 mm).
+* **Few interfaces**: one tang, six kinds of rest (bench frame, hob position, well slot, rail, pigeonhole,
+  press bars). Each rest has 3 mm of lead-in. There are no latches, no bayonets, no stacking of loose parts
+  higher than two.
+* **Weight check**: the Z motor current resolves about 50 g, enough to tell an empty tray from a full one
+  and a dropped tool from a held one.
+* **Camera after every release** at the six rest types (three fixed cameras), comparing with the expected
+  occupancy.
+* **Retry ladder**: re-approach with a ±2 mm search; re-seat; fetch the duplicate item; ask the human.
+* **Life**: 245 cycles a day are 0.9 million in ten years; the chuck is designed for 1.5 million and is a
+  line-replaceable unit.
+
+What it does not give: recovery of a tool dropped into a full pot (food discarded, PRP-035 logic), of a tray
+that slid off its rails inside the hot oven, or of a tang bent by a crash. **I do not claim 98 % per meal; I
+claim the interfaces are as forgiving as loose ware can be made, and that the number must be measured on a
+rig (risk 1).**
+
+### 7.4 Throughput against PRP-023 (catalogue question 5)
+
+| Target | K6 | Margin |
+|---|---|---|
+| Wash, peel and cut 1.5 kg of potatoes in ≤ 10 min | wash 1 min, peel 12 pieces 3.5 min, dice in 5 loads 2.5 min, tool cycles 1.5 min: **8.5 min** | small; stab retries eat it |
+| Cut 1 kg of mixed vegetables in ≤ 6 min | 4–5 loads through one grid: **3–4 min**; a change of grid adds 40 s | fine |
+| Knead 1.6 kg of dough | 6.5 L pot on T4, 8 min, no manipulator | fine |
+| Mix 1.2 kg of mince mass | same, 2 min | fine |
+| Form 12 patties in ≤ 5 min | roll, 8 stamps, re-roll, 4 stamps: **4 min** | small |
+
+One manipulator does everything in series. Station work (kneading, turning pots, pressing, washing, oven)
+runs without it, which is why the full menus fit their time limits with room; the short ones (B3, B8) have
+10 min or less.
+
+---
+
+## 8. Coverage estimate
+
+Method: the corpus operation list (section 4.5 of the corpus) against the operation table above, then the
+meals that depend on an operation K6 does not provide. I did not walk all 248 rows; this is an estimate by
+operation with the meals named where I could identify them.
+
+| Group | Meals | Count |
+|---|---|---|
+| Excluded by the requirements (5.4) | CK11, DM21, DS13, BF08, AS05, BK06, CK08, BK02 | 8 |
+| Falls out in K6: separating whole cabbage leaves | Kohlrouladen | 1 |
+| Falls out in K6: open-hand assembly beyond stacking | tacos and the filled wrap or burrito, unless "served as components" is accepted (SM-244) | 1–2 |
+| Falls out in K6: soft or core stuffing | dumplings with a filled core; one stuffed flat item (priority S, not counted) | 0–1 |
+| At risk, counted as preparable | Rouladen and the other rolled dishes (seam), pancakes and omelettes (pair flip), layered cake unmoulding, dishes with sliced bacon or cold cuts (singulation), hollandaise | — |
+| **Not preparable** | | **10–12** |
+
+**Coverage 95.2–96.0 % by count (236–238 of 248); I state "about 95 %, at the limit".** MEAL-005 (the meals
+named in the brief) is met on paper, with Rouladen as the least certain. MEAL-004 (every category ≥ 85 %) is
+met.
+
+Adapted methods (MEAL-013 limit 10 % = 24 meals): deep-fried dishes by oven or shallow pan (9), stir-fries
+(7), skimming and skewers (3), untied Rouladen and rolled dishes (4), tapered or hand-shaped small pieces as
+cylinders (2–3), base-up cakes if the second inversion fails (up to 5): **25–31 meals, 10–12.5 %: at or over
+the limit.** Sixteen of these are given by the requirements to every candidate.
+
+From whole produce (MEAL-009, priority S): **not met.** Onion and garlic peeling, bean and sprout trimming,
+florets, pepper coring and zest are bought or low. My estimate is 45–55 % of the corpus from whole produce
+only, decided almost entirely by the onion.
+
+Operations K6 does well, because they are flat-bench, loose-tool work: flip of pieces, layering, carving a
+boneless roast, scoring, breading, rolling out, slicing and dicing at any thickness, mashing, kneading, salad.
+Operations it does no better than anyone: onion, egg, Rouladen seam, slice singulation.
+
+---
+
+## 9. Failure modes and recovery
+
+| Failure | Detected by | Recovery | If recovery fails |
+|---|---|---|---|
+| Tang missed or pins not through | jaw position, Z current | re-approach with search, twice | duplicate item; else human |
+| Item not seated (rail, slot, frame) | camera after release | lift, re-seat | item to the well, duplicate |
+| Tool dropped on a bench or the deck | camera, Z current | picked up if its tang is reachable from above; goes to the well | human (MNT-005: reachable from the front door) |
+| Tool or fragment dropped into food | camera, blade check after each cutting step (PRP-035) | food discarded, component restarted if stock and time allow | meal incomplete, reported |
+| Food dropped on the deck | camera | pushed to the sink with the squeegee tool, deck flushed | — |
+| Potato not centred on the fork, flies off | spin current, camera | re-stab once; else diced unpeeled and flagged, or discarded | — |
+| Press tube jammed (stone, hard core, overload above 3 kN) | press current | retract, tube tipped into the waste tray, plate checked against the back light | tube quarantined, second method (knife) or component dropped |
+| Fibres left in a grid after washing | camera | studded piston pass, long programme | quarantine; one grid of each pitch only, so dicing at that pitch is lost |
+| Egg: shell in the saucer, broken yolk | camera on the saucer before it is committed (SM-168) | egg discarded, next egg | out of eggs: reported |
+| Patty or pancake stuck to the steel | flip force, camera | scraper pass; piece marked as broken | component served imperfect or remade |
+| Roulade opens in the braise | not detected until hand-over | — | served open, logged (this is why the seam test comes first) |
+| Item fails cleanliness check | camera | long programme once | quarantine slot; duplicate; human told (HYG-026) |
+| Well pump, boiler or lid fails | pressure, temperature, end switches | the other well carries on at half rate | both down: the clean stock covers the rest of the running meal at most; then no cooking |
+| Drain blocked, strainer stuck | level sensor in the sink | back-flush twice | no washing, no produce rinsing: stop after the running meal |
+| Manipulator axis fault | servo alarm | hobs to hold or off (safe state), oven holds | human; everything in the bay is reachable from the front door |
+| Power loss with a pair or a full vessel in the chuck | — | brakes on Z and spin hold; chuck is self-locking | on return: set down, food judged by time and temperature (REL-002) |
+
+The concept has one single point of failure for all meals (the manipulator) and one for all meals after the
+first (washing: two wells, but one pump, one boiler, one drain).
+
+---
+
+## 10. Top risks and the cheapest experiment for each
+
+| # | Risk | Why it matters | Cheapest confirming or killing experiment |
+|---|---|---|---|
+| 1 | **Handling reliability**: 99.9 % raw per cycle is not reached | 98 % per meal fails; the concept is logistics before anything else | A three-axis bench gantry (hobby class) with the chuck, five tanged items and four rest types; 10 000 automatic cycles with wet, greasy and floured tangs; count misses and recoveries. About 2 weeks, 2 k€. Kill: raw success below 99.5 % after tuning |
+| 2 | **Rouladen seam** does not hold seam-down through 100 min of braising, or the apron does not start the roll | named in the brief; shared by all candidates | By hand in a kitchen: 16 Rouladen rolled with a silicone mat over a half-pipe, laid in a bent-rod rack, seared seam first, braised; count open ones. One day |
+| 3 | **Pair flip gripped at one side**: fat runs out, the pair gapes, the pancake tears | 32 FLP meals; pancake is a staple | Two pans with welded lugs clamped in a vice-grip at one side, inverted by hand over a tray; 30 pancakes, 10 omelettes, 10 Rösti; measure fat lost and breakage. One day |
+| 4 | **Cross-contamination through the tray tang and chuck** | the hygiene claim of the concept rests on a clean gripper | Trays with tangs used for mince and egg work by hand for 20 cycles; ATP swabs of the tang grip zone and of a dummy jaw before and after a 4 s hot jet. Two days |
+| 5 | **Short wash cycle** does not clean egg, starch and mince film in 100 s at 60 °C, or the hanging pattern has shadows | the fast washer is the other half of the concept | Rent an undercounter washer; hang soiled trays, a grid, a whisk and the cracker on edge in a purpose-made rack; riboflavin and dried-egg test soils at 2, 10 and 30 min drying time. Three days. Kill: visible residue on plain trays after 2 min drying |
+| 6 | **Washer against the limits** for water, energy, noise, detergent | RES-001, RES-005, NOI-002 are priority M | Same rig: meter water and energy per load, sound level through a closed cabinet door |
+| 7 | **Peeling on a fork**: stabbing off-centre, potato flying off, caps too large | 60 PLP meals; PRP-022 and PRP-023 | Cordless drill with a three-prong fork, a Y-peeler on a spring; 5 kg of mixed potatoes; measure time, loss, retries. Half a day |
+| 8 | **Egg cracker** leaves fragments or cannot be washed | 36 meals; weakest cassette | Buy a small jaw-type cracker, replace its hinges by open hooks; 100 eggs; then dried-egg wash test with risk 5 |
+| 9 | **Bare steel sticks** (egg, pancake, schnitzel crumb, cake) | quality of 40–60 meals; no non-stick by R6 | Frying and baking trials on polished tri-ply with temperature control; one day |
+| 10 | **Turning hob position**: coupling through a 2 mm gap, ring heating, roller fouling after a boil-over | kneading and continuous stirring depend on it | A pot on a laser-cut ring on three rollers over a bought induction plate: power, ring temperature, boil-over test. Two days |
+| 11 | **Slice and leaf pick-up with tongs** (meat slices, bacon, lasagne sheets, lettuce) | foundation-tier dosing (G9) | Tongs in the hand of a person who may only pinch and lift, guided by a top-down photo; count failures per 50 picks of each item. One day |
+| 12 | **Bay wash-down coverage** on 10.7 m² with a manipulator in it | HYG-019, HYG-034 | Riboflavin test on a plywood and sheet mock-up with the real nozzle plan; three days |
+
+---
+
+## 11. Improvements found, and what I would borrow
+
+### 11.1 Improvements made while exploring (all within the concept's spirit)
+
+| # | Improvement | What it removes | Status |
+|---|---|---|---|
+| 1 | **One tang on every item, and the two-tang pair grip** | tool changer, tray fork, inverter, clamp, equal-rim adapter; the flip, the unmoulding and the closed transfer become one grip | medium: one-sided clamping untested (risk 3) |
+| 2 | **Twin top-loading wells in which ware hangs by its tang** | racks, rack shuttle, two doors, reaching into a wet chamber; 220 mm of wall; gives a second washer for redundancy and a permanent wet-parking place | medium–high |
+| 3 | **Arm that moves in Z, chuck working vertical or horizontal** | about 0.8 m of deck that top-access storage would cost; makes oven, tray store and tool wall reachable | high (standard axes) |
+| 4 | **Pots live on the hob, inserts live in their vessel, thermoplates in the cold oven** | store volume for the bulkiest third of the ware | high |
+| 5 | **One press tube with end plates and a cut-off slide** | separate slicer, dicer, fries cutter, ricer, juicer, Spätzle press | high for the principle (SM-009, -015, -184) |
+| 6 | **Pull-down swing press** | any ram, drive or seal above food | medium–high (swing-clamp kinematics) |
+| 7 | **Turning hob positions as the low-speed drive; wrist spin to 6000 rpm as the high-speed drive** | the power wall, its two drives and its magnet window | medium (risk 10) |
+| 8 | **Workpiece on the fork, blade fixed** | lathe cassette, tailstock, horizontal drive | medium–high (risk 7) |
+| 9 | **Tongs as a one-piece U driven by the chuck jaws** | a gripper tool with its own joint or a second jaw drive; grip force is servo-controlled | medium–high |
+| 10 | **The sink is the waste port and the produce wash** | a chip box, a separate rinse station | high |
+| 11 | **Day's tank liquor washes the bay before it is dumped** | 10 L of water and 0.5 kWh a day | high |
+| 12 | **Batch by tool**: two Rouladen per apron stroke, all patties stamped in one ring cycle, seasonings of one dish on one spoon cycle | roughly a third of the gripper cycles of a naive sequence | planning rule |
+
+The most valuable is the combination of 1 and 2: it turns "loose ware" from a pile of differently shaped
+things handled through racks into one interface handled without intermediate carriers, and it removes the
+inverter that every other flat-bench concept has to add.
+
+### 11.2 What I would borrow from other candidates
+
+| From | What | Why |
+|---|---|---|
+| K7 (SM-240, -098) | a cold plate at the dock end to stiffen meat slices, bacon and mince before handling | slice pick-up with tongs is K6's weakest dosing step; rigid slices are tong work |
+| K5 (SM-066, -117) | an Ø 80 forming plate and a longer tube for patties and dumplings by stroke | removes the ring cutter, the roller pass and the re-roll: −6 G and better mass accuracy |
+| K2 (SM-157, -179) | a strainer interposer between two pots in the pair grip; a scraper lid | draining small pots without the sink; a second continuous stir without a second turning position |
+| K1 (SM-003, -021) | the fakir comb and the lever knife with a fulcrum eye on the board | cabbage and celeriac need more than 100 N; a lever triples it |
+| K4 / W21 (SM-091, -204) | a baking-paper sheet dispenser | unmoulding and tin lining without the release risk; the reserve named in the catalogue |
+| Common (SM-134, -135) | sifter lid on the flour box | flour dosing is medium with a plain box |
+| Common (SM-060 to -063) | any onion peeler that survives its test, as a cassette on the press bars | MEAL-009 |
+
+### 11.3 Catalogue questions not answered above
+
+* **Question 4, minimal cassette set.** Press tube with 7 plates, small tube, peeler post, kneading set, egg
+  cracker, Rouladen set. The weakest against HYG-013 is the egg cracker, then the dicing grids.
+* **Question 6, the tube-and-piston of K5 as a delta.** K6 already contains a press tube because slicing,
+  dicing and ricing demand one. Taking K5's full cassette (forming sleeve, slot die, orifice plates for
+  kneading and mixing, variable-volume chopper, pigged emptying) would change: items 93 → about 84 (ring
+  cutter, roller use for patties, one 4 L pot, blade stalk partly, several GN 1/3 go; five plates and a
+  second tube come); G for B3 from 90 to about 72 and for B1 from 98 to about 90; enclosed flour and mince.
+  It would not halve the moves, as E claimed: fetching, dosing, cooking and washing cycles stay. And it would
+  bring in the unproven extrusion kneading, which K6 does not need because the turning pot kneads.
+* **Question 2, washer as D7's central washer**: answered in 6.1 (internal ware yes, human dishes no).
+* **Standard question 7, what K6 asks of other modules**: section 12.2.
+* **Standard question 8, adapted share**: section 8 (10–12.5 %).
+
+---
+
+## 12. Open issues and requests
+
+### 12.1 Open issues
+
+1. **Not counted meal by meal.** Coverage is by operation. Assembly dishes and the stuffed group need a row
+   by row check; my reserve against the 12 allowed fall-outs is 0–2 meals.
+2. **Slice singulation** (bacon, cold cuts, Rouladen slices in a vacuum pack, lasagne sheets) rests on tongs
+   and a camera and is low–medium. Without it B1 uses diced bacon.
+3. **Leaf handling**: dosing by the handful, loosening a lettuce head, tipping leaves into the spin basket.
+4. **No fine sieve and no grater or zester** in the set: rice is not rinsed, sauces are not strained, carrot
+   is cut into fine sticks, cheese is bought grated, zest is missing. A mesh plate and a grater plate for the
+   press tube are the first additions (2 items, together about 60 corpus meals touched).
+5. **Frying fat disposal** above 30 mL has no clean path (6.5).
+6. **Second continuous stir**: only one scraper arm in the set and two turning positions; B10 shows the
+   cost. A second arm is one more item.
+7. **Cake the right way up**: second inversion between trays of unequal depth; round cakes need a loose-base
+   pan that is not in the set.
+8. **Bare steel**: every pan-fried and baked dish depends on temperature control and fat instead of
+   non-stick coatings.
+9. **The 9 L pot** (COK-016, priority S) is left out; the rear hob row under the arm takes 100 mm pots only
+   with a lid, and the 6.5 L pot stands in front.
+10. **Oven**: a bought combi-steam oven with GN 2/3 rails spanning 354 mm, a door that can be driven, and
+    local control without a cloud (COK-023) has to be found; the door swings over the wells, so the two are
+    interlocked.
+11. **Hob glass cleaning** after a boil-over with burnt sugar or milk: squeegee and spout water will not do
+    it; a scraper blade tool is likely needed.
+12. **Wear parts** the human must change: two silicone spatulas, squeegee, apron, mat, boards, pistons,
+    peeler blade, knife blades (HUM-007: twice a year). Blades are not resharpened by the machine (PRP-034
+    is met only by exchange).
+13. **Tool wall is full**; every gap closed by "one more part" needs a second rack or the loss of a tool.
+14. **Software**: about 45 canned cycles (one per tool use and per cassette), each with its camera check, plus
+    the scheduler that interleaves one manipulator, two wells and the power budget. No cycle needs six-axis
+    planning, but there are many.
+
+### 12.2 Requests to the architect
+
+1. **Tang standard**: a flat tang 6 × 32 × 60 mm with two Ø 8 holes on every piece of internal ware, including
+   cooking vessels and whatever the serving module takes over. If transport is to carry vessels, its gripper
+   should take the same tang.
+2. **Box**: GN 1/6 and GN 1/3 with a plain lid is enough. Wished: a sifter lid variant for flour and starch;
+   an egg insert; boxes must tolerate a 135° tilt in the dock and a spoon or tongs reaching in (inner corner
+   radius ≥ 10 mm).
+3. **Hand-over port** for boxes in the left end wall at Z 900–1200, with the box set into the dock cradle
+   by transport, lid on. A chilled box stays up to 3 min in the dock (FSF-013 allows 10).
+4. **Stowed packs** (DEC-3) arrive opened and clamped in a carrier box. K6 has no package opener; if the
+   cell must open packs, that is a further cassette and tool set not designed here.
+5. **Cooked food is handed over in its vessel** at a front-left port or directly from the hob; the serving
+   module must take tanged GN trays, Ø 240 pots and pans, and return them to a wash well or let the
+   manipulator collect them.
+6. **The preparation manipulator moves ware inside the process cell** (store, benches, hob, oven, wells):
+   this is X8 of the catalogue and conflicts with TRN-002 if preparation, cooking and washing are separate
+   modules. K6 only makes sense as one process cell (MOD-001 permits it) with the wash wells inside it.
+7. **Cooking module**: four OEM induction positions at 300 mm pitch under one glass field, two of them with
+   the ring drive and load cells; bridge mode over the two coils of a column for GN 2/3 thermoplates; spouts
+   at the hob; extraction above the hob that keeps grease off the manipulator slot.
+8. **Washing module**: the wash wells are part of this cell. D7 keeps the human's dish washer, the softener
+   sizing and the detergent store; boxes can be washed here if D7 agrees to the hanging adapter.
+9. **Budgets**: a ruling on RES-001, RES-005, RES-008 and NOI-002 for a wash-as-you-go concept; K6 exceeds
+   each by 5–25 % as drawn.
+10. **CAP-030** ("without re-washing during the run") is met in intent, not in letter: K6 re-washes by
+    design. A ruling is needed on whether a 3.5 min disinfecting cycle counts as clean stock.
+11. **Width**: 2.6 m for preparation, hob, oven and ware washing together. If the kitchen run cannot give
+    that, the second bench is the first thing to go.
