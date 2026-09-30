@@ -241,3 +241,203 @@ worth keeping as a module.
 Separation: instance for sticky raw work (mat S, steamed at every retraction), sequence for cutting on K, and
 shared blade, table and cheeks. The mat is washed within 1–10 min of soiling, which is excellent; what it is
 stored as between meals is not.
+
+### K5 — Ram-and-die column with piston vessels
+
+| # | Finding | Where [D] | Severity | Fixable |
+|---|---|---|---|---|
+| K5-1 | **The die carousel is a shared fixed Zone F plate.** Ø 400 × 12 mm plate (0.25 m²) with six windows whose 4 mm ledges are exposed only while lift pegs raise the inserts under the wash hood; the **shear-gate move deliberately smears mince and batter film** across it (documented as a smear path); dies are shared between class R and RTE by sequence, and after any class R shear the whole carousel must run the hood programme before the next RTE tube. The hood uses "an open labyrinth instead of lip seals". Explorer risk 7 | §2.1 carousel, §6.2, §6.4, risk 7 | major | partly (drop the shear gate; red die set for mince; closed hood) |
+| K5-2 | **Twin-lip UHMW-PE pistons**: the 4 mm groove between the lips is "a known soil trap" (explorer); the snapped-on UHMW lip ring of every tube is a crevice, pushed off only weekly; all pistons and dashers are washed in a shared parts basket with the tubes' liquor; UHMW stays damp longest and is at its softening limit in an 85 °C rinse | §2.1 pistons, §6.2 rows 2–4, §6.6 #1–2 | major | yes (single-lip moulded piston or one-piece steel follower with a clearance gap flushed by the bore jet) |
+| K5-3 | **Tube disinfection is marginal**: 1 L at 85 °C for 45 s on 1.6 kg of steel coming from the 55 °C wash; heat balance puts the wall near 80 °C, A0 ≈ 30–45 (C-1). The tube is the class R vessel for mince | §6.2 row 1 | major | yes (2 L or 90 s; logger) |
+| K5-4 | **The chip box is the strainer of every drain** under bay A: peel slurry, raw trimmings, ricer skins, egg shells and wash solids sit wet, warmed by the sump, **in the recirculation path of the wash liquor** for the whole meal (B1: 140 min), then the transport system carries the dripping perforated box out. Under DEC-8, sand passes its 2 mm holes into the sump, the 30 L/min pump and the hood nozzles | §1.2, §6.1, §6.5 | major | partly (chip box upstream of a separate drain, emptied after each peeling job; settling trap before the pump) |
+| K5-5 | **Frying book next to its own seals**: hinge trough with two rotary shaft seals 40 mm from frying fat ("the weakest seals of the concept"); leaf frames beside a 240 °C pan collect fat "that carbonises … not removed by a 55 °C spray" (explorer); silicone rim gaskets on the GN vessels at 230 °C take up fat and odour (HYG-025) | §2.3, §2.5 #7–8, §6.2 rows 17, 19, §6.6 #8–9 | major | partly |
+| K5-6 | **Things above open food**: eight stem tools (tongs, turner, knife, ladle, probe…) parked on cone pegs on the rear wall of bay B "above the rear positions' splash line", including the red tongs after raw work; ram rod and mixer crank rod collars above open tubes ("HYG-004 is met only through the drip edge"); the extraction hood with a **condensing coil and drip tray** above the hob | §1.2, §2.4, §2.5, §6.6 #7 | major | yes (pegs beside, not above; hood condensate path proven) |
+| K5-7 | **The shuttle slot** (1300 × 70 mm, band cover and labyrinth, facing down above food heights): "a surface that is cleaned by nobody" (explorer) | §2.5 #11, §6.2 row 23 | major | partly (a wash nozzle row and a gutter under the slot) |
+| K5-8 | Hard-to-clean inserts: iris die (six sprung blades on a flexure; "weakest part against HYG-013"), duckbill valve (silicone slit), sickle sheath (a blind, wet, form-fitting holster that no camera sees), rolling-mat pull-bar hem | §2.1, §6.2, §6.6 #5–6, #13 | minor | yes (delete iris and duckbill; open sheath) |
+| K5-9 | Dock chutes shared by raw mince, eggs and RTE doses; the tube chute is rinsed only after the last dry dose of the meal ("flour + water = paste"), so a mince residue can wait for the rest of the meal | §3, §6.2 row 11 | minor | yes (red chute insert) |
+| K5-10 | Numbers: ~69 L, ~4.8 kWh (C-2). Column clean and dry 15 min after last use; cell wash 25 min after the meal; PERF-005 met | §6.3 | major (RES-005) | partly |
+
+Separation: red and green tubes, pistons, sickle and tongs (dedicated); dies, carousel plate, drop position,
+chutes and parts basket shared and separated in time. The tube itself — a smooth bore, pigged by its own piston,
+jetted from inside and seen whole by one camera — is the best-cleaned in-place food part of all eight concepts.
+
+### K6 — Loose ware and fast washer
+
+| # | Finding | Where [D] | Severity | Fixable |
+|---|---|---|---|---|
+| K6-1 | **Largest open splash zone (10.7 m²), washed once a day at night** with the day's tank liquor (which has washed every class R load) sprayed over the whole bay, then 10 L of fresh water at 65 °C. The explorer: "a rinse of a large, cluttered splash zone and its coverage is not proven". After lunch the bay stays soiled and damp for ~10 h (HYG-045, C-3) | §6.3 Zone S table and wash-down, risk 12 | major | yes (per-meal dry-out; per-meal hob-zone wash with fresh water; nozzle plan) |
+| K6-2 | **The manipulator is above food**: three sealing bands (X slot, Z mast slot, Y slot in the arm with a drip lip "above food"), wrist tilt and spin lip seals with food-grade grease behind them, chuck jaw rod lips. HYG-004 is met only by the closed boxes; band edges collect aerosol and meet grease | §2.1, §2.4 #1–6 | major | partly (sleeve over the wrist as the explorer suggests; drip tray under the arm) |
+| K6-3 | **The gripper carries soil from item to item.** Tray and pot tangs have no drip collar ("a real weakening of the drip-collar rule"); the chuck grips the tang of every soiled tray and then the next clean one; the jet gate (85 °C, 4 s — a rinse, A0 negligible) runs only after class R contact; chuck pin sockets are 8 mm holes. R6 §6.4 names exactly this path | §2.2, §6.4, §6.6 #1–2, risk 4 | major | partly (jet gate after every soiled grip; collar on tray tangs; second chuck for clean side) |
+| K6-4 | **"Every load is disinfected" is not shown**: 20 s of 85 °C rinse on ware coming from a 60 °C tank; realistic surface A0 10–40 (C-1) | §6.1 | major | yes (rinse hold; loggers on the coldest item) |
+| K6-5 | **No pass-through: the wells are dirty entry, wet parking and clean store at once.** Soiled items are hung into the open well and wet-parked (cold mist every 2 min) until the well is full; "a clean well is a store until the other is full"; the lid underside drips rinse condensate onto clean ware when it opens. R6 E17/rule 7 asks for a one-way clean/dirty flow | §1.1 point 4, §2.5 parking table, §6.1, §6.6 #12 | major | partly (clean items leave to the store at once; lid drip lip) |
+| K6-6 | **The sink bench does four jobs**: produce wash (class R under DEC-8), waste port for peel and trimmings, drain of the wells' pre-spray, and a work bench (GN 2/3 frame over the basin) for the next job | §2.3 B1, §6.5, §11.1 #10 | major | partly (a separate waste chute; the sink frame never used for RTE) |
+| K6-7 | **Frying fat above 30 mL has no path**: poured onto the peelings, "it would run through the strainer into the drain" (WSH-016) | §6.5, §12.1 #5 | major | yes (fat cup as ware) |
+| K6-8 | Crevice-bearing ware: egg cracker on open hook hinges ("dried egg white in a hook is the expected failure"), cut-off slide in open U-rails, whisk wire roots (must be a welded hub), rolled flanges of bought GN trays ("a crevice 354 + 325 mm long on every tray" unless flat-flange trays are specified), perforated items | §6.6 #3–11 | minor | yes |
+| K6-9 | Human wear parts: two silicone spatulas, squeegee, apron, mat, HDPE boards (scored), pistons, peeler blade, knives; blades not resharpened (PRP-034 only by exchange). Noise of the wells 52–56 dB(A) against 48 | §7.1, §12.1 #12 | minor | yes |
+| K6-10 | Numbers: ~54 L (52–61), ~4.5 kWh (C-2) — the lowest water of the eight and still over RES-005. Everything clean, dry and stored 15–20 min after hand-over: the best turnaround. Under DEC-6 the wells can also wash dishes (five plates a load, on a tanged carrier) | §6.1, §6.2 | major (RES-005) | partly |
+
+Separation: red and green knife, tongs, board, GN 1/3 trays and turner; everything else is washed and (claimed)
+disinfected in a 3.5-min well cycle before reuse; the gripper is the shared path. No fixed food-contact surface.
+
+### K7 — State change and rigid handling
+
+| # | Finding | Where [D] | Severity | Fixable |
+|---|---|---|---|---|
+| K7-1 | **The slot washer sprays raw-meat liquor next to the clean tray rack.** An open-top slot 50 × 280 mm flush in the deck, 12 nozzles recirculating 40 L/min, a steam pulse and an **air knife on the upstroke** that blows the water off the rising part at the slot mouth; directly beside it the rack well stores 16 clean trays vertically (layout "S slot │ R rack"). Red trays go into the slot "straight after the red phase". Pre-rinse with tank overflow, not fresh water; the 6 L tank is dumped once a day. HYG-005, FSF-041 | §1.2 top view, §2.4, §7.2, §7.5 | major | partly (lid over the slot while spraying, air knife inside, rack behind a shutter, pre-rinse fresh) |
+| K7-2 | **The sink well is the only fixed Zone F surface and does everything wet**: produce wash, rasp peeling (slurry), skin slipping, salad spin, waste catch, press table, and — with grate T2 — the red bench for raw meat. Rubber-finger basket with fingers pushed in ("a crevice at every finger"); hub umbrella; steamed at 85 °C for 1 min after the red phase. Under DEC-8 the well is busier and gritty | §2.4, §7.3 sink row, §7.6, §7.7 #2, #8 | major | partly (separate red bench; one-piece finger sheet) |
+| K7-3 | **Aluminium in the splash zone**: five aluminium evaporator plates and five loose aluminium slabs (21.5 kg) in the cold cabinet, touched by tray undersides and lid tops, rinsed daily with 40 °C water only (R6 A7: no unanodised aluminium in Zone F/S; alkaline detergent attacks it, so it is never washed with detergent). Lid sheets float on raw meat and are then pressed by slabs that next press other trays; frost melt and flour dust in a cabinet whose defrost day passes through 0–10 °C, where *Listeria* grows | §2.4 CC, §3.4, §7.3 CC row, §7.7 #11 | major | yes (stainless-clad slabs; weekly detergent wash of the cabinet) |
+| K7-4 | **The steam finish is under-powered**: 8–10 g of steam in 6 s needs ~1.5 g/s; a 2 kW generator gives ~0.7 g/s; the slot is open at the top (C-1) | §7.2 | minor | yes (accumulator; closed slot) |
+| K7-5 | **One gantry, one air space, 120 moves per meal** (80 food moves + 40 washing moves); separation of red trays from open RTE food is procedural ("routed along the rear lane … open vessels on its way are lidded first") | §7.5, §8 | minor | — |
+| K7-6 | The most loose parts of all concepts (~105 preparation items + 27 cookware): pin roots of the pin board, knock-out pin plates, filling-rod half-shell mould, bow knife blade clamps, rotor lids with PEEK bushes, grid and harp dies; tab welds and Ø 8 holes on every piece | §2.5, §7.7 | minor | — |
+| K7-7 | Numbers: 57–64 L, 5.0–5.2 kWh (C-2); flat ware clean 25–30 min after use, bulky ware in the chamber 55–75 min: PERF-005 met | §7.4 | major (RES-005) | partly |
+
+Separation: red tongs, bow knife, pin board and cold trays (dedicated); the sink and T1 are shared. A real
+hygiene gain that no other concept has: **tempered meat drips and smears far less**, and its purge stays frozen on
+the tray (§7.5).
+
+### K8 — Sealed tub with magnetic pucks
+
+| # | Finding | Where [D] | Severity | Fixable |
+|---|---|---|---|---|
+| K8-1 | **Clean ware is stored in the soiled workspace.** 24 utensils on the top strip and three pucks live inside the tub, in its steam and fat aerosol, and in the air in which raw meat is open; the top strip is above the front edge of the hob rows. After a *short wash* unused utensils are not washed at all (explorer open issue 10). HYG-005 by construction; separation temporal only; "splashes from raw meat on the drive wall … are not removed by the rinse" | §1 front view, §6.3, §6.4 R/RTE paragraph, §12 open issue 10, request A-6 | major | partly (shuttered utensil garage in the door top; red-to-green rinse of every utensil used for RTE after raw work) |
+| K8-2 | **Rinse water under-counted**: the gate delivers 12 L/min, so 6 s is 1.2 L per vessel, not 0.6 L; the pucks' 2 × 20 s rinse (8 L) is not in the 26 L. Full wash ≈ 38 L and ≈ 2.8 kWh; per meal 60–65 L with dishes, cooking and produce (C-2) | §6.1, §6.2 full wash steps 4–5, §7 | major | yes (the budget), partly (the water) |
+| K8-3 | **The full wash does not disinfect class R ware**: 6 s at 85–90 °C gives A0 ≤ 38 even for a surface already at 88 °C (C-1). Only the red-to-green programme (25 s at 88 °C) approaches A0 60, and it runs only when RTE work follows raw work | §6.2 | major | yes (25–60 s gate time for every red item) |
+| K8-4 | **Soiled ware waits for the end of the meal.** Apart from 5 s cold tool rinses and the red-to-green rinse, nothing is washed until the full wash: in B1 the braiser, boards, mat and cradle soiled at t = 0–33 min wait until t ≥ 140 min. HYG-030 (washing starts ≤ 60 min after use, M) is missed in every meal longer than about an hour; the tub cannot run a wash while food is open in it without spraying liquor into that food | §5 B1, §6.2, §6.3 | major | partly (gate washes of idle ware while all vessels are lidded) |
+| K8-5 | **A 3.6 m EPDM door gasket** around the drive wall — the classic mould and biofilm site of every dishwasher — here in a food-preparation chamber, on its wettest wall, with its lower sill just above the sump; plus the pressed expansion bead round the skin and the polymer skid tracks on the wall | §2.4, §6.4 drive-wall row | major | partly (hygienic flush gasket profile as LRU; hot drying cycle through the gasket groove) |
+| K8-6 | **The pucks are Zone F and skid across the soiled wall**: PEEK skids ride through raw-meat splashes on the drive wall and then carry RTE tools; rotor–spider thrust washer and bush (open 5 mm only when hung off); bayonet lugs; the press cassette's Rd thread and PEEK nut (explorer risk 4: residue in the thread; PEEK wear debris near food) | §2.1, §2.5, §6.4 pucks and cassettes rows | major | partly |
+| K8-7 | Glass-ceramic plate as the tub floor with a silicone joint (a fixed food-contact station in the explorer's own table); burnt-on sugar or milk needs the intensive soak; a falling 1.1 kg puck carries 4.3 J onto it (explorer risk 8) | §2.1, §6.4 | minor | partly |
+| K8-8 | Dosing port in the ceiling above column A and the egg module and piston box outside the tub are "not washed by it" (open issue 9); flour at the port needs a dry tub and the exhaust off | §3, §12 open issue 9 | minor | yes |
+
+Separation: two boards, two press tubes, two tongs; otherwise **temporal** inside one chamber, with a disinfecting
+rinse of the used red items. The concept's strength is real: no dynamic seal, no fixed mechanism, a closed
+all-steel chamber in which every surface is washed after every cooked meal; frying aerosol never reaches the
+kitchen or any other module.
+
+---
+
+## 4. Comparison
+
+Areas per 4-person reference meal. "Fixed F" = food-contact surface cleaned in place. Water and energy: section
+C-2 (recomputed, including dishes, cooking water and produce washing). "Next meal" = earliest start of the next
+meal; "all clean" = everything clean, dry and stored.
+
+| | Fixed F cleaned in place | Ware F soiled per meal | Zone S | Loose parts | Dynamic seals / penetrations above open food | Water, energy | Next meal / all clean | R ↔ RTE separation | Verification |
+|---|---|---|---|---|---|---|---|---|---|
+| K1 | 0.04 m² rod tips + 0.65 m² seam gap over food | ~3.5 m², ~45 items | 5.6 m² | ~110 | 3 core seals, 4 collars, 6 seams (7.3 m) — all above food | ~118 L, ~8.9 kWh | 43–50 min / ~3 h | dedicated red set + sequence; rods, bench, gates, deck shared | lance path, flow per seam, conductivity, ceiling camera; seams and bores unseen |
+| K2 | quill nose (~0.01 m²) | ~3 m², ~24 pieces | 12 m² | 76 | 8 moving seals; quill bellows and lip seal above the K/H pot | ~57 L, ~4.0 kWh | 10 min / ~55 min | instance + time; single-instance discs and jaws shared | lathe camera per part, pyrometer, turbidity; shaft and tiers unseen |
+| K3 | 1.5 m² (drum, belt, gates, chute, gutter) | ~1 m², 12–16 items | 11.5 m² | 31 + 15 heads | 19; 4 gate rods above the belt, arm quill above the drum | ~64 L, ~5.1 kWh | ~15 min / 55–75 min | temporal: one belt, one drum, one chute | drum camera with stripe light; belt inner face unseen |
+| K4 | 0.69 m² + 6–8 m² of mats | 1.5–2.5 m² | 8.3 m² | 36 + 5 mats | 22 rotary passages; spindle nose over P1; oven above P3/P4 | 62–76 L, 4.7–5.3 kWh | 12–15 min / 55–75 min | mat S dedicated; K by sequence; blade, table, cheeks shared | camera on the drawn-out mat (top face only) |
+| K5 | ~0.9 m² column parts (tubes, carousel, dies) | ~1.7 m² | 5.0 m² | ~96 | ~10; ram and crank rod collars above tubes; shuttle slot | ~69 L, ~4.8 kWh | 15 min / 55–75 min | red tubes, pistons, sickle, tongs; dies and carousel shared | bore camera (whole bore), back-light of dies; pistons by coupon only |
+| K6 | 0 | 1.3–1.6 m², 40–55 items | 10.7 m² | 93 | 3 sealing bands, 2 wrist seals, chuck lips — above food | ~54 L, ~4.5 kWh | ~15 min / 15–20 min | red/green for overlapping items; everything else washed per use; chuck shared | every item turned before a camera (white, oblique, UV-A) + IR ≥ 65 °C |
+| K7 | 0.45 m² (sink) | 2–3 m², 25–40 items | 9.3 m² | ~132 | X cover strip, quill wiper, wrist seal (rear lane); spin head closed | 57–64 L, 5.0–5.2 kWh | 25–30 min / 55–75 min | red tongs, knife, board, trays; sink and T1 shared | process record + grazing-light camera for flat ware |
+| K8 | tub 3.25 m² + hob glass 0.31 m² (all S/F) | 1–1.5 m² + 2.8 m² resident parts, all washed | (whole tub) | ~70 resident | **0** | 60–65 L, ~5.3 kWh | 25 min (cannot cook while washing) / 35 min | temporal in one chamber; 2 boards, 2 tubes, 2 tongs | every item presented to a camera (white, UV-A); 8 L loop turbidity |
+
+---
+
+## 5. Scores
+
+Scale: 10 = would pass a hygienic-design audit as drawn; 5 = passes only after several major fixes that keep the
+concept; 1 = cannot pass without abandoning the concept.
+
+| Concept | Score | Justification |
+|---|---|---|
+| K1 | **3** | The only fatal finding (seam gaps over the deck, no fallback), a cross-connected fluid bore at every rod tip, the most loose parts after K7 and the worst water, energy and turnaround (3 h). Its ware principle ("food only on ware") is sound; its cell is not |
+| K2 | **5** | Bare-metal, seal-free, one-rim ware on a lathe is the best ware-cleaning idea of the eight; against it: disinfection claimed from a dry flash, a quill over the press pot, one shaft for clean, dirty and raw, and 12 m² of splash zone with a 10 L budget. All fixable, none small |
+| K3 | **3.5** | The drum is a credible self-cleaning vessel. The belt is a fixed flexible food surface that R6 advises against, with an unseen inner face and wash box; plus a shared chute, tools parked over the drum and 19 dynamic seals. Separation is temporal for everything |
+| K4 | **3** | Excellent wash timing (mats washed within minutes) cannot make up for 10 m² of textile-cored elastomer stored wound and wet, a cutting mat that scores, a raw-meat disinfection that covers 5 % of it, a ten-fold water under-count and the oven hanging over the pots |
+| K5 | **5** | The pigged, jetted, camera-checked tube is the best in-place food part of all; the shared carousel with its smear path, twin-lip pistons, the chip box in the wash loop and tools parked over the pots pull it back to the middle |
+| K6 | **7** | No fixed food surface, commercial wash hardware, per-item camera verification, 15–20 min to fully clean, the least water. Deductions: a 10.7 m² open splash zone washed once at night, a gripper that carries soil from tang to tang, grease-lubricated seals over food, and a disinfection claim without margin |
+| K7 | **5.5** | Mostly loose steel ware, one small fixed food surface, the most credible disinfection step (steam); rigid, tempered meat drips less. Against: the open slot washer sprays raw-meat liquor beside the clean rack, the sink is raw bench and produce wash at once, aluminium in the cold cabinet, and the most loose parts and moves |
+| K8 | **6** | No dynamic seal, no fixed mechanism, full containment of splashes and aerosol, whole chamber washed after every cooked meal. Against: clean ware stored in the soiled chamber, temporal separation only, a final rinse that does not disinfect raw-meat ware, soiled ware waiting up to two hours, a dishwasher door gasket in a kitchen, and 12 L of uncounted rinse |
+
+---
+
+## 6. Ranking of the cleaning sub-mechanisms
+
+Credibility = how likely the mechanism meets HYG-019/-020/-021/-024 reliably for the parts it is meant for,
+without a human.
+
+| Rank | Mechanism (concept) | Credibility | Why | What must be proven |
+|---|---|---|---|---|
+| 1 | **Tang-hung wash wells** (K6; SM-201) | High | Commercial undercounter-washer hardware; fixed hanging pose per item type; steel self-dries from an 85 °C rinse; one well always free; per-item camera on the way out | Surface A0 with loggers (it is short, C-1); shadows when a slot is mis-loaded; drying of silicone and HDPE items; noise |
+| 2 | **Pigging plus in-bore rotary jet** (K5 tube; SM-206) | High for the tube | A smooth cylinder emptied by its own piston, jetted from inside, seen whole by one camera | The piston and its lips are not covered by this claim; the rinse heat (C-1) |
+| 3 | **Drip-collar stems** (K6, K5, K7; SM-202) | High, as a design rule | Keeps the gripper out of the food; cheap; verifiable | It is a separation rule, not a cleaner; K6 drops it for trays and pots (K6-3) |
+| 4 | **Wash lathe** (K2; SM-192) **+ induction flash-dry** (SM-212) | Lathe high for bodies of revolution; flash medium as a dryer, **low as a disinfection** | Every point of a rotating part passes every jet; the camera sees the whole part in one turn | GN corners and blade roots on the lathe; the flash must act on a *wet* surface to count as A0 (C-1); evenness on the thick rim spool |
+| 5 | **Self-washing drum** (K3; SM-193) | Medium–high | Smooth spun cup, closed back, own heater, lance, pour to a gutter; camera on a mirror finish | Helix-fin root and lip welds; dry-flash claim; allergen carry-over after a 90 s rinse |
+| 6 | **Tub wash** (K8; SM-200 as re-designed) | Medium | A closed all-steel chamber washed like a dishwasher, with the pucks presenting each item to a jet gate on a programmed path | Coverage of the parked utensil strip, gasket and puck bush; gate time for disinfection; the water recount |
+| 7 | **Jet gate** (K1 G1/G2, K8, K6 chuck; SM-198) | High as a cold rinse between foods of the same class; **low as a wash or disinfection** | A plane of fans that the tool is turned through; simple | K1 uses it also for soil-bearing produce and for spin-drying (aerosol); K8 uses it as its main wash with 6 s per vessel |
+| 8 | **Form-fitting wash holster** (K5 sickle sheath; SM-190) | Medium–low | Pipe flow at 1.5 m/s in a 3 mm gap cleans a flat blade | The sheath itself is a blind, permanently wet niche that no camera sees; drying inside it; the catalogue already says a holster rinse is not the validated disinfecting cycle |
+| 9 | **Mat wash on retraction** (K4; SM-195) | Medium for the two faces, **low for lip roots, hem, mesh, rasp and drying of the wound roll** | Every cm² passes every nozzle row — by construction, for flat faces only | Lip roots and hem with riboflavin and ATP; weight of the mat after the airing run; the real nozzle flows (K4-3) |
+
+Other mechanisms met on the way: the **slot washer with a steam finish** (K7) would rank between 4 and 5 (steam is
+the most credible thermal step; the open slot and its aerosol are the problem); the **belt wash on the return run**
+(K3; SM-195) between 8 and 9; the **rod car-wash collar** (K1, K3, K5; SM-191) medium as established hygienic-seal
+practice, but a wear part above food; the **seam flush** (K1) and the **manipulator-held lance** (K1; SM-188) low.
+
+---
+
+## 7. What the human would eventually clean or replace
+
+HUM-007 allows ≤ 2 part exchanges a year of ≤ 15 min; HUM-012 forbids touching soiled internals except for that.
+All numbers [D] unless marked.
+
+| | Wear and hygiene parts the human changes | Likely frequency [E] | Hidden surfaces that will eventually need a service clean |
+|---|---|---|---|
+| K1 | rod-tip cartridges (core seal), collar cartridges (PEEK scrapers), V-rings (2–3 years), HDPE board discs, silicone mats, blades | yearly | seam gaps and coamings, leak-off troughs, rod bores, extraction duct |
+| K2 | coupler-ring and gasket-frame beads (yearly), Z-slot sealing band (yearly), quill bellows (LRU), blades | yearly | K/H labyrinth (endoscope), oven cavity, dock |
+| K3 | TPU belt (yearly, sooner if steam hydrolyses it), silicone heads, gate rod collars, blades | yearly | belt wash box, dancer loop, pocket rollers, bridge ceiling |
+| K4 | all five mat cassettes (yearly), cutting mat K twice a year, blade | 2 × a year, ~€570 | cassette bay, gallery gutter, soft-anvil bond line |
+| K5 | UHMW pistons and lip rings, GN rim gaskets, duckbill, book shaft seals, grids | yearly | shuttle slot, hinge trough, window ledges |
+| K6 | two silicone spatulas, squeegee, apron, mat, HDPE boards, pistons, peeler and knife blades | twice a year (the explorer's own list is already at the HUM-007 limit) | sealing-band edges, tool-wall and store rails (30-day clean), well comb rods |
+| K7 | rubber-finger sheet (yearly), bow-knife blades, blade clamps, PEEK bushes | yearly | cold-cabinet plates and drain channel, slot-washer tank, sink hub |
+| K8 | door gasket (EPDM, 3.6 m), PEEK skids and puck bushes, PE boards (twice a year), silicone lips | yearly | gasket groove, expansion bead, press-cassette thread |
+
+---
+
+## 8. Hygiene rules and recommendations for round 2
+
+### 8.1 Rules (binding proposals for every round-2 concept)
+
+| # | Rule | Reason (finding) |
+|---|---|---|
+| R-1 | **Everything that touches food is ware** that leaves for a washer, or a smooth closed cavity (tube, drum) cleaned in place by a validated cycle **and seen whole by a camera after every cycle**. No flexible or textile food surface cleaned in place; no fixed cutting surface | K3-1, K4-1, K4-5, K5-1 |
+| R-2 | **Nothing above an open vessel**: no gap, seal, sealing band, rod collar, parked tool, oven mouth or condensing coil in the vertical projection of an open food vessel during work. Manipulators approach from the side or park their drives outside that column | K1-1, K2-2, K3-4, K4-6, K5-6, K6-2 |
+| R-3 | **Only moist heat counts for A0.** Every disinfection claim is shown with a data logger on the coldest item of the worst load; a rinse hold of ≥ 60 s at ≥ 82 °C (or saturated steam) is the default; an induction or hot-air flash is a drying step | C-1 |
+| R-4 | **Water and energy are budgeted from nozzle flow × time**, including machine-washed dishes (DEC-6), produce washing (DEC-8) and cooking water; RES-005 is to be re-based or met by recovery (final rinse → next pre-rinse, drain heat recovery) | C-2, K4-3, K8-2 |
+| R-5 | **Unwashed produce is class R**: the first wash station is a red station with its own basket and drain; no shared tool or surface touches produce before it is washed (FSF-042) | C-4 |
+| R-6 | **One-way flow**: soiled ware leaves by a path that clean ware does not use, or at least clean ware is stored behind a closed shutter outside the air space in which class R food is open; dishes returned at the hatch never share it with plated food at the same time | K2-3, K6-5, K7-1, K8-1, C-5 |
+| R-7 | **Time limits**: cold rinse within 2 min of emptying a hot vessel, wash start ≤ 60 min (HYG-030); splash zone dried within 60 min after every cooked meal (HYG-045, HYG-053); no soiled wash liquor held in the 25–55 °C band — dump after class R or allergen loads, or keep ≥ 60 °C | C-3, C-8, K1-8, K8-4 |
+| R-8 | **Grit and waste**: a settling trap upstream of every recirculation pump; peel slurry flushed within minutes; chip boxes and strainers outside the recirculation loop; waste leaves the cell closed | C-4, K1-2, K5-4 |
+| R-9 | **Polymers and elastomers**: one-piece moulded only; no woven mesh, no twin-lip grooves, no pushed-in fingers; every polymer part dried by forced air before storage; nothing stored wound or nested while wet | K4-1, K5-2, K7-2 |
+| R-10 | **Separate fluid paths**: no bore, hose or nozzle that carries soiled water or food ever carries potable water or air into food (EN 1717) | K1-4, K2-2 |
+| R-11 | **Verification**: per-item camera (white, oblique, UV-A) on the clean side for all ware; a per-meal camera check of every fixed surface; riboflavin and dried worst-case soils (WSH-006) run **before** a concept is selected, not weekly after; for declared household allergens, **dedicated ware** instead of a cleaning claim | C-7 |
+| R-12 | **Every seal, gasket, band and wear part** listed with its interval and who changes it; the total must fit HUM-007 | section 7 |
+
+### 8.2 Recommendation
+
+1. **Backbone: K6's rule set** — all food-contact parts are loose ware with one grip feature, washed as they go
+   in a fast tank washer with an 85 °C rinse and dried by their own heat, verified per item. It is the only
+   concept with no fixed food surface and a turnaround inside PERF-005 (M and S). Fix before round 2: rinse hold
+   and loggers (K6-4), collars on tray tangs and a jet gate after every soiled grip (K6-3), a pass-through or at
+   least an immediate move of clean ware to a closed store (K6-5), per-meal drying and a hob-zone wash (K6-1),
+   a fat path (K6-7), and a sleeve or drip tray under the arm (K6-2).
+2. **Borrow**: K5's pigged tube with its bore camera as the press cassette (with a single-lip or steel follower,
+   K5-2); K8's containment of frying — a closed, washable hood or sub-chamber over the hob so that fat aerosol does
+   not reach a 10 m² bay; K7's steam finish for flat ware (in a closed slot); K2's wash lathe for round ware only if
+   the flash is done wet; K3's drum as a closed produce-wash and peel vessel (it also answers DEC-8), without the
+   belt; K7's crust-tempering of raw meat where it reduces drip.
+3. **Do not carry forward** K1 (seam gaps, bore cross-connection, water) or K4 (wound wet mats) as whole-cell
+   concepts. K3's belt returns only if its riboflavin and ATP test (K3 risk R2) passes on edges, inner face and
+   pocket rollers after dried soils.
+4. **Experiments that decide the hygiene case** (cheapest first):
+   * Surface A0 with data loggers on the coldest item in an undercounter washer with a 20 s and a 60 s rinse
+     (K6-4, K8-3, K2-1); the same logger on a spun tri-ply pot under an induction coil (flash dry vs. wet).
+   * Riboflavin and dried egg, starch and mince soil (2 h) on: a tang-hung load with deliberate mis-loads; a
+     GN tray on a lathe; a tube, piston and die set; a belt loop (only if K3 stays).
+   * Aerosol mapping: a fluorescent or *E. coli* surrogate on raw meat, then the planned rinse (K1 lance, K6
+     jet gate, K7 open slot with air knife, K8 red-to-green rinse); settle plates on the clean store and on open
+     RTE vessels.
+   * Splash-zone wash-down on a plywood-and-sheet mock-up with the real nozzle plan and a manipulator parked in
+     it: riboflavin coverage and fresh water per m².
+   * Grit: 1 g of sand per 200 g of field vegetables through the planned produce wash; where the sand ends up
+     (strainer, sump, pump, nozzles).
