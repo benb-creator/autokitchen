@@ -30,6 +30,25 @@ adversarial integration review.
 | R8 | Standard parts: motion, frames, actuators, grippers, sensors, controllers, with prices | Sonnet | `research/08-standard-parts.md` |
 | Q1 | Requirements specification | Opus | `requirements/requirements.md` |
 
+### Phase 2P — Meal preparation concept finding (multi-round, many agents)
+
+Meal preparation is the most novel part of the machine and needs new ideas, so it gets its own
+iterative concept phase *before* the architecture is frozen — the preparation concept decides what
+a vessel is, how food moves, and how everything is washed, which the architecture then has to carry.
+
+| Round | Task | Model | Output |
+|-------|------|-------|--------|
+| P1 Ideas | Several agents, each with a different starting point (e.g. machine-tool thinking, food-industry process line, single-vessel appliance, robot arm imitating a cook, "rethink from first principles", cleaning-first), independently generate concepts without seeing each other's work | Opus | `design/prep/ideas/*.md` |
+| P2 Catalogue | Merge, de-duplicate and cluster all ideas into distinct candidate concepts and sub-mechanisms | Opus | `design/prep/02-concept-catalogue.md` |
+| P3 Explore | One agent per candidate concept: work it out far enough to judge it — mechanism, dimensions, the hard operations from the meal corpus, cleaning, part count | Opus | `design/prep/concepts/*.md` |
+| P4 Critique | Independent critics attack each explored concept (coverage against the meal corpus, cleanability, robustness, buildability) and score them | Opus | `design/prep/04-critique.md` |
+| P5 Second round | New ideas and hybrids prompted by the critique; explore and critique those too. Repeat P3–P5 until the critics find no major open weakness | Opus | `design/prep/round2/*.md` … |
+| P6 Select | Choose the concept (or combination), with the reasoning and the rejected alternatives | Opus | `design/prep/06-selected-concept.md` |
+
+The detailed design of the selected concept is then D4 in Phase 3, which itself runs as
+design → critique → improve iterations, with the sub-problems (tools, vessels and holders, dosing
+and pouring, tool cleaning) worked out by separate agents.
+
 ### Phase 2 — System architecture (one agent)
 
 | ID | Task | Model | Output |
