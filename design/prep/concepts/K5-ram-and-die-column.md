@@ -633,7 +633,7 @@ depositor. Soiled: about 16 items plus the dish.
 
 | t | Step | Moves |
 |---|---|---|
-| 0 | Butter 250 g: small tube, pushed out into tube G1 standing on a stopper cap at the drop position as a carrier cap; tempered there 3 min with the tube on a 35 °C leaf | 4 |
+| 0 | Butter 250 g: small tube, pushed out into tube G1 standing on a stopper cap at the drop position; tempered there 3 min with the tube on a 35 °C leaf | 4 |
 | 5 | Sugar 250 g, vanilla sugar into the tube (tube chute); PRESS: knead plunger 40 strokes (creaming by back-extrusion: mixes, but beats in little air: the cake rises on baking powder; a creamed-by-whisk crumb is lighter) | 2 |
 | 9 | 4 eggs (egg module into the tube chute), plunger 15 strokes; 500 g flour (mesh lid) and 15 g baking powder (weigh cup), 125 mL milk; plunger 20 strokes: a stiff, dropping batter of 1.4 L | 3 |
 | 16 | Loaf tin (loose floor, oil mist, flour dusted with the sifter cup) at the drop position. The tube is slid from its cap onto the 120 × 5 slot die over the tin (shear gate; the batter is stiff, so it smears but does not run), and the ram pushes 1.4 L out in 20 s while the shuttle moves the tin in X; levelled by shaking | 4 |
