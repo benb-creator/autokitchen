@@ -6,8 +6,10 @@ until the whole preparation module is nothing but **vessels + active lids + dock
 
 Written independently of the other P1 documents. Sources used: `BRIEF.md`, `DECISIONS.md`, `PLAN.md`,
 `requirements/requirements.md` (sections 3.5, 5, 7), `research/01`, `04`, `05`, `06`, and the GN box
-recommendation of `research/03`. `research/02-meal-corpus.md` did not exist yet; coverage is argued against
-the unit operations UO-01 … UO-87 and the brief's named meals.
+recommendation of `research/03`. Sections 1-6 were written before `research/02-meal-corpus.md` existed and
+argue against the unit operations UO-01 … UO-87 and the brief's named meals; **section 7 checks the concepts
+against the finished corpus** (248 meals, 126 operations) and corrects sections 1-6 where the corpus disagrees
+(vessel sizes, number of hobs, five additional mechanisms S-20 … S-24).
 
 Tags: **[E]** my estimate or calculation, **[R4]**/**[R6]** number taken from that research document,
 **[?]** must be verified by test. All dimensions in mm.
@@ -644,6 +646,43 @@ alternative where pressing would crush. **H**.
 through it to the far side. The last plug of food goes into the dish instead of staying in the grid, and the
 grid arrives at the wash already free of fibres, which is where push-through cutters normally fail. **H**.
 
+The following five were added after the corpus check of section 7.
+
+**S-20 Shake-peel in a closed vessel pair.** Two cans clamped rim to rim and shaken hard by the inverter
+(±60 deg at 3-4 Hz, 15 s) are the cook's "two bowls" trick: dry garlic cloves lose their skins, hard-boiled
+eggs with 50 mL of water crackle and slip their shells (PLE), blanched almonds and tomatoes slip. Skins are
+separated afterwards by a strainer disc or by floating them off. No extra part at all. Garlic that is going to be
+minced does not even need this: unpeeled cloves go through the ricer disc with the comb piston and the skins stay
+behind [R4]. **H** (garlic press route), **M** (shake-peel yield, my guess 70-90 %).
+
+**S-21 Wedge-and-core disc with a concentric receiver.** An apple divider scaled up: 6-8 radial blades around a
+central tube (dia 25 for apples and pears, dia 40 for peppers). The piston pushes the fruit through; wedges fall
+into the pot, the core with seeds and stalk goes down the tube into a beaker standing inside the pot (the hat
+beaker nests in the pot, so the split receiver costs nothing). Cores apples, pears, peppers, halves and de-stalks
+tomatoes, quarters cabbage heads around the stalk. Needs the fruit placed with its stalk axis vertical (camera +
+gripper); a tilted pepper loses 10-20 % to the core tube. Force about 1-2 kN. **M**.
+
+**S-22 Ring-build and push-out (assemble and unmould).** A sleeve standing on a plate or base disc is the
+chef's ring mould. Layers are dosed into it in order (burger: bun, patty, sauce, salad, bun; tiramisu, layered
+salad, potato gratin tower, tartare-style starters), then the quill holds the stack down with a soft piston while
+the fork lifts the sleeve off. The same sleeve on a base disc is a spring-form tin: bake in it, lift the sleeve,
+the cake stands on its disc. Puddings and panna cotta set in silicone cups and are turned out by everting the
+cup (S-16). Everything else is unmoulded by the rim-to-rim inversion onto a plate carrier. **H** for ring-build,
+**M** for sticky cakes (needs greased or lined sleeve).
+
+**S-23 Sickle carving in the stack.** A boneless roast stands on end in a wide sleeve (grain vertical, so slices
+are across the grain), held down by a 1.5 kg follower; a long scalloped sickle blade on the rim of the slowly
+rotating receiving pan (40-60 rpm, draw angle about 45 deg, blade speed 0.5 m/s at r = 100) takes one slice per
+turn; the fork lowers the sleeve by the slice thickness (2-15 mm) per turn. Slices fall flat into the warm pan
+with their juice. Also slices bread, sausage, cooked potatoes for Bratkartoffeln. Not for bone-in poultry.
+Open point: hot, soft braised meat may tear instead of cutting at this blade speed [?]. **M**.
+
+**S-24 Dice blocks once, then count.** Butter, lard, firm cheese, tofu and bacon are pushed through the dicing
+stack once, when the pack is opened (10 g cubes for butter, 10 mm dice for the rest), and stored as loose pieces
+in their box. "Cut a defined portion off a block", which the corpus finds in 51 % of meals, becomes piece dosing
+by weight; cold butter cubes are also what Mürbeteig and Streusel want. The sibling of S-9. **H** (butter cubes
+must stay below 8 °C or they fuse).
+
 ---
 
 ## 6. Which concept I would bet on
@@ -676,10 +715,111 @@ Imports:
 
 What I would drop: C as a whole (too much moving mass for what it adds) and B's shaking hob for anything liquid.
 
+After the corpus check (section 7) the bet stands, but import 1 is no longer optional: the corpus asks for a
+36 cm pan and a 6 L braiser for twelve Rouladen, which only the GN 2/3 flat family delivers. The honest name of
+the bet is therefore **"STACK + SANDWICH": round cans under a quill for everything that flows or is cut,
+GN 2/3 clamshell trays for everything that lies flat, one inverter for both.**
+
+---
+
+## 7. Check against the meal corpus (`research/02-meal-corpus.md`)
+
+Added after the corpus was finished. Codes are the corpus's operation codes; percentages are shares of the 248
+meals. Rating of my own answer: **ok** mechanism exists in the concept and rests on known practice; **test**
+mechanism exists but its success rate is a guess; **buy** covered only by the purchase workaround; **no** not
+covered.
+
+### 7.1 Operations with no purchase workaround (union 29 % of meals): these decide the bet
+
+| Op | Share | A | B | C | D | Mechanism |
+|---|---|---|---|---|---|---|
+| FLP flip / turn | 12.9 % | ok | ok | ok | no | Clamshell inversion into a second hot vessel. It is indifferent to what is flipped: pancake, omelette and tortilla (rated D5 for a spatula) are supported over their whole area during the turn and drop only the pan depth (25-40). This is where the vessel lens pays most. Limits: needs a second preheated pan and a free hob for it; fried egg "over easy" and omelette folding are not flips (fold by sliding half out onto the plate and turning the pan over it, a plating move). B alone can also avoid the flip with a heated platen lid. |
+| ASM assemble / build | 6.9 % | test | ok | no | no | Layered builds in a vessel are native: lasagne, moussaka, pizza topping (rotating pan or tray under fixed dosers), and ring-build S-22 for burger and layered cold dishes. Open-hand assemblies (taco, filled sandwich, wrap) are **not** covered by any of my concepts beyond rolling a wrap with the apron roller; I would serve tacos and wraps as components. My estimate: 11-13 of the 17 meals. |
+| CAR carve cooked meat | 4.8 % | test | no | no | no | S-23 sickle carving for boneless roasts. Bone-in birds: parts are roasted and served as parts (requirement X-04 already allows this). B, C, D have no answer and would leave it to the serving module. |
+| UNM unmould | 4.4 % | ok | ok | test | ok | Rim-to-rim inversion is unmoulding by definition; spring-form by lifting a sleeve off a base disc (S-22); set desserts by everting a silicone cup (S-16). Risk: sticking of cakes, as for a human. |
+| SCO score / slash | 2.8 % | ok | ok | no | no | A: a comb of parallel blades on the quill stamped to a depth stop (pork rind needs the force: 8 kN is there), turntable indexes 90 deg for the cross-hatch. B: the tray travels under a fixed blade, a true draw cut, better for slashing proved bread. |
+| POA poach egg | 0.4 % | test | no | no | no | Egg cracked into a small silicone cup floated in the simmering pot, turned out by eversion. One meal; low priority. |
+
+Result: A covers five of six (two of them subject to a test), B four, C two, D one. Flipping and unmoulding,
+17 % of meals between them, fall out of the rim-to-rim rule without any extra mechanism.
+
+### 7.2 The shaping cluster (15.3 %, avoidable only with semi-finished products)
+
+| Op | Share | Answer (concept A + GN flat family) | Rating |
+|---|---|---|---|
+| STU stuff / fill | 6.5 % | Sleeve + piston is a filling gun: a nozzle disc on the sleeve, quantity by piston travel. Rigid cavities (peppers cored by S-21 and stood in a cup rack, tomatoes, cannelloni laid in a tray, apples) are fillable; soft pockets (cordon bleu, Maultaschen, dumpling centres) are not. | ok for about 10 of 16 meals, rest buy |
+| WRP wrap / roll | 4.0 % | Apron roller S-6: Kohlrouladen (leaves blanched whole, which LSP makes hard), burrito, biscuit roll on its baking mat (roll the mat itself, folder of concept D). Spring rolls, sushi, strudel: no (requirement X-06, X-12). | test, about half |
+| FRM shape small pieces | 2.8 % | Extrude a log through a die disc and cut with the sweep knife: gnocchi, croquettes, cookie blanks, falafel pucks. Schupfnudeln and balls: tumble the cut pieces in a slowly rotating floured can against a fixed baffle (a dough rounder). | test |
+| SHD shape dough | 2.4 % | Loaf: prove and bake in a tin (the pot is the tin). Rolls: portion by extrusion, round in the rotating can. Pizza: cone roller S-15 or roller head. Lining a tin: press the dough into the pan with a stepped platen. Braids, pretzels: no (X-09). | ok / no |
+| BRD bread / coat | 2.0 % | Breading by flipping S-5. | ok |
+| RLT roll and tie | 1.6 % | Apron roller + seam-down trough pack, no tying; clip as fallback. Twelve Rouladen fit a GN 2/3-100 in two rows of six (55 x 150 each). Roast tying and trussing: bought tied. | test |
+| SKW skewer | 0.4 % | No. Cubes cooked loose. | no |
+
+The cluster is where my concepts are weakest in *proof*: three "test" entries hang on the apron roller and the
+extrude-and-cut former. Both are single-axis mechanisms, so they are cheap to test early, and they should be.
+
+### 7.3 Peeling and trimming (69.8 % of meals, all with a level-1 purchase workaround)
+
+| Op | Share | Answer | Rating |
+|---|---|---|---|
+| PLA peel onion, garlic | 52.0 % | Garlic: unpeeled through the ricer disc, or shake-peel S-20: ok. **Onion is the single most valuable unsolved operation and my concepts do not solve it with confidence.** Candidates in order of my belief: (1) blanch 45-60 s in a pot that is boiling anyway, shock, then push through the undersized die S-12: the blanch loosens the skin so the die strips skin only and the loss falls from 20-30 % to about 5-10 % [?]; outer layer slightly softened, irrelevant for the cooked dishes that are most of the 52 %; (2) cold die S-12 with the loss accepted, for raw onion; (3) purchase of peeled or frozen diced onion, which the corpus recommends as the starting point. Build (3) first and keep a disc slot for (1). | buy, test |
+| PLP peel potato, carrot | 24.2 % | Rasp-floor stack (A) or rasp drum (C). | ok |
+| COR core / deseed | 20.2 % | S-21 wedge-and-core disc with concentric receiver: apple, pear, pepper, tomato stalk, cabbage stalk. Pumpkin, avocado, cucumber seeds: buy or leave. | test |
+| TRE trim ends | 12.5 % | Long goods fed axially through the S60 tube: the first and last sweep-knife cut go to a waste beaker (leek root, cucumber and carrot ends, asparagus ends). Beans, sprouts, strawberries, mushrooms: buy trimmed or frozen. | partly, buy |
+| PLS peel apple, pear, cucumber | 10.5 % | The rasp bruises soft fruit. Unpeeled where the recipe allows, otherwise buy. No concept of mine peels an apple properly. | buy |
+| PLH peel celeriac, kohlrabi, beet | 7.3 % | Rasp stack with longer time, loss about 30 %; ginger as frozen pucks (S-9). White asparagus: no. | ok / no |
+| SEP separate egg | 6.9 % | Slotted yolk cup under the egg disc, or S-8. Carton white whips worse, so this should be built. | test |
+| STR, PLE, PIT | 3.6 / 2.8 / 1.2 % | STR buy; PLE shake-peel S-20; PIT buy. | buy / test / buy |
+
+### 7.4 Dosing and the everyday operations
+
+* **DUN** countable whole items (93 %) and **DME** raw meat (43 %) are the two D3 operations the corpus puts in
+  the foundation tier. DUN: inversion through a piece chute plus "the recipe follows the scale" (S-14). DME:
+  inversion for pieces and mince, freeze plate (S-3) for stacked slices; the corpus suggests one piece per tray
+  with a peel-off liner, which is the silicone folder of concept D. Both remain "test".
+* **DBL** portion block solids (51 %): I had missed this. Answer S-24 (dice once, then count) and S-9.
+* **GRS** grind pepper and spices (43.5 %): not a vessel problem; a burr mill as the resident insert of the pepper
+  box, or pre-ground.
+* **DRN** drain (22.6 %): three-layer inversion S-13. **TOS** toss (14.5 %): closed pair in the inverter.
+  **STC** stir continuously (6.5 %): rotating scraper lid. **SQZ** (1.6 %): French-press piston or spin basket.
+  **FLD** fold (4.4 %): scraper lid at 10-20 rpm; quality is a test.
+* **DFR** deep-fry (4.0 %) is excluded by requirement X-01 in all concepts.
+
+### 7.5 Vessel sizes: corrections to section 1
+
+| Corpus need (6 persons) | Section 1 had | Correction |
+|---|---|---|
+| Boil pot 9 L | tall pot B250 x H180 = 8.8 L | make it H190 = 9.3 L; it is heavy (about 9 kg full), so it is filled and drained on the hob and never inverted by the three-layer trick when full: for the 9 L pot use the spin basket as a lift-out pasta insert instead |
+| Mixing bucket 8-10 L (dough rising to 4-5 L, 1.2 kg leaves) | pot 5.4 L | the tall pot doubles as the mixing bucket; two of them needed |
+| Whip 1 egg white (30 mL) up to 6 (1.5 L) | beaker B160, 2.6 L | 30 mL is a 1.5 mm film in a 160 bore. Add a **small hat beaker B90 x H110, 0.7 L**, same R260 rim, with a small whisk stalk |
+| Pan 28 cm, and 36 cm for 1.5 kg Bratkartoffeln | pan B250 (491 cm2) | the round pan is below both. **GN 2/3 thermoplate** (floor about 330 x 300 = 990 cm2) equals the 36 cm pan (1 018 cm2) and replaces it; the round B250 pan stays for pancakes (24-25 cm) and eggs |
+| Braiser 6 L, 12 Rouladen | pot 5.4 L | GN 2/3-100, about 9 L, with its lid, hob to oven |
+| Sauce pot 1.5 L, minimum 0.15 L | beaker B160 | ok; tri-ply beaker on the hob |
+| Wok 36 cm | none | not covered; stir-fry (2.8 %) in the GN 2/3 on full power, marked as adapted |
+| Concurrent heat: up to 4 hobs + oven; 6 food vessels at once | 2 hobs | **four heated positions**: two round (with light quills) and two GN 2/3, plus the oven. This raises the actuator count of A from 17 to about 19 and the module width by about 450 |
+
+The cans list of section 1.4 becomes: pot 5.4 L x3, tall pot 9.3 L x2, pan 2 L x2, beaker 2.6 L x3, small beaker
+0.7 L x3, plus GN 2/3 thermoplates x4 (two depths) and a wide sleeve S250 for roasts and cakes: about 55 parts.
+
+### 7.6 What the corpus changes in my judgement
+
+1. The rim-to-rim rule is worth more than I had claimed: it answers FLP and UNM (17 % of meals, no purchase
+   workaround, FLP rated D4-D5 for a spatula robot) with a mechanism of two actuators.
+2. The round kit alone is too small for frying and braising for six. "STACK + SANDWICH" is the concept, not an
+   option.
+3. Onion peeling (52 %) is not solved by the vessel lens. It should be handled as the corpus proposes: purchase
+   first, peeler as an upgrade, and the blanch-and-die variant tested early because its value is so high.
+4. Concepts C and D fall further behind: C answers two of the six no-workaround operations, D one.
+5. My concepts do not assemble open-hand food (taco, sandwich) and do not carve bone-in birds. I would state
+   these as known members of the 5 %.
+
 ---
 
 ## Open issues
 
+0. Coverage has not been counted meal by meal. Section 7 rates operations, not the 248 recipes; the "test"
+   entries (apron roller, extrude-and-cut former, wedge-and-core, sickle carving, freeze plate, onion die) decide
+   whether the bet reaches 95 % without level-2 purchases, and none of them has been tried.
 1. The R260 rim, the base skirt with drive notches and the GN 2/3 flat pair are vessel standards that the
    architecture (A1) must freeze; the storage box must fit inside the rim (GN 1/6 does, GN 1/3 does not: GN 1/3
    boxes need the rectangular collar of the flat family).
