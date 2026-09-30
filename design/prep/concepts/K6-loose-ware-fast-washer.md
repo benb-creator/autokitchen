@@ -12,8 +12,8 @@ speculative.
 
 **One-paragraph verdict.** The concept works on paper for all twelve benchmarks (nine "yes", three "adapted"),
 with proven cleaning and no fixed food-contact surface. It pays for that with wall width (2.6 m including hob
-and oven), about 93 loose items, 35–100 gripper cycles before a meal is handed over, and a washer that sits at the
-limits for water, energy and noise. It is the candidate with the fewest physical unknowns and the most
+and oven), about 93 loose items, 35–100 gripper cycles before a meal is handed over, and a washer that exceeds
+the limits for water, energy and noise by 5–25 %. It is the candidate with the fewest physical unknowns and the most
 logistics.
 
 ---
@@ -81,15 +81,15 @@ TOP VIEW at deck level (Z 850)                                   rear wall Y 555
  110 |                | 325 x 354   | 325 x 354    | Ø240   | Ø240   | well  |                      |
    0 +---- door ------+-------------+--------------+--------+--------+-------+----------------------+
      0               300           645            990    1290     1590    1985                   2545
+```
 
 Trays lie with their long side (354) along Y and their tang pointing along X. A thermoplate lies over the
 front and the rear coil of one hob column (bridge mode); two thermoplates fill the hob.
-```
 
 Wall width by function: preparation proper (dock 300, two benches 690, wells 395) 1385 mm; four heated
-positions 600 mm; oven and store tower 560 mm; casing 50 mm. **Total 2595 mm, say 2.6 m.**
-the brief for this round puts them inside, so 2.6 m is the honest figure. Reasons it cannot be shorter are in
-section 7.2. Without hob and oven the bay would be 1.4 m.
+positions 600 mm; oven and store tower 560 mm; casing 50 mm. **Total 2595 mm, say 2.6 m.** Without hob and
+oven the bay would be 1.4 m; the brief for this round puts them inside, so 2.6 m is the honest figure.
+Reasons it cannot be shorter are in section 7.2.
 
 ### 1.3 What I changed from the catalogue definition
 
