@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoKitchen — eight preparation concepts K1…K8 (round P3)</title>
+<style>
+  :root {
+    --text: #1f2933;
+    --muted: #52606d;
+    --line: #d0d4d9;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --accent: #f28c28;
+    --link: #1f5f99;
+    --low: #f9d9d5;
+    --mid: #fbecc8;
+    --high: #d6efd8;
+    --pending: #e6dcf0;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+  }
+  .page { max-width: 110rem; margin: 0 auto; padding: 1.5rem 1.5rem 3rem; }
+  .text { max-width: 70rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0.5rem 0 0.75rem; }
+  h2 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 0.25rem; }
+  h3 { font-size: 1.1rem; margin: 1.25rem 0 0.4rem; }
+  p, li { font-size: 1.02rem; }
+  a { color: var(--link); }
+  .lead { font-size: 1.1rem; }
+  .caption { color: var(--muted); font-size: 1.08rem; font-style: italic; margin: 0 0 1rem; }
+  nav.toc {
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    padding: 0.75rem 1rem; margin: 1rem 0 1.5rem;
+  }
+  nav.toc ol { margin: 0.25rem 0 0; padding-left: 1.4rem; columns: 2; column-gap: 2rem; }
+  nav.toc li { margin: 0.1rem 0; break-inside: avoid; }
+  section.concept {
+    background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--accent);
+    border-radius: 8px; padding: 1.25rem 1.5rem 1.5rem; margin: 2rem 0;
+  }
+  figure { margin: 0 0 1rem; }
+  figure img {
+    width: 100%; height: auto; display: block;
+    border: 1px solid var(--line); border-radius: 4px; background: #fff;
+  }
+  figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 0.3rem; }
+  .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; max-width: 110rem; }
+  .proscons ul { margin: 0.25rem 0 0; padding-left: 1.2rem; }
+  .proscons li { margin: 0.3rem 0; }
+  .pros h3 { color: #2e7d32; }
+  .cons h3 { color: #b23b2e; }
+  table { border-collapse: collapse; margin: 0.5rem 0 1rem; background: var(--card); }
+  th, td { border: 1px solid var(--line); padding: 0.35rem 0.6rem; text-align: center; vertical-align: middle; }
+  th { background: #eef1f4; font-weight: 600; }
+  td.name, th.name { text-align: left; }
+  .scores td { font-weight: 600; font-size: 1.05rem; min-width: 7rem; }
+  .s-low { background: var(--low); }
+  .s-mid { background: var(--mid); }
+  .s-high { background: var(--high); }
+  .pending { background: var(--pending); color: #4b2a6b; font-style: italic; font-weight: 600; }
+  .note { color: var(--muted); font-size: 0.92rem; }
+  .box {
+    background: #fff8ef; border: 1px solid #f3c99a; border-radius: 8px;
+    padding: 0.75rem 1rem; margin: 1rem 0;
+  }
+  footer { border-top: 1px solid var(--line); margin-top: 2.5rem; padding-top: 1rem; color: var(--muted); }
+  footer ul { columns: 2; column-gap: 2rem; }
+  @media (max-width: 800px) {
+    .proscons { grid-template-columns: 1fr; }
+    nav.toc ol, footer ul { columns: 1; }
+    .page { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="text">
+  <h1>AutoKitchen — eight ways to prepare a meal automatically</h1>
+  <p class="lead">
+    This page shows the eight candidate concepts <strong>K1…K8</strong> for the meal-preparation part of
+    AutoKitchen: the part that takes ingredients out of their storage boxes, washes, peels, cuts, mixes, forms,
+    cooks, flips and hands over the food, and then cleans itself. In the exploration round P3 each concept was
+    worked out by its own advocate in a separate document. Afterwards five critics each looked at all eight
+    from one viewpoint: <strong>C1</strong> meal coverage and food result, <strong>C2</strong> hygiene,
+    <strong>C3</strong> mechanics and reliability, <strong>C4</strong> fit into the whole machine, and
+    <strong>C5</strong> simplicity. (The critique files call themselves round P4.)
+  </p>
+  <ul>
+    <li><strong>Diagrams:</strong> the first picture of each concept shows the front view (as seen from the
+      kitchen, door removed) on the left and the top view on the right, to the same scale. The second
+      picture is a set of animated close-ups of the concept's key mechanisms. All animations loop.</li>
+    <li><strong>Scores:</strong> every available critique scores each concept from <strong>1 to 10, higher is
+      better</strong>, with half points. C2 defines 10 as "would pass a hygienic-design audit as drawn",
+      5 as "passes only after several major fixes" and 1 as "cannot pass without abandoning the concept".
+      C4 defines 10 as "fits the width, power, water, cost and transport budgets and runs a household's day
+      without help" and 1 as "cannot be made to fit without abandoning the concept". C1 and C3 use the same
+      1–10 range without written anchors. The scores are not comparable between critics; read each column on
+      its own.</li>
+    <li><strong>C5 (simplicity): pending.</strong> When this page was made, that critique was an early draft
+      without scores; its cells are marked "C5: pending" and will be filled in once C5 is finished.</li>
+    <li><strong>Paper only:</strong> nothing was built or tested. Every number on this page (widths, costs,
+      coverage, scores) is a paper estimate. Some requirements changed after the concepts were written (the
+      machine must now wash, peel and cut all fresh produce itself; a regular household is 2 persons and a
+      meal serves at most 4; the whole machine must fit 3.6 m of wall). The critics judged against the new
+      state, which is why their figures are often lower than the concept documents' own claims.</li>
+  </ul>
+</header>
+
+<nav class="toc text" aria-label="Contents">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#K1">K1 — Ceiling turret cell</a></li>
+    <li><a href="#K2">K2 — Vessel stack and inversion</a></li>
+    <li><a href="#K3">K3 — Drum and belt line</a></li>
+    <li><a href="#K4">K4 — Shuttle mat</a></li>
+    <li><a href="#K5">K5 — Ram-and-die column</a></li>
+    <li><a href="#K6">K6 — Loose ware and fast washer</a></li>
+    <li><a href="#K7">K7 — State change first, rigid handling</a></li>
+    <li><a href="#K8">K8 — Sealed tub with magnetic pucks</a></li>
+  </ol>
+</nav>
+
+<section class="text" aria-labelledby="summary">
+  <h2 id="summary">All scores at a glance</h2>
+  <table>
+    <thead>
+      <tr>
+        <th class="name">Concept</th>
+        <th>C1 coverage / food</th>
+        <th>C2 hygiene</th>
+        <th>C3 mechanics</th>
+        <th>C4 system fit</th>
+        <th>C5 simplicity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="name"><a href="#K1">K1 Ceiling turret</a></td><td class="s-high">7</td><td class="s-low">3</td><td class="s-low">3</td><td class="s-low">2</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K2">K2 Vessel stack</a></td><td class="s-mid">3.5</td><td class="s-mid">5</td><td class="s-mid">4.5</td><td class="s-mid">5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K3">K3 Drum and belt</a></td><td class="s-mid">4.5</td><td class="s-mid">3.5</td><td class="s-mid">3.5</td><td class="s-mid">4.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K4">K4 Shuttle mat</a></td><td class="s-mid">4</td><td class="s-low">3</td><td class="s-mid">3.5</td><td class="s-mid">4.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K5">K5 Ram and die</a></td><td class="s-low">3</td><td class="s-mid">5</td><td class="s-mid">5</td><td class="s-mid">5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K6">K6 Loose ware</a></td><td class="s-high">7</td><td class="s-high">7</td><td class="s-high">6</td><td class="s-mid">3.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K7">K7 State change</a></td><td class="s-high">6.5</td><td class="s-high">5.5</td><td class="s-mid">4</td><td class="s-low">2.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+      <tr><td class="name"><a href="#K8">K8 Sealed tub</a></td><td class="s-high">6</td><td class="s-high">6</td><td class="s-high">6</td><td class="s-high">6</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+    </tbody>
+  </table>
+  <p class="note">Scale 1–10, higher is better. Cell colours are only a reading aid: red 3 or less, yellow
+    3.5–5, green 5.5 or more.</p>
+
+  <div class="box">
+    <strong>What the critics found for all eight</strong>
+    <ul>
+      <li>No concept reaches the target of 95 % of traditional meals. Under the new rule that the machine
+        prepares all fresh produce itself, C1 puts the ceiling at about 93 % for every concept, because some
+        dishes need ready dough or fiddly folded wrappers.</li>
+      <li>No concept meets the water and energy budget per meal once dish washing and produce washing are
+        counted (C2, C4).</li>
+      <li>Re-estimated realistically, every preparation cell alone costs 24–45 k€, as much as or more than the
+        25 k€ budget for the whole machine, and only K8 fits the wall width that C3 sets aside for the
+        preparation cell (K2 nearly).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================================================================== K1 -->
+<section class="concept" id="K1">
+  <h2>K1 — Ceiling turret cell</h2>
+  <p class="caption">The generalist: a stainless wash-down cell whose sealed ceiling carries turrets with one
+    plain rod each; every utensil is a simple passive steel part that the rods pick up.</p>
+
+  <figure>
+    <img src="K1-ceiling-turret-cell.svg" alt="K1 ceiling turret cell: animated front view and top view showing three ceiling turrets with rods, board turntable, press, four hobs and the sideways oven">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K1-ceiling-turret-cell-mechanisms.svg" alt="K1 mechanism close-ups: animated panels of the turret rod, tool pick-up, dicing press, pan flip and wash-down">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>Picture a stainless steel box 1.65 m wide whose ceiling carries three motorised turntables ("turrets").
+      Through each turret one round steel rod hangs down; by turning two discs, sliding and twisting, the rod
+      can be placed anywhere inside a circle of 40 cm and lowered. Every utensil — knife, tongs, whisk, ladle,
+      turner, fork — is a plain steel part that the rod clicks onto; motors, bearings and valves all stay in
+      a dry room above the ceiling. Food lies on a rotating cutting board, on trays or in pots. The rods cut
+      on the board; a fixed 3 kN press at the back wall pushes potatoes through a dicing grid; a "roll head"
+      carried by a rod tilts pots to pour and turns a pair of pans over to flip a pancake. Four induction
+      hobs and a sideways combi-steam oven are inside the cell, so the same hands stir and flip. Afterwards
+      all utensils and vessels go to a dishwasher, and the rods carry a water-jet lance along a programmed
+      path to hose the cell down. Key numbers: 2.27 m of wall including the oven, 17 motor axes, about 110
+      loose parts, parts cost about 27.5 k€ in the concept document (C3 re-estimates 40–45 k€). The explorer
+      estimates 90–95 % meal coverage; C1's normalised figure is 90.7 % (92.7 % with extra add-on
+      modules).</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>The most versatile concept: every test meal has a path, and a missing operation only needs one more
+          passive steel part.</li>
+        <li>Best food result with K6 (C1): correct gravy sequence, core thermometer for steak and roasts,
+          cucumbers peeled, peppers cored and beans trimmed in the cell.</li>
+        <li>When the door is opened all rods retract into the ceiling, so nothing moves in the open cell
+          (C3: the safest jam clearing).</li>
+        <li>The hands could also put the food on plates (C4).</li>
+        <li>Plain round rods are the simplest way to bring motion into a wet cell, and they are stiff
+          enough (C3).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>Each rod reaches only a 40 cm circle and never meets its neighbour, so food must be relayed:
+          110–280 handling moves per meal (mean 175), slow, and slower still for 6 persons.</li>
+        <li>7.3 m of rotating ceiling seams above open food. C2 calls this the only fatal hygiene finding of
+          all eight: no sensor can see inside the gaps, and there is no fallback within the concept.</li>
+        <li>Widest and most expensive cell; C4 finds water and energy at about twice the budget, and
+          everything is clean only about 3 hours after the meal.</li>
+        <li>C3 found two drawing errors (both fixable): the four hob positions under one turret collide, and
+          the press hangs on two pegs welded to a 2 mm sheet.</li>
+        <li>About 110 loose parts and about 38 separate skills to program.</li>
+        <li>Each turret is a 30–40 kg service unit mounted 1.4–2 m high.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-high">7</td><td class="s-low">3</td><td class="s-low">3</td><td class="s-low">2</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K2 -->
+<section class="concept" id="K2">
+  <h2>K2 — Vessel stack and inversion</h2>
+  <p class="caption">No shaft ever passes through a wall that touches food, and food is never poured through
+    open air: it is worked inside closed stacks of round-rimmed vessels, and every transfer or flip is a
+    rim-to-rim inversion.</p>
+
+  <figure>
+    <img src="K2-vessel-stack-inversion.svg" alt="K2 vessel stack and inversion: animated front view and top view showing the central shaft with the inverting carriage, ware rack, wash lathe, stacked hobs and sideways oven">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K2-vessel-stack-inversion-mechanisms.svg" alt="K2 mechanism close-ups: animated panels of rim-to-rim inversion, dicing in the closed stack, tip-in cradle, dosing dock and wash lathe">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>All pots, cans and rings share one round rim, so they can be stacked on top of each other into a closed
+      tower. One carriage (the "Wender", German for "turner") runs up and down a central shaft; it grips
+      vessels by their neck, can turn them upside down, and carries them between a ware rack and a washer on
+      the left and stacked hob levels and the oven on the right. Cutting happens inside a closed stack on the
+      lowest hob: a 5 kN press from above pushes potatoes through a dicing grid or a ricer straight into the
+      pot below, and the same spindle whisks and kneads. To flip, drain or turn out a cake, two vessels are
+      clamped rim to rim and the carriage rolls them over, so the food changes vessel without being poured.
+      Ingredients are added to a pot that already holds food with a small tipping cradle; boxes are dosed at a
+      tilting "hourglass" dock by the hand-over port. Every food-contact part is simple, seal-free steel ware,
+      washed on a built-in "wash lathe" that spins each part past jets and then heats it briefly by
+      induction. Key numbers: 1.6 m wide × 2 m high including oven, washer and rack; 21 motors; 76 ware
+      pieces; about 24 k€ (C3: 32–37 k€). The explorer estimates 89 % coverage; C1 finds 83.9 % under the
+      new produce rule.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>One device answers flipping, draining, turning out, tossing and enclosed breading, with no seal or
+          bearing in any washed part.</li>
+        <li>Dicing, ricing and mashing happen inside a closed stack: no dust and no spill.</li>
+        <li>Bare-metal ware with a single rim, washed on a lathe, is "the best ware-cleaning idea of the
+          eight" (C2).</li>
+        <li>The best sensing (C3): load pins in the jaws weigh every transfer and detect a badly seated stack
+          before the press pushes.</li>
+        <li>The most self-contained cell (C4): rack, washer and oven inside, the transport system serves only
+          one port; relatively few moves (about 48 per meal).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>It cannot pick up and place a single piece: no deseeding peppers, peeling apples, assembling a
+          burger or plating. Under the new produce rule C1 rates this fatal.</li>
+        <li>Everything passes through one carriage: if it fails, everything stops, and a dropped pot needs a
+          human.</li>
+        <li>Hobs are stacked up to 2 m high, so hot fat is flipped at head height (C3, C4).</li>
+        <li>Turning a closed hot pair over can build up pressure and leak; the rim has no centring feature
+          (C3).</li>
+        <li>The induction "flash" after washing is dry heat and is not shown to disinfect (C2).</li>
+        <li>The sideways oven does not fit the depth; C4 puts the true width at about 1.9 m.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-mid">3.5</td><td class="s-mid">5</td><td class="s-mid">4.5</td><td class="s-mid">5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K3 -->
+<section class="concept" id="K3">
+  <h2>K3 — Drum and belt line</h2>
+  <p class="caption">Two process machines and no robot hand: a self-cleaning tilting drum for bulk and
+    liquid food, and a short belt under fixed tools for flat food.</p>
+
+  <figure>
+    <img src="K3-drum-and-belt-line.svg" alt="K3 drum and belt line: animated front view and top view showing the tilting drum, the central shaft with the vessel lift, the belt with its tool bridge, stacked hob shelves and oven">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K3-drum-and-belt-line-mechanisms.svg" alt="K3 mechanism close-ups: animated panels of the drum tumbling and pouring over its lip, belt guillotine and nose transfer, tool arm in the drum, and the belt washing on its return run">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>A process line without a robot hand. On the left a tilting stainless drum, 30 cm across and heated by
+      its own induction coil, washes, peels, spins, kneads, chops, mixes and fries in bulk, and pours its
+      contents over its lip. On the right a 30 cm wide food belt runs under a bridge of fixed tools — a fast
+      guillotine at the front end ("nose"), a beam with roller, comb and blade — to slice, carve, roll out,
+      bread and roll up flat food; the nose slides out to pick up or drop food. A tool arm on the back wall
+      reaches into the drum and over the belt with knives, whisk, masher and cutter cartridges that dice,
+      slice or grate. A vessel lift in the central shaft carries pots between three stacked hob shelves, the
+      oven and the drum, pours them, and flips a pair of pans. The drum washes, disinfects and dries itself;
+      the belt is washed on its return run with spray and steam. Key numbers: 1.45 m wide including the oven
+      and five heated positions; 35 motors; about 20 k€ without the oven (C3: 29–33 k€). The explorer
+      estimates 92–93.5 % coverage; C1 finds 83.1 %, or 90.3 % with add-on modules on the tool arm.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>The drum is a known kind of machine (tilting kettle, potato peeler, washing machine) and a credible
+          self-cleaning vessel (C2, C3).</li>
+        <li>Very good for bulk work: washing, peeling, kneading, stir-fry; searing mince in the drum gives the
+          best Bolognese of the eight (C1).</li>
+        <li>The belt carves, rolls out dough, breads cutlets and rolls Rouladen well.</li>
+        <li>The narrowest all-inclusive cell (1.45 m) with few handling moves, about 36 per meal (C4).</li>
+        <li>Pouring about the drum's own lip keeps the pour point fixed, an elegant geometry (C3).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>"No manipulator" moved the complexity rather than removing it: a 5-axis vessel lift and a tool arm
+          bring the total to 35 motors and 19 moving seals, the most of all eight (C3).</li>
+        <li>The plastic belt is a fixed food surface used for raw meat and for ready-to-eat food; its inner
+          side and wash box are never seen. Fatal if its cleaning test fails (C2).</li>
+        <li>One drum is a bottleneck; the drum, the vessel lift and the dock each stop every meal if they
+          fail.</li>
+        <li>Food weak points (C1): no core thermometer, tumbled fried potatoes break up, Schnitzel fried in
+          too little fat, no corer or garlic press.</li>
+        <li>A 35 kg spinning drum is hard-mounted on the house wall (vibration, noise), and the oven does not
+          fit under it (C3, C4).</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-mid">4.5</td><td class="s-mid">3.5</td><td class="s-mid">3.5</td><td class="s-mid">4.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K4 -->
+<section class="concept" id="K4">
+  <h2>K4 — Shuttle mat: the membrane cell</h2>
+  <p class="caption">A two-dimensional kitchen: an exchangeable mat, reeled between two bars under fixed
+    tools, does the food work and cleans itself by reeling through spray and steam.</p>
+
+  <figure>
+    <img src="K4-shuttle-mat.svg" alt="K4 shuttle mat: animated front view and top view showing the mat cassettes under the table, the mat arm, blade and roller, four turning hob positions and the oven above the hobs">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K4-shuttle-mat-mechanisms.svg" alt="K4 mechanism close-ups: animated panels of chopping on the mat, the slack mat loop rolling a Roulade, the nose transfer into a pan, the envelope press and the wash gate">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>The kitchen is flattened to two dimensions. A 40 cm wide food-safe mat unrolls from one of five
+      roller-blind cassettes under a small table, and its far end is held by a bar on a two-link arm. Moving
+      the mat under fixed tools does the work: a blade beam chops on the mat, a roller presses and rolls out
+      dough, the slack mat hanging between two side walls forms a trough that tumbles, kneads or rolls up a
+      Roulade, and pulling the mat out from under the food drops it into a pan. Liquids never go on the mat:
+      they are whisked or blended at the first hob position, which has a swing-in spindle; all four hobs are
+      slowly turning plates, and a second arm with a magnetic shoe carries pots and pans and loads the oven
+      above the hobs. When a mat is wound back into its cassette it passes a wash gate with spray and steam,
+      so it is clean within minutes. Key numbers: 1.56 m wide; 26 motors (11 for the mat line itself); 36
+      loose items plus 5 mats; about 16 k€ without the oven (C3: 25–29 k€). The explorer estimates 92–94 %
+      coverage; C1 finds 81.5 %.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>The best rolling, sheeting and wrapping of the eight: strudel, sponge roll, burritos, enchiladas
+          (C1).</li>
+        <li>Sticky food touches only the mat, and the mat is washed within minutes of use (C2 praises the
+          timing).</li>
+        <li>Only rotating shafts pass through one wall, no sliding seals; the plain mat is the best background
+          for the camera (C3).</li>
+        <li>Compact and cheap on paper; the householder can change a mat cassette in 2 minutes without
+          tools.</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>Nothing can be turned about the vertical or pushed straight down: no coring apples, pressing garlic,
+          Spätzle or stacking a burger. C1 rates this fatal for a whole kitchen.</li>
+        <li>Everything depends on dough and mince releasing from the silicone mat; the explorer writes that if
+          this fails, "nothing else in this document matters".</li>
+        <li>About 10 m² of fabric-cored mats are stored wound and damp between meals; the raw-meat disinfection
+          of the cutting mat covers only 5 % of its length (C2).</li>
+        <li>Mats wear out: about 570 € a year, against 300 € a year allowed for all wear parts together.</li>
+        <li>C3: the thin mat arm cannot keep the mat running straight (fatal as drawn), the depth has zero
+          margin, and the oven hangs above the hobs at head height where no person can reach it.</li>
+        <li>The hoped-for 13 motors became 26 once hobs and pot handling were included.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-mid">4</td><td class="s-low">3</td><td class="s-mid">3.5</td><td class="s-mid">4.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K5 -->
+<section class="concept" id="K5">
+  <h2>K5 — Ram-and-die column with piston vessels</h2>
+  <p class="caption">Every shape-giving step is "push it through a die and cut it off", and food only
+    falls.</p>
+
+  <figure>
+    <img src="K5-ram-and-die-column.svg" alt="K5 ram-and-die column: animated front view and top view showing the press column with tube turret and die carousel, the frying book and turning hob positions, the vessel carriage and the sideways oven">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K5-ram-and-die-column-mechanisms.svg" alt="K5 mechanism close-ups: animated panels of the ram pushing food through a dicing grid, the sickle cut-off, the frying book flip, the piston cleaning the tube and the die carousel">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>A storage box empties into an upright stainless tube (14 cm bore, 30 cm long) standing on a die. A loose
+      piston is laid on top of the food and an 8 kN ram pushes it down; a curved sickle blade cuts off whatever
+      comes out, and it falls straight into the pot, pan or tray below. The die and the feed per cut decide the
+      result: slices of any thickness, dice, sticks, mashed potato, Spätzle, patties, dumpling portions or a
+      dose of paste; with a capped bottom and a plunger the same tube kneads dough and mixes batter. Three
+      tubes sit on a turret and six dies in a carousel underneath. Beside the column a "frying book" — two
+      hinged pans — flips steaks and cutlets by closing and opening; two turning hob positions stir pots
+      against a hung scraper; a carriage behind the back wall carries vessels to the hobs and the sideways
+      oven. For cleaning, the piston scrapes the tube clean as it moves, tubes are rinsed like pipes and
+      checked by a camera looking down the bore, and dies are washed under a hood on the carousel. Key
+      numbers: 1.77 m wide (1.17 m without the oven); 25 motors; about 96 loose parts; 20–22 k€ (C3:
+      33–38 k€). The explorer estimates 89.9–92.7 % coverage; C1 finds 77.8 %.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>The right principle for cutting: even slices and dice, riced mash, patties to ±5 %, accurate paste
+          dosing, and no dust from box to pot.</li>
+        <li>The piston-scraped tube checked by a bore camera is the best-cleaned fixed food part of all eight
+          (C2).</li>
+        <li>The ram's force-and-travel trace detects jams, blunt blades and bad seating (C3); the frying book
+          is the safest way to flip in hot fat once its drives are sized right.</li>
+        <li>Few handling moves (about 34 per meal), and the column can be built and tested separately from the
+          hob: the best build path (C4).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>Lowest coverage in C1: whole cabbage heads do not fit the 14 cm bore, there is no blender, pizza
+          dough is pressed instead of stretched, dumplings come out as cylinders, cakes are dense.</li>
+        <li>Everything flat or limp needs extra equipment around the column; in total 25 motors and 96 loose
+          parts, so the column's simplicity does not survive in the whole cell.</li>
+        <li>C3 found three drawing errors (all fixable): the "closed" frame is open and would spring about 9 mm
+          at full force, the frying book is 4.4 times too weak, and the carriage collides with a frame column.
+          Grid dies would cost about three times the estimate.</li>
+        <li>Hygiene (C2): a shared die plate onto which mince is smeared, pistons with a soil-trapping groove,
+          and the waste strainer sits in the wash-water loop.</li>
+        <li>The highest in-place cleaning water on top of the dishwasher (C4); an 8 kN ram behind a household
+          door raises safety and noise questions.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-low">3</td><td class="s-mid">5</td><td class="s-mid">5</td><td class="s-mid">5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K6 -->
+<section class="concept" id="K6">
+  <h2>K6 — Loose ware and fast washer (the conservative candidate)</h2>
+  <p class="caption">Nothing that touches food is attached to the machine, and nothing new is asked of
+    physics: bought catering trays, plain steel tools, one gantry, and washing during the meal.</p>
+
+  <figure>
+    <img src="K6-loose-ware-fast-washer.svg" alt="K6 loose ware and fast washer: animated front view and top view showing the hanging gantry mast, tool wall, dock, sink and press benches, four hobs, two wash wells and the oven with tray store">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K6-loose-ware-fast-washer-mechanisms.svg" alt="K6 mechanism close-ups: animated panels of the gripper taking a tool by its tang, the pull-down press dicing, peeling a potato on a fork, flipping a tray pair and the wash well cycle">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>Food lies in bought catering trays (Gastronorm, GN) and round pots; every tool is a plain welded steel
+      part, and every item carries the same flat steel tab with two holes. One overhead gantry — a hanging mast
+      with an arm, a tilting and spinning wrist and a two-jaw gripper — picks everything up by that tab. Heavy
+      work does not go through the gantry: a 3 kN pull-down press with a tube and exchangeable end plates
+      dices, slices and rices; two turning hob positions knead and stir; potatoes are speared on a fork and
+      spun past a fixed peeler blade. To flip or turn out, the gripper takes two trays rim to rim and turns
+      them over. Instead of one washer at the end of the bay (as the catalogue described it), the worked-out
+      design has two small top-loading wash wells (3.5-minute cycle) in the deck: a dirty item is hung straight
+      in, so ware is washed while cooking goes on. The bay itself has no fixed food surface. Key numbers:
+      2.6 m wide including four hobs and the oven; 16 motors; 93 loose items; about 22 k€ including oven and
+      washer (C3: 28–31 k€). The explorer estimates 95–96 % coverage; C1 considers that overstated and finds
+      87.9 %, or 92.7 % with add-on modules.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>Every mechanism already exists in catering or in a hardware store: the fewest physical unknowns
+          (C3).</li>
+        <li>Best hygiene score (C2): no fixed food surface, commercial wash hardware, every item checked by a
+          camera.</li>
+        <li>Everything is clean and stored 15–20 minutes after the meal, the best of the eight, with the least
+          water (C2, C4).</li>
+        <li>Plain household tools give traditional results; tied with K1 for the best C1 score.</li>
+        <li>The tab with pins is the best grip of the eight, and every jam can be reached through the front
+          door (C3).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>The widest cell: 2.6 m, 72 % of the whole machine's wall (C4 rates this fatal).</li>
+        <li>100–145 grips per meal with one gripper; each must be extremely reliable, and that is not
+          proven.</li>
+        <li>The coverage claim of 95–96 % leaves out several meals (C1: about 94 % even by the explorer's own
+          standard).</li>
+        <li>A large open splash area of 10.7 m² is washed only once a day, and the gripper carries soil from
+          tab to tab (C2).</li>
+        <li>The wash wells are too loud (52–56 dB(A) against 48 allowed), get no power while the oven heats, and
+          a second washer is still needed for the dishes (C4).</li>
+        <li>C3: the mast collides with its own press bars (fixable), and a tab on a thin tray rim carries too
+          much load.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-high">7</td><td class="s-high">7</td><td class="s-high">6</td><td class="s-mid">3.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K7 -->
+<section class="concept" id="K7">
+  <h2>K7 — State change first: cold plate, steam, rigid handling</h2>
+  <p class="caption">Change the food, not the hand: soft food is made stiff on a −25 °C plate and skins are
+    loosened by steam, so that a plain pick-and-place cell can handle it.</p>
+
+  <figure>
+    <img src="K7-state-change-rigid-handling.svg" alt="K7 state change and rigid handling: animated front view and top view showing the gantry, cold cabinet, weigh bench, slot washer, sink well with press, four turning hobs and the sideways oven">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K7-state-change-rigid-handling-mechanisms.svg" alt="K7 mechanism close-ups: animated panels of crust-freezing a cutlet between cold plates, breading a stiff cutlet, slipping skins in the sink, the bow knife and the slot washer">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>Instead of building clever hands, K7 changes the food. Soft items — a cutlet, a patty, a rolled
+      Roulade, a filling — are laid between thin steel trays and pressed for 1–6 minutes between −25 °C
+      aluminium plates in a small cold cabinet; afterwards they have a frozen crust a few millimetres deep and
+      behave like stiff parts that a simple gantry with a gripper can lift, dip into breading, stack and cut.
+      On the warm side, skins of potatoes, tomatoes and eggs are loosened by boiling or steam and slipped off in
+      a rubber-finger basket; frozen food is released from its tray by a 1.5-second induction pulse; pastes,
+      butter and herbs are kept frozen as countable pucks. Recipes are reordered where this removes a step
+      (for example, potatoes boiled before they are peeled). The rest is a normal kitchen: a 3 kN press with
+      dies, a sink well that also peels, a vibrating bow knife, four turning hobs, a sideways oven, and a slot
+      washer that cleans flat trays in about 70 s. Key numbers: 2.28 m wide; 24 motors; about 105 tools and
+      parts plus 27 pots and pans; about 32 k€ (C3: 37–41 k€). The explorer estimates 92–93 % coverage; C1
+      finds 87.5 %.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>The physics checks out on paper: a 6 mm cutlet is stiff after 55–115 s, and a small freezer-class
+          compressor is enough.</li>
+        <li>The best Rouladen (pinned through the stiff roll) and fried-potato sequences of the eight, and the
+          cleanest cutting of raw meat (C1).</li>
+        <li>Chilled meat drips and smears less, and the steam finish is the most credible disinfection step
+          (C2).</li>
+        <li>Two excellent mechanisms (C3): fixed cold plates with loose cold slabs (no moving refrigerant
+          pipe), and an under-deck press on two rods in tension, the soundest press of all eight.</li>
+        <li>Fast chilling could be offered later as an optional add-on module (C4).</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>A booster, not a kitchen: everything else is still needed, so it has the most loose parts (132)
+          and, with K1, the highest cost (C3, C4 rates the cost fatal).</li>
+        <li>2.28 m wide, plus a second refrigeration circuit with propane in the base under the oven
+          (C3, C4).</li>
+        <li>Wrapping limp sheets (strudel, sponge roll, wraps) is excluded by definition.</li>
+        <li>Soft items queue for the cold plate, fried items wait too long, and the customer must accept
+          fresh meat frozen at the surface.</li>
+        <li>The bow knife vibrates at 45 Hz on a loose coupling: hammering, noise and wear (C3).</li>
+        <li>The open slot washer sprays raw-meat rinse water next to the clean tray rack (C2); about 120 moves
+          per meal.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-high">6.5</td><td class="s-high">5.5</td><td class="s-mid">4</td><td class="s-low">2.5</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<!-- ===================================================================== K8 -->
+<section class="concept" id="K8">
+  <h2>K8 — Sealed tub with magnetic pucks</h2>
+  <p class="caption">A dishwasher tub with no moving seal at all: magnets behind the wall drag passive pucks
+    inside it, and after cooking the tub washes itself and everything in it.</p>
+
+  <figure>
+    <img src="K8-sealed-tub-magnetic-puck.svg" alt="K8 sealed tub with magnetic pucks: animated front view and top view showing the closed tub with two pucks on the door wall, parked utensils, bowl turntable, four induction zones in the floor and the oven beside the tub">
+    <figcaption>Overview: front view left, top view right.</figcaption>
+  </figure>
+  <figure>
+    <img src="K8-sealed-tub-magnetic-puck-mechanisms.svg" alt="K8 mechanism close-ups: animated panels of a magnet ring dragging a puck through the wall, the lever knife, peeling on a spit, the screw cassette pressing, and the tub washing itself">
+    <figcaption>Mechanism close-ups.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>How it works</h3>
+    <p>Preparation and cooking happen in one closed stainless tub (1.1 m × 0.48 m × 0.7 m inside) built like a
+      dishwasher, with nothing passing through its walls. Behind the inner skin of the front door, in the dry,
+      a gantry moves two rings of magnets. Inside the tub two passive "pucks" (19 cm discs) cling to the door
+      skin opposite the magnets, follow them up, down and sideways, and turn a spindle: a knife on a puck works
+      as a lever knife like a paper cutter, a fork turns a potato past a peeler like a spit, a turner flips
+      pieces. A magnet-driven turntable and a fast spindle in the floor drive the mixing bowl and a chopper
+      jug. Magnets give only about 100 N, so heavy jobs (dicing, ricing) are done in screw cassettes that turn
+      12 Nm into about 2.5 kN of pressing force. Four induction zones lie under a glass-ceramic plate in the
+      tub floor; the oven stands beside the tub. After the meal the door stays shut and the tub washes itself
+      and every utensil, puck and pot inside it with a dishwasher programme. Key numbers: 1.75 m wide including
+      the oven (1.15 m for the tub alone); 16 motors; 0 moving seals; about 70 parts living in the tub; about
+      14 k€ without oven and dock (C3: 24–28 k€). The explorer estimates 91–93 % coverage; C1 finds 88.3 %.</p>
+  </div>
+
+  <div class="proscons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <li>Zero moving seals and no drive, cable or bearing in the food space; the whole chamber is washed
+          after every cooked meal, and frying fumes stay inside (C2, C3).</li>
+        <li>Fewest motors, cheapest, and the only concept inside the width set aside for it (C3); the best
+          system fit (C4).</li>
+        <li>Every motor can be serviced from the room behind a décor panel; the magnet coupling slips
+          harmlessly when overloaded and doubles as a force sensor (C3).</li>
+        <li>Lowest water and energy of the eight (C4: about 42 L and 3.1 kWh per 2-person meal, still slightly
+          over budget), and it washes its own pots, so the machine needs only a dish washer.</li>
+        <li>The experiments that decide the concept cost under 1000 €.</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Cons</h3>
+      <ul>
+        <li>All magnet and friction figures are calculated, not measured, and the whole concept rests on
+          them.</li>
+        <li>No in-out (depth) axis; a puck that lets go falls into the food; heavy jobs need special
+          cassettes.</li>
+        <li>The tub is closed for 25–35 minutes after each meal while it washes.</li>
+        <li>Clean utensils are stored inside the soiled tub, the quick rinse does not disinfect raw-meat ware,
+          and dirty ware waits until the end of the meal (C2).</li>
+        <li>The 40–50 kg drive door has no permitted way to open as drawn (C3: fatal, fixable), and the wash
+          jets drum on the door skin that faces the room.</li>
+        <li>C1: the menus silently assumed peeled garlic and half cabbages, and rectangular pans on round coils
+          scorch in the corners.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Scores</h3>
+  <table class="scores">
+    <tr><th>C1 coverage / food</th><th>C2 hygiene</th><th>C3 mechanics</th><th>C4 system fit</th><th>C5 simplicity</th></tr>
+    <tr><td class="s-high">6</td><td class="s-high">6</td><td class="s-high">6</td><td class="s-high">6</td><td class="pending">C5: pending<!-- C5 pending --></td></tr>
+  </table>
+</section>
+
+<footer class="text">
+  <p><strong>Nothing has been built or tested. All numbers on this page are paper estimates</strong>, taken from
+    the concept documents and the critiques. Where a critique disagrees with a concept document, this page
+    follows the critique and says so.</p>
+  <p>Sources:</p>
+  <ul>
+    <li><a href="../02-concept-catalogue.md">Concept catalogue (round P2)</a></li>
+    <li><a href="../concepts/K1-ceiling-turret-cell.md">K1 — Ceiling turret cell</a></li>
+    <li><a href="../concepts/K2-vessel-stack-inversion.md">K2 — Vessel stack and inversion</a></li>
+    <li><a href="../concepts/K3-drum-and-belt-line.md">K3 — Drum and belt line</a></li>
+    <li><a href="../concepts/K4-shuttle-mat.md">K4 — Shuttle mat</a></li>
+    <li><a href="../concepts/K5-ram-and-die-column.md">K5 — Ram-and-die column</a></li>
+    <li><a href="../concepts/K6-loose-ware-fast-washer.md">K6 — Loose ware and fast washer</a></li>
+    <li><a href="../concepts/K7-state-change-rigid-handling.md">K7 — State change, rigid handling</a></li>
+    <li><a href="../concepts/K8-sealed-tub-magnetic-puck.md">K8 — Sealed tub, magnetic pucks</a></li>
+    <li><a href="../critique/C1-coverage-food.md">C1 — Coverage and food result</a></li>
+    <li><a href="../critique/C2-hygiene.md">C2 — Hygiene</a></li>
+    <li><a href="../critique/C3-mechanics-reliability.md">C3 — Mechanics and reliability</a></li>
+    <li><a href="../critique/C4-system-fit.md">C4 — System fit</a></li>
+    <li><a href="../critique/C5-simplicity.md">C5 — Simplicity</a> (draft without scores at the time of writing)</li>
+    <li><a href="STYLE.md">Diagram style guide</a></li>
+  </ul>
+</footer>
+
+</div>
+</body>
+</html>
