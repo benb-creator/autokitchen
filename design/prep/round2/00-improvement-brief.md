@@ -38,7 +38,12 @@ needed — new ideas are welcome — but every new idea must be physically argue
    mechanisms you use.
 5. Requirements only where needed (section 5 MEAL/UO, PRP-039 generic peeling, PHY-004 width).
 
-Do not spawn helper agents. Commit a partial version early.
+Do not spawn helper agents.
+
+**Persist as you go (usage limits):** create your deliverable file at the start. After reading EACH other
+concept document, immediately append your brainstorm notes from it (ideas for your concept, 3–6 lines)
+to section 0 and commit. After that, commit after every finished section. If you are stopped, the next
+run continues from what is committed instead of reading everything again.
 
 ## Deliverable: `design/prep/round2/Knb-<slug>.md`
 
