@@ -29,9 +29,11 @@ needed — new ideas are welcome — but every new idea must be physically argue
 1. Your own concept document `design/prep/concepts/Kn-*.md` — fully.
 2. All critique findings about your concept: grep `Kn` in `design/prep/critique/C1…C5` and read those
    sections plus each critique's round-2 recommendations.
-3. The other concepts: read their summaries in `design/prep/diagrams/index.html` (how it works, pros,
-   cons) and the concept catalogue `design/prep/02-concept-catalogue.md` (sub-mechanism inventory). Open
-   other concept documents only at the specific sections you borrow from.
+3. **All other concept documents** in `design/prep/concepts/` (except K7) — read each one fully enough to
+   know every mechanism and idea in it (at least sections 1 Definition, 2 Mechanism, 4 Operation table,
+   11 Improvements, 12 Open issues), plus the concept catalogue `design/prep/02-concept-catalogue.md`
+   (sub-mechanism inventory). The point of this round is to improve your concept **with the knowledge of
+   all the other ideas**.
 4. Gap documents `design/prep/gaps/G-produce.md` and `G-assembly-meat.md` — summaries and the
    mechanisms you use.
 5. Requirements only where needed (section 5 MEAL/UO, PRP-039 generic peeling, PHY-004 width).
@@ -40,6 +42,9 @@ Do not spawn helper agents. Commit a partial version early.
 
 ## Deliverable: `design/prep/round2/Knb-<slug>.md`
 
+0. **Brainstorm** — before deciding anything: for each other concept, list what its ideas could do for
+   yours (borrow, combine, invert, simplify), and add your own new ideas. At least 20 ideas in total, each
+   in one line with a quick verdict (take / maybe / reject and why). Then pick.
 1. **What changed and why** — a table: problem (with critique reference) → change → effect on each
    criterion.
 2. **The improved concept** — one page definition, dimensioned front and top ASCII views, every actuator
