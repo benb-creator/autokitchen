@@ -68,7 +68,7 @@
 <line x1="276.25" y1="162" x2="276.25" y2="192" stroke="#e04a3a" stroke-width="4"/>
 <path d="M276.25,192 L282.25,180 L270.25,180 Z" fill="#e04a3a" stroke="none" stroke-width="0"/><text x="288.25" y="184" font-size="16" text-anchor="start" font-weight="700" fill="#e04a3a">1 kN</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.59;0.95" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.59;0.78" calcMode="discrete" dur="8s" repeatCount="indefinite"/>
 <text x="457.5" y="184" font-size="16" text-anchor="end" font-weight="700" fill="#c76d6d">5 mm, flat</text>
 </g>
 <text x="34" y="152" font-size="16" text-anchor="start" font-weight="600" fill="#22262b" opacity="1">flour dusted<animate attributeName="opacity" values="1;0" keyTimes="0;0.12" calcMode="discrete" dur="8s" repeatCount="indefinite"/></text>
