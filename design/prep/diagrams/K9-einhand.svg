@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K9 EINHAND overview. Source: design/prep/05-combined-machine.md. Simplifications: module order cold 0-1200, ambient 1200-1650 follows the width table; hob zone centres, box shelf and rear-row positions are the simplest reading of 3.2; held items are drawn at the wrist (tang offset ignored); the wrist rides along the fixed arm tube; fixture swaps on PS, the second plate and the washer door opening by the hand are not animated; the loop is a composite of B1/B8 steps, times compressed. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K9  EINHAND — one hand, one deck, one washer</text>
+<text x="24" y="58" class="m">One gantry hand on the rear wall works loose ware on a household hob, a turned oven and one washer.</text>
+<text x="1576" y="28" class="s r b">wall width 3600 mm · 600 deep · 2200 high (cell P + O 1350 mm)</text>
+<text x="1576" y="47" class="s r">7 motion actuators in the cell (9 with oven door and hatch drawer) · 4 dynamic seals</text>
+<text x="1576" y="66" class="s r">est. coverage ≈ 94 % (233 of 248, range 230–236)</text>
+<text x="1576" y="85" class="s r">est. cost: appliances ≈ 3.4–3.9 k€ + machine part ≈ 7.8–13.8 k€</text>
+<text x="60" y="120" class="s b">FRONT VIEW (fronts removed)</text>
+<rect x="60" y="160" width="720" height="440" rx="0" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="60" y="160" width="720" height="40" rx="0" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="420" y="185" class="s c">transport gallery z 2000–2200 (boxes to every module)</text>
+<rect x="60" y="200" width="240" height="190" rx="0" fill="#e3edf5" stroke="#3a3f45" stroke-width="2"/>
+<rect x="60" y="390" width="240" height="186" rx="0" fill="#d6e4f0" stroke="#3a3f45" stroke-width="2"/>
+<line x1="66" y1="370" x2="294" y2="370" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="342" x2="294" y2="342" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="314" x2="294" y2="314" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="286" x2="294" y2="286" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="258" x2="294" y2="258" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="230" x2="294" y2="230" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="202" x2="294" y2="202" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="550" x2="294" y2="550" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="522" x2="294" y2="522" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="494" x2="294" y2="494" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="466" x2="294" y2="466" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="438" x2="294" y2="438" stroke="#9fb3c6" stroke-width="1.5"/>
+<line x1="66" y1="410" x2="294" y2="410" stroke="#9fb3c6" stroke-width="1.5"/>
+<text x="180" y="288" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">fridge (household shell)</text>
+<text x="180" y="480" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">freezer</text>
+<rect x="300" y="200" width="90" height="380" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<line x1="302" y1="550" x2="388" y2="550" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="528" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="528" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="506" x2="388" y2="506" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="484" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="484" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="462" x2="388" y2="462" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="440" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="440" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="418" x2="388" y2="418" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="396" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="396" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="374" x2="388" y2="374" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="352" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="352" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="330" x2="388" y2="330" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="308" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="308" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="286" x2="388" y2="286" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="264" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="264" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="302" y1="242" x2="388" y2="242" stroke="#9aa1a8" stroke-width="2"/>
+<rect x="310" y="220" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="348" y="220" width="22" height="22" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="345" y="310" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">ambient</text>
+<rect x="390" y="200" width="300" height="10" rx="0" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="390" y="210" width="60" height="100" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="396" y1="296" x2="444" y2="296" stroke="#8fa8c0" stroke-width="3"/>
+<line x1="396" y1="280" x2="444" y2="280" stroke="#8fa8c0" stroke-width="3"/>
+<line x1="396" y1="264" x2="444" y2="264" stroke="#8fa8c0" stroke-width="3"/>
+<line x1="396" y1="248" x2="444" y2="248" stroke="#8fa8c0" stroke-width="3"/>
+<line x1="396" y1="232" x2="444" y2="232" stroke="#8fa8c0" stroke-width="3"/>
+<line x1="396" y1="220" x2="444" y2="220" stroke="#8fa8c0" stroke-width="3"/>
+<text x="420" y="226" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">plates</text>
+<rect x="450" y="210" width="60" height="60" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M458 214 l-5 16 h10 z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<path d="M472 214 l-5 16 h10 z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<path d="M486 214 l-5 16 h10 z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<path d="M500 214 l-5 16 h10 z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="480" y="250" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">glasses</text>
+<line x1="450" y1="310" x2="510" y2="310" stroke="#3a3f45" stroke-width="3"/>
+<text x="480" y="328" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">box shelf</text>
+<rect x="392" y="419" width="110" height="6" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="450" y="496" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">waste bins,</text>
+<text x="450" y="513" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">S motor, gully</text>
+<rect x="510" y="210" width="120" height="100" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<text x="570" y="250" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">clean-ware</text>
+<text x="570" y="267" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">cabinet</text>
+<rect x="630" y="230" width="60" height="90" rx="0" fill="none" stroke="#3a3f45" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="660" y="260" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">oven-</text>
+<text x="660" y="277" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">load</text>
+<text x="660" y="294" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">corridor</text>
+<rect x="511" y="424" width="118" height="4" rx="0" fill="#2f3338" stroke="#3a3f45" stroke-width="1"/>
+<rect x="513" y="428" width="98" height="30" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="570" y="496" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">hob body,</text>
+<text x="570" y="513" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">T motor</text>
+<rect x="631" y="425" width="58" height="3" rx="0" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="658" y="426" width="4" height="12" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1"/>
+<rect x="690" y="230" width="90" height="90" rx="0" fill="#f3e3df" stroke="#3a3f45" stroke-width="2"/>
+<text x="735" y="260" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">oven</text>
+<text x="735" y="277" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">combi-steam</text>
+<text x="735" y="294" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">mouth −X</text>
+<rect x="690" y="320" width="90" height="106" rx="0" fill="#e6f1fa" stroke="#3a3f45" stroke-width="2"/>
+<text x="735" y="342" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">wash</text>
+<text x="735" y="359" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">chamber</text>
+<text x="735" y="496" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">sump, pump,</text>
+<text x="735" y="513" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">heater</text>
+<rect x="390" y="426" width="300" height="5" rx="0" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="60" y="580" width="720" height="20" rx="0" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="300" y1="200" x2="300" y2="580" stroke="#3a3f45" stroke-width="2"/>
+<line x1="390" y1="200" x2="390" y2="580" stroke="#3a3f45" stroke-width="2"/>
+<line x1="510" y1="200" x2="510" y2="580" stroke="#3a3f45" stroke-width="2"/>
+<line x1="690" y1="200" x2="690" y2="580" stroke="#3a3f45" stroke-width="2"/>
+<line x1="60" y1="612" x2="60" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="60" y1="618" x2="300" y2="618" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="180" y="636" class="s c">cold storage 1200</text>
+<line x1="300" y1="612" x2="300" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="300" y1="618" x2="390" y2="618" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="345" y="636" class="s c">450</text>
+<line x1="390" y1="612" x2="390" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="390" y1="618" x2="510" y2="618" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="450" y="636" class="s c">W/S 600</text>
+<line x1="510" y1="612" x2="510" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="510" y1="618" x2="690" y2="618" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="600" y="636" class="s c">P process 900</text>
+<line x1="690" y1="612" x2="690" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="690" y1="618" x2="780" y2="618" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="735" y="636" class="s c">O 450</text>
+<line x1="780" y1="612" x2="780" y2="624" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="60" y1="652" x2="780" y2="652" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="60" y1="646" x2="60" y2="658" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="780" y1="646" x2="780" y2="658" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="420" y="657" class="s c b" stroke="#ffffff" stroke-width="4" paint-order="stroke">3600 mm</text>
+<line x1="44" y1="160" x2="44" y2="600" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="38" y="380" class="s c" transform="rotate(-90 38 380)">2200</text>
+<text x="784" y="430" class="s">deck</text>
+<text x="784" y="446" class="s">z 870</text>
+<rect x="60" y="680" width="100" height="8" rx="0" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<rect x="160" y="680" width="100" height="8" rx="0" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<text x="60" y="706" class="s c">0</text>
+<text x="260" y="706" class="s c">1 m</text>
+<text x="280" y="690" class="s">same scale in both views (1 : 25 at 1600 px)</text>
+<text x="820" y="150" class="s b">TOP VIEW (deck level, rear wall at top)</text>
+<rect x="820" y="200" width="720" height="120" rx="0" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="820" y="200" width="240" height="120" rx="0" fill="#e3edf5" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1060" y="200" width="90" height="120" rx="0" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1071" y="240" width="18" height="70" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1101" y="240" width="18" height="70" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1121" y="240" width="18" height="70" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1150" y="200" width="300" height="24" rx="0" fill="#eef0f2" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="5 3"/>
+<text x="1300" y="217" class="s c">mast lane y 0–120 (X box above)</text>
+<circle cx="1160" cy="241" r="7" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1178" cy="241" r="7" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1196" cy="241" r="7" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1218" cy="241" r="13" fill="#dfe6ec" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1232" y="231" width="20" height="20" rx="0" fill="#5b6168" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1262" cy="241" r="7" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1271" y="212" width="118" height="104" rx="3" fill="#2f3338" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1300" cy="290" r="21" fill="none" stroke="#9aa1a8" stroke-width="1.5" id="zHF1"/>
+<circle cx="1360" cy="290" r="18" fill="none" stroke="#9aa1a8" stroke-width="1.5" id="zHF2"/>
+<circle cx="1300" cy="247" r="14.5" fill="none" stroke="#9aa1a8" stroke-width="1.5" id="zHR1"/>
+<circle cx="1360" cy="247" r="21" fill="none" stroke="#9aa1a8" stroke-width="1.5" id="zHR2"/>
+<rect x="1391" y="260" width="58" height="56" rx="0" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1420" cy="288" r="9" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1450" y="200" width="90" height="120" rx="0" fill="#e6f1fa" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1452" y="214" width="86" height="88" rx="0" fill="none" stroke="#3a3f45" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1060" y1="200" x2="1060" y2="320" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1150" y1="200" x2="1150" y2="320" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1270" y1="200" x2="1270" y2="320" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1450" y1="200" x2="1450" y2="320" stroke="#3a3f45" stroke-width="2"/>
+<text x="940" y="192" class="s c b">cold storage</text>
+<text x="1105" y="192" class="s c b">amb.</text>
+<text x="1210" y="192" class="s c b">W/S</text>
+<text x="1330" y="192" class="s c b">P: hob</text>
+<text x="1420" y="192" class="s c b">PS</text>
+<text x="1495" y="192" class="s c b">O</text>
+<text x="1340" y="352" class="s c">hob HF1 HF2 / HR1 HR2</text>
+<line x1="1330" y1="340" x2="1330" y2="312" stroke="#7a8188" stroke-width="1"/>
+<text x="1432" y="370" class="s c">PS socket, T</text>
+<line x1="1420" y1="358" x2="1420" y2="306" stroke="#7a8188" stroke-width="1"/>
+<text x="1540" y="352" class="s r">wash 430×440</text>
+<line x1="1520" y1="340" x2="1520" y2="300" stroke="#7a8188" stroke-width="1"/>
+<text x="940" y="234" class="s c">fridge + freezer</text>
+<line x1="820" y1="400" x2="1540" y2="400" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="820" y1="394" x2="820" y2="406" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="1540" y1="394" x2="1540" y2="406" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1060" y="405" class="s c b" stroke="#ffffff" stroke-width="4" paint-order="stroke">3600 mm</text>
+<line x1="1552" y1="200" x2="1552" y2="320" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1566" y="260" class="s c" transform="rotate(-90 1566 260)">600</text>
+<text x="840" y="442" class="s">S speed spindle · S0 cup scale · E egg fixture · DG drain gully · WC waste chute · J jet gate</text>
+<g transform="translate(476 290)"><animate attributeName="opacity" values="0;1" keyTimes="0;0.1237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="-32" y="0" width="64" height="20" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2"/><rect x="-28" y="8" width="56" height="10" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.0526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="579" y="423" width="42" height="3" rx="0" fill="#e04a3a" stroke="none" stroke-width="0"/></g>
+<rect x="578" y="407" width="44" height="18" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="581" y="412" width="38" height="11" rx="0" fill="#7b3f6e" stroke="none" stroke-width="0"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 4;0 -4" dur="1.2s" begin="0s" repeatCount="indefinite" additive="sum"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3579;0.4474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M592 403 q4 -8 0 -16" fill="none" stroke="#9aa1a8" stroke-width="2"/><path d="M600 403 q4 -8 0 -16" fill="none" stroke="#9aa1a8" stroke-width="2"/><path d="M608 403 q4 -8 0 -16" fill="none" stroke="#9aa1a8" stroke-width="2"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 14" dur="0.35s" begin="0s" repeatCount="indefinite" additive="sum"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0750;0.0908" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="597" cy="380" r="2" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><circle cx="602" cy="385" r="2" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><circle cx="599" cy="390" r="2" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><circle cx="603" cy="394" r="2" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0763;0.1158" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="570" y="332" class="s c b" stroke="#ffffff" stroke-width="4" paint-order="stroke">−250 g on the wrist load cell</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1316;0.2368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="669" y="398" width="4" height="27" rx="0" fill="#5b6168" stroke="#3a3f45" stroke-width="1.5"/><rect x="668" y="397" width="3" height="10" rx="0" fill="#6b4c8a" stroke="none" stroke-width="0"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;2 14" dur="0.5s" begin="0s" repeatCount="indefinite" additive="sum"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1684;0.2211" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M674 400 q4 4 0 8 q-4 4 0 8" fill="none" stroke="#b33a2a" stroke-width="2.5"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2368;0.4474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="660" cy="415" r="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4421;0.5526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="514" y="423" width="52" height="3" rx="0" fill="#e04a3a" stroke="none" stroke-width="0"/></g>
+<g transform="translate(540 415)"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4421;0.4579" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 L-26 10 L26 10 L28 0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><path d="M-30 0 L-26 -6 L26 -6 L30 0" fill="#a9bccf" stroke="#3a3f45" stroke-width="2"/><rect x="-22" y="6" width="44" height="3" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g>
+<g transform="translate(540 419)"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5237;0.5526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 L-26 -10 L26 -10 L28 0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><path d="M-30 0 L-26 6 L26 6 L30 0" fill="#a9bccf" stroke="#3a3f45" stroke-width="2"/><rect x="-22" y="2" width="44" height="3" rx="0" fill="#d9a441" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5737;0.6421" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="602" y="230" width="88" height="90" rx="0" fill="#f3e3df" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.6" stroke-dasharray="5 3"/><text x="646" y="280" class="s c" stroke="#ffffff" stroke-width="4" paint-order="stroke">door open</text></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.6632" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="694" y="234" width="82" height="82" rx="0" fill="#e04a3a" stroke="none" stroke-width="0" fill-opacity="0.25"/></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.6289" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="684" y="287" width="71" height="5" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><rect x="690" y="283" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="702" y="283" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="714" y="283" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="726" y="283" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="738" y="283" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g>
+<g transform="translate(420 419.6)"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7053;0.8316" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 Q0 6 28 0 L24 3 Q0 8 -24 3 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7553;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M406 419.6 q8 -10 16 0 z" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><path d="M423 419.6 q6 -8 12 0 z" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8053;0.8316" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="414" cy="417.6" r="2.5" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="425" cy="417.6" r="2" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g>
+<g transform="translate(476 419.6)"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6579" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 Q0 6 28 0 L24 3 Q0 8 -24 3 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7553;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M462 419.6 q8 -10 16 0 z" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><path d="M479 419.6 q6 -8 12 0 z" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="470" cy="417.6" r="2.5" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="481" cy="417.6" r="2" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7895;0.8079" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="450" y="448" class="s c b" stroke="#ffffff" stroke-width="4" paint-order="stroke">flap open, 300 mm out</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 30" dur="0.4s" begin="0s" repeatCount="indefinite" additive="sum"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8579;0.8737" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="478" cy="412" r="2.2" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="483" cy="412" r="2.2" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="487" cy="412" r="2.2" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/></g>
+<line x1="720" y1="366" x2="720" y2="422" stroke="#9aa1a8" stroke-width="3"/>
+<line x1="726" y1="366" x2="726" y2="422" stroke="#9aa1a8" stroke-width="3"/>
+<line x1="732" y1="366" x2="732" y2="422" stroke="#9aa1a8" stroke-width="3"/>
+<line x1="738" y1="366" x2="738" y2="422" stroke="#9aa1a8" stroke-width="3"/>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.9342" calcMode="discrete" dur="38s" repeatCount="indefinite"/><line x1="713.6" y1="366" x2="713.6" y2="422" stroke="#3a3f45" stroke-width="3"/></g>
+<g><animateTransform attributeName="transform" type="opacity" values="1;0.3;1" dur="0.6s" begin="0s" repeatCount="indefinite" additive="sum"/><animate attributeName="opacity" values="0;1" keyTimes="0;0.9474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M711 364 l-6 12 m6 -12 l0 12 m0 -12 l6 12" fill="none" stroke="#4aa3df" stroke-width="2"/><path d="M735 364 l-6 12 m6 -12 l0 12 m0 -12 l6 12" fill="none" stroke="#4aa3df" stroke-width="2"/><path d="M759 364 l-6 12 m6 -12 l0 12 m0 -12 l6 12" fill="none" stroke="#4aa3df" stroke-width="2"/><text x="735" y="420" class="s c b" stroke="#ffffff" stroke-width="4" paint-order="stroke">70 °C hold</text></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.0526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1360" cy="247" r="21" fill="#e04a3a" stroke="none" stroke-width="0" fill-opacity="0.45"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4421;0.5526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1300" cy="290" r="21" fill="#e04a3a" stroke="none" stroke-width="0" fill-opacity="0.45"/></g>
+<circle cx="1360" cy="247" r="22" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2" fill-opacity="0.85"/>
+<circle cx="1360" cy="247" r="18" fill="#7b3f6e" stroke="none" stroke-width="0"/>
+<g><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;0.4421;0.4579;0.5237;0.5526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1300" cy="290" r="28" fill="#a9bccf" stroke="#3a3f45" stroke-width="2"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1316;0.2368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="1429" y="276" width="4" height="18" rx="0" fill="#5b6168" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2368;0.4474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="1410" y="266" width="20" height="32" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><line x1="1410" y1="298" x2="1430" y2="298" stroke="#3a3f45" stroke-width="3"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 20;0 20" keyTimes="0;0.2579;0.3316;1" dur="38s" repeatCount="indefinite"/><rect x="1412" y="267" width="16" height="5" rx="0" fill="#5b6168" stroke="#3a3f45" stroke-width="1"/></g><rect x="1406" y="299" width="28" height="16" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5"/><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2789;0.4474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="1410" y="300" width="4" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="1416" y="304" width="4" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="1422" y="300" width="4" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="1428" y="304" width="4" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.6289" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="1444" y="228" width="71" height="65" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.7"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1450 316;0 1450 316;-95 1450 316;-95 1450 316;0 1450 316;0 1450 316" keyTimes="0;0.5526;0.5737;0.6421;0.6632;1" dur="38s" repeatCount="indefinite" additive="sum"/><line x1="1450" y1="316" x2="1450" y2="228" stroke="#c0392b" stroke-width="4"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1450 316;0 1450 316;-95 1450 316;-95 1450 316;0 1450 316;0 1450 316" keyTimes="0;0.8947;0.9105;0.9368;0.9526;1" dur="38s" repeatCount="indefinite" additive="sum"/><line x1="1450" y1="316" x2="1450" y2="228" stroke="#4aa3df" stroke-width="4"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 60;0 60;0 0;0 0" keyTimes="0;0.7737;0.7947;0.8053;0.8211;1" dur="38s" repeatCount="indefinite"/><rect x="1152" y="260" width="116" height="56" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5"/><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7053;0.8316" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1180" cy="288" r="26" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7553;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1174" cy="288" r="7" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="1187" cy="292" r="6" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8053;0.8316" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1174" cy="288" r="3" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/></g><g><animate attributeName="opacity" values="0;1" keyTimes="0;0.6579" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1236" cy="288" r="26" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7553;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1230" cy="288" r="7" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="1243" cy="292" r="6" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g><g><animate attributeName="opacity" values="0;1" keyTimes="0;0.8053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="1230" cy="288" r="3" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="476 0;476 0;476 0;476 0;587 0;587 0;587 0;587 0;476 0;476 0;476 0;570 0;660 0;660 0;660 0;660 0;660 0;660 0;660 0;600 0;600 0;608 0;600 0;592 0;600 0;608 0;600 0;592 0;600 0;600 0;540 0;540 0;540 0;540 0;540 0;540 0;540 0;570 0;570 0;620 0;684 0;684 0;630 0;420 0;420 0;420 0;600 0;600 0;600 0;420 0;420 0;460 0;460 0;420 0;482 0;482 0;482 0;540 0;640 0;684 0;684 0;640 0;476 0;476 0" keyTimes="0;0.0132;0.0263;0.0368;0.0579;0.0737;0.0895;0.0974;0.1158;0.1237;0.1316;0.1500;0.1684;0.2211;0.2316;0.2474;0.2579;0.3316;0.3421;0.3579;0.3684;0.3750;0.3816;0.3882;0.3947;0.4013;0.4079;0.4145;0.4211;0.4316;0.4474;0.4579;0.4737;0.4895;0.5105;0.5237;0.5316;0.5526;0.5632;0.5895;0.6211;0.6289;0.6421;0.6684;0.6789;0.7053;0.7184;0.7289;0.7368;0.7553;0.7632;0.7737;0.8211;0.8316;0.8474;0.8579;0.8684;0.8789;0.9105;0.9316;0.9368;0.9526;0.9842;1" dur="38s" repeatCount="indefinite"/><rect x="-8" y="210" width="16" height="210" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="2" fill-opacity="0.35"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="476 290;476 290;476 290;476 350;587 350;587 350;587 350;587 350;476 290;476 290;476 290;570 300;660 400;660 400;660 400;660 408;660 415;660 415;660 400;600 370;600 388;608 388;600 388;592 388;600 388;608 388;600 388;592 388;600 388;600 360;540 370;540 415;540 384;540 384;540 384;540 415;540 415;570 310;570 310;620 288;684 288;684 288;630 300;420 220;420 220;420 416;600 370;600 392;600 370;420 400;420 400;460 380;460 380;420 416;482 400;482 400;482 400;540 394;640 394;684 394;684 394;640 394;476 290;476 290" keyTimes="0;0.0132;0.0263;0.0368;0.0579;0.0737;0.0895;0.0974;0.1158;0.1237;0.1316;0.1500;0.1684;0.2211;0.2316;0.2474;0.2579;0.3316;0.3421;0.3579;0.3684;0.3750;0.3816;0.3882;0.3947;0.4013;0.4079;0.4145;0.4211;0.4316;0.4474;0.4579;0.4737;0.4895;0.5105;0.5237;0.5316;0.5526;0.5632;0.5895;0.6211;0.6289;0.6421;0.6684;0.6789;0.7053;0.7184;0.7289;0.7368;0.7553;0.7632;0.7737;0.8211;0.8316;0.8474;0.8579;0.8684;0.8789;0.9105;0.9316;0.9368;0.9526;0.9842;1" dur="38s" repeatCount="indefinite"/><rect x="-11" y="-9" width="22" height="18" rx="0" fill="none" stroke="none" stroke-width="0"/><rect x="-7" y="-20" width="14" height="14" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><g><animateTransform attributeName="transform" type="rotate" values="0;0;0;0;0;-115;-115;0;0;0;0;0;0;1080;1080;1080;1080;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;2880;3060;3060;3060;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3240;3340;3340;3330;3330;3330;3330;3330;3240;3240" keyTimes="0;0.0132;0.0263;0.0368;0.0579;0.0737;0.0895;0.0974;0.1158;0.1237;0.1316;0.1500;0.1684;0.2211;0.2316;0.2474;0.2579;0.3316;0.3421;0.3579;0.3684;0.3750;0.3816;0.3882;0.3947;0.4013;0.4079;0.4145;0.4211;0.4316;0.4474;0.4579;0.4737;0.4895;0.5105;0.5237;0.5316;0.5526;0.5632;0.5895;0.6211;0.6289;0.6421;0.6684;0.6789;0.7053;0.7184;0.7289;0.7368;0.7553;0.7632;0.7737;0.8211;0.8316;0.8474;0.8579;0.8684;0.8789;0.9105;0.9316;0.9368;0.9526;0.9842;1" dur="38s" repeatCount="indefinite" additive="sum"/><g><animate attributeName="opacity" values="1;0" keyTimes="0;0.1237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="-32" y="0" width="64" height="20" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2"/><g><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.0789;0.1237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="-28" y="8" width="56" height="10" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1500;0.2474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="8" fill="#f3e9b0" stroke="#3a3f45" stroke-width="1.5"/><g><animate attributeName="opacity" values="1;1;0.15;0.15" keyTimes="0;0.1684;0.2211;1" dur="38s" repeatCount="indefinite"/><path d="M0 -8 A8 8 0 1 1 -7 4 L0 0 Z" fill="#b33a2a" stroke="none" stroke-width="0"/></g><line x1="0" y1="0" x2="0" y2="-8" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2579;0.3368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="6" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5"/><line x1="-6" y1="0" x2="6" y2="0" stroke="#3a3f45" stroke-width="2"/><line x1="0" y1="-6" x2="0" y2="6" stroke="#3a3f45" stroke-width="2"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3579;0.4368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><line x1="0" y1="0" x2="0" y2="22" stroke="#3a3f45" stroke-width="3"/><rect x="-4" y="16" width="8" height="10" rx="0" fill="#d9b38c" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4579;0.5237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 L-26 10 L26 10 L28 0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><path d="M-30 0 L-26 -6 L26 -6 L30 0" fill="#a9bccf" stroke="#3a3f45" stroke-width="2"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -11;0 -11" keyTimes="0;0.4987;0.5026;1" dur="38s" repeatCount="indefinite"/><rect x="-22" y="6" width="44" height="3" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5632;0.6289" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="0" y="-1" width="71" height="5" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><rect x="6" y="-5" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="18" y="-5" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="30" y="-5" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="42" y="-5" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/><rect x="54" y="-5" width="8" height="4" rx="0" fill="#f2c84b" stroke="#3a3f45" stroke-width="1"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6789;0.7053" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 Q0 6 28 0 L24 3 Q0 8 -24 3 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7105;0.7632" calcMode="discrete" dur="38s" repeatCount="indefinite"/><line x1="0" y1="0" x2="0" y2="20" stroke="#3a3f45" stroke-width="3"/><path d="M-6 18 Q0 28 6 18 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8316;0.9342" calcMode="discrete" dur="38s" repeatCount="indefinite"/><path d="M-28 0 Q0 6 28 0 L24 3 Q0 8 -24 3 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8316;0.8579" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="-6" cy="-2" r="2.5" fill="#9b6a3c" stroke="#3a3f45" stroke-width="1"/><circle cx="4" cy="-2" r="2" fill="#6aa84f" stroke="#3a3f45" stroke-width="1"/></g></g><circle cx="0" cy="0" r="4" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="1236 0;1236 0;1236 0;1236 0;1347 0;1347 0;1347 0;1347 0;1236 0;1236 0;1236 0;1330 0;1420 0;1420 0;1420 0;1420 0;1420 0;1420 0;1420 0;1360 0;1360 0;1368 0;1360 0;1352 0;1360 0;1368 0;1360 0;1352 0;1360 0;1360 0;1300 0;1300 0;1300 0;1300 0;1300 0;1300 0;1300 0;1330 0;1330 0;1380 0;1444 0;1444 0;1390 0;1180 0;1180 0;1180 0;1360 0;1360 0;1360 0;1180 0;1180 0;1220 0;1220 0;1180 0;1242 0;1242 0;1242 0;1300 0;1400 0;1444 0;1444 0;1400 0;1236 0;1236 0" keyTimes="0;0.0132;0.0263;0.0368;0.0579;0.0737;0.0895;0.0974;0.1158;0.1237;0.1316;0.1500;0.1684;0.2211;0.2316;0.2474;0.2579;0.3316;0.3421;0.3579;0.3684;0.3750;0.3816;0.3882;0.3947;0.4013;0.4079;0.4145;0.4211;0.4316;0.4474;0.4579;0.4737;0.4895;0.5105;0.5237;0.5316;0.5526;0.5632;0.5895;0.6211;0.6289;0.6421;0.6684;0.6789;0.7053;0.7184;0.7289;0.7368;0.7553;0.7632;0.7737;0.8211;0.8316;0.8474;0.8579;0.8684;0.8789;0.9105;0.9316;0.9368;0.9526;0.9842;1" dur="38s" repeatCount="indefinite"/><rect x="-8" y="200" width="16" height="24" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><rect x="-7" y="212" width="14" height="104" rx="0" fill="none" stroke="#f28c28" stroke-width="2"/><g><animateTransform attributeName="transform" type="translate" values="0 230;0 230;0 252;0 252;0 247;0 247;0 247;0 247;0 252;0 230;0 230;0 232;0 260;0 288;0 266;0 266;0 266;0 286;0 286;0 247;0 247;0 243;0 239;0 243;0 247;0 243;0 239;0 243;0 247;0 247;0 290;0 290;0 290;0 290;0 290;0 290;0 290;0 240;0 240;0 260;0 260;0 260;0 260;0 280;0 280;0 288;0 247;0 247;0 247;0 288;0 288;0 250;0 250;0 288;0 241;0 241;0 241;0 260;0 260;0 260;0 260;0 260;0 252;0 230" keyTimes="0;0.0132;0.0263;0.0368;0.0579;0.0737;0.0895;0.0974;0.1158;0.1237;0.1316;0.1500;0.1684;0.2211;0.2316;0.2474;0.2579;0.3316;0.3421;0.3579;0.3684;0.3750;0.3816;0.3882;0.3947;0.4013;0.4079;0.4145;0.4211;0.4316;0.4474;0.4579;0.4737;0.4895;0.5105;0.5237;0.5316;0.5526;0.5632;0.5895;0.6211;0.6289;0.6421;0.6684;0.6789;0.7053;0.7184;0.7289;0.7368;0.7553;0.7632;0.7737;0.8211;0.8316;0.8474;0.8579;0.8684;0.8789;0.9105;0.9316;0.9368;0.9526;0.9842;1" dur="38s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;0" keyTimes="0;0.1237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="-32" y="-17" width="64" height="35" rx="0" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1500;0.2474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="14" r="8" fill="#b33a2a" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3579;0.4368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="4" fill="#d9b38c" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4579;0.5237" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="28" fill="#a9bccf" stroke="#3a3f45" stroke-width="2"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5632;0.6289" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="0" y="-32" width="71" height="65" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.8"/></g><g><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;0.6789;0.7053;0.8316;0.8789" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="28" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8789;0.9342" calcMode="discrete" dur="38s" repeatCount="indefinite"/><rect x="-2" y="-28" width="4" height="56" rx="0" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/></g><g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7105;0.7632" calcMode="discrete" dur="38s" repeatCount="indefinite"/><circle cx="0" cy="0" r="5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/></g><rect x="-7" y="-7" width="14" height="14" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g></g>
+<text x="840" y="462" class="s b">MEAL LOOP (≈ 38 s, steps compressed)</text>
+<rect x="832" y="470" width="350" height="22" rx="4" fill="#fde3c8" stroke="none"><animate attributeName="y" values="470;493;516;539;562;585;608;631;654" keyTimes="0.0000;0.1316;0.2368;0.3421;0.4474;0.5526;0.6711;0.8026;0.8947" calcMode="discrete" dur="38s" repeatCount="indefinite"/></rect>
+<text x="840" y="487" class="s">1  box tipped, dosed by the wrist load cell</text>
+<text x="840" y="510" class="s">2  apple pared on the spit</text>
+<text x="840" y="533" class="s">3  diced in the screw-press cassette</text>
+<text x="840" y="556" class="s">4  pot stirred at intervals</text>
+<text x="840" y="579" class="s">5  pan-pair flip</text>
+<text x="840" y="602" class="s">6  oven loaded through the side door</text>
+<text x="840" y="625" class="s">7  plated on the hatch drawer tray</text>
+<text x="840" y="648" class="s">8  dishes returned, scraps to the chute</text>
+<text x="840" y="671" class="s">9  washer loaded from the side</text>
+<text x="1210" y="462" class="s b">THE ONE HAND (5 axes, no tool changer)</text>
+<text x="1210" y="487" class="s">X 1440 mm, belt in the rear dry box, 1.5 m/s</text>
+<text x="1210" y="510" class="s">Z 1000 mm on the hanging mast (y 0–120)</text>
+<text x="1210" y="533" class="s">Y 440 mm along the closed arm tube</text>
+<text x="1210" y="556" class="s">roll ∞, 30 Nm: pours, flips, turns spit and screw</text>
+<text x="1210" y="579" class="s">EPM tang chuck ≈ 400 N, 6-axis load cell</text>
+<text x="1210" y="602" class="s">lifts ≤ 6 kg; no tilt about x: tangs face the rear</text>
+<text x="1210" y="625" class="s">T turntable and S spindle: canned magnet</text>
+<text x="1210" y="648" class="s">drives under the deck (no seal)</text>
+<text x="60" y="740" class="s b">COLOURS</text>
+<rect x="60" y="754" width="18" height="14" rx="0" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="86" y="766" class="s">structure</text>
+<rect x="290" y="754" width="18" height="14" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="316" y="766" class="s">ware (loose, washed)</text>
+<rect x="520" y="754" width="18" height="14" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="546" y="766" class="s">gantry hand, drives</text>
+<rect x="60" y="780" width="18" height="14" rx="0" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="86" y="792" class="s">heat</text>
+<rect x="290" y="780" width="18" height="14" rx="0" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="316" y="792" class="s">water</text>
+<rect x="520" y="780" width="18" height="14" rx="0" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="546" y="792" class="s">depth shoe</text>
+<text x="60" y="818" class="s">Mast range X 1680–3120; the oven and the washer are reached by pushing ware in +X.</text>
+<line x1="24" y1="846" x2="1576" y2="846" stroke="#b4bac1" stroke-width="1.5"/>
+<g><animate attributeName="opacity" values="1;0" keyTimes="0;0.1316" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">1/9 Box fetched: the hand takes the opened GN box by its tang from the box shelf and tips it over the pot; the wrist load cell doses 250 g (±3 g).</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1316;0.2368" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">2/9 Peel: apple on the fork-spit; the roll turns it while Y draws it past the blade post on the PS socket (1 mm depth shoe).</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2368;0.3421" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">3/9 Dice: apple into the screw cassette on PS; the roll turns the screw (30 Nm → 2.5 kN) and pushes it through the 10 mm grid.</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3421;0.4474" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">4/9 Stir: paddle into the pot on HR2; interval stirring, 20–30 s every 1–3 min, as a home cook does.</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4474;0.5526" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">5/9 Pan-pair flip: flip pan set on the Ø 280 pan on HF1, the pair rolled 180° in 0.8 s; the pancake lands in the flip pan.</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5526;0.6711" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">6/9 Oven: the side-hinged door swings along the front wall; the hand pushes the GN 2/3 tray in +X onto the oven rails.</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6711;0.8026" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">7/9 Plate: plate from the dispenser (z 1900) to the hatch drawer tray, food ladled on; the drawer slides 300 mm out to serve.</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8026;0.8947" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">8/9 Return: dishes come back on the drawer; the hand tips the scraps over the waste chute WC.</text></g>
+<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.8947" calcMode="discrete" dur="38s" repeatCount="indefinite"/><text x="24" y="874" class="m b">9/9 Wash: items rolled on edge, pushed in +X through the side door onto the rack; 10 min hold at 70 °C (A0 ≈ 60).</text></g>
+</svg>
