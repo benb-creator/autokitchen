@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K5 mechanism close-ups. Source: design/prep/concepts/K5-ram-and-die-column.md.
+Simplification: six die windows of 152 mm do not fit on a 230 mm pitch circle as the document states; the
+carousel dies are drawn smaller and schematic. Potato pieces and dice are drawn to scale only roughly. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b" >K5  Ram-and-die column — how the mechanisms work</text>
+<text x="24" y="58" class="m" >Six looping close-ups (section views). Numbers are the paper estimates of the concept document; nothing is built yet.</text>
+<clipPath id="pc1"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="20" y="78" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="34" y="103" class="m b" >1  Push through the die, cut off</text>
+<g transform="translate(20 78)" >
+<g clip-path="url(#pc1)">
+<rect x="64.5" y="52" width="5" height="153" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="174.5" y="52" width="5" height="153" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<path d="M57.5 52 l8 -5 l8 5 l8 -5" fill="none" stroke="#3a3f45" stroke-width="1.5" />
+<text x="184.5" y="120" class="s" >tube,</text>
+<text x="184.5" y="137" class="s" >bore 140</text>
+<clipPath id="p1clip"><rect x="69.5" y="0" width="105" height="205"/></clipPath>
+<g clip-path="url(#p1clip)">
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.12;0.17;0.23;0.28;0.34;0.39;0.46;0.51;0.57;0.62;0.7;0.7;0.82;0.82;0.95;1" values="0 0;0 0;0 0;0 8;0 8;0 16;0 16;0 24;0 24;0 32;0 32;0 40;0 40;0 40;0 40;0 -150;0 0;0 0"/>
+<ellipse cx="97" cy="184" rx="25" ry="21" fill="#e9c46a" stroke="#3a3f45" stroke-width="1.5"/>
+<ellipse cx="148" cy="185" rx="24" ry="20" fill="#e9c46a" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.12;0.17;0.23;0.28;0.34;0.39;0.46;0.51;0.57;0.62;0.7;0.8;1" values="0 -71;0 0;0 0;0 8;0 8;0 16;0 16;0 24;0 24;0 32;0 32;0 40;0 40;0 -71;0 -71"/>
+<rect x="70.5" y="97" width="103" height="34" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="70.5" y1="125" x2="173.5" y2="125" stroke="#6b4c8a" stroke-width="3" />
+<line x1="70.5" y1="103" x2="173.5" y2="103" stroke="#6b4c8a" stroke-width="3" />
+<rect x="77" y="87" width="90" height="10" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="107" y="-113" width="30" height="200" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" /></g>
+<rect x="65" y="205" width="114" height="20" rx="0" fill="#6d8299" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="72.5" y1="206" x2="72.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="80" y1="206" x2="80" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="87.5" y1="206" x2="87.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="95" y1="206" x2="95" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="102.5" y1="206" x2="102.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="110" y1="206" x2="110" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="117.5" y1="206" x2="117.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="125" y1="206" x2="125" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="132.5" y1="206" x2="132.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="140" y1="206" x2="140" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="147.5" y1="206" x2="147.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="155" y1="206" x2="155" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="162.5" y1="206" x2="162.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="170" y1="206" x2="170" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="177.5" y1="206" x2="177.5" y2="224" stroke="#ffffff" stroke-width="1.2" />
+<line x1="66" y1="215" x2="178" y2="215" stroke="#ffffff" stroke-width="1" />
+<text x="58" y="197" class="s r" >grid 10</text>
+<rect x="27" y="207" width="38" height="14" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" />
+<rect x="179" y="207" width="38" height="14" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" />
+<g transform="translate(0 225)" >
+<g ><animateTransform attributeName="transform" type="scale" dur="8s" repeatCount="indefinite" keyTimes="0;0.12;0.17;0.19;0.19;0.23;0.28;0.3;0.3;0.34;0.39;0.41;0.41;0.46;0.51;0.53;0.53;0.57;0.62;0.64;0.64;1" values="1 0;1 0;1 7.5;1 7.5;1 0;1 0;1 7.5;1 7.5;1 0;1 0;1 7.5;1 7.5;1 0;1 0;1 7.5;1 7.5;1 0;1 0;1 7.5;1 7.5;1 0;1 0"/>
+<rect x="75.5" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="0" width="6.5" height="1" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.19;0.19;0.23;0.23;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.19;0.23;1" values="0 0;0 0;0 54;0 54"/>
+<rect x="75.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.3;0.3;0.34;0.34;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.3;0.34;1" values="0 0;0 0;0 52;0 52"/>
+<rect x="75.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.41;0.41;0.46;0.46;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.41;0.46;1" values="0 0;0 0;0 50;0 50"/>
+<rect x="75.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.53;0.53;0.57;0.57;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.53;0.57;1" values="0 0;0 0;0 48;0 48"/>
+<rect x="75.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.64;0.64;0.68;0.68;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.64;0.68;1" values="0 0;0 0;0 46;0 46"/>
+<rect x="75.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="83.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="91.7" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="99.8" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="107.9" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="116" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="124.1" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="132.2" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="140.3" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="148.4" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="156.5" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" />
+<rect x="164.6" y="225" width="6.5" height="6.5" rx="0" fill="#e9c46a" stroke="#3a3f45" stroke-width="0.8" /></g>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.17;0.18;0.19;0.29;0.3;0.31;0.4;0.41;0.42;0.51;0.52;0.53;0.62;0.63;0.64;1" values="0 0;0 0;-125 0;0 0;0 0;-125 0;0 0;0 0;-125 0;0 0;0 0;-125 0;0 0;0 0;-125 0;0 0;0 0"/>
+<path d="M192 233 q -60 -6 -120 4 l0 4 q 60 -6 120 -2 Z" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /></g>
+<rect x="190" y="231" width="6" height="62" rx="0" fill="#b4bac1" stroke="#3a3f45" stroke-width="1" />
+<text x="202" y="247" class="s" >sickle (face rotor)</text>
+<path d="M60 258 L64 290 L180 290 L184 258" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2" />
+<g transform="translate(0 289)" >
+<g ><animateTransform attributeName="transform" type="scale" dur="8s" repeatCount="indefinite" keyTimes="0;0.2;0.7;0.95;0.95;1" values="1 0.01;1 0.01;1 1;1 1;1 0.01;1 0.01"/>
+<path d="M72 0 Q122 -16 172 0 Z" fill="#e9c46a" stroke="#3a3f45" stroke-width="1" /></g></g>
+<text x="56" y="282" class="s r" >pot</text>
+<text x="272" y="60" class="s c b" >ram force</text>
+<rect x="262" y="70" width="20" height="160" rx="0" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="262" width="20" fill="#f28c28" stroke="none"><animate attributeName="y" dur="8s" repeatCount="indefinite" keyTimes="0;0.12;0.14;0.17;0.19;0.23;0.25;0.28;0.3;0.34;0.36;0.39;0.41;0.46;0.47;0.51;0.53;0.57;0.59;0.62;0.64;0.7;1" values="230;226;178;186;224;226;178;186;224;226;178;186;224;226;178;186;224;226;178;186;224;230;230" calcMode="linear"/><animate attributeName="height" dur="8s" repeatCount="indefinite" keyTimes="0;0.12;0.14;0.17;0.19;0.23;0.25;0.28;0.3;0.34;0.36;0.39;0.41;0.46;0.47;0.51;0.53;0.57;0.59;0.62;0.64;0.7;1" values="0;4;52;44;6;4;52;44;6;4;52;44;6;4;52;44;6;4;52;44;6;0;0" calcMode="linear"/></rect>
+<line x1="282" y1="230" x2="288" y2="230" stroke="#3a3f45" stroke-width="1" />
+<text x="292" y="235" class="s" >0</text>
+<line x1="282" y1="174" x2="288" y2="174" stroke="#3a3f45" stroke-width="1" />
+<text x="292" y="179" class="s" >2.8</text>
+<line x1="282" y1="90" x2="288" y2="90" stroke="#3a3f45" stroke-width="1" />
+<text x="292" y="95" class="s" >7 kN back-off</text>
+<line x1="282" y1="70" x2="288" y2="70" stroke="#3a3f45" stroke-width="1" />
+<text x="292" y="75" class="s" >8 kN</text>
+<line x1="259" y1="90" x2="285" y2="90" stroke="#e04a3a" stroke-width="2" />
+<text x="368" y="150" class="s b" >other dies:</text>
+<circle cx="372" cy="174" r="11" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<text x="390" y="171" class="s" >open ring</text>
+<text x="390" y="186" class="s" style="fill:#6d8299" >→ slices</text>
+<circle cx="372" cy="207" r="11" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<text x="390" y="204" class="s" >grid 6/10/20</text>
+<text x="390" y="219" class="s" style="fill:#6d8299" >→ dice, sticks</text>
+<circle cx="372" cy="240" r="11" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<text x="390" y="237" class="s" >wedge die</text>
+<text x="390" y="252" class="s" style="fill:#6d8299" >→ wedges</text>
+<circle cx="372" cy="273" r="11" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<text x="390" y="270" class="s" >ricer 3 mm</text>
+<text x="390" y="285" class="s" style="fill:#6d8299" >→ mash</text></g></g>
+<line x1="32" y1="376" x2="518" y2="376" stroke="#d0d4d9" stroke-width="1" />
+<text x="34" y="391" class="s" >One layer of potatoes lies on the grid. The ram pushes a</text>
+<text x="34" y="408" class="s" >loose piston on top; sticks come out under the die and each</text>
+<text x="34" y="425" class="s" >turn of the sickle cuts one row of dice into the pot below.</text>
+<text x="34" y="442" class="s" >Slice thickness = ram advance per turn.</text>
+<text x="34" y="467" class="s b" style="fill:#6d8299" >bore 140 × 300 · 8 kN ram · 1.5 kg diced ≈ 3 min</text>
+<clipPath id="pc2"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="545" y="78" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="559" y="103" class="m b" >2  Turret and die carousel (top view)</text>
+<g transform="translate(545 78)" >
+<g clip-path="url(#pc2)">
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 160 172;0 160 172;-120 160 172;-120 160 172;-180 160 172;-180 160 172;-300 160 172;-300 160 172;-360 160 172;-360 160 172"/>
+<circle cx="160" cy="172" r="110" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.8" />
+<circle cx="105.22" cy="140.38" r="28.6" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 105.22 140.38;0 105.22 140.38;120 105.22 140.38;120 105.22 140.38;180 105.22 140.38;180 105.22 140.38;300 105.22 140.38;300 105.22 140.38;360 105.22 140.38;360 105.22 140.38"/>
+<text x="105.22" y="145.38" class="s c b" style="fill:#ffffff" >cap</text></g>
+<circle cx="160" cy="108.75" r="28.6" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<circle cx="160" cy="108.75" r="12.1" fill="#ffffff" stroke="#3a3f45" stroke-width="1" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 160 108.75;0 160 108.75;120 160 108.75;120 160 108.75;180 160 108.75;180 160 108.75;300 160 108.75;300 160 108.75;360 160 108.75;360 160 108.75"/>
+<text x="160" y="113.75" class="s c b" style="fill:#2b2f33" >Ø80</text></g>
+<circle cx="214.78" cy="140.37" r="28.6" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<circle cx="214.78" cy="140.37" r="24.6" fill="#ffffff" stroke="#3a3f45" stroke-width="1" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 214.78 140.37;0 214.78 140.37;120 214.78 140.37;120 214.78 140.37;180 214.78 140.37;180 214.78 140.37;300 214.78 140.37;300 214.78 140.37;360 214.78 140.37;360 214.78 140.37"/>
+<text x="214.78" y="145.37" class="s c b" style="fill:#2b2f33" >ring</text></g>
+<circle cx="214.78" cy="203.62" r="28.6" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<line x1="195.71" y1="179.03" x2="195.71" y2="228.22" stroke="#fff" stroke-width="1" />
+<line x1="190.18" y1="184.56" x2="239.38" y2="184.56" stroke="#fff" stroke-width="1" />
+<line x1="205.24" y1="179.03" x2="205.24" y2="228.22" stroke="#fff" stroke-width="1" />
+<line x1="190.18" y1="194.09" x2="239.38" y2="194.09" stroke="#fff" stroke-width="1" />
+<line x1="214.78" y1="179.03" x2="214.78" y2="228.22" stroke="#fff" stroke-width="1" />
+<line x1="190.18" y1="203.62" x2="239.38" y2="203.62" stroke="#fff" stroke-width="1" />
+<line x1="224.31" y1="179.03" x2="224.31" y2="228.22" stroke="#fff" stroke-width="1" />
+<line x1="190.18" y1="213.16" x2="239.38" y2="213.16" stroke="#fff" stroke-width="1" />
+<line x1="233.84" y1="179.03" x2="233.84" y2="228.22" stroke="#fff" stroke-width="1" />
+<line x1="190.18" y1="222.69" x2="239.38" y2="222.69" stroke="#fff" stroke-width="1" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 214.78 203.62;0 214.78 203.62;120 214.78 203.62;120 214.78 203.62;180 214.78 203.62;180 214.78 203.62;300 214.78 203.62;300 214.78 203.62;360 214.78 203.62;360 214.78 203.62"/>
+<text x="214.78" y="208.62" class="s c b" style="fill:#2b2f33" >g6</text></g>
+<circle cx="160" cy="235.25" r="28.6" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<line x1="145.7" y1="210.65" x2="145.7" y2="259.85" stroke="#fff" stroke-width="1" />
+<line x1="135.4" y1="220.95" x2="184.6" y2="220.95" stroke="#fff" stroke-width="1" />
+<line x1="160" y1="210.65" x2="160" y2="259.85" stroke="#fff" stroke-width="1" />
+<line x1="135.4" y1="235.25" x2="184.6" y2="235.25" stroke="#fff" stroke-width="1" />
+<line x1="174.3" y1="210.65" x2="174.3" y2="259.85" stroke="#fff" stroke-width="1" />
+<line x1="135.4" y1="249.55" x2="184.6" y2="249.55" stroke="#fff" stroke-width="1" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 160 235.25;0 160 235.25;120 160 235.25;120 160 235.25;180 160 235.25;180 160 235.25;300 160 235.25;300 160 235.25;360 160 235.25;360 160 235.25"/>
+<text x="160" y="240.25" class="s c b" style="fill:#2b2f33" >g10</text></g>
+<circle cx="105.22" cy="203.62" r="28.6" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<circle cx="120.22" cy="203.62" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="117.36" cy="212.44" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="109.86" cy="217.89" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="100.59" cy="217.89" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="93.09" cy="212.44" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="90.22" cy="203.62" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="93.09" cy="194.81" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="100.59" cy="189.36" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="109.86" cy="189.36" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="117.36" cy="194.81" r="2" fill="#fff" stroke="none" stroke-width="0" />
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.33;0.42;0.51;0.67;0.82;0.91;1" values="0 105.22 203.62;0 105.22 203.62;120 105.22 203.62;120 105.22 203.62;180 105.22 203.62;180 105.22 203.62;300 105.22 203.62;300 105.22 203.62;360 105.22 203.62;360 105.22 203.62"/>
+<text x="105.22" y="208.62" class="s c b" style="fill:#2b2f33" >ricer</text></g></g>
+<path d="M107.34 68.64 A116 116 0 0 1 212.66 68.64 L171.35 149.72 A25 25 0 0 0 148.65 149.72 Z" fill="#4aa3df" stroke="#4aa3df" stroke-width="1.5" fill-opacity="0.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.02;0.18;0.18;0.33;0.33;0.42;0.42;0.51;0.51;0.67;0.67;0.82;0.82;0.91;0.91;1" values="0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0;0" calcMode="linear"/>
+<path d="M107.34 68.64 A116 116 0 0 1 212.66 68.64 L171.35 149.72 A25 25 0 0 0 148.65 149.72 Z" fill="#4aa3df" stroke="none" stroke-width="0" fill-opacity="0.55"/></g>
+<text x="160" y="50" class="s c" style="fill:#4aa3df" >wash hood (rear third)</text>
+<g ><animateTransform attributeName="transform" type="rotate" dur="9s" repeatCount="indefinite" keyTimes="0;0.02;0.18;0.51;0.67;1" values="0 160 172;0 160 172;-120 160 172;-120 160 172;-240 160 172;-240 160 172"/>
+<line x1="160" y1="172" x2="139.86" y2="160.38" stroke="#b4bac1" stroke-width="5" />
+<circle cx="105.22" cy="140.38" r="40.15" fill="none" stroke="#3a3f45" stroke-width="4" />
+<line x1="160" y1="172" x2="160" y2="195.25" stroke="#b4bac1" stroke-width="5" />
+<circle cx="160" cy="235.25" r="40.15" fill="none" stroke="#3a3f45" stroke-width="4" />
+<line x1="160" y1="172" x2="180.14" y2="160.38" stroke="#b4bac1" stroke-width="5" />
+<circle cx="214.78" cy="140.38" r="40.15" fill="none" stroke="#3a3f45" stroke-width="4" />
+<circle cx="160" cy="172" r="7" fill="#b4bac1" stroke="#3a3f45" stroke-width="1" /></g>
+<text x="52" y="82" class="s c b" >FILL</text>
+<text x="270" y="82" class="s c b" >SERVICE</text>
+<text x="212" y="258" class="s b" >PRESS</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.19;0.19;0.32;0.32;0.68;0.68;0.81;0.81;1" values="0;0;1;1;0;0;1;1;0;0" calcMode="linear"/>
+<circle cx="160" cy="235.25" r="12" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /></g>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0;0;0.19;0.19;1" values="0;0;1;1;0;0" calcMode="linear"/>both turn together:</text>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.19;0.19;0.33;0.33;1" values="0;0;1;1;0;0" calcMode="linear"/>PRESS: the ram works</text>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.33;0.33;0.51;0.51;1" values="0;0;1;1;0;0" calcMode="linear"/>carousel alone:</text>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.51;0.51;0.68;0.68;1" values="0;0;1;1;0;0" calcMode="linear"/>both turn together:</text>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.68;0.68;0.82;0.82;1" values="0;0;1;1;0;0" calcMode="linear"/>PRESS: the ram works</text>
+<text x="405" y="70" class="s c b" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.82;0.82;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>carousel alone:</text>
+<text x="405" y="88" class="s c" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0;0;0.19;0.19;1" values="0;0;1;1;0;0" calcMode="linear"/>the tube rides on its die</text>
+<text x="405" y="88" class="s c" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.33;0.33;0.51;0.51;1" values="0;0;1;1;0;0" calcMode="linear"/>next die under the tube</text>
+<text x="405" y="88" class="s c" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.51;0.51;0.68;0.68;1" values="0;0;1;1;0;0" calcMode="linear"/>the tube rides on its die</text>
+<text x="405" y="88" class="s c" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.82;0.82;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>next die under the tube</text>
+<text x="320" y="140" class="s b" >6 loose die inserts:</text>
+<text x="320" y="160" class="s" >cap: liquid-tight floor</text>
+<text x="320" y="177" class="s" >Ø80: patty former</text>
+<text x="320" y="194" class="s" >ring: open, slices</text>
+<text x="320" y="211" class="s" >g6 / g10: dice grids</text>
+<text x="320" y="228" class="s" >ricer: 3 mm holes</text>
+<text x="320" y="245" class="s" >FILL: under the chute</text>
+<text x="320" y="262" class="s" >PRESS: ram, pot below</text>
+<text x="320" y="279" class="s" >SERVICE: crank, wash</text></g></g>
+<line x1="557" y1="376" x2="1043" y2="376" stroke="#d0d4d9" stroke-width="1" />
+<text x="559" y="391" class="s" >Three loose tubes stand in a turret, six loose dies in a</text>
+<text x="559" y="408" class="s" >carousel below. Turning both carries a tube on its die;</text>
+<text x="559" y="425" class="s" >turning the carousel alone changes the die. Its rear third</text>
+<text x="559" y="442" class="s" >runs under a wash hood, so dies are washed in passing.</text>
+<text x="559" y="467" class="s b" style="fill:#6d8299" >carousel Ø400 · 1 actuator each · force via die to deck</text>
+<clipPath id="pc3"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="1070" y="78" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="1084" y="103" class="m b" >3  Kneading by back-extrusion</text>
+<g transform="translate(1070 78)" >
+<g clip-path="url(#pc3)">
+<rect x="118" y="62" width="5" height="196" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="207" y="62" width="5" height="196" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="109" y="258" width="112" height="10" rx="0" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5" />
+<text x="105" y="254" class="s r" >blank cap,</text>
+<text x="105" y="271" class="s r" >liquid-tight</text>
+<path fill="#f1d9a0" stroke="#3a3f45" stroke-width="1.5" d="M123 258 L123 205 Q165 213 207 205 L207 258 Z"><animate attributeName="d" dur="7s" repeatCount="indefinite" keyTimes="0;0.04;0.29;0.33;0.5;0.54;0.79;0.83;1" values="M123 258 L123 205 Q165 213 207 205 L207 258 Z;M123 258 L123 205 Q165 213 207 205 L207 258 Z;M123 258 L123 187.64 Q165 187.64 207 187.64 L207 258 Z;M123 258 L123 187.64 Q165 187.64 207 187.64 L207 258 Z;M123 258 L123 205 Q165 213 207 205 L207 258 Z;M123 258 L123 205 Q165 213 207 205 L207 258 Z;M123 258 L123 187.64 Q165 187.64 207 187.64 L207 258 Z;M123 258 L123 187.64 Q165 187.64 207 187.64 L207 258 Z;M123 258 L123 205 Q165 213 207 205 L207 258 Z" calcMode="linear"/></path>
+<path d="M123 240 q 20 -14 42 0 t 42 0" fill="none" stroke="#c9a65e" stroke-width="2"><animate attributeName="d" dur="7s" repeatCount="indefinite" keyTimes="0;0.5;1" values="M123 240 q 20 -14 42 0 t 42 0;M123 225 q 20 14 42 0 t 42 0;M123 240 q 20 -14 42 0 t 42 0" calcMode="linear"/></path>
+<g ><animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite" keyTimes="0;0.04;0.29;0.33;0.5;0.54;0.79;0.83;1" values="0 0;0 0;0 48;0 48;0 0;0 0;0 48;0 48;0 0"/>
+<rect x="132" y="161" width="66" height="24" rx="5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="157.5" y="41" width="15" height="120" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="135" y="33" width="60" height="8" rx="0" fill="#6d8299" stroke="#3a3f45" stroke-width="1" />
+<rect x="129" y="25" width="72" height="8" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="153" y="-59" width="24" height="84" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.07;0.07;0.3;0.3;0.57;0.57;0.8;0.8;1" values="0;0;1;1;0;0;1;1;0;0" calcMode="linear"/>
+<g ><line x1="127" y1="248" x2="127" y2="218" stroke="#8b5a2b" stroke-width="2" /><polygon points="127,218 129.61,223.4 124.39,223.4" fill="#8b5a2b" stroke="#8b5a2b" stroke-width="1" /></g>
+<g ><line x1="203" y1="248" x2="203" y2="218" stroke="#8b5a2b" stroke-width="2" /><polygon points="203,218 205.61,223.4 200.39,223.4" fill="#8b5a2b" stroke="#8b5a2b" stroke-width="1" /></g></g>
+<text x="113" y="92" class="s r" >knead plunger</text>
+<text x="113" y="110" class="s r" >Ø110 on a stem</text>
+<text x="113" y="128" class="s r" >(magnet foot)</text>
+<text x="390" y="60" class="s c b" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0;0;0.04;0.04;1" values="0;0;1;1;0;0" calcMode="linear"/></text>
+<text x="390" y="60" class="s c b" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.04;0.04;0.33;0.33;1" values="0;0;1;1;0;0" calcMode="linear"/>down: dough squeezes up</text>
+<text x="390" y="60" class="s c b" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.33;0.33;0.54;0.54;1" values="0;0;1;1;0;0" calcMode="linear"/>up: the sheet folds back</text>
+<text x="390" y="60" class="s c b" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.54;0.54;0.83;0.83;1" values="0;0;1;1;0;0" calcMode="linear"/>down: dough squeezes up</text>
+<text x="390" y="60" class="s c b" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.83;0.83;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>up: the sheet folds back</text>
+<circle cx="400" cy="140" r="46" fill="#f1d9a0" stroke="#3a3f45" stroke-width="2" />
+<circle cx="400" cy="140" r="36" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<text x="400" y="145" class="s c" >plunger</text>
+<text x="400" y="86" class="s c" >seen from above</text>
+<text x="400" y="206" class="s c" >gap 15 mm all round</text>
+<text x="400" y="224" class="s c" >= 59 cm² for the dough</text>
+<text x="400" y="250" class="s c" >other dashers: perforated</text>
+<text x="400" y="267" class="s c" >(batter), mesh (whip, sieve)</text></g></g>
+<line x1="1082" y1="376" x2="1568" y2="376" stroke="#d0d4d9" stroke-width="1" />
+<text x="1084" y="391" class="s" >The tube stands on a blank cap. The ram strokes a plunger</text>
+<text x="1084" y="408" class="s" >that is smaller than the bore: the dough must flow up through</text>
+<text x="1084" y="425" class="s" >the gap and is stretched, then folds as the plunger lifts.</text>
+<text x="1084" y="442" class="s" >Untested for bread dough (L–M); mince mass M–H.</text>
+<text x="1084" y="467" class="s b" style="fill:#6d8299" >1–2.4 kN · 3.5 s/stroke · 1.6 kg dough 8–17 min</text>
+<clipPath id="pc4"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="20" y="492" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="34" y="517" class="m b" >4  Patties: extrude and cut</text>
+<g transform="translate(20 492)" >
+<g clip-path="url(#pc4)">
+<rect x="153" y="50" width="5" height="125" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="242" y="50" width="5" height="125" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<path d="M146 50 l8 -5 l8 5 l8 -5" fill="none" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="158" width="84" fill="#c0705a" stroke="#3a3f45" stroke-width="1.2"><animate attributeName="y" dur="8s" repeatCount="indefinite" keyTimes="0;0.01;0.06;0.26;0.31;0.51;0.56;0.76;0.81;0.95;1" values="95;95;99.2;99.2;103.4;103.4;107.6;107.6;111.8;111.8;95" calcMode="linear"/><animate attributeName="height" dur="8s" repeatCount="indefinite" keyTimes="0;0.01;0.06;0.26;0.31;0.51;0.56;0.76;0.81;0.95;1" values="80;80;75.8;75.8;71.6;71.6;67.4;67.4;63.2;63.2;80" calcMode="linear"/></rect>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.01;0.06;0.26;0.31;0.51;0.56;0.76;0.81;0.95;1" values="0 0;0 0;0 4.2;0 4.2;0 8.4;0 8.4;0 12.6;0 12.6;0 16.8;0 16.8;0 0"/>
+<rect x="159" y="68" width="82" height="27" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="159" y1="90" x2="241" y2="90" stroke="#6b4c8a" stroke-width="3" />
+<rect x="164" y="60" width="72" height="8" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="188" y="0" width="24" height="60" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /></g>
+<rect x="148" y="175" width="104" height="18" rx="0" fill="#6d8299" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="176" y="175" width="48" height="18" rx="0" fill="#c0705a" stroke="#3a3f45" stroke-width="1" />
+<text x="142" y="189" class="s r" >former Ø80</text>
+<rect x="176" y="193" width="48" fill="#c0705a" stroke="#3a3f45" stroke-width="1" height="0"><animate attributeName="height" dur="8s" repeatCount="indefinite" keyTimes="0;0.01;0.06;0.11;0.11;0.26;0.31;0.36;0.36;0.51;0.56;0.61;0.61;0.76;0.81;0.86;0.86;1" values="0;0;12.6;12.6;0;0;12.6;12.6;0;0;12.6;12.6;0;0;12.6;12.6;0;0" calcMode="linear"/></rect>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.07;0.09;0.11;0.33;0.34;0.36;0.57;0.59;0.61;0.82;0.84;0.86;1" values="0 0;0 0;-110 0;0 0;0 0;-110 0;0 0;0 0;-110 0;0 0;0 0;-110 0;0 0;0 0"/>
+<line x1="250" y1="194" x2="150" y2="194" stroke="#f28c28" stroke-width="1.5" />
+<path d="M150 194 l0 10 l100 0 l0 -10" fill="none" stroke="#f28c28" stroke-width="3" /></g>
+<text x="258" y="205" class="s" >wire bow</text>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.16;0.23;0.41;0.47;0.66;0.72;0.94;0.94;1" values="0 0;0 0;-49 0;-49 0;-98 0;-98 0;-147 0;-147 0;0 0;0 0"/>
+<path d="M166 238 L170 262 L360 262 L364 238" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2" />
+<rect x="364" y="232" width="20" height="14" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="370" y="142" width="10" height="90" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1" opacity="0.7"/>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.15;0.94;0.94;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="176" y="249.4" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.4;0.4;0.94;0.94;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="225" y="249.4" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.65;0.94;0.94;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="274" y="249.4" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.9;0.9;0.94;0.94;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="323" y="249.4" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.11;0.11;0.15;0.15;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.11;0.15;1" values="0 0;0 0;0 56.4;0 56.4"/>
+<rect x="176" y="193" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.36;0.36;0.4;0.4;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.36;0.4;1" values="0 0;0 0;0 56.4;0 56.4"/>
+<rect x="176" y="193" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.61;0.61;0.65;0.65;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.61;0.65;1" values="0 0;0 0;0 56.4;0 56.4"/>
+<rect x="176" y="193" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.86;0.86;0.9;0.9;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.86;0.9;1" values="0 0;0 0;0 56.4;0 56.4"/>
+<rect x="176" y="193" width="48" height="12.6" rx="2" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<text x="400" y="70" class="s c" >1 mm of ram = 15.4 mL</text>
+<text x="400" y="88" class="s c" >the Ø80 strand grows</text>
+<text x="400" y="106" class="s c" >3.06 mm per mm of ram</text>
+<text x="400" y="136" class="s c b" >7.0 mm → one 125 g</text>
+<text x="400" y="154" class="s c b" >puck Ø80 × 21</text>
+<text x="440" y="196" class="m c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0;0;0.25;0.25;1" values="0;0;1;1;0;0" calcMode="linear"/>patty 1 of 8</text>
+<text x="440" y="196" class="m c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.25;0.5;0.5;1" values="0;0;1;1;0;0" calcMode="linear"/>patty 2 of 8</text>
+<text x="440" y="196" class="m c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;0.5;0.75;0.75;1" values="0;0;1;1;0;0" calcMode="linear"/>patty 3 of 8</text>
+<text x="440" y="196" class="m c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.75;0.75;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>patty 4 of 8</text>
+<text x="200" y="284" class="s c" >pan held and indexed by the shuttle fork</text></g></g>
+<line x1="32" y1="790" x2="518" y2="790" stroke="#d0d4d9" stroke-width="1" />
+<text x="34" y="805" class="s" >The mixed mince stays in its tube. Over the Ø80 former the</text>
+<text x="34" y="822" class="s" >ram advances 7 mm, the wire bow cuts the strand, the puck</text>
+<text x="34" y="839" class="s" >drops 60 mm onto the oiled pan, the shuttle moves the pan on.</text>
+<text x="34" y="856" class="s" >Same principle: dumplings Ø45, Spätzle, piping, paste doses.</text>
+<text x="34" y="881" class="s b" style="fill:#6d8299" >8 patties in 50 s · 12 in 75 s (PRP-023: 5 min)</text>
+<clipPath id="pc5"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="545" y="492" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="559" y="517" class="m b" >5  Frying book: flip everything at once</text>
+<g transform="translate(545 492)" >
+<g clip-path="url(#pc5)">
+<rect x="40" y="256" width="430" height="12" rx="0" fill="#5b6168" stroke="#3a3f45" stroke-width="1.5" />
+<g ><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0;0;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="70" y="258" width="170" height="6" rx="0" fill="#e04a3a" stroke="none" stroke-width="0" /></g>
+<g ><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0;0;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="270" y="258" width="170" height="6" rx="0" fill="#e04a3a" stroke="none" stroke-width="0" /></g>
+<text x="155" y="284" class="s c" >3 kW coil</text>
+<text x="355" y="284" class="s c" >3 kW coil</text>
+<g ><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.28;0.45;0.46;0.62;1" values="0 255 230;0 255 230;180 255 230;180 255 230;0 255 230;0 255 230"/>
+<line x1="70.25" y1="230" x2="255" y2="230" stroke="#f28c28" stroke-width="3" />
+<path d="M72.25 230 L77.25 252 L244 252 L249 230" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2" />
+<g ><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0;0;0.28;0.28;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<g >
+<rect x="93" y="239.45" width="44" height="11.55" rx="2" fill="#7a4a26" stroke="#3a3f45" stroke-width="1" />
+<rect x="93" y="239.45" width="44" height="4" rx="2" fill="#d98b78" stroke="none" stroke-width="0" /></g>
+<g >
+<rect x="138" y="239.45" width="44" height="11.55" rx="2" fill="#7a4a26" stroke="#3a3f45" stroke-width="1" />
+<rect x="138" y="239.45" width="44" height="4" rx="2" fill="#d98b78" stroke="none" stroke-width="0" /></g>
+<g >
+<rect x="183" y="239.45" width="44" height="11.55" rx="2" fill="#7a4a26" stroke="#3a3f45" stroke-width="1" />
+<rect x="183" y="239.45" width="44" height="4" rx="2" fill="#d98b78" stroke="none" stroke-width="0" /></g></g></g>
+<g ><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.28;0.28;0.45;1" values="0 255 230;0 255 230;-180 255 230;-180 255 230;0 255 230;0 255 230"/>
+<line x1="255" y1="230" x2="439.75" y2="230" stroke="#f28c28" stroke-width="3" />
+<path d="M261 230 L266 252 L432.75 252 L437.75 230" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2" />
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.28;0.28;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<g ><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.36;0.41;1" values="0 -22;0 -22;0 0;0 0"/>
+<g >
+<rect x="373" y="239.45" width="44" height="11.55" rx="2" fill="#d98b78" stroke="#3a3f45" stroke-width="1" />
+<rect x="373" y="239.45" width="44" height="4" rx="2" fill="#7a4a26" stroke="none" stroke-width="0" /></g>
+<g >
+<rect x="328" y="239.45" width="44" height="11.55" rx="2" fill="#d98b78" stroke="#3a3f45" stroke-width="1" />
+<rect x="328" y="239.45" width="44" height="4" rx="2" fill="#7a4a26" stroke="none" stroke-width="0" /></g>
+<g >
+<rect x="283" y="239.45" width="44" height="11.55" rx="2" fill="#d98b78" stroke="#3a3f45" stroke-width="1" />
+<rect x="283" y="239.45" width="44" height="4" rx="2" fill="#7a4a26" stroke="none" stroke-width="0" /></g></g></g></g>
+<circle cx="255" cy="230" r="5" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" />
+<text x="255" y="284" class="s c" >hinge</text>
+<text x="80" y="60" class="s b" >leaf L</text>
+<text x="430" y="60" class="s b r" >leaf R</text>
+<text x="255" y="46" class="s c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0;0;0.1;0.1;1" values="0;0;1;1;0;0" calcMode="linear"/>patties fry on leaf L</text>
+<text x="255" y="46" class="s c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.1;0.28;0.28;1" values="0;0;1;1;0;0" calcMode="linear"/>1  leaf R closes over leaf L</text>
+<text x="255" y="46" class="s c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.28;0.28;0.45;0.45;1" values="0;0;1;1;0;0" calcMode="linear"/>2  both turn 180° together</text>
+<text x="255" y="46" class="s c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.45;0.45;0.62;0.62;1" values="0;0;1;1;0;0" calcMode="linear"/>3  leaf L returns</text>
+<text x="255" y="46" class="s c b" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.62;0.62;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>turned: crust up, second side fries</text></g></g>
+<line x1="557" y1="790" x2="1043" y2="790" stroke="#d0d4d9" stroke-width="1" />
+<text x="559" y="805" class="s" >Two GN 1/2 pans on hinged leaves over two induction coils.</text>
+<text x="559" y="822" class="s" >Closing the book and opening the other side turns every</text>
+<text x="559" y="839" class="s" >piece at once; nothing goes under the food. The same book</text>
+<text x="559" y="856" class="s" >breads cutlets, flattens meat (1.5 kN) and presses dough.</text>
+<text x="559" y="881" class="s b" style="fill:#6d8299" >GN 1/2 leaves · 60 Nm = 2 kN · 6 s per flip</text>
+<clipPath id="pc6"><rect x="2" y="32" width="506" height="263"/></clipPath>
+<rect x="1070" y="492" width="510" height="398" rx="8" fill="#fbfcfd" stroke="#b4bac1" stroke-width="1.5" />
+<text x="1084" y="517" class="m b" >6  Pigging and tube wash in place</text>
+<g transform="translate(1070 492)" >
+<g clip-path="url(#pc6)">
+<rect x="30" y="214" width="360" height="8" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" />
+<rect x="279" y="214" width="72" height="8" rx="0" fill="#ffffff" stroke="#3a3f45" stroke-width="1" />
+<text x="315" y="238" class="s c" >open window</text>
+<text x="65" y="46" class="s r b" >PRESS</text>
+<text x="315" y="46" class="s c b" >SERVICE</text>
+<rect x="60" y="254" width="90" height="32" rx="0" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<text x="105" y="275" class="s c" >chip box</text>
+<rect x="270" y="254" width="90" height="32" rx="0" fill="#ffffff" stroke="#6d8299" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="365" y="275" class="s" >parts basket</text>
+<g >
+<g ><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.36;0.44;0.96;0.96;1" values="105 0;105 0;315 0;315 0;105 0;105 0"/>
+<rect x="-39" y="66" width="4" height="148" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="35" y="66" width="4" height="148" rx="0" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="-35" width="2.5" fill="#c0705a"><animate attributeName="y" dur="9s" repeatCount="indefinite" keyTimes="0;0.06;0.29;1" values="142.5;142.5;214;214" calcMode="linear"/><animate attributeName="height" dur="9s" repeatCount="indefinite" keyTimes="0;0.06;0.29;1" values="71.5;71.5;0;0" calcMode="linear"/></rect>
+<rect x="32.5" width="2.5" fill="#c0705a"><animate attributeName="y" dur="9s" repeatCount="indefinite" keyTimes="0;0.06;0.29;1" values="142.5;142.5;214;214" calcMode="linear"/><animate attributeName="height" dur="9s" repeatCount="indefinite" keyTimes="0;0.06;0.29;1" values="71.5;71.5;0;0" calcMode="linear"/></rect>
+<rect x="-35" width="70" fill="#c0705a" stroke="#3a3f45" stroke-width="1"><animate attributeName="y" dur="9s" repeatCount="indefinite" keyTimes="0;0.2;0.29;1" values="192;192;214;214" calcMode="linear"/><animate attributeName="height" dur="9s" repeatCount="indefinite" keyTimes="0;0.2;0.29;1" values="28;28;0;0" calcMode="linear"/></rect>
+<g ><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.06;0.29;0.54;0.6;0.96;0.96;1" values="0 0;0 0;0 71.5;0 71.5;0 141.5;0 141.5;0 0;0 0"/><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0;0;0.6;0.6;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="-34" y="120" width="68" height="22.5" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.2" />
+<line x1="-34" y1="124" x2="34" y2="124" stroke="#6b4c8a" stroke-width="2.5" />
+<line x1="-34" y1="138" x2="34" y2="138" stroke="#6b4c8a" stroke-width="2.5" /></g></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.22;0.22;0.32;0.32;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.22;0.32;1" values="0 0;0 0;0 40;0 40"/>
+<rect x="70" y="214" width="70" height="14" rx="4" fill="#c0705a" stroke="#3a3f45" stroke-width="1" /></g>
+<g ><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.04;0.29;0.34;1" values="0 -40;0 0;0 71.5;0 -40;0 -40"/>
+<rect x="75" y="112" width="60" height="8" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="95" y="42" width="20" height="70" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /></g>
+<text x="150" y="64" class="s" >ram</text>
+<clipPath id="p6c"><rect x="0" y="34" width="510" height="300"/></clipPath>
+<g clip-path="url(#p6c)">
+<g opacity="0"><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.47;0.54;0.62;0.69;0.76;0.82;0.89;0.93;1" values="315 40;315 40;315 184;315 100;315 194;315 100;315 194;315 100;315 40;315 40"/><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.44;0.44;0.94;0.94;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<circle cx="0" cy="0" r="9" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" />
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.56;0.56;0.79;0.79;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<line x1="0" y1="0" x2="-32" y2="0" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="-27.71" y2="-16" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="-16" y2="-27.71" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="0" y2="-32" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="16" y2="-27.71" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="27.71" y2="-16" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="32" y2="0" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="27.71" y2="16" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="16" y2="27.71" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="0" y2="32" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="-16" y2="27.71" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="-27.71" y2="16" stroke="#4aa3df" stroke-width="2" />
+<line x1="0" y1="0" x2="-32" y2="0" stroke="#4aa3df" stroke-width="2" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.79;0.79;0.9;0.9;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<line x1="0" y1="0" x2="-30.91" y2="-8.28" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="-22.63" y2="-22.63" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="-8.28" y2="-30.91" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="8.28" y2="-30.91" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="22.63" y2="-22.63" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="30.91" y2="-8.28" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="30.91" y2="8.28" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="22.63" y2="22.63" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="8.28" y2="30.91" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="-8.28" y2="30.91" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="-22.63" y2="22.63" stroke="#e04a3a" stroke-width="2" />
+<line x1="0" y1="0" x2="-30.91" y2="8.28" stroke="#e04a3a" stroke-width="2" /></g>
+<rect x="-4" y="-200" width="8" height="200" rx="0" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.6;0.6;0.71;0.71;1" values="0;0;1;1;0;0" calcMode="linear"/><animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" keyTimes="0;0.6;0.67;1" values="0 0;0 0;0 62;0 62"/>
+<rect x="281" y="191.5" width="68" height="22.5" rx="0" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.2" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.93;0.93;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="301" y="40" width="28" height="16" rx="0" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2" />
+<path d="M309 56 L281 214 L349 214 Z" fill="#fff3a0" stroke="none" stroke-width="0" opacity="0.5"/></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0;0;0.36;0.36;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="64" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.36;0.36;0.47;0.47;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="86" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.47;0.47;0.56;0.56;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="108" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.56;0.56;0.68;0.68;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="130" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.68;0.68;0.79;0.79;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="152" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.79;0.79;0.93;0.93;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="174" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.93;0.93;1;1;1" values="0;0;1;1;0;0" calcMode="linear"/>
+<rect x="384" y="196" width="122" height="20" rx="0" fill="#fde3c8" stroke="none" stroke-width="0" /></g>
+<text x="390" y="56" class="s b" >program</text>
+<text x="392" y="79" class="s" >pig</text>
+<text x="392" y="101" class="s" >to SERVICE</text>
+<text x="392" y="123" class="s" >push out</text>
+<text x="392" y="145" class="s" >55 °C wash</text>
+<text x="392" y="167" class="s" >rinse</text>
+<text x="392" y="189" class="s" >85 °C rinse</text>
+<text x="392" y="211" class="s" >camera</text></g></g>
+<line x1="1082" y1="790" x2="1568" y2="790" stroke="#d0d4d9" stroke-width="1" />
+<text x="1084" y="805" class="s" >The piston pushes to the bottom rim and wipes the bore (film</text>
+<text x="1084" y="822" class="s" >≈ 50 µm). At SERVICE a spray dasher pushes it out into the</text>
+<text x="1084" y="839" class="s" >parts basket and washes the bore; one camera image checks it.</text>
+<text x="1084" y="856" class="s" >Pots, pans and tools go to the central ware washer.</text>
+<text x="1084" y="881" class="s b" style="fill:#6d8299" >≈ 5.5 L and 5 min per tube · 85 °C rinse: A0 ≥ 60</text>
+</svg>
