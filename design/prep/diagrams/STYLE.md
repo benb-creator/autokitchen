@@ -4,8 +4,8 @@ One self-contained animated SVG per candidate concept, so the customer can see h
 
 ## Files
 
-`design/prep/diagrams/K<n>-<slug>.svg` (same slug as in `design/prep/concepts/`), plus `index.html`
-showing all eight with titles and one-line captions.
+`design/prep/diagrams/K<n>-<slug>.svg` (overview) and `K<n>-<slug>-mechanisms.svg` (close-ups), same slug as
+in `design/prep/concepts/`, plus `index.html` showing all of them with titles and one-line captions.
 
 ## Content of each SVG
 
@@ -21,6 +21,24 @@ showing all eight with titles and one-line captions.
 * **Title block** top left: concept ID, name, one-line essence; key numbers top right (wall width,
   actuators, est. coverage, est. parts cost), taken from the concept document.
 
+## Mechanism close-ups (most important)
+
+The customer wants to **see how each approach works**. Besides the overview, each concept gets a second
+file `K<n>-<slug>-mechanisms.svg`: a grid of 4–6 animated close-up panels, each showing ONE characteristic
+mechanism of the concept actually doing its job, in section view where needed, e.g.:
+
+* how food is held and cut (e.g. potato pushed through a dicing grid, knife and comb, slicer disc),
+* how food moves between vessels (e.g. rim-to-rim inversion, tilt-pour, belt nose drop, ram push-out),
+* how flat items are flipped or rolled (pan-pair flip, frying book, belt loop rolling a Roulade),
+* how motion gets into the wet cell (e.g. magnet puck through the wall, ceiling seam, sealed shaft),
+* how the parts are cleaned (wash well, jet gate, mat wash on retraction, pigging, tub spray),
+* the concept's most novel idea.
+
+Each panel: a title, a looping animation of 4–10 s that makes the working principle obvious to a
+non-engineer, 1–3 short caption lines, key numbers (force, size, time) where known. Choose the panels
+that best explain *this* concept; together with the overview the viewer must understand how the concept
+cooks a meal and how it cleans itself.
+
 ## Look
 
 * viewBox `0 0 1600 900`, white background, flat colours, 2 px dark-grey outlines, sans-serif text
@@ -30,7 +48,7 @@ showing all eight with titles and one-line captions.
   heat (active induction, oven) red `#e04a3a`; seals/elastomers dark purple `#6b4c8a`.
 * Animation with SMIL (`<animate>`, `<animateTransform>`, `<animateMotion>`, `<set>`) or CSS keyframes
   inside the SVG; no JavaScript, no external files or fonts, so it plays in a browser and as an `<img>`.
-* Keep each file below ~200 KB.
+* Keep each file below ~300 KB.
 
 ## Accuracy
 
