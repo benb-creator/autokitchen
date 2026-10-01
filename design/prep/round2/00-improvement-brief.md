@@ -40,10 +40,11 @@ needed — new ideas are welcome — but every new idea must be physically argue
 
 Do not spawn helper agents.
 
-**Persist as you go (usage limits):** create your deliverable file at the start. After reading EACH other
-concept document, immediately append your brainstorm notes from it (ideas for your concept, 3–6 lines)
-to section 0 and commit. After that, commit after every finished section. If you are stopped, the next
-run continues from what is committed instead of reading everything again.
+**Persist as you go (usage limits), but commit only at the end:** create your deliverable file at the
+start. After reading EACH other concept document, immediately append your brainstorm notes from it
+(ideas for your concept, 3–6 lines) to section 0 and save the file. Save after every finished section.
+Do NOT commit intermediate states to git. If you are stopped, the next run continues from the saved
+file instead of reading everything again. Commit once, when the deliverable is complete.
 
 ## Deliverable: `design/prep/round2/Knb-<slug>.md`
 
@@ -67,5 +68,5 @@ run continues from what is committed instead of reading everything again.
    consider, each in 2–3 lines.
 9. Risks with cheapest kill experiments; open questions.
 
-Commit only your file: `git add design/prep/round2/Knb-*.md && git commit -m "Prep P5a: Knb improved"`
+When finished, commit only your file: `git add design/prep/round2/Knb-*.md && git commit -m "Prep P5a: Knb improved"`
 (no attribution lines; a hook pushes).
