@@ -2,7 +2,7 @@
 
 Document: `requirements/requirements.md` (task Q1) · Status: baseline for architecture (A1) and module design (D1–D10)
 Source of truth: [BRIEF.md](../BRIEF.md), then [DECISIONS.md](../DECISIONS.md) (customer decisions and project
-rulings 1–19 of 2026-09-30 are incorporated, see section 12.4). Where this document disagrees with either, they
+rulings 1–26 of 2026-09-30/10-01 are incorporated, see section 12.4). Where this document disagrees with either, they
 win and the conflict is to be raised as an open issue.
 
 ## 0. How to read this document
@@ -97,7 +97,7 @@ Out of scope: see non-goals (section 12.2).
 | **Component** | A separately prepared part of a course (e.g. roast, potatoes, vegetable, sauce, salad). |
 | **Portion** | The amount of a component served to one person. Reference portion sizes are in CAP-004. |
 | **Unit operation** | An elementary preparation step (e.g. dice, simmer, turn), listed in section 5.3. |
-| **Meal corpus** | The reference list of traditional meals in `research/02-meal-corpus.md`, used to measure the 95 % goal. |
+| **Meal corpus** | The reference list of traditional meals in `research/02-meal-corpus.md`, used to measure the coverage goal (brief: 95 %; DEC-26: 93 %). |
 | **Zone F** (food contact) | Surfaces that touch food, or from which anything can drip, drain or fall into food. |
 | **Zone S** (splash) | Surfaces that food, splashes, steam, condensate or dust from food can reach during normal operation or a foreseeable spill, but that are not Zone F. |
 | **Zone N** (non-food) | Internal surfaces that food, splashes and steam cannot reach in normal operation (drives, electronics, utilities). |
@@ -127,6 +127,7 @@ Out of scope: see non-goals (section 12.2).
 | GEN-006 | The system shall be buildable as defined in section 10. | Build constraints. | M | R | B13 |
 | GEN-007 | No requirement of this document shall be met by a recurring manual step other than those in section 7.8. | Closes the loophole "the user just does X". | M | R | B1, B6 |
 | GEN-008 | Every design document shall list, for each requirement allocated to it, how the requirement is met or why it is not. | Verifiability in paper phases. | M | R | drv |
+| GEN-009 | Among solutions that meet the requirements comparably, the simpler one shall be chosen: fewer parts, mechanisms, actuators and interfaces, fewer food-contact surfaces. Every concept and design shall report its part and actuator count per module. | Customer decision DEC-20: simple solutions are more reliable, easier to clean, cheaper, easier to build and smaller. | M | R | B13, DEC-20 |
 
 ---
 
@@ -442,6 +443,7 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | PRP-036 | The module shall be able to hold prepared ingredients and intermediate products at ≤ 7 °C (marinating, dough resting, prepared salad, set desserts) for up to 24 h, e.g. by returning them in a closed vessel or box to cold storage. | Multi-stage recipes; FSF limits. | M | D | drv |
 | PRP-037 | The module shall be able to hold dough at 28–35 °C for proofing. | Yeast dough: 11 corpus meals, no workaround. | M | D | B5 |
 | PRP-038 | Mixing, whipping and kneading shall work over the full quantity range of 1–4 persons and of one cake or loaf: from 1 egg white (30 mL) or 100 g of dough up to 6 egg whites, 1.2 kg of dough (rising to about 3.5 L), 0.8 kg of salad leaves (≈ 3.5 L) and 0.8 kg of mince mass; working volume of the largest mixing vessel ≥ 5 L (nominal ≥ 6 L). | Corpus 6.3 scaled to 4; a 26 cm cake or a 750 g-flour loaf does not scale down. | M | T | B5, B8, DEC-19 |
+| PRP-039 | **Generic peeling, stoning, deseeding and coring** is a core function (DEC-25): the machine shall remove skin, stones, seeds and cores from at least potato, carrot, celeriac, kohlrabi, beetroot, pumpkin/squash, ginger, white asparagus, cucumber, courgette, apple, pear, banana, avocado, mango, kiwi, orange, lemon (peel and segments), bell pepper, chili, tomato (core), peach, plum, apricot; cherries and pineapple: S. Generic mechanisms shall be preferred: the design shall state how many distinct peeling/coring mechanisms it needs for this list (target ≤ 3) and justify every single-purpose device. Results: residual skin ≤ 5 % of the surface; no stone or seed fragment > 2 mm left; flesh loss ≤ 25 % for smooth produce, ≤ 30 % for knobbly produce (est.). | Customer decision: this is the same task for all produce; dishes such as guacamole, banana bread, fruit salad, apple cake, mango and avocado salads are preparable targets. | M | T, R | B5, DEC-25 |
 
 ### 3.6 Cooking and baking (COK)
 
@@ -466,10 +468,10 @@ Column "Trace": brief section or "drv". Capacity numbers referenced here are def
 | COK-017 | The module shall keep finished components at ≥ 65 °C without further cooking them noticeably, for up to 30 min, and cold components at ≤ 7 °C. | All components ready together; late pick-up. | M | T | B8 |
 | COK-018 | Steam, fumes and grease aerosol from cooking shall be captured inside the machine (ENV-010 ff.). | Home environment; casing cleaning. | M | T | B6, drv |
 | COK-019 | All surfaces of the cooking positions and the cavity, including burnt-on residue, shall be cleaned by the machine (HYG-033). | Brief. | M | T | B6 |
-| COK-020 | Off-the-shelf cooking and baking equipment should be used where it meets the requirements. The cooking positions shall be built from controllable OEM or commercial induction modules, not from a finished consumer hob. | Standard parts. Consumer hobs cannot be started remotely (DEC-5). | M | R | B7, B13, DEC-5 |
+| COK-020 | Off-the-shelf cooking and baking equipment should be used where it meets the requirements. A bought oven may be modified — door, mounting orientation, controls, access openings — where the machine's access requires it; the design shall list every modification and prefer the solution with fewer modifications. The cooking positions shall be built from controllable OEM or commercial induction modules, not from a finished consumer hob. | Standard parts; DEC-24; consumer hobs cannot be started remotely (DEC-5). | M | R | B7, B13, DEC-5, DEC-24 |
 | COK-021 | The quantity of free fat or oil in any vessel shall be limited to 250 mL (est.). | Fire load for unattended cooking; excludes deep frying (section 5.4). | M | R | drv |
 | COK-022 | The module shall cool a cooked component from 65 °C to ≤ 10 °C within 120 min when the recipe needs it cold (potato salad, pudding, cooked components of salads). | Food safety; cold dishes. | S | T | drv |
-| COK-023 | Any off-the-shelf appliance integrated into the machine (oven, dish washer, fridge, induction module) shall be started, controlled and monitored by the control system without a human action at the appliance (no "remote start" button to be pressed), and without dependence on a manufacturer cloud service. | Consumer appliances often require a manual remote-start confirmation and a cloud API (`research/05`); both defeat autonomy and CTL-012. | M | D | B1, drv |
+| COK-023 | Any off-the-shelf appliance integrated into the machine (oven, dish washer, fridge, induction module) shall be started, controlled and monitored by the control system without a human action at the appliance (no "remote start" button to be pressed), and without dependence on a manufacturer cloud service — if necessary by modifying its controls (COK-020, DEC-24). | Consumer appliances often require a manual remote-start confirmation and a cloud API (`research/05`); both defeat autonomy and CTL-012. | M | D | B1, drv |
 
 ### 3.7 Portioning and serving (SRV)
 
@@ -649,21 +651,21 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 
 ---
 
-## 5. Meal coverage: "at least 95 % of all traditional meals"
+## 5. Meal coverage: "at least 95 % of all traditional meals" (DEC-26: 93 %)
 
 ### 5.1 Measure
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
 | MEAL-001 | The reference for "traditional meals" is the meal corpus in `research/02-meal-corpus.md`: 248 meals and meal components in 19 categories (56 % German/Austrian/Swiss home cooking, the rest the internationally established everyday dishes cooked in such households), each decomposed into unit operations and weighted 1–3 by how often it is cooked. Beverages are not meals. | Defines the population for the 95 %. | M | R | B5 |
-| MEAL-002 | Coverage: ≥ 95 % of the corpus meals by count (≥ 236 of 248) **and** ≥ 95 % by weight shall be *preparable* as defined in MEAL-010, with ingredients bought in the forms permitted by MEAL-012 and no others. | Brief. The purchase rule is part of the measure: with heavily pre-made products the corpus reaches 97 % with four hard operations; without any pre-processed purchase 95 % needs twenty. | M | A (V2 walk-through and recomputation per corpus appendix A), later T on a sample | B5 |
+| MEAL-002 | Coverage: ≥ 93 % of the corpus meals by count (≥ 231 of 248) **and** ≥ 93 % by weight shall be *preparable* as defined in MEAL-010, with ingredients bought in the forms permitted by MEAL-012 and no others. | Brief (95 %), lowered by the customer to 93 % (DEC-26). Bought filled pasta and pastry or wrapper sheets remain not permitted. | M | A (V2 walk-through and recomputation per corpus appendix A), later T on a sample | B5, DEC-26 |
 | MEAL-003 | Every corpus meal of weight 3 (staple) shall be preparable, except those listed as falling out in section 5.4. | The meals eaten most often matter most. | M | A | B5 |
 | MEAL-004 | Coverage by category: in every corpus category with ≥ 10 meals, ≥ 85 % shall be preparable. | The 5 % must not wipe out a whole category (e.g. all baking). | S | A | B5 |
 | MEAL-005 | Regardless of percentages, the meals named in the brief shall be preparable: mixed salad with dressing (SA01); mashed potatoes (SD02); roast beef and other boneless roasts with gravy (DM08 and equivalents); Frikadellen (DM01); Rouladen (DM02), rolled and secured by the machine; soups (clear with garnish, puréed, stew-like: SP01–SP19); pan-fried steak (DM23); pasta with sauce (IT01 and equivalents). | Brief, literally. | M | A, D | B5 |
 | MEAL-006 | Every meal that is not preparable shall be listed with the reason and the missing unit operation, so that the 5 % is known, not accidental. | Transparency; basis for customer decisions. | M | R | B5 |
 | MEAL-007 | Coverage shall be evaluated by walking each corpus row's ordered unit operations through the designed tools, vessels and capacities, for 2 persons; the 15 reference menus of corpus section 4.9 (Annex A) and ≥ 20 further meals spread over all categories also for 1 and 4 persons. | Verification method for the paper phase (V2). | M | R | B5, B8 |
 | MEAL-008 | The corpus taxonomy (codes, definitions, difficulty and avoidability ratings) is the common vocabulary of all design documents and of the recipe format (CTL-002); section 5.3 allocates every corpus code. If the corpus is revised, section 5.3 shall be updated to it. | Single source for designers. | M | R | drv |
-| MEAL-009 | **Fresh produce.** Every meal counted in MEAL-002 shall be made from whole fruit and vegetables that the machine washes, peels, trims, cores and cuts itself; the only exceptions are those of section 5.6 (peeled onions, shallots, garlic; frozen peas, corn kernels and whole berries; tinned whole tomatoes, passata, tomato paste, pulses, corn). Therefore all produce operations of section 5.3 are M, except the S operations listed there (onion peeling, white asparagus peeling, stoning, whole cabbage leaves, whole pineapple, thin wrapper sheets); meals depending on an S operation count against MEAL-019 or the 5 % until it is built. Target (S): MEAL-002 also met with unpeeled onions and garlic (the onion peeler upgrade, DEC-9). | Customer decision: the machine washes, peels and cuts fruit and vegetables itself. | M | A | B5, DEC-8, DEC-9 |
+| MEAL-009 | **Fresh produce.** Every meal counted in MEAL-002 shall be made from whole fruit and vegetables that the machine washes, peels, trims, cores and cuts itself; the only exceptions are those of section 5.6 (peeled onions, shallots, garlic; frozen peas, corn kernels and whole berries; tinned whole tomatoes, passata, tomato paste, pulses, corn). Therefore all produce operations of section 5.3 are M, except the S operations listed there (onion peeling, whole cabbage leaves, whole pineapple, thin wrapper sheets); meals depending on an S operation count against MEAL-019 or the 5 % until it is built. Target (S): MEAL-002 also met with unpeeled onions and garlic (the onion peeler upgrade, DEC-9). | Customer decision: the machine washes, peels and cuts fruit and vegetables itself. | M | A | B5, DEC-8, DEC-9 |
 
 ### 5.2 What "preparable" means
 
@@ -677,7 +679,7 @@ Acceptance criteria and frequencies are in section 7; this table states the func
 | MEAL-015 | The result is accepted: in a blind comparison with the same dish by a competent home cook, ≥ 5 raters give a mean ≥ 3.0 of 5 (3 = "as good as normal home cooking") for taste and texture, and none of the recipe's objective criteria (doneness, core temperature, consistency, browning) is missed. | "Cook … normal meals" means edible to home standard, not merely processed. | M | T (prototype), R (paper phase: objective criteria only) | B1 |
 | MEAL-016 | It can be prepared for every number of persons from 1 to 4 (largest single pieces, e.g. a roast, may have a minimum size serving more than 1). | B8. | M | A | B8 |
 | MEAL-017 | It meets the time target PERF-001 and is completed without human intervention in ≥ 98 % of attempts (REL-001). | — | M | A, T | drv |
-| MEAL-018 | **Operations the machine shall perform itself.** (a) Those with no purchase workaround at all — browning on both sides (FLP, 12.9 % of meals), assembling (ASM, 6.9 %), carving (CAR, 4.8 %), unmoulding (UNM, 4.4 %), scoring (SCO, 2.8 %); together 29 % of the corpus. (b) The shaping cluster, avoidable only with products that MEAL-012 forbids — stuff/fill (STU), wrap (WRP), hand-form small pieces (FRM), dough rolling and shaping (ROL, SHD), breading (BRD), roll-and-secure (RLT), and forming patties and dumplings (FRB, FRK); the cluster alone blocks 38 meals = 15.3 %. These operations are priority M in section 5.3, within the limits stated there; the 95 % target cannot be met without them. A design that omits one of them shall show, meal by meal, that MEAL-002 and MEAL-003 still hold. | Makes explicit where the difficulty of the 95 % goal lies (corpus sections 4.5–4.7, 7). | M | R, A | B5 |
+| MEAL-018 | **Operations the machine shall perform itself.** (a) Those with no purchase workaround at all — browning on both sides (FLP, 12.9 % of meals), assembling (ASM, 6.9 %), carving (CAR, 4.8 %), unmoulding (UNM, 4.4 %), scoring (SCO, 2.8 %); together 29 % of the corpus. (b) The shaping cluster, avoidable only with products that MEAL-012 forbids — stuff/fill (STU), wrap (WRP), hand-form small pieces (FRM), dough rolling and shaping (ROL, SHD), breading (BRD), roll-and-secure (RLT), and forming patties and dumplings (FRB, FRK); the cluster alone blocks 38 meals = 15.3 %. These operations are priority M in section 5.3, within the limits stated there; the coverage target cannot be met without them. A design that omits one of them shall show, meal by meal, that MEAL-002 and MEAL-003 still hold. | Makes explicit where the difficulty of the 95 % goal lies (corpus sections 4.5–4.7, 7). | M | R, A | B5 |
 | MEAL-019 | **Budget for adaptations.** (1) *Mandated adaptations* — those this specification itself prescribes by its exclusions (section 5.4: X-01, X-06, X-11, X-13, and the purchase rule MEAL-012; at present 24 meals = 9.7 %, listed in 5.5) — are kept in a separate list and do not consume the designers' budget, whatever class the panel assigns them. (2) *Designer-chosen class (c)*: ≤ 24 meals (10 % of the corpus), and ≤ 5 of the weight-3 meals. (3) *Designer-chosen class (b)* pending panel confirmation: ≤ 50 meals (20 %); in the paper phase they count as zero against (2) but each shall name its fallback if the panel notices. (4) Ceiling for everything the user can notice — mandated meals that turn out class (c), plus (2): ≤ 40 meals (16 %). | The former single 10 % limit was almost used up by the specification's own substitutions. | M | A, T | B5 |
 | MEAL-020 | **Served as components for assembly at the table.** Counts as preparable, as class (a), for meals the customer accepts being assembled by the diner (DEC-14): tacos, fajitas, wraps and burritos, raclette-like and cold platters, garnishes served alongside. It does not count as preparable for meals whose identity is the assembly made in the kitchen: burger, sandwich and toast, hot dog, pizza, enchiladas, layered and filled dishes and cakes. | Customer decision. | M | R | B5, B8, DEC-14 |
 | MEAL-021 | One register of adaptations shall be kept for the whole project (owner: architecture/V2): per corpus meal its class, the method, whether mandated, the panel status and the fallback. Every design document shall use the class letters of MEAL-013 and the rulings of section 5.5. | "Not yet counted by anyone" (explorers). | M | R | drv |
@@ -712,8 +714,8 @@ the operation(s).
 | UO-10 | Wash robust produce WSH; wash leafy/delicate produce WLF; spin or pat dry DRY | 146 / 86 | leaf salad ≤ 5 % adhering water; no grit | M | P |
 | UO-11 | Peel potato and smooth roots PLP | 60 | PRP-022 | M | P |
 | UO-12 | Peel onion, shallot and garlic PLA | 129 | ≥ 95 % skin-free; cutting away some flesh is acceptable (DEC-9) | S (upgrade; peeled onions and garlic are the baseline purchase, DEC-9). Dicing and slicing onions is always M (UO-14 to UO-16). | P |
-| UO-24 | Peel soft fruit and vegetables PLS (cucumber, apple, pear, mango, kiwi, banana); hard/knobbly PLH (celeriac, kohlrabi, carrot, beetroot, pumpkin, ginger); tomato by blanching PLM; boiled egg PLE | 26 / 18 / 2 / 7 | peel loss ≤ 30 % for knobbly roots; white asparagus peeling: S | M | P |
-| UO-13 | Trim ends TRE (beans, leek, spring onion, sprouts, mushrooms, strawberries); core/deseed/hull COR (pepper, apple, cabbage, tomato, chili, pumpkin, avocado stone); strip/pluck/break into florets STR (herbs, kale, cauliflower, broccoli); stone PIT; separate whole cabbage leaves LSP; peel and core whole pineapple | 31 / 50 / 9 / 3 / 1 / 2 | TRE, COR, STR: M. PIT, LSP, pineapple: S | M | P |
+| UO-24 | Peel soft fruit and vegetables PLS (cucumber, apple, pear, mango, kiwi, banana, citrus); hard/knobbly PLH (celeriac, kohlrabi, carrot, beetroot, pumpkin, ginger, white asparagus); tomato and peach by blanching PLM; boiled egg PLE | 26 / 18 / 2 / 7 | peel loss ≤ 30 % for knobbly roots; PRP-039 | M (core function, DEC-25) | P |
+| UO-13 | Trim ends TRE (beans, leek, spring onion, sprouts, mushrooms, strawberries); core/deseed/hull COR (pepper, apple, pear, cabbage, tomato, chili, pumpkin, melon); stone PIT (avocado, mango, peach, plum, apricot, cherry, olive); strip/pluck/break into florets STR (herbs, kale, cauliflower, broccoli); separate whole cabbage leaves LSP; peel and core whole pineapple | 31 / 50 / 3 / 9 / 1 / 2 | TRE, COR, PIT, STR: M (PIT for cherries and olives: S); LSP, pineapple: S | M | P |
 | UO-14 | Slice SLI | 70 | 1–20 mm, PRP-021 | M | P |
 | UO-15 | Dice DIC; sticks and strips JUL | 106 / 13 | 3–25 mm | M | P |
 | UO-16 | Mince fine MIN; chop herbs CHH | 35 / 26 | < 3 mm | M | P |
@@ -812,13 +814,13 @@ the operation(s).
 | UO-96 | Make stock ahead: simmer bones and/or vegetables 1–4 h, strain, portion and freeze; keep ≥ 3 L of frozen stock in stock | 49 (use stock) | stock concentrates may not be bought (MEAL-012) | M | P/C |
 | UO-97 | Make from scratch what the corpus row buys ready: pesto (PUR), mayonnaise and dressings (EMU), custard/pudding from milk, starch, egg (STC), fish fingers from fillet (BRD) | — | as the operations named | M | P/C |
 
-### 5.4 Candidates for exclusion (the "5 %")
+### 5.4 Candidates for exclusion (the "7 %")
 
-The corpus has 248 meals, so at most 12 may be not preparable. With the exclusions below and the purchase
+The corpus has 248 meals, so at most 17 may be not preparable (MEAL-002, DEC-26). With the exclusions below and the purchase
 rule of MEAL-012, the meals known to fall out are 11 (4.4 %): CK11 yeast doughnuts, DM21 roast goose (duck
 ≤ 2.5 kg remains), DS13 ice cream, BF08 waffles, AS05 sushi, BK06 pretzels, CK08 Black Forest cake, BK02
 sourdough bread, CK12 apple strudel (hand-pulled dough), and AS08 spring rolls and AS09 gyoza (no wrappers may
-be bought). The reserve is 1 meal. The thin-sheet capability of UO-45 (S) brings AS08 and AS09 back (reserve 3);
+be bought). The reserve is 6 meals. The thin-sheet capability of UO-45 (S) brings AS08 and AS09 back (reserve 8);
 V2 shall recompute the list. If the reserve is exceeded, the cheapest candidates to re-include are, in this
 order, thin wrapper sheets (UO-45), X-11 (waffle plates, possibly shared with two-sided heating), X-09, X-01.
 
@@ -1004,8 +1006,8 @@ All values est.; for the reference household / reference meal; energy as electri
 | RES-002 | Energy per day, reference household, everything included: ≤ 7 kWh (M), ≤ 5 kWh (S). | ≤ 2 550 kWh/year; running cost. | M | A, T | drv, DEC-18 |
 | RES-003 | Idle power, excluding refrigeration compressors: ≤ 15 W (M), ≤ 8 W (S). | 8 760 h/year. | M | T | drv |
 | RES-004 | Cold storage energy for the capacity of CAP-021 and CAP-022: ≤ 1.2 kWh/day at 25 °C room temperature with the reference retrieval pattern (M); ≤ 0.8 kWh/day (S). | Two cold cells of class D/E plus exit losses. | M | T | B4, DEC-18 |
-| RES-005 | Water per reference meal (2 persons) including all cleaning and washing its dishes: ≤ 35 L (M), ≤ 22 L (S); per sizing meal (4 persons) ≤ 45 L. | A ware wash ≈ 17–20 L (`research/06`); dishes, in-place cleaning and cooking water. | M | T, A | drv, DEC-18 |
-| RES-006 | Water per day, reference household: ≤ 75 L (M), ≤ 50 L (S). | ≤ 27 m³/year. | M | A, T | drv, DEC-18 |
+| RES-005 | Water per reference meal (2 persons) including all cleaning and washing its dishes shall be estimated and reported. Targets: ≤ 35 L, stretch ≤ 22 L; per sizing meal (4 persons) ≤ 45 L. Not a pass/fail criterion for concept selection now (DEC-23); hygiene requirements (section 7) take precedence over any water saving. | A ware wash ≈ 17–20 L (`research/06`); water optimisation is a later step. | S | T, A | drv, DEC-18, DEC-23 |
+| RES-006 | Water per day, reference household, shall be estimated and reported. Targets: ≤ 75 L, stretch ≤ 50 L. Not a selection gate (DEC-23). | ≤ 27 m³/year. | S | A, T | drv, DEC-18, DEC-23 |
 | RES-007 | Holiday mode: ≤ 1.5 kWh/day and ≤ 3 L/day averaged. | Only cold storage, control and stagnation flushing. | S | A | drv |
 | RES-008 | Detergent consumption: ≤ 45 g (or mL) per day at reference use (est.). | Running cost; CAP-040 store size ≤ 2 L. | S | A | drv, DEC-18 |
 | RES-009 | Food loss caused by the machine (residues in packages, boxes, vessels, tools, on the way; excluding peel/trimmings and plate leftovers): ≤ 5 % of ingested mass. | Yield. | S | A, T | drv |
@@ -1229,10 +1231,10 @@ This list is exhaustive (GEN-003). Times are the user's own time per occurrence.
 
 | ID | Requirement | Rationale | Prio | Verif. | Trace |
 |----|-------------|-----------|------|--------|-------|
-| BLD-001 | ≥ 85 % of BOM line items and ≥ 80 % of BOM value shall be catalogue parts purchasable in single quantities by a private buyer in the EU; every part with manufacturer part number, supplier and price. | Brief: standard parts. | M | R | B13 |
-| BLD-002 | Non-catalogue parts shall be limited to: (a) parts printable on a desktop FDM printer with a build volume of 250 × 210 × 210 mm in PETG, ASA, PA or TPU; (b) cut-to-length profiles, laser-cut and bent sheet metal, and simple turned or milled parts that can be ordered from online fabrication services from the supplied drawings. No injection moulding, casting, or welding by the builder. | Brief: "off-the-shelf parts and a 3D printer". | M | R | B13 |
+| BLD-001 | ≥ 85 % of BOM line items and ≥ 80 % of BOM value shall be catalogue parts purchasable in single quantities by a private buyer in the EU; every part with manufacturer part number, supplier and price. | Brief: standard parts; off-the-shelf remains preferred, but custom stainless parts are allowed where necessary (DEC-21). | S | R | B13, DEC-21 |
+| BLD-002 | Non-catalogue parts shall be limited to: (a) parts printable on a desktop FDM printer with a build volume of 250 × 210 × 210 mm in PETG, ASA, PA or TPU (within HYG-015 and BLD-003); (b) cut-to-length profiles, laser-cut and bent sheet metal, and simple turned or milled parts ordered from fabrication services from the supplied drawings; (c) where necessary, stainless steel parts laser-cut, bent, welded and polished by a job shop to the hygienic requirements of section 7 (welds continuous, ground and polished to HYG-012). Each custom part shall be justified against an off-the-shelf alternative. No injection moulding or casting; no welding by the builder. | Brief: "off-the-shelf parts and a 3D printer"; customer decision DEC-21. | M | R | B13, DEC-21 |
 | BLD-003 | Printed parts shall not be used where HYG-015 forbids, where they would exceed their material's heat-deflection temperature minus 20 K, or as the sole load path for holding hot or heavy (> 2 kg) items above humans' reach zones without a safety factor ≥ 4. | Printed plastic creeps, softens and is anisotropic. | M | R | B13 |
-| BLD-004 | Target cost (parts, single unit, retail prices incl. VAT, without labour, tools and the printer): MVC ≤ EUR 25 000 (M), ≤ EUR 15 000 (S); ingestion version A ≤ EUR 4 000 extra; each additional storage module ≤ EUR 2 500 (all est.). The architect shall allocate a cost budget per module. | Proposal. Prior art places a complete automated kitchen in the fitted-kitchen class (EUR 20–60 k, `research/01`); parts count and cost must steer the design. | M | A (BOM) | B13 |
+| BLD-004 | Cost (parts, single unit, retail prices incl. VAT, without labour, tools and the printer) shall be estimated honestly per module and reported for every concept and design. Targets: MVC ≤ EUR 25 000, stretch ≤ EUR 15 000; ingestion version A ≤ EUR 4 000 extra; each additional storage module ≤ EUR 2 500 (all est.). Cost is **not** a pass/fail criterion for concept selection at this stage; cost optimisation is a later step (DEC-22). | Customer decision; prior art places an automated kitchen in the fitted-kitchen class (EUR 20–60 k, `research/01`). | S | A (BOM) | B13, DEC-22 |
 | BLD-005 | Tools needed to build: hand tools (hex keys, screwdrivers, spanners, torque wrench, pliers), cordless drill, deburring and tapping tools, crimping and soldering tools, multimeter, desktop FDM printer, PC. No machine tools, welding equipment or special calibration equipment. | Buildable by a skilled amateur. | M | R | B13 |
 | BLD-006 | Build documentation per module: BOM, drawings and print files, wiring and plumbing diagrams, assembly sequence, commissioning and test procedure. | Reproducibility. | M | R | B13 |
 | BLD-007 | Variety shall be limited across modules: one profile system, one fastener family (≤ 15 fastener types), ≤ 3 motor/driver families, one controller family, one connector family per function. | Spare parts, learning effort. | S | R | B13 |
@@ -1361,7 +1363,7 @@ These are requirements, not designs. A risk assessment decides the measures.
 | SAF-053 | Water from any single leak, hose failure or overflow shall not reach live parts: electrical compartments above or sealed from water paths; every wet module has a base tray with leak detection. | Shock, fire. | M | A, T | drv |
 | SAF-054 | On a detected leak the supply shall be shut at the inlet within 2 s; water released into the room ≤ 1 L; the supply valve is closed whenever no water is being drawn and on loss of power. | Water damage in an unattended home. | M | T | drv |
 | SAF-055 | No single valve or sensor failure shall cause overflow of a vessel, sump or tray. | Flooding. | M | A | drv |
-| SAF-056 | Where an off-the-shelf appliance is modified, its own safety devices (door interlocks, thermal cut-outs, leak protection) shall remain effective, its refrigerant circuit untouched, and nothing added inside a compartment cooled with flammable refrigerant shall be a potential ignition source. | Modifying appliances voids their certification. | M | R | B4, B13 |
+| SAF-056 | Where an off-the-shelf appliance is modified (e.g. oven door, orientation or controls, DEC-24), its safety functions (door interlocks, thermal cut-outs, leak protection) shall remain effective or be replaced by equivalent ones, its refrigerant circuit untouched, and nothing added inside a compartment cooled with flammable refrigerant shall be a potential ignition source. | Modifying appliances voids their certification. | M | R | B4, B13, DEC-24 |
 
 ### 11.7 Water and drain protection
 
@@ -1487,6 +1489,13 @@ where the last column says so.
 | DEC-11 (customer) | Height 2 000–2 200 mm; depth 600 mm. | PHY-002, PHY-012 |
 | DEC-12 (customer) | Leftovers discarded; stored if easy. | SRV-021, OQ-14 |
 | DEC-13 (customer) | The machine is the only fridge and pantry; it serves simple drinks and snacks. | CAP-012, CAP-021, CAP-022, CAP-025, CAP-026, SRV-022, SRV-024 to -026, UC-19, UI-009, PHY-004, REL-004 table, NG-01, OQ-20 |
+| DEC-20 (customer) | Simplicity is a high-weight decision criterion. | GEN-009, PRP-003, PRP-039 |
+| DEC-21 (customer) | Job-shop laser-cut, bent, welded, polished stainless parts allowed where necessary; off-the-shelf preferred. | BLD-001, BLD-002 |
+| DEC-22 (customer) | Cost optimisation later; cost reported, not a gate. | BLD-004 |
+| DEC-23 (customer) | Water optimisation later; reported, not a gate; hygiene first. | RES-005, RES-006 |
+| DEC-24 (customer) | A bought oven may be modified; fewer modifications better. | COK-020, COK-023, SAF-056 |
+| DEC-25 (customer) | Generic peeling and stoning/deseeding/coring of most produce is a core function; generic solutions preferred. | PRP-039, UO-13, UO-24, MEAL-009 |
+| DEC-26 (customer) | Coverage target 93 %; bought filled pasta and pastry/wrapper sheets still not allowed. | MEAL-002, section 5.4 (17 meals may fall out, reserve 6), MEAL-018 |
 | DEC-19 (customer) | Maximum 4 persons per meal; batches, vessels, cooking positions, dish stock and time limits for 1–4. | 1.4 sizing meal, 6.1, CAP-001, -002, -004, -006, -013, -030, -031, -041, ING-022, PRP-023, -031, -038, COK-002, -004, -006, -016, TRN-004, SAF-023, SRV-001, -009, -014, WSH-002, -005, CTL-002, UI-003, MEAL-007, -016, PERF-001, RES-001, -005, X-05, NG-06, AS-12, OQ-04, PHY-004, Annex A |
 | DEC-18 (customer) | Regular household 2 persons; up to 6 occasionally with guests; storage, autonomy, daily and lifetime figures sized for 2; guest meals supplied by a shop shortly before. | Reference household and reference meal (1.4), CAP-002, CAP-010, CAP-012, CAP-013, CAP-020 to -025, CAP-041, ING-022, PERF-001, RES-001 to -008, REL-004 table, PHY-004, AS-12, OQ-11 |
 | DEC-17 (customer + ruling) | A separate ordinary fridge is allowed; the machine's cold storage is sized for cooking ingredients; MVC ≤ 3.6 m, larger storage ≤ 4.2 m as option; drink pouring kept for drinks the machine stores. | Section 6.2 derivation, CAP-002, CAP-012, CAP-020 to -026, PHY-004, SRV-022, SRV-024, REL-003, REL-004 table, NG-13, OQ-11, OQ-20 |
@@ -1504,7 +1513,7 @@ where the last column says so.
 | B2 Parts list | MOD-001; sections 3.1–3.13 |
 | B3 Rectangular plastic boxes, small to medium, in a grid; a specific box to the exit; "design this transport system" | BOX-001 to -014; STO-001 to -015; TRN-001 to -016; CAP-020, -023 |
 | B4 Cold storage works the same; exit thermally closed; ideally off-the-shelf fridge/freezer with modified door | CLD-001 to -014; CAP-021, -022; RES-004; SAF-056 |
-| B5 Multi-tool or tools; all steps for most meals; ≥ 95 %; named meals; pouring from box to bucket, bucket to bucket, bucket to pan; novel tools welcome | PRP-001 to -037; MEAL-002, -005; MEAL-018; section 5.3 (UO-01 to UO-95); section 5.4 |
+| B5 Multi-tool or tools; all steps for most meals; ≥ 95 % (DEC-26: 93 %); named meals; pouring from box to bucket, bucket to bucket, bucket to pan; novel tools welcome | PRP-001 to -037; MEAL-002, -005; MEAL-018; section 5.3 (UO-01 to UO-95); section 5.4 |
 | B6 Everything cleaned automatically; hygienic; human cleans nothing; including boxes and transport | GEN-002; section 7 (HYG, FSF, HUM); WSH-004 to -013; PRP-030; TRN-011, -012; STO-012; COK-019; SRV-019; ING-013; INA-013 |
 | B7 Cooking (e.g. induction) and baking, designer free | COK-001 to -023 |
 | B8 Portion on a dish, nicely presented; several persons at once; specific place with automatic door | SRV-001 to -013; CAP-001 to -007; SAF-032 |
@@ -1552,7 +1561,7 @@ where the last column says so.
 |---|------|--------|----------------------------------|
 | 1 | The scope exceeds any existing product: no prior system combines storage, raw preparation, cooking, plating, self-cleaning and ingestion. | Unbuildable or unaffordable machine. | Priorities M/S/C; explicit exclusions (5.4); MVC (MOD-030); cost budget per module (BLD-004). |
 | 2 | "No human cleaning" fails at the casing, transport and storage interiors. | Hygiene hazard or hidden manual work. | Zones, surface inventory, schedule and acceptance criteria (section 7); exhaustive human task list (7.8); hygiene audit V3. |
-| 3 | 95 % coverage is claimed but not achieved in quality. | Meals processed but not good. | MEAL-010 to -021 define "preparable", the classes of adaptation and their budgets. |
+| 3 | 93 % coverage is claimed but not achieved in quality. | Meals processed but not good. | MEAL-010 to -021 define "preparable", the classes of adaptation and their budgets. |
 | 4 | Raw-ingredient preparation (peeling, meat handling, forming, Rouladen) has no prior art. | Largest development effort; coverage gap. | Solution-neutral unit operations with measurable limits; permitted ingredient forms (MEAL-012, OQ-07); multi-round preparation design (DEC-2). |
 | 5 | Version A ingestion of arbitrary packages from a pile. | Low automatic rate, many rejects. | Staged requirement (INA-001, INA-006), reject path, version B as fallback (ING-001). |
 | 6 | Opening everything at ingestion destroys shelf life. | Food waste, autonomy lost. | Two lanes (ING-018), FSF-050 to -052. |
@@ -1585,7 +1594,7 @@ sources, B = peak concurrent food vessels.
 | 8 | Rouladen + red cabbage + potato dumplings | 3 | 5 | PERF-002 e |
 | 9 | Roast pork + dumplings + red cabbage + gravy | 4 | 6 | PERF-002 f; sizes COK-002 and CAP-030 |
 | 10 | Goose + red cabbage + dumplings + gravy | 4 | 6 | goose excluded (X-04); run with duck ≤ 2.5 kg |
-| 11 | White asparagus + hollandaise + potatoes + schnitzel | 4 | 6 | asparagus peeling is S (bought peeled by default) |
+| 11 | White asparagus + hollandaise + potatoes + schnitzel | 4 | 6 | asparagus peeling by the machine (PRP-039, DEC-25) |
 | 12 | Butter chicken + rice + naan + raita | 4 | 5 | naan in the pan, in batches |
 | 13 | Burger + fries + coleslaw | 3 | 4 | assembly ASM; fries adapted |
 | 14 | Lasagne + salad | 3 | 4 | PERF-002 g |
