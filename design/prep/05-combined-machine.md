@@ -409,3 +409,181 @@ the next meal's dishes, or a 15-min quick hygiene load: 4 items.**
 both bounded by the single hand; B2 needs potatoes cooked ahead (a scheduling rule, not a texture change).
 Events in the meal: 12–71, mean ≈ 46 per meal; 4-person meals 45–71.
 
+---
+
+## 6. Cleaning
+
+### 6.1 Per meal
+
+| Surface / item | Method | Verification | Water / energy / time [E] |
+|---|---|---|---|
+| All ware, tools, cassette, fixtures | wash chamber, hygiene programme (70 °C hold 10 min); cold rinse within 2 min of emptying a hot vessel (tap spout over the gully); red ware always in a held load | programme log; per-item camera (white, oblique, UV-A) at unloading; logger on the coldest item during validation (HYG-027) | ≈ 10 L, 0.6 kWh, 30 min per load; 2 loads (2 persons), 3 loads (4 persons) incl. dishes |
+| Dishes, glasses, cutlery, hatch tray | same chamber, dish load; hatch tray swapped after every return (SRV-027) | camera on returns (foreign items, chips, SRV-015) | in the loads above |
+| Hob glass | stem scraper for burnt-on, then squeegee to the gully with 0.5 L of 45 °C water and detergent mist from the nozzle rail; cold glass only | camera, gloss and colour vs. the clean reference | 1 L, 3 min, hand time |
+| Deck, rear row, gully, chute rim, jet gate | nozzle rail at the soffit's rear edge (fan jets, 45 °C, detergent), squeegee, fresh-water rinse, fan dry ≤ 60 min (HYG-045) | camera; humidity back < 65 % (HYG-053) | 3 L, 0.1 kWh, 6 min |
+| Chuck face and pins | jet gate (85 °C) after every soiled grip, before a clean one | flux sensor + camera | 0.1 L per pass |
+| Arm tube, wrist housing | rinsed by the nozzle rail in the arm's park pose, dried by the fan | camera | in the deck figure |
+| Oven cavity | oven's steam-clean after roasting; spatter only (food always in ware) | camera through the door | 0.3 kWh, 20 min |
+| Hatch zone | wipe-free: the tray is ware; the frame sprayed by one nozzle after returns | camera | 0.3 L |
+
+### 6.2 Per day and per week
+
+| When | What | Water / energy [E] |
+|---|---|---|
+| Daily (night) | full splash-zone wash: X-box face and band, mast band, cabinet soffit, walls, under-soffit fume slot; hot water 60 °C and alkaline detergent through the nozzle rail, rinse, fan dry 45 min; washer self-clean rinse | 8 L, 0.5 kWh |
+| Weekly | fume path and grease separator flushed hot (HYG-039); washer hot self-clean ≥ 70 °C (HYG-040); gully trap and waste chute hot flush; descale as hardness needs | 12 L, 0.8 kWh |
+| 30 days | intensified programme HYG-042 (all ware through a held load, cell surfaces with disinfectant rinse) | 25 L, 1.5 kWh |
+
+### 6.3 Water and energy per meal (reported, not a gate, #23)
+
+| | 2 persons | 4 persons |
+|---|---|---|
+| Washer loads (ware + dishes) | 2 × 10 L = 20 L, 1.2 kWh | 3 × 10 L = 30 L, 1.8 kWh |
+| Produce washing (dunk baths) | 6–10 L | 10–15 L |
+| Cooking water | 3 L | 5 L |
+| Deck, hob, gully, jet gate | 4 L, 0.1 kWh | 4 L, 0.1 kWh |
+| Cooking energy (hob + oven) | 1.2–1.8 kWh | 1.8–2.6 kWh |
+| **Total** | **≈ 33–37 L, ≈ 2.5–3.1 kWh** (RES-005 35 L, RES-001 3.0 kWh: at the limit) | **≈ 50–55 L, ≈ 3.7–4.5 kWh** (45 L, 4.0 kWh: over) |
+
+Per day (light lunch + dinner, 2 persons, plus the night wash): ≈ 65–75 L, ≈ 5.5–6.5 kWh (RES-006 75 L,
+RES-002 7 kWh). Raw and RTE: raw work first, then jet gate, a 1 L hob/deck rinse and fresh red→green ware;
+the open deck is shared in time (Q3). Peel and scraps go through the gully strainer and the chute to the bin
+within minutes (C2 R-8); nothing recirculates (the washer refills per load).
+
+**Crevices, seals, shadows named:** three sealing bands (X face, mast, arm side) and their drip lips; the roll
+unit's lip seal; tang holes and pin sockets; Rd thread and piston of the cassette (washed as ware, test E3);
+grid-plate welds; gully strainer seat; drawer runners (outside the tray); oven door hinge and gasket; washer
+door gasket; cabinet flaps.
+
+---
+
+## 7. Numbers
+
+| Count | K9 | C5 S-min target |
+|---|---|---|
+| Motion actuators (cell, normalised) | 7 (+ oven door, + hatch drawer = 9) | 9 |
+| Dynamic seals | 4 | 5 |
+| Novel mechanisms | 2 | 2 |
+| Mechanism types | 7 | 6 |
+| Series chain (B3) | 6 | 6 |
+| Custom part types | ≈ 36 (deck, cabinet, tub, X box, mast and arm, roll housing, socket plate with T thimble, S thimble, tang inserts, cassette, blade post, corers, ravioli plate, cradle and raft, trough, flip pan, drip-collar stems ×≈ 15 types) | 30 |
+| Loose ware items | ≈ 66 + 8 second set | 45 |
+| Handling events | ≈ 70 in a 4-person meal, ≈ 105 with dishes | 65 |
+| Cleaning stations | 1 washer + jet gate + nozzle rail = 3 | 2–3 |
+| Software skills | ≈ 28, of which ≈ 7 with vision on deformable food (paring, coring, grid skinning, breading, patties, carving, plating) | 25 (5) |
+| Width | cell 1350 (P 900 + O 450); with W/S 1950; machine 3600 | — |
+| Peak power | 10.0 kW by the phase plan (3.5) | ≤ 10.3 |
+| Noise sources | S at 6000 rpm (≈ 70 dB(A) for ≤ 60 s, door closed), washer pump (≈ 45–48), extraction fan, T drum peeling (≈ 65) | — |
+| Simplicity score (C5 method) [E] | ≈ 6.5–7 | 7.1 |
+
+### 7.1 Coverage (C1 standard N, 248 meals, 8 excluded by 5.4)
+
+| Step | Meals in | Note |
+|---|---|---|
+| C1's K6/H1 kit with hostable modules, central | 230 | out: AS08 AS09 CK12 CK16 CK17 DM33 IN07 IT17 MX06; BF14 at risk [D C1 appendix] |
+| + #25 generic module: MX06 guacamole, CK16 banana bread (grid skinning) | +2 → 232 | M |
+| + ravioli plate: IT17, DM33 as square parcels (mandated c) | +2 → 234 | M; IT17 is W3, so MEAL-003 depends on it |
+| + dumpling press: CK17 quark-oil half-moons (mandated c) | +1 → 235 | M |
+| − DM12 Kohlrouladen: GP-71 freeze–thaw is out by #27; blanching the whole head in the Ø 280 braiser and peeling leaves with tongs | −1 → 234 at risk | L–M |
+| − interval stirring instead of continuous (risotto, polenta) noticed by a panel | 0 to −2 | class b, fallback oven risotto |
+| AS09 gyoza as crimped half-moons (designer c) | +0 / +1 | at risk |
+| **Central** | **233 = 94.0 %** (range 230–236) | target 231 (93 %): reserve 2 |
+
+By weight ≈ 95 % [E]. Designer class (c): ≈ 11 (BF01 BK04 CK02 DS10 FR01 MX02 SD19 SD22 SP09 US06, + AS09)
+≤ 24, W3 ≤ 2. MEAL-004 (S) still fails in cakes (≈ 14/17) and Asian (≈ 10/12). Still out: AS08 spring rolls,
+IN07 samosa (thin wrappers ≤ 1 mm, UO-45 S), CK12 strudel (X-06).
+
+### 7.2 Cost (#22: reported, not a gate; #28: split)
+
+| Appliances (household, largely as bought) | € [E] |
+|---|---|
+| 4-zone induction hob + control interface | 500 + 100 |
+| Countertop combi-steam oven + door drive and control interface | 600 + 200 |
+| Slim household dishwasher as wash-system donor | 450 |
+| Fridge + freezer (cold storage modules) | 1,000 |
+| Shelving (ambient storage) | 500–1,000 |
+| **Appliances** | **≈ 3,350–3,850** (customer's figure ≈ 3,000–3,500) |
+
+| Machine part | € [E] |
+|---|---|
+| Gantry X/Z/Y: linear modules, steppers with encoders, sealing bands, mast and arm tubes | 1,500–2,500 |
+| Sealed roll unit, dual EPM chuck, wrist load cell | 700–1,500 |
+| Canned drives T and S (motors, magnets, thimbles) | 400–700 |
+| Custom stainless: deck, X box, cabinet and soffit, wash tub, enclosure, hatch drawer (job shop, #21) | 2,500–4,500 |
+| Ware (≈ 74 items, bought GN and pots with welded tangs; cassette with bought grids) | 1,500–2,500 |
+| Controller, power manager, 3 cameras, sensors, wiring | 600–1,000 |
+| Valves, nozzles, fans, extraction to the shared condenser, plate dispensers | 600–1,100 |
+| **Machine part** | **≈ 7,800–13,800** against the target of ≈ 2,000 |
+
+**Honest reading.** The appliance side matches #28. The machine part misses €2,000 by 4–7 ×. The three big items
+are the welded stainless enclosure and cabinet (≈ 35 %), the ware with welded tangs (≈ 20 %) and the gantry
+(≈ 20 %). Cheapest cuts, in order: clip-on tang rings instead of welded tangs on bought ware (−€800–1,200);
+bent-sheet enclosure without polished welds where Zone N (−€1,000–1,500); steppers and printer-class belt
+modules for X and Y (−€500–1,000); one camera instead of three (−€200). A realistic floor for this machine is
+≈ €5–6 k; €2 k would need a machine without a gantry, which no explored concept reaches at 93 %.
+
+---
+
+## 8. Simplicity audit
+
+**Deliberately left out, and what it costs:**
+
+| Left out | Saves | Costs (meals / quality) |
+|---|---|---|
+| Turning hob positions (H-S1) | 2 actuators, a custom hob, 1 novel mechanism, €1–2 k | hand time; continuous stirring → interval stirring (0–2 meals noticed) |
+| Dock, egg module, tool changer, wrist spin | 6–9 actuators, 3–4 seals | dosing time (≈ 25 s per dose) |
+| K7 cold plate, tempering, chill-slice-reheat (#27) | refrigeration circuit, 5 novel | braises carved hot at 8–10 mm; DM12 at risk |
+| Frying book, belt, mat, drum (K5, K3, K4) | 23+ actuators, 20+ seals | none beyond the pan pair and lift rack |
+| Separate dish washer and dish loader | 600 mm, one wash system, one handler | washer throughput is the PERF-005 bottleneck |
+| Second hand | 3–6 actuators, 2–4 seals | B3, B6 at the time limit; 4-hot-component menus near PERF-001 |
+| Twin-blade carver, poultry stand, Y-slide, pin setter | 2–4 custom types | poultry as parts (R-06 b) |
+| Thin-wrapper sheeting, orange segments | a sheeting station | AS08, IN07 out; DS10 rounds (c) |
+| Separate produce sink | a fixed class-R surface | produce washed in a red pot (ware) |
+
+**What could be removed next:** (1) the hatch drawer — present plates on a fixed tray inside the open flap
+(−1 actuator; ergonomics against SRV-010); (2) the plate dispensers — plates stacked in the cabinet and taken by
+the plate fork (−2 parts, plates unwarmed: SRV-008 S lost); (3) S, if purée, emulsions and whipping can run on T
+with a geared cup (−1 actuator, quality loss in ≈ 30 meals: not recommended); (4) the second set, if PERF-005's
+30 min is relaxed to the time of one wash load.
+
+---
+
+## 9. Risks and the cheapest kill experiments (run in this order)
+
+| # | Risk | Experiment | Cost, time | Kills / decides |
+|---|---|---|---|---|
+| E1 | **Oven does not fit turned** (450 × 560 × 450 envelope, ≥ 30 L, replaceable door, start without a button) | CAD and supplier survey of 4–6 countertop combi-steam ovens; one bought and measured | €0–600, 2 days | the O column; fallback: custom cavity (BLD-008) or O = 600 and ambient 300 |
+| E2 | Food results of the passive methods | home bench: Schnitzel in 220 mL with a rack pair; Rouladen raft A/B/C (G-assembly 4.2); pancakes by pan pair; grid skinning of avocado, banana, mango; apple-peeler-on-drill paring of 10 produce types; potatoes in skin riced | €150, 2 days | G2, GA-20, GA-36, R-03 routes; MX06, CK16 |
+| E3 | Screw cassette: force, dice quality, thread cleaning | bought torchio or 3D-free steel mock-up driven by a 30 Nm geared motor; potato, onion, cucumber through bought grids; rice, patties; then dried mince and starch on the Rd thread through a household dishwasher hygiene programme, riboflavin | €400, 1 week | the whole cutting chain; fallback: K7-type under-deck press on two tension rods (+1 actuator, +2 seals) |
+| E4 | EPM tang chuck in soil (N1) | commercial EPM gripper with pinned face; 10 000 cycles wet, floured, greasy; 8 Nm moment; roll-driven tong mock-up | €1.5 k, 2 weeks | the hand; fallback: K6 mechanical pin jaws (+1 seal) |
+| E5 | Washer: side-loaded on-edge items, coverage and A0 | used slim dishwasher's wash system in a plywood-and-sheet tub; riboflavin on pots, trays, plates; loggers at the 70 °C hold; cycle time | €800, 1 week | Q1 one washer; PERF-005 |
+| E6 | Household hob control and pan detection | interface on the touch board of one hob; power limit per side; tanged pans detected | €500, 1 week | #5 vs #28; fallback OEM module |
+| E7 | Single hand too slow | discrete-event simulation of B1–B12 and 4 reference menus with retries and the phase plan | 2 days | Q2; second set; menu limits |
+| E8 | Canned T/S torque and heating | K8 rig subset: Ø 90 thimble at 25 Nm, Ø 40 at 6000 rpm | €300, 3 days | T, S |
+| E9 | Fumes reach the cabinet soffit and band slots | smoke and grease-aerosol test over a 2 × 2 hob under a soffit with a rear slot | €200, 2 days | P-2 |
+| E10 | Careless dish returns | tip-and-catch of stacked plates with cutlery over a grid basket | €100, 1 day | SRV-014 |
+
+**Other risks named:** deck congestion (0.5 m² of deck in total; mise en place goes back to the cold store in
+lidded boxes); the clean-ware cabinet (≈ 0.15 m³) above the hob heats (insulated soffit; ware is steel, food is
+never stored there); the Y band over food (C2 K6-2, accepted, daily wash); the machine-part cost (§7.2).
+
+---
+
+## 10. Open questions for the customer (with the default assumed)
+
+| # | Question | Default assumed in K9 |
+|---|---|---|
+| Q1 | May **one washer** clean the cooking ware and the dishes, glasses and cutlery, with raw-meat ware only in loads that run the 70 °C / 10 min hold? | yes |
+| Q2 | Is **one serial hand** acceptable: interval stirring, potatoes boiled ahead for Bratkartoffeln, 4-component menus for 4 at the PERF limit? | yes |
+| Q3 | Is **temporal raw/RTE separation on one open deck** acceptable (raw work first, then jet gate and rinse, red/green ware, disinfecting washer)? | yes |
+| Q4 | Ambient storage 450 mm (C4's floor value) so that the cell gets 1350 mm within 3.6 m? | yes |
+| Q5 | A **30–36 L countertop combi-steam oven** instead of ≥ 35 L built-in (COK-006)? | yes, ≥ 30 L |
+| Q6 | A **household hob with its control board interfaced or replaced**, although #5 asked for OEM modules? | yes; OEM fallback |
+| Q7 | A hatch drawer that slides 300 mm into the room to present two plates? | yes |
+| Q8 | Tortellini and Maultaschen as **square parcels**, apple turnovers and gyoza as **crimped half-moons**? | yes (c) |
+| Q9 | **Cost**: the machine part is ≈ €8–14 k against the expected €2 k; continue with simplicity first and optimise cost later (#22)? | yes |
+| Q10 | **Interval stirring** (20–30 s every 1–3 min) counts as the traditional method (class a) for red cabbage, béchamel, risotto? | yes |
+| Q11 | Peeled garlic cloves allowed (requirements 5.6)? | yes |
+| Q12 | The human wipes the oven cavity in the rare case that a spill burns on? | yes (inside HUM-011) |
+| Q13 | Kohlrouladen leaves by blanching the whole head (freeze–thaw is out by #27): accept "at risk"? | yes |
+
