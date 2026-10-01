@@ -264,3 +264,148 @@ hand tips scraps through the cutlery basket held over WC, loads the washer, swap
 | Utilities | 3 × 16 A phase plan (3.5); cold water to the spout, the oven tank and the washer; one drain (washer, gully); one extraction to the shared condenser-dehumidifier (C4 R-12) |
 | Human | waste drawer (organic 20 L, emptied 2 × a week), detergent and salt for the washer, the oven cavity if soiled, service through removable fronts |
 
+---
+
+## 4. Generic produce module (#25, PRP-039)
+
+The customer's rule — "take the skin off and remove the seeds" — is turned into **four generic principles**,
+chosen per item by its firmness and shape, not by its name. All tools are ware; all steps run over a red catch
+tray or the gully; the camera checks every piece (residue ≤ 5 % of surface, no stone fragment > 2 mm).
+
+| Principle | How | Items (PRP-039 list and more) | Conf. |
+|---|---|---|---|
+| **G1 Pare on the spit** (firm, roughly convex) | Item impaled pole to pole on the fork-spit held by the chuck; the roll turns it at 30–120 rpm while Y traverses it past the **blade post** on PS. The post carries one blade with three sprung depth shoes on three faces: 1 mm (thin skin), 2.5 mm (tough skin, onion tunics, GP-11), 5–6 mm (pith and rind, "à vif", GP-Z4). Top and tail by knife first; camera checks, second pass offset 60° | apple, pear, cucumber, courgette, kohlrabi, celeriac (halved), beetroot (cooked: slips), mango (whole, stone left in the core), kiwi, orange, lemon, pineapple (S), melon halves, ginger (thin shoe), white asparagus (spit along the spear, 1 mm shoe, L–M), onion (S upgrade, #9) | M |
+| **G2 Grid skinning** (soft) | Item halved (avocado, kiwi, mango cheek, banana lengthwise), laid **skin up** on a dicing grid of the screw cassette or a perforated plate; the piston (or turner) presses the flesh through; the skin stays on the grid and is lifted to waste. Gives dice or mash | avocado (guacamole, MX06), banana (mash, CK16), ripe mango, kiwi, papaya, cooked pumpkin and squash | M [U]: new |
+| **G3 Blanch and slip** (thin skin over soft flesh) | Score a cross, dip in boiling water 20–40 s in the basket, cold bath, rub in the spinner basket on T at 60 rpm with water | tomato, peach, apricot, plum (where peeled), almonds | H [K] |
+| **G4 Cook in the skin** (tubers) | Boil in the skin, then rice (skins stay in the ricer plate) or slip; raw-peeled uses on the **knurled drum on T** with camera stop (GP-P2) | potato, beetroot, celeriac for mash, sweet potato; carrot scrubbed in the drum | H / M–H |
+
+**Seeds, cores, stones** — three tool families, one motion each (push by Z near the rear, ≤ 100 N, or the screw):
+
+| Family | How | Items |
+|---|---|---|
+| **C1 Tube corers** Ø 14 / 22 / 42 with ejector pin | item in the corer nest on PS, stalk up (camera), push through | apple, pear (Ø 22), tomato scar, strawberry hull (Ø 14), pepper plug (Ø 42, GP-61), pineapple core; apple wedges + core in one stroke with the cassette's wedge plate |
+| **C2 Halve and scrape / cheek cut** | knife cuts parallel to the seed plane; seed spoon (a stem tool with a sharpened spoon edge) is drawn along the cavity by Y | cucumber, courgette, melon, pumpkin, papaya; pepper four-cheek cut (GP-62); mango cheeks; avocado cheeks around the stone (± 8 % yield loss [E]) |
+| **C3 Plunger pitter** | fruit in a ring seat, plunger by Z pushes the stone out | cherry (S), plum, olive, apricot (freestone); clingstone peach → cheek cut |
+
+**Mechanism count for PRP-039 (target ≤ 3):** blade post (G1), tube corer / pitter family (C1, C3), knurled drum
+(G4 raw). Grid skinning, scraping and blanching use ware that exists anyway. No single-purpose device.
+
+**Throughput [E]:** 4 apples pared and cored 2.5 min; 1 cucumber peeled 40 s; 1 kg potatoes boiled in skin and
+riced 0 min of hand time; 2 avocados halved, stoned and grid-skinned 1.5 min; 4 oranges à vif 2 min.
+
+**Questions for the produce research round:**
+
+1. Blade-post paring on irregular items: success rate on knobbly celeriac, kohlrabi with leaf scars, bent
+   cucumbers; how much does a sprung shoe follow the contour at 1 mm? (bench: apple-peeler mechanism on a drill)
+2. Grid skinning: does avocado and banana flesh pass a 10 mm grid leaving the skin intact and clean? Which ripeness
+   window? Slices (fruit salad) instead of mash: can a banana piece be pushed out of its slit skin through a ring?
+3. Stone handling: a generic way to find the stone plane of mango and avocado by camera (or by a probing knife
+   that stops on force) so that cheek cuts lose ≤ 10 % flesh.
+4. Can the spit grip soft or slippery items (mango, kiwi) without tearing? Prong geometry, depth, a cup-backed
+   prong.
+5. Citrus segments (DS10): any generic route, or accept rounds?
+6. Onion peeling (the S upgrade) on the same blade post: GP-11 slit-and-wipe without the extra finger comb?
+7. Batch mode: peel the week's onions, garlic and hard vegetables at night (keeps 10–14 days at 2–4 °C), so that
+   produce time leaves the meal's critical path.
+
+---
+
+## 5. Benchmark walk-throughs
+
+Conventions: t in minutes from the order; **ev** = handling events (one grasp to release of an item, incl. box
+grips); persons as stated (2 or 4, DEC-19); PERF limits from PERF-002 or 1.15 × T_ref + 10. One retry of
+≈ 1 min is inserted in the tightest step of each meal. Food-result fixes of C1 are marked **(fix)**. Times
+are [E], checked against K6/K8 walk-throughs and the 2.8 kW channel limit.
+
+**B1 Rinderrouladen, Rotkohl, Salzkartoffeln — 4 persons (6 rolls). Yes.**
+
+| t | Step | ev |
+|---|---|---|
+| 0–14 | Red cabbage (800 g): outer leaves off by knife, quartered, cored (cheek cut), sliced 3 mm with the cassette slice plate; apple pared and cored on the spit; onion diced (grid 6). Into 3 L pot on HR2 with fat, sugar, vinegar, lidded | 14 |
+| 14–24 | Rouladen: slices laid on the board, mustard spread up to 35 mm before the flap edge, flap salted and floured (fix), bacon and gherkin laid, side folds 15 mm, rolled with the fork-and-turner roll (GA-04 plough on the board), laid into the comb cradle on PS; **GA-20 raft** pushed through all six | 10 |
+| 24–36 | Raft seared in the braiser on HF1 (3.0 kW boost): seam side first 90 s untouched, then two faces; raft lifted out to a tray; **onion and tomato paste roasted in the fond 4 min (fix)**, deglazed with wine and stock (frozen portion), raft back, lidded; braiser into the oven 160 °C for 90 min | 9 |
+| 36–100 | Red cabbage stirred every 10 min (6 × 30 s); potatoes (1 kg) washed, peeled on the knurled drum (Salzkartoffeln want raw-peeled, GP-P2), halved, into 5 L pot at t 100 | 12 |
+| 100–125 | Potatoes boiled on HF1; braiser out at t 125; raft drained, rolls pushed off by the stripper comb into a GN 2/3-40 in the oven at 70 °C; gravy strained, reduced, thickened (whisk, interval stirring) on HF1 | 8 |
+| 125–135 | Potatoes drained; plating: 4 plates × (1.5 rolls, gravy, cabbage, potatoes) | 18 |
+| | **Total ≈ 135 min (limit 183); ≈ 71 ev; core temperature probe in one roll (≥ 85 °C for tender)** | |
+
+**B2 Wiener Schnitzel, Bratkartoffeln, Gurkensalat — 4 persons. Yes.**
+
+| t | Step | ev |
+|---|---|---|
+| (−) | Potatoes boiled in the skin earlier the same day, cooled in the cold store (C1 rule 3); otherwise +35 min | — |
+| 0–8 | Cucumber peeled on the spit (1 mm), sliced 2 mm by the cassette, salted; dressing whisked in the chopper cup; dill chopped; into a lidded green GN 1/3 | 10 |
+| 8–14 | Cooled potatoes slipped, sliced 5 mm (cassette); onion diced | 6 |
+| 14–22 | Breading line in three GN 1/3 trays (flour, egg from the egg fixture, crumbs); 4 cutlets coated by tongs and turner; laid on the lower rack of the GA-36 pair | 14 |
+| 22–34 | Bratkartoffeln in the 2nd Ø 280 pan on HR2 (2.3 kW), turned with the turner every 3 min; onion added at t 30 | 6 |
+| 34–46 | **Schnitzel in 220 mL clarified butter/oil = 3.6 mm in the Ø 280 pan (fix)** on HF1, 2 per batch; rack pair turned in air after 2.5 min, 2 batches; first batch held ≤ 8 min in the oven at 80 °C vented (fix: fried last) | 8 |
+| 46–50 | Salad dressed; plating 4 × (Schnitzel, lemon wedge, potatoes, salad) | 14 |
+| | **Total ≈ 50 min (limit ≈ 68); ≈ 58 ev; fat poured off into the fat cup** | |
+
+**B3 Frikadellen, Kartoffelpüree, Erbsen-Möhren — 4 persons (8 patties). Yes.**
+
+| t | Step | ev |
+|---|---|---|
+| 0–6 | Potatoes (1 kg) washed in the dunk basket, boiled **in the skin** in 5 L pot on HF1 (GP-P1) | 6 |
+| 6–14 | Onion diced (grid 6, RTE tube); stale roll soaked; mince 600 g, egg, onion, roll, spices into the kneading bowl on T, roller 90 s | 12 |
+| 14–20 | Mass into the red cassette tube, extruded through Ø 70, wire cut every 20 mm (±10 % by wrist mass); patties onto the Ø 280 pan on HR2, pressed flat with the turner | 6 |
+| 20–34 | Carrots scrubbed in the drum, diced 10 mm, cooked in 1.5 L pot on HF2 with frozen peas added at t 28; Frikadellen turned singly (turner) every 3 min; **probe to 72 °C core (fix)** | 14 |
+| 34–42 | Potatoes riced through the 3 mm plate (skins stay behind), milk and butter, folded in the bowl on T | 10 |
+| 42–47 | Plating 4 × (2 patties, mash, vegetables) | 14 |
+| | **Total ≈ 47 min (limit 50, tight: one retry consumed); ≈ 70 ev in the meal; series chain 6 (gantry, chuck, T, cassette, hob, washer)** | |
+
+**B4 Spaghetti Bolognese with grated cheese — 4 persons. Yes.** Onion, carrot, celery diced (cassette, 6 ev,
+8 min); **mince seared first in the wide hot Ø 280 pan (fix)**, then vegetables, tomato paste roasted, tinned
+tomatoes, wine; transferred to 3 L pot, simmer 60 min with stirring every 5 min (12 × 20 s); pasta 400 g in
+the 5 L pot (4 L water, HF1 boost) from t 75, drained by the basket; cheese grated on the drum (S). **≈ 90 min
+(limit 96); ≈ 48 ev.**
+
+**B5 Pizza from flour, 2 trays (GN 2/3-20). Yes (tray pizza, R-05 a).** Dough 500 g flour kneaded 8 min in the
+bowl on T; proofed 60 min in the bowl, lidded, in the oven at 30 °C; tomatoes and toppings cut meanwhile;
+divided by wrist mass, rolled with gauge-ring pin to 5 mm on oiled trays, topped; baked one tray at a time
+230 °C, 12 min each (countertop oven: one level). **≈ 120 min (limit ≈ 150 at T_ref 120); ≈ 40 ev.**
+Weakness: two trays in sequence; the second pizza waits 12 min under 70 °C or is served as a second round.
+
+**B6 Gemüseeintopf from whole vegetables — 4 persons (2 L). Yes.** Potato, carrot, leek (cut before washing,
+GP-W4), celeriac (spit, 2.5 mm shoe), beans trimmed by GP-102 (camera-indexed cut, 40 pieces, 3 min), onion;
+all diced by the cassette; sweated in the 5 L pot, stock from frozen portion; simmer 25 min; herbs chopped
+(cup on S). **≈ 48 min (limit 50, tight because of bean trimming); ≈ 45 ev.**
+
+**B7 Steak, oven fries, mixed salad with vinaigrette — 2 persons. Yes.** Potatoes scrubbed, cut to 10 mm sticks
+(cassette grid 10), oiled 15 mL, oven 220 °C 25 min on a GN 2/3-20 (X-01 adapted, b); lettuce butt cut, washed in
+the dunk basket (2 baths), spun on S; tomato and cucumber cut; vinaigrette emulsified in the chopper cup; steaks
+seared on HF1 (3.0 kW, Ø 280 pan), **probe to 54 °C (fix)**, rested 4 min; fries finish last, served at once.
+**≈ 40 min (limit ≈ 44); ≈ 38 ev.**
+
+**B8 Pfannkuchen, 8 pieces. Adapted (pan-pair flip, R-03 a).** Batter in the whisk cup on S (eggs from the
+fixture, flour, milk); Ø 280 pan with 3 g fat; 70 mL ladled, pan rolled to spread (roll axis); after 90 s release
+check (5 mm jerk, camera), flip pan set on, pair rolled 180° in 0.8 s over the hob, the emptied pan returned;
+8 pieces × 3.5 min, stacked in the oven at 80 °C, served in two rounds of four. **≈ 38 min (limit 50); ≈ 44 ev.**
+
+**B9 Chicken curry with rice — 4 persons. Yes.** Onion, garlic (peeled cloves, GP-17 plate), ginger (spit, thin
+shoe, grated on S), chicken thighs (red board, knife, 25 mm cubes); onion browned, spices, chicken seared,
+tomatoes and coconut milk, simmer 25 min stirring every 5 min; rice 300 g in 3 L pot, absorption method, lidded
+(no stirring needed). **≈ 50 min (limit ≈ 62); ≈ 46 ev; probe on the largest cube 75 °C.**
+
+**B10 Lasagne, béchamel from scratch, GN 2/3-65 — 4 persons. Yes.** Bolognese as B4 (45 min simmer);
+béchamel: roux in 1.5 L pot, milk added in 4 portions while whisking (4 × 40 s), then stirred every 60 s for 8 min
+— the hand's busiest phase; layering with dry sheets (GA-dispensed from the box, laid by the plate fork) in the
+GN 2/3-65, cheese on top; oven 180 °C 40 min; rest 10 min; cut into 4 portions in the dish by knife, served by
+turner. **≈ 130 min (limit 148); ≈ 52 ev.**
+
+**B11 Rührkuchen in a loaf tin, unmoulded. Yes.** Butter at room temperature from the morning (scheduled
+retrieval, not tempering), creamed with sugar in the whisk cup on S (flat beater), eggs one by one, flour
+folded with the spatula on T at 20 rpm; tin lined with paper liner and loose floor (K5); baked 175 °C 55 min with
+probe (98 °C); cooled 15 min; inverted by the hand onto a tray, floor and liner lifted. **≈ 95 min (limit ≈ 102);
+≈ 26 ev.** Unmoulding H (liner).
+
+**B12 Scrambled eggs from shell eggs, toast — 1 person. Yes.** 3 eggs in the fixture, per-egg check, through the
+strainer into the 1.5 L pot, butter, gentle heat on HR1 with spatula strokes every 15 s (the hand stays at the
+pot, 4 min); toast from bread delivered by transport (if the household stores it in the machine; DEC-16 keeps
+bread outside — then toast in the dry pan, top heat). **≈ 9 min (limit ≈ 21); ≈ 12 ev; 1 wash load shared with
+the next meal's dishes, or a 15-min quick hygiene load: 4 items.**
+
+**Summary.** All twelve are possible (B8 adapted, B5 tray pizza). The tightest are B3 (47/50) and B6 (48/50),
+both bounded by the single hand; B2 needs potatoes cooked ahead (a scheduling rule, not a texture change).
+Events in the meal: 12–71, mean ≈ 46 per meal; 4-person meals 45–71.
+
