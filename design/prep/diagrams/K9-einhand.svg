@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
-<!-- K9 EINHAND overview. Source: design/prep/05-combined-machine.md. Simplifications: module order cold 0-1200, ambient 1200-1650 follows the width table; hob zone centres, box shelf and rear-row positions are the simplest reading of 3.2; held items are drawn at the wrist (tang offset ignored); the wrist rides along the fixed arm tube; fixture swaps on PS, the second plate and the washer door opening by the hand are not animated; the loop is a composite of B1/B8 steps, times compressed. -->
+<!-- K9 EINHAND overview. Source: design/prep/concepts/K9-einhand.md. Simplifications: module order cold 0-1200, ambient 1200-1650 follows the width table; hob zone centres, box shelf and rear-row positions are the simplest reading of 3.2; held items are drawn at the wrist (tang offset ignored); the wrist rides along the fixed arm tube; fixture swaps on PS, the second plate and the washer door opening by the hand are not animated; the loop is a composite of B1/B8 steps, times compressed. -->
 <style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}</style>
 <rect width="1600" height="900" fill="#ffffff"/>
 <text x="24" y="34" class="l b">K9  EINHAND — one hand, one deck, one washer</text>

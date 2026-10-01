@@ -46,7 +46,7 @@ start. After reading EACH other concept document, immediately append your brains
 Do NOT commit intermediate states to git. If you are stopped, the next run continues from the saved
 file instead of reading everything again. Commit once, when the deliverable is complete.
 
-## Deliverable: `design/prep/round2/Knb-<slug>.md`
+## Deliverable: `design/prep/concepts/Knb-<slug>.md`
 
 0. **Brainstorm** — before deciding anything: for each other concept, list what its ideas could do for
    yours (borrow, combine, invert, simplify), and add your own new ideas. At least 20 ideas in total, each
@@ -68,5 +68,5 @@ file instead of reading everything again. Commit once, when the deliverable is c
    consider, each in 2–3 lines.
 9. Risks with cheapest kill experiments; open questions.
 
-When finished, commit only your file: `git add design/prep/round2/Knb-*.md && git commit -m "Prep P5a: Knb improved"`
+When finished, commit only your file: `git add design/prep/concepts/Knb-*.md && git commit -m "Prep P5a: Knb improved"`
 (no attribution lines; a hook pushes).

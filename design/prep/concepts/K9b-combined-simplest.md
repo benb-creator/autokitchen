@@ -3,7 +3,7 @@
 **K9b SCHLICHT** ("plain"): one 4-axis hand whose gripper *is* its roll axis, one turning hub that brings all
 force and speed, a 2-zone household domino, a countertop combi-steam oven mounted high, one top-loading well
 that washes ware and dishes and stores the big ware between meals. **6 motion actuators, 2 dynamic seals.**
-It combines K9 EINHAND (`../05-combined-machine.md`) with the round-2 improvements K1b … K8b and removes
+It combines K9 EINHAND (`../concepts/K9-einhand.md`) with the round-2 improvements K1b … K8b and removes
 whatever a passive part, a recipe route or the human's normal table habits can replace.
 
 Decision state: DECISIONS #1–28. Markers: **[D]** from a concept, critique or round-2 document; **[C]**
@@ -767,7 +767,7 @@ longer (domino has 2 zones).
 
 ## 7. Numbers
 
-Comparison with K9 (`../05-combined-machine.md` §7) and with **K6b**, the best round-2 concept by its own
+Comparison with K9 (`../concepts/K9-einhand.md` §7) and with **K6b**, the best round-2 concept by its own
 weighted self-assessment (7.0; K1b 6.6, K8b 6.5, K3b 6.4, K5b 6.4, K2b 6.2, K4b 6.0). Like-for-like scope:
 preparation, cooking, oven, serving hatch, dish return and washing of ware and dishes.
 
