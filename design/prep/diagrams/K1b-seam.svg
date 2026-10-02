@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K1b seam. Source: K1b-ceiling-turret-cell.md sections 2.1, 2.2, 2.3 (seam improved, penetrations), 5.2, 5.3 (airflow). Left: radial section through the gap, about 5 px/mm, not to scale vertically below the break. Right: front section of the cell at 0.6 px/mm and a plan of the jets. Where the seam air enters the gap (below the V-ring) is not detailed in the document; drawn as a feed channel in the ceiling ring. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e04a3a"/></marker><marker id="ap" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b4c8a"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K1b  The ceiling seam: one ring gap, air-swept, and never above food</text>
+<text x="24" y="58" class="m">Where the disc turns in the ceiling there is an open 4 mm gap: clean air blows out of it, jets in both walls flush it.</text>
+<text x="1576" y="28" class="s r b">seam length 1.4 m (K1: 7.3 m) · gap 4 × 40 mm, V-ring on the dry side</text>
+<text x="1576" y="47" class="s r">air sweep 0.3 m/s outward, H13-filtered, watched by a pressure switch</text>
+<text x="1576" y="66" class="s r">jets: 8 in the coaming + 4 in the turning rim, Ø 1.5, 80 °C soft water</text>
+<text x="1576" y="85" class="s r">daily flush 4.5 L (12 jets × 0.025 L/s × 15 s), dry within 15 min</text>
+<text x="40" y="108" class="s b">SECTION through the gap (radial; turret axis to the left)</text>
+<rect x="40" y="130" width="560" height="160" fill="#eef0f2" stroke="none" stroke-width="0"/>
+<text x="60" y="154" class="s b">DRIVE ROOM (dry)</text>
+<rect x="40" y="300" width="260" height="70" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<rect x="260" y="300" width="40" height="200" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<text x="130" y="342" class="s c b">DISC (turns)</text>
+<rect x="320" y="300" width="280" height="60" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="320" y="300" width="40" height="200" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<text x="480" y="350" class="s c b">CEILING (fixed)</text>
+<line x1="560" y1="380" x2="380" y2="470" stroke="#555" stroke-width="1"/>
+<text x="565" y="386" class="s">coaming 40 mm</text>
+<circle cx="310" cy="250" r="9" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="282" y="236" width="18" height="64" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="320" y="236" width="18" height="64" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="345" y="246" class="s">slewing bearing</text>
+<path d="M296 300 L310 284 L324 300" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="310" y1="284" x2="345" y2="272" stroke="#555" stroke-width="1"/>
+<text x="350" y="276" class="s" style="fill:#6b4c8a">V-ring: the only seal, on the dry side</text>
+<rect x="300" y="300" width="20" height="200" fill="#ffffff" stroke="none" stroke-width="0"/>
+<line x1="300" y1="300" x2="300" y2="500" stroke="#3a3f45" stroke-width="2"/>
+<line x1="320" y1="300" x2="320" y2="500" stroke="#3a3f45" stroke-width="2"/>
+<line x1="240" y1="520" x2="300" y2="520" stroke="#555" stroke-width="1"/>
+<line x1="320" y1="520" x2="380" y2="520" stroke="#555" stroke-width="1"/>
+<line x1="300" y1="512" x2="300" y2="528" stroke="#555" stroke-width="1"/>
+<line x1="320" y1="512" x2="320" y2="528" stroke="#555" stroke-width="1"/>
+<text x="294" y="546" class="s r b">gap 4 mm</text>
+<rect x="330" y="316" width="270" height="10" fill="#eef3f8" stroke="#3a3f45" stroke-width="1"/>
+<text x="420" y="296" class="s">← seam air (fan, H13 filter)</text>
+<rect x="40" y="560" width="560" height="230" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="60" y="600" class="s b">CELL (wet)</text>
+<path d="M40 690 l20 -8 l20 16 l20 -8 L600 690" fill="none" stroke="#9aa1a8" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="420" y="684" class="s">≈ 600 mm</text>
+<rect x="150" y="760" width="330" height="14" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<text x="315" y="798" class="s c b">WELL LID (under the turret)</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.2500;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><line x1="305" y1="330" x2="305" y2="520" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="10 8"/><line x1="310" y1="330" x2="310" y2="540" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="10 8"/><line x1="315" y1="330" x2="315" y2="560" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="10 8"/><path d="M330 321 L310 321 L310 340" fill="none" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="10 8"/><animate attributeName="stroke-dashoffset" values="0;-36" dur="0.8s" repeatCount="indefinite"/></g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="330" y="600" class="s">clean air streams out: steam and fat</text><text x="330" y="618" class="s">aerosol cannot get in</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="330" y="600" class="s">warm air dries the gap in 15 min</text><text x="330" y="618" class="s">(heated ceiling, 5 K above the cell)</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0833;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 250;0 250;0 250" keyTimes="0.0000;0.0833;0.1875;0.2500;1.0000" dur="24s" repeatCount="indefinite"/><path d="M310 505 q-6 10 0 14 q6 -4 0 -14 z" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1875;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="330" y="740" class="s b" style="fill:#2f7d32">a drop lands on the lid, never in food</text></g>
+<rect x="470" y="150" width="120" height="46" fill="#f1f3f5" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="530" y="168" class="s c">pressure switch</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.2500;0.4167" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="530" y="188" class="s c b" style="fill:#2f7d32">air OK</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2500;0.4167" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="530" y="188" class="s c b" style="fill:#e04a3a">AIR LOST</text><text x="330" y="600" class="s b" style="fill:#e04a3a">no air: the hand parks over the well,</text><text x="330" y="618" class="s b" style="fill:#e04a3a">the hobs go to simmer under lids</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4167;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><line x1="320" y1="360" x2="302" y2="350" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/><line x1="320" y1="400" x2="302" y2="390" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/><line x1="320" y1="440" x2="302" y2="430" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/><line x1="320" y1="480" x2="302" y2="470" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/><line x1="300" y1="380" x2="318" y2="370" stroke="#2f78b5" stroke-width="3" stroke-dasharray="4 3"/><line x1="300" y1="420" x2="318" y2="410" stroke="#2f78b5" stroke-width="3" stroke-dasharray="4 3"/><line x1="300" y1="460" x2="318" y2="450" stroke="#2f78b5" stroke-width="3" stroke-dasharray="4 3"/><animate attributeName="stroke-dashoffset" values="0;-14" dur="0.4s" repeatCount="indefinite"/></g><circle cx="323" cy="360" r="3" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/><circle cx="323" cy="400" r="3" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/><circle cx="323" cy="440" r="3" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/><circle cx="323" cy="480" r="3" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/><circle cx="297" cy="380" r="3" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><circle cx="297" cy="420" r="3" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><circle cx="297" cy="460" r="3" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><g><path d="M304 500 l0 40 M310 500 l0 60 M316 500 l0 45" fill="none" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"/><animate attributeName="stroke-dashoffset" values="0;-24" dur="0.5s" repeatCount="indefinite"/></g><rect x="150" y="750" width="330" height="10" fill="#4aa3df" stroke="none" stroke-width="0" opacity="0.6"/><text x="330" y="600" class="s b">daily flush: jets in BOTH walls,</text><text x="330" y="618" class="s">fresh soft water 80 °C + detergent</text><text x="330" y="636" class="s">while the disc turns 400°</text><text x="330" y="654" class="s">water drains down onto the well lid</text></g>
+<text x="200" y="470" class="s r">rim jets (turn</text>
+<text x="200" y="488" class="s r">with the disc)</text>
+<line x1="204" y1="474" x2="294" y2="420" stroke="#555" stroke-width="1"/>
+<text x="560" y="440" class="s r">coaming jets</text>
+<line x1="500" y1="444" x2="326" y2="440" stroke="#555" stroke-width="1"/>
+<text x="740" y="108" class="s b">FRONT SECTION: air flows from the turret outward and down</text>
+<rect x="780" y="150" width="744" height="403" fill="#ffffff" stroke="#3a3f45" stroke-width="2"/>
+<rect x="780" y="130" width="744" height="20" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1021.8" y="136" width="260.4" height="12" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1009.5" y="150" width="4" height="24.8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1290.5" y="150" width="4" height="24.8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1006.3" y="180.8" width="291.4" height="6" fill="none" stroke="#6b4c8a" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1300.6" y="192.8" class="s" style="fill:#6b4c8a">fallback: drip ring Ø 470</text>
+<line x1="1012.5" y1="174.8" x2="1012.5" y2="553" stroke="#6b4c8a" stroke-width="2" stroke-dasharray="8 5"/>
+<line x1="1291.5" y1="174.8" x2="1291.5" y2="553" stroke="#6b4c8a" stroke-width="2" stroke-dasharray="8 5"/>
+<rect x="1012.5" y="174.8" width="279" height="378.2" fill="#6b4c8a" stroke="none" stroke-width="0" opacity="0.06"/>
+<text x="1152" y="398" class="s c" style="fill:#6b4c8a">seam circle projection:</text>
+<text x="1152" y="415" class="s c b" style="fill:#6b4c8a">no open food in here</text>
+<rect x="1252.5" y="150" width="16" height="120" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1037.3" y="262" width="233.2" height="18" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" rx="4"/>
+<text x="1152" y="300" class="s c">arm parked over the well</text>
+<rect x="780" y="553" width="744" height="12" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1034.2" y="553" width="235.6" height="30" fill="#eef3f8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1034.2" y="547" width="235.6" height="6" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1152" y="575" class="s c">well under lids</text>
+<path d="M857.5 460 L1018.7 460 L1003.2 553 L873 553 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<text x="938.1" y="583" class="s c b">T0</text>
+<rect x="1291.5" y="525" width="148.8" height="28" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1279.1" y="551" width="173.6" height="4" fill="#e04a3a" stroke="none" stroke-width="0"/>
+<text x="1365.9" y="583" class="s c b">H1</text>
+<rect x="782" y="535" width="16" height="18" fill="#5a6068" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1506" y="535" width="16" height="18" fill="#5a6068" stroke="#3a3f45" stroke-width="1"/>
+<text x="784" y="583" class="s">downdraft</text>
+<text x="1520" y="583" class="s r">downdraft</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.2500;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><path d="M1009.4 181 C935 243 817.2 367 789.3 540.6" fill="none" stroke="#7fb8e6" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#aw)"/><path d="M1294.6 181 C1369 243 1486.8 367 1514.7 540.6" fill="none" stroke="#7fb8e6" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#aw)"/><path d="M1365.9 522 C1400 447.6 1493 491 1514.7 540.6" fill="none" stroke="#c4cad1" stroke-width="3" stroke-dasharray="10 8"/><path d="M938.1 453.8 C904 398 811 460 789.3 540.6" fill="none" stroke="#c4cad1" stroke-width="3" stroke-dasharray="10 8"/><animate attributeName="stroke-dashoffset" values="0;-36" dur="1s" repeatCount="indefinite"/></g><text x="1424.8" y="174.8" class="s c">make-up air 30 m³/h</text><text x="1424.8" y="191.8" class="s c">enters through the seam</text><text x="879.2" y="174.8" class="s c">downdraft fans draw</text><text x="879.2" y="191.8" class="s c">300–400 m³/h at pan height</text></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="1449.6" y="466.2" class="s c" style="fill:#7a8088">steam</text></g>
+<text x="740" y="622" class="s b">PLAN of the jets (seen from below)</text>
+<circle cx="860" cy="740" r="88" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="860" cy="740" r="80" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="938.53" cy="772.53" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="892.53" cy="818.53" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="827.47" cy="818.53" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="781.47" cy="772.53" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="781.47" cy="707.47" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="827.47" cy="661.47" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="892.53" cy="661.47" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="938.53" cy="707.47" r="4" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 860 740;0 860 740;400 860 740;400 860 740" keyTimes="0.0000;0.4167;0.7500;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="935" cy="740" r="4.5" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><circle cx="860" cy="815" r="4.5" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><circle cx="785" cy="740" r="4.5" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><circle cx="860" cy="665" r="4.5" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/><line x1="860" y1="740" x2="926" y2="740" stroke="#3a3f45" stroke-width="2"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4167;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><circle cx="860" cy="740" r="82" fill="none" stroke="#4aa3df" stroke-width="6" opacity="0.5" stroke-dasharray="8 6"/></g>
+<circle cx="1010" cy="710" r="5" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<text x="1022" y="715" class="s">8 jets in the fixed coaming</text>
+<circle cx="1010" cy="734" r="5" fill="#2f78b5" stroke="#3a3f45" stroke-width="1"/>
+<text x="1022" y="739" class="s">4 jets in the turning rim</text>
+<text x="1010" y="758" class="s">rim jets fed by a hose in the disc's cable loop</text>
+<text x="1010" y="776" class="s">flush: the disc turns 400°, so every point</text>
+<text x="1010" y="794" class="s">of both walls passes a jet</text>
+<text x="1010" y="812" class="s">flow per jet ring is logged; riboflavin test</text>
+<text x="1010" y="830" class="s">on a mock-up before selection</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.0833" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  Cooking: filtered air streams out of the gap at 0.3 m/s; steam and fat aerosol are carried away from the seam to the downdraft slots</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0833;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  The seam is only above the well lid: open food stands outside the seam circle, so a drop that leaves the gap lands on the lid</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2500;0.4167" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  Air lost: the pressure switch trips, the hand parks over the well, the hobs go to simmer under their lids</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4167;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  Daily flush: 12 jets in both walls spray soft 80 °C water with detergent while the disc turns 400°; the water drains to the well lid</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Dry: air sweep and the heated ceiling dry the seam within 15 min; the flow of each jet ring is logged</text></g>
+<rect x="30" y="844" width="1540" height="6" fill="#e9ecef" stroke="#c4cad1" stroke-width="1"/>
+<line x1="30" y1="842" x2="30" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="158.33" y1="842" x2="158.33" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="415" y1="842" x2="415" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="671.67" y1="842" x2="671.67" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="1185" y1="842" x2="1185" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<rect x="30" y="842" width="4" height="10" fill="#f28c28"><animate attributeName="x" values="30;1566" keyTimes="0.0000;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

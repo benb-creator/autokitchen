@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K2b stores. Source: K2b-vessel-stack-inversion.md sections 2.1, 2.5 (tool carousel, box landing, ware store), 2.8, 3.1. Schematic views; tool symbols are generic. Where exactly the peg ring sits on the carousel is not given; drawn on its rim. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e04a3a"/></marker><marker id="ap" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b4c8a"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K2b  Passive stores: tool carousel, box landing and the clean-air ware store</text>
+<text x="24" y="58" class="m">No motors: the Wender turns the carousel with a finger, takes boxes off the landing, pushes ware through flaps.</text>
+<text x="1576" y="28" class="s r b">tool carousel Ø 340, 12 saddles on Ø 300, at z 1680 in column A</text>
+<text x="1576" y="47" class="s r">box landing z 1720 under the transport port: opened GN 1/9–1/3 boxes</text>
+<text x="1576" y="66" class="s r">ware store above the hob: 2 levels × 2 positions, z 1420–1995</text>
+<text x="1576" y="85" class="s r">store air F7 + H13, + 10 Pa, 25 m³/h, 40 °C, out through slot and flaps</text>
+<rect x="30" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="550" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="1070" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="30" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="550" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1070" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<text x="46" y="120" class="s b">TOOL CAROUSEL from above: indexed by a finger</text>
+<rect x="46" y="140" width="460" height="30" fill="#eceef0" stroke="none" stroke-width="0"/>
+<text x="276" y="160" class="s c">rear lane (Wender)</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 250 420;0 250 420;30 250 420;30 250 420;60 250 420;60 250 420" keyTimes="0.0000;0.0417;0.0833;0.1083;0.1500;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="250" cy="420" r="136" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/><circle cx="250" cy="420" r="12" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/><circle cx="370" cy="420" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="387.16" cy="456.75" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="353.92" cy="480" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="350.41" cy="520.41" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="310" cy="523.92" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="286.75" cy="557.16" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="250" cy="540" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="213.25" cy="557.16" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="190" cy="523.92" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="149.59" cy="520.41" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="146.08" cy="480" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="112.84" cy="456.75" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="130" cy="420" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="112.84" cy="383.25" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="146.08" cy="360" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="149.59" cy="319.59" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="190" cy="316.08" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="213.25" cy="282.84" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="250" cy="300" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="286.75" cy="282.84" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="350.41" cy="319.59" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/><circle cx="353.92" cy="360" r="15" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><circle cx="387.16" cy="383.25" r="5" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 250 420;0 250 420;30 250 420;30 250 420;60 250 420;60 250 420" keyTimes="0.0000;0.0417;0.0833;0.1083;0.1500;1.0000" dur="24s" repeatCount="indefinite"/><g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.1917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><circle cx="310" cy="316.08" r="15" fill="#f6c26b" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1917;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;160 0;160 0" keyTimes="0.0000;0.1917;0.2500;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="370" cy="420" r="15" fill="#f6c26b" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.1667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="60 -176;60 -176;40 -138;100 -106;60 -176;40 -138;100 -106;60 -176;60 -176" keyTimes="0.0000;0.0333;0.0417;0.0833;0.0958;0.1083;0.1500;0.1625;1.0000" dur="24s" repeatCount="indefinite"/><line x1="250" y1="340" x2="250" y2="420" stroke="#f28c28" stroke-width="10" stroke-linecap="round"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1625;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;160 0;160 0;0 0;0 0" keyTimes="0.0000;0.1917;0.2500;0.2917;0.3333;1.0000" dur="24s" repeatCount="indefinite"/><rect y="170" width="10" height="256" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="x" values="325;325;345;345" keyTimes="0.0000;0.1667;0.1833;1.0000" dur="24s" repeatCount="indefinite"/></rect><rect y="170" width="10" height="256" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="x" values="405;405;385;385" keyTimes="0.0000;0.1667;0.1833;1.0000" dur="24s" repeatCount="indefinite"/></rect></g></g>
+<line x1="400" y1="460" x2="480" y2="460" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="405" y="480" class="s">drawn out in +X</text>
+<text x="390" y="410" class="s">access</text>
+<text x="390" y="426" class="s">point</text>
+<text x="50" y="600" class="s">a finger pushes a peg on the rim:</text>
+<text x="50" y="618" class="s">the carousel turns 30° per push</text>
+<text x="50" y="636" class="s"></text>
+<text x="50" y="654" class="s">the jaws close around the stem</text>
+<text x="50" y="672" class="s">below the T45 neck, lift 10 mm and</text>
+<text x="50" y="690" class="s">draw the tool out of its saddle</text>
+<text x="50" y="708" class="s"></text>
+<text x="50" y="726" class="s">12 stem tools; the rest in kits</text>
+<text x="50" y="744" class="s">in the ware store</text>
+<text x="566" y="120" class="s b">BOX LANDING: the transport sets, the jaws take</text>
+<rect x="560" y="140" width="480" height="24" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="650" y="140" width="160" height="24" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="730" y="184" class="s c">ceiling port (transport)</text>
+<rect x="600" y="330" width="260" height="6" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="600" y="354" class="s">landing shelf z 1720</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="730 120;730 120;730 330;730 330;730 300;880 560;880 560;880 560;730 330;730 330;730 330" keyTimes="0.0000;0.3333;0.3917;0.4417;0.4750;0.5250;0.5500;0.6083;0.6417;0.6667;1.0000" dur="24s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0 0 -50;0 0 -50;110 0 -50;110 0 -50;0 0 -50;0 0 -50" keyTimes="0.0000;0.5500;0.5917;0.6083;0.6333;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-60" y="-50" width="120" height="50" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="-70" y="-54" width="140" height="6" fill="#e8e0c8" stroke="#3a3f45" stroke-width="1.5"/><circle cx="-40" cy="-14" r="9" fill="#d9b46a" stroke="#3a3f45" stroke-width="1"/><circle cx="-20" cy="-14" r="9" fill="#d9b46a" stroke="#3a3f45" stroke-width="1"/><circle cx="0" cy="-14" r="9" fill="#d9b46a" stroke="#3a3f45" stroke-width="1"/><circle cx="20" cy="-14" r="9" fill="#d9b46a" stroke="#3a3f45" stroke-width="1"/><circle cx="40" cy="-14" r="9" fill="#d9b46a" stroke="#3a3f45" stroke-width="1"/><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4417;0.6417" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="-82" y="-58" width="14" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><rect x="68" y="-58" width="14" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g></g></g></g>
+<path d="M820 640 L960 640 L950 760 L830 760 Z" fill="#eef3f8" stroke="#8fa8c0" stroke-width="3"/>
+<rect x="800" y="760" width="180" height="8" fill="#5a6068" stroke="none" stroke-width="0"/>
+<text x="890" y="790" class="s c">pot on KH</text>
+<rect x="834" width="112" fill="#d9b46a"><animate attributeName="y" values="756;756;726;726;756" keyTimes="0.0000;0.5750;0.6167;0.9996;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="height" values="0;0;30;30;0" keyTimes="0.0000;0.5750;0.6167;0.9996;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5667;0.6167" dur="24s" calcMode="discrete" repeatCount="indefinite"/><circle cx="870" r="7" fill="#d9b46a"><animate attributeName="cy" values="600;740" dur="0.5s" begin="-0s" repeatCount="indefinite"/></circle><circle cx="884" r="7" fill="#d9b46a"><animate attributeName="cy" values="600;740" dur="0.5s" begin="-0.12s" repeatCount="indefinite"/></circle><circle cx="898" r="7" fill="#d9b46a"><animate attributeName="cy" values="600;740" dur="0.5s" begin="-0.24s" repeatCount="indefinite"/></circle><circle cx="912" r="7" fill="#d9b46a"><animate attributeName="cy" values="600;740" dur="0.5s" begin="-0.36s" repeatCount="indefinite"/></circle></g>
+<rect x="860" y="200" width="180" height="60" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<text x="872" y="222" class="s b">jaw load pins (loss):</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.5667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="872" y="244" class="s">– 0 g</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5667;0.6083" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="872" y="244" class="s">– 310 g …</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.6083" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="872" y="244" class="s" style="fill:#2f7d32">– 600 g ✓ target</text></g>
+<text x="566" y="540" class="s">opened boxes only (lids off outside)</text>
+<text x="566" y="558" class="s">jaws grip the box flanges in the</text>
+<text x="566" y="576" class="s">straight V-slots; the roll tips it</text>
+<text x="566" y="594" class="s">over the target, stopping at the</text>
+<text x="566" y="612" class="s">weight; then it goes back up</text>
+<text x="1086" y="120" class="s b">WARE STORE above the hob: clean air, spring flaps</text>
+<rect x="1200" y="200" width="340" height="420" fill="#e3edf5" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1200" y1="410" x2="1540" y2="410" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1370" y1="200" x2="1370" y2="620" stroke="#9fb3c6" stroke-width="1.5" stroke-dasharray="5 4"/>
+<path d="M1200 630 L1540 650" fill="none" stroke="#3a3f45" stroke-width="4"/>
+<text x="1370" y="670" class="s c">insulated soffit, 5° to the rear gutter</text>
+<rect x="1180" y="700" width="380" height="10" fill="#5a6068" stroke="none" stroke-width="0"/>
+<text x="1370" y="728" class="s c">flex hob</text>
+<rect x="1220" y="350" width="130" height="50" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1390" y="350" width="130" height="50" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1390" y="530" width="130" height="70" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1196" y="202" width="8" height="200" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1200 412;0 1200 412;70 1200 412;70 1200 412;0 1200 412;0 1200 412" keyTimes="0.0000;0.7083;0.7333;0.7833;0.8083;1.0000" dur="24s" repeatCount="indefinite"/><rect x="1196" y="412" width="8" height="200" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;120 0;120 0" keyTimes="0.0000;0.6833;0.7750;1.0000" dur="24s" repeatCount="indefinite"/><rect x="1100" y="530" width="130" height="70" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.7917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1092" y="540" width="10" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><rect x="1228" y="540" width="10" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g></g></g>
+<g><path d="M1260 400 l0 -40" fill="none" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#aw)"/><path d="M1340 400 l0 -40" fill="none" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#aw)"/><path d="M1420 400 l0 -40" fill="none" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#aw)"/><path d="M1500 400 l0 -40" fill="none" stroke="#7fb8e6" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#aw)"/><animate attributeName="stroke-dashoffset" values="0;-28" dur="1s" repeatCount="indefinite"/></g>
+<text x="1086" y="160" class="s">filtered air (F7 + H13) at + 10 Pa, 40 °C:</text>
+<text x="1086" y="178" class="s">out through the flaps and the finger slot</text>
+<text x="1086" y="762" class="s">flaps on the –X face open as an item is pushed in;</text>
+<text x="1086" y="780" class="s">the fingers run in a 30 mm rear slot behind a drip lip;</text>
+<text x="1086" y="798" class="s">the left position holds the frequent stack</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.1625" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  Carousel: a finger pushes the pegs on the rim and turns the passive carousel until the wanted tool is at the access point</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1625;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  The jaws close around the stem under its T45 neck, lift 10 mm and draw the tool out of its saddle in +X</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.4417" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  Box landing: the transport lowers an opened box through the ceiling port onto the shelf</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4417;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  The jaws take the box by its flanges and tip it by roll over the pot, stopping at the weight; then it goes back up</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Ware store: a clean pot is pushed in through a top-hinged spring flap; filtered warm air keeps the store clean and dry</text></g>
+<rect x="30" y="844" width="1540" height="6" fill="#e9ecef" stroke="#c4cad1" stroke-width="1"/>
+<line x1="30" y1="842" x2="30" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="280.25" y1="842" x2="280.25" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="543.33" y1="842" x2="543.33" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="710.17" y1="842" x2="710.17" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="1056.67" y1="842" x2="1056.67" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<rect x="30" y="842" width="4" height="10" fill="#f28c28"><animate attributeName="x" values="30;1566" keyTimes="0.0000;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

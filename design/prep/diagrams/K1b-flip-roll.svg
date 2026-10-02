@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K1b flip and roll. Source: K1b-ceiling-turret-cell.md sections 2.5 (pans and racks, fixtures), 3.3, 3.4, 3.8. Views along the arm axis or from the front, schematic. Design gap: a Ø 240 pair rolled about a diameter sweeps 120 mm below the roll axis; the 40 mm lift of 3.8 would hit the hob, so the lift is drawn as 150 mm. The comb cradle and raft geometry (GA-20) is drawn in the simplest way. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e04a3a"/></marker><marker id="ap" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b4c8a"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K1b  Flipping and rolling with the roll: pan pair, mandrel, Rouladen raft</text>
+<text x="24" y="58" class="m">Flat food is turned between two pans; a slotted mandrel on the roll axis rolls Rouladen; a two-tine raft holds four rolls for searing.</text>
+<text x="1576" y="28" class="s r b">pan pair: hermaphroditic Ø 240 × 40, hook tab and catch, twin stub</text>
+<text x="1576" y="47" class="s r">pancake: 100 mL, spin-spread 120 rpm 3 s on H1; flip 0.8 s; ≤ 30 mL fat</text>
+<text x="1576" y="66" class="s r">mandrel Ø 12 slotted, presses 10 N, 2.5 turns per slice</text>
+<text x="1576" y="85" class="s r">raft: two tines through four rolls (30–60 N), turned about its tines</text>
+<rect x="30" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="550" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="1070" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="30" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="550" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1070" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<text x="46" y="120" class="s b">PANCAKE: flipped between two pans</text>
+<text x="46" y="140" class="s">(seen along the arm; the twin stub is on the roll axis)</text>
+<rect x="70" y="640" width="430" height="10" fill="#5a6068" stroke="none" stroke-width="0"/>
+<rect x="160" y="637" width="240" height="4" fill="#e04a3a" stroke="none" stroke-width="0"/>
+<text x="280" y="670" class="s c b">H1</text>
+<g><animateTransform attributeName="transform" type="translate" values="280 606;280 606;280 456;280 456;280 606;280 606" keyTimes="0.0000;0.0833;0.1333;0.1833;0.2333;1.0000" dur="24s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0 0 0;0 0 0;180 0 0;180 0 0" keyTimes="0.0000;0.1333;0.1667;1.0000" dur="24s" repeatCount="indefinite"/><g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.1500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="-120" y="0" width="240" height="34" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><rect x="-114" y="26" width="228" height="5" fill="#f2d98a" stroke="#c9a94a" stroke-width="1"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.1500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="-120" y="0" width="240" height="34" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/></g><g><animateTransform attributeName="transform" type="translate" values="0 -60;0 -60;8 0;0 0;0 0" keyTimes="0.0000;0.0250;0.0583;0.0750;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-120" y="-34" width="240" height="34" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><rect x="116" y="-12" width="12" height="24" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1"/><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.1500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="-114" y="-31" width="228" height="5" fill="#f2d98a" stroke="#c9a94a" stroke-width="1"/></g></g><circle cx="0" cy="0" r="7" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0250;0.0833" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="70" y="210" class="s">pan B (preheated) laid upside down</text><text x="70" y="228" class="s">on A, 8 mm off-centre, slid to hook</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0833;0.2333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="70" y="210" class="s b" style="fill:#c0661a">lifted by the twin stub, rolled 180°</text><text x="70" y="228" class="s">in 0.8 s over H1: the pancake drops onto B</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2333;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="70" y="210" class="s">set down; A (now on top) is lifted off</text><text x="70" y="228" class="s">and goes to H2 for the next one</text></g>
+<text x="70" y="720" class="s">release check first: a 5 mm jerk, camera</text>
+<text x="70" y="738" class="s">lift drawn 150 mm (see the comment)</text>
+<text x="70" y="756" class="s">2.2 min and 3 handling events per pancake</text>
+<text x="70" y="790" class="s b">Schnitzel: the same with two hooked lift racks</text>
+<text x="70" y="808" class="s">in 180 mL fat (4 mm) — only drips move</text>
+<text x="566" y="120" class="s b">ROULADE: rolled on a slotted mandrel</text>
+<text x="566" y="140" class="s">(board on T0, the slice along the arm)</text>
+<rect x="580" y="560" width="450" height="14" fill="#f6f6f2" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="805" y="596" class="s c">red board on T0</text>
+<rect y="550" height="10" fill="#b85a4a" stroke="#3a3f45" stroke-width="1"><animate attributeName="x" values="620;620;960;960;620;620" keyTimes="0.0000;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="width" values="360;360;20;20;360;360" keyTimes="0.0000;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.5417" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="950" y="546" width="30" height="4" fill="#f6f0dc" stroke="none" stroke-width="0"/></g>
+<text x="900" y="538" class="s c">floured flap</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3750" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="640" y="544" width="26" height="6" fill="#e8c890" stroke="#3a3f45" stroke-width="0.8"/><rect x="680" y="544" width="26" height="6" fill="#e0a0a0" stroke="#3a3f45" stroke-width="0.8"/><rect x="720" y="544" width="26" height="6" fill="#e8c890" stroke="#3a3f45" stroke-width="0.8"/><rect x="760" y="544" width="26" height="6" fill="#6a9a3a" stroke="#3a3f45" stroke-width="0.8"/><rect x="800" y="544" width="26" height="6" fill="#e8c890" stroke="#3a3f45" stroke-width="0.8"/></g>
+<circle stroke="#3a3f45" stroke-width="1.5" fill="#b85a4a"><animate attributeName="cx" values="600;600;620;960;1000;600;600" keyTimes="0.0000;0.3583;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="cy" values="554;554;534;534;554;554" keyTimes="0.0000;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;26;26;6;6" keyTimes="0.0000;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/></circle>
+<g><circle r="6" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="cx" values="600;600;620;960;1000;600;600" keyTimes="0.0000;0.3583;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="cy" values="554;554;534;534;554;554" keyTimes="0.0000;0.3750;0.5417;0.5833;0.5837;1.0000" dur="24s" repeatCount="indefinite"/></circle></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3750;0.5417" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="700" y="470" class="s">the arm moves sideways at the rolling speed</text><text x="700" y="488" class="s">while the roll turns, pressing 10 N</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.3750" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="700" y="470" class="s">mandrel (Ø 12, on the roll axis) pushed</text><text x="700" y="488" class="s">over the leading edge</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5417;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="700" y="470" class="s">drawn through the U-notch of the comb cradle:</text><text x="700" y="488" class="s">stripped off, flap at 5 o'clock</text></g>
+<rect x="980" y="500" width="16" height="60" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="990" y="494" class="s c">cradle</text>
+<text x="566" y="650" class="s">before rolling: mustard spread, stopping</text>
+<text x="566" y="668" class="s">35 mm before the flap; bacon, onion,</text>
+<text x="566" y="686" class="s">gherkin on the first third; the turner</text>
+<text x="566" y="704" class="s">folds both long edges in by 15 mm</text>
+<text x="566" y="722" class="s"></text>
+<text x="566" y="740" class="s">risk: the mandrel's grip on a wet slice</text>
+<text x="1086" y="120" class="s b">RAFT: two tines hold four rolls (GA-20)</text>
+<rect x="1110" y="370" width="420" height="20" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1320" y="410" class="s c">comb cradle with guide slots</text>
+<circle cx="1170" cy="340" r="30" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/>
+<path d="M1170 370 a30 30 0 0 1 22 -20" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1270" cy="340" r="30" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/>
+<path d="M1270 370 a30 30 0 0 1 22 -20" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1370" cy="340" r="30" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/>
+<path d="M1370 370 a30 30 0 0 1 22 -20" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1470" cy="340" r="30" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/>
+<path d="M1470 370 a30 30 0 0 1 22 -20" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<clipPath id="pcl"><rect x="1071" y="97" width="498" height="738"/></clipPath>
+<g clip-path="url(#pcl)"><g><animateTransform attributeName="transform" type="translate" values="600 0;600 0;0 0;0 0" keyTimes="0.0000;0.6667;0.7500;1.0000" dur="24s" repeatCount="indefinite"/><line x1="1120" y1="332" x2="1500" y2="332" stroke="#9aa1a8" stroke-width="3"/><line x1="1120" y1="348" x2="1500" y2="348" stroke="#9aa1a8" stroke-width="3"/><rect x="1500" y="324" width="40" height="32" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="1100" y="190" class="s">two tines pushed radially through</text><text x="1100" y="208" class="s">the slots and all four rolls, 30–60 N</text></g>
+<rect x="1110" y="640" width="430" height="8" fill="#5a6068" stroke="none" stroke-width="0"/>
+<rect x="1150" y="600" width="350" height="40" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1150" y="637" width="350" height="3" fill="#e04a3a" stroke="none" stroke-width="0"/>
+<text x="1325" y="672" class="s c">rondeau Ø 280 on H1, 220 °C</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1190 608;0 1190 608;180 1190 608;180 1190 608" keyTimes="0.0000;0.8333;0.8750;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="1190" cy="608" r="24" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/><path d="M1190 584 a24 24 0 0 0 0 48" fill="none" stroke="#6b3020" stroke-width="6" opacity="0" /><path d="M1190 632 a24 24 0 0 1 0 -48" fill="none" stroke="#6b3020" stroke-width="7"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1280 608;0 1280 608;180 1280 608;180 1280 608" keyTimes="0.0000;0.8333;0.8750;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="1280" cy="608" r="24" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/><path d="M1280 584 a24 24 0 0 0 0 48" fill="none" stroke="#6b3020" stroke-width="6" opacity="0" /><path d="M1280 632 a24 24 0 0 1 0 -48" fill="none" stroke="#6b3020" stroke-width="7"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1370 608;0 1370 608;180 1370 608;180 1370 608" keyTimes="0.0000;0.8333;0.8750;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="1370" cy="608" r="24" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/><path d="M1370 584 a24 24 0 0 0 0 48" fill="none" stroke="#6b3020" stroke-width="6" opacity="0" /><path d="M1370 632 a24 24 0 0 1 0 -48" fill="none" stroke="#6b3020" stroke-width="7"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1460 608;0 1460 608;180 1460 608;180 1460 608" keyTimes="0.0000;0.8333;0.8750;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="1460" cy="608" r="24" fill="#b85a4a" stroke="#3a3f45" stroke-width="2"/><path d="M1460 584 a24 24 0 0 0 0 48" fill="none" stroke="#6b3020" stroke-width="6" opacity="0" /><path d="M1460 632 a24 24 0 0 1 0 -48" fill="none" stroke="#6b3020" stroke-width="7"/></g>
+<line x1="1150" y1="608" x2="1500" y2="608" stroke="#9aa1a8" stroke-width="3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7500;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="1100" y="500" class="s">seam face down, 90 s untouched</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="1100" y="500" class="s b" style="fill:#c0661a">the roll turns the raft about its tines:</text><text x="1100" y="518" class="s">the second broad face browns</text></g>
+<text x="1100" y="720" class="s">two broad faces ≈ 60 % browned; two</text>
+<text x="1100" y="738" class="s">batches of 4 avoid crowding; then fond,</text>
+<text x="1100" y="756" class="s">deglaze, braise 100 min at 95 °C, lidded</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  Pancake: pan B is laid upside down on pan A and hooked; the pair is lifted by its twin stub and rolled 180°: the pancake drops onto B</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.5417" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  Roulade: the slotted mandrel on the roll axis takes the slice's edge and rolls it up while the arm moves along at the rolling speed</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5417;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  The roll is drawn through the U-notch of the comb cradle, which strips it off the mandrel, flap at 5 o'clock</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  Four rolls in the cradle: a two-tine raft fork is pushed through the guide slots and all four rolls</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.7500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Searing: the raft lies seam down in the rondeau; after 90 s the roll turns it about its tines</text></g>
+<rect x="30" y="844" width="1540" height="6" fill="#e9ecef" stroke="#c4cad1" stroke-width="1"/>
+<line x1="30" y1="842" x2="30" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="543.33" y1="842" x2="543.33" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="864.17" y1="842" x2="864.17" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="1056.67" y1="842" x2="1056.67" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="1185" y1="842" x2="1185" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<rect x="30" y="842" width="4" height="10" fill="#f28c28"><animate attributeName="x" values="30;1566" keyTimes="0.0000;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

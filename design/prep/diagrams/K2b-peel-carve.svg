@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K2b peeling and carving. Source: K2b-vessel-stack-inversion.md sections 3.1 (principles 2 and 3), 3.2 (M1, M2), 3.11. Side and front views, schematic, not to scale. The camera that guides the peeler along the silhouette is not drawn. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e04a3a"/></marker><marker id="ap" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b4c8a"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K2b  "T turns, the Wender holds": peeling, long peeling and carving</text>
+<text x="24" y="58" class="m">The turntable T supplies the cutting motion; the Wender only places a fixed blade and feeds it. Three mechanisms on stations that exist anyway.</text>
+<text x="1576" y="28" class="s r b">M1 T-lathe: T 60–150 rpm, sprung peeler 3–6 N, shoes 1 / 2.5 / 5 mm</text>
+<text x="1576" y="47" class="s r">M2 roll spit on the blade post: roll 60–120 rpm, one turn peels the length</text>
+<text x="1576" y="66" class="s r">M3 food mill (see the KH diagram) · tube corers Ø 14 / 22 / 42</text>
+<text x="1576" y="85" class="s r">parting: blade fed 2–3 mm/s, T 30 rpm, slice-to-push ≈ 60</text>
+<rect x="30" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="550" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<rect x="1070" y="96" width="500" height="740" fill="#ffffff" stroke="#c4cad1" stroke-width="1" rx="8"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="30" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="550" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1070" y="96" width="500" height="740" fill="none" stroke="#f28c28" stroke-width="3" rx="8"/></g>
+<text x="46" y="120" class="s b">M1  T-LATHE: the apple turns, the peeler is held</text>
+<text x="46" y="140" class="s">(apple, pear, potato, kohlrabi, citrus à vif …)</text>
+<rect x="80" y="640" width="420" height="10" fill="#5a6068" stroke="none" stroke-width="0"/>
+<text x="280" y="670" class="s c">KH glass; spit plate on the T plug</text>
+<rect x="160" y="620" width="200" height="20" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="260" y1="620" x2="260" y2="540" stroke="#3a3f45" stroke-width="4"/>
+<path d="M290 660 a20 8 0 1 1 -1 0" fill="none" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="320" y="700" class="s b" style="fill:#c0661a">T 60–150 rpm</text>
+<clipPath id="applec"><circle cx="260" cy="470" r="80"/></clipPath>
+<circle cx="260" cy="470" r="80" fill="#c94a3a" stroke="#3a3f45" stroke-width="2"/>
+<g clip-path="url(#applec)"><rect x="180" y="390" width="160" fill="#f6ecc8"><animate attributeName="height" values="0;0;160;160;0;0" keyTimes="0.0000;0.0417;0.2917;0.3292;0.3333;1.0000" dur="24s" repeatCount="indefinite"/></rect><line y1="390" y2="550" stroke="#8a2a20" stroke-width="2" opacity="0.5"><animate attributeName="x1" values="180;340" dur="0.8s" begin="-0s" repeatCount="indefinite"/><animate attributeName="x2" values="180;340" dur="0.8s" begin="-0s" repeatCount="indefinite"/></line><line y1="390" y2="550" stroke="#8a2a20" stroke-width="2" opacity="0.5"><animate attributeName="x1" values="180;340" dur="0.8s" begin="-0.2s" repeatCount="indefinite"/><animate attributeName="x2" values="180;340" dur="0.8s" begin="-0.2s" repeatCount="indefinite"/></line><line y1="390" y2="550" stroke="#8a2a20" stroke-width="2" opacity="0.5"><animate attributeName="x1" values="180;340" dur="0.8s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="x2" values="180;340" dur="0.8s" begin="-0.4s" repeatCount="indefinite"/></line><line y1="390" y2="550" stroke="#8a2a20" stroke-width="2" opacity="0.5"><animate attributeName="x1" values="180;340" dur="0.8s" begin="-0.6s" repeatCount="indefinite"/><animate attributeName="x2" values="180;340" dur="0.8s" begin="-0.6s" repeatCount="indefinite"/></line></g>
+<circle cx="260" cy="470" r="80" fill="none" stroke="#3a3f45" stroke-width="2"/>
+<g><animateTransform attributeName="transform" type="translate" values="350 340;274.59 387.28;293.27 392.87;310.16 402.62;324.35 416.01;335.07 432.3;341.74 450.63;344 470;341.74 489.37;335.07 507.7;324.35 523.99;310.16 537.38;293.27 547.13;274.59 552.72;350 340;350 340" keyTimes="0.0000;0.0333;0.0625;0.0833;0.1042;0.1250;0.1458;0.1667;0.1875;0.2083;0.2292;0.2500;0.2708;0.2917;0.3167;1.0000" dur="24s" repeatCount="indefinite"/><line x1="0" y1="0" x2="60" y2="-40" stroke="#9aa1a8" stroke-width="6"/><rect x="60" y="-52" width="90" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><line x1="-6" y1="-4" x2="6" y2="4" stroke="#3a3f45" stroke-width="3"/><circle cx="60" cy="-40" r="8" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0417;0.2917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect width="10" height="4" fill="#c94a3a"><animate attributeName="x" values="330;380" dur="1s" begin="-0s" repeatCount="indefinite"/><animate attributeName="y" values="470;620" dur="1s" begin="-0s" repeatCount="indefinite"/></rect><rect width="10" height="4" fill="#c94a3a"><animate attributeName="x" values="330;380" dur="1s" begin="-0.25s" repeatCount="indefinite"/><animate attributeName="y" values="470;620" dur="1s" begin="-0.25s" repeatCount="indefinite"/></rect><rect width="10" height="4" fill="#c94a3a"><animate attributeName="x" values="330;380" dur="1s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="y" values="470;620" dur="1s" begin="-0.5s" repeatCount="indefinite"/></rect><rect width="10" height="4" fill="#c94a3a"><animate attributeName="x" values="330;380" dur="1s" begin="-0.75s" repeatCount="indefinite"/><animate attributeName="y" values="470;620" dur="1s" begin="-0.75s" repeatCount="indefinite"/></rect></g>
+<text x="50" y="190" class="s">the Wender holds the sprung peeler</text>
+<text x="50" y="208" class="s">by its T45 neck and runs it pole to</text>
+<text x="50" y="226" class="s">pole in Z; X follows the camera</text>
+<text x="50" y="244" class="s">silhouette; 10–12 mm feed per turn</text>
+<text x="50" y="262" class="s"></text>
+<text x="50" y="280" class="s">eyes: Ø 14 corer pushed in X</text>
+<text x="50" y="298" class="s">core: Ø 22 tube spit, pusher cup</text>
+<text x="50" y="316" class="s">then 8 knife plunges while T</text>
+<text x="50" y="334" class="s">indexes 45°: wedges</text>
+<text x="566" y="120" class="s b">M2  ROLL SPIT: one turn peels the whole length</text>
+<text x="566" y="140" class="s">(cucumber, carrot, courgette, daikon — katsuramuki)</text>
+<rect x="560" y="300" width="60" height="150" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/>
+<text x="590" y="290" class="s c">roll unit</text>
+<line x1="620" y1="420" x2="680" y2="420" stroke="#3a3f45" stroke-width="5"/>
+<path d="M680 390 L960 390 a30 30 0 0 1 0 60 L680 450 a30 30 0 0 1 0 -60 Z" fill="#3f7a2a" stroke="#3a3f45" stroke-width="2"/>
+<rect x="680" y="390" width="280" fill="#d8ecb0" opacity="0.95"><animate attributeName="y" values="450;450;390;390" keyTimes="0.0000;0.3750;0.5417;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="height" values="0;0;60;60;0;0" keyTimes="0.0000;0.3750;0.5417;0.6625;0.6667;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<path d="M680 390 L960 390 a30 30 0 0 1 0 60 L680 450 a30 30 0 0 1 0 -60 Z" fill="none" stroke="#3a3f45" stroke-width="2"/>
+<rect x="970" y="414" width="30" height="12" fill="#e8d9a8" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1000" y="406" class="s r">PEEK steady</text>
+<rect x="670" y="454" width="300" height="6" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="700" y="460" width="12" height="120" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="600" y="580" width="420" height="14" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="810" y="616" class="s c">blade post on the board carrier;</text>
+<text x="810" y="634" class="s c">its arm rests in the anchor fork</text>
+<text x="664" y="464" class="s r">sprung blade</text>
+<rect x="680" y="462" width="280" fill="#3f7a2a" opacity="0.8"><animate attributeName="height" values="0;0;70;70;0;0" keyTimes="0.0000;0.3750;0.5417;0.6625;0.6667;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<text x="880" y="705" class="s b">end view</text>
+<circle cx="820" cy="700" r="46" fill="#3f7a2a" stroke="#3a3f45" stroke-width="2"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 820 700;0 820 700;360 820 700;360 820 700" keyTimes="0.0000;0.3750;0.5417;1.0000" dur="24s" repeatCount="indefinite"/><circle cx="820" cy="700" r="40" fill="#d8ecb0" stroke="#3a3f45" stroke-width="0"/><circle cx="820" cy="700" r="43" fill="none" stroke="#3f7a2a" stroke-width="6" stroke-dasharray="200 70"/><line x1="820" y1="700" x2="860" y2="700" stroke="#2b2f33" stroke-width="2"/></g>
+<line x1="750" y1="750" x2="880" y2="750" stroke="#9aa1a8" stroke-width="4"/>
+<path d="M730 720 a50 50 0 0 1 40 -30" fill="none" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="720" y="670" class="s r b" style="fill:#c0661a">roll</text>
+<text x="566" y="780" class="s">stripes for cucumber salad: one plunge per indexed stripe</text>
+<text x="1086" y="120" class="s b">CARVING by parting on T: a draw cut</text>
+<text x="1086" y="140" class="s">(boneless roast, braised meat, cake portions)</text>
+<rect x="1120" y="640" width="420" height="10" fill="#5a6068" stroke="none" stroke-width="0"/>
+<rect x="1220" y="620" width="200" height="20" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="1320" y1="620" x2="1320" y2="590" stroke="#3a3f45" stroke-width="4"/>
+<rect x="1230" width="180" rx="20" fill="#8a4a2a" stroke="#3a3f45" stroke-width="2"><animate attributeName="y" values="360;360;360;380;380" keyTimes="0.0000;0.6667;0.8125;0.8333;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="height" values="260;260;260;240;240" keyTimes="0.0000;0.6667;0.8125;0.8333;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<rect x="1232" y="362" width="176" height="14" fill="#c46a5a" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.7083;0.7917;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+<path d="M1300 670 a40 10 0 1 0 1 0" fill="none" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="1380" y="680" class="s b" style="fill:#c0661a">T 30 rpm</text>
+<g><animateTransform attributeName="transform" type="translate" values="1415 376;1415 376;1400 376;1280 376;1280 330;1410 300;1415 376" keyTimes="0.0000;0.6667;0.7083;0.8083;0.8333;0.8958;1.0000" dur="24s" repeatCount="indefinite"/><rect x="0" y="-3" width="120" height="6" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/><rect x="120" y="-12" width="30" height="24" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8083;0.8958" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="0" y="-18" width="115" height="14" fill="#c46a5a" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<line x1="1420" y1="350" x2="1380" y2="350" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="1426" y="345" class="s" style="fill:#c0661a">feed 2–3 mm/s</text>
+<text x="1086" y="180" class="s">the edge slides at 0.16 m/s at r 50 while it</text>
+<text x="1086" y="198" class="s">is pushed only 2–3 mm/s: a draw cut,</text>
+<text x="1086" y="216" class="s">normal force 3–5 × lower, braised meat</text>
+<text x="1086" y="234" class="s">does not tear</text>
+<text x="1086" y="252" class="s"></text>
+<text x="1086" y="270" class="s">the slice lies on the blade and is carried</text>
+<text x="1086" y="288" class="s">to the plate; the stripper bar slides it off;</text>
+<text x="1086" y="306" class="s">Z steps down 4–6 mm (firm), 8–10 (braised)</text>
+<text x="1086" y="700" class="s">≈ 25 s per slice; the bottom 30 mm</text>
+<text x="1086" y="718" class="s">stay on the spit (end piece)</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/3</tspan>  M1 T-lathe: the apple stands on the spit plate and turns with T; the Wender runs the sprung peeler from pole to pole along its silhouette</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/3</tspan>  M2: a long item on the roll spit is laid on the long sprung blade of the blade post; one turn of the roll peels the whole length</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.6667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/3</tspan>  Carving: a wide flat blade is fed slowly towards the centre while T turns the roast; the parted slice is carried away on the blade</text></g>
+<rect x="30" y="844" width="1540" height="6" fill="#e9ecef" stroke="#c4cad1" stroke-width="1"/>
+<line x1="30" y1="842" x2="30" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="543.33" y1="842" x2="543.33" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<line x1="1056.67" y1="842" x2="1056.67" y2="852" stroke="#9aa1a8" stroke-width="1"/>
+<rect x="30" y="842" width="4" height="10" fill="#f28c28"><animate attributeName="x" values="30;1566" keyTimes="0.0000;1.0000" dur="24s" repeatCount="indefinite"/></rect>
+</svg>
