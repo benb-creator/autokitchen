@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K11 cold top exits. Source: K11-whole-machine.md sections 1.2, 1.6, 2.1-2.4. Front sections x/z through the fridge (X 600-1200) at 0.3 px/mm; the second row of the 2 x 2 stacks lies behind. Option A: the storage gripper reaching down through the open throat to take the box from the in-shell robot is the simplest reading of the hand-over. Option B: sub-lids drawn hinged at their outer edge and lifted by the servo hook. Box heights are examples. Both panels run the same 24 s loop; boxes moved in a dig jump back at the loop restart. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#f28c28" stroke-width="2" opacity="0.5"/></pattern></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K11  Fridge and freezer: getting boxes out through the top</text>
+<text x="24" y="58" class="m">Built-in 178 cm fridge and freezer, top wall opened. A: one small window and a robot inside. B: four sub-lids, the carriage digs.</text>
+<text x="1576" y="28" class="s r b">fridge Bosch KIR81AFE0 319 L · freezer GIN81ACE0 212 L</text>
+<text x="1576" y="47" class="s r">A: throat 210 × 200, open 3.4 s · ≈ 38–45 / 24 boxes</text>
+<text x="1576" y="66" class="s r">B: 4 windows 200 × 190, open 6–8 s · ≈ 48 / 40 boxes</text>
+<text x="1576" y="85" class="s r">CLD-004 kept by both · B fails CLD-006 for unplanned boxes</text>
+<text x="40" y="112" class="m b">OPTION A — window + robot inside (C1-B)</text>
+<rect x="80" y="130" width="180" height="624" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="130" width="180" height="60" fill="#eef0f2" stroke="#3a3f45" stroke-width="1"/>
+<text x="257" y="146" class="s r">gallery</text>
+<rect x="80" y="754" width="180" height="36" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="86" y="222.4" width="167.7" height="531.6" fill="#c9d9e8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="98" y="237.4" width="144" height="501.6" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="98.6" y1="325" x2="241.4" y2="325" stroke="#9fb3c6" stroke-width="1.2" stroke-dasharray="5 4"/>
+<rect x="101.6" y="706" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="682.9" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="649.3" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="615.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="592.6" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="559" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="525.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="502.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="468.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="435.1" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="101.6" y="412" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="706" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="672.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="649.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="615.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="592.6" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="559" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="525.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="491.8" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="468.7" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="435.1" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="412" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="185.6" y="378.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="86" y="217" width="167.7" height="5.4" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="138.5" y="217" width="63" height="9.9" fill="#f6f7f8" stroke="#3a3f45" stroke-width="0"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;66 0;66 0;0 0;0 0" keyTimes="0.0000;0.2500;0.2667;0.3750;0.3917;1.0000" dur="24s" repeatCount="indefinite"/><rect x="135.5" y="212.5" width="69" height="5" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/></g>
+<rect x="135.5" y="210.5" width="4" height="9" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/>
+<rect x="203.3" y="210.5" width="4" height="9" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/>
+<rect x="95" y="205" width="18" height="12" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="104" y1="217" x2="104" y2="247" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="100" y="216.4" width="8" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/>
+<rect x="227" y="205" width="18" height="12" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="236" y1="217" x2="236" y2="247" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="232" y="216.4" width="8" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/>
+<line x1="104" y1="248.5" x2="236" y2="248.5" stroke="#7d858d" stroke-width="3"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.4333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="212 365.05;212 370.3;212 289;170 289;170 289;170 289;170 169;170 168.6;170 169;170 169" keyTimes="0.0000;0.1250;0.2083;0.2500;0.3167;0.3167;0.3750;0.3917;0.4333;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-26.4" y="-15" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="128 365.05;128 365.05;128 365.05;128 283.75;212 283.75;212 365.05;212 365.05" keyTimes="0.0000;0.5625;0.5625;0.6250;0.6667;0.7083;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-26.4" y="-9.75" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="128 393.4;128 393.4;128 393.4;128 289;170 289;170 289" keyTimes="0.0000;0.8417;0.8417;0.8917;0.9333;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-26.4" y="-15" width="52.8" height="30" fill="#f6c48a" stroke="#3a3f45" stroke-width="2"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="170 248.5;212 248.5;212 248.5;212 248.5;170 248.5;170 248.5;170 248.5;128 248.5;128 248.5;128 248.5;212 248.5;212 248.5;212 248.5;128 248.5;128 248.5;128 248.5;170 248.5;170 248.5" keyTimes="0.0000;0.0417;0.1250;0.2083;0.2500;0.3167;0.3917;0.5000;0.5625;0.6250;0.6667;0.7083;0.7500;0.7917;0.8417;0.8917;0.9333;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-12" y="-5" width="24" height="10" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/><line x1="0" y1="5" x2="0" y2="20" stroke="#555" stroke-width="2"><animate attributeName="y2" values="25.5;25.5;106.8;25.5;25.5;25.5;25.5;25.5;106.8;25.5;25.5;106.8;25.5;25.5;129.9;25.5;25.5;25.5" keyTimes="0.0000;0.0417;0.1250;0.2083;0.2500;0.3167;0.3917;0.5000;0.5625;0.6250;0.6667;0.7083;0.7500;0.7917;0.8417;0.8917;0.9333;1.0000" dur="24s" repeatCount="indefinite"/></line></g>
+<g><animateTransform attributeName="transform" type="translate" values="170 274;212 274;212 355.3;212 274;170 274;170 274;170 274;128 274;128 355.3;128 274;212 274;212 355.3;212 274;128 274;128 378.4;128 274;170 274;170 274" keyTimes="0.0000;0.0417;0.1250;0.2083;0.2500;0.3167;0.3917;0.5000;0.5625;0.6250;0.6667;0.7083;0.7500;0.7917;0.8417;0.8917;0.9333;1.0000" dur="24s" repeatCount="indefinite"/><path d="M-24 6 L-24 0 L24 0 L24 6" fill="none" stroke="#f28c28" stroke-width="3.5"/></g>
+<line x1="170.0" y1="136.0" x2="170.0" y2="151.0" stroke="#555" stroke-width="2"><animate attributeName="y2" values="151;151;274;274;154;151;151" keyTimes="0.0000;0.2667;0.3083;0.3167;0.3750;0.5000;1.0000" dur="24s" repeatCount="indefinite"/></line>
+<g><animateTransform attributeName="transform" type="translate" values="170 151;170 151;170 274;170 274;170 154;170 151;170 151" keyTimes="0.0000;0.2667;0.3083;0.3167;0.3750;0.5000;1.0000" dur="24s" repeatCount="indefinite"/><path d="M-27 6 L-27 0 L27 0 L27 6" fill="none" stroke="#f28c28" stroke-width="4"/></g>
+<rect x="155" y="131.5" width="30" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="170" y="460" class="s c b h">FRIDGE</text>
+<text x="170" y="476" class="s c h">2 × 2 stacks</text>
+<rect x="80" y="804" width="180" height="26" fill="#fff" stroke="#3a3f45" stroke-width="1.5" rx="5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2500;0.3917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="80" y="804" width="180" height="26" fill="#7fb8e6" stroke="#3a3f45" stroke-width="1.5" rx="5"/><text x="170" y="822" class="s c b">window OPEN</text></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.2500;0.3917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="170" y="822" class="s c">window closed</text></g>
+<text x="330" y="138" class="s">top wall, seen from above</text>
+<rect x="330" y="150" width="210" height="210" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="355.2" y="177.65" width="61.6" height="56.7" fill="none" stroke="#777" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="453.2" y="177.65" width="61.6" height="56.7" fill="none" stroke="#777" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="355.2" y="275.65" width="61.6" height="56.7" fill="none" stroke="#777" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="453.2" y="275.65" width="61.6" height="56.7" fill="none" stroke="#777" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="398.25" y="216.5" width="73.5" height="70" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;75 0;75 0;0 0;0 0" keyTimes="0.0000;0.2500;0.2667;0.3750;0.3917;1.0000" dur="24s" repeatCount="indefinite"/><rect x="394.75" y="213" width="80.5" height="77" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.85"/></g>
+<text x="435" y="378" class="s c">throat 210 × 200 on the pick line</text>
+<text x="330" y="410" class="s">dashed line: robot zone, top 350 mm</text>
+<text x="330" y="427" class="s"></text>
+<text x="330" y="444" class="s">spring-closed slide, gear motor,</text>
+<text x="330" y="461" class="s">magnetic gasket; the freezer seat</text>
+<text x="330" y="478" class="s">has a skirt and a heater</text>
+<text x="330" y="495" class="s"></text>
+<text x="330" y="512" class="s">robot inside: CoreXY motors</text>
+<text x="330" y="529" class="s">outside, 2 shafts through PTFE</text>
+<text x="330" y="546" class="s">bushings, hoist inside (NEMA 17,</text>
+<text x="330" y="563" class="s">cold-rated in the freezer), passive</text>
+<text x="330" y="580" class="s">toggle gripper</text>
+<text x="330" y="597" class="s"></text>
+<text x="330" y="614" class="s">planned box ≈ 6 s;</text>
+<text x="330" y="631" class="s">unplanned ≤ 45 s for the top 8</text>
+<text x="330" y="648" class="s">boxes of every stack; a deep</text>
+<text x="330" y="665" class="s">chilled box 60–70 s</text>
+<text x="330" y="682" class="s">(CLD-006 ≤ 45 s, waiver Q2)</text>
+<text x="330" y="699" class="s"></text>
+<text x="330" y="716" class="s">15 motors in storage for A</text>
+<text x="330" y="733" class="s">orange box = the wanted box</text>
+<line x1="800" y1="100" x2="800" y2="840" stroke="#c4cad1" stroke-width="2"/>
+<text x="820" y="112" class="m b">OPTION B — four sub-lids, dug from above</text>
+<rect x="860" y="130" width="180" height="624" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="860" y="130" width="180" height="60" fill="#eef0f2" stroke="#3a3f45" stroke-width="1"/>
+<text x="1037" y="146" class="s r">gallery</text>
+<rect x="860" y="754" width="180" height="36" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="866" y="222.4" width="167.7" height="531.6" fill="#c9d9e8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="878" y="237.4" width="144" height="501.6" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="881.6" y="706" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="682.9" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="649.3" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="615.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="592.6" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="559" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="525.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="502.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="468.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="435.1" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="412" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="378.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="881.6" y="355.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="706" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="672.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="649.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="615.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="592.6" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="559" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="525.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="491.8" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="468.7" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="435.1" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="412" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="378.4" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="355.3" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="965.6" y="321.7" width="52.8" height="30" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="866" y="217" width="167.7" height="5.4" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="878" y="217" width="60" height="9.9" fill="#f6f7f8" stroke="#3a3f45" stroke-width="0"/>
+<rect x="962" y="217" width="60" height="9.9" fill="#f6f7f8" stroke="#3a3f45" stroke-width="0"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 878 217;0 878 217;-75 878 217;-75 878 217;0 878 217;0 878 217;-75 878 217;-75 878 217;0 878 217;0 878 217" keyTimes="0.0000;0.0208;0.0458;0.2667;0.2917;0.5833;0.6083;0.8083;0.8333;1.0000" dur="24s" repeatCount="indefinite"/><rect x="878" y="205" width="60" height="12" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/><rect x="878" y="215" width="60" height="3" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1022 217;0 1022 217;75 1022 217;75 1022 217;0 1022 217;0 1022 217" keyTimes="0.0000;0.3333;0.3583;0.5250;0.5500;1.0000" dur="24s" repeatCount="indefinite"/><rect x="962" y="205" width="60" height="12" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/><rect x="962" y="215" width="60" height="3" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="908 308.35;908 308.35;908 160.75;908 160.75;992 160.75;992 160.75;992 308.35;992 308.35;992 308.35" keyTimes="0.0000;0.1583;0.2667;0.2917;0.3333;0.3583;0.4417;0.4500;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-26.4" y="-9.75" width="52.8" height="19.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.9667" dur="24s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="908 336.7;908 336.7;908 336.7;908 163;908 163;950 163;1028 166;1028 166" keyTimes="0.0000;0.7000;0.7000;0.8083;0.8333;0.9375;0.9667;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-26.4" y="-15" width="52.8" height="30" fill="#f6c48a" stroke="#3a3f45" stroke-width="2"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="908 0;908 0;908 0;908 0;908 0;992 0;992 0;992 0;992 0;992 0;908 0;908 0;908 0;908 0;908 0;950 0;908 0" keyTimes="0.0000;0.0500;0.1583;0.2667;0.2917;0.3333;0.3583;0.4417;0.4500;0.5250;0.5833;0.6083;0.7000;0.8083;0.8333;0.9375;1.0000" dur="24s" repeatCount="indefinite"/><rect x="-14" y="131.5" width="28" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/><line x1="0" y1="142.0" x2="0" y2="151.0" stroke="#555" stroke-width="2"><animate attributeName="y2" values="151;151;298.6;151;151;151;151;298.6;298.6;151;151;151;321.7;148;148;148;151" keyTimes="0.0000;0.0500;0.1583;0.2667;0.2917;0.3333;0.3583;0.4417;0.4500;0.5250;0.5833;0.6083;0.7000;0.8083;0.8333;0.9375;1.0000" dur="24s" repeatCount="indefinite"/></line><line x1="-24" y1="142" x2="-40" y2="166" stroke="#f28c28" stroke-width="3"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="908 151;908 151;908 298.6;908 151;908 151;992 151;992 151;992 298.6;992 298.6;992 151;908 151;908 151;908 321.7;908 148;908 148;950 148;908 151" keyTimes="0.0000;0.0500;0.1583;0.2667;0.2917;0.3333;0.3583;0.4417;0.4500;0.5250;0.5833;0.6083;0.7000;0.8083;0.8333;0.9375;1.0000" dur="24s" repeatCount="indefinite"/><path d="M-27 6 L-27 0 L27 0 L27 6" fill="none" stroke="#f28c28" stroke-width="4"/></g>
+<text x="950" y="490" class="s c b h">FRIDGE</text>
+<text x="950" y="506" class="s c h">full-height stacks</text>
+<rect x="860" y="804" width="180" height="26" fill="#fff" stroke="#3a3f45" stroke-width="1.5" rx="5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0;1;0" keyTimes="0.0000;0.0208;0.2917;0.3333;0.5500;0.5833;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="860" y="804" width="180" height="26" fill="#7fb8e6" stroke="#3a3f45" stroke-width="1.5" rx="5"/><text x="950" y="822" class="s c b">one sub-lid OPEN</text></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1;0;1;0;1" keyTimes="0.0000;0.0208;0.2917;0.3333;0.5500;0.5833;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="950" y="822" class="s c">all closed</text></g>
+<text x="1110" y="138" class="s">top wall, seen from above</text>
+<rect x="1110" y="150" width="210" height="210" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1131" y="172.75" width="70" height="66.5" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.0208;0.2917;0.5833;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1131" y="172.75" width="70" height="66.5" fill="#f6f7f8" stroke="#f28c28" stroke-width="2"/></g>
+<rect x="1229" y="172.75" width="70" height="66.5" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3333;0.5500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><rect x="1229" y="172.75" width="70" height="66.5" fill="#f6f7f8" stroke="#f28c28" stroke-width="2"/></g>
+<rect x="1131" y="270.75" width="70" height="66.5" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1229" y="270.75" width="70" height="66.5" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1215" y="378" class="s c">4 windows 200 × 190, one per stack</text>
+<text x="1110" y="410" class="s">insulated 40 mm sub-lids on magnetic</text>
+<text x="1110" y="427" class="s">gaskets, spring-closed; the carriage</text>
+<text x="1110" y="444" class="s">servo hook lifts one at a time, only</text>
+<text x="1110" y="461" class="s">while the hoist passes (6–8 s)</text>
+<text x="1110" y="478" class="s"></text>
+<text x="1110" y="495" class="s">freezer seats: 100 mm skirt and a</text>
+<text x="1110" y="512" class="s">3 W dew-point heater</text>
+<text x="1110" y="529" class="s"></text>
+<text x="1110" y="546" class="s">top box ≈ 15–18 s, each box above</text>
+<text x="1110" y="563" class="s">+ 10–12 s, deepest ≈ 2–2.5 min;</text>
+<text x="1110" y="580" class="s">night re-sort keeps R boxes on</text>
+<text x="1110" y="597" class="s">their own stacks, never above RTE</text>
+<text x="1110" y="614" class="s"></text>
+<text x="1110" y="631" class="s">four windows ≈ a full-top cut:</text>
+<text x="1110" y="648" class="s">cut test on a used unit (CLD-007)</text>
+<text x="1110" y="665" class="s"></text>
+<text x="1110" y="682" class="s">orange box = the wanted box</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.2500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/4</tspan>  A: the robot inside lifts the box into the robot zone, under the window</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2500;0.3917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/4</tspan>  A: slide opens 3.4 s; the storage gripper takes the box</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3917;0.7083" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/4</tspan>  A: unplanned deep box: the robot moves the box above aside</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7083" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/4</tspan>  A: wanted box to the window; next opening 3.4 s</text></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.2917" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="824" y="876" class="m"><tspan class="b">1/4</tspan>  B: hook lifts sub-lid 1; the box above comes out</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2917;0.5500" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="824" y="876" class="m"><tspan class="b">2/4</tspan>  B: it is parked on stack 2 through sub-lid 2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5500;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="824" y="876" class="m"><tspan class="b">3/4</tspan>  B: back to stack 1: the wanted box comes out</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8333" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="824" y="876" class="m"><tspan class="b">4/4</tspan>  B: all lids closed; box to the cell (≈ 30 s here)</text></g>
+<rect x="30" y="886" width="0" height="3" fill="#f28c28"><animate attributeName="width" values="0;1540" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

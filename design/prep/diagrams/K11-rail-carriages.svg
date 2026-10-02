@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K11 rail and carriages. Source: K11-whole-machine.md sections 1.5, 1.6, 2.1. Main panel: front elevation of the gallery strip at 0.4 px/mm, z 1450-2200 (below is clipped). The sections are drawn at 0.3 px/mm through the beam; the storage section shows the generic port under the pick line (cold exit, roof hatch or cell port are the same in section). The omega close-up runs its own 8 s loop. Movement times are compressed; the controller interlock and the limit-switch second channel are shown as one zone lamp. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker><marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#f28c28" stroke-width="2" opacity="0.5"/></pattern></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K11  Shared rail with two carriages</text>
+<text x="24" y="58" class="m">One beam, two rails, one static belt: the storage carriage and the cell carriage each roll on it with their own motor.</text>
+<text x="1576" y="28" class="s r b">beam X 0–3600 · 40 × 80 profile · z 2080–2160</text>
+<text x="1576" y="47" class="s r">2 × MGN15 rails · 1 static HTD 3M-15 steel-cord belt</text>
+<text x="1576" y="66" class="s r">each carriage: NEMA 23 + omega pulley set, 4 blocks</text>
+<text x="1576" y="85" class="s r">box freezer → shelf ≈ 1.9 m in 4–6 s at 0.8 m/s</text>
+<text x="1576" y="104" class="s r">overlap only over the box shelf X 1880–2350</text>
+<text x="80" y="112" class="s b">FRONT VIEW OF THE GALLERY (machine X 0–3600, z 1450–2200)</text>
+<clipPath id="cp"><rect x="78" y="138" width="1444" height="294"/></clipPath>
+<rect x="80" y="140" width="1440" height="290" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="80" y="140" width="1440" height="80" fill="#eef0f2" stroke="#3a3f45" stroke-width="1"/>
+<rect x="832" y="140" width="188" height="80" fill="url(#hatch)" stroke="#f28c28" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="926" y="238" class="s c h">shared zone over the box shelf</text>
+<g clip-path="url(#cp)">
+<rect x="88" y="263.2" width="223.6" height="500" fill="#e3edf5" stroke="#3a3f45" stroke-width="2"/>
+<rect x="88" y="257.2" width="223.6" height="6" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="200" y="340" class="m c b">freezer</text>
+<rect x="328" y="263.2" width="223.6" height="500" fill="#e3edf5" stroke="#3a3f45" stroke-width="2"/>
+<rect x="328" y="257.2" width="223.6" height="6" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="440" y="340" class="m c b">fridge</text>
+<rect x="560" y="220" width="260" height="400" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<text x="690" y="300" class="m c b">ambient (S4)</text>
+<rect x="820" y="220" width="700" height="400" fill="#f9fafb" stroke="#3a3f45" stroke-width="2"/>
+<text x="1516" y="428" class="m r h">wet cell (ceiling with a labyrinth slot)</text>
+<rect x="824" y="400" width="228" height="4" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/>
+<rect x="839" y="396" width="50" height="4" fill="#d64541" stroke="#3a3f45" stroke-width="1"/>
+<rect x="897" y="396" width="50" height="4" fill="#6ab04c" stroke="#3a3f45" stroke-width="1"/>
+<text x="864" y="422" class="s">box shelf, 3 stub carriers</text>
+</g>
+<rect x="158" y="256.2" width="84" height="8" fill="#fff" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="398" y="256.2" width="84" height="8" fill="#fff" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="200" y="251.2" class="s c">throat</text>
+<text x="440" y="251.2" class="s c">throat</text>
+<rect x="660" y="217" width="60" height="6" fill="#fff" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="690" y="212" class="s c">roof hatch</text>
+<rect x="940" y="217" width="80" height="6" fill="#fff" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="980" y="212" class="s c">port + flap</text>
+<rect x="80" y="156" width="1440" height="32" fill="#b8bec5" stroke="#3a3f45" stroke-width="2"/>
+<line x1="80" y1="162" x2="1520" y2="162" stroke="#7d858d" stroke-width="2"/>
+<line x1="80" y1="182" x2="1520" y2="182" stroke="#7d858d" stroke-width="2"/>
+<line x1="80" y1="172" x2="1520" y2="172" stroke="#222" stroke-width="3" stroke-dasharray="2 2"/>
+<rect x="82" y="168.8" width="12" height="10" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1506" y="168.8" width="12" height="10" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<text x="90" y="204" class="s">static belt, clamped at both ends: it never moves</text>
+<rect x="80" y="140" width="4" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="316" y="140" width="8" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="556" y="140" width="8" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="796" y="140" width="8" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="1036" y="140" width="8" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="1276" y="140" width="8" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<rect x="1516" y="140" width="4" height="8" fill="#777" stroke="#3a3f45" stroke-width="0"/>
+<g clip-path="url(#cp)">
+<g><animateTransform attributeName="transform" type="translate" values="980 398;980 398;980 470;1280 530;1160 530;1360 530;1160 530;980 470;980 398;980 398;980 398" keyTimes="0.0000;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-25" y="-2" width="50" height="4" fill="#6ab04c" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="440 288;440 288;440 196;980 196;980 376;980 376;980 376;980 448;1280 508;1160 508;1360 508;1160 508;980 448;980 376;980 376;980 376;980 196;440 196;440 288" keyTimes="0.0000;0.0000;0.0536;0.1607;0.2143;0.2250;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-35" y="-20" width="70" height="40" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="-36" y="-22" width="72" height="4" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="440 0;440 0;980 0;980 0;980 0;980 0;740 0;740 0;600 0;600 0;800 0;800 0;980 0;980 0;980 0;980 0;440 0;440 0" keyTimes="0.0000;0.0536;0.1607;0.2143;0.2250;0.2500;0.3036;0.4464;0.5179;0.5714;0.6607;0.7679;0.8036;0.8393;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-34" y="154" width="68" height="42" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><circle cx="0" cy="172" r="9" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/><line x1="0" y1="176.0" x2="0" y2="176.0" stroke="#555" stroke-width="2"><animate attributeName="y2" values="268;176;176;356;356;176;176;176;176;176;176;176;176;356;356;176;176;268" keyTimes="0.0000;0.0536;0.1607;0.2143;0.2250;0.2500;0.3036;0.4464;0.5179;0.5714;0.6607;0.7679;0.8036;0.8393;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/></line><text x="0" y="148" class="s c b h">storage carriage</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="440 268;440 176;980 176;980 356;980 356;980 176;740 176;740 176;600 176;600 176;800 176;800 176;980 176;980 356;980 356;980 176;440 176;440 268" keyTimes="0.0000;0.0536;0.1607;0.2143;0.2250;0.2500;0.3036;0.4464;0.5179;0.5714;0.6607;0.7679;0.8036;0.8393;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/><path d="M-38 10 L-38 0 L38 0 L38 10" fill="none" stroke="#f28c28" stroke-width="4"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="1280 0;1280 0;980 0;980 0;980 0;1280 0;1160 0;1360 0;1160 0;980 0;980 0;980 0;980 0;1160 0;1280 0;1280 0" keyTimes="0.0000;0.3036;0.3571;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;0.7321;0.7679;0.8036;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-34" y="154" width="68" height="42" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><circle cx="0" cy="172" r="9" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/><rect x="-12" y="188" width="24" height="400" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.45"/><text x="0" y="148" class="s c b h">cell carriage</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="1280 380;1280 380;980 380;980 308;980 380;1280 440;1160 440;1360 440;1160 440;980 380;980 308;980 308;980 380;1160 380;1280 380;1280 380" keyTimes="0.0000;0.3036;0.3571;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;0.7321;0.7679;0.8036;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-18" y="-8" width="36" height="16" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><line x1="0" y1="8" x2="0" y2="120" stroke="#f28c28" stroke-width="5"/></g>
+</g>
+<rect x="1250" y="448" width="300" height="34" fill="#fff" stroke="#3a3f45" stroke-width="1.5" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1;0;1;0;1" keyTimes="0.0000;0.1314;0.2832;0.3500;0.4179;0.6350;0.9125" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="1400" y="471" class="m c b" style="fill:#555">shared zone: free</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.1314;0.2832;0.7743;0.9125" dur="28s" calcMode="discrete" repeatCount="indefinite"/><rect x="1250" y="448" width="300" height="34" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" rx="6" fill-opacity="0.8"/><text x="1400" y="471" class="m c b">shared zone: STORAGE carriage</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.3500;0.4179;0.6350;0.7400" dur="28s" calcMode="discrete" repeatCount="indefinite"/><rect x="1250" y="448" width="300" height="34" fill="#7fb8e6" stroke="#3a3f45" stroke-width="1.5" rx="6"/><text x="1400" y="471" class="m c b">shared zone: CELL carriage</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6607;0.7679" dur="28s" calcMode="discrete" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="800 0;800 0" keyTimes="0.0000;1.0000" dur="28s" repeatCount="indefinite"/><rect x="-40" y="190" width="80" height="24" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.5" rx="4"/><text x="0" y="207" class="s c b w">waits</text></g></g>
+<text x="80" y="470" class="s">Controller admits one carriage at a time over the shelf;</text>
+<text x="80" y="488" class="s">a limit switch on each carriage stopping both drives is the second channel.</text>
+<text x="50" y="520" class="s b">OMEGA DRIVE: the motor climbs along a belt that stands still</text>
+<rect x="50" y="532" width="460" height="260" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="60" y1="630" x2="500" y2="630" stroke="#222" stroke-width="5"/>
+<line x1="60" y1="633" x2="500" y2="633" stroke="#888" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="60" y="622" width="12" height="16" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<rect x="488" y="622" width="12" height="16" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;170 0;170 0;0 0;0 0" keyTimes="0.0000;0.3750;0.5000;0.8750;1.0000" dur="8s" repeatCount="indefinite"/><rect x="130" y="540" width="120" height="110" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.25"/><rect x="159" y="626" width="62" height="10" fill="#f6f7f8" stroke="#3a3f45" stroke-width="0"/><path d="M160 630 A9 9 0 0 0 169 621 L174 590 A16 16 0 0 1 206 590 L211 621 A9 9 0 0 0 220 630" fill="none" stroke="#222" stroke-width="5"/><g><animateTransform attributeName="transform" type="rotate" values="0 160 621;-1082.25 160 621;-1082.25 160 621;0 160 621;0 160 621" keyTimes="0.0000;0.3750;0.5000;0.8750;1.0000" dur="8s" repeatCount="indefinite"/><circle cx="160" cy="621" r="7" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/><line x1="160" y1="615" x2="160" y2="627" stroke="#3a3f45" stroke-width="1.5"/></g><g><animateTransform attributeName="transform" type="rotate" values="0 220 621;-1082.25 220 621;-1082.25 220 621;0 220 621;0 220 621" keyTimes="0.0000;0.3750;0.5000;0.8750;1.0000" dur="8s" repeatCount="indefinite"/><circle cx="220" cy="621" r="7" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/><line x1="220" y1="615" x2="220" y2="627" stroke="#3a3f45" stroke-width="1.5"/></g><g><animateTransform attributeName="transform" type="rotate" values="0 190 590;608.77 190 590;608.77 190 590;0 190 590;0 190 590" keyTimes="0.0000;0.3750;0.5000;0.8750;1.0000" dur="8s" repeatCount="indefinite"/><circle cx="190" cy="590" r="13" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><line x1="190" y1="578" x2="190" y2="602" stroke="#3a3f45" stroke-width="2"/><line x1="178" y1="590" x2="202" y2="590" stroke="#3a3f45" stroke-width="2"/></g><text x="190" y="560" class="s c b">NEMA 23</text><text x="190" y="670" class="s c">idler · drive · idler</text></g>
+<text x="70" y="720" class="s">Drive pulley turns → the carriage walks along the static belt.</text>
+<text x="70" y="740" class="s">A second carriage with its own motor uses the same belt,</text>
+<text x="70" y="760" class="s">so both move independently; no second belt, no long shaft.</text>
+<text x="70" y="780" class="s">Rail butt joints at module borders aligned on a jig [U: K1].</text>
+<text x="560" y="522" class="s b">SECTION: storage carriage, arm to the pick line</text>
+<rect x="560" y="532" width="480" height="310" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="592.5" y="533" width="7.5" height="308" fill="#c4cad1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="600" y="550" width="10" height="20" fill="#b8bec5" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="610.5" y="550" width="7.5" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="592.5" y1="590" x2="750" y2="590" stroke="#3a3f45" stroke-width="3"/>
+<line x1="750" y1="533" x2="750" y2="841" stroke="#9aa1a8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="754" y="552" class="s">y 600 (front)</text>
+<text x="593.5" y="838" class="s">wall</text>
+<rect x="618" y="545" width="62.5" height="15" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="672.5" cy="552.5" r="6" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="646.5" y="588" width="52" height="5" fill="#fff" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="3 2"/>
+<line x1="650" y1="702.5" x2="740" y2="702.5" stroke="#9aa1a8" stroke-width="2"/>
+<line x1="672.5" y1="555.0" x2="672.5" y2="562.5" stroke="#555" stroke-width="2"><animate attributeName="y2" values="620;562.5;562.5;675;675;562.5;562.5;562.5;562.5;562.5;562.5;562.5;562.5;675;675;562.5;562.5;620" keyTimes="0.0000;0.0536;0.1607;0.2143;0.2250;0.2500;0.3036;0.4464;0.5179;0.5714;0.6607;0.7679;0.8036;0.8393;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/></line>
+<g><animateTransform attributeName="transform" type="translate" values="672.5 620;672.5 562.5;672.5 562.5;672.5 675;672.5 675;672.5 562.5;672.5 562.5;672.5 562.5;672.5 562.5;672.5 562.5;672.5 562.5;672.5 562.5;672.5 562.5;672.5 675;672.5 675;672.5 562.5;672.5 562.5;672.5 620" keyTimes="0.0000;0.0536;0.1607;0.2143;0.2250;0.2500;0.3036;0.4464;0.5179;0.5714;0.6607;0.7679;0.8036;0.8393;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/><path d="M-24 7 L-24 0 L24 0 L24 7" fill="none" stroke="#f28c28" stroke-width="4"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="672.5 632.5;672.5 632.5;672.5 575;672.5 575;672.5 687.5;672.5 687.5;672.5 687.5;672.5 732.5;672.5 770;672.5 770;672.5 770;672.5 770;672.5 732.5;672.5 687.5;672.5 687.5;672.5 687.5;672.5 575;672.5 575;672.5 632.5" keyTimes="0.0000;0.0000;0.0536;0.1607;0.2143;0.2250;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;0.8571;0.8929;0.9643;1.0000" dur="28s" repeatCount="indefinite"/><g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.2679;0.8071" dur="28s" calcMode="discrete" repeatCount="indefinite"/><rect x="-22" y="-12" width="44" height="25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<text x="760" y="576" class="s">beam on the rear wall, z 2080–2160</text>
+<text x="760" y="593" class="s">arm to the pick line y 290, z 2120–2180</text>
+<text x="760" y="610" class="s">hoist: NEMA 23 + brake, Dyneema line,</text>
+<text x="760" y="627" class="s">stroke ≥ 450 mm</text>
+<text x="760" y="644" class="s"></text>
+<text x="760" y="661" class="s">ports on the pick line: cold exits,</text>
+<text x="760" y="678" class="s">S4 roof hatch, cell port (flap)</text>
+<text x="760" y="695" class="s"></text>
+<text x="760" y="712" class="s">passive toggle gripper on the box</text>
+<text x="760" y="729" class="s">rims; NFC reader in its frame</text>
+<text x="760" y="746" class="s"></text>
+<text x="760" y="763" class="s">option B adds a Y slide (y 160–440)</text>
+<text x="760" y="780" class="s">and a servo hook for the sub-lids</text>
+<text x="760" y="797" class="s"></text>
+<text x="760" y="814" class="s">box shelf z 1550</text>
+<text x="1080" y="522" class="s b">SECTION: cell carriage, mast through the slot</text>
+<rect x="1080" y="532" width="480" height="310" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1112.5" y="533" width="7.5" height="308" fill="#c4cad1" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1120" y="550" width="10" height="20" fill="#b8bec5" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1130.5" y="550" width="7.5" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="1112.5" y1="590" x2="1270" y2="590" stroke="#3a3f45" stroke-width="3"/>
+<line x1="1270" y1="533" x2="1270" y2="841" stroke="#9aa1a8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1274" y="552" class="s">y 600 (front)</text>
+<text x="1113.5" y="838" class="s">wall</text>
+<rect x="1132.5" y="587" width="17.5" height="6" fill="#fff" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="1162.5" y1="567.5" x2="1145" y2="593.75" stroke="#4aa3df" stroke-width="2" marker-end="url(#aw)"/>
+<line x1="1180" y1="567.5" x2="1145" y2="593.75" stroke="#4aa3df" stroke-width="2" marker-end="url(#aw)"/>
+<line x1="1197.5" y1="567.5" x2="1145" y2="593.75" stroke="#4aa3df" stroke-width="2" marker-end="url(#aw)"/>
+<rect x="1120" y="570" width="30" height="268" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5" fill-opacity="0.3"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 690;0 690;0 690;0 645;0 690;0 727.5;0 727.5;0 727.5;0 727.5;0 690;0 645;0 645;0 690;0 690;0 690;0 690" keyTimes="0.0000;0.3036;0.3571;0.3750;0.4107;0.4643;0.5179;0.5714;0.6071;0.6429;0.6786;0.6964;0.7321;0.7679;0.8036;1.0000" dur="28s" repeatCount="indefinite"/><rect x="1127.5" y="-7" width="100" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="width" values="97.5;97.5;65;65;97.5;97.5;65;65;97.5;97.5" keyTimes="0.0000;0.3393;0.3571;0.4107;0.4643;0.6071;0.6429;0.7321;0.7679;1.0000" dur="28s" repeatCount="indefinite"/></rect><g><animateTransform attributeName="transform" type="translate" values="1225 0;1225 0;1192.5 0;1192.5 0;1225 0;1225 0;1192.5 0;1192.5 0;1225 0;1225 0" keyTimes="0.0000;0.3393;0.3571;0.4107;0.4643;0.6071;0.6429;0.7321;0.7679;1.0000" dur="28s" repeatCount="indefinite"/><line x1="0" y1="7" x2="0" y2="75" stroke="#f28c28" stroke-width="5"/><circle cx="0" cy="75" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<line x1="1170" y1="702.5" x2="1260" y2="702.5" stroke="#9aa1a8" stroke-width="2"/>
+<text x="1280" y="576" class="s">labyrinth slot y 50–120 in the</text>
+<text x="1280" y="593" class="s">cell ceiling: no seal on X</text>
+<text x="1280" y="610" class="s"></text>
+<text x="1280" y="627" class="s">extraction keeps the cell below</text>
+<text x="1280" y="644" class="s" style="fill:#4aa3df">gallery pressure: air flows in,</text>
+<text x="1280" y="661" class="s" style="fill:#4aa3df">never out (blue)</text>
+<text x="1280" y="678" class="s"></text>
+<text x="1280" y="695" class="s">mast 60 × 120, Z ball screw,</text>
+<text x="1280" y="712" class="s">Y arm 450 (wrist y 130–580),</text>
+<text x="1280" y="729" class="s">canned roll on a 300 mm drop link</text>
+<text x="1280" y="746" class="s"></text>
+<text x="1280" y="763" class="s">lift ≤ 6 kg, 0.8 m/s</text>
+<text x="1280" y="780" class="s"></text>
+<text x="1280" y="797" class="s">box shelf z 1550 (grey line)</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1607" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan>  The storage carriage hoists a box out of the fridge throat and drives along the beam towards the cell (≈ 4–6 s).</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1607;0.3036" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan>  Over the box shelf it lowers the box onto a stub carrier, then leaves the shared zone.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3036;0.4643" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan>  The cell carriage — same beam, same belt, own motor — enters the zone and takes the carrier with the box.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4643;0.6429" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan>  Both carriages move independently: the cell hand cooks, the storage carriage serves the stores.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6429;0.7679" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan>  The cell carriage is in the shared zone: the storage carriage stops at the border and waits (interlock).</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7679" dur="28s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan>  Zone free: the storage carriage takes the empty box and returns it to the fridge.</text></g>
+<rect x="30" y="886" width="0" height="3" fill="#f28c28"><animate attributeName="width" values="0;1540" dur="28s" repeatCount="indefinite"/></rect>
+</svg>
