@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- C1-B SLIDE AND GASKET DETAIL. Source: design/storage/C1-cold-access.md section 5 (Opening, Seal, Cut and foam edge, Frost) and 1.3 b. Front section (x-z) through the slide, 1.4 px/mm; zoom 4 px/mm. Simplifications: rollers and ramps drawn in the section plane although they sit beside the slide; gasket drawn as a block with a magnet strip (real: OEM bellows profile); compressed 6 mm, relaxed 8 mm (assumed); pocket = 4 mm deep with a 6 mm ramp as stated; motor and spring drawn at the two ends of the travel. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="ab" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f8fd0"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e8836f"/></marker><pattern id="foam" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ecc4"/><circle cx="2" cy="2" r="1" fill="#e2d59a"/><circle cx="6" cy="6" r="1" fill="#e2d59a"/></pattern><pattern id="rime" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#ffffff"/><path d="M2 5 h6 M5 2 v6 M3 3 l4 4 M7 3 l-4 4" stroke="#9cc7e6" stroke-width="0.8"/></pattern></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">C1-B  DETAIL — lift-and-slide hatch on a magnetic gasket</text>
+<text x="24" y="58" class="m">The slide never rubs on its seal: ramps lift it off the gasket before it moves, and drop it onto the gasket when it returns.</text>
+<text x="1576" y="28" class="s r b">slide 250 × 240 × 40 mm, PP shell, PU core</text>
+<text x="1576" y="47" class="s r">ramps: 4 mm lift in the first 6 mm of travel</text>
+<text x="1576" y="66" class="s r">stroke 260 mm, ≈ 0.8 s; peel force ≈ 15 N</text>
+<text x="1576" y="85" class="s r">fail-closed: constant-force spring</text>
+<text x="1576" y="104" class="s r">freezer: 3 W heated seat, dew-point controlled</text>
+<clipPath id="ca"><rect x="40" y="120" width="830" height="290"/></clipPath>
+<g clip-path="url(#ca)">
+<g id="sg">
+<rect x="60" y="383.8" width="784" height="11.2" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<rect x="473" y="306.8" width="294" height="88.2" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<rect x="60" y="308.2" width="378" height="72.8" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="60" y="381" width="378" height="4.2" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="802" y="308.2" width="42" height="72.8" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="802" y="381" width="42" height="4.2" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="438" y="306.8" width="35" height="88.2" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="438" y="306.8" width="4.2" height="88.2" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<rect x="468.8" y="306.8" width="4.2" height="88.2" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<rect x="767" y="306.8" width="35" height="88.2" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="767" y="306.8" width="4.2" height="88.2" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<rect x="797.8" y="306.8" width="4.2" height="88.2" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<rect x="417" y="305.4" width="57.4" height="2.8" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<rect x="765.6" y="305.4" width="57.4" height="2.8" fill="#e2e6eb" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="421.2" cy="306.8" r="3" fill="#3a3f45"/>
+<circle cx="818.8" cy="306.8" r="3" fill="#3a3f45"/>
+<rect x="426.8" y="381" width="14" height="5.6" fill="#7d8790" stroke="#3a3f45" stroke-width="0.8"/>
+<rect x="799.2" y="381" width="14" height="5.6" fill="#7d8790" stroke="#3a3f45" stroke-width="0.8"/>
+<rect x="81" y="301.2" width="393.4" height="4.2" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="765.6" y="301.2" width="61.6" height="4.2" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1;0.25;0.25" keyTimes="0.00000;0.64444;0.66667;0.96667;0.98889;1.00000" dur="18s" repeatCount="indefinite"/><circle cx="464.6" cy="307.5" r="3.2" fill="#e04a3a" stroke="#3a3f45" stroke-width="1"/></g>
+<g opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1;0.25;0.25" keyTimes="0.00000;0.64444;0.66667;0.96667;0.98889;1.00000" dur="18s" repeatCount="indefinite"/><circle cx="783.8" cy="307.5" r="3.2" fill="#e04a3a" stroke="#3a3f45" stroke-width="1"/></g>
+<path d="M67 243.8 L67 227 L464.6 227 L473 232.6 L487 232.6 L487 227 L753 227 L761.4 232.6 L775.4 232.6 L775.4 227 L837 227 L837 243.8 Z" fill="#eceff2" stroke="#8a9097" stroke-width="1.5" stroke-dasharray="5 3"/>
+<rect x="43.2" y="234" width="28" height="65.8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="838.4" cy="262" r="16.8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="838.4" cy="262" r="8.4" fill="none" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="71.2" y1="262" x2="449.2" y2="262" stroke="#3a3f45" stroke-width="2"><animate attributeName="x2" values="449.2;449.2;440.8;85.2;85.2;440.8;449.2;449.2" keyTimes="0.00000;0.11111;0.16667;0.27778;0.50000;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></line>
+<line x1="799.2" y1="262" x2="827.2" y2="262" stroke="#f28c28" stroke-width="2.5"><animate attributeName="x1" values="799.2;799.2;790.8;435.2;435.2;790.8;799.2;799.2" keyTimes="0.00000;0.11111;0.16667;0.27778;0.50000;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></line>
+<g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-8.4 -5.6;-364 -5.6;-364 -5.6;-8.4 -5.6;0 0;0 0" keyTimes="0.00000;0.11111;0.16667;0.27778;0.50000;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/><rect x="449.2" y="238.2" width="350" height="56" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2"/><rect x="460.4" y="245.2" width="327.6" height="42" fill="url(#foam)" stroke="#3a3f45" stroke-width="1"/><rect x="475.8" y="225.6" width="8.4" height="12.6" fill="#c4cad1" stroke="#3a3f45" stroke-width="1"/><circle cx="480" cy="225.6" r="7" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/><rect x="764.2" y="225.6" width="8.4" height="12.6" fill="#c4cad1" stroke="#3a3f45" stroke-width="1"/><circle cx="768.4" cy="225.6" r="7" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/><rect x="452" y="294.2" width="25.2" height="8.4" rx="3" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="height" values="8.4;8.4;11.2;11.2;8.4;8.4" keyTimes="0.00000;0.11111;0.13889;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></rect><rect x="457.6" y="297" width="14" height="4.2" fill="#2b2f33"><animate attributeName="y" values="297.7;297.7;300.5;300.5;297.7;297.7" keyTimes="0.00000;0.11111;0.13889;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></rect><rect x="771.2" y="294.2" width="25.2" height="8.4" rx="3" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="height" values="8.4;8.4;11.2;11.2;8.4;8.4" keyTimes="0.00000;0.11111;0.13889;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></rect><rect x="776.8" y="297" width="14" height="4.2" fill="#2b2f33"><animate attributeName="y" values="297.7;297.7;300.5;300.5;297.7;297.7" keyTimes="0.00000;0.11111;0.13889;0.58889;0.63333;1.00000" dur="18s" repeatCount="indefinite"/></rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.27778;0.29444;0.46667;0.48333;1.00000" dur="18s" repeatCount="indefinite"/><g transform="translate(0 416)"><animateTransform attributeName="transform" type="translate" values="0 416;0 416;0 -4;0 -4" keyTimes="0.00000;0.29444;0.47778;1.00000" dur="18s" repeatCount="indefinite"/><rect x="496.8" y="0" width="246.4" height="149.8" fill="#7cb342" stroke="#3a3f45" stroke-width="1.5"/><rect x="491.2" y="138" width="257.6" height="5" fill="#7cb342" stroke="#3a3f45" stroke-width="1"/><rect x="494" y="-11.2" width="252" height="11.2" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.80556;1.00000" dur="18s" calcMode="discrete" repeatCount="indefinite"/><line x1="460.4" y1="276" x2="464.6" y2="298.4" stroke="#e8836f" stroke-width="2.5" marker-end="url(#aw)"/><line x1="790.8" y1="276" x2="786.6" y2="298.4" stroke="#e8836f" stroke-width="2.5" marker-end="url(#aw)"/></g>
+</g>
+</g>
+<text x="60" y="112" class="s b">SECTION THROUGH THE SLIDE (front view), 1.4 px per mm</text>
+<line x1="620" y1="238.2" x2="901" y2="173" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="178" class="s b">slide: PP shell, 40 mm PU core</text>
+<line x1="768.4" y1="218.6" x2="901" y2="205.2" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="210.2" class="s">roller on a rail with a 4 mm pocket</text>
+<line x1="827.2" y1="262" x2="901" y2="234.6" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="239.6" class="s">constant-force spring (closes)</text>
+<line x1="783.8" y1="301.2" x2="901" y2="266.8" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="271.8" class="s b">magnetic gasket on 1.4016 stainless plate</text>
+<line x1="818.8" y1="306.8" x2="901" y2="294.8" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="299.8" class="s">butyl bead: vapour seal of the foam edge</text>
+<line x1="783.8" y1="308.2" x2="901" y2="322.8" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="327.8" class="s">heater wire under the seat (freezer)</text>
+<line x1="830" y1="339" x2="901" y2="350.8" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="355.8" class="s">top wall: skin, PU foam 50 (freezer 70)</text>
+<line x1="785.2" y1="367" x2="901" y2="376" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="381" class="s">throat: double-wall PP, foamed</text>
+<line x1="806.2" y1="383.8" x2="901" y2="401.2" stroke="#777" stroke-width="1.2"/>
+<text x="905" y="406.2" class="s">MS-polymer bead at the liner</text>
+<text x="43.2" y="220" class="s h">motor + cord (opens)</text>
+<text x="620" y="392" class="s c h">cold throat 210 mm</text>
+<text x="60" y="450" class="s b">ZOOM: right edge, 4 px per mm</text>
+<clipPath id="cz"><rect x="60" y="460" width="328" height="336"/></clipPath>
+<g clip-path="url(#cz)"><use xlink:href="#sg" transform="translate(-2023.43 -116.57) scale(2.86)"/></g>
+<rect x="60" y="460" width="328" height="336" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="729.2" y="201.8" width="114.8" height="117.6" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="172" y1="528" x2="398" y2="515" stroke="#777" stroke-width="1.2"/>
+<text x="402" y="520" class="s">roller drops 4 mm into</text>
+<text x="402" y="537" class="s">its pocket: slide sits down</text>
+<line x1="216" y1="736" x2="398" y2="610" stroke="#777" stroke-width="1.2"/>
+<text x="402" y="615" class="s">gasket pressed by weight</text>
+<text x="402" y="632" class="s">and magnet: compression seal</text>
+<line x1="216" y1="762" x2="398" y2="705" stroke="#777" stroke-width="1.2"/>
+<text x="402" y="710" class="s">heater wire, 3 W</text>
+<text x="402" y="727" class="s">(freezer only)</text>
+<text x="690" y="460" class="s b">WHY A PRESSED GASKET AND NOT A SLIDING SEAL</text>
+<rect x="700" y="510" width="160" height="30" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2"/>
+<rect x="710" y="540" width="26" height="10" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="824" y="540" width="26" height="10" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="690" y="550" width="180" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="736" y="556" width="88" height="50" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<text x="780" y="630" class="s c">pressed gasket: tight,</text>
+<text x="780" y="647" class="s c">opens without rubbing</text>
+<rect x="950" y="510" width="160" height="30" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2"/>
+<rect x="940" y="550" width="180" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M962 540 l4 10 M970 540 l4 10 M1080 540 l4 10 M1088 540 l4 10" fill="none" stroke="#6b4c8a" stroke-width="2"/>
+<rect x="986" y="556" width="88" height="50" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<rect x="954" y="550" width="30" height="0" fill="url(#rime)" stroke="#2f8fd0" stroke-width="1"><animate attributeName="height" values="0;0;14;14;14" keyTimes="0.00000;0.66667;0.94444;0.99444;1.00000" dur="18s" repeatCount="indefinite"/><animate attributeName="y" values="550;550;536;536;536" keyTimes="0.00000;0.66667;0.94444;0.99444;1.00000" dur="18s" repeatCount="indefinite"/></rect>
+<rect x="1076" y="550" width="30" height="0" fill="url(#rime)" stroke="#2f8fd0" stroke-width="1"><animate attributeName="height" values="0;0;14;14;14" keyTimes="0.00000;0.66667;0.94444;0.99444;1.00000" dur="18s" repeatCount="indefinite"/><animate attributeName="y" values="550;550;536;536;536" keyTimes="0.00000;0.66667;0.94444;0.99444;1.00000" dur="18s" repeatCount="indefinite"/></rect>
+<line x1="1130" y1="530" x2="1100" y2="545" stroke="#e8836f" stroke-width="2.5" marker-end="url(#aw)"/>
+<text x="1030" y="630" class="s c">sliding or brush seal: leaks,</text>
+<text x="1030" y="647" class="s c">grows ≈ 13 kg of ice a year</text>
+<text x="1140" y="520" class="s">humid room air</text>
+<text x="1140" y="537" class="s">sucked in (stack effect)</text>
+<text x="690" y="700" class="s">Fridge: no heater needed; the plastic throat is the thermal break, so the seat stays above the dew point.</text>
+<text x="690" y="720" class="s">Freezer: heater wire under the seat, switched by room humidity and a seat sensor (about 50 % duty).</text>
+<text x="690" y="740" class="s">Condensate on the cold sleeve runs down into the gutter ring and the cell's own drain, never onto the box.</text>
+<text x="690" y="770" class="s">Window cut: 260 × 260 mm in a verified free band of the top wall; sleeve flanges sealed with</text>
+<text x="690" y="790" class="s">butyl outside and MS polymer inside, cavity foamed, so no moisture reaches the foam.</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.00000;0.11111" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan>  Closed: the slide sits on its magnetic gasket on the stainless exit plate, a pressed seal like a fridge door.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.11111;0.16667" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan>  Opening, first 6 mm: the rollers climb out of their pockets, the slide lifts 4 mm and peels the gasket off (about 15 N).</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.16667;0.50000" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan>  Then the motor pulls the slide 260 mm aside on its rails: the throat is open and the box passes up.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.50000;0.64444" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan>  Closing: the constant-force spring pulls the slide back and the rollers drop into the pockets: the gasket is pressed shut.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.64444;0.80556" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan>  No power needed to close: on power loss the spring shuts it. In the freezer a 3 W wire keeps the seat from freezing on.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.80556;1.00000" dur="18s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan>  Room air is pushed in at the top of a closed cold cell, so only a pressed seal stays tight; a sliding seal would ice up.</text></g>
+</svg>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- C1-E TWO-STAGE TOP AIRLOCK. Source: design/storage/C1-cold-access.md sections 1.3, 5 and 8. Front section (x-z) of a NoFrost freezer shell; overview 0.3 px/mm, zoom 0.78 px/mm. Simplest reading: inner leaves 30 mm at the liner (z 1792-1822), vestibule z 1822-1962, outer slide on the collar, gallery floor recessed locally above the port; pawls drawn as two small orange tabs; the in-cell lift is a generic bottom-carrying platform. Timing stretched. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="ab" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f8fd0"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e8836f"/></marker><pattern id="foam" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ecc4"/><circle cx="2" cy="2" r="1" fill="#e2d59a"/><circle cx="6" cy="6" r="1" fill="#e2d59a"/></pattern><pattern id="rime" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#ffffff"/><path d="M2 5 h6 M5 2 v6 M3 3 l4 4 M7 3 l-4 4" stroke="#9cc7e6" stroke-width="0.8"/></pattern></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">C1-E  TWO-STAGE TOP AIRLOCK ("chimney") — freezer fallback</text>
+<text x="24" y="58" class="m">B's window becomes a short chimney with two closures, never open together: the cell is never open to the room.</text>
+<text x="1576" y="28" class="s r b">fallback for the freezer only</text>
+<text x="1576" y="47" class="s r">vestibule 210 × 200 × 140 mm = 5.9 L</text>
+<text x="1576" y="66" class="s r">per pass: fridge 0.18 kJ, freezer 0.41 kJ (as B)</text>
+<text x="1576" y="85" class="s r">3 actuators per shell, ≈ €470–505</text>
+<text x="1576" y="104" class="s r">needs a lift that carries the box from below</text>
+<g transform="translate(46 815) scale(0.28)">
+<g id="mod">
+<rect x="-20" y="-2200" width="660" height="200" fill="#eef0f2" stroke="#3a3f45" stroke-width="2"/>
+<rect x="-20" y="-2014" width="290" height="14" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<rect x="540" y="-2014" width="100" height="14" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<rect x="20" y="-120" width="559" height="120" fill="#d0d4d9" stroke="#3a3f45" stroke-width="3"/>
+<rect x="20" y="-1892" width="559" height="1772" fill="url(#foam)" stroke="#3a3f45" stroke-width="3"/><rect x="70" y="-1822" width="459" height="1632" fill="#cfe8f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="80" y="-236" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-341" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-343" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-351" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-386" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-491" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-493" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-501" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-536" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-641" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-643" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-651" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-686" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-791" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-793" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-801" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-836" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-941" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-943" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-951" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-986" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-1091" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-1093" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-1101" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-1136" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-1241" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-1243" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-1251" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-1286" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-1391" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-1393" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-1401" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80" y="-1436" width="170" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="88" y="-1541" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="84" y="-1543" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="86" y="-1551" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="295" y="-1962" width="210" height="140" fill="#fbe7e1"><animate attributeName="fill" values="#fbe7e1;#fbe7e1;#cfe8f8;#cfe8f8;#fbe7e1;#fbe7e1" keyTimes="0.00000;0.01667;0.05000;0.26667;0.31667;1.00000" dur="30s" repeatCount="indefinite"/></rect>
+<rect x="270" y="-1962" width="25" height="140" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="505" y="-1962" width="25" height="140" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="150" y="-1896" width="120" height="4" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="530" y="-1896" width="30" height="4" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="260" y="-1962" width="35" height="4" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="505" y="-1962" width="35" height="4" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.46667;0.53333;0.60000;0.65000;1.00000" dur="30s" repeatCount="indefinite"/><rect x="297" y="-1958" width="16" height="134" fill="url(#rime)" stroke="#2f8fd0" stroke-width="1.5"/><rect x="487" y="-1958" width="16" height="134" fill="url(#rime)" stroke="#2f8fd0" stroke-width="1.5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.55000;0.63333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><rect x="272" y="-1950" width="6" height="120" fill="#e04a3a" stroke="none" stroke-width="0"/><rect x="522" y="-1950" width="6" height="120" fill="#e04a3a" stroke="none" stroke-width="0"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.60000;0.66667" dur="30s" calcMode="discrete" repeatCount="indefinite"/><line x1="540" y1="-1830" x2="540" y2="-1700" stroke="#4aa3df" stroke-width="5" stroke-dasharray="10 8"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.68333;0.70000;0.96667;0.98333;1.00000" dur="30s" repeatCount="indefinite"/><line x1="90" y1="-1790" x2="280" y2="-1790" stroke="#2f8fd0" stroke-width="9" marker-end="url(#ab)"/><line x1="520" y1="-1790" x2="570" y2="-1790" stroke="#2f8fd0" stroke-width="9" marker-end="url(#ab)"/></g>
+<g transform="translate(0 -1500)"><animateTransform attributeName="transform" type="translate" values="0 -1500;0 -1500;0 -1843;0 -1835;0 -1500;0 -1500" keyTimes="0.00000;0.05000;0.11667;0.12000;0.16667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="330" y="0" width="140" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><rect x="390" y="14" width="20" height="306" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0.00000;0.41333;0.44667;0.98333;1.00000" dur="30s" repeatCount="indefinite"/><g transform="translate(400 -1500)"><animateTransform attributeName="transform" type="translate" values="400 -1500;400 -1500;400 -1843;400 -1835;400 -1835;400 -2040;400 -2040" keyTimes="0.00000;0.05000;0.11667;0.12000;0.31667;0.36667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="-84" y="-105" width="168" height="105" fill="#7cb342" stroke="#3a3f45" stroke-width="2.5"/><rect x="-88" y="-107" width="176" height="5" fill="#7cb342" stroke="#3a3f45" stroke-width="1.5"/><rect x="-86" y="-115" width="172" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g transform="rotate(0 295 -1938)"><animateTransform attributeName="transform" type="rotate" values="0 295 -1938;0 295 -1938;-60 295 -1938;0 295 -1938;0 295 -1938;-60 295 -1938;0 295 -1938;0 295 -1938" keyTimes="0.00000;0.09000;0.10333;0.12000;0.32667;0.33667;0.35667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="295" y="-1942" width="16" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g transform="rotate(0 505 -1938)"><animateTransform attributeName="transform" type="rotate" values="0 505 -1938;0 505 -1938;60 505 -1938;0 505 -1938;0 505 -1938;60 505 -1938;0 505 -1938;0 505 -1938" keyTimes="0.00000;0.09000;0.10333;0.12000;0.32667;0.33667;0.35667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="489" y="-1942" width="16" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-105 0;-105 0;0 0;0 0" keyTimes="0.00000;0.01667;0.05000;0.17333;0.20667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="295" y="-1822" width="105" height="30" fill="#c4cad1" stroke="#3a3f45" stroke-width="2.5"/></g>
+<g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0;0 0;0 0" keyTimes="0.00000;0.01667;0.05000;0.17333;0.20667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="400" y="-1822" width="105" height="30" fill="#c4cad1" stroke="#3a3f45" stroke-width="2.5"/></g>
+<rect x="285" y="-1828" width="10" height="6" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1"/>
+<rect x="505" y="-1828" width="10" height="6" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1"/>
+<g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-270 0;-270 0;0 0;0 0" keyTimes="0.00000;0.23333;0.26667;0.36667;0.40000;1.00000" dur="30s" repeatCount="indefinite"/><rect x="275" y="-2010" width="250" height="40" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/><rect x="285" y="-2004" width="230" height="28" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.2"/><rect x="277" y="-1970" width="18" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/><rect x="505" y="-1970" width="18" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/></g>
+<rect x="350" y="-2196" width="100" height="18" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><line x1="370" y1="-2190" x2="370" y2="-2190" stroke="#f28c28" stroke-width="5"><animate attributeName="y2" values="-2189;-2189;-1984;-1984;-2189;-2189" keyTimes="0.00000;0.26667;0.30000;0.31667;0.36667;1.00000" dur="30s" repeatCount="indefinite"/></line><line x1="430" y1="-2190" x2="430" y2="-2190" stroke="#f28c28" stroke-width="5"><animate attributeName="y2" values="-2189;-2189;-1984;-1984;-2189;-2189" keyTimes="0.00000;0.26667;0.30000;0.31667;0.36667;1.00000" dur="30s" repeatCount="indefinite"/></line>
+<g transform="translate(0 -2155)"><animateTransform attributeName="transform" type="translate" values="0 -2155;0 -2155;0 -1950;0 -1950;0 -2155;0 -2155" keyTimes="0.00000;0.26667;0.30000;0.31667;0.36667;1.00000" dur="30s" repeatCount="indefinite"/><rect x="300" y="-34" width="200" height="16" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><rect x="300" y="-20" width="10" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><rect x="490" y="-20" width="10" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g>
+</g>
+</g>
+<text x="46" y="187" class="s b">FREEZER, FRONT SECTION</text>
+<text x="130" y="563" class="s c h">freezer</text>
+<clipPath id="zc"><rect x="290" y="300" width="436.8" height="507"/></clipPath><g clip-path="url(#zc)"><use xlink:href="#mod" transform="translate(227.6 2023.8) scale(0.78)"/></g><rect x="290" y="300" width="436.8" height="507" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="68.4" y="196.2" width="156.8" height="182" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="290" y="290" class="s b">ZOOM: the chimney in the freezer top</text>
+<line x1="586.4" y1="319.5" x2="734.8" y2="334" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="339" class="s b">gallery hoist</text>
+<line x1="637.1" y1="471.6" x2="734.8" y2="462.7" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="467.7" class="s b">outer slide (B)</text>
+<line x1="635.54" y1="490.32" x2="734.8" y2="497.8" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="502.8" class="s">magnetic gasket</text>
+<line x1="621.5" y1="541.8" x2="734.8" y2="532.9" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="537.9" class="s">raised PP collar</text>
+<line x1="621.5" y1="512.16" x2="734.8" y2="568" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="573" class="s">spring pawls hold the rim</text>
+<line x1="617.6" y1="614.34" x2="734.8" y2="607" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="612" class="s b">inner leaves 2 × 105</text>
+<line x1="664.4" y1="573" x2="734.8" y2="642.1" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="647.1" class="s">top wall foam 70</text>
+<line x1="594.2" y1="791.4" x2="734.8" y2="739.6" stroke="#777" stroke-width="1.2"/>
+<text x="738.8" y="744.6" class="s">in-cell lift</text>
+<text x="539.6" y="549.6" class="s c b h">VESTIBULE 5.9 L</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.68333;0.98333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="344.6" y="654.9" class="s h">NoFrost fan jet</text></g>
+<text x="1010" y="150" class="s b">AIR EXCHANGED PER PASS</text>
+<text x="1010" y="182" class="s">B, one top hatch</text>
+<text x="1370" y="182" class="s b">5–10 L</text>
+<text x="1010" y="200" class="s">cold air stays below</text>
+<text x="1010" y="226" class="s">B with a fan jet across the window</text>
+<text x="1370" y="226" class="s b">10–40 L</text>
+<text x="1010" y="244" class="s">the jet blows cold air out</text>
+<text x="1010" y="270" class="s b">E, two closures</text>
+<text x="1370" y="270" class="s b">5.9 L</text>
+<text x="1010" y="288" class="s">only the vestibule, jet or not</text>
+<text x="1010" y="314" class="s">A, door vestibule (for comparison)</text>
+<text x="1370" y="314" class="s b">10.6 L</text>
+<text x="1010" y="358" class="s">one vertical flap, no vestibule</text>
+<text x="1370" y="358" class="s b">37–58 L</text>
+<text x="1010" y="430" class="s b">VERDICT</text>
+<text x="1010" y="456" class="s">A top hatch already behaves like an airlock, so E</text>
+<text x="1010" y="476" class="s">saves no energy over B (freezer ≈ 44 kWh/yr vs 38).</text>
+<text x="1010" y="496" class="s">It costs 2 more actuators, a daily vestibule warm-up</text>
+<text x="1010" y="516" class="s">(10 W, 10 min) and a drain, and pawls and leaves</text>
+<text x="1010" y="536" class="s">that can rime up.</text>
+<text x="1010" y="576" class="s">Keep it as the freezer fallback if the smoke test</text>
+<text x="1010" y="596" class="s">shows that the NoFrost fan jet cannot be kept</text>
+<text x="1010" y="616" class="s">away from B's window (B uses a 100 mm skirt).</text>
+<text x="1010" y="656" class="s">Rotating "revolving door" pockets were dropped:</text>
+<text x="1010" y="676" class="s">with an upward box flow they turn the box over.</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.00000;0.01667" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan>  E: B's window becomes a short chimney with two closures, inner leaves at the ceiling and B's slide on top; never both open.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.01667;0.12000" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan>  The inner leaves slide apart and the in-cell lift pushes the box up from below; two spring pawls let the rim pass, then hold it.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.12000;0.23333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan>  The lift goes back down and the inner leaves close onto their gasket: the box waits in the 5.9 L vestibule.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.23333;0.41667" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan>  Only then the outer slide opens and the gallery hoist lifts the box off the pawls; the slide closes again.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.41667;0.66667" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan>  Each pass brings 5.9 L of room air into the vestibule: in a freezer it rimes up and needs a daily 10 W warm-up and a drain.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.66667;1.00000" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan>  Per pass E loses the same as B (0.4 kJ): cold air does not climb out of a top hatch. E only helps if a NoFrost jet sweeps the window.</text></g>
+</svg>

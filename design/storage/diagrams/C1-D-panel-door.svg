@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- C1-D PANEL DOOR CARRYING THE MECHANISM (D2). Source: design/storage/C1-cold-access.md sections 1.1, 5 and 7. Side section (y-z, wall left, door right) 0.3 px/mm and zoom 0.58 px/mm; top view 0.4 px/mm. Simplest reading: cabinet front face at y 505, door panel 60 mm, car row y 323-505, storage lane y 141-323, throat y 215-415; the slide moves along x (out of the section plane) and is drawn fading; the door swing is shown in the top view, in the section the door and car only move forward. Timing stretched. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="ab" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f8fd0"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e8836f"/></marker><pattern id="foam" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4ecc4"/><circle cx="2" cy="2" r="1" fill="#e2d59a"/><circle cx="6" cy="6" r="1" fill="#e2d59a"/></pattern><pattern id="rime" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#ffffff"/><path d="M2 5 h6 M5 2 v6 M3 3 l4 4 M7 3 l-4 4" stroke="#9cc7e6" stroke-width="0.8"/></pattern></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">C1-D  PANEL DOOR CARRYING THE MECHANISM — exit through B's top window (D2)</text>
+<text x="24" y="58" class="m">An insulated door panel carries the S2 car; the car brings the box up to a port shelf under the top-wall throat; opening the door swings everything out.</text>
+<text x="1576" y="28" class="s r b">access ≈ €500–535 per shell (door + B exit)</text>
+<text x="1576" y="47" class="s r">with S2 car and shelves ≈ €1,100–1,150</text>
+<text x="1576" y="66" class="s r">retrieval ≈ 17 s, hatch open 3.4 s</text>
+<text x="1576" y="85" class="s r">S2: 38–42 places in a fridge (fewer than 45), ≈ 30 freezer</text>
+<text x="1576" y="104" class="s r">+9–12 kWh/yr fridge, +43–51 kWh/yr freezer</text>
+<g transform="translate(46 815) scale(0.3)">
+<g id="mod">
+<rect x="-20" y="-2200" width="660" height="200" fill="#eef0f2" stroke="#3a3f45" stroke-width="2"/><rect x="-20" y="-2014" width="225" height="14" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/><rect x="425" y="-2014" width="215" height="14" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/>
+<rect x="20" y="-120" width="580" height="120" fill="#d0d4d9" stroke="#3a3f45" stroke-width="3"/>
+<rect x="20" y="-1892" width="485" height="1772" fill="url(#foam)" stroke="#3a3f45" stroke-width="3"/><rect x="65" y="-1840" width="395" height="1660" fill="#cfe8f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="460" y="-1840" width="45" height="1660" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<line x1="505" y1="-125" x2="505" y2="-1887" stroke="#3a3f45" stroke-width="3"/>
+<rect x="215" y="-1892" width="200" height="112" fill="#cfe8f8" stroke="none" stroke-width="0"/>
+<rect x="190" y="-1894" width="25" height="114" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="415" y="-1894" width="25" height="114" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="150" y="-1896" width="330" height="4" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="195" y="-1944" width="240" height="40" fill="none" stroke="#9aa1a8" stroke-width="2" stroke-dasharray="8 6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.00000;0.20000;0.25000;0.35000;0.40000;1.00000" dur="30s" repeatCount="indefinite"/><rect x="195" y="-1944" width="240" height="40" fill="#e2e6eb" stroke="#3a3f45" stroke-width="2.5"/><rect x="205" y="-1938" width="220" height="28" fill="url(#foam)" stroke="#3a3f45" stroke-width="1.2"/><rect x="197" y="-1904" width="18" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/><rect x="415" y="-1904" width="18" height="8" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/></g>
+<rect x="135" y="-200" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="155" y="-305" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="151" y="-307" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="153" y="-315" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="135" y="-430" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="155" y="-535" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="151" y="-537" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="153" y="-545" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="135" y="-660" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="155" y="-765" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="151" y="-767" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="153" y="-775" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="135" y="-890" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="135" y="-1120" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="155" y="-1225" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="151" y="-1227" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="153" y="-1235" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="135" y="-1350" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="155" y="-1455" width="154" height="105" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2.5"/><rect x="151" y="-1457" width="162" height="5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/><rect x="153" y="-1465" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="205" y="-1645" width="220" height="12" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="150" y="-1645" width="55" height="60" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0.35;0.35;1;1" keyTimes="0.00000;0.56667;0.63333;0.76667;0.83333;1.00000" dur="30s" repeatCount="indefinite"/><g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;260 0;260 0;0 0;0 0" keyTimes="0.00000;0.56667;0.63333;0.76667;0.83333;1.00000" dur="30s" repeatCount="indefinite"/><rect x="505" y="-1887" width="60" height="1762" fill="url(#foam)" stroke="#3a3f45" stroke-width="3"/><rect x="565" y="-1887" width="19" height="1762" fill="#e8e2d6" stroke="#3a3f45" stroke-width="2"/><rect x="500" y="-1700" width="8" height="1400" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1.5"/><rect x="490" y="-1780" width="7" height="1580" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/><rect x="566" y="-1850" width="34" height="70" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><rect x="540" y="-1812" width="26" height="12" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/><g transform="translate(0 -905)"><animateTransform attributeName="transform" type="translate" values="0 -905;0 -905;0 -1645;0 -1645;0 -905;0 -905" keyTimes="0.00000;0.03333;0.13333;0.19333;0.50000;1.00000" dur="30s" repeatCount="indefinite"/><rect x="330" y="0" width="160" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><rect x="478" y="-140" width="12" height="154" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><g transform="translate(0 0)"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-100 0;0 0;0 0" keyTimes="0.00000;0.13333;0.18333;0.20333;1.00000" dur="30s" repeatCount="indefinite"/><rect x="476" y="-90" width="12" height="80" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g></g></g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0.00000;0.40000;0.43333;0.98333;1.00000" dur="30s" repeatCount="indefinite"/><g transform="translate(414 -905)"><animateTransform attributeName="transform" type="translate" values="414 -905;414 -905;414 -1645;315 -1645;315 -1645;315 -1965;315 -1965;414 -905;414 -905" keyTimes="0.00000;0.03333;0.13333;0.18333;0.30000;0.35000;0.98000;0.98167;1.00000" dur="30s" repeatCount="indefinite"/><rect x="-77" y="-105" width="154" height="105" fill="#7cb342" stroke="#3a3f45" stroke-width="2.5"/><rect x="-81" y="-107" width="162" height="5" fill="#7cb342" stroke="#3a3f45" stroke-width="1.5"/><rect x="-79" y="-115" width="158" height="8" fill="#b9c7d6" stroke="#3a3f45" stroke-width="1.5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.60667;0.63333;0.76667;0.78667;1.00000" dur="30s" repeatCount="indefinite"/><line x1="450" y1="-300" x2="640" y2="-220" stroke="#2f8fd0" stroke-width="12" marker-end="url(#ab)"/><line x1="450" y1="-520" x2="640" y2="-400" stroke="#2f8fd0" stroke-width="12" marker-end="url(#ab)"/><line x1="660" y1="-1700" x2="470" y2="-1640" stroke="#e8836f" stroke-width="12" marker-end="url(#aw)"/></g>
+<rect x="265" y="-2196" width="100" height="18" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><line x1="285" y1="-2190" x2="285" y2="-2190" stroke="#f28c28" stroke-width="5"><animate attributeName="y2" values="-2114;-2114;-1794;-1794;-2114;-2114" keyTimes="0.00000;0.25000;0.28333;0.30000;0.35000;1.00000" dur="30s" repeatCount="indefinite"/></line><line x1="345" y1="-2190" x2="345" y2="-2190" stroke="#f28c28" stroke-width="5"><animate attributeName="y2" values="-2114;-2114;-1794;-1794;-2114;-2114" keyTimes="0.00000;0.25000;0.28333;0.30000;0.35000;1.00000" dur="30s" repeatCount="indefinite"/></line>
+<g transform="translate(0 -2080)"><animateTransform attributeName="transform" type="translate" values="0 -2080;0 -2080;0 -1760;0 -1760;0 -2080;0 -2080" keyTimes="0.00000;0.25000;0.28333;0.30000;0.35000;1.00000" dur="30s" repeatCount="indefinite"/><rect x="230" y="-34" width="170" height="16" fill="#f28c28" stroke="#3a3f45" stroke-width="2.5"/><rect x="230" y="-20" width="10" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><rect x="390" y="-20" width="10" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g>
+</g>
+</g>
+<text x="46" y="143" class="s b">SIDE SECTION</text>
+<text x="46" y="835" class="s">wall</text>
+<text x="226" y="835" class="s r">door</text>
+<clipPath id="zc"><rect x="300" y="300" width="394.4" height="522"/></clipPath><g clip-path="url(#zc)"><use xlink:href="#mod" transform="translate(300 1576) scale(0.58)"/></g><rect x="300" y="300" width="394.4" height="522" fill="none" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="46" y="155" width="204" height="270" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="300" y="290" class="s b">ZOOM: top of the cell, door on the right</text>
+<text x="434.56" y="711.8" class="s c h">storage lane</text>
+<text x="482.7" y="656.7" class="s c h">port shelf</text>
+<text x="610.3" y="729.2" class="s c h">door panel 60 PU</text>
+<text x="563.9" y="430.5" class="s h">Z motor (warm side)</text>
+<text x="482.7" y="439.2" class="s c h">B slide (moves aside)</text>
+<text x="537.8" y="775.6" class="s c h">S2 car on Z rails</text>
+<text x="482.7" y="334.8" class="s c h">gallery hoist</text>
+<text x="760" y="132" class="s b">TOP VIEW: the door swings the car out</text>
+<rect x="768" y="158" width="223.6" height="194" fill="url(#foam)" stroke="#3a3f45" stroke-width="2"/>
+<rect x="786" y="176" width="187.6" height="176" fill="#cfe8f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="792" y="206.4" width="70.4" height="64.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="884" y="206.4" width="70.4" height="64.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="846" y="236" width="80" height="80" fill="none" stroke="#f28c28" stroke-width="1.5" stroke-dasharray="5 3"/>
+<g transform="rotate(0 991.6 376)"><animateTransform attributeName="transform" type="rotate" values="0 991.6 376;0 991.6 376;-95 991.6 376;-95 991.6 376;0 991.6 376;0 991.6 376" keyTimes="0.00000;0.56667;0.63333;0.76667;0.83333;1.00000" dur="30s" repeatCount="indefinite"/><rect x="768" y="352" width="223.6" height="24" fill="url(#foam)" stroke="#3a3f45" stroke-width="2"/><rect x="840" y="279.2" width="72" height="72.8" fill="#fde3c8" stroke="#f28c28" stroke-width="2"/><text x="876" y="322" class="s c">car</text></g>
+<circle cx="991.6" cy="376" r="5" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="880" y="262" class="s c">cell</text>
+<text x="1000" y="358" class="s">hinge</text>
+<text x="880" y="406" class="s c">room (front)</text>
+<text x="760" y="450" class="s">dashed: throat in the top wall</text>
+<text x="1120" y="150" class="s b">WHAT D2 BUYS AND WHAT IT COSTS</text>
+<text x="1120" y="176" class="s">+ best manual access: open the door and every</text>
+<text x="1120" y="196" class="s">  lane is in reach; the mechanism is cleaned</text>
+<text x="1120" y="216" class="s">  outside the cold</text>
+<text x="1120" y="236" class="s">+ no fittings on the liner</text>
+<text x="1120" y="276" class="s">− custom door: 5 m of gasket must seal as well</text>
+<text x="1120" y="296" class="s">  as the OEM door (largest leak line)</text>
+<text x="1120" y="316" class="s">− door 6–8 kg heavier on OEM hinges rated</text>
+<text x="1120" y="336" class="s">  ≈ 18–25 kg with a furniture front</text>
+<text x="1120" y="356" class="s">− X and Y motors ride on the car in the cold</text>
+<text x="1120" y="376" class="s">− motor cable loops across the hinge</text>
+<text x="1120" y="396" class="s">− S2 holds only 38–42 in a fridge (fewer than 45)</text>
+<text x="1120" y="436" class="s">D1 (port in the door) does not fit: it needs</text>
+<text x="1120" y="456" class="s">a shaft wide enough for the door to swing.</text>
+<text x="1120" y="496" class="s b">Good option for the freezer if S2 is chosen.</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.00000;0.03333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/7</tspan>  D2: the OEM door is replaced by an insulated panel that carries the S2 car on two Z rails; the exit is B's window in the top wall.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.03333;0.13333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/7</tspan>  The car lifts the box to the top level; its Z motor sits outside on the warm face of the door.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.13333;0.20000" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/7</tspan>  At the top the car's toe pushes the box about 100 mm rearwards onto a fixed port shelf under the throat.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.20000;0.40000" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/7</tspan>  B's hatch opens for 3.4 s and the gallery hoist lifts the box out; the heavy cold air stays in the cell.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.40000;0.53333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/7</tspan>  The hatch closes and the car goes back down; all moves inside the cell happen with the hatch shut.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.53333;0.83333" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">6/7</tspan>  Service: opening the door swings the whole mechanism out of the cell, so every lane is open to the hand.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.00000;0.83333;1.00000" dur="30s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">7/7</tspan>  Price: a custom door with 5 m of gasket, 6–8 kg more on the OEM hinges, motors in the cold, under 45 places in a fridge.</text></g>
+</svg>
