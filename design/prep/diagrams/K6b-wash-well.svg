@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b wash well. Source: K6b-loose-ware-fast-washer.md 2.2, 2.4 (bench, wash well), 5.1 (programmes, verification, clean side), 5.2, 5.7. Front section at 0.75 px/mm. Load pattern: one pot on its side (3 slots), one tray on edge (2 slots), one tool rack (1) and one plate carrier (1) = 7 slots. The 6.5 min standard programme is compressed into 11 s of the loop. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  WASH WELL — one quiet well under the bench for ware and dishes</text>
+<text x="24" y="58" class="m">The bench lid stands up as a splash screen, ware hangs tang-up in a comb, a household dishwasher's wash parts do the rest.</text>
+<text x="1576" y="28" class="s r b">well 300 × 320 × 420, insulated · 7 comb slots at 45 mm</text>
+<text x="1576" y="47" class="s r">standard load 6.5 min, 3.5 L, 0.27 kWh from the 30 L store</text>
+<text x="1576" y="66" class="s r">final rinse 88 °C recirculated 60 s: surface ≥ 82 °C ≥ 40 s, A0 ≥ 90</text>
+<text x="1576" y="85" class="s r">44–48 dB(A) · 0 W wash heating while cooking</text>
+<rect x="30" y="92" width="770" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">Front section through the bench and the well</text>
+<text x="42" y="814" class="s">The chuck lifts the lid by its lug to vertical (15 N) and releases every item above the</text>
+<text x="42" y="832" class="s">rim — it never enters the well. 16 fan nozzles in the end walls + a rotary head in the floor.</text>
+<rect x="120" y="384" width="108" height="12" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="435" y="384" width="90" height="12" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="228" y="384" width="204" height="276" fill="#eef0f2" stroke="#3a3f45" stroke-width="2"/>
+<rect x="240" y="396" width="180" height="252" fill="#f4fafe" stroke="#3a3f45" stroke-width="2"/>
+<text x="452" y="456" class="s">insulated double wall</text>
+<line x1="249" y1="396" x2="249" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="276" y1="396" x2="276" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="303" y1="396" x2="303" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="330" y1="396" x2="330" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="357" y1="396" x2="357" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="384" y1="396" x2="384" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<line x1="411" y1="396" x2="411" y2="414" stroke="#3a3f45" stroke-width="3"/>
+<text x="452" y="405" class="s">comb: 7 slots</text>
+<rect x="240" y="660" width="180" height="120" fill="#e3e6ea" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="243" y="696" width="174" height="78" fill="#f3d9c0" opacity="0.8"/>
+<text x="330" y="732" class="s c">tank 8 L, 60 °C</text>
+<circle cx="396" cy="684" r="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="452" y="689" class="s">pump 30 L/min, sump filter</text>
+<text x="452" y="552" class="s">hot rinse water from</text>
+<text x="452" y="569" class="s">the 30 L store (88 °C)</text>
+<line x1="516" y1="576" x2="423" y2="576" stroke="#e04a3a" stroke-width="2.5" marker-end="url(#ah)"/>
+<g  ><animateTransform attributeName="transform" type="rotate" values="0 234 384;0 234 384;-90 234 384;-90 234 384;0 234 384;0 234 384;-6 234 384;-6 234 384;-90 234 384;-90 234 384;0 234 384" keyTimes="0.0000;0.0208;0.1042;0.3333;0.3750;0.8333;0.8542;0.8875;0.9083;0.9750;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="231" y="369" width="201" height="15" fill="#c9cfd6" stroke="#3a3f45" stroke-width="1.8"/>
+<rect x="420" y="360" width="12" height="9" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<circle cx="234" cy="384" r="5" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<text x="216" y="378" class="s r">lift-off pins</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1042;0.3333;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<text x="204" y="174" class="s r">lid = splash screen</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1250;0.9583;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 -300;0 -300;0 0;0 0;0 -300;0 -300" keyTimes="0.0000;0.1250;0.1583;0.9083;0.9500;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="250.8" y="420" width="69.6" height="156" fill="#dbe5ee" stroke="#8fa8c0" stroke-width="2"/>
+<text x="285.6" y="492" class="s c">pot</text>
+<text x="285.6" y="508" class="s c">on side</text>
+<rect x="250.8" y="384" width="8.4" height="18" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1750;0.9583;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 -300;0 -300;0 0;0 0;0 -300;0 -300" keyTimes="0.0000;0.1750;0.2083;0.9083;0.9500;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="328.2" y="408" width="7.2" height="198" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="355.2" y="408" width="7.2" height="198" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="327" y="384" width="8.4" height="18" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2250;0.9583;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 -300;0 -300;0 0;0 0;0 -300;0 -300" keyTimes="0.0000;0.2250;0.2583;0.9083;0.9500;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="379.8" y="402" width="8.4" height="120" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="384" y1="420" x2="366" y2="456" stroke="#8fa8c0" stroke-width="2"/>
+<line x1="384" y1="447" x2="366" y2="483" stroke="#8fa8c0" stroke-width="2"/>
+<line x1="384" y1="474" x2="366" y2="510" stroke="#8fa8c0" stroke-width="2"/>
+<line x1="384" y1="501" x2="366" y2="537" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="381" y="384" width="8.4" height="18" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2750;0.9583;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 -300;0 -300;0 0;0 0;0 -300;0 -300" keyTimes="0.0000;0.2750;0.3083;0.9083;0.9500;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="406.8" y="402" width="8.4" height="168" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="408" y="384" width="8.4" height="18" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<text x="258" y="300" class="s">items hang tang-up in the comb</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3750;0.4042;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="240" y1="432" x2="294" y2="444" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="432" x2="366" y2="444" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="492" x2="294" y2="504" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="492" x2="366" y2="504" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="552" x2="294" y2="564" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="552" x2="366" y2="564" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="612" x2="294" y2="624" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="612" x2="366" y2="624" stroke="#7fbfe8" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 330 636" to="360 330 636" dur="0.5s" repeatCount="indefinite"/>
+<line x1="300" y1="636" x2="360" y2="636" stroke="#7fbfe8" stroke-width="4"/>
+</g></g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4042;0.6042;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="240" y1="432" x2="294" y2="444" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="432" x2="366" y2="444" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="492" x2="294" y2="504" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="492" x2="366" y2="504" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="552" x2="294" y2="564" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="552" x2="366" y2="564" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="612" x2="294" y2="624" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="612" x2="366" y2="624" stroke="#f2a65a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 330 636" to="360 330 636" dur="0.5s" repeatCount="indefinite"/>
+<line x1="300" y1="636" x2="360" y2="636" stroke="#f2a65a" stroke-width="4"/>
+</g></g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6250;0.7292;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="240" y1="432" x2="294" y2="444" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="432" x2="366" y2="444" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="492" x2="294" y2="504" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="492" x2="366" y2="504" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="552" x2="294" y2="564" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="552" x2="366" y2="564" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="240" y1="612" x2="294" y2="624" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="420" y1="612" x2="366" y2="624" stroke="#e04a3a" stroke-width="2.5" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="0.3s" repeatCount="indefinite"/></line>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 330 636" to="360 330 636" dur="0.5s" repeatCount="indefinite"/>
+<line x1="300" y1="636" x2="360" y2="636" stroke="#e04a3a" stroke-width="4"/>
+</g></g>
+</g>
+<circle cx="330" cy="636" r="6" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.9375;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<text x="330" y="222" class="s c b">lift-out: camera + IR check → tower store</text>
+</g>
+<rect x="816" y="92" width="760" height="470" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="828" y="116" class="m b">Standard programme (after hand-over)</text>
+<text x="828" y="532" class="s">Rinse water runs on into the tank and regenerates it; the store is reheated at 2 kW only</text>
+<text x="828" y="550" class="s">while the oven is off, so washing never competes with cooking for power.</text>
+<rect x="886" y="392" width="35.0685" height="26" fill="#7fbfe8" stroke="#3a3f45" stroke-width="1"/>
+<rect x="921.068" y="392" width="315.616" height="26" fill="#f2a65a" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1236.68" y="392" width="26.3014" height="26" fill="#ccc" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1262.99" y="392" width="105.205" height="26" fill="#e04a3a" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1368.19" y="392" width="157.808" height="26" fill="#ddd" stroke="#3a3f45" stroke-width="1"/>
+<text x="903.534" y="438" class="s c">pre-rinse cold</text>
+<text x="1078.88" y="438" class="s c">wash 60 °C alkaline</text>
+<text x="1249.84" y="456" class="s c">drain</text>
+<text x="1315.59" y="438" class="s c">rinse 88 °C</text>
+<text x="1447.1" y="438" class="s c">dry, lid ajar</text>
+<text x="886" y="474" class="s c">0</text>
+<text x="1526" y="474" class="s r">6.5 min (+ 4 min polymers)</text>
+<line x1="886" y1="382" x2="886" y2="182" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="882" y1="358.471" x2="1526" y2="358.471" stroke="#ddd" stroke-width="1"/>
+<text x="878" y="363.471" class="s r">20 °C</text>
+<line x1="882" y1="264.353" x2="1526" y2="264.353" stroke="#ddd" stroke-width="1"/>
+<text x="878" y="269.353" class="s r">60 °C</text>
+<line x1="882" y1="212.588" x2="1526" y2="212.588" stroke="#e04a3a" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="878" y="217.588" class="s r">82 °C</text>
+<text x="1306.82" y="186.588" class="s c b">surface ≥ 82 °C for ≥ 40 s → A0 ≥ 90</text>
+<path d="M886 370.235 L921.068 370.235 L947.37 276.118 L1236.68 264.353 L1262.99 276.118 L1280.52 203.176 L1368.19 198.471 L1394.49 240.824 L1526 299.647" fill="none" stroke="#e04a3a" stroke-width="3"/>
+<line x1="0" y1="182" x2="0" y2="418" stroke="#3a3f45" stroke-width="3"><animate attributeName="x1" values="886;886;1526;1526;886;886" keyTimes="0.0000;0.3750;0.8333;0.9167;0.9208;1.0000" dur="24s" repeatCount="indefinite"/><animate attributeName="x2" values="886;886;1526;1526;886;886" keyTimes="0.0000;0.3750;0.8333;0.9167;0.9208;1.0000" dur="24s" repeatCount="indefinite"/></line>
+<rect x="816" y="578" width="760" height="266" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="828" y="602" class="m b">Other programmes and checks</text>
+<text x="832" y="638" class="s b">cold rinse</text>
+<text x="946" y="638" class="s">within 2 min of emptying a vessel: 10 s cold fan, 0.3 L</text>
+<text x="832" y="678" class="s b">turnaround</text>
+<text x="946" y="678" class="s">red (raw-food) item needed again during the meal: 6.5 min</text>
+<text x="832" y="718" class="s b">intensive</text>
+<text x="946" y="718" class="s">burnt-on soil, failed check, weekly: 6 L, 50 °C, 15 min</text>
+<text x="832" y="758" class="s b">verification</text>
+<text x="946" y="758" class="s">each item turned before camera (white, UV-A) and IR</text>
+<text x="832" y="798" class="s b">throughput</text>
+<text x="946" y="798" class="s">4 persons: 6 loads = 39 min after hand-over; 2 persons: 26 min</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.1250;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  Open: the chuck lifts the insulated bench lid by its lug; it stands on its pins as a splash screen between zones A and B</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1250;0.3333;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  Load: pot on its side, tray on edge, a tool rack and a plate carrier hang tang-up in the comb; the chuck lets go above the rim</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3333;0.8333;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  Wash with the lid closed: cold pre-rinse, 60 °C wash, drain to the tank, 88 °C recirculated rinse for disinfection</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.8333;0.9375;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  Dry: the lid is lifted 30 mm and the well fan blows to the downdraft duct</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.9375;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Lift-out: every item is checked by camera and IR, then goes straight to the closed tower store — nothing waits in the well</text></g>
+</svg>

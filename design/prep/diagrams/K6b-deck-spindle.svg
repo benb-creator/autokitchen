@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b deck spindle. Source: K6b-loose-ware-fast-washer.md 2.4 (deck spindle), 2.5 (spindle ware), 5.6 item 8. Section at 1.6 px/mm. The magnet arrangement (inner rotor in the dry thimble, outer magnet ring in the hub of each rotor) is the simplest reading of 'canned coupling'; the bowl's central column is drawn as a tube round the thimble. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  DECK SPINDLE — a blender drive with no seal</text>
+<text x="24" y="58" class="m">A magnet turns inside a closed steel thimble welded into the deck; each rotor carries the other half of the coupling.</text>
+<text x="1576" y="28" class="s r b">750 W motor · 0–6 000 rpm · 1.5 Nm</text>
+<text x="1576" y="47" class="s r">thimble Ø 40 × 60, deep-drawn, welded in a drained pocket Ø 170 × 120</text>
+<text x="1576" y="66" class="s r">bowl Ø 160 × 200 with a central column</text>
+<text x="1576" y="85" class="s r">rotors: blade, whisk, spin basket, disc cutter (Ø 140 discs)</text>
+<rect x="30" y="92" width="880" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">Section through the spindle pocket</text>
+<text x="42" y="814" class="s">Nothing turns through the deck: the steel thimble is closed and welded in. The motor's</text>
+<text x="42" y="832" class="s">magnet drives the rotor's magnet ring through the thin wall. Bowl and rotor lift off for the well.</text>
+<rect x="70" y="452" width="212.5" height="30" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="537.5" y="452" width="332.5" height="30" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<path d="M282.5 452 L282.5 632 L537.5 632 L537.5 452" fill="#eef2f6" stroke="#3a3f45" stroke-width="2.5"/>
+<line x1="500" y1="632" x2="500" y2="722" stroke="#777" stroke-width="4"/>
+<text x="509" y="714.5" class="s">pocket drain</text>
+<path d="M380 632 L380 557 Q380 542 410 542 L440 632" fill="none" stroke="#3a3f45" stroke-width="0"/>
+<path d="M380 632 L380 564.5 A30 22.5 0 0 1 440 564.5 L440 632" fill="#dfe6ec" stroke="#5d7a95" stroke-width="2.5"/>
+<rect x="342.5" y="654.5" width="135" height="105" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="335" y="722" class="s r">motor 750 W (dry side)</text>
+<rect x="406" y="632" width="8" height="22.5" fill="#777" stroke="#3a3f45" stroke-width="1"/>
+<clipPath id="mc1"><rect x="387.5" y="572" width="45" height="57"/></clipPath>
+<g clip-path="url(#mc1)">
+<rect x="387.5" y="572" width="45" height="57" fill="#c0392b" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="45 0" dur="0.4s" repeatCount="indefinite"/>
+<rect x="342.5" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="353.75" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="365" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="376.25" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="387.5" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="398.75" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="410" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="421.25" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0.0000;0.2500;0.7500;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="345.312" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="356.562" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="367.812" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="379.062" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="390.312" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="401.562" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="412.812" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="424.062" y="572" width="5.625" height="57" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<text x="275" y="587" class="s r">inner magnet rotor</text>
+<text x="275" y="604" class="s r">(dry, in the thimble)</text>
+<line x1="440" y1="572" x2="605" y2="527" stroke="#777" stroke-width="1.2"/>
+<text x="609" y="532" class="s">thimble Ø 40 × 60, closed</text>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 -120;0 -120;0 0;0 0" keyTimes="0.0000;0.1250;0.2083;1.0000" dur="12s" repeatCount="indefinite"/>
+<path d="M290 324.5 L290 624.5 L530 624.5 L530 324.5" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2.5"/>
+<rect x="293" y="392" width="234" height="228" fill="#b9d98c" opacity="0.8"><animate attributeName="opacity" values="0.8;0.8;0.5;0.5" keyTimes="0.0000;0.2500;0.5000;1.0000" dur="12s" repeatCount="indefinite"/></rect>
+<rect x="372.5" y="524" width="75" height="100.5" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2"/>
+</g>
+<text x="537.5" y="347" class="s">bowl Ø 160 × 200,</text>
+<text x="537.5" y="364" class="s">central column over the thimble</text>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 -160;0 -160;0 0;0 0;0 -160;0 -160" keyTimes="0.0000;0.2083;0.2500;0.7917;0.8750;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="359" y="482" width="102" height="108" fill="none" stroke="#5d7a95" stroke-width="2.5"/>
+<g transform="translate(410 473)"><g><animateTransform attributeName="transform" type="scale" values="1 1;-1 1;1 1" dur="0.3s" repeatCount="indefinite"/>
+<path d="M-108 6 L0 0 L108 -6" fill="none" stroke="#3a3f45" stroke-width="4"/>
+</g></g>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 -160;0 -160;0 0;0 0;0 -160;0 -160" keyTimes="0.0000;0.2083;0.2500;0.7917;0.8750;1.0000" dur="12s" repeatCount="indefinite"/>
+<clipPath id="mc2"><rect x="360.5" y="527" width="9" height="48"/></clipPath>
+<g clip-path="url(#mc2)">
+<rect x="360.5" y="527" width="9" height="48" fill="#c0392b" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="9 0" dur="0.4s" repeatCount="indefinite"/>
+<rect x="351.5" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="353.75" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="356" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="358.25" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="360.5" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="362.75" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="365" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="367.25" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0.0000;0.2500;0.7500;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="352.062" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="354.312" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="356.562" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="358.812" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="361.062" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="363.312" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="365.562" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="367.812" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<clipPath id="mc3"><rect x="450.5" y="527" width="9" height="48"/></clipPath>
+<g clip-path="url(#mc3)">
+<rect x="450.5" y="527" width="9" height="48" fill="#c0392b" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="9 0" dur="0.4s" repeatCount="indefinite"/>
+<rect x="441.5" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="443.75" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="446" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="448.25" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="450.5" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="452.75" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="455" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="457.25" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0.0000;0.2500;0.7500;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="442.062" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="444.312" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="446.562" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="448.812" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="451.062" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="453.312" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="455.562" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+<rect x="457.812" y="527" width="1.125" height="48" fill="#3b6db3" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+</g>
+<text x="275" y="482" class="s r">rotor hub with</text>
+<text x="275" y="499" class="s r">outer magnet ring</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2667;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="410" cy="452" rx="90" ry="10" fill="none" stroke="#7aa25a" stroke-width="2" stroke-dasharray="10 8"><animate attributeName="stroke-dashoffset" from="0" to="-36" dur="0.4s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="410" cy="431" rx="96" ry="10" fill="none" stroke="#7aa25a" stroke-width="2" stroke-dasharray="10 8"><animate attributeName="stroke-dashoffset" from="0" to="-36" dur="0.4s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="410" cy="410" rx="102" ry="10" fill="none" stroke="#7aa25a" stroke-width="2" stroke-dasharray="10 8"><animate attributeName="stroke-dashoffset" from="0" to="-36" dur="0.4s" repeatCount="indefinite"/></ellipse>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<text x="537.5" y="422" class="l b">0–6 000 rpm</text>
+</g>
+<rect x="926" y="92" width="320" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="938" y="116" class="m b">blade rotor</text>
+<text x="938" y="450" class="s">purée, pesto, soup</text>
+<circle cx="1086" cy="292" r="90" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2"/>
+<circle cx="1086" cy="292" r="18" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 1086 292" to="360 1086 292" dur="0.6s" repeatCount="indefinite"/>
+<path d="M1011 298 L1161 286" fill="none" stroke="#3a3f45" stroke-width="6"/>
+</g></g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.3750;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="930" y="96" width="312" height="362" fill="none" stroke="#f28c28" stroke-width="4" rx="8"/>
+</g>
+<rect x="1256" y="92" width="320" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="1268" y="116" class="m b">whisk rotor</text>
+<text x="1268" y="450" class="s">cream, egg white, batter</text>
+<circle cx="1416" cy="292" r="90" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2"/>
+<circle cx="1416" cy="292" r="18" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 1416 292" to="360 1416 292" dur="0.6s" repeatCount="indefinite"/>
+<ellipse cx="1461" cy="292" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(0 1461 292)"/>
+<ellipse cx="1438.5" cy="330.971" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(60 1438.5 330.971)"/>
+<ellipse cx="1393.5" cy="330.971" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(120 1393.5 330.971)"/>
+<ellipse cx="1371" cy="292" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(180 1371 292)"/>
+<ellipse cx="1393.5" cy="253.029" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(240 1393.5 253.029)"/>
+<ellipse cx="1438.5" cy="253.029" rx="30" ry="8" fill="none" stroke="#3a3f45" stroke-width="2.5" transform="rotate(300 1438.5 253.029)"/>
+</g></g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3750;0.5000;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1260" y="96" width="312" height="362" fill="none" stroke="#f28c28" stroke-width="4" rx="8"/>
+</g>
+<rect x="926" y="472" width="320" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="938" y="496" class="m b">spin basket</text>
+<text x="938" y="830" class="s">dry salad and herbs</text>
+<circle cx="1086" cy="672" r="90" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2"/>
+<circle cx="1086" cy="672" r="18" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 1086 672" to="360 1086 672" dur="1s" repeatCount="indefinite"/>
+<circle cx="1086" cy="672" r="75" fill="none" stroke="#3a3f45" stroke-width="3" stroke-dasharray="3 5"/>
+<ellipse cx="1136" cy="672" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1121.36" cy="707.355" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1086" cy="722" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1050.64" cy="707.355" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1036" cy="672" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1050.64" cy="636.645" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1086" cy="622" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1121.36" cy="636.645" rx="12" ry="7" fill="#7cb36b" stroke="#3a3f45" stroke-width="1"/>
+</g></g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5000;0.6250;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="930" y="476" width="312" height="362" fill="none" stroke="#f28c28" stroke-width="4" rx="8"/>
+</g>
+<rect x="1256" y="472" width="320" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="1268" y="496" class="m b">disc cutter</text>
+<text x="1268" y="830" class="s">slice and grate (Ø 140 discs)</text>
+<circle cx="1416" cy="672" r="90" fill="#e8f0f6" stroke="#8fa8c0" stroke-width="2"/>
+<circle cx="1416" cy="672" r="18" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 1416 672" to="360 1416 672" dur="0.6s" repeatCount="indefinite"/>
+<circle cx="1416" cy="672" r="70" fill="#cfd6dd" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1437" y="669" width="28" height="6" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<rect x="1367" y="669" width="28" height="6" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+</g></g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6250;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1260" y="476" width="312" height="362" fill="none" stroke="#f28c28" stroke-width="4" rx="8"/>
+</g>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.2083;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/4</tspan>  The bowl is set over the spindle pocket; its central column slides over the welded thimble</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2083;0.2500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/4</tspan>  A rotor drops onto the column; its hub's magnet ring surrounds the thimble</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/4</tspan>  The motor turns the inner magnet; the rotor follows through the closed thin wall — no shaft through the deck, no seal</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7500;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/4</tspan>  Bowl and rotor lift off and go to the well; the pocket is flushed and drains</text></g>
+</svg>

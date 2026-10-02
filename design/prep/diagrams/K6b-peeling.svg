@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b peeling, coring, stoning. Source: K6b-loose-ware-fast-washer.md 3.1 (P1, P2, P3 and the produce table), 2.5. Schematic, not to one scale. P1 is a front view: the spit is coaxial with the chuck along +X. The banana panel shows the flesh pushed down through the Ø 30 knife ring into the small tube while the skin splits outside it (simplest reading). -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  PEELING, CORING, STONING — three passive mechanisms</text>
+<text x="24" y="58" class="m">No peeling machine: a spit against a fixed post, a ricer plate that keeps the skin, and tube cutters pushed by the gantry or press.</text>
+<text x="1576" y="28" class="s r b">PRP-039 asks ≤ 3 mechanisms: P1, P2, P3</text>
+<text x="1576" y="47" class="s r">spit 30–150 rpm · stab 30–60 N · post: Y-blade, paring blade, rasp</text>
+<text x="1576" y="66" class="s r">ricer plate 3 mm, 1–2 kN · corers Ø 14 / 22 / 42, ≤ 100 N</text>
+<text x="1576" y="85" class="s r">single-purpose parts: none</text>
+<rect x="30" y="92" width="765" height="372" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">P1  Spit and post</text>
+<text x="42" y="434" class="s">The potato is stabbed on the straight spit (end stop in the nest, 30–60 N), turned by the</text>
+<text x="42" y="452" class="s">roll axis and drawn pole to pole along X past the post; peel falls into the hopper.</text>
+<path d="M360 364 L640 364 L600 402 L400 402 Z" fill="#dfe6ec" stroke="#3a3f45" stroke-width="2"/>
+<text x="650" y="392" class="s">hopper</text>
+<rect x="494" y="294" width="12" height="70" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M498 322 q10 -12 0 -24" fill="none" stroke="#f28c28" stroke-width="2"/>
+<rect x="484" y="284" width="32" height="10" fill="#5d7a95" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="518" y="302" width="18" height="8" fill="#7d8f9f" stroke="#3a3f45" stroke-width="1"/>
+<rect x="464" y="302" width="18" height="8" fill="#c9a9a5" stroke="#3a3f45" stroke-width="1"/>
+<text x="544" y="312" class="s">post: Y-blade (thin skins) ·</text>
+<text x="544" y="329" class="s">paring blade + shoe 2.5 / 5 mm ·</text>
+<text x="544" y="346" class="s">fine rasp (zest)</text>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;150 0;150 0;0 0;0 0" keyTimes="0.0000;0.0833;0.7500;0.8333;0.9583;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="100" y="222" width="50" height="40" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M125 206 a14 14 0 1 0 0 0.1" fill="none" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<line x1="150" y1="242" x2="390" y2="242" stroke="#9aa1a8" stroke-width="4"/>
+<ellipse cx="410" cy="242" rx="95" ry="42" fill="#a87a4a" stroke="#3a3f45" stroke-width="2"/>
+<clipPath id="pc6"><ellipse cx="410" cy="242" rx="93" ry="40"/></clipPath>
+<g clip-path="url(#pc6)"><rect x="0" y="200" width="0" height="84" fill="#e8c66a"><animate attributeName="x" values="505;505;315;315;505;505" keyTimes="0.0000;0.0833;0.7500;0.9500;0.9583;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="width" values="0;0;190;190;0;0" keyTimes="0.0000;0.0833;0.7500;0.9500;0.9583;1.0000" dur="12s" repeatCount="indefinite"/></rect></g>
+<line x1="330" y1="222" x2="490" y2="222" stroke="#6b4d2c" stroke-width="3" stroke-dasharray="6 10"><animate attributeName="stroke-dashoffset" from="0" to="32" dur="0.4s" repeatCount="indefinite"/></line>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1000;0.1500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.1000;0.1500;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="491" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1400;0.1900;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.1400;0.1900;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="495" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1800;0.2300;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.1800;0.2300;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="499" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2200;0.2700;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.2200;0.2700;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="503" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2600;0.3100;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.2600;0.3100;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="493" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.3500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.3000;0.3500;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="497" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3400;0.3900;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.3400;0.3900;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="501" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3800;0.4300;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.3800;0.4300;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="491" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4200;0.4700;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.4200;0.4700;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="495" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4600;0.5100;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.4600;0.5100;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="499" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5000;0.5500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.5000;0.5500;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="503" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5400;0.5900;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.5400;0.5900;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="493" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5800;0.6300;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.5800;0.6300;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="497" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6200;0.6700;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.6200;0.6700;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="501" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6600;0.7100;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.6600;0.7100;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="491" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7000;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 84;0 84" keyTimes="0.0000;0.7000;0.7500;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="495" y="288" width="6" height="6" fill="#a87a4a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<text x="90" y="182" class="s">roll (chuck along +X)</text>
+<line x1="330" y1="144" x2="480" y2="144" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="490" y="149" class="s">X traverse</text>
+<rect x="811" y="92" width="765" height="372" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="823" y="116" class="m b">P2  Rice in the skin</text>
+<text x="823" y="434" class="s">Cooked or soft produce goes in whole: the flesh passes the 3 mm plate, skins, seeds and</text>
+<text x="823" y="452" class="s">cores stay as a mat and are tipped into the hopper. Food-mill and potato-ricer practice.</text>
+<rect x="936" y="162" width="90" height="160" fill="none" stroke="#8fa8c0" stroke-width="2.5"/>
+<rect x="886" y="322" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="945" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="953" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="961" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="969" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="977" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="985" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="993" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1001" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1009" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1017" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.6833;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="941" y="210" width="80" height="110" rx="24" fill="#e8c66a" stroke="#8a6a3a" stroke-width="4"><animate attributeName="y" values="210;210;308;308" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="height" values="110;110;12;12" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6833;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="941" y="313" width="80" height="8" fill="#8a6a3a" stroke="#3a3f45" stroke-width="1"/>
+<text x="1081" y="316" class="s b">skin stays</text>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 98;0 98;0 0;0 0" keyTimes="0.0000;0.1667;0.6667;0.7083;0.8333;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="939" y="196" width="84" height="14" fill="#f4f4ee" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="963" y="156" width="36" height="40" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<line x1="951" y1="330" x2="951" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="961" y1="330" x2="961" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="971" y1="330" x2="971" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="981" y1="330" x2="981" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="991" y1="330" x2="991" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1001" y1="330" x2="1001" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1011" y1="330" x2="1011" y2="330" stroke="#e8c66a" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<rect x="901" y="392" width="160" height="22" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<text x="981" y="152" class="s c b">potato halves → mash</text>
+<rect x="1246" y="162" width="90" height="160" fill="none" stroke="#8fa8c0" stroke-width="2.5"/>
+<rect x="1196" y="322" width="190" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="1255" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1263" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1271" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1279" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1287" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1295" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1303" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1311" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1319" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1327" cy="326" r="1.4" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.6833;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1251" y="210" width="80" height="110" rx="24" fill="#f6a623" stroke="#e07b00" stroke-width="4"><animate attributeName="y" values="210;210;308;308" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="height" values="110;110;12;12" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6833;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1251" y="313" width="80" height="8" fill="#e07b00" stroke="#3a3f45" stroke-width="1"/>
+<text x="1391" y="316" class="s b">skin stays</text>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 98;0 98;0 0;0 0" keyTimes="0.0000;0.1667;0.6667;0.7083;0.8333;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="1249" y="196" width="84" height="14" fill="#f4f4ee" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1273" y="156" width="36" height="40" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<line x1="1261" y1="330" x2="1261" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1271" y1="330" x2="1271" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1281" y1="330" x2="1281" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1291" y1="330" x2="1291" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1301" y1="330" x2="1301" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1311" y1="330" x2="1311" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<line x1="1321" y1="330" x2="1321" y2="330" stroke="#f6a623" stroke-width="5"><animate attributeName="y2" values="330;330;382;392;330;330" keyTimes="0.0000;0.2083;0.4167;0.6667;0.7167;1.0000" dur="12s" repeatCount="indefinite"/></line>
+<rect x="1211" y="392" width="160" height="22" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<text x="1291" y="152" class="s c b">orange halves → juice</text>
+<rect x="30" y="474" width="765" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="498" class="m b">P3  Tube cutters: banana out of its skin</text>
+<text x="42" y="814" class="s">A 40 mm banana section stands on the Ø 30 knife ring of the small tube; the piston</text>
+<text x="42" y="832" class="s">pushes the flesh down through the ring, the skin splits and stays outside.</text>
+<rect x="225" y="704" width="50" height="90" fill="#f6efc8" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="227" y="704" width="46" height="0" fill="#f6efc8"><animate attributeName="height" values="0;0;70;70" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/></rect>
+<rect x="220" y="700" width="60" height="6" fill="#e04a3a" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.6667;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="228" y="620" width="44" height="80" rx="10" fill="#f6efc8" stroke="#c9a400" stroke-width="6"><animate attributeName="y" values="620;620;696;696" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="height" values="80;80;4;4" keyTimes="0.0000;0.1667;0.6667;1.0000" dur="12s" repeatCount="indefinite"/></rect>
+</g>
+<path d="M224 700 l-10 -50" fill="none" stroke="#c9a400" stroke-width="6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.3333;0.3417;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/></path>
+<path d="M276 700 l10 -50" fill="none" stroke="#c9a400" stroke-width="6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.3333;0.3417;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/></path>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 76;0 76;0 0;0 0" keyTimes="0.0000;0.1667;0.6667;0.7500;0.8750;1.0000" dur="12s" repeatCount="indefinite"/>
+<rect x="229" y="604" width="42" height="14" fill="#f4f4ee" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="240" y="554" width="20" height="50" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<text x="310" y="654" class="s">banana section, skin on</text>
+<text x="310" y="708" class="s">knife ring Ø 30</text>
+<text x="310" y="764" class="s">small tube Ø 45: slices next</text>
+<text x="510" y="594" class="s b">same family:</text>
+<text x="510" y="614" class="s">corer Ø 42 + cone: pepper</text>
+<text x="510" y="634" class="s">corer Ø 22: apple</text>
+<text x="510" y="654" class="s">corer Ø 14: tomato, cherry</text>
+<text x="510" y="674" class="s">wedger-corer plate</text>
+<text x="510" y="694" class="s">pushed by Z (≤ 100 N) or</text>
+<text x="510" y="714" class="s">the press</text>
+<rect x="811" y="474" width="765" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="823" y="498" class="m b">Halve round the stone, then twist</text>
+<text x="823" y="814" class="s">Avocado on a shallow fork: the knife is plunged to the stone while the roll turns it 360°;</text>
+<text x="823" y="832" class="s">then one half is held in the twist nest and the roll twists the other off. Spoon lifts the stone.</text>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.5000;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="rotate" from="0 1041 664" to="360 1041 664" dur="4s" repeatCount="indefinite"/>
+<ellipse cx="1041" cy="664" rx="70" ry="90" fill="#3d5a1f" stroke="#3a3f45" stroke-width="2"/>
+<ellipse cx="1041" cy="664" rx="62" ry="82" fill="#b8d27a" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="1041" cy="664" r="30" fill="#8a5a35" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="1041" y1="574" x2="1041" y2="634" stroke="#3a3f45" stroke-width="2" stroke-dasharray="4 3"/>
+</g></g>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.5000;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<path d="M1035 514 L1047 514 L1041 632 Z" fill="#cfd6dd" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1061" y="544" class="s">knife to the stone</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5000;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+<path d="M1041 574 A70 90 0 0 1 1041 754 Z" fill="#b8d27a" stroke="#3d5a1f" stroke-width="2"/>
+<circle cx="1041" cy="664" r="30" fill="#8a5a35" stroke="#3a3f45" stroke-width="1.5"/>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-60 0;-60 0" keyTimes="0.0000;0.5833;0.7500;1.0000" dur="12s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1041 664;0 1041 664;-40 1041 664;-40 1041 664" keyTimes="0.0000;0.5167;0.5833;1.0000" dur="12s" repeatCount="indefinite"/><path d="M1041 574 A70 90 0 0 0 1041 754 Z" fill="#b8d27a" stroke="#3d5a1f" stroke-width="2"/></g>
+</g>
+<rect x="1081" y="564" width="60" height="200" fill="none" stroke="#777" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="1151" y="664" class="s">twist nest</text>
+</g>
+<text x="1291" y="564" class="s">also: peach, plum, apricot,</text>
+<text x="1291" y="584" class="s">mango cheeks by knife-Y</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.0833;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/3</tspan>  Three passive mechanisms, all worked by the gantry or the press — nothing peels by itself</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0833;0.7500;1" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/3</tspan>  P1 spit peels pole to pole · P2 ricer keeps the skin · P3 knife ring pushes banana out of its skin · avocado is cut round the stone</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7500;1.0000" dur="12s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/3</tspan>  Peel, skins and stones go to the hopper and the bio bin; all parts go to the well</text></g>
+</svg>

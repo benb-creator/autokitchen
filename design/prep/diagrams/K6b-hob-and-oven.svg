@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b hob, turning rings, downdraft and oven. Source: K6b-loose-ware-fast-washer.md 1 (#19), 2.2, 2.4 (hob, downdraft, oven), 5.3. Top view at 0.95 px/mm; side section at T1 at 0.7 px/mm; front section through H2 and the oven at 0.45 px/mm. The anchor pin height and the scraper-arm shape are not given; drawn as an L-arm hooked on a pin in the rear wall. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  HOB — two turning rings, a plain bridge, the downdraft, and a flush oven</text>
+<text x="24" y="58" class="m">Column 1 turns its pots against tools hooked to the rear wall; column 2 holds one GN 2/3 plate that slides straight into the oven.</text>
+<text x="1576" y="28" class="s r b">glass 600 × 520 · T1 3.5 kW, T3 2.2 kW turning · H2 3.5, H4 2.2 kW</text>
+<text x="1576" y="47" class="s r">rings 0–120 rpm, 20 Nm, on three PEEK rollers</text>
+<text x="1576" y="66" class="s r">downdraft slot 50 × 480 between the columns, 300–400 m³/h</text>
+<text x="1576" y="85" class="s r">oven 35–45 L, floor flush with the deck, drop door into the plinth</text>
+<rect x="30" y="92" width="740" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">Top view of the hob (rear wall at top)</text>
+<text x="42" y="796" class="s">Tools (scraper arm, kneading roller, whisk bar) hang on anchor pins in the rear wall</text>
+<text x="42" y="814" class="s">and stand still while the ring turns the pot. Steam and fat aerosol are drawn down</text>
+<text x="42" y="832" class="s">into the slot between the columns.</text>
+<rect x="100" y="182" width="570" height="527.25" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<rect x="100" y="182" width="570" height="10" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1"/>
+<text x="456.25" y="174" class="s">rear wall</text>
+<text x="551.25" y="729.25" class="s c">front</text>
+<rect x="361.25" y="215.25" width="47.5" height="456" fill="#555" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="385" y="443.25" class="s"></text>
+<circle cx="230.15" cy="272.25" r="128.25" fill="none" stroke="#f28c28" stroke-width="8" stroke-dasharray="3 6" opacity="0.7"/>
+<circle cx="230.15" cy="272.25" r="114" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="230.15" cy="410" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="110.855" cy="203.375" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="349.445" cy="203.375" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 230.15 272.25" to="360 230.15 272.25" dur="2s" repeatCount="indefinite"/>
+<rect x="291.65" y="267.25" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="272.173" y="314.273" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="225.15" y="333.75" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="178.127" y="314.273" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="158.65" y="267.25" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="178.127" y="220.227" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="225.15" y="200.75" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="272.173" y="220.227" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+</g></g>
+<text x="106.65" y="153.5" class="s h">T3 2.2 kW</text>
+<circle cx="230.15" cy="533.5" r="128.25" fill="none" stroke="#f28c28" stroke-width="8" stroke-dasharray="3 6" opacity="0.7"/>
+<circle cx="230.15" cy="533.5" r="114" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="230.15" cy="671.25" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="110.855" cy="464.625" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="349.445" cy="464.625" r="6" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<g  >
+<g><animateTransform attributeName="transform" type="rotate" from="0 230.15 533.5" to="360 230.15 533.5" dur="2s" repeatCount="indefinite"/>
+<rect x="291.65" y="528.5" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="272.173" y="575.523" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="225.15" y="595" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="178.127" y="575.523" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="158.65" y="528.5" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="178.127" y="481.477" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="225.15" y="462" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="272.173" y="481.477" width="10" height="10" fill="#efe3b0" stroke="#3a3f45" stroke-width="1"/>
+</g></g>
+<text x="106.65" y="414.75" class="s h">T1 3.5 kW</text>
+<circle cx="171.25" cy="186.75" r="6" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<line x1="171.25" y1="186.75" x2="217.75" y2="272.25" stroke="#b4bac1" stroke-width="5"/>
+<line x1="230.15" y1="272.25" x2="334.65" y2="272.25" stroke="#6b4c8a" stroke-width="7"/>
+<circle cx="285.25" cy="186.75" r="6" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<line x1="285.25" y1="186.75" x2="241.75" y2="533.5" stroke="#b4bac1" stroke-width="5"/>
+<line x1="230.15" y1="533.5" x2="334.65" y2="533.5" stroke="#6b4c8a" stroke-width="7"/>
+<text x="228.25" y="174" class="s c">anchor pins</text>
+<circle cx="539.85" cy="272.25" r="104.5" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="596.85" y="367.25" class="s">H4 2.2</text>
+<circle cx="539.85" cy="533.5" r="104.5" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="596.85" y="628.5" class="s">H2 3.5</text>
+<clipPath id="hc"><rect x="30" y="92" width="640" height="600"/></clipPath><g clip-path="url(#hc)">
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.8438;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;361 0;361 0;0 0;0 0" keyTimes="0.0000;0.5625;0.7500;0.8438;0.8500;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="408.75" y="237.1" width="308.75" height="336.3" fill="#9fb3c6" stroke="#3a3f45" stroke-width="2" fill-opacity="0.85"/>
+<ellipse cx="465.75" cy="310.25" rx="38" ry="38" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="598.75" cy="310.25" rx="38" ry="38" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="465.75" cy="471.75" rx="38" ry="38" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="598.75" cy="471.75" rx="38" ry="38" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+</g>
+<text x="539.85" y="428.25" class="s c b h">GN 2/3 plate</text>
+<rect x="670" y="182" width="88" height="527.25" fill="#e8d8d0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="713" y="443.25" class="s"></text>
+<text x="693.75" y="443.25" class="s c" transform="rotate(-90 693.75 443.25)">oven →</text>
+<line x1="323.25" y1="614.25" x2="370.75" y2="614.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"><animate attributeName="x1" values="303.25;323.25" dur="1s" repeatCount="indefinite"/></line>
+<line x1="446.75" y1="614.25" x2="399.25" y2="614.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"/>
+<line x1="323.25" y1="528.75" x2="370.75" y2="528.75" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"><animate attributeName="x1" values="303.25;323.25" dur="1s" repeatCount="indefinite"/></line>
+<line x1="446.75" y1="528.75" x2="399.25" y2="528.75" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"/>
+<line x1="323.25" y1="443.25" x2="370.75" y2="443.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"><animate attributeName="x1" values="303.25;323.25" dur="1s" repeatCount="indefinite"/></line>
+<line x1="446.75" y1="443.25" x2="399.25" y2="443.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"/>
+<line x1="323.25" y1="357.75" x2="370.75" y2="357.75" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"><animate attributeName="x1" values="303.25;323.25" dur="1s" repeatCount="indefinite"/></line>
+<line x1="446.75" y1="357.75" x2="399.25" y2="357.75" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"/>
+<line x1="323.25" y1="272.25" x2="370.75" y2="272.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"><animate attributeName="x1" values="303.25;323.25" dur="1s" repeatCount="indefinite"/></line>
+<line x1="446.75" y1="272.25" x2="399.25" y2="272.25" stroke="#9aa1a8" stroke-width="2.5" marker-end="url(#ak)"/>
+<text x="385" y="720.75" class="s c b">downdraft slot</text>
+<rect x="670" y="182" width="88" height="527.25" fill="#e8d8d0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="693.75" y="443.25" class="s c" transform="rotate(-90 693.75 443.25)">oven →</text>
+<rect x="786" y="92" width="790" height="372" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="798" y="116" class="m b">Section through T1: tool hooked to the rear wall</text>
+<text x="798" y="434" class="s">The ring turns the pot on three rollers round the induction coil; the scraper arm</text>
+<text x="798" y="452" class="s">hangs on a wall pin, so no drive and no shaft reach into the food.</text>
+<rect x="906" y="372" width="388.5" height="10" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1294.5" y="113" width="16" height="259" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="951.5" y="379" width="168" height="14" fill="#c9a9a5" stroke="#3a3f45" stroke-width="1.2"/>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.5625;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="951.5" y="379" width="168" height="14" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<rect x="934" y="358" width="203" height="9.8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="937.5" y1="362.9" x2="1133.5" y2="362.9" stroke="#7a3f05" stroke-width="5" stroke-dasharray="4 8"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.5s" repeatCount="indefinite"/></line>
+<circle cx="937.5" cy="362.9" r="7" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="1133.5" cy="362.9" r="7" fill="#efe6c8" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="951.5" y="246" width="168" height="108.5" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<rect x="955" y="295" width="161" height="56" fill="#e9cf7a" stroke="#3a3f45" stroke-width="0"/>
+<line x1="958.5" y1="323" x2="1112.5" y2="323" stroke="#c9a640" stroke-width="10" stroke-dasharray="14 18"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1s" repeatCount="indefinite"/></line>
+<circle cx="1287.5" cy="162" r="7" fill="#3a3f45" stroke="#3a3f45" stroke-width="0"/>
+<path d="M1287.5 162 L1046 162 L1046 344 L962 344" fill="none" stroke="#b4bac1" stroke-width="6"/>
+<line x1="1046" y1="344" x2="962" y2="344" stroke="#6b4c8a" stroke-width="6"/>
+<text x="1279.5" y="150" class="s r">anchor pin, rear wall</text>
+<text x="1140" y="274" class="s">scraper arm</text>
+<text x="1140" y="291" class="s">(stands still)</text>
+<text x="1143" y="364" class="s">carrier ring + rollers</text>
+<text x="898" y="383" class="s r">coil</text>
+<rect x="786" y="474" width="790" height="370" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="798" y="498" class="m b">Front section: from the hob straight into the oven</text>
+<text x="798" y="814" class="s">The oven's door is replaced by a drop door that slides down into the plinth.</text>
+<text x="798" y="832" class="s">The plate slides along +X onto the flush oven floor: nothing swings over the hob.</text>
+<rect x="816" y="735.5" width="531" height="10" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1092.75" y="548.75" width="252" height="186.75" fill="#e8d8d0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1101.75" y="560" width="234" height="166.5" fill="#f6ece6" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="1218.75" y="573.5" class="s c">oven cavity</text>
+<rect x="818.25" y="731" width="265.5" height="6" fill="#4a4f55" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1087.35" y="548.75" width="6.3" height="186.75" fill="#bfa59a" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="y" values="548.75;548.75;740;740;548.75;548.75" keyTimes="0.0000;0.3750;0.5312;0.8125;0.9375;1.0000" dur="16s" repeatCount="indefinite"/><animate attributeName="height" values="186.75;186.75;53.1;53.1;186.75;186.75" keyTimes="0.0000;0.3750;0.5312;0.8125;0.9375;1.0000" dur="16s" repeatCount="indefinite"/></rect>
+<rect x="816" y="740" width="531" height="54" fill="#e9ecef" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1086.45" y="740" width="8.1" height="54" fill="#d5d9de" stroke="#3a3f45" stroke-width="1"/>
+<text x="1081.5" y="771.5" class="s r">drop door slot in the plinth</text>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.8438;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;180 0;180 0;0 0;0 0" keyTimes="0.0000;0.5625;0.7500;0.8438;0.8500;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="962.25" y="710.75" width="159.3" height="18" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+<ellipse cx="989.25" cy="706.25" rx="15.75" ry="5.4" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1038.75" cy="706.25" rx="15.75" ry="5.4" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1088.25" cy="706.25" rx="15.75" ry="5.4" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<rect x="957.75" y="710.75" width="6.3" height="18" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8438;1.0000" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1142.25" y="710.75" width="159.3" height="18" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5312;0.9062;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;180 0;180 0;0 0;0 0" keyTimes="0.0000;0.5625;0.7500;0.8438;0.9062;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="939.25" y="672.5" width="18" height="34" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<text x="894.75" y="681.5" class="s c">H2 / H4</text>
+<text x="876.75" y="614" class="s c">chuck pushes</text>
+<text x="876.75" y="631" class="s c">the plate</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.3750;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/4</tspan>  Turning rings: T1 and T3 turn their pots; the scraper arms on the rear-wall pins stand still; the downdraft draws steam down</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3750;0.5625;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/4</tspan>  Oven ready: the drop door slides down into the plinth, so the oven floor and the deck form one flat path</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5625;0.8438;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/4</tspan>  Slide: the chuck pushes the thermoplate along +X from the H2/H4 bridge onto the oven floor — heavy goes along the deck</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8438;1.0000" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/4</tspan>  Door up: the oven closes; nothing ever swings over the hob or the wells</text></g>
+</svg>

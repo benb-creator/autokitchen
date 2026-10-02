@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K5b cleaning. Source: K5b-ram-and-die-column.md 2.7 (washer, port, waste), 5.1 (principle), 5.4. Schematic sections. The dishwasher is the machine's bought washer outside the cell (C4 R-10); its position is not given, drawn as a box beyond the port. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K5b  CLEANING — no wash system in the cell</text>
+<text x="24" y="58" class="m">Everything that touches food is loose ware: emptied, cold-rinsed within 2 minutes, sent through the port to a dishwasher.</text>
+<text x="1576" y="28" class="s r b">in the cell: 1 rinse seat + splash nozzles only</text>
+<text x="1576" y="47" class="s r">rinse 0.3 L, 5 s, upward fan nozzle</text>
+<text x="1576" y="66" class="s r">dishwasher hygiene programme ≥ 70 °C, 10 min (A0 ≈ 60)</text>
+<text x="1576" y="85" class="s r">≈ 30 L water per 2-person meal before dishes</text>
+<rect x="30" y="92" width="380" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">1  Pig the tube</text>
+<text x="42" y="778" class="s">The square piston wipes the bore</text>
+<text x="42" y="796" class="s">on its way down: ≤ 5 g stays</text>
+<text x="42" y="814" class="s">behind. The pusher clears</text>
+<text x="42" y="832" class="s">the dicer grid the same way.</text>
+<rect x="170" y="212" width="100" height="300" fill="none" stroke="#8fa8c0" stroke-width="3"/>
+<rect x="110" y="512" width="220" height="12" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="172" y="512" width="96" height="0" fill="#f0dc8a"><animate attributeName="height" values="120;120;0;0;120" keyTimes="0.0000;0.0625;0.3750;0.9938;1.0000" dur="16s" repeatCount="indefinite"/><animate attributeName="y" values="392;392;512;512;392" keyTimes="0.0000;0.0625;0.3750;0.9938;1.0000" dur="16s" repeatCount="indefinite"/></rect>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 116;0 116;0 0;0 0" keyTimes="0.0000;0.0625;0.3750;0.5000;0.6250;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="172" y="358" width="96" height="34" fill="#f4f4ee" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="172" y1="390" x2="268" y2="390" stroke="#6b4c8a" stroke-width="3"/>
+<rect x="200" y="292" width="40" height="66" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0750;0.1125;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.0750;0.1125;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="182" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0952;0.1327;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.0952;0.1327;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="205.333" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1154;0.1529;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.1154;0.1529;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="228.667" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1356;0.1731;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.1356;0.1731;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="252" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1558;0.1933;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.1558;0.1933;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="193.667" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1760;0.2135;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.1760;0.2135;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="217" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1962;0.2337;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.1962;0.2337;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="240.333" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2163;0.2538;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.2163;0.2538;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="182" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2365;0.2740;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.2365;0.2740;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="205.333" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2567;0.2942;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.2567;0.2942;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="228.667" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2769;0.3144;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.2769;0.3144;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="252" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2971;0.3346;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.2971;0.3346;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="193.667" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3173;0.3548;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.3173;0.3548;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="217" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3375;0.3750;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 108;0 108" keyTimes="0.0000;0.3375;0.3750;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="240.333" y="524" width="6" height="6" fill="#f0dc8a" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<rect x="120" y="632" width="200" height="60" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<text x="280" y="382" class="s">wiper lip</text>
+<text x="220" y="717" class="s c">last of the food into the pot</text>
+<rect x="426" y="92" width="380" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="438" y="116" class="m b">2  Cold rinse within 2 min</text>
+<text x="438" y="778" class="s">The handler holds the tube mouth-</text>
+<text x="438" y="796" class="s">down over the seat; one upward fan</text>
+<text x="438" y="814" class="s">nozzle, 0.3 L in 5 s. Soil goes to</text>
+<text x="438" y="832" class="s">the strainer basket, water to drain.</text>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 -160;0 -160;0 0;0 0;0 -160;0 -160" keyTimes="0.0000;0.1250;0.2188;0.5000;0.5938;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="566" y="252" width="100" height="220" fill="#eef2f6" stroke="#8fa8c0" stroke-width="3"/>
+<rect x="604" y="222" width="24" height="30" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<path d="M496 522 L736 522 L676 612 L556 612 Z" fill="#dfe6ec" stroke="#3a3f45" stroke-width="2"/>
+<rect x="546" y="612" width="140" height="50" fill="#c7ccd1" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="561" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="577" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="593" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="609" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="625" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="641" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="657" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<circle cx="673" cy="637" r="3" fill="#fff" stroke="#3a3f45" stroke-width="0"/>
+<text x="696" y="647" class="s">strainer basket</text>
+<text x="696" y="664" class="s">(GN 1/6)</text>
+<line x1="616" y1="662" x2="616" y2="722" stroke="#777" stroke-width="4"/>
+<text x="626" y="717" class="s">drain</text>
+<circle cx="616" cy="527" r="8" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2313;0.5312;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="616" y1="522" x2="576" y2="482" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="24" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="616" y1="522" x2="596" y2="482" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="24" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="616" y1="522" x2="616" y2="482" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="24" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="616" y1="522" x2="636" y2="482" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="24" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="616" y1="522" x2="656" y2="482" stroke="#4aa3df" stroke-width="3" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="24" dur="0.3s" repeatCount="indefinite"/></line>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.2875;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.2500;0.2875;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="586" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2722;0.3097;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.2722;0.3097;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="606" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2943;0.3318;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.2943;0.3318;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="626" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3165;0.3540;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.3165;0.3540;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="646" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3386;0.3761;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.3386;0.3761;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="596" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3608;0.3983;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.3608;0.3983;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="616" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3830;0.4205;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.3830;0.4205;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="636" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4051;0.4426;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.4051;0.4426;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="586" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4273;0.4648;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.4273;0.4648;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="606" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4494;0.4869;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.4494;0.4869;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="626" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4716;0.5091;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.4716;0.5091;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="646" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4938;0.5312;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 140;0 140" keyTimes="0.0000;0.4938;0.5312;1.0000" dur="16s" repeatCount="indefinite"/>
+<circle cx="596" cy="472" r="3" fill="#9ccbe9" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<text x="456" y="502" class="s">upward fan nozzle</text>
+<rect x="822" y="92" width="754" height="360" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="834" y="116" class="m b">3  Through the port to the dishwasher</text>
+<text x="834" y="422" class="s">Rinsed ware waits on bench B; the shutter opens and it leaves for the machine's</text>
+<text x="834" y="440" class="s">bought dishwasher. Clean kits come back the same way.</text>
+<rect x="852" y="322" width="330" height="16" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="862" y="358" class="s">bench B (deck level)</text>
+<rect x="1202" y="172" width="14" height="200" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1202" y="182" width="14" height="140" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"><animate attributeName="y" values="182;182;32;32;182;182" keyTimes="0.0000;0.5625;0.6000;0.8375;0.8750;1.0000" dur="16s" repeatCount="indefinite"/></rect>
+<text x="1209" y="164" class="s c">port shutter</text>
+<rect x="1342" y="182" width="200" height="190" fill="#e9ecef" stroke="#3a3f45" stroke-width="2"/>
+<text x="1442" y="212" class="s c b">DISHWASHER</text>
+<text x="1442" y="230" class="s c">(outside the cell)</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6875;1.0000" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="1362" y1="252" x2="1422" y2="242" stroke="#4aa3df" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="1362" y1="277" x2="1422" y2="267" stroke="#4aa3df" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="1362" y1="302" x2="1422" y2="292" stroke="#4aa3df" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="1362" y1="327" x2="1422" y2="317" stroke="#4aa3df" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="1442" y="357" class="s c b">≥ 70 °C, 10 min</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0063;0.7000;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;330 0;330 0;0 0" keyTimes="0.0000;0.6000;0.6875;0.9938;1.0000" dur="16s" repeatCount="indefinite"/>
+<rect x="882" y="232" width="40" height="90" fill="#eef2f6" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="932" y="302" width="110" height="20" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1052" y="272" width="80" height="50" fill="#dbe5ee" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1002" y="222" class="s c">tube, cassette, pot</text>
+</g>
+<rect x="822" y="470" width="754" height="374" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="834" y="494" class="m b">4  Fixed surfaces: splash zone only</text>
+<text x="834" y="814" class="s">After every cooked meal: fixed nozzles spray deck, walls and column (mains hot water,</text>
+<text x="834" y="832" class="s">venturi detergent); once a day a full wash; the hood fan dries. Nothing hangs over a pot.</text>
+<rect x="862" y="530" width="680" height="230" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="862" y="730" width="680" height="30" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="892" y="650" width="90" height="12" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1052" y="650" width="90" height="12" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="1017" y="645" class="s c">die shelf (ledge)</text>
+<rect x="862" y="530" width="680" height="30" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="1202" y="550" class="s c">rail box (dry, bands sealed)</text>
+<circle cx="932" cy="570" r="7" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="1122" cy="570" r="7" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="1312" cy="570" r="7" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="1482" cy="570" r="7" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;1;0;0" keyTimes="0.0000;0.1250;0.4375;0.6250;0.7500;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="932" y1="574" x2="887" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="932" y1="574" x2="917" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="932" y1="574" x2="947" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="932" y1="574" x2="977" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1122" y1="574" x2="1077" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1122" y1="574" x2="1107" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1122" y1="574" x2="1137" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1122" y1="574" x2="1167" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1312" y1="574" x2="1267" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1312" y1="574" x2="1297" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1312" y1="574" x2="1327" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1312" y1="574" x2="1357" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1482" y1="574" x2="1437" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1482" y1="574" x2="1467" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1482" y1="574" x2="1497" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+<line x1="1482" y1="574" x2="1527" y2="725" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.4s" repeatCount="indefinite"/></line>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7812;1.0000" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<path d="M942 700 q20 -15 40 0 t40 0" fill="none" stroke="#9aa1a8" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;0 -40" dur="1s" repeatCount="indefinite"/></path>
+<path d="M1052 700 q20 -15 40 0 t40 0" fill="none" stroke="#9aa1a8" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;0 -40" dur="1s" repeatCount="indefinite"/></path>
+<path d="M1162 700 q20 -15 40 0 t40 0" fill="none" stroke="#9aa1a8" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;0 -40" dur="1s" repeatCount="indefinite"/></path>
+<path d="M1272 700 q20 -15 40 0 t40 0" fill="none" stroke="#9aa1a8" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;0 -40" dur="1s" repeatCount="indefinite"/></path>
+<path d="M1382 700 q20 -15 40 0 t40 0" fill="none" stroke="#9aa1a8" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;0 -40" dur="1s" repeatCount="indefinite"/></path>
+<text x="1202" y="610" class="m c b h">hood fan dries the cell</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1250;0.7500;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+<text x="1202" y="610" class="m c b h">spray, 2 min dwell, rinse</text>
+</g>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.0625;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  The meal is cooked; every vessel and column part is loose ware</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0625;0.3750;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  Pig: the piston pushes the tube empty into the pot; the wiper lip leaves ≤ 5 g behind</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3750;0.5938;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  Rinse: within 2 minutes the tube is held mouth-down over the seat; 0.3 L cold water in 5 s; soil to the strainer</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5938;0.8125;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  Port: the rinsed ware leaves the cell to the machine's dishwasher; fixed surfaces get sprayed by fixed nozzles</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8125;1.0000" dur="16s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Dry: the hood fan dries the cell; the strainer basket itself leaves through the port after the meal</text></g>
+</svg>

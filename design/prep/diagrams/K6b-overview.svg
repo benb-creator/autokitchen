@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b overview. Source: design/prep/concepts/K6b-loose-ware-fast-washer.md 2.1-2.6, 3.2, 3.5, 5.1, 5.2. Front view (X/Z) and top view (X/Y, rear wall at the top) both 0.31 px/mm, inner X from the left wall. Meal: Frikadellen with onions, times compressed to a 40 s loop. The single roll axis is along +X, so tipping and pair inversion happen in the Y/Z plane; in the front view they are drawn as their projection (the item's height shrinks and reverses). Items appear at the chuck when a step starts; lids, tool racks and the camera are not animated. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  LOOSE WARE + FAST WASHER, improved</text>
+<text x="24" y="58" class="m">One hanging-mast gantry with one roll axis; GN trays and pots; a press, two turning rings, a spindle; one quiet well for ware and dishes.</text>
+<text x="1576" y="28" class="s r b">1855 × 600 × 2200 mm (hatch 280, bench + well 345, hob 600, oven + store 580)</text>
+<text x="1576" y="47" class="s r">10 motion actuators (9 normalised) · 5 dynamic seals</text>
+<text x="1576" y="66" class="s r">coverage ≈ 93.5 % (232 meals) · mean 72 handling events</text>
+<text x="1576" y="85" class="s r">≈ 13.5 k€ ± 30 % · ≈ 50 L, 3.5 kWh per 2-person meal incl. dishes</text>
+<text x="60" y="92" class="s b">FRONT VIEW (front door removed)</text>
+<line x1="67.75" y1="118" x2="154.55" y2="118" stroke="#555" stroke-width="1.2"/>
+<line x1="67.75" y1="113" x2="67.75" y2="123" stroke="#555" stroke-width="1.2"/>
+<line x1="154.55" y1="113" x2="154.55" y2="123" stroke="#555" stroke-width="1.2"/>
+<text x="111.15" y="113" class="s c">A hatch</text>
+<line x1="154.55" y1="118" x2="261.5" y2="118" stroke="#555" stroke-width="1.2"/>
+<line x1="154.55" y1="113" x2="154.55" y2="123" stroke="#555" stroke-width="1.2"/>
+<line x1="261.5" y1="113" x2="261.5" y2="123" stroke="#555" stroke-width="1.2"/>
+<text x="208.025" y="113" class="s c">B bench</text>
+<line x1="261.5" y1="118" x2="447.5" y2="118" stroke="#555" stroke-width="1.2"/>
+<line x1="261.5" y1="113" x2="261.5" y2="123" stroke="#555" stroke-width="1.2"/>
+<line x1="447.5" y1="113" x2="447.5" y2="123" stroke="#555" stroke-width="1.2"/>
+<text x="354.5" y="113" class="s c">C hob 600</text>
+<line x1="447.5" y1="118" x2="627.3" y2="118" stroke="#555" stroke-width="1.2"/>
+<line x1="447.5" y1="113" x2="447.5" y2="123" stroke="#555" stroke-width="1.2"/>
+<line x1="627.3" y1="113" x2="627.3" y2="123" stroke="#555" stroke-width="1.2"/>
+<text x="537.4" y="113" class="s c">D oven, store</text>
+<rect x="60" y="128" width="575.05" height="682" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="60" y="128" width="575.05" height="31" fill="#eef0f2" stroke="#3a3f45" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="346.75" y="148.15" class="s c">transport gallery (not K6b), box hatch above zone A</text>
+<rect x="67.75" y="159" width="559.55" height="46.5" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="346.75" y="180.7" class="s c">dry box: X rails + belt, purge fan, 3 cameras; labyrinth slot below</text>
+<rect x="67.75" y="543.4" width="559.55" height="235.6" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="67.75" y="537.2" width="559.55" height="6.2" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="154.55" y1="205.5" x2="154.55" y2="779" stroke="#9aa1a8" stroke-width="1.2" stroke-dasharray="6 5"/>
+<line x1="261.5" y1="205.5" x2="261.5" y2="779" stroke="#9aa1a8" stroke-width="1.2" stroke-dasharray="6 5"/>
+<line x1="447.5" y1="205.5" x2="447.5" y2="779" stroke="#9aa1a8" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="70.85" y="221" width="80.6" height="105.4" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="80.15" y="233.4" width="4.34" height="74.4" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="94.1" y="233.4" width="4.34" height="74.4" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="108.05" y="233.4" width="4.34" height="74.4" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="122" y="233.4" width="4.34" height="74.4" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="135.95" y="233.4" width="4.34" height="74.4" fill="#ffffff" stroke="#3a3f45" stroke-width="1"/>
+<text x="111.15" y="314" class="s c h">dish cabinet</text>
+<rect x="70.85" y="388.4" width="80.6" height="4.34" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="111.15" y="407" class="s c h">box shelf</text>
+<rect x="70.85" y="512.4" width="80.6" height="24.8" fill="#f3ece0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="111.15" y="500" class="s c h">hatch</text>
+<text x="111.15" y="516" class="s c h">drawer</text>
+<rect x="73.95" y="624" width="74.4" height="93" fill="#d9e3cf" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="111.15" y="673.6" class="s c">bio bin</text>
+<rect x="80.15" y="555.8" width="62" height="43.4" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="111.15" y="585.6" class="s c">press drive</text>
+<rect x="160.75" y="543.4" width="93" height="130.2" fill="#d6e8f5" stroke="#3a3f45" stroke-width="2"/>
+<text x="207.25" y="593" class="s c b h">WASH</text>
+<text x="207.25" y="610" class="s c b h">WELL</text>
+<line x1="165.4" y1="546.5" x2="165.4" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="179.35" y1="546.5" x2="179.35" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="193.3" y1="546.5" x2="193.3" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="207.25" y1="546.5" x2="207.25" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="221.2" y1="546.5" x2="221.2" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="235.15" y1="546.5" x2="235.15" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="249.1" y1="546.5" x2="249.1" y2="562" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="160.75" y="679.8" width="93" height="77.5" fill="#e3e6ea" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="207.25" y="717" class="s c">tank 8 L, pump</text>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.8375;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="156.1" y="529.45" width="103.85" height="7.75" fill="#c9cfd6" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8375;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="156.1" y="425.6" width="7.75" height="103.85" fill="#c9cfd6" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<rect x="263.05" y="534.1" width="182.9" height="3.1" fill="#4a4f55" stroke="#3a3f45" stroke-width="1"/>
+<rect x="266.77" y="540.3" width="74.4" height="9.3" fill="#c9a9a5" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="303.97" y="574.4" class="s c">T1/T3</text>
+<rect x="367.83" y="540.3" width="74.4" height="9.3" fill="#c9a9a5" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="405.03" y="574.4" class="s c">H2/H4</text>
+<rect x="346.75" y="535.65" width="15.5" height="3.1" fill="#555" stroke="#3a3f45" stroke-width="1"/>
+<text x="354.5" y="624" class="s c">downdraft</text>
+<text x="354.5" y="640" class="s c">fan + filter</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="266.77" y="540.3" width="74.4" height="9.3" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.5250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="367.83" y="540.3" width="74.4" height="9.3" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<rect x="452.15" y="211.7" width="173.6" height="196.85" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="455.25" y1="376" x2="622.65" y2="376" stroke="#9aa1a8" stroke-width="2"/>
+<line x1="455.25" y1="341.9" x2="622.65" y2="341.9" stroke="#9aa1a8" stroke-width="2"/>
+<line x1="455.25" y1="307.8" x2="622.65" y2="307.8" stroke="#9aa1a8" stroke-width="2"/>
+<line x1="455.25" y1="273.7" x2="622.65" y2="273.7" stroke="#9aa1a8" stroke-width="2"/>
+<line x1="455.25" y1="239.6" x2="622.65" y2="239.6" stroke="#9aa1a8" stroke-width="2"/>
+<text x="538.95" y="227.2" class="s c b h">TOWER STORE</text>
+<text x="538.95" y="243.2" class="s c h">5 rail levels</text>
+<rect x="452.15" y="408.55" width="173.6" height="128.65" fill="#e8d8d0" stroke="#3a3f45" stroke-width="2"/>
+<text x="538.95" y="453.5" class="s c b">OVEN</text>
+<text x="538.95" y="469.5" class="s c">floor flush</text>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;1;0" keyTimes="0.0000;0.5375;0.6250;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="448.43" y="408.55" width="4.34" height="128.65" fill="#bfa59a" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<rect x="452.15" y="543.4" width="173.6" height="235.6" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="538.95" y="648.8" class="s c">30 L store 88 °C,</text>
+<text x="538.95" y="664.8" class="s c">drain pump</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5375;0.6250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="448.43" y="543.4" width="4.34" height="128.65" fill="#bfa59a" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="442.85" y1="469" x2="442.85" y2="531" stroke="#f28c28" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1000;0.3000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="194.23" y1="500" x2="194.23" y2="529.45" stroke="#8fa8c0" stroke-width="2"/>
+<line x1="223.37" y1="500" x2="223.37" y2="529.45" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="191.75" y="438" width="34.1" height="62" fill="#eef2f6" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="193.3" y="500" width="31" height="0" fill="#efe3b0"><animate attributeName="height" values="0;0;37.2;37.2;0;0" keyTimes="0.0000;0.1375;0.1750;0.2250;0.2750;1.0000" dur="40s" repeatCount="indefinite"/><animate attributeName="y" values="500;500;462.8;462.8;500;500" keyTimes="0.0000;0.1375;0.1750;0.2250;0.2750;1.0000" dur="40s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.3150;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="171.6" y="500" width="74.4" height="29.45" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2325;0.3150;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="173.15" y="515.5" width="71.3" height="12.4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0"/>
+</g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2300;0.2400;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2300;0.2400;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="196.8" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2350;0.2450;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2350;0.2450;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="203.467" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2400;0.2500;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2400;0.2500;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="210.133" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2450;0.2550;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2450;0.2550;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="216.8" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.2600;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2500;0.2600;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="200.133" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2550;0.2650;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2550;0.2650;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="206.8" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2600;0.2700;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2600;0.2700;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="213.467" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2650;0.2750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 15.5;0 15.5" keyTimes="0.0000;0.2650;0.2750;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="196.8" y="500" width="4" height="4" fill="#efe3b0" stroke="#3a3f45" stroke-width="0.8"/>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -68.2;0 -68.2;0 -3.1;0 0;0 0" keyTimes="0.0000;0.2000;0.2150;0.2250;0.2750;0.2900;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="156.1" y="453.5" width="6.2" height="83.7" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;1;0" keyTimes="0.0000;0.2150;0.2900;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="145.25" y="450.4" width="27.9" height="5.58" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2150;0.2900;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="156.1" y="450.4" width="65.1" height="5.58" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="204.15" y="455.98" width="9.3" height="43.4" fill="#f28c28" stroke="#3a3f45" stroke-width="1"/>
+<rect x="194.85" y="496.28" width="27.9" height="3.72" fill="#f4f4ee" stroke="#3a3f45" stroke-width="1"/>
+</g>
+</g>
+<text x="154.65" y="441.1" class="s r h">press</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.6250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;95.17 0;95.17 0" keyTimes="0.0000;0.3000;0.3200;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="171.6" y="500" width="74.4" height="29.45" fill="#dbe5ee" stroke="#3a3f45" stroke-width="2"/>
+<rect x="173.15" y="515.5" width="71.3" height="12.4" fill="#d8b770" stroke="#3a3f45" stroke-width="0"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3250;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<path d="M263.67 546.3 A40.3 8 0 0 0 344.27 546.3" fill="none" stroke="#f28c28" stroke-width="3" marker-end="url(#ah)"/>
+</g>
+<g opacity="1" ><animate attributeName="opacity" values="1;0;1;0;0" keyTimes="0.0000;0.4500;0.4850;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="349.85" y="520.15" width="109.74" height="12.4" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.4500;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="365.35" cy="524.8" rx="9.92" ry="3.72" fill="#c98a74" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4850;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="365.35" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4075;0.4500;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="391.7" cy="524.8" rx="9.92" ry="3.72" fill="#c98a74" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4850;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="391.7" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4150;0.4500;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="418.05" cy="524.8" rx="9.92" ry="3.72" fill="#c98a74" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4850;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="418.05" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4225;0.4500;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="444.4" cy="524.8" rx="9.92" ry="3.72" fill="#c98a74" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4850;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="444.4" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g  opacity="0.45"><animateTransform attributeName="transform" type="translate" values="0 0;-151.9 0;-151.9 0;-68.2 0;-68.2 0;0 0;0 0;-52.7 0;40.3 0;18.6 0;111.6 0;138.88 0;138.88 0;111.6 0;167.4 0;189.1 0;111.6 0;138.88 0;-148.8 0;-148.8 0;-80.6 0;-80.6 0;0 0;-58.9 0;-58.9 0;-58.9 0;-58.9 0;192.2 0;0 0" keyTimes="0.0000;0.0750;0.1000;0.1250;0.1875;0.2000;0.3000;0.3050;0.3200;0.3350;0.4000;0.4500;0.4850;0.5250;0.5500;0.5750;0.6000;0.6250;0.6750;0.7125;0.7375;0.7750;0.8000;0.8250;0.8500;0.8750;0.9250;0.9625;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="256.85" y="205.5" width="18.6" height="275.9" fill="#b4bac1" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 -0;-151.9 18.6;-151.9 18.6;-68.2 62;-68.2 62;0 -31;0 -31;-52.7 136.4;40.3 136.4;18.6 -0;111.6 -0;138.88 130.2;138.88 130.2;111.6 130.2;167.4 155;189.1 155;111.6 31;138.88 124;-148.8 124;-148.8 124;-80.6 124;-80.6 124;0 -0;-58.9 77.5;-58.9 77.5;-58.9 139.5;-58.9 139.5;192.2 -0;0 -0" keyTimes="0.0000;0.0750;0.1000;0.1250;0.1875;0.2000;0.3000;0.3050;0.3200;0.3350;0.4000;0.4500;0.4850;0.5250;0.5500;0.5750;0.6000;0.6250;0.6750;0.7125;0.7375;0.7750;0.8000;0.8250;0.8500;0.8750;0.9250;0.9625;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="253.75" y="273.7" width="24.8" height="24.8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="266.15" y1="298.5" x2="266.15" y2="338.8" stroke="#f28c28" stroke-width="3"/>
+<rect x="263.05" y="335.7" width="18.6" height="11.16" fill="#c25e0c" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0750;0.2000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<g transform="translate(266.15 345)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.3;1 0.3;1 1;1 1" keyTimes="0.0000;0.1250;0.1400;0.1800;0.1925;1.0000" dur="40s" repeatCount="indefinite"/>
+<g transform="translate(-266.15 -345)">
+<rect x="281.65" y="338.8" width="54.56" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="283.51" y="354.3" width="50.84" height="13.95" fill="#efe3b0" stroke="#3a3f45" stroke-width="0"/>
+</g></g></g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.3200;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="281.65" y="341.9" width="18.6" height="6.2" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.4850;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<g transform="translate(266.15 345)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 -1;1 -1;1 -1" keyTimes="0.0000;0.4650;0.4800;0.4850;1.0000" dur="40s" repeatCount="indefinite"/>
+<g transform="translate(-266.15 -345)">
+<rect x="281.65" y="348.1" width="109.74" height="9.3" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="281.65" y="337.25" width="109.74" height="9.3" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+</g></g></g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5250;0.5750;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="281.65" y="341.9" width="18.6" height="6.2" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6250;0.7375;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="281.65" y="348.1" width="74.4" height="4.34" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/>
+<ellipse cx="306.45" cy="345" rx="15.5" ry="5.58" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.8250;0.9250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="281.65" y="338.8" width="74.4" height="29.45" fill="#dbe5ee" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5400;0.6250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;124 0;124 0" keyTimes="0.0000;0.5400;0.5750;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="349.85" y="520.15" width="109.74" height="12.4" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5"/>
+<ellipse cx="365.35" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="391.7" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="418.05" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="444.4" cy="524.8" rx="9.92" ry="3.72" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6750;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="77.05" y="484.5" width="31" height="3.1" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<ellipse cx="92.55" cy="480.78" rx="9.3" ry="3.1" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7000;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="114.25" y="484.5" width="31" height="3.1" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/>
+<ellipse cx="129.75" cy="480.78" rx="9.3" ry="3.1" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7375;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<text x="111.15" y="444.2" class="s c b h">diner pulls</text>
+<text x="111.15" y="460.2" class="s c b h">the drawer</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;1;0;0" keyTimes="0.0000;0.7375;0.7750;0.9250;0.9625;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="176.25" y1="444.2" x2="185.55" y2="465.9" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/>
+<line x1="194.85" y1="444.2" x2="185.55" y2="465.9" stroke="#4aa3df" stroke-width="3" stroke-dasharray="4 3"/>
+<text x="185.55" y="434.9" class="s c b h">jet gate</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8750;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="166.95" y="546.5" width="80.6" height="37.2" fill="#dbe5ee" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.9250;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="162.3" y1="624" x2="250.65" y2="611.6" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="162.3" y1="611.6" x2="250.65" y2="599.2" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="162.3" y1="599.2" x2="250.65" y2="586.8" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="162.3" y1="586.8" x2="250.65" y2="574.4" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="162.3" y1="574.4" x2="250.65" y2="562" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="162.3" y1="562" x2="250.65" y2="549.6" stroke="#4aa3df" stroke-width="2" stroke-dasharray="6 4"/>
+</g>
+<text x="641.05" y="133" class="s">2200</text>
+<text x="641.05" y="542.2" class="s">880</text>
+<text x="641.05" y="815" class="s">0</text>
+<text x="641.05" y="796" class="s">Z mm</text>
+<text x="700" y="132" class="s b">TOP VIEW at deck level (rear wall at top)</text>
+<rect x="700" y="142.25" width="575.05" height="186" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="726.35" y="150" width="381.3" height="21.7" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="707.75" y="160.85" width="86.8" height="161.2" fill="#f3ece0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="751.15" y="235.25" class="s c">hatch</text>
+<text x="751.15" y="251.25" class="s c">drawer</text>
+<rect x="794.55" y="150" width="46.5" height="52.7" fill="#dfe6ec" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="817.8" y="176.35" class="s c">hopper</text>
+<circle cx="871.12" cy="176.35" r="26.35" fill="#e3e6ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="871.12" y="181.35" class="s c">spindle</text>
+<rect x="794.55" y="207.35" width="106.95" height="114.7" fill="#c9cfd6" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="847.87" y="263.15" class="s c">bench = well lid</text>
+<circle cx="799.2" cy="312.75" r="7.75" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<circle cx="943.97" cy="179.45" r="37.2" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="943.97" y="184.45" class="s c">T3</text>
+<circle cx="943.97" cy="264.7" r="37.2" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="943.97" y="269.7" class="s c">T1</text>
+<circle cx="1045.03" cy="179.45" r="37.2" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1045.03" y="184.45" class="s c">H4</text>
+<circle cx="1045.03" cy="264.7" r="37.2" fill="#e6e8ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1045.03" y="269.7" class="s c">H2</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="943.97" cy="264.7" r="37.2" fill="#f3c3bd" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3250;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="rotate" from="0 943.97 264.7" to="360 943.97 264.7" dur="1s" repeatCount="indefinite"/>
+<line x1="943.97" y1="264.7" x2="943.97" y2="232.15" stroke="#f28c28" stroke-width="4"/>
+</g></g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.5250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="1002.25" y="207.35" width="85.25" height="114.7" fill="#f3c3bd" stroke="#3a3f45" stroke-width="1.2" fill-opacity="0.8"/>
+</g>
+<rect x="986.75" y="150" width="15.5" height="172.05" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1087.5" y="150" width="179.8" height="172.05" fill="#e8d8d0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1177.4" y="235.25" class="s c">oven (store above)</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6750;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="707.75" y="322.05" width="86.8" height="93" fill="#fde3c8" stroke="#3a3f45" stroke-width="1.5" stroke-dasharray="4 3"/>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;-151.9 0;-151.9 0;-68.2 0;-68.2 0;0 0;0 0;-52.7 0;40.3 0;18.6 0;111.6 0;138.88 0;138.88 0;111.6 0;167.4 0;189.1 0;111.6 0;138.88 0;-148.8 0;-148.8 0;-80.6 0;-80.6 0;0 0;-58.9 0;-58.9 0;-58.9 0;-58.9 0;192.2 0;0 0" keyTimes="0.0000;0.0750;0.1000;0.1250;0.1875;0.2000;0.3000;0.3050;0.3200;0.3350;0.4000;0.4500;0.4850;0.5250;0.5500;0.5750;0.6000;0.6250;0.6750;0.7125;0.7375;0.7750;0.8000;0.8250;0.8500;0.8750;0.9250;0.9625;1.0000" dur="40s" repeatCount="indefinite"/>
+<rect x="896.85" y="150" width="18.6" height="21.7" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="906.15" y1="160.85" x2="906.15" y2="190.85" stroke="#f28c28" stroke-width="6"><animate attributeName="y2" values="229.05;229.05;229.05;241.45;241.45;229.05;229.05;229.05;229.05;229.05;241.45;260.05;260.05;260.05;260.05;260.05;260.05;260.05;275.55;275.55;176.35;176.35;229.05;260.05;260.05;260.05;260.05;229.05;229.05" keyTimes="0.0000;0.0750;0.1000;0.1250;0.1875;0.2000;0.3000;0.3050;0.3200;0.3350;0.4000;0.4500;0.4850;0.5250;0.5500;0.5750;0.6000;0.6250;0.6750;0.7125;0.7375;0.7750;0.8000;0.8250;0.8500;0.8750;0.9250;0.9625;1.0000" dur="40s" repeatCount="indefinite"/></line>
+</g>
+<text x="1281.05" y="160.85" class="s">mast</text>
+<text x="1281.05" y="322.05" class="s">front</text>
+<rect x="700" y="360" width="155" height="7" fill="#3a3f45" stroke="#3a3f45" stroke-width="1"/>
+<rect x="855" y="360" width="155" height="7" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<text x="700" y="384" class="s c">0</text>
+<text x="855" y="384" class="s c">500</text>
+<text x="1010" y="384" class="s c">1000 mm</text>
+<text x="1340" y="142" class="s b">COLOURS</text>
+<rect x="1340" y="150" width="18" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1"/>
+<text x="1366" y="162" class="s">moving mechanism</text>
+<rect x="1340" y="174" width="18" height="14" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<text x="1366" y="186" class="s">food-contact ware</text>
+<rect x="1340" y="198" width="18" height="14" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1"/>
+<text x="1366" y="210" class="s">structure</text>
+<rect x="1340" y="222" width="18" height="14" fill="#e04a3a" stroke="#3a3f45" stroke-width="1"/>
+<text x="1366" y="234" class="s">heat on</text>
+<rect x="1340" y="246" width="18" height="14" fill="#4aa3df" stroke="#3a3f45" stroke-width="1"/>
+<text x="1366" y="258" class="s">water</text>
+<text x="700" y="420" class="s b">THE MEAL, STEP BY STEP</text>
+<rect x="694" y="434" width="870" height="30" rx="4" fill="#fde3c8" opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.1000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="458" class="s">1  Opened box is lowered onto the box shelf in zone A</text>
+<rect x="694" y="468" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1000;0.2000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="492" class="s">2  Chuck tips it sideways into the press tube; load pins weigh</text>
+<rect x="694" y="502" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2000;0.3000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="526" class="s">3  Press swings over the tube on its legs and dices into the pot</text>
+<rect x="694" y="536" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="560" class="s">4  Pot slid along the flush deck onto T1; ring turns, scraper stands</text>
+<rect x="694" y="570" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.5250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="594" class="s">5  Frikadellen on the thermoplate; turned by the hooked pair</text>
+<rect x="694" y="604" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5250;0.6250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="628" class="s">6  Drop door slides into the plinth; tray slides into the oven</text>
+<rect x="694" y="638" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6250;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="662" class="s">7  Plated in the hatch drawer; chuck rinsed in the jet gate</text>
+<rect x="694" y="672" width="870" height="30" rx="4" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8000;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="700" y="696" class="s">8  After hand-over: lid up, ware hung in the well, washed ≥ 82 °C</text>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.1000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/8</tspan>  Box in: the transport lowers an opened box through the ceiling hatch onto the passive shelf in zone A</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1000;0.2000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/8</tspan>  Dose: the chuck takes the box by its lug and rolls it sideways over the press tube; the load pins stop at the weight</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2000;0.3000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/8</tspan>  Dice: the press column rises, its helical cam swings the arm over the tube; 3 kN pull-down; dice fall into the pot below</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3000;0.4000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/8</tspan>  Cook: the full pot is slid on the flush deck onto T1; the ring turns it, a scraper hooked to the rear wall stirs</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4000;0.5250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/8</tspan>  Fry and turn: Frikadellen on a thermoplate over H2/H4; a second plate is hooked on and the pair rolls over</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5250;0.6250;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">6/8</tspan>  Oven: its drop door slides down into the plinth; the tray slides from the bridge straight in, nothing swings</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6250;0.8000;1" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">7/8</tspan>  Serve: plates are filled in the heated hatch drawer; the diner pulls it out; after soiled grips the chuck passes the jet gate</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8000;1.0000" dur="40s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">8/8</tspan>  Wash: the bench lid stands up as a splash screen, ware hangs tang-up in the comb; wash 60 °C, rinse 88 °C, then to the store</text></g>
+</svg>

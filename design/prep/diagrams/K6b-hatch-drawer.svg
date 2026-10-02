@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K6b hatch drawer and dish return. Source: K6b-loose-ware-fast-washer.md 1 (#6), 2.2, 2.4 (hatch drawer, dish cabinet, box shelf, hopper), 2.6 (serving, dish return), 5.1, 5.4. Side section Y/Z through zone A at 0.5 px/mm, front door on the left. Plating by the chuck is reduced to plates appearing filled; the scrape/pre-rinse of the carrier is drawn over the hopper in zone B as a separate inset. -->
+<defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f28c28"/></marker><marker id="ak" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a3f45"/></marker><marker id="aw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4aa3df"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K6b  HATCH DRAWER — serving and dish return through one drawer</text>
+<text x="24" y="58" class="m">Plates are filled in a heated drawer; the diner pulls it out through a flap in the door; dirty dishes come back the same way.</text>
+<text x="1576" y="28" class="s r b">drawer 280 × 520 at deck level, heated base 60 °C, 2 plates Ø ≤ 270</text>
+<text x="1576" y="47" class="s r">4 persons: two drawer cycles within 3 min (SRV-009)</text>
+<text x="1576" y="66" class="s r">gantry locked out while the drawer is open (solenoid interlock)</text>
+<text x="1576" y="85" class="s r">dishes washed in the same well as the ware — no second washer</text>
+<rect x="30" y="92" width="900" height="752" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="42" y="116" class="m b">Side section through zone A (front door left)</text>
+<text x="42" y="814" class="s">The drawer pulls out to the front only when the gantry is locked out. Clean plates come</text>
+<text x="42" y="832" class="s">from the dish cabinet above; dirty plates go back into a carrier standing in the drawer.</text>
+<rect x="360" y="142" width="277.5" height="625" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="350" y="142" width="10" height="625" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="345" y="217" class="s r">front door</text>
+<rect x="360" y="677" width="277.5" height="10" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="360" y="687" width="277.5" height="80" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="500" y="732" class="s c">plinth: press drive, bio bin</text>
+<rect x="370" y="167" width="250" height="170" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="390" y="187" width="7" height="130" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="435" y="187" width="7" height="130" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="480" y="187" width="7" height="130" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="525" y="187" width="7" height="130" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<rect x="570" y="187" width="7" height="130" fill="#fff" stroke="#3a3f45" stroke-width="1"/>
+<text x="495" y="311" class="s c h">dish cabinet (clean dishes)</text>
+<rect x="370" y="437" width="150" height="5" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="445" y="427" class="s c">box shelf</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 355 677;0 355 677;-80 355 677;-80 355 677;0 355 677;0 355 677;-80 355 677;-80 355 677;0 355 677;0 355 677" keyTimes="0.0000;0.3333;0.3583;0.5583;0.5833;0.6042;0.6250;0.7250;0.7500;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="350" y="617" width="10" height="60" fill="#c9d6e3" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-210 0;-210 0;0 0;0 0;-210 0;-210 0;0 0;0 0" keyTimes="0.0000;0.3750;0.4167;0.5208;0.5583;0.6250;0.6500;0.7000;0.7250;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="360" y="637" width="260" height="40" fill="#f3ece0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="365" y="667" width="250" height="6" fill="#e04a3a" stroke="#3a3f45" stroke-width="1" fill-opacity="0.6"/>
+<rect x="345" y="642" width="15" height="20" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.0833;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="375" y="629.5" width="110" height="6" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2083;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="410" cy="624.5" rx="25" ry="7" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="450" cy="623" rx="20" ry="9" fill="#f0dc8a" stroke="#3a3f45" stroke-width="1"/>
+</g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1250;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="500" y="629.5" width="110" height="6" fill="#fff" stroke="#3a3f45" stroke-width="1.5"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="535" cy="624.5" rx="25" ry="7" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="575" cy="623" rx="20" ry="9" fill="#f0dc8a" stroke="#3a3f45" stroke-width="1"/>
+</g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6667;0.7917;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="390" y="527" width="150" height="100" fill="none" stroke="#777" stroke-width="2"/>
+<rect x="405" y="532" width="6" height="90" fill="#fff" stroke="#3a3f45" stroke-width="1.2" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.6750;0.6792;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="435" y="532" width="6" height="90" fill="#fff" stroke="#3a3f45" stroke-width="1.2" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.6833;0.6875;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="465" y="532" width="6" height="90" fill="#fff" stroke="#3a3f45" stroke-width="1.2" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.6917;0.6958;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="495" y="532" width="6" height="90" fill="#fff" stroke="#3a3f45" stroke-width="1.2" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.7000;0.7042;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="560" y="587" width="40" height="40" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+</g>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;1;0;0" keyTimes="0.0000;0.3542;0.5583;0.6250;0.7250;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="60" y="152" width="260" height="50" fill="#fdeaea" stroke="#e04a3a" stroke-width="1.5"/>
+<text x="190" y="184" class="m c b">gantry locked out</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2708;0.3542;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<rect x="60" y="152" width="260" height="50" fill="#e6f4e6" stroke="#5cb85c" stroke-width="1.5"/>
+<text x="190" y="184" class="m c b">green lamp: food ready</text>
+</g>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;1;0;0" keyTimes="0.0000;0.3750;0.5208;0.6250;0.7083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="-20 0;-20 0;0 0;-210 0;-210 0;-230 0;-230 0" keyTimes="0.0000;0.3750;0.3958;0.4167;0.5000;0.5208;1.0000" dur="24s" repeatCount="indefinite"/>
+<path d="M342.5 627 q-30 -10 -60 0 l0 22 q30 8 60 0 Z" fill="#f1c9a5" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<text x="235" y="707" class="s c">diner pulls</text>
+<text x="235" y="724" class="s c">the drawer</text>
+<g  ><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 280;0 0;0 280;0 0;0 280;0 0;0 0;0 280;300 -100;0 0" keyTimes="0.0000;0.0417;0.0833;0.1250;0.1667;0.2083;0.2500;0.2917;0.7500;0.7917;0.8333;1.0000" dur="24s" repeatCount="indefinite"/>
+<rect x="525" y="337" width="30" height="22" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+</g>
+<text x="646" y="347" class="s">chuck</text>
+<text x="646" y="617" class="s">deck Z 880</text>
+<rect x="946" y="92" width="630" height="360" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="958" y="116" class="m b">Top view of the drawer</text>
+<text x="958" y="422" class="s">Two plate places on a heated base; the drawer also serves as</text>
+<text x="958" y="440" class="s">the place where the chuck works on tangs in zone A.</text>
+<rect x="1006" y="152" width="534" height="186" fill="#f3ece0" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="1106" cy="247" r="80" fill="#fff" stroke="#3a3f45" stroke-width="2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2083;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="1086" cy="247" rx="30" ry="22" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1131" cy="247" rx="26" ry="30" fill="#f0dc8a" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<circle cx="1326" cy="247" r="80" fill="#fff" stroke="#3a3f45" stroke-width="2"/>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2500;0.5083;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<ellipse cx="1306" cy="247" rx="30" ry="22" fill="#9b6b3f" stroke="#3a3f45" stroke-width="1"/>
+<ellipse cx="1351" cy="247" rx="26" ry="30" fill="#f0dc8a" stroke="#3a3f45" stroke-width="1"/>
+</g>
+<text x="1271" y="367" class="s c">heated base 60 °C · pulls out towards the diner ↓</text>
+<rect x="946" y="468" width="630" height="376" fill="#fbfbfc" stroke="#b8bec5" stroke-width="1.2" rx="8"/>
+<text x="958" y="492" class="m b">Dish return</text>
+<rect x="960" y="518" width="600" height="44" rx="6" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.6042;0.7250;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="972" y="546" class="s">1  diner slots plates into the carrier in the drawer, cutlery into the basket</text>
+<rect x="960" y="574" width="600" height="44" rx="6" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7250;0.7917;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="972" y="602" class="s">2  chuck takes the carrier by its tang; scraps tipped into the hopper</text>
+<rect x="960" y="630" width="600" height="44" rx="6" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7917;0.8750;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="972" y="658" class="s">3  pre-rinse over the hopper (fan nozzles), scraps to the bio bin</text>
+<rect x="960" y="686" width="600" height="44" rx="6" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.8750;0.9583;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="972" y="714" class="s">4  carrier hangs in the well comb: washed with the ware, ≥ 82 °C rinse</text>
+<rect x="960" y="742" width="600" height="44" rx="6" fill="#fde3c8" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.9583;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="972" y="770" class="s">5  dried, checked, back to the dish cabinet</text>
+<g opacity="0" ><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.7917;0.8750;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/>
+<line x1="1506" y1="788" x2="1446" y2="818" stroke="#4aa3df" stroke-width="3" stroke-dasharray="5 4"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="1506" y1="788" x2="1476" y2="818" stroke="#4aa3df" stroke-width="3" stroke-dasharray="5 4"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="0.3s" repeatCount="indefinite"/></line>
+<line x1="1506" y1="788" x2="1506" y2="818" stroke="#4aa3df" stroke-width="3" stroke-dasharray="5 4"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="0.3s" repeatCount="indefinite"/></line>
+</g>
+<rect x="30" y="852" width="1540" height="36" fill="#f1f3f5" stroke="#c4cad1" stroke-width="1" rx="6"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.1667;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">1/5</tspan>  Plates: the chuck fetches two clean plates from the dish cabinet and sets them on the heated drawer base</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.1667;0.3542;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">2/5</tspan>  Plating: food is placed on the plates; the green lamp lights when they are ready</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.3542;0.5833;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">3/5</tspan>  Serve: the gantry is locked out, the flap opens, the diner pulls the drawer out and takes the plates</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.5833;0.7500;1" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">4/5</tspan>  Return: after the meal the diner slots the dirty plates into the carrier in the drawer and pushes it in</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7500;1.0000" dur="24s" calcMode="discrete" repeatCount="indefinite"/><text x="44" y="876" class="m"><tspan class="b">5/5</tspan>  Wash: the carrier is scraped and pre-rinsed over the hopper, washed in the well with the ware, and stored</text></g>
+</svg>
