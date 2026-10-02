@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- Source: design/prep/gaps/G-assembly-meat.md section 6.1, 6.3, 6.9, 6.13 (GA-30, GA-31, GA-33, GA-35). Four close-ups, each loops on its own; not to scale. Lining (6.2) is a reusable PTFE sheet and not drawn. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.xl{font-size:24px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.cap{font-size:20px}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="36" class="xl b">Priority operations I: grease, glaze, dust, score</text>
+<text x="24" y="62" class="m">Four small operations nobody had addressed, each with one passive tool and the existing turntable, spindle or manipulator.</text>
+<text x="1576" y="30" class="s r b">G-assembly-meat · section 6 (6.1, 6.3, 6.9, 6.13)</text>
+<text x="1576" y="49" class="s r">grease 22 meals · glaze 7 · score 7</text>
+<text x="1576" y="68" class="s r">no consumables, no sprays in the cell</text>
+<text x="1576" y="87" class="s r">mostly conf. H</text>
+<rect x="30" y="95" width="760" height="360" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/><rect x="30" y="95" width="760" height="360" rx="10" fill="none" stroke="#f28c28" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.00006;0.25;0.25625;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></rect><text x="46" y="123" class="l b">GA-30  Grease a tin: swirl-coat</text><text x="46" y="143" class="s">reaches fluted tins (Gugelhupf) where a brush fails · 22 meals</text>
+<rect x="810" y="95" width="760" height="360" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/><rect x="810" y="95" width="760" height="360" rx="10" fill="none" stroke="#f28c28" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24375;0.25;0.5;0.50625;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></rect><text x="826" y="123" class="l b">GA-31  Glaze, egg wash: driven soft roller</text><text x="826" y="143" class="s">surface speed = travel speed: no drag on proofed dough</text>
+<rect x="30" y="468" width="760" height="356" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/><rect x="30" y="468" width="760" height="356" rx="10" fill="none" stroke="#f28c28" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.49375;0.5;0.75;0.75625;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></rect><text x="46" y="496" class="l b">GA-33  Dust: perforated dredger</text><text x="46" y="516" class="s">laser-perforated floor, holes Ø 0.8–1.0 (0.5 for icing sugar)</text>
+<rect x="810" y="468" width="760" height="356" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/><rect x="810" y="468" width="760" height="356" rx="10" fill="none" stroke="#f28c28" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.74375;0.75;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></rect><text x="826" y="496" class="l b">GA-35  Score bread: water jet</text><text x="826" y="516" class="s">novel, worth the test: no blade, no drag, nothing to wash</text>
+<g transform="translate(30,95)"><g transform="translate(220,220)"><g><g transform="scale(1,1)"><path d="M-90,-60 L-90,60 Q-90,70 -80,70 L80,70 Q90,70 90,60 L90,-60" fill="#eef2f6" stroke="#3a3f45" stroke-width="4"/><path d="M-20,70 L-20,-20 Q0,-36 20,-20 L20,70" fill="#eef2f6" stroke="#3a3f45" stroke-width="4"/><path d="M-86,-60 L-86,62 L-24,62 L-24,-18 M24,-18 L24,62 L86,62 L86,-60" fill="none" stroke="#e8c84a" stroke-width="6" stroke-dasharray="480" stroke-dashoffset="480"><animate attributeName="stroke-dashoffset" values="480;480;0;0;480;480" keyTimes="0;0.0625;0.625;0.875;0.96875;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></path><ellipse cx="0" cy="62" rx="40" ry="6" fill="#e8c84a"><animate attributeName="opacity" values="1;0.2;1;1" keyTimes="0;0.5;0.96875;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></ellipse></g><animateTransform attributeName="transform" type="rotate" values="0;0;-70;-70;-180;-180;0;0" keyTimes="0;0.0625;0.15625;0.75;0.8125;0.8875;0.96875;1" dur="16s" repeatCount="indefinite"/></g></g></g>
+<g transform="translate(30,95)"><ellipse cx="220" cy="220" rx="150" ry="24" fill="none" stroke="#f28c28" stroke-width="3" stroke-dasharray="20 10"><animate attributeName="stroke-dashoffset" values="0;-900" keyTimes="0;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></ellipse></g>
+<text x="450" y="185" class="s">5 g oil or clarified butter dosed in</text>
+<text x="450" y="209" class="s">turntable tilted 60–80°, 10–20 rpm:</text>
+<text x="450" y="233" class="s">the liquid runs over floor, corner, wall</text>
+<text x="450" y="257" class="s">film 30–50 µm = 3–5 g on 1100 cm²</text>
+<text x="450" y="281" class="s">excess drained by inversion</text>
+<text x="450" y="305" class="s">flouring: 15 g flour, same motion</text>
+<text x="450" y="329" class="s">butter freezes on a cold tin: warm it to</text>
+<text x="450" y="353" class="s">40 °C or use oil · conf. H</text>
+<text x="450" y="377" class="s">muffin trays: 0.5 g per cavity, dabber (M)</text>
+<g transform="translate(810,95)">
+<path d="M40,300 C40,230 380,230 380,300 Z" fill="#e8c890" stroke="#3a3f45" stroke-width="2"/>
+<path d="M40,300 C40,230 380,230 380,300" fill="none" stroke="#f2c230" stroke-width="7" stroke-opacity="0.7" stroke-dasharray="420" stroke-dashoffset="420"><animate attributeName="stroke-dashoffset" values="420;420;0;0;420;420" keyTimes="0;0.0625;0.5;0.875;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></path>
+<rect x="30" y="300" width="360" height="10" fill="#8fa8c0" stroke="#3a3f45"/>
+<text x="210" y="330" class="s h c">proofed braid</text>
+<g><g><circle r="22" fill="#6b4c8a" stroke="#3a3f45" stroke-width="2"/><circle r="22" fill="none" stroke="#f2c230" stroke-width="3" stroke-dasharray="8 6"/><line x1="0" y1="0" x2="0" y2="-80" stroke="#f28c28" stroke-width="6"/><animateTransform attributeName="transform" type="rotate" values="0;0;720;720" keyTimes="0;0.0625;0.5;1" dur="16s" repeatCount="indefinite"/></g><animateMotion path="M40,276 C70,238 350,238 380,276" keyPoints="0;0;1;1;0" keyTimes="0;0.0625;0.5;0.875;1" calcMode="linear" dur="16s" repeatCount="indefinite"/></g>
+<rect x="440" y="250" width="110" height="30" rx="4" fill="#f2e9a0" stroke="#3a3f45" stroke-width="2"/>
+<text x="495" y="300" class="s h c">shallow tray: wets the sleeve</text>
+<text x="430" y="90" class="s">silicone sleeve Ø 40 × 80 on the spindle</text>
+<text x="430" y="112" class="s">contact ≤ 0.3 N: the dough does not collapse</text>
+<text x="430" y="134" class="s">film 20–40 g/m² (5–8 g on a braid)</text>
+<text x="430" y="156" class="s">viscous glazes and icing: nozzle raster</text>
+<text x="430" y="178" class="s">no egg spray (raw-egg aerosol) · conf. H–M</text>
+</g>
+<g transform="translate(30,468)">
+<rect x="40" y="300" width="360" height="12" fill="#8fa8c0" stroke="#3a3f45"/>
+<g><g><path d="M-40,-60 L-40,0 L40,0 L40,-60" fill="#f4f6f8" stroke="#3a3f45" stroke-width="3"/><line x1="-40" y1="0" x2="40" y2="0" stroke="#3a3f45" stroke-width="4" stroke-dasharray="3 3"/><rect x="-36" y="-30" width="72" height="28" fill="#fbfaf4"/><rect x="-6" y="-100" width="12" height="40" fill="#f28c28" stroke="#3a3f45"/><animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="0.15s" repeatCount="indefinite" additive="sum"/></g><animateTransform attributeName="transform" type="translate" values="80 170;80 170;360 170;360 200;80 200;80 230;360 230;80 170;80 170" keyTimes="0;0.03125;0.21875;0.25;0.4375;0.46875;0.65625;0.75;1" dur="16s" repeatCount="indefinite"/></g>
+<circle cx="259" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32071;0.33321;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="314" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18035;0.19285;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="296" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.29877;0.31127;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="69" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03669;0.04919;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="361" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26062;0.27312;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="348" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.20017;0.21267;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="210" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34955;0.36205;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="234" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.13321;0.14571;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="64" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.43504;0.44754;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="149" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08365;0.09615;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="305" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.29393;0.30643;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="315" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18072;0.19322;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="257" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32173;0.33423;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="60" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03158;0.04408;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="127" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.39823;0.41073;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="374" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.21545;0.22795;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="152" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.38326;0.39576;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="232" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.13235;0.14485;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="125" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3991;0.4116;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="281" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.16075;0.17325;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="345" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26992;0.28242;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="175" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09897;0.11147;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="106" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.41018;0.42268;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="156" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08775;0.10025;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="61" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.43687;0.44937;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="168" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09461;0.10711;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="321" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28403;0.29653;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="161" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09046;0.10296;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="285" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.30537;0.31787;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="372" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.21408;0.22658;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="299" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.29691;0.30941;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="65" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03464;0.04714;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="177" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36884;0.38134;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="62" cy="295" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03295;0.04545;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="117" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.40358;0.41608;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="122" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0681;0.0806;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="357" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26319;0.27569;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="170" cy="294" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09582;0.10832;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="227" cy="292" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33912;0.35162;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<circle cx="94" cy="293" r="2.6" fill="#efe6cc" stroke="#8a8070" stroke-width="0.8"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05151;0.06401;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></circle>
+<text x="220" y="330" class="s h c">dusted 20–60 g/m² ±30 %</text>
+<text x="430" y="90" class="s">shaken 5–8 Hz × 10 mm, 100–150 mm high,</text>
+<text x="430" y="114" class="s">moved in a raster over the work</text>
+<text x="430" y="138" class="s">loaded and weighed in the dry corner:</text>
+<text x="430" y="162" class="s">mass before − after = dose</text>
+<text x="430" y="186" class="s">perforated sheet, not woven mesh:</text>
+<text x="430" y="210" class="s">no wire crossings as crevices</text>
+<text x="430" y="234" class="s">rule: a powder tool is bone dry —</text>
+<text x="430" y="258" class="s">warm holster, never straight from the washer</text>
+<text x="430" y="282" class="s">family with 1 / 2.5 / 5 mm holes: garnish</text>
+</g>
+<g transform="translate(810,468)">
+<path d="M40,300 C40,170 380,170 380,300 Z" fill="#e8c890" stroke="#3a3f45" stroke-width="2"/>
+<rect x="30" y="300" width="360" height="10" fill="#8fa8c0" stroke="#3a3f45"/>
+<path d="M80,236 Q210,200 340,236" fill="none" stroke="#8a5a2a" stroke-width="5" stroke-dasharray="290" stroke-dashoffset="290"><animate attributeName="stroke-dashoffset" values="290;290;0;0;290;290" keyTimes="0;0.09375;0.5625;0.90625;0.9375;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></path>
+<g><g><rect x="-10" y="-60" width="20" height="40" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><line x1="0" y1="-20" x2="0" y2="18" stroke="#4aa3df" stroke-width="2.5"/></g><animateMotion path="M80,218 Q210,182 340,218" keyPoints="0;0;1;1;0" keyTimes="0;0.09375;0.5625;0.9;1" calcMode="linear" dur="16s" repeatCount="indefinite"/></g>
+<text x="210" y="330" class="s h c">proofed loaf</text>
+<text x="430" y="90" class="s">jet Ø 0.3–0.5 mm, mains water 4–5 bar:</text>
+<text x="430" y="114" class="s">stagnation pressure 400 kPa vs dough</text>
+<text x="430" y="138" class="s">yield stress ≈ 1 kPa</text>
+<text x="430" y="162" class="s">traverse 0.3 m/s, ~1 mL per 150 mm cut</text>
+<text x="430" y="186" class="s">the wet cut helps it open · conf. M</text>
+<text x="430" y="210" class="s">blade alternative: 0.4 mm, 30°, 5–8 mm deep,</text>
+<text x="430" y="234" class="s">drawn fast at 0.3–0.5 m/s</text>
+<text x="430" y="258" class="s">pork rind: steam 15–20 min, then a blade</text>
+<text x="430" y="282" class="s">in a depth shoe, 10 mm diamonds</text>
+</g>
+<line x1="24" y1="836" x2="1576" y2="836" stroke="#c9ced4" stroke-width="1.5"/>
+<g opacity="1"><text x="40" y="868" class="cap"><tspan class="b">1/4</tspan>  Grease: 5 g of oil in the tin, tilted and turned on the turntable — the oil coats floor, corners and walls; the excess is tipped out.</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.25;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">2/4</tspan>  Glaze: a silicone roller, wetted in a tray, is driven at exactly the travel speed so it never drags on the soft dough.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.5;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">3/4</tspan>  Dust: a perforated dredger, weighed before and after, is shaken in a raster above the work.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5;0.75;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">4/4</tspan>  Score: a needle-thin water jet cuts the proofed loaf — no blade to drag, nothing to clean.</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.75;1" dur="16s" calcMode="discrete" repeatCount="indefinite"/></g>
+<rect x="40" y="884" width="1520" height="4" fill="#e6e8eb"/><rect x="40" y="884" width="0" height="4" fill="#f28c28"><animate attributeName="width" values="0;1520" keyTimes="0;1" dur="16s" calcMode="linear" repeatCount="indefinite"/></rect>
+</svg>

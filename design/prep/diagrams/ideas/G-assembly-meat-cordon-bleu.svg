@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- Source: design/prep/gaps/G-assembly-meat.md section 2.2 (GA-08). Top view and section not to the same scale; the fold is shown as a mirror of the right half about the fold line. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.xl{font-size:24px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.cap{font-size:20px}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="36" class="xl b">GA-08  Cordon bleu: fold, crimp and bread — cheese wrapped in ham</text>
+<text x="24" y="62" class="m">Instead of cutting and filling a pocket, the cutlet is folded over a sealed parcel and the margins are crimped.</text>
+<text x="1576" y="30" class="s r b">G-assembly-meat · G4 stuffing, flat meat pocket (M–H)</text>
+<text x="1576" y="49" class="s r">cutlet 250 × 150 × 4–5 mm</text>
+<text x="1576" y="68" class="s r">crimp ≈ 0.4 MPa → 600 N on the ridge</text>
+<text x="1576" y="87" class="s r">leakers &lt; 10 % expected</text>
+<text x="40" y="128" class="m b">TOP VIEW (1.6 px per mm)</text>
+<rect x="270" y="320" width="460" height="300" rx="8" fill="#eef0f2" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="500" y="645" class="s h c">flipper mat (SM-091 / SM-103)</text>
+<rect x="300" y="350" width="201" height="240" rx="18" fill="#e8a0a0" stroke="#3a3f45" stroke-width="2"><animate attributeName="fill" values="#e8a0a0;#e8a0a0;#f4f0e6;#f2d27a;#d9a24a;#b9782a;#b9782a" keyTimes="0;0.62;0.65;0.7;0.75;0.85;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<g><g><rect x="-60" y="-50" width="120" height="100" rx="14" fill="#f2b8c0" stroke="#3a3f45" stroke-width="2"/><rect x="-48" y="-32" width="96" height="64" rx="4" fill="#f5d76e" stroke="#a08a40" stroke-width="1.5" stroke-dasharray="5 4"/></g><animateTransform attributeName="transform" type="translate" values="400 250;400 250;400 470;400 470" keyTimes="0;0.15;0.25;1" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.15;0.98;0.995;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="400" y="200" class="s h c">cheese 60 × 40 × 6 rolled in one ham slice (loop of GA-04)</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.125;0.14;0.3;0.315;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g transform="translate(500,470)"><g><rect x="0" y="-120" width="200" height="240" rx="18" fill="#e8a0a0" stroke="#3a3f45" stroke-width="2"><animate attributeName="fill" values="#e8a0a0;#e8a0a0;#c87070;#c87070;#f4f0e6;#f2d27a;#d9a24a;#b9782a;#b9782a" keyTimes="0;0.375;0.38;0.62;0.65;0.7;0.75;0.85;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></rect><animateTransform attributeName="transform" type="scale" values="1 1;1 1;-1 1;-1 1;1 1;1 1" keyTimes="0;0.3;0.42;0.97;0.995;1" dur="20s" repeatCount="indefinite"/></g></g>
+<text x="500" y="310" class="s h c">fold line</text><line x1="500" y1="320" x2="500" y2="620" stroke="#777" stroke-dasharray="6 4"/>
+<text x="260" y="460" class="s h r">cutlet pounded to 4–5 mm,</text><text x="260" y="478" class="s h r">250 × 150 mm</text>
+<g><path d="M500,360 L310,360 L310,580 L500,580" fill="none" stroke="#f28c28" stroke-width="10" stroke-linejoin="round" opacity="0.85"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.435;0.45;0.6;0.615;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="260" y="530" class="s h r">crimp frame: U-ridge 3 mm</text><text x="260" y="548" class="s h r">presses the 3 open margins</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.435;0.45;0.61;0.625;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="400" y="200" class="m h c">flour</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.615;0.62;0.67;0.675;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="400" y="200" class="m h c">egg</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.665;0.67;0.72;0.725;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="400" y="200" class="m h c">crumbs: the real seal, as at home</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.715;0.72;0.82;0.825;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="400" y="200" class="m h c">fried: the coat sets within a minute</text><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.815;0.82;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<rect x="960" y="170" width="610" height="445" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="980" y="200" class="m b">SECTION at a margin, during the crimp</text>
+<rect x="1000" y="470" width="540" height="16" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<path d="M1000,470 L1460,470 Q1500,470 1500,450 L1500,445 L1000,445 Z" fill="#e8a0a0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1180" y="395" width="200" height="40" rx="12" fill="#f2b8c0" stroke="#3a3f45" stroke-width="2"/><rect x="1196" y="405" width="168" height="20" fill="#f5d76e"/>
+<path d="M1000,445 L1160,445 Q1180,390 1220,388 L1340,388 Q1380,390 1400,445 L1500,445 L1500,420 L1400,420 Q1380,365 1340,365 L1220,365 Q1180,365 1160,420 L1000,420 Z" fill="#c87070" stroke="#3a3f45" stroke-width="2"/>
+<g><g><rect x="1000" y="250" width="540" height="22" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><rect x="1440" y="272" width="10" height="26" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 122;0 122;0 0;0 0" keyTimes="0;0.46;0.51;0.58;0.61;1" dur="20s" repeatCount="indefinite"/></g>
+<text x="1460" y="240" class="s h c">platen with 3 mm ridge</text>
+<g><path d="M1440,420 L1450,420 L1450,445 L1440,445 Z" fill="#e04a3a" opacity="0.6"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.495;0.51;0.6;0.615;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></g>
+<text x="980" y="520" class="s">0.4 MPa on the ridge: 3 mm × 500 mm = 15 cm² → 600 N</text>
+<text x="980" y="540" class="s">(platen range 0.5–1.5 kN)</text>
+<text x="980" y="560" class="s">salted, pounded surfaces bond by extracted myosin</text>
+<text x="980" y="580" class="s">cheese flows above ~65 °C: ham wrap + crimp + coat</text>
+<text x="980" y="600" class="s">→ fewer than 10 % show a leak [E]; a leak is a blemish</text>
+<rect x="960" y="630" width="610" height="150" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="980" y="660" class="m b">Fallback (no fold)</text>
+<text x="980" y="684" class="s">Two thin cutlets as base and lid, crimped all round with a closed frame (800 N).</text>
+<text x="980" y="708" class="s">Not recommended: fold and pin — pins are hard to find in a fried item.</text>
+<text x="980" y="732" class="s">Sensing: camera checks the parcel lies inside the margin before folding.</text>
+<line x1="24" y1="836" x2="1576" y2="836" stroke="#c9ced4" stroke-width="1.5"/>
+<g opacity="1"><text x="40" y="868" class="cap"><tspan class="b">1/5</tspan>  The cutlet is pounded flat; no pocket is cut.</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.15;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">2/5</tspan>  A cheese slab rolled into a ham slice is laid on one half, 15 mm from the edges.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.15;0.3;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">3/5</tspan>  The mat flipper folds the other half over.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3;0.45;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">4/5</tspan>  A U-shaped crimp ridge presses the three open margins with about 600 N.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.45;0.62;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">5/5</tspan>  Flour, egg and crumbs make the real seal; frying sets it within a minute.</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.62;1" dur="20s" calcMode="discrete" repeatCount="indefinite"/></g>
+<rect x="40" y="884" width="1520" height="4" fill="#e6e8eb"/><rect x="40" y="884" width="0" height="4" fill="#f28c28"><animate attributeName="width" values="0;1520" keyTimes="0;1" dur="20s" calcMode="linear" repeatCount="indefinite"/></rect>
+</svg>

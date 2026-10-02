@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- Source: design/prep/gaps/G-assembly-meat.md section 1.2 (GA-02, GA-06). Side views, not to scale; the ribbon thickness is exaggerated. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.xl{font-size:24px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.cap{font-size:20px}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="36" class="xl b">GA-02 / GA-06  Butter as a ribbon, bun crowns on a side fork</text>
+<text x="24" y="62" class="m">Two passive helpers for the peel-and-bar assembler: never spread, never squeeze a soft bun.</text>
+<text x="1576" y="30" class="s r b">G-assembly-meat · G3 assembly (recommended set)</text>
+<text x="1576" y="49" class="s r">butter ribbon 1–1.1 mm · wire 0.4 mm</text>
+<text x="1576" y="68" class="s r">fork: 3 tines Ø 2.5 × 60, 25 mm pitch</text>
+<text x="1576" y="87" class="s r">both conf. H</text>
+<rect x="30" y="100" width="760" height="715" rx="10" fill="#fbf7ea" stroke="#c9ced4" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.00006;0.5;0.51667;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></rect><text x="48" y="132" class="l b">GA-02  Butter: lay a ribbon, do not spread</text><text x="48" y="154" class="s">cold butter (50–100 kPa) would tear soft crumb (5–10 kPa)</text>
+<rect x="810" y="100" width="760" height="715" rx="10" fill="#fbf7ea" stroke="#c9ced4" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48333;0.5;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></rect><text x="828" y="132" class="l b">GA-06  Bun crown on a side fork</text><text x="828" y="154" class="s">needle-gripper idea of bakeries: crumb hides the holes</text>
+<rect x="90" y="560" width="420" height="14" fill="#d8b98a" stroke="#3a3f45" stroke-width="2"/>
+<rect x="150" y="440" width="300" height="120" fill="#f5d76e" stroke="#3a3f45" stroke-width="2"/>
+<g><rect x="150" y="440" width="0" height="6" fill="#fff"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;0.08333;0.30556;0.47778;0.49444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></rect></g>
+<text x="300" y="520" class="s h c">cold butter block, 5 °C</text>
+<g><g><path d="M-70,10 L40,10 L40,18 L-70,18 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><line x1="40" y1="4" x2="40" y2="-60" stroke="#3a3f45" stroke-width="3"/><line x1="-70" y1="10" x2="-70" y2="-60" stroke="#3a3f45" stroke-width="3"/><line x1="-70" y1="-60" x2="40" y2="-60" stroke="#3a3f45" stroke-width="3"/><circle cx="40" cy="4" r="3" fill="#e04a3a"/><rect x="-24" y="-100" width="20" height="40" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g><animateTransform attributeName="transform" type="translate" values="110 432;110 432;410 432;600 432;600 432;110 432;110 432" keyTimes="0;0.08333;0.30556;0.36111;0.47778;0.49444;1" dur="18s" repeatCount="indefinite"/></g>
+<g><path d="M150,440 L450,440" stroke="#e9c443" stroke-width="5" fill="none" stroke-dasharray="300" stroke-dashoffset="300"><animate attributeName="stroke-dashoffset" values="300;300;0;0;300;300" keyTimes="0;0.08333;0.30556;0.47778;0.49444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" values="0 0;0 0;330 120;330 120;0 0;0 0" keyTimes="0;0.30556;0.37778;0.47778;0.49444;1" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.47778;0.48889;0.49444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></g>
+<path d="M470,566 L760,566 L760,572 L470,572 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="615" y="600" class="s h c">ribbon lands on the peel → laid like a slice (GA-01)</text>
+<text x="300" y="340" class="s h c">wire 0.4 mm tensioned 1.0–1.2 mm above a sliding shoe</text>
+<text x="300" y="358" class="s h c">draws a 1 mm ribbon off the cold block</text>
+<text x="300" y="640" class="s h c">10 g = 100 × 100 × 1.1 mm · conf. H · no sensing</text>
+<text x="60" y="690" class="s b">Soft spreads (mayo, mustard, quark): nozzle zigzag, the next layer presses it flat</text>
+<rect x="100" y="705" width="240" height="90" rx="6" fill="#e8c890" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M115,720 L145,780 L175,720 L205,780 L235,720 L265,780 L295,720 L325,780" fill="none" stroke="#f2e9a0" stroke-width="7" stroke-linecap="round" stroke-dasharray="560" stroke-dashoffset="560"><animate attributeName="stroke-dashoffset" values="560;560;0;0;560;560" keyTimes="0;0.02778;0.22222;0.47778;0.49444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></path>
+<g><rect x="96" y="701" width="248" height="98" rx="6" fill="#d9a35a" stroke="#3a3f45" stroke-width="1.5" opacity="0.95"/><animate attributeName="opacity" values="0;0;0.95;0.95;0;0" keyTimes="0;0.30556;0.33333;0.47778;0.49444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="220" y="755" class="s h c">next slice laid on top</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.31667;0.33333;0.48333;0.5;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></g>
+<rect x="950" y="600" width="230" height="12" fill="#fff" stroke="#3a3f45" stroke-width="2"/>
+<rect x="975" y="560" width="180" height="40" rx="6" fill="#d9a35a" stroke="#3a3f45" stroke-width="2"/>
+<text x="1065" y="640" class="s h c">bun heel, held down by the collar</text>
+<g><path d="M975,558 L1155,558 L1155,530 Q1155,470 1065,468 Q975,470 975,530 Z" fill="#d9a35a" stroke="#3a3f45" stroke-width="2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -60;270 -60;270 -60;270 60;270 60;0 0;0 0" keyTimes="0;0.64444;0.7;0.77778;0.8;0.86667;0.97778;0.99444;1" dur="18s" repeatCount="indefinite"/></g>
+<rect x="1245" y="600" width="230" height="12" fill="#fff" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1250" y="560" width="220" height="40" rx="3" fill="#d9a35a" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1250" y="536" width="220" height="24" rx="3" fill="#6b3a22" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1250" y="530" width="220" height="6" rx="3" fill="#f2c230" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1250" y="520" width="220" height="10" rx="3" fill="#e0453a" stroke="#3a3f45" stroke-width="1.5"/>
+<circle cx="1490" cy="512" r="6.5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<text x="1495" y="495" class="s h">bar</text>
+<g><g><line x1="0" y1="0" x2="120" y2="0" stroke="#6f7a85" stroke-width="5" stroke-linecap="round"/><line x1="0" y1="8" x2="120" y2="8" stroke="#6f7a85" stroke-width="5" stroke-linecap="round"/><line x1="0" y1="16" x2="120" y2="16" stroke="#6f7a85" stroke-width="5" stroke-linecap="round"/><rect x="120" y="-10" width="60" height="36" rx="5" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g><animateTransform attributeName="transform" type="translate" values="1220 470;1220 470;1220 482;1010 482;1010 422;1280 422;1280 422;1500 422;1500 422;1220 470;1220 470" keyTimes="0;0.53333;0.56667;0.64444;0.7;0.77778;0.8;0.85556;0.97778;0.99444;1" dur="18s" repeatCount="indefinite"/></g>
+<text x="1100" y="400" class="s h c">three tines Ø 2.5 × 60, 25 mm apart, enter 10 mm under the top</text>
+<g><text x="1100" y="700" class="s h c">fork lifts the crown off its hinge</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.62778;0.64444;0.72222;0.73889;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="1360" y="700" class="s h c">fork pulls back; the bar strips the crown</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78333;0.8;0.97778;0.99444;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></g>
+<line x1="24" y1="836" x2="1576" y2="836" stroke="#c9ced4" stroke-width="1.5"/>
+<g opacity="1"><text x="40" y="868" class="cap"><tspan class="b">1/5</tspan>  Soft spreads: a nozzle lays a zigzag; the next layer presses it flat — no spreading at all.</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.08333;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">2/5</tspan>  Cold butter: a tensioned wire just above a sliding shoe draws a 1 mm ribbon off the block.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08333;0.30556;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">3/5</tspan>  The ribbon lands on the peel and is laid down like any slice.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.30556;0.5;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">4/5</tspan>  Bun crown: a three-tine fork enters from the side, 10 mm below the top, and lifts it off the heel.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5;0.77778;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">5/5</tspan>  Over the stack the fork pulls back; the fixed bar strips the crown onto the burger.</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.77778;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/></g>
+<rect x="40" y="884" width="1520" height="4" fill="#e6e8eb"/><rect x="40" y="884" width="0" height="4" fill="#f28c28"><animate attributeName="width" values="0;1520" keyTimes="0;1" dur="18s" calcMode="linear" repeatCount="indefinite"/></rect>
+</svg>

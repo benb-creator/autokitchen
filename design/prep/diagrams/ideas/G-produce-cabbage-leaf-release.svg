@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- Source: design/prep/gaps/G-produce.md section 4 (GP-71, GP-75; GP-72 named in text). Leaves drawn alternating left/right in the section plane; one leaf per side is released in this loop. The document does not say how the head is turned on the spike; drawn as a rotation of the spike. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.xl{font-size:24px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.cap{font-size:20px}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="36" class="xl b">GP-71  Whole cabbage leaves: freeze–thaw, then float them off</text>
+<text x="24" y="62" class="m">Freezing replaces blanching; water pressure in the core pocket peels one leaf at a time, nothing grips the leaf.</text>
+<text x="1576" y="30" class="s r b">G-produce · G7 cabbage leaves for Kohlrouladen (M)</text>
+<text x="1576" y="49" class="s r">head Ø 200 · cone Ø 60 × 60</text>
+<text x="1576" y="68" class="s r">water 0.1–0.2 L/s · ~20 N opening force</text>
+<text x="1576" y="87" class="s r">3–5 s per leaf · 10–15 L water per head</text>
+<text x="40" y="128" class="m b">SECTION — savoy head core-up on a spike (2 px per mm)</text>
+<rect x="90" y="740" width="780" height="14" rx="5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<text x="480" y="778" class="s h c">tray / mat catches each leaf flat</text>
+<path d="M472,740 L472,660 L480,630 L488,660 L488,740 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<circle cx="480" cy="470" r="158" fill="#cfe3a8" stroke="#2f5f2a" stroke-width="2"/>
+<circle cx="480" cy="470" r="130" fill="none" stroke="#9cbf6a" stroke-width="2"/>
+<circle cx="480" cy="470" r="104" fill="none" stroke="#9cbf6a" stroke-width="2"/>
+<circle cx="480" cy="470" r="78" fill="none" stroke="#9cbf6a" stroke-width="2"/>
+<circle cx="480" cy="470" r="52" fill="none" stroke="#9cbf6a" stroke-width="2"/>
+<text x="480" y="530" class="s h c">heart (chopped later)</text>
+<path d="M433.4,643.9 A180,180 0 0 1 424.4,298.8 L430.6,317.8 A160,160 0 0 0 438.6,624.5 Z" fill="#8fbf5a" stroke="#2f5f2a" stroke-width="2"/>
+<path d="M535.6,298.8 A180,180 0 0 1 526.6,643.9 L521.4,624.5 A160,160 0 0 0 529.4,317.8 Z" fill="#8fbf5a" stroke="#2f5f2a" stroke-width="2"/>
+<path d="M420,270 L540,270 L480,390 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="2" stroke-dasharray="5 4"/>
+<g><path d="M420,270 L540,270 L480,390 Z" fill="#e7edc6" stroke="#3a3f45" stroke-width="2"/><rect x="455" y="250" width="50" height="22" fill="#d9e2b0" stroke="#3a3f45" stroke-width="2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -120;420 -120;420 -120" keyTimes="0;0.32857;0.35714;0.38571;1" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.37857;0.38929;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<path d="M416.4,644.8 A186,186 0 0 1 416.4,295.2 L418.8,301.8 A179,179 0 0 0 418.8,638.2 Z" fill="#4aa3df" stroke="none" stroke-width="2"><animate attributeName="opacity" values="0;0;0.9;0.9;0;0" keyTimes="0;0.41071;0.44643;0.5;0.51429;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></path>
+<path d="M543.6,295.2 A186,186 0 0 1 543.6,644.8 L541.2,638.2 A179,179 0 0 0 541.2,301.8 Z" fill="#4aa3df" stroke="none" stroke-width="2"><animate attributeName="opacity" values="0;0;0.9;0.9;0;0" keyTimes="0;0.67143;0.70714;0.75714;0.77143;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></path>
+<g><g><path d="M438.0,667.6 A202,202 0 0 1 427.7,274.9 L432.9,294.2 A182,182 0 0 0 442.2,648.0 Z" fill="#5f9f3a" stroke="#2f5f2a" stroke-width="2"/><animateTransform attributeName="transform" type="rotate" values="0 440.1 657.8;0 440.1 657.8;-55 440.1 657.8;-80 440.1 657.8;-80 440.1 657.8" keyTimes="0;0.43929;0.5;0.52143;1" dur="28s" repeatCount="indefinite"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-150 60;-150 60" keyTimes="0;0.5;0.53571;1" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.52857;0.53929;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><g><path d="M532.3,274.9 A202,202 0 0 1 522.0,667.6 L517.8,648.0 A182,182 0 0 0 527.1,294.2 Z" fill="#5f9f3a" stroke="#2f5f2a" stroke-width="2"/><animateTransform attributeName="transform" type="rotate" values="0 519.9 657.8;0 519.9 657.8;55 519.9 657.8;80 519.9 657.8;80 519.9 657.8" keyTimes="0;0.7;0.75714;0.77857;1" dur="28s" repeatCount="indefinite"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;150 60;150 60" keyTimes="0;0.75714;0.79286;1" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.78571;0.79643;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><path d="M90,738 C120,700 280,700 310,738 Z" fill="#5f9f3a" stroke="#2f5f2a" stroke-width="2"/><line x1="100" y1="737" x2="260" y2="716" stroke="#d9e8b8" stroke-width="5"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.53214;0.54286;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><path d="M650,738 C680,700 840,700 870,738 Z" fill="#5f9f3a" stroke="#2f5f2a" stroke-width="2"/><line x1="660" y1="737" x2="820" y2="716" stroke="#d9e8b8" stroke-width="5"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78929;0.8;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+
+<g><circle cx="480" cy="470" r="206" fill="#bfe3ff" opacity="0.55"/><animate attributeName="opacity" values="0;0.9;0.9;0;0" keyTimes="0;0.01786;0.10714;0.19643;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><g transform="translate(760,250)"><line x1="0" y1="0" x2="34.0" y2="0.0" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/><line x1="0" y1="0" x2="17.0" y2="29.4" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/><line x1="0" y1="0" x2="-17.0" y2="29.4" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/><line x1="0" y1="0" x2="-34.0" y2="0.0" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/><line x1="0" y1="0" x2="-17.0" y2="-29.4" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/><line x1="0" y1="0" x2="17.0" y2="-29.4" stroke="#4aa3df" stroke-width="4" stroke-linecap="round"/></g><text x="760" y="310" class="m h c">freeze whole, 12–20 h</text><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.00004;0.10714;0.11786;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><path d="M740,260 q-10,-20 0,-40 q10,-20 0,-40 M770,260 q-10,-20 0,-40 q10,-20 0,-40" stroke="#e04a3a" stroke-width="4" fill="none"/><text x="760" y="300" class="m h c">thaw: fridge 24–36 h</text><text x="760" y="320" class="m h c">or steam 60 °C, 25–40 min</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09643;0.10714;0.21429;0.225;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="760" y="360" class="s h c">ice crystals burst the cells:</text><text x="760" y="378" class="s h c">leaves go limp as if blanched</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.09643;0.10714;0.21429;0.225;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g transform="translate(480,0)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1 1;-1 1;1 1;1 1;1 1" keyTimes="0;0.22857;0.26429;0.3;0.32857;1" dur="28s" repeatCount="indefinite"/><g transform="translate(-480,0)"><path d="M480,393 L470,390 L433,288 L444,284 Z" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><path d="M433,288 L444,284 L426,228 L412,232 Z" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/></g></g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.21071;0.22143;0.32857;0.33929;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="620" y="300" class="s h">core cut out as a cone Ø 60 × 60</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.21071;0.22143;0.375;0.38571;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><rect x="466" y="140" width="28" height="22" rx="3" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/><line x1="480" y1="162" x2="480" y2="380" stroke="#4aa3df" stroke-width="10" stroke-dasharray="14 8"><animate attributeName="stroke-dashoffset" values="0;-1100" keyTimes="0;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></line><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.375;0.38571;0.78571;0.79643;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="500" y="160" class="s h">mains water 0.1–0.2 L/s into the core hole</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.375;0.38571;0.78571;0.79643;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="110" y="300" class="s h">pocket fills: ρ g h ≈ 1 kPa</text><text x="110" y="318" class="s h">× 200 cm² = 20 N opens the leaf</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.41071;0.53571;0.54643;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><path d="M300,180 A200,40 0 0 0 660,180" fill="none" stroke="#f28c28" stroke-width="3"/><g ><line x1="640" y1="172" x2="662" y2="182" stroke="#f28c28" stroke-width="2.5"/><path d="M662,182 L651.0,181.7 L654.5,173.9 Z" fill="#f28c28"/></g><text x="480" y="236" class="s h c">head turned a little</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.56071;0.57143;0.67857;0.68929;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><circle cx="0" cy="0" r="18" fill="#f28c28" stroke="#3a3f45" stroke-width="2"/><animateTransform attributeName="transform" type="translate" values="90 700;90 700;320 700;320 700" keyTimes="0;0.85714;0.94643;1" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.84643;0.85714;0.96429;0.975;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<g><text x="200" y="670" class="s h c">midrib flattened → leaf rolls (wrap: GA-04)</text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.84643;0.85714;0.98214;0.99286;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></g>
+<rect x="1000" y="100" width="570" height="300" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="1020" y="130" class="m b">GP-75  Lettuce: one butt cut, the wash separates</text>
+<ellipse cx="1180" cy="270" rx="90" ry="72" fill="#7fbf4a" stroke="#2f5f2a" stroke-width="2"/>
+<ellipse cx="1180" cy="270" rx="70" ry="56" fill="#9fcf6a" stroke="#2f5f2a" stroke-width="2"/>
+<ellipse cx="1180" cy="270" rx="50" ry="40" fill="#bfdf8a" stroke="#2f5f2a" stroke-width="2"/>
+<ellipse cx="1180" cy="270" rx="30" ry="24" fill="#dfefb0" stroke="#2f5f2a" stroke-width="2"/>
+<rect x="1165" y="335" width="30" height="20" fill="#e7edc6" stroke="#3a3f45" stroke-width="2"/>
+<line x1="1130" y1="333" x2="1230" y2="333" stroke="#e04a3a" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="1240" y="338" class="s h">cut 15–25 mm above the butt</text>
+<text x="1300" y="220" class="s h">leaves are free and part</text>
+<text x="1300" y="238" class="s h">in the dunk basket (GP-W1)</text>
+<text x="1020" y="385" class="s">Iceberg: cone-cut the core, then chunk-cut · conf. H</text>
+<rect x="1000" y="430" width="570" height="290" rx="10" fill="#f7f8f9" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="1020" y="460" class="m b">Why no blanching pot</text>
+<text x="1020" y="488" class="s">Kohlrouladen need 8–12 whole, pliable leaves (200 × 250 mm).</text>
+<text x="1020" y="510" class="s">Raw leaves crack when bent and overlap by more than half a turn.</text>
+<text x="1020" y="532" class="s">Freeze–thaw makes them limp like blanched ones [home practice].</text>
+<text x="1020" y="554" class="s">No 6–8 L pot, no hot head to lift and return.</text>
+<text x="1020" y="576" class="s">Water does the peeling: 3–5 s per leaf, 10 leaves ≈ 1 min,</text>
+<text x="1020" y="598" class="s">10–15 L of water.</text>
+<text x="1020" y="620" class="s">Hydraulic release is untested [U]; variant GP-72:</text>
+<text x="1020" y="642" class="s">steam the cored head 10–12 min, release 4–6 leaves per cycle.</text>
+<line x1="24" y1="836" x2="1576" y2="836" stroke="#c9ced4" stroke-width="1.5"/>
+<g opacity="1"><text x="40" y="868" class="cap"><tspan class="b">1/7</tspan>  The whole savoy head is frozen (or kept frozen as a stock item).</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.10714;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">2/7</tspan>  Thawed in the fridge or in 60 °C steam: ice crystals have burst the cells, the leaves are limp.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.10714;0.22143;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">3/7</tspan>  The core is cut out as a cone: every leaf base is now free.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.22143;0.37857;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">4/7</tspan>  Water runs into the core hole and fills the pocket behind the outer leaf; it folds out and drops flat.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.37857;0.57143;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">5/7</tspan>  The head is turned a little …</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.57143;0.65714;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">6/7</tspan>  … and the next leaf is floated off the same way: 10 leaves in about a minute.</text><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.65714;0.85;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="40" y="868" class="cap"><tspan class="b">7/7</tspan>  The thick midrib is flattened by a roller so that the leaf rolls round the filling.</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.85;1" dur="28s" calcMode="discrete" repeatCount="indefinite"/></g>
+<rect x="40" y="884" width="1520" height="4" fill="#e6e8eb"/><rect x="40" y="884" width="0" height="4" fill="#f28c28"><animate attributeName="width" values="0;1520" keyTimes="0;1" dur="28s" calcMode="linear" repeatCount="indefinite"/></rect>
+</svg>
