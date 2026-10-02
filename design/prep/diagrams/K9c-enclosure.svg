@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K9c enclosure and safety chain. Source: K9c-design-to-cost.md sections 3.1 (Enclosure, Controls), 4.1 item 5, BOM lines E1-E14, M8.1-M8.5, M10.4, risks K4 and K8. Front view at 0.3 px/mm, cell 1660 wide. Simplest readings: panel A runs on the front track over X 0-850, panel B on the rear track over X 810-1660 and opens by sliding left behind A; the door lock sits on the right post and bolts panel B; the reed contact sits on the top track; the back liner bends into an open gutter at the deck rear edge in front of the table upstand. The build-up sequence is only a way to show the parts; it is not an assembly instruction. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K9c  ENCLOSURE — a Gastro table, liners and sliding glass instead of a custom box</text>
+<text x="24" y="58" class="m">Bought furniture forms the cell; a household door lock and two relays form the safety chain.</text>
+<text x="1576" y="28" class="s r b">enclosure €1,280 (K9b €1,500) — of it ≈ €420 furniture-equivalent</text>
+<text x="1576" y="47" class="s r">Gastro table €190 · back liner + HPL €150 · panels + track €130 · lock + reed €30</text>
+<text x="1576" y="66" class="s r">frame 40 × 40 profile ≈ 6 m · cell 1660 × 600 × 2200</text>
+<text x="1576" y="85" class="s r">safety: lock + 2 relays ≈ €70 (K9b: €640 guard lock + €210 relay)</text>
+<rect x="30" y="100" width="800" height="740" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="42" y="122" class="s b">FRONT VIEW of the cell, built up part by part</text>
+<rect x="850" y="100" width="720" height="400" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="862" y="122" class="s b">SAFETY CHAIN: no motion while a panel is open</text>
+<rect x="850" y="510" width="720" height="330" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="862" y="532" class="s b">SPLASH ZONE at the back wall (side section)</text>
+<rect x="208.2" y="790" width="498.4" height="6" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.0100;0.0300;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -120;0 -120;0 0;0 0" keyTimes="0.0000;0.0100;0.0433;1.0000" dur="30s" repeatCount="indefinite" /><rect x="219.4" y="538" width="476" height="8.4" fill="#c9d3dc" stroke="#3a3f45" stroke-width="2" /><rect x="222.2" y="546.4" width="12" height="239.6" fill="#c9d3dc" stroke="#3a3f45" stroke-width="1.5" /><rect x="687.8" y="546.4" width="12" height="239.6" fill="#c9d3dc" stroke="#3a3f45" stroke-width="1.5" /><rect x="222.2" y="728.4" width="470.4" height="6" fill="#c9d3dc" stroke="#3a3f45" stroke-width="1.5" /><rect x="387.4" y="536" width="84" height="4" fill="#5d646b" stroke="#3a3f45" stroke-width="1" /><rect x="485.4" y="536" width="56" height="3" fill="#4a4f55" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.1400;0.1600;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -200;0 -200;0 0;0 0" keyTimes="0.0000;0.1400;0.1733;1.0000" dur="30s" repeatCount="indefinite" /><rect x="213.8" y="174" width="12" height="616" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" /><rect x="691.8" y="174" width="12" height="616" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" /><rect x="213.8" y="174" width="487.2" height="12" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" /><rect x="213.8" y="230" width="487.2" height="6" fill="#aab4be" stroke="#3a3f45" stroke-width="1.2" /><rect x="225" y="236" width="464.8" height="22" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.2733;0.2933;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -60;0 -60;0 0;0 0" keyTimes="0.0000;0.2733;0.3067;1.0000" dur="30s" repeatCount="indefinite" /><rect x="225.0" y="383.99999999999994" width="464.80000000000007" height="154.00000000000003" fill="#dbe5ee" stroke="#3a3f45" stroke-width="1.2"/><line x1="225" y1="392" x2="689.8" y2="392" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="404" x2="689.8" y2="404" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="416" x2="689.8" y2="416" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="428" x2="689.8" y2="428" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="440" x2="689.8" y2="440" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="452" x2="689.8" y2="452" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="464" x2="689.8" y2="464" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="476" x2="689.8" y2="476" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="488" x2="689.8" y2="488" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="500" x2="689.8" y2="500" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="512" x2="689.8" y2="512" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="524" x2="689.8" y2="524" stroke="#c6d3df" stroke-width="1" /><line x1="225" y1="536" x2="689.8" y2="536" stroke="#c6d3df" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.3200;0.3400;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -60;0 -60;0 0;0 0" keyTimes="0.0000;0.3200;0.3533;1.0000" dur="30s" repeatCount="indefinite" /><rect x="225.0" y="258.0" width="464.80000000000007" height="126.00000000000001" fill="#f1ebdf" stroke="#3a3f45" stroke-width="1.2"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.4067;0.4267;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -80;0 -80;0 0;0 0" keyTimes="0.0000;0.4067;0.4400;1.0000" dur="30s" repeatCount="indefinite" /><rect x="309" y="258" width="78.4" height="126" fill="#efe2c8" stroke="#3a3f45" stroke-width="1.5" /><rect x="311.8" y="375.2" width="72.8" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" /><rect x="225" y="384" width="78.4" height="5" fill="#aab2ba" stroke="#3a3f45" stroke-width="1.2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.4400;0.4600;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 80;0 80;0 0;0 0" keyTimes="0.0000;0.4400;0.4733;1.0000" dur="30s" repeatCount="indefinite" /><rect x="230.6" y="554.8" width="75.6" height="207.2" fill="#f4f1ea" stroke="#3a3f45" stroke-width="1.2" /><rect x="311.8" y="554.8" width="75.6" height="207.2" fill="#f4f1ea" stroke="#3a3f45" stroke-width="1.2" /><rect x="393" y="554.8" width="75.6" height="207.2" fill="#f4f1ea" stroke="#3a3f45" stroke-width="1.2" /><rect x="474.2" y="554.8" width="75.6" height="207.2" fill="#f4f1ea" stroke="#3a3f45" stroke-width="1.2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.4533;0.4733;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0" keyTimes="0.0000;0.4533;0.4867;1.0000" dur="30s" repeatCount="indefinite" /><g opacity="0.55"><rect x="558.2" y="258" width="128.8" height="98" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="5 4"/><rect x="559.6" y="549.2" width="126" height="224" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="5 4"/></g></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.4667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;60 0;0 0;20 0;20 0" keyTimes="0.0000;0.6500;0.7167;0.7833;0.8000;1.0000" dur="30s" repeatCount="indefinite" /><rect x="415" y="232" width="12" height="24" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><rect x="418" y="258" width="6" height="180" fill="#c4cad1" stroke="#3a3f45" stroke-width="1" /><rect x="415" y="426" width="12" height="12" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.5400;0.5600;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 -40;0 -40;0 0;0 0" keyTimes="0.0000;0.5400;0.5733;1.0000" dur="30s" repeatCount="indefinite" /><rect x="225.0" y="244.0" width="238.00000000000003" height="302.40000000000003" fill="#cfe6f6" fill-opacity="0.35" stroke="#4d7ea8" stroke-width="2.5"/><rect x="225" y="235.6" width="464.8" height="8" fill="#7a8a99" stroke="#3a3f45" stroke-width="1.2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.5600;0.5800;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-224 0;-224 0" keyTimes="0.0000;0.8467;0.9200;1.0000" dur="30s" repeatCount="indefinite" /><rect x="451.8" y="244.0" width="238.00000000000003" height="302.40000000000003" fill="#cfe6f6" fill-opacity="0.35" stroke="#4d7ea8" stroke-width="2.5"/><rect x="675.8" y="416" width="10" height="20" fill="#999" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.5600;0.5800;1.0000" dur="30s" repeatCount="indefinite"/><rect x="691.8" y="410" width="16" height="32" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="681.8000000000001" y="421.99999999999994" width="12" height="8" fill="#3a3f45"><animate attributeName="x" values="681.8000000000001;691.8000000000001;681.8000000000001;681.8000000000001;691.8000000000001;691.8000000000001" keyTimes="0.0000;0.5867;0.6133;0.8200;0.8400;1.0000" dur="30s" repeatCount="indefinite"/></rect><rect x="673" y="223.6" width="14" height="8" fill="#5aa05a" stroke="#3a3f45" stroke-width="1" /></g>
+<path d="M225.0 216.0 L208.2 216.0 L205.4 216.0" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="221.0" class="s r h">ceiling panel + X box</text>
+<path d="M253.0 383.99999999999994 L208.2 383.99999999999994 L205.4 383.99999999999994" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="388.99999999999994" class="s r h">box shelf</text>
+<path d="M267.0 313.99999999999994 L208.2 313.99999999999994 L205.4 313.99999999999994" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="318.99999999999994" class="s r h">HPL panels</text>
+<path d="M253.0 453.99999999999994 L208.2 453.99999999999994 L205.4 453.99999999999994" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="458.99999999999994" class="s r h">stainless liner</text>
+<path d="M225.0 542.2 L208.2 540.8 L205.4 540.8" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="545.8" class="s r h">Gastro table = deck</text>
+<path d="M253.0 622.0 L208.2 622.0 L205.4 622.0" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="627.0" class="s r h">IKEA fronts under deck</text>
+<path d="M239.0 728.4 L208.2 728.4 L205.4 728.4" fill="none" stroke="#777" stroke-width="1" />
+<text x="204.28" y="733.4" class="s r h">table base shelf</text>
+<path d="M674.96 235.5999999999999 L706.6 218.79999999999995" fill="none" stroke="#777" stroke-width="1" />
+<text x="707.72" y="223.79999999999995" class="s h">top track + reed</text>
+<path d="M692.6 313.99999999999994 L706.6 297.19999999999993" fill="none" stroke="#777" stroke-width="1" />
+<text x="707.72" y="302.19999999999993" class="s h">40 × 40 profile</text>
+<path d="M694.28 425.99999999999994 L706.6 423.2" fill="none" stroke="#777" stroke-width="1" />
+<text x="707.72" y="428.2" class="s h">door lock</text>
+<text x="707.72" y="444.99999999999994" class="s h">(washer type)</text>
+<path d="M645.0 650.0 L706.6 650.0" fill="none" stroke="#777" stroke-width="1" />
+<text x="707.72" y="655.0" class="s h">dishwasher</text>
+<text x="349.6" y="316.79999999999995" class="s c h">tool</text>
+<text x="349.6" y="333.79999999999995" class="s c h">cabinet</text>
+<text x="349.6" y="350.79999999999995" class="s c h">(IKEA)</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.4533" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="622.6" y="302.79999999999995" class="s c">oven</text></g>
+<line x1="225.0" y1="812" x2="689.8000000000001" y2="812" stroke="#555" stroke-width="1.2"/><line x1="225.0" y1="807" x2="225.0" y2="817" stroke="#555" stroke-width="1.2"/><line x1="689.8000000000001" y1="807" x2="689.8000000000001" y2="817" stroke="#555" stroke-width="1.2"/><text x="457.40000000000003" y="830" class="s c">cell 1660</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.5467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="457.40000000000003" y="493.2" class="s c b h">2 sliding glazed panels</text></g>
+<text x="870" y="150" class="s" text-anchor="start">top view of the front:</text>
+<line x1="880" y1="190" x2="1240" y2="190" stroke="#7a8a99" stroke-width="2" />
+<line x1="880" y1="200" x2="1240" y2="200" stroke="#7a8a99" stroke-width="2" />
+<rect x="880" y="198" width="190" height="6" fill="#4d7ea8"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-180 0;-180 0" keyTimes="0.0000;0.8467;0.9200;1.0000" dur="30s" repeatCount="indefinite" /><rect x="1050" y="186" width="190" height="6" fill="#4d7ea8"/></g>
+<text x="975" y="222" class="s c">panel A</text>
+<text x="1145" y="178" class="s c">panel B</text>
+<rect x="1242" y="180" width="12" height="22" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<text x="1262" y="196" class="s" text-anchor="start">lock</text>
+<rect x="870" y="260" width="150" height="50" fill="#eef1f4" stroke="#3a3f45" stroke-width="1.5" />
+<text x="945" y="280" class="s c b">door lock</text>
+<text x="945" y="298" class="s c">bolt in = locked</text>
+<rect x="870" y="340" width="150" height="50" fill="#eef1f4" stroke="#3a3f45" stroke-width="1.5" />
+<text x="945" y="360" class="s c b">reed contact</text>
+<text x="945" y="378" class="s c">panel closed</text>
+<rect x="1090" y="290" width="170" height="70" fill="#eef1f4" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1175" y="310" class="s c b">K1 + K2</text>
+<text x="1175" y="328" class="s c">force-guided relays</text>
+<rect x="1330" y="290" width="210" height="70" fill="#eef1f4" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1435" y="310" class="s c b">motor power</text>
+<text x="1435" y="328" class="s c">X Y Z roll T S</text>
+<line x1="1020" y1="285" x2="1090" y2="310" stroke="#3a3f45" stroke-width="2" />
+<line x1="1020" y1="365" x2="1090" y2="340" stroke="#3a3f45" stroke-width="2" />
+<line x1="1260" y1="325" x2="1330" y2="325" stroke="#3a3f45" stroke-width="3" />
+<rect x="1330" y="290" width="210" height="70" fill="none" stroke-width="5" stroke="#c9ced4"><animate attributeName="stroke" values="#c9ced4;#c9ced4;#f28c28;#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.6200;0.6203;0.8000;0.8003;1.0000" dur="30s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<line x1="1260" y1="325" x2="1330" y2="325" stroke-width="4" stroke="#c9ced4"><animate attributeName="stroke" values="#c9ced4;#c9ced4;#f28c28;#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.6200;0.6203;0.8000;0.8003;1.0000" dur="30s" repeatCount="indefinite" calcMode="discrete"/></line>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6200;0.8000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1435" y="385" class="m b c" style="fill:#f28c28">ON — the hand may move</text></g>
+<g opacity="0"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.6200;0.8000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1435" y="385" class="m b c" style="fill:#7a8087">OFF</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5867;0.8400" dur="30s" repeatCount="indefinite" calcMode="discrete"/><circle cx="1030" cy="275" r="6" fill="#5aa05a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5800;0.8467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><circle cx="1030" cy="355" r="6" fill="#5aa05a" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5333;0.6200" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1210" y="440" class="m c">panel shut → bolt in → reed closed → relays pull in</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6200;0.8000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1210" y="440" class="m c">both channels closed: motors powered</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8000;0.8467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1210" y="440" class="m c">open request: relays drop first, the hand stops</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="1210" y="440" class="m c">then the bolt releases and the panel slides</text></g>
+<text x="1210" y="476" class="s c">EN 60335 household level instead of machinery practice — risk K4, to be assessed</text>
+<rect x="948" y="544" width="12" height="276" fill="#aab4be" stroke="#3a3f45" stroke-width="1.2" />
+<text x="954" y="544" class="s c"></text>
+<rect x="960" y="544" width="4" height="75" fill="#e6d9bf" stroke="#3a3f45" stroke-width="1" />
+<rect x="960" y="619" width="4" height="163.5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" />
+<path d="M964.0 782.5 L964.0 793.0 L975.0 793.0 L975.0 784.0" fill="none" stroke="#6f8aa5" stroke-width="3" />
+<rect x="978" y="763" width="6" height="30" fill="#c9d3dc" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="978" y="784" width="192" height="9" fill="#c9d3dc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1035" y="751" width="80" height="33" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1075" y="745" class="s c">pan</text>
+<g><animate attributeName="opacity" values="1;1" keyTimes="0.0000;1.0000" dur="30s" repeatCount="indefinite"/><circle r="3.5" fill="#4aa3df"><animate attributeName="cx" values="1045.0;968.0;968.0;967.5" keyTimes="0;0.3;0.85;1" dur="3s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="751.0;709.0;782.5;790.0" keyTimes="0;0.3;0.85;1" dur="3s" begin="0s" repeatCount="indefinite"/></circle><circle r="3.5" fill="#4aa3df"><animate attributeName="cx" values="1045.0;968.0;968.0;967.5" keyTimes="0;0.3;0.85;1" dur="3s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="751.0;709.0;782.5;790.0" keyTimes="0;0.3;0.85;1" dur="3s" begin="1s" repeatCount="indefinite"/></circle><circle r="3.5" fill="#4aa3df"><animate attributeName="cx" values="1045.0;968.0;968.0;967.5" keyTimes="0;0.3;0.85;1" dur="3s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="751.0;709.0;782.5;790.0" keyTimes="0;0.3;0.85;1" dur="3s" begin="2s" repeatCount="indefinite"/></circle></g>
+<line x1="920" y1="619" x2="1290" y2="619" stroke="#999" stroke-width="1" stroke-dasharray="5 4"/>
+<path d="M960.6 574.0 L1236 586 L1250 586" fill="none" stroke="#777" stroke-width="1" />
+<text x="1254" y="590" class="s">HPL above the splash zone (edges sealed)</text>
+<path d="M1290.0 619.0 L1236 636 L1250 636" fill="none" stroke="#777" stroke-width="1" />
+<text x="1254" y="640" class="s">z 1450: end of the splash zone</text>
+<path d="M960.6 679.0 L1236 686 L1250 686" fill="none" stroke="#777" stroke-width="1" />
+<text x="1254" y="690" class="s">back liner 1.0 mm stainless</text>
+<path d="M967.5 791.5 L1236 736 L1250 736" fill="none" stroke="#777" stroke-width="1" />
+<text x="1254" y="740" class="s">bent gutter drains to the sink</text>
+<path d="M1080.0 787.0 L1236 786 L1250 786" fill="none" stroke="#777" stroke-width="1" />
+<text x="1254" y="790" class="s">table top 1–1.2 mm on a stiffener frame</text>
+<text x="1254" y="824" class="s b">risk K8: deck flat to ±1 mm?</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan> A bought Gastro stainless work table (≈ 1700 × 600, €190) is the deck and the under-deck frame</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1333;0.2667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan> A 40 × 40 aluminium profile frame carries the ceiling panel and the X box of the gantry</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2667;0.4000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan> Stainless liners only where it splashes (to z 1450), cheap HPL panels above</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4000;0.5333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan> An IKEA wall carcass with a stainless tray becomes the tool cabinet; IKEA fronts close the under-deck</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5333;0.8000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan> Two sliding glazed panels close the front; a washing-machine door lock and a reed contact enable the motors</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan> To open: the relays cut motor power first, then the lock releases and panel B slides behind panel A</text></g>
+</svg>

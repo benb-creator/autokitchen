@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K10-W whole machine. Source: K10-two-thousand.md section 7 (7.1-7.4: K10-W1 one carriage + hoist, K10-W2 two carriages, hatches, storage add-on BOM, whole machine compared). Main front view at 0.215 px/mm. Simplest readings: freezer X 0-600, fridge 600-1200, ambient 1200-1800 as in the 7.2 sketch; freezer boxes drawn 200 mm tall (6 per stack, 2 x 2 stacks = 24), the hatch lid is drawn hinged at its left end in the front view (really along the rear edge); the hoist hangs beside the drop link; the target box is the second from the top of a stack. W2 strip is schematic (heights compressed). Hatch and toggle gripper close-ups are illustrative of the storage-round passive toggle gripper and the 7.2 hatch description. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K10-W  ONE RAIL FOR STORAGE AND COOKING — dig boxes from the top</text>
+<text x="24" y="58" class="m">The cell's X axis runs 3.6 m; a hoist on the hand digs lidded boxes from top-opened stores.</text>
+<text x="1576" y="28" class="s r b">W1: one carriage, 5th motor = hoist · storage modules end at z ≈ 1350</text>
+<text x="1576" y="47" class="s r">freezer 2 × 2 stacks ≈ 24 boxes · fridge ≈ 30–32 · ambient 3 × 3 ≈ 80–90</text>
+<text x="1576" y="66" class="s r">top box ≈ 15–20 s · deep box: minutes unless pre-dug from the menu plan</text>
+<text x="1576" y="85" class="s r">storage handling €820 (W1) / €1,100 (W2) instead of €4,435 + gallery</text>
+<rect x="30" y="100" width="870" height="530" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"></rect>
+<text x="42" y="122" class="s b">K10-W1, FRONT VIEW of the whole machine (fronts and OEM doors removed)</text>
+<rect x="920" y="100" width="650" height="530" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"></rect>
+<text x="932" y="122" class="s b">HATCH and TOGGLE GRIPPER</text>
+<rect x="30" y="640" width="870" height="200" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#c9ced4;#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.6111;0.8056;1.0000" dur="36s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="1.5;4;1.5;1.5" keyTimes="0.0000;0.6111;0.8056;1.0000" dur="36s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="42" y="662" class="s b">K10-W2: a second small carriage on the same rails</text>
+<rect x="920" y="640" width="650" height="200" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#c9ced4;#f28c28;#c9ced4" keyTimes="0.0000;0.8056;1.0000" dur="36s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="1.5;4;1.5" keyTimes="0.0000;0.8056;1.0000" dur="36s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="932" y="662" class="s b">MACHINE PART, € (one-unit prices)</text>
+<rect x="60" y="137" width="774" height="473" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2" />
+<rect x="60" y="137" width="774" height="43" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5" />
+<text x="447" y="165" class="s c">X box: ONE rail pair over 3.6 m (dry cover over storage)</text>
+<line x1="60" y1="298.25" x2="447" y2="298.25" stroke="#999" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="253.5" y="233.75" class="s c">arm corridor over storage (arm z 1900–2000)</text>
+<rect x="60" y="584.2" width="774" height="25.8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<rect x="60" y="319.75" width="129" height="264.45" fill="#d6e4f0" stroke="#3a3f45" stroke-width="2" />
+<rect x="189" y="319.75" width="129" height="264.45" fill="#e3edf5" stroke="#3a3f45" stroke-width="2" />
+<rect x="318" y="319.75" width="129" height="264.45" fill="#e9ecef" stroke="#3a3f45" stroke-width="2" />
+<text x="124.5" y="609.75" class="s"></text>
+<rect x="202.975" y="545.5" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="513.25" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="481" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="448.75" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="416.5" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="384.25" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="352" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="202.975" y="319.75" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="545.5" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="513.25" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="481" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="448.75" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="416.5" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="384.25" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="352" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="267.475" y="319.75" width="36.55" height="32.25" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="551.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="525.075" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="498.2" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="471.325" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="444.45" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="417.575" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="390.7" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="363.825" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="322.3" y="336.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="551.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="525.075" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="498.2" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="471.325" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="444.45" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="417.575" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="390.7" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="363.825" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="365.3" y="336.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="551.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="525.075" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="498.2" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="471.325" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="444.45" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="417.575" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="390.7" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="363.825" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="408.3" y="336.95" width="34.4" height="25.8" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" />
+<rect x="72.9" y="534.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="72.9" y="491.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="72.9" y="448.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="72.9" y="405.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="128.8" y="534.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="128.8" y="491.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="128.8" y="448.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="128.8" y="405.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<rect x="128.8" y="362.75" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1" />
+<text x="124.5" y="578.2" class="s c h">2 × 2 stacks</text>
+<text x="253.5" y="578.2" class="s c h">2 × 2 stacks</text>
+<text x="382.5" y="578.2" class="s c h">3 × 3 stacks</text>
+<text x="124.5" y="341.75" class="s c b h">FREEZER</text>
+<text x="253.5" y="341.75" class="s c b h">FRIDGE</text>
+<text x="382.5" y="341.75" class="s c b h">AMBIENT</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 63.225 319.75;0 63.225 319.75;-70 63.225 319.75;-70 63.225 319.75;0 63.225 319.75;0 63.225 319.75" keyTimes="0.0000;0.0444;0.0833;0.3667;0.3944;1.0000" dur="36s" repeatCount="indefinite" /><rect x="63.225" y="314.75" width="122.55" height="6" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5" /></g>
+<rect x="192.225" y="314.75" width="122.55" height="6" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5" />
+<text x="382.5" y="311.75" class="s c">open top</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0833;0.3667" dur="36s" repeatCount="indefinite" calcMode="discrete"/><circle cx="66.45" cy="309.75" r="5" fill="#5aa05a" stroke="#3a3f45" stroke-width="1" /><text x="193.3" y="307.75" class="s" text-anchor="start">hatch latched open</text></g>
+<rect x="447" y="422.95" width="387" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<text x="640.5" y="452.95" class="s c">K10 cell: bay · domino · cooker · dishwasher</text>
+<rect x="447" y="287.5" width="55.9" height="4" fill="#aab2ba" stroke="#3a3f45" stroke-width="1" />
+<text x="474.95" y="305.5" class="s c">box shelf</text>
+<rect x="558.8" y="211.175" width="73.1" height="65.575" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="710.375" y="212.25" width="122.55" height="182.75" fill="#e6e9ec" stroke="#3a3f45" stroke-width="1.2" />
+<text x="771.65" y="309" class="s c">dishwasher</text>
+<rect x="515.8" y="218.7" width="21.5" height="6" fill="#aab2ba" stroke="#3a3f45" stroke-width="1" />
+<text x="526.55" y="212.7" class="s c">lid rack</text>
+<rect x="558.8" y="422.95" width="64.5" height="6" fill="#5d646b" stroke="#3a3f45" stroke-width="1" />
+<rect x="631.9" y="388.55" width="73.1" height="34.4" fill="#f4f4f4" stroke="#3a3f45" stroke-width="1" />
+<g><animateTransform attributeName="transform" type="translate" values="72.875 319.75;72.875 319.75;72.875 319.75;72.875 274.6;128.775 274.6;128.775 319.75;128.775 319.75;128.775 319.75" keyTimes="0.0000;0.1389;0.1389;0.1667;0.2000;0.2278;0.2389;1.0000" dur="36s" repeatCount="indefinite" /><rect x="0" y="0" width="36.55" height="43" fill="#eef2f7" stroke="#3a3f45" stroke-width="1.2" /></g>
+<g><animateTransform attributeName="transform" type="translate" values="72.875 362.75;72.875 362.75;72.875 362.75;72.875 266;72.875 257.4;456.65 231.6;456.65 244.5;456.65 244.5;456.65 244.5;72.875 362.75" keyTimes="0.0000;0.3167;0.3167;0.3500;0.3667;0.4583;0.4861;0.4944;0.9972;1.0000" dur="36s" repeatCount="indefinite" /><rect x="0" y="0" width="36.55" height="43" fill="#cfe3f5" stroke="#3a3f45" stroke-width="1.5" /><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -40;40 -40;40 -30;40 -30" keyTimes="0.0000;0.5167;0.5389;0.5667;0.5778;1.0000" dur="36s" repeatCount="indefinite" /><rect x="0" y="-3" width="36.55" height="4" fill="#4d7ea8" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="494.5 0;31.175 0;31.175 0;31.175 0;31.175 0;31.175 0;87.075 0;87.075 0;87.075 0;87.075 0;31.175 0;31.175 0;31.175 0;31.175 0;31.175 0;414.95 0;414.95 0;414.95 0;414.95 0;494.5 0;494.5 0" keyTimes="0.0000;0.0389;0.1000;0.1278;0.1389;0.1667;0.2000;0.2278;0.2389;0.2611;0.2833;0.3056;0.3167;0.3500;0.3667;0.4583;0.4861;0.4944;0.5167;0.5833;1.0000" dur="36s" repeatCount="indefinite" /><rect x="50" y="169.25" width="20" height="12" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="57" y="171.4" width="6" height="19.05" fill="#c4cad1" stroke="#3a3f45" stroke-width="1" /><rect x="46" y="188.6" width="28" height="10" fill="#f5c08a" stroke="#3a3f45" stroke-width="1" /><line x1="70" y1="189.675" x2="70" y2="244.5" stroke="#3a3f45" stroke-width="3" /><rect x="64" y="244.5" width="14" height="10" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="52" cy="191.825" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><rect x="51.0" y="191.825" width="2" height="10" fill="#3a3f45"><animate attributeName="height" values="61.575;61.575;61.575;123.925;123.925;78.775;78.775;123.925;123.925;78.775;78.775;166.925;166.925;70.175;61.575;35.775;48.675;48.675;35.775;61.575;61.575" keyTimes="0.0000;0.0389;0.1000;0.1278;0.1389;0.1667;0.2000;0.2278;0.2389;0.2611;0.2833;0.3056;0.3167;0.3500;0.3667;0.4583;0.4861;0.4944;0.5167;0.5833;1.0000" dur="36s" repeatCount="indefinite"/></rect><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 62.35;0 62.35;0 17.2;0 17.2;0 62.35;0 62.35;0 17.2;0 17.2;0 105.35;0 105.35;0 8.6;0 0;0 -25.8;0 -12.9;0 -12.9;0 -25.8;0 0;0 0" keyTimes="0.0000;0.0389;0.1000;0.1278;0.1389;0.1667;0.2000;0.2278;0.2389;0.2611;0.2833;0.3056;0.3167;0.3500;0.3667;0.4583;0.4861;0.4944;0.5167;0.5833;1.0000" dur="36s" repeatCount="indefinite" /><rect x="38" y="253.4" width="28" height="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5167;0.5833" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="490" y="240" class="s c b h">suction-cup stem tool: lid to the rack</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1389;0.3056" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="543.75" y="352" class="s c b h">digging: top box to the other stack</text></g>
+<text x="124.5" y="626" class="s c">freezer ≈ 24</text>
+<text x="253.5" y="626" class="s c">fridge ≈ 30–32</text>
+<text x="382.5" y="626" class="s c">ambient ≈ 80–90</text>
+<text x="1090" y="150" class="s c b">cold-shell hatch (side section)</text>
+<rect x="960" y="380" width="280" height="14" fill="#d6e4f0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="960" y="394" width="14" height="120" fill="#d6e4f0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1226" y="394" width="14" height="120" fill="#d6e4f0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="974" y="394" width="252" height="120" fill="#eef5fb" stroke="#3a3f45" stroke-width="1" />
+<g><animateTransform attributeName="transform" type="rotate" values="0 966 376;0 966 376;-40 966 376;-40 966 376;0 966 376;0 966 376" keyTimes="0.0000;0.0444;0.0833;0.3667;0.3944;1.0000" dur="36s" repeatCount="indefinite" /><rect x="966" y="370" width="262" height="10" fill="#9fb3c6" stroke="#3a3f45" stroke-width="1.5" /><rect x="1190" y="379" width="36" height="4" fill="#6b4c8a" stroke="#3a3f45" stroke-width="0" /></g>
+<circle cx="966" cy="376" r="5" fill="#3a3f45" stroke="#3a3f45" stroke-width="0" />
+<path d="M990 380 l4 -6 l4 6 l4 -6 l4 6" fill="none" stroke="#777" stroke-width="1.5" />
+<text x="970" y="420" class="s" text-anchor="start">hinge + spring</text>
+<rect x="1080" y="158" width="26" height="34" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.2" />
+<text x="1116" y="175" class="s" text-anchor="start">solenoid latch (€10)</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0833;0.3667" dur="36s" repeatCount="indefinite" calcMode="discrete"/><circle cx="1093" cy="200" r="5" fill="#5aa05a" stroke="#3a3f45" stroke-width="1" /><text x="1116" y="193" class="s" text-anchor="start">holds the lid open</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3667;0.3944" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="1116" y="193" class="s b" text-anchor="start">released: spring shuts it</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0389;0.0889" dur="36s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-59 -158;-59 -158" keyTimes="0.0000;0.0389;0.0444;0.0833;1.0000" dur="36s" repeatCount="indefinite" /><line x1="1226" y1="366" x2="1226" y2="290" stroke="#555" stroke-width="3" /><path d="M1226 366 l-8 0" fill="none" stroke="#555" stroke-width="3" /><rect x="1216" y="276" width="20" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /></g></g>
+<text x="1100" y="540" class="s c">magnetic gasket (purple) seals it shut;</text>
+<text x="1100" y="558" class="s c">the hook rod opens it — no hatch motor;</text>
+<text x="1100" y="576" class="s c">the latch releases on power loss</text>
+<text x="1420" y="150" class="s c b">passive toggle gripper</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -60;0 -60;0 0;0 0;0 -60;0 -60;0 0;0 0" keyTimes="0.0000;0.1389;0.1667;0.2222;0.2333;0.3167;0.3444;0.4806;0.4917;1.0000" dur="36s" repeatCount="indefinite" /><rect x="1330" y="370" width="180" height="90" fill="#cfe3f5" stroke="#3a3f45" stroke-width="1.5" /><rect x="1320" y="366" width="200" height="8" fill="#4d7ea8" stroke="#3a3f45" stroke-width="1" /><text x="1420" y="420" class="s c">lidded box</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 60;0 60;0 0;0 0;0 60;0 60;0 0;0 0;0 60;0 60;0 0;0 0;0 60;0 60;0 0;0 0" keyTimes="0.0000;0.1222;0.1333;0.1444;0.1667;0.2222;0.2306;0.2389;0.2556;0.3000;0.3111;0.3222;0.3444;0.4806;0.4889;0.4972;0.5111;1.0000" dur="36s" repeatCount="indefinite" /><line x1="1420" y1="180" x2="1420" y2="290" stroke="#3a3f45" stroke-width="2" /><rect x="1310" y="290" width="220" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g><animateTransform attributeName="transform" type="rotate" values="30 1316 304;30 1316 304;0 1316 304;0 1316 304;30 1316 304;30 1316 304;0 1316 304;0 1316 304;30 1316 304;30 1316 304" keyTimes="0.0000;0.1333;0.1389;0.2333;0.2389;0.3111;0.3167;0.4917;0.4972;1.0000" dur="36s" repeatCount="indefinite" /><path d="M1316 304 L1316 314 L1328 314" fill="none" stroke="#3a3f45" stroke-width="4" /></g><g><animateTransform attributeName="transform" type="rotate" values="-30 1524 304;-30 1524 304;0 1524 304;0 1524 304;-30 1524 304;-30 1524 304;0 1524 304;0 1524 304;-30 1524 304;-30 1524 304" keyTimes="0.0000;0.1333;0.1389;0.2333;0.2389;0.3111;0.3167;0.4917;0.4972;1.0000" dur="36s" repeatCount="indefinite" /><path d="M1524 304 L1524 314 L1512 314" fill="none" stroke="#3a3f45" stroke-width="4" /></g></g>
+<text x="1420" y="500" class="s c">first touch: the hooks snap under</text>
+<text x="1420" y="518" class="s c">the long-side rims; second touch:</text>
+<text x="1420" y="536" class="s c">they open. No motor in the gripper.</text>
+<text x="1420" y="566" class="s c b">hoist: NEMA 17 spool + Dyneema line</text>
+<rect x="60" y="668" width="720" height="14" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2" />
+<text x="786" y="680" class="s" text-anchor="start">rails</text>
+<rect x="60" y="700" width="120" height="110" fill="#d6e4f0" stroke="#3a3f45" stroke-width="1.5" />
+<text x="120" y="760" class="s c">freezer</text>
+<rect x="180" y="700" width="120" height="110" fill="#e3edf5" stroke="#3a3f45" stroke-width="1.5" />
+<text x="240" y="760" class="s c">fridge</text>
+<rect x="300" y="700" width="120" height="110" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5" />
+<text x="360" y="760" class="s c">ambient</text>
+<rect x="420" y="790" width="360" height="6" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1" />
+<rect x="420" y="740" width="52" height="4" fill="#aab2ba" stroke="#3a3f45" stroke-width="1" />
+<text x="600" y="770" class="s c">cell (full-height storage kept)</text>
+<g><animateTransform attributeName="transform" type="translate" values="60 0;60 0;60 0;380 0;380 0;180 0;180 0;380 0;380 0;300 0;300 0;380 0;380 0;120 0;120 0;380 0;380 0;60 0;60 0" keyTimes="0.0000;0.0556;0.1111;0.1667;0.1944;0.2500;0.2778;0.3333;0.3611;0.4167;0.4444;0.5000;0.5278;0.6111;0.6389;0.7083;0.7361;0.8056;1.0000" dur="36s" repeatCount="indefinite" /><rect x="46" y="664" width="28" height="22" fill="#4d7ea8" stroke="#3a3f45" stroke-width="1.2" /><line x1="60" y1="686" x2="60" y2="712" stroke="#3a3f45" stroke-width="2" /><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0;0;0" keyTimes="0.0000;0.0556;0.1111;0.1667;0.1944;0.2500;0.2778;0.3333;0.3611;0.4167;0.4444;0.5000;0.5278;0.6111;0.6389;0.7083;0.7361;0.8056;1.0000" dur="36s" repeatCount="indefinite" calcMode="discrete"/><rect x="48" y="712" width="24" height="16" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="520 0;600 0;480 0;560 0;500 0;620 0;520 0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333;1.0000" dur="36s" repeatCount="indefinite" /><rect x="46" y="664" width="28" height="22" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><line x1="60" y1="686" x2="60" y2="730" stroke="#3a3f45" stroke-width="3" /></g>
+<text x="60" y="830" class="s">blue: storage carriage (X belt, short Y, hoist; ≈ €300) → box shelf</text>
+<text x="880" y="830" class="s r">orange: cell carriage cooks</text>
+<text x="940" y="690" class="s b">storage handling</text>
+<rect x="1110" y="696" width="246.75" height="13" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="708" class="s r">storage round + gallery</text>
+<text x="1362.75" y="708" class="s">€4,935</text>
+<rect x="1110" y="712" width="55" height="13" fill="#4d7ea8" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="724" class="s r">K10-W2</text>
+<text x="1171.0" y="724" class="s">€1,100</text>
+<rect x="1110" y="728" width="41" height="13" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="740" class="s r">K10-W1</text>
+<text x="1157.0" y="740" class="s">€820</text>
+<text x="940" y="756" class="s b">whole machine</text>
+<rect x="1110" y="762" width="372.5" height="13" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="774" class="s r">storage round + K10 cell</text>
+<text x="1488.5" y="774" class="s">€7,450</text>
+<rect x="1110" y="778" width="179.25" height="13" fill="#4d7ea8" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="790" class="s r">K10-W2</text>
+<text x="1295.25" y="790" class="s">€3,585</text>
+<rect x="1110" y="794" width="165.25" height="13" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="806" class="s r">K10-W1</text>
+<text x="1281.25" y="806" class="s">€3,305</text>
+<rect x="1110" y="810" width="151.75" height="13" fill="#c0602a" stroke="#3a3f45" stroke-width="1" />
+<text x="1104" y="822" class="s r">W1 + cell cuts (K10-L)</text>
+<text x="1267.75" y="822" class="s">€3,035</text>
+<line x1="1210" y1="676" x2="1210" y2="834" stroke="#e04a3a" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="1214" y="672" class="s b" style="fill:#e04a3a" text-anchor="start">€2 k target</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1389" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan> The hand runs along the same rail to the freezer; its hook rod lifts the hatch lid and a solenoid latches it open</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1389;0.3056" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan> Digging: the hoist's toggle gripper moves the box on top to the neighbouring stack</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3056;0.4444" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan> The wanted box is lifted out through the hatch; the latch releases and the spring shuts the hatch</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4444;0.6111" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan> Along the same rail to the cell's box shelf; a suction-cup stem tool parks the box lid in the lid rack</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6111;0.8056" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan> Variant W2: a small second carriage on the same rails digs while the cell carriage cooks; storage stays full height</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8056" dur="36s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan> Result: whole machine ≈ €3.0–3.6 k instead of ≈ €7.5 k; €2 k for the whole machine at 93 % was not found</text></g>
+</svg>

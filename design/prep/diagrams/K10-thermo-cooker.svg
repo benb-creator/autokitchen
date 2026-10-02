@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K10 thermo-cooker. Source: K10-two-thousand.md sections 1 (result), 3.2-3.5 (Thermo-cooker station, hand limits), 3.6 (example meal), 6 (boil-clean). Front section at 0.7 px/mm (cell X 560-1440), top view of the lid at 1 px/mm. Simplest readings: the lid lever is a clamped bar with a vertical pin at about 130 mm radius; unlocking turns the lid by about 30 deg; the lid is parked on the deck while the jug is out; the boil-clean water is brought in a pot from the sink spout (boiler water). Cooker proportions are generic (Mambo class), not measured. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K10  THERMO-COOKER — a bought €219 cooker replaces hub, coil and press cup</text>
+<text x="24" y="58" class="m">Chops, weighs, heats, stirs, kneads and steams by itself; the hand only fills it, opens it and lifts the jug.</text>
+<text x="1576" y="28" class="s r b">Cecotec Mambo class: 2.3 L usable, ≤ 120 °C [U], scale, blade, paddle</text>
+<text x="1576" y="47" class="s r">in a drained GN 1/1-200 pocket: top z ≈ 1030, under the open DW door</text>
+<text x="1576" y="66" class="s r">full jug ≈ 3.5 kg (hand ≤ 4 kg) · lid opened by an XY-arc push</text>
+<text x="1576" y="85" class="s r">boil-clean in place: ≈ 100 °C, high speed, 3 min → A0 ≫ 600</text>
+<rect x="30" y="100" width="750" height="740" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="42" y="122" class="s b">FRONT SECTION through the cooker station</text>
+<rect x="800" y="100" width="770" height="400" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="812" y="122" class="s b">TOP VIEW: the hand cannot yaw, so X and Y push the lid lever along an arc</text>
+<rect x="800" y="510" width="770" height="330" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="812" y="532" class="s b">WHAT THE COOKER DOES IN K10</text>
+<rect x="60" y="647.5" width="191.25" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="513.75" y="647.5" width="45" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="60" y="655.5" width="165" height="40" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2" />
+<text x="127.5" y="679.5" class="s c">domino (idle)</text>
+<rect x="528.75" y="130" width="30" height="420" fill="#e6e9ec" stroke="#3a3f45" stroke-width="1.5" />
+<text x="522.75" y="175" class="s r">dish-</text>
+<text x="522.75" y="193" class="s r">washer →</text>
+<line x1="60" y1="505" x2="528.75" y2="505" stroke="#777" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="67.5" y="499" class="s" text-anchor="start">open DW door lies here (z 1060)</text>
+<path d="M251.25 647.5 L251.25 797.5 L513.75 797.5 L513.75 647.5" fill="#eef1f4" stroke="#3a3f45" stroke-width="2.5" />
+<line x1="382.5" y1="797.5" x2="382.5" y2="820" stroke="#9fb3c6" stroke-width="4" />
+<text x="390.5" y="812.5" class="s" text-anchor="start">pocket drain</text>
+<rect x="262.5" y="621.25" width="240" height="161.25" fill="#f4f4f4" stroke="#3a3f45" stroke-width="2" />
+<rect x="472.5" y="640" width="22.5" height="90" fill="#e0e0e0" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="322.5" y="722.5" width="112.5" height="5" fill="#ccc"><animate attributeName="fill" values="#ccc;#ccc;#e04a3a;#e04a3a;#ccc;#ccc;#e04a3a;#e04a3a;#ccc;#ccc" keyTimes="0.0000;0.2812;0.2938;0.4688;0.4813;0.8313;0.8438;0.9375;0.9500;1.0000" dur="32s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -150;-260 -150;-260 -150;0 0;0 0" keyTimes="0.0000;0.6250;0.6562;0.6875;0.7250;0.7500;1.0000" dur="32s" repeatCount="indefinite" /><g><animateTransform attributeName="transform" type="rotate" values="0 453.75 580;0 453.75 580;-105 453.75 580;0 453.75 580;0 453.75 580" keyTimes="0.0000;0.6875;0.7063;0.7250;1.0000" dur="32s" repeatCount="indefinite" /><path d="M315.0 550.0 L322.5 718.75 L435.0 718.75 L442.5 550.0" fill="#e3ebf2" stroke="#3a3f45" stroke-width="2.5" /><rect x="442.5" y="561.25" width="12" height="60" fill="#ddd" stroke="#3a3f45" stroke-width="1.5" /><rect x="451.75" y="574" width="12" height="12" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" /><rect x="324.0" y="700.0" width="109.5" height="16" fill="#c0602a" opacity="0.85"><animate attributeName="height" values="0.1;24.0;66.0;66.0;0.1;0.1;42.0;42.0;0.1;0.1" keyTimes="0.0000;0.1562;0.2656;0.5938;0.6094;0.7688;0.8000;0.9375;0.9688;1.0000" dur="32s" repeatCount="indefinite"/><animate attributeName="y" values="715.0;691.0;649.0;649.0;715.0;715.0;673.0;673.0;715.0;715.0" keyTimes="0.0000;0.1562;0.2656;0.5938;0.6094;0.7688;0.8000;0.9375;0.9688;1.0000" dur="32s" repeatCount="indefinite"/></rect><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7875;0.9688" dur="32s" repeatCount="indefinite" calcMode="discrete"/><rect x="324.0" y="670.0" width="109.5" height="45.0" fill="#4aa3df" opacity="0.6"/></g><g transform="translate(378.75 707.5)"><g><animateTransform attributeName="transform" type="scale" values="1 1;0.1 1;-1 1;0.1 1;1 1" dur="0.25s" repeatCount="indefinite"/><rect x="-40" y="-3" width="80" height="6" fill="#555" stroke="#3a3f45" stroke-width="1" /></g></g></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.1562;0.2812;0.8438;0.9375" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="378.75" y="745" class="s c b h">blade fast</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2812;0.4688" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="378.75" y="745" class="s c b h">paddle stirs</text></g>
+<rect x="83.75" y="380" width="180" height="4" fill="#aab2ba" stroke="#3a3f45" stroke-width="1" />
+<text x="170" y="400" class="s c">lid rest</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -120;-190 -175;-190 -170;-190 -170;-190 -175;0 -120;0 0;0 0" keyTimes="0.0000;0.5312;0.5563;0.5875;0.6000;0.7500;0.7625;0.7875;0.8000;1.0000" dur="32s" repeatCount="indefinite" /><rect x="307.5" y="538.75" width="142.5" height="11.25" fill="#e9ecef" stroke="#3a3f45" stroke-width="2" /><path d="M348.75 501.25 L360.0 538.75 L397.5 538.75 L408.75 501.25" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><rect x="277.5" y="531.25" width="33.75" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="273.5" y="513.25" width="8" height="18" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.3125;0.4688;0.8594;0.9375" dur="32s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -60" keyTimes="0.0000;1.0000" dur="32s" repeatCount="indefinite" /><path d="M371.25 486.25 q6 -12 0 -24 q-6 -12 0 -24 M386.25 486.25 q6 -12 0 -24 q-6 -12 0 -24" fill="none" stroke="#aaa" stroke-width="2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5938;0.7812" dur="32s" repeatCount="indefinite" calcMode="discrete"/><rect x="60" y="601.5" width="132" height="46" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><text x="127.5" y="591.5" class="s c">serving GN 1/3</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7125;0.7812" dur="32s" repeatCount="indefinite" calcMode="discrete"/><rect x="63.75" y="617.5" width="124.5" height="28" fill="#c0602a" stroke="#3a3f45" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0688;0.1250" dur="32s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 -30;0 -30;0 30;0 -30;0 30;0 30" keyTimes="0.0000;0.0688;0.0938;0.0941;0.1250;1.0000" dur="32s" repeatCount="indefinite" /><circle cx="375" cy="467.5" r="4" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="383" cy="477.5" r="4" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="391" cy="487.5" r="4" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="375" cy="497.5" r="4" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.8063;0.8375" dur="32s" repeatCount="indefinite" calcMode="discrete"/><line x1="378.75" y1="437.5" x2="378.75" y2="527.5" stroke="#4aa3df" stroke-width="6" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7031;0.7250" dur="32s" repeatCount="indefinite" calcMode="discrete"/><line x1="180" y1="512.5" x2="165" y2="625" stroke="#c0602a" stroke-width="7" /></g>
+<clipPath id="fv"><rect x="30" y="130" width="750" height="710"/></clipPath>
+<g clip-path="url(#fv)"><g><animateTransform attributeName="transform" type="translate" values="260 220;338.75 415;338.75 415;260 220;260 220;277.5 512.5;283.5 512.5;283.5 512.5;283.5 392.5;93.5 337.5;93.5 342.5;93.5 342.5;457.75 580;457.75 580;457.75 430;197.75 430;197.75 430;457.75 580;93.5 342.5;93.5 337.5;283.5 392.5;283.5 512.5;338.75 415;338.75 415;260 220;260 220" keyTimes="0.0000;0.0375;0.1125;0.1437;0.4688;0.4875;0.5250;0.5312;0.5563;0.5875;0.6000;0.6062;0.6219;0.6250;0.6562;0.6875;0.7250;0.7500;0.7531;0.7625;0.7875;0.8000;0.8031;0.8375;0.8625;1.0000" dur="32s" repeatCount="indefinite" /><rect x="-8" y="-160" width="16" height="10" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><line x1="0" y1="-150" x2="0" y2="-8" stroke="#3a3f45" stroke-width="4" /><rect x="-10" y="-8" width="20" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g><animateTransform attributeName="transform" type="rotate" values="0 0 0;0 0 0;115 0 0;115 0 0;0 0 0;0 0 0;100 0 0;100 0 0;0 0 0;0 0 0" keyTimes="0.0000;0.0437;0.0688;0.1062;0.1250;0.8031;0.8125;0.8313;0.8406;1.0000" dur="32s" repeatCount="indefinite" /><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1437" dur="32s" repeatCount="indefinite" calcMode="discrete"/><rect x="-62" y="8" width="123" height="42" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><circle cx="-40" cy="18" r="5" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="-22" cy="18" r="5" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="-4" cy="18" r="5" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="14" cy="18" r="5" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /><circle cx="32" cy="18" r="5" fill="#e8e0b0" stroke="#3a3f45" stroke-width="1" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7937;0.8625" dur="32s" repeatCount="indefinite" calcMode="discrete"/><rect x="-40" y="8" width="80" height="50" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><rect x="-37" y="20" width="74" height="36" fill="#4aa3df" stroke="#3a3f45" stroke-width="0" opacity="0.6"/></g></g></g></g>
+<path d="M408.75 512.5 L586 341 L592 341" fill="none" stroke="#777" stroke-width="1" />
+<text x="596" y="345" class="s h">funnel in the lid opening</text>
+<path d="M322.5 625.0 L586 391 L592 391" fill="none" stroke="#777" stroke-width="1" />
+<text x="596" y="395" class="s h">jug 2.3 L, blade at bottom</text>
+<path d="M463.75 580.0 L586 441 L592 441" fill="none" stroke="#777" stroke-width="1" />
+<text x="596" y="445" class="s h">handle with clamp-on stub</text>
+<path d="M472.5 662.5 L586 491 L592 491" fill="none" stroke="#777" stroke-width="1" />
+<text x="596" y="495" class="s h">base: motor, heater, scale</text>
+<path d="M513.75 775.0 L586 541 L592 541" fill="none" stroke="#777" stroke-width="1" />
+<text x="596" y="545" class="s h">drained GN pocket</text>
+<text x="420" y="150" class="s c">lever seat (presses, dicer) stands behind the cooker</text>
+<rect x="820" y="140" width="730" height="34" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<text x="1185" y="162" class="s c">mast lane (rear) — the arm always points straight forward (+y)</text>
+<rect x="970" y="185" width="240" height="230" fill="#f4f4f4" stroke="#3a3f45" stroke-width="1.5" />
+<circle cx="1090" cy="300" r="95" fill="#e9ecef" stroke="#3a3f45" stroke-width="2" />
+<circle cx="1090" cy="300" r="25" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<g><animateTransform attributeName="transform" type="rotate" values="0 1090 300;0 1090 300;-30 1090 300;-30 1090 300;-30 1090 300;-30 1090 300;0 1090 300;0 1090 300" keyTimes="0.0000;0.4781;0.5250;0.5437;0.5469;0.7625;0.8000;1.0000" dur="32s" repeatCount="indefinite" /><line x1="995" y1="300" x2="960" y2="300" stroke="#f28c28" stroke-width="8" /><circle cx="960" cy="300" r="7" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><rect x="990" y="294" width="14" height="12" fill="#3a3f45" stroke="#3a3f45" stroke-width="0" /></g>
+<path d="M960.0 300.0 A 130 130 0 0 1 977.4 365.0" fill="none" stroke="#f28c28" stroke-width="2" stroke-dasharray="5 4"/>
+<g><animateTransform attributeName="transform" type="translate" values="960 0;960 0;977.417 0;977.417 0;977.417 0;977.417 0;960 0;960 0" keyTimes="0.0000;0.4781;0.5250;0.5437;0.5469;0.7625;0.8000;1.0000" dur="32s" repeatCount="indefinite" /><rect x="-6" y="174" width="12" height="0" fill="#f5c08a" stroke="#3a3f45" stroke-width="1"><animate attributeName="height" values="116.0;116.0;181.0;181.0;181.0;181.0;116.0;116.0" keyTimes="0.0000;0.4781;0.5250;0.5437;0.5469;0.7625;0.8000;1.0000" dur="32s" repeatCount="indefinite"/></rect><rect x="-9" y="148" width="18" height="18" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="960 300;960 300;977.417 365;977.417 365;977.417 365;977.417 365;960 300;960 300" keyTimes="0.0000;0.4781;0.5250;0.5437;0.5469;0.7625;0.8000;1.0000" dur="32s" repeatCount="indefinite" /><circle cx="0" cy="0" r="11" fill="none" stroke="#f28c28" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.4781;0.5250;0.7625;0.8000" dur="32s" repeatCount="indefinite" calcMode="discrete"/><path d="M890 410 l60 0 m-8 -6 l8 6 l-8 6" fill="none" stroke="#f28c28" stroke-width="3" /><text x="920" y="432" class="s c b">X moves</text><path d="M860 260 l0 -40 m-6 8 l6 -8 l6 8" fill="none" stroke="#f28c28" stroke-width="3" /><text x="860" y="280" class="s c b">Y moves</text></g>
+<text x="1090" y="304" class="s c b">lid</text>
+<text x="1090" y="450" class="s c">funnel in the middle</text>
+<text x="1260" y="230" class="s">The roll axis cannot turn about a</text>
+<text x="1260" y="250" class="s">vertical axis (no yaw). To twist the</text>
+<text x="1260" y="270" class="s">lid open, the hand grips the pin of</text>
+<text x="1260" y="290" class="s">a clamped lever and drives X and Y</text>
+<text x="1260" y="310" class="s">together along the arc: about 30°.</text>
+<text x="1260" y="330" class="s"></text>
+<text x="1260" y="350" class="s">The same trick turns the board on</text>
+<text x="1260" y="370" class="s">its lazy susan by a peg.</text>
+<text x="830" y="560" class="s b">chop</text>
+<text x="960" y="560" class="s">carrot, celery, onion in 10 s (blade)</text>
+<text x="830" y="584" class="s b">weigh</text>
+<text x="960" y="584" class="s">its own scale doses the recipe</text>
+<text x="830" y="608" class="s b">heat + stir</text>
+<text x="960" y="608" class="s">Bolognese 45 min, stirred, hand free</text>
+<text x="830" y="632" class="s b">knead, steam</text>
+<text x="960" y="632" class="s">kneading paddle, two-level steamer</text>
+<text x="830" y="656" class="s b">serve</text>
+<text x="960" y="656" class="s">jug tipped or ladled into GN 1/3 dishes</text>
+<text x="830" y="680" class="s b">clean</text>
+<text x="960" y="680" class="s">boil-clean between raw and ready-to-eat use;</text>
+<text x="830" y="704" class="s b"></text>
+<text x="960" y="704" class="s">jug and lid into the dishwasher after the meal</text>
+<rect x="1310" y="540" width="240" height="130" fill="#fde3c8" stroke="#3a3f45" stroke-width="1.2" />
+<text x="1430" y="564" class="s c b">replaces from K9b/K9c:</text>
+<text x="1430" y="586" class="s c">heated hub (T + S),</text>
+<text x="1430" y="606" class="s c">ring coil, press cup,</text>
+<text x="1430" y="626" class="s c">S ware</text>
+<text x="1430" y="652" class="s c">≈ 15 min longer per meal</text>
+<text x="1430" y="700" class="s c">driven by K10's controller</text>
+<text x="1430" y="718" class="s c">through its own power board</text>
+<text x="1430" y="760" class="s c">risk: ≤ 120 °C and lid</text>
+<text x="1430" y="778" class="s c">model height [U]</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1562" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan> The hand tips diced onion from a GN 1/3 through the stainless funnel in the lid — the lid stays shut</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1562;0.2812" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan> The cooker's own blade chops in 10 s and its scale weighs; no machine motor involved</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2812;0.4688" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan> Simmer: the cooker heats (≤ 120 °C) and stirs for 45 min — the hand is free for other work</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4688;0.5938" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan> Lid unlocked by an XY-arc push on its lever pin, lifted by its stub and parked</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5938;0.7500" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan> The hand lifts the jug (≈ 3.5 kg) by its handle stub and tips the sauce into a serving GN</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7500" dur="32s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan> Jug and lid back; hot water + detergent in; ≈ 100 °C at high speed for 3 min: boil-clean in place</text></g>
+</svg>

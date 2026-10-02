@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K9c well. Source: K9c-design-to-cost.md sections 3.1 (Well), 4.1 item 4, 4.2, BOM lines M6.1, M9.1, M9.3, M9.4, WL1, WA6, risk K5. Front section (X/z) at 0.55 px/mm, side section (y/z) at 0.33 px/mm. Simplest readings: bent combs hold pans on edge in the old lower-basket level, the donor cutlery basket hangs at the right; the two fan-nozzle rows run along both side walls at the old upper-arm level; the final rinse comes from the 30 L hot store through a hot valve (K9b store kept in K9c, deleted only in round 2 R2-10); the lid = bench of K9b is drawn lifted straight up. Wash temperatures other than the 82 C rinse are not given in the document and are drawn qualitatively. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K9c  WELL — the donor dishwasher's own tub, opened at the top</text>
+<text x="24" y="58" class="m">A bought slim dishwasher stays whole under the deck; the hand loads it from above through a hole cut in its ceiling.</text>
+<text x="1576" y="28" class="s r b">well column 480 mm (K9b 550) · slim 45 cm dishwasher (€270–350)</text>
+<text x="1576" y="47" class="s r">mouth 400 × 440 cut into the tub ceiling · tub inside ≈ 400 × 500 × 550 [U]</text>
+<text x="1576" y="66" class="s r">machine part €205 (K9b welded tub €500): cut, collar, gasket, combs, nozzles</text>
+<text x="1576" y="85" class="s r">final rinse 82 °C / 60 s from the hot store · dried by the extraction fan</text>
+<rect x="30" y="100" width="870" height="740" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="42" y="122" class="s b">FRONT SECTION through the well column (oven above not shown)</text>
+<rect x="920" y="100" width="650" height="400" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="932" y="122" class="s b">SIDE SECTION: the dishwasher door stays shut</text>
+<rect x="920" y="510" width="650" height="330" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="932" y="532" class="s b">ONE WASH (qualitative)</text>
+<rect x="170" y="310.5" width="170" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="560" y="310.5" width="22" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="318" y1="311.5" x2="318" y2="790" stroke="#999" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="582" y1="130" x2="582" y2="790" stroke="#3a3f45" stroke-width="3" />
+<text x="220" y="301.5" class="s c">hub</text>
+<text x="588" y="150" class="s" text-anchor="start">right cell wall</text>
+<rect x="170" y="790" width="412" height="8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="326.25" y="322.5" width="247.5" height="440" fill="#e6e9ec" stroke="#3a3f45" stroke-width="2" />
+<rect x="340" y="328" width="220" height="379.5" fill="#eef5fb" stroke="#3a3f45" stroke-width="2" />
+<path d="M428.0 707.5 L428.0 732.25 L472.0 732.25 L472.0 707.5" fill="#dde6ee" stroke="#3a3f45" stroke-width="2" />
+<rect x="437.9" y="708.6" width="44.2" height="22" fill="#bfc8d0" stroke="#3a3f45" stroke-width="1.2" />
+<circle cx="450" cy="751.5" r="16" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<text x="450" y="756.5" class="s c">pump</text>
+<rect x="335.6" y="318.5" width="8" height="12" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1" />
+<rect x="560" y="318.5" width="8" height="12" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1" />
+<line x1="340" y1="318.5" x2="340" y2="328" stroke="#3a3f45" stroke-width="2" />
+<line x1="560" y1="318.5" x2="560" y2="328" stroke="#3a3f45" stroke-width="2" />
+<line x1="348.25" y1="652.5" x2="348.25" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="362.55" y1="652.5" x2="362.55" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="376.85" y1="652.5" x2="376.85" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="391.15" y1="652.5" x2="391.15" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="405.45" y1="652.5" x2="405.45" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="419.75" y1="652.5" x2="419.75" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="434.05" y1="652.5" x2="434.05" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="448.35" y1="652.5" x2="448.35" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="462.65" y1="652.5" x2="462.65" y2="608.5" stroke="#7a8a99" stroke-width="2.5" />
+<line x1="345.5" y1="652.5" x2="466.5" y2="652.5" stroke="#7a8a99" stroke-width="3" />
+<rect x="499.5" y="542.5" width="55" height="110" fill="none" stroke="#3a3f45" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="507.75" y1="614" x2="507.75" y2="526" stroke="#8fa8c0" stroke-width="4" />
+<line x1="524.25" y1="614" x2="524.25" y2="526" stroke="#8fa8c0" stroke-width="4" />
+<line x1="540.75" y1="614" x2="540.75" y2="526" stroke="#8fa8c0" stroke-width="4" />
+<rect x="362" y="498.5" width="9" height="154" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="389.5" y="498.5" width="9" height="154" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<circle cx="345.5" cy="372" r="8" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.5" />
+<circle cx="554.5" cy="372" r="8" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.5" />
+<g transform="translate(450 680.0)"><g><animate attributeName="opacity" values="1;1" keyTimes="0.0000;1.0000" dur="30s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="1 1;0.15 1;-1 1;0.15 1;1 1" dur="0.8s" repeatCount="indefinite"/><rect x="-90" y="-4" width="180" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /></g></g></g>
+<circle cx="450" cy="680" r="5" fill="#3a3f45" stroke="#3a3f45" stroke-width="0" />
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3600;0.5333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animate attributeName="stroke-dashoffset" values="0;-400" keyTimes="0.0000;1.0000" dur="30s" repeatCount="indefinite"/><line x1="348.25" y1="374.75" x2="367.5" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="392.25" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="417" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="441.75" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="532.5" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="507.75" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="483" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="458.25" y2="542.5" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="414" y1="674.5" x2="360" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="426" y1="674.5" x2="390" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="438" y1="674.5" x2="420" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="450" y1="674.5" x2="450" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="462" y1="674.5" x2="480" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="474" y1="674.5" x2="510" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="486" y1="674.5" x2="540" y2="460" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5333;0.7000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="348.25" y1="374.75" x2="367.5" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="392.25" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="417" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="348.25" y1="374.75" x2="441.75" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="532.5" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="507.75" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="483" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="551.75" y1="374.75" x2="458.25" y2="542.5" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="414" y1="674.5" x2="360" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="426" y1="674.5" x2="390" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="438" y1="674.5" x2="420" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="450" y1="674.5" x2="450" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="462" y1="674.5" x2="480" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="474" y1="674.5" x2="510" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="486" y1="674.5" x2="540" y2="460" stroke="#e04a3a" stroke-width="1.6" stroke-dasharray="5 5"/></g>
+<rect x="428.0" y="707.5" width="44.0" height="0" fill="#4aa3df"><animate attributeName="height" values="0;0;24;24;0;0" keyTimes="0.0000;0.3533;0.3800;0.6933;0.7267;1.0000" dur="30s" repeatCount="indefinite"/><animate attributeName="y" values="732.25;732.25;708.25;708.25;732.25;732.25" keyTimes="0.0000;0.3533;0.3800;0.6933;0.7267;1.0000" dur="30s" repeatCount="indefinite"/></rect>
+<rect x="640" y="482" width="130" height="110" fill="#f8e1dc" stroke="#3a3f45" stroke-width="1.5" />
+<text x="705" y="508" class="s c">30 L hot store</text>
+<text x="705" y="526" class="s c">85 °C (under the</text>
+<text x="705" y="544" class="s c">deck elsewhere)</text>
+<path d="M640 562.0 L583.75 562.0 L583.75 371.99999999999994 L558.9 371.99999999999994" fill="none" stroke="#9fb3c6" stroke-width="5"><animate attributeName="stroke" values="#9fb3c6;#9fb3c6;#e04a3a;#e04a3a;#9fb3c6;#9fb3c6" keyTimes="0.0000;0.5333;0.5337;0.7000;0.7003;1.0000" dur="30s" repeatCount="indefinite"/></path>
+<rect x="604" y="554" width="14" height="16" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<text x="705" y="612" class="s c">hot valve (orange)</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5333;0.7000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="450" y="438.0" class="l b c h" style="fill:#e04a3a">82 °C</text></g>
+<path d="M466 751.5 L593.0 751.5 L593.0 779.0" fill="none" stroke="#9fb3c6" stroke-width="3" />
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7000;0.7667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><path d="M582.0 743.5 l20 0 m-6 -5 l6 5 l-6 5" fill="none" stroke="#4aa3df" stroke-width="2.5" /><text x="615" y="777.5" class="s c">drain</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -120;0 -120;0 0;0 0;0 -14;0 -14;0 -120;0 -120;0 0;0 0" keyTimes="0.0000;0.0100;0.0433;0.3200;0.3500;0.7000;0.7200;0.8667;0.8867;0.9733;0.9983;1.0000" dur="30s" repeatCount="indefinite" /><rect x="331.75" y="303.5" width="236.5" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7200;0.8667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 40;0 40;0 -30;0 40;0 -30;0 -30" keyTimes="0.0000;0.7200;0.7933;0.7937;0.8667;1.0000" dur="30s" repeatCount="indefinite" /><path d="M390 460.0 q-10 -30 0 -60 q10 -30 0 -60" fill="none" stroke="#9fb3c6" stroke-width="2.5" /><path d="M384 348.0 l6 -8 l6 8" fill="none" stroke="#9fb3c6" stroke-width="2.5" /><path d="M450 460.0 q-10 -30 0 -60 q10 -30 0 -60" fill="none" stroke="#9fb3c6" stroke-width="2.5" /><path d="M444 348.0 l6 -8 l6 8" fill="none" stroke="#9fb3c6" stroke-width="2.5" /><path d="M510 460.0 q-10 -30 0 -60 q10 -30 0 -60" fill="none" stroke="#9fb3c6" stroke-width="2.5" /><path d="M504 348.0 l6 -8 l6 8" fill="none" stroke="#9fb3c6" stroke-width="2.5" /></g><text x="450" y="223.49999999999994" class="s c b h">lid ajar: extraction fan dries</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.1467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="413" y="484" width="9" height="154" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1467;0.9400" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="413.0" y="484.0" width="9" height="154.0" fill="#b9d7ee"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1467;0.5333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><circle cx="417" cy="502" r="3" fill="#a8743a" stroke="#3a3f45" stroke-width="0" /><circle cx="417" cy="522" r="3" fill="#a8743a" stroke="#3a3f45" stroke-width="0" /><circle cx="417" cy="542" r="3" fill="#a8743a" stroke="#3a3f45" stroke-width="0" /><circle cx="417" cy="562" r="3" fill="#a8743a" stroke="#3a3f45" stroke-width="0" /><circle cx="417" cy="582" r="3" fill="#a8743a" stroke="#3a3f45" stroke-width="0" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.2733" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="524.25" y1="407" x2="524.25" y2="495" stroke="#8fa8c0" stroke-width="4" /></g>
+<clipPath id="pc"><rect x="30" y="130" width="870" height="700"/></clipPath>
+<g clip-path="url(#pc)"><g><animateTransform attributeName="transform" type="translate" values="417 102.5;417 102.5;417 482;417 482;417 102.5;524.25 102.5;524.25 405;524.25 405;524.25 102.5;389.5 102.5;389.5 482;389.5 482;389.5 102.5;417 102.5" keyTimes="0.0000;0.0400;0.1400;0.1533;0.2000;0.2133;0.2667;0.2800;0.3200;0.8867;0.9267;0.9433;0.9933;1.0000" dur="30s" repeatCount="indefinite" /><line x1="0" y1="-300" x2="0" y2="-8" stroke="#3a3f45" stroke-width="4" /><rect x="-10" y="-12" width="20" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1467" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="-4" y="2" width="9" height="154" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2000;0.2733" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="0" y1="2" x2="0" y2="90" stroke="#8fa8c0" stroke-width="4" /></g><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.9400" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="-4" y="2" width="9" height="154" fill="#b9d7ee" stroke="#3a3f45" stroke-width="1.5" /></g></g></g>
+<path d="M331.75 305.49999999999994 L315.25 266 L300 266" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="270" class="s r h">lid = bench (K9b), lifted to load</text>
+<path d="M337.8 323.49999999999994 L315.25 341 L300 341" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="345" class="s r h">collar + gasket to the deck</text>
+<path d="M345.5 371.99999999999994 L315.25 391 L300 391" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="395" class="s r h">fan-nozzle row (old upper-arm feed)</text>
+<path d="M362.0 542.5 L315.25 496 L300 496" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="500" class="s r h">pans on edge in bent combs</text>
+<path d="M400.5 680.0 L315.25 616 L300 616" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="620" class="s r h">donor's lower spray arm</text>
+<path d="M428.0 724.0 L315.25 686 L300 686" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="690" class="s r h">donor tub, sump and filter</text>
+<path d="M439.0 751.5 L315.25 736 L300 736" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="740" class="s r h">donor's own pump and heater</text>
+<path d="M510.5 531.5 L315.25 556 L300 556" fill="none" stroke="#777" stroke-width="1" />
+<text x="296" y="560" class="s r h">donor cutlery basket: tools</text>
+<line x1="326.25" y1="815" x2="573.75" y2="815" stroke="#555" stroke-width="1.2"/><line x1="326.25" y1="810" x2="326.25" y2="820" stroke="#555" stroke-width="1.2"/><line x1="573.75" y1="810" x2="573.75" y2="820" stroke="#555" stroke-width="1.2"/><text x="450.0" y="833" class="s c">dishwasher 450</text>
+<line x1="340.0" y1="251.49999999999994" x2="560.0" y2="251.49999999999994" stroke="#555" stroke-width="1.2"/><line x1="340.0" y1="246.49999999999994" x2="340.0" y2="256.49999999999994" stroke="#555" stroke-width="1.2"/><line x1="560.0" y1="246.49999999999994" x2="560.0" y2="256.49999999999994" stroke="#555" stroke-width="1.2"/><text x="450.0" y="246.49999999999994" class="s c">mouth 400</text>
+<line x1="1000" y1="130" x2="1000" y2="470" stroke="#3a3f45" stroke-width="3" />
+<rect x="1000" y="181.9" width="198" height="6" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1000" y="470" width="198" height="5" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<rect x="1006.6" y="189.5" width="178.2" height="264" fill="#e6e9ec" stroke="#3a3f45" stroke-width="2" />
+<rect x="1013.2" y="192.8" width="155.1" height="227.7" fill="#eef5fb" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1184.8" y="189.5" width="9.9" height="264" fill="#cfd5db" stroke="#3a3f45" stroke-width="2" />
+<rect x="1186.8" y="305" width="6" height="30" fill="#999" stroke="#3a3f45" stroke-width="1" />
+<path d="M1194.7 453.5 A 264.0 264.0 0 0 1 1305.58 213.26" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<rect x="1125.4" y="420.5" width="39.6" height="13.2" fill="#bfc8d0" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="1023.1" y="175.9" width="148.5" height="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<line x1="1026.4" y1="182.9" x2="1026.4" y2="192.8" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="1171.6" y1="182.9" x2="1171.6" y2="192.8" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="1198" y1="182.9" x2="1198" y2="140" stroke="#777" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1204" y="160" class="s" text-anchor="start">glazed panel</text>
+<text x="995.38" y="300" class="s r">rear</text>
+<text x="995.38" y="316" class="s r">wall</text>
+<path d="M1099.0 174.89999999999998 L1300 196 L1316 196" fill="none" stroke="#777" stroke-width="1" />
+<text x="1320" y="200" class="s">mouth 440 deep (y)</text>
+<path d="M1189.75 272.0 L1300 246 L1316 246" fill="none" stroke="#777" stroke-width="1" />
+<text x="1320" y="250" class="s">door kept shut (latch fixed)</text>
+<path d="M1189.75 371.0 L1300 326 L1316 326" fill="none" stroke="#777" stroke-width="1" />
+<text x="1320" y="330" class="s">front service door to the filter</text>
+<path d="M1145.2 423.8 L1300 406 L1316 406" fill="none" stroke="#777" stroke-width="1" />
+<text x="1320" y="410" class="s">filter in the sump</text>
+<text x="1320" y="450" class="s">donor inlet valve fills it;</text>
+<text x="1320" y="468" class="s">its EN 1717 air gap reused</text>
+<text x="1300" y="230" class="s"></text>
+<line x1="990" y1="800" x2="1510" y2="800" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="990" y1="800" x2="990" y2="580" stroke="#3a3f45" stroke-width="1.5" />
+<text x="982" y="624.6" class="s r b">82 °C</text>
+<text x="982" y="805" class="s r">cold</text>
+<text x="1250" y="822" class="s c">time</text>
+<path d="M990.0 789.0 L1031.6 679.0 L1172.0 668.0 L1208.4 734.0 L1250.0 723.0 L1281.2 619.6 L1354.0 619.6 L1385.2 690.0 L1510.0 767.0" fill="none" stroke="#f28c28" stroke-width="3" />
+<line x1="990" y1="619.6" x2="1510" y2="619.6" stroke="#e04a3a" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="1094" y="656" class="s c b">wash</text>
+<text x="1229.2" y="711" class="s c b">rinse</text>
+<text x="1317.6" y="607.6" class="s c b">hot rinse, 60 s</text>
+<text x="1447.6" y="678" class="s c b">dry</text>
+<g><animateTransform attributeName="transform" type="translate" values="990 789;990 789;1208.4 734;1250 723;1354 619.6;1385.2 690;1510 767;1510 767" keyTimes="0.0000;0.3600;0.5333;0.5337;0.7000;0.7200;0.8667;1.0000" dur="30s" repeatCount="indefinite" /><circle cx="0" cy="0" r="7" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.5" /></g>
+<text x="1250" y="548" class="s c">logger on the coldest item checks the 82 °C / 60 s rinse</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/6</tspan> The lid (the bench) lifts; the hand lowers a dirty pan on edge through the 400 × 440 mouth into a bent comb</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1667;0.3333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/6</tspan> Tools go into the donor's own cutlery basket; the lid closes over the mouth</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3333;0.5333" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/6</tspan> Wash: the donor's pump drives its lower arm and two fan-nozzle rows on the old upper-arm feed</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5333;0.7000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/6</tspan> Hot rinse: the hot valve feeds 85 °C water from the store; every item sees 82 °C for 60 s</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7000;0.8667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">5/6</tspan> Drain; the lid stays ajar and the hob-extraction fan pulls cell air through the well to dry it</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">6/6</tspan> The hand lifts the clean pan out from above — the dishwasher's front door is never opened in use</text></g>
+</svg>

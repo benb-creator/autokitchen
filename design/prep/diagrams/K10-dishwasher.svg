@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K10 dishwasher. Source: K10-two-thousand.md sections 3.2, 3.3 (clearance rules), 3.5 (Dishwasher, Tool caddy), 3.6 (phases), 6 (hygiene). Front view at 0.5 px/mm (cell X 450-1800), top views at 0.3 px/mm. Simplest readings: the door is 650 mm long and hinges at X 1225, z 1060; the hook rod is held pointing up and catches the door top and the front edge of the lower rack; the rack slides onto the open door; the keys are bridged by opto-couplers wired in parallel to the dishwasher keys. Hand drawn schematically; the hook rod is drawn beside the drop link. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K10  DISHWASHER — bought, turned 90°, raised: washer and clean store</text>
+<text x="24" y="58" class="m">The only washer. The hand opens it with a hook rod; the door folds down inside the cell.</text>
+<text x="1576" y="28" class="s r b">slim 45 cm freestanding, 9 place settings, no 3rd level</text>
+<text x="1576" y="47" class="s r">body X 1225–1795, z 1000–1850 · door ≈ 650 mm</text>
+<text x="1576" y="66" class="s r">hygiene programme: ≥ 70 °C for ≥ 10 min → A0 ≥ 60 (K9b A0 ≥ 90)</text>
+<text x="1576" y="85" class="s r">used as bought: 0 machine actuators · keys pressed by opto-couplers</text>
+<rect x="30" y="100" width="750" height="740" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="42" y="122" class="s b">FRONT VIEW, right part of the cell (glazed panels removed)</text>
+<rect x="800" y="100" width="770" height="370" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="812" y="122" class="s b">WHY TURNED 90°: the door must open inside the 600 mm depth</text>
+<rect x="800" y="480" width="380" height="360" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="812" y="502" class="s b">HYGIENE PROGRAMME</text>
+<rect x="1190" y="480" width="380" height="360" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"/>
+<text x="1202" y="502" class="s b">KEYS PRESSED BY OPTO-COUPLERS</text>
+<rect x="60" y="745" width="675" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="735" y1="130" x2="735" y2="840" stroke="#3a3f45" stroke-width="3" />
+<rect x="60" y="180" width="675" height="50" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.5" />
+<text x="335" y="210" class="s c">X box (gantry)</text>
+<rect x="95" y="252.5" width="170" height="152.5" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<text x="180" y="274.5" class="s c b">mini oven</text>
+<text x="180" y="292.5" class="s c">25 L, door −X</text>
+<rect x="95" y="753" width="150" height="40" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<text x="170" y="777" class="s c">domino (idle)</text>
+<rect x="115" y="680" width="100" height="65" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="112.5" y="675" width="105" height="5" fill="#7a8a99" stroke="#3a3f45" stroke-width="1" />
+<rect x="265" y="745" width="170" height="90" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="275" y="665" width="150" height="170" fill="#f4f4f4" stroke="#3a3f45" stroke-width="2" />
+<text x="350" y="705" class="s c">thermo-</text>
+<text x="350" y="723" class="s c">cooker</text>
+<text x="350" y="815" class="s c">top z ≈ 1030</text>
+<rect x="447.5" y="680" width="285" height="65" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<text x="590" y="720" class="s c">raising frame</text>
+<rect x="447.5" y="255" width="285" height="425" fill="#e6e9ec" stroke="#3a3f45" stroke-width="2" />
+<rect x="455" y="265" width="270" height="400" fill="#eef5fb" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="447.5" y="255" width="8" height="70" fill="#c9d0d7" stroke="#3a3f45" stroke-width="1.2" />
+<circle cx="451.5" cy="280.0" r="5" fill="#ccc" stroke="#3a3f45" stroke-width="1"><animate attributeName="fill" values="#ccc;#ccc;#5aa05a;#5aa05a;#ccc;#ccc" keyTimes="0.0000;0.6133;0.6167;0.6533;0.6567;1.0000" dur="30s" repeatCount="indefinite" calcMode="discrete"/></circle>
+<rect x="465" y="380" width="250" height="75" fill="none" stroke="#3a3f45" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="590" y="424" class="s c">upper rack</text>
+<line x1="485" y1="470" x2="695" y2="470" stroke="#f28c28" stroke-width="3" />
+<line x1="485" y1="625" x2="695" y2="625" stroke="#f28c28" stroke-width="3" />
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6667;0.9000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animate attributeName="stroke-dashoffset" values="0;-300" keyTimes="0.0000;1.0000" dur="30s" repeatCount="indefinite"/><line x1="495" y1="625" x2="490" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="517" y1="625" x2="516" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="539" y1="625" x2="542" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="561" y1="625" x2="568" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="583" y1="625" x2="594" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="605" y1="625" x2="620" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="627" y1="625" x2="646" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="649" y1="625" x2="672" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="671" y1="625" x2="698" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="693" y1="625" x2="724" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="715" y1="625" x2="750" y2="505" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="495" y1="470" x2="490" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="517" y1="470" x2="516" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="539" y1="470" x2="542" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="561" y1="470" x2="568" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="583" y1="470" x2="594" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="605" y1="470" x2="620" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="627" y1="470" x2="646" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="649" y1="470" x2="672" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="671" y1="470" x2="698" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="693" y1="470" x2="724" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/><line x1="715" y1="470" x2="750" y2="330" stroke="#4aa3df" stroke-width="1.6" stroke-dasharray="5 5"/></g><text x="590.0" y="430.0" class="l b c h" style="fill:#e04a3a">70 °C</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.9000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="590.0" y="430.0" class="m b c h">clean store</text><text x="590.0" y="450.0" class="s c h">(shut, dried)</text></g>
+<rect x="455" y="757" width="65" height="70" fill="#f8e1dc" stroke="#3a3f45" stroke-width="1.2" />
+<text x="487.5" y="787" class="s c">boiler</text>
+<text x="487.5" y="803" class="s c">5 L 85 °C</text>
+<rect x="545" y="757" width="80" height="70" fill="#dfe6d6" stroke="#3a3f45" stroke-width="1.2" />
+<text x="585" y="787" class="s c">Pi, Klipper,</text>
+<text x="585" y="803" class="s c">PSU</text>
+<rect x="645" y="757" width="75" height="70" fill="#e6e9ec" stroke="#3a3f45" stroke-width="1.2" />
+<text x="682.5" y="787" class="s c">DW hoses</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 447.5 650;-0 447.5 650;-11.25 447.5 650;-22.5 447.5 650;-33.75 447.5 650;-45 447.5 650;-56.25 447.5 650;-67.5 447.5 650;-78.75 447.5 650;-90 447.5 650;-90 447.5 650;-90 447.5 650;-78.75 447.5 650;-67.5 447.5 650;-56.25 447.5 650;-45 447.5 650;-33.75 447.5 650;-22.5 447.5 650;-11.25 447.5 650;-0 447.5 650;0 447.5 650" keyTimes="0.0000;0.0267;0.0417;0.0567;0.0717;0.0867;0.1017;0.1167;0.1317;0.1467;0.5200;0.5200;0.5283;0.5367;0.5450;0.5533;0.5617;0.5700;0.5783;0.5867;1.0000" dur="30s" repeatCount="indefinite" /><rect x="440.5" y="325" width="7" height="325" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" /><rect x="435.5" y="325" width="12" height="6" fill="#777" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1467;0.5200" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="250" y="520" class="s c b h">door open over the idle domino and cooker</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-310 0;-310 0;0 0;0 0" keyTimes="0.0000;0.2000;0.2867;0.4667;0.5133;1.0000" dur="30s" repeatCount="indefinite" /><rect x="455" y="555" width="270" height="85" fill="none" stroke="#3a3f45" stroke-width="2" stroke-dasharray="6 3"/><line x1="455" y1="640" x2="725" y2="640" stroke="#7a8a99" stroke-width="3" /><line x1="465" y1="640" x2="465" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="485" y1="640" x2="485" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="505" y1="640" x2="505" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="525" y1="640" x2="525" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="545" y1="640" x2="545" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="565" y1="640" x2="565" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="585" y1="640" x2="585" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="605" y1="640" x2="605" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="625" y1="640" x2="625" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="645" y1="640" x2="645" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="665" y1="640" x2="665" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="685" y1="640" x2="685" y2="605" stroke="#7a8a99" stroke-width="1.5" /><line x1="705" y1="640" x2="705" y2="605" stroke="#7a8a99" stroke-width="1.5" /><rect x="655" y="555" width="60" height="85" fill="none" stroke="#3a3f45" stroke-width="1.5" stroke-dasharray="3 3"/><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.3667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="515" y="530" width="8" height="110" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><rect x="530" y="530" width="8" height="110" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.4400" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="670" y1="640" x2="670" y2="535" stroke="#8fa8c0" stroke-width="4" /><line x1="685" y1="640" x2="685" y2="545" stroke="#8fa8c0" stroke-width="4" /></g></g>
+<text x="590" y="660" class="s c h">lower rack + cutlery basket</text>
+<clipPath id="fv"><rect x="30" y="160" width="750" height="680"/></clipPath>
+<g clip-path="url(#fv)"><g><animateTransform attributeName="transform" type="translate" values="260 0;455.5 0;392.096 0;331.128 0;274.94 0;225.69 0;185.272 0;155.239 0;136.745 0;130.5 0;463 0;463 0;153 0;235 0;-5 0;211 0;211 0;211 0;367.5 0;367.5 0;367.5 0;153 0;153 0;463 0;130.5 0;136.745 0;155.239 0;185.272 0;225.69 0;274.94 0;331.128 0;392.096 0;455.5 0;260 0;260 0" keyTimes="0.0000;0.0267;0.0417;0.0567;0.0717;0.0867;0.1017;0.1167;0.1317;0.1467;0.1733;0.2000;0.2867;0.3067;0.3400;0.3533;0.3667;0.3933;0.4133;0.4333;0.4400;0.4600;0.4667;0.5133;0.5200;0.5283;0.5367;0.5450;0.5533;0.5617;0.5700;0.5783;0.5867;0.6133;1.0000" dur="30s" repeatCount="indefinite" /><rect x="-5" y="219" width="10" height="260" fill="#c4cad1" stroke="#3a3f45" stroke-width="1" /></g><g><animateTransform attributeName="transform" type="translate" values="260 0;455.5 0;392.096 0;331.128 0;274.94 0;225.69 0;185.272 0;155.239 0;136.745 0;130.5 0;463 0;463 0;153 0;235 0;-5 0;211 0;211 0;211 0;367.5 0;367.5 0;367.5 0;153 0;153 0;463 0;130.5 0;136.745 0;155.239 0;185.272 0;225.69 0;274.94 0;331.128 0;392.096 0;455.5 0;260 0;260 0" keyTimes="0.0000;0.0267;0.0417;0.0567;0.0717;0.0867;0.1017;0.1167;0.1317;0.1467;0.1733;0.2000;0.2867;0.3067;0.3400;0.3533;0.3667;0.3933;0.4133;0.4333;0.4400;0.4600;0.4667;0.5133;0.5200;0.5283;0.5367;0.5450;0.5533;0.5617;0.5700;0.5783;0.5867;0.6133;1.0000" dur="30s" repeatCount="indefinite" /><rect x="-10" y="205" width="20" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g><animateTransform attributeName="transform" type="translate" values="0 380;0 400;0 406.245;0 424.739;0 454.772;0 495.19;0 544.44;0 600.628;0 661.596;0 725;0 672.5;0 672.5;0 672.5;0 355;0 355;0 520;0 520;0 380;0 380;0 525;0 525;0 672.5;0 672.5;0 672.5;0 725;0 661.596;0 600.628;0 544.44;0 495.19;0 454.772;0 424.739;0 406.245;0 400;0 380;0 380" keyTimes="0.0000;0.0267;0.0417;0.0567;0.0717;0.0867;0.1017;0.1167;0.1317;0.1467;0.1733;0.2000;0.2867;0.3067;0.3400;0.3533;0.3667;0.3933;0.4133;0.4333;0.4400;0.4600;0.4667;0.5133;0.5200;0.5283;0.5367;0.5450;0.5533;0.5617;0.5700;0.5783;0.5867;0.6133;1.0000" dur="30s" repeatCount="indefinite" /><line x1="0" y1="-150" x2="0" y2="-6" stroke="#3a3f45" stroke-width="4" /><rect x="-8" y="-158" width="16" height="10" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="-10" y="-8" width="20" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g opacity="0"><animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.3000;0.4600" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="-8" y1="0" x2="-8" y2="-75" stroke="#555" stroke-width="3" /><path d="M-8 -75 l-8 0 l0 8" fill="none" stroke="#555" stroke-width="3" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3000;0.3667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="-4" y="10" width="8" height="110" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3933;0.4400" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="-6" y1="10" x2="-6" y2="100" stroke="#8fa8c0" stroke-width="4" /><line x1="6" y1="10" x2="6" y2="90" stroke="#8fa8c0" stroke-width="4" /></g></g></g></g>
+<text x="330" y="150" class="s"></text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0167;0.3000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="170" y="480" class="s c b h">hook rod on the hand</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3000;0.4667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="170" y="480" class="s c b h">pan and tools loaded</text></g>
+<text x="830" y="160" class="s b" text-anchor="start">K10: turned 90°, door faces −X</text>
+<rect x="830" y="180" width="540" height="180" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2" />
+<rect x="830" y="180" width="540" height="36" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1" />
+<rect x="986" y="219" width="90" height="135" fill="#5d646b" stroke="#3a3f45" stroke-width="1" />
+<rect x="1088" y="255" width="102" height="99" fill="#f4f4f4" stroke="#3a3f45" stroke-width="1.2" />
+<rect x="834" y="279" width="142" height="75" fill="#f1f1f1" stroke="#3a3f45" stroke-width="1" />
+<rect x="1197.5" y="219" width="171" height="135" fill="#eef5fb" stroke="#3a3f45" stroke-width="2" />
+<text x="1283" y="288" class="s c b">dishwasher</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;0.85;0.85;0;0" keyTimes="0.0000;0.0267;0.1467;0.5200;0.5867;1.0000" dur="30s" repeatCount="indefinite"/><rect x="1002.5" y="219" width="195" height="135" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" /><text x="1100" y="288" class="s c b">open door</text></g>
+<line x1="830" y1="360" x2="1370" y2="360" stroke="#4d7ea8" stroke-width="3" />
+<text x="1100" y="380" class="s c">glazed front, y 600</text>
+<text x="1390" y="160" class="s b" text-anchor="start">as normally built in</text>
+<rect x="1390" y="180" width="150" height="180" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2" />
+<rect x="1394" y="220" width="135" height="135" fill="#eef5fb" stroke="#3a3f45" stroke-width="1.5" />
+<g opacity="0"><animate attributeName="opacity" values="0;0;0.85;0.85;0;0" keyTimes="0.0000;0.0267;0.1467;0.5200;0.5867;1.0000" dur="30s" repeatCount="indefinite"/><rect x="1394" y="360" width="135" height="60" fill="#aab4be" stroke="#3a3f45" stroke-width="1.5" stroke-dasharray="5 3"/><text x="1462" y="398" class="m b c" style="fill:#e04a3a">✗</text></g>
+<line x1="1390" y1="360" x2="1540" y2="360" stroke="#4d7ea8" stroke-width="3" />
+<text x="1465" y="440" class="s c">door would leave the</text>
+<text x="1465" y="456" class="s c">cell into the kitchen</text>
+<text x="830" y="404" class="s">Door opens only when domino and cooker are idle;</text>
+<text x="830" y="421" class="s">the cooker top (z ≈ 1030) sits in a 180 mm pocket</text>
+<text x="830" y="438" class="s">so the door clears it at z ≈ 1060.</text>
+<text x="830" y="455" class="s">Racks pull out along −X onto the open door.</text>
+<line x1="860" y1="790" x2="1150" y2="790" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="860" y1="790" x2="860" y2="590" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1005.0" y="640.0" width="101.5" height="150.0" fill="#fde3c8"/>
+<path d="M860.0 777.5 L894.8 677.5 L961.5 677.5 L981.8 727.5 L1005.0 640.0 L1106.5 640.0 L1126.8 715.0 L1150.0 740.0" fill="none" stroke="#f28c28" stroke-width="3" />
+<line x1="860" y1="640" x2="1150" y2="640" stroke="#e04a3a" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="854" y="645" class="s r">70 °C</text>
+<text x="854" y="790" class="s r">10 °C</text>
+<text x="1055.75" y="680" class="s c b">≥ 10 min</text>
+<text x="1055.75" y="698" class="s c b">A0 ≥ 60</text>
+<text x="1005" y="810" class="s c">one programme</text>
+<text x="990" y="528" class="s c">K9b: 82 °C, A0 ≥ 90. Fallback: a model</text>
+<text x="990" y="546" class="s c">with a 15 min hygiene rinse [U]</text>
+<g><animateTransform attributeName="transform" type="translate" values="860 777.5;860 777.5;874.5 735.833;889 694.167;903.5 677.5;918 677.5;932.5 677.5;947 677.5;961.5 677.5;976 713.214;990.5 694.688;1005 640;1019.5 640;1034 640;1048.5 640;1063 640;1077.5 640;1092 640;1106.5 640;1121 693.571;1135.5 724.375;1150 740;1150 740" keyTimes="0.0000;0.6667;0.6783;0.6900;0.7017;0.7133;0.7250;0.7367;0.7483;0.7600;0.7717;0.7833;0.7950;0.8067;0.8183;0.8300;0.8417;0.8533;0.8650;0.8767;0.8883;0.9000;1.0000" dur="30s" repeatCount="indefinite" /><circle cx="0" cy="0" r="7" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.5" /></g>
+<rect x="1210" y="540" width="110" height="50" fill="#dfe6d6" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1265" y="562" class="s c b">Raspberry</text>
+<text x="1265" y="580" class="s c b">Pi 5</text>
+<rect x="1360" y="540" width="70" height="50" fill="#fff" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1395" y="570" class="s c">opto</text>
+<rect x="1460" y="520" width="96" height="140" fill="#e6e9ec" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1508" y="540" class="s c b">DW keys</text>
+<rect x="1470" y="560" width="22" height="20" fill="#fff" stroke="#3a3f45" stroke-width="1.2" />
+<text x="1500" y="575" class="s" text-anchor="start">on/off</text>
+<rect x="1470" y="590" width="22" height="20" fill="#fff" stroke="#3a3f45" stroke-width="1.2" />
+<text x="1500" y="605" class="s" text-anchor="start">hygiene</text>
+<rect x="1470" y="620" width="22" height="20" fill="#fff" stroke="#3a3f45" stroke-width="1.2" />
+<text x="1500" y="635" class="s" text-anchor="start">start</text>
+<line x1="1320" y1="565" x2="1360" y2="565" stroke="#3a3f45" stroke-width="2" />
+<path d="M1430 565 L1450 565 L1450 630 L1470 630" fill="none" stroke="#3a3f45" stroke-width="2" />
+<circle cx="1395" cy="552" r="4" fill="#ccc"><animate attributeName="fill" values="#ccc;#ccc;#e04a3a;#e04a3a;#ccc;#ccc" keyTimes="0.0000;0.6133;0.6167;0.6533;0.6567;1.0000" dur="30s" repeatCount="indefinite" calcMode="discrete"/></circle>
+<rect x="1470" y="620" width="22" height="20" fill="none" stroke-width="3" stroke="none"><animate attributeName="stroke" values="none;none;#5aa05a;#5aa05a;none;none" keyTimes="0.0000;0.6200;0.6233;0.6533;0.6567;1.0000" dur="30s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="1210" y="690" class="s">The dishwasher stays a sealed appliance:</text>
+<text x="1210" y="710" class="s">opto-couplers bridge its keys, so the Pi</text>
+<text x="1210" y="730" class="s">presses "start" like a person would.</text>
+<text x="1210" y="750" class="s"></text>
+<text x="1210" y="770" class="s">No 3rd-level drawer: it would sit at</text>
+<text x="1210" y="790" class="s">z ≈ 1750, out of the hand's reach —</text>
+<text x="1210" y="810" class="s">tools go into the lower-rack basket.</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/7</tspan> The hand catches the door top with its hook rod and folds the door down over the idle domino and cooker</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1667;0.3000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/7</tspan> The hook rod pulls the lower rack out along −X onto the open door</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.3000;0.4667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/7</tspan> Pans stand in the rack, tools go into the cutlery basket (the hand cannot reach a 3rd level)</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4667;0.6000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/7</tspan> The rack is pushed back and the hook rod lifts the door shut</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6000;0.6667" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">5/7</tspan> The Pi presses the dishwasher's own keys through opto-couplers: hygiene programme, start</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6667;0.9000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">6/7</tspan> Hygiene programme: ≥ 70 °C held ≥ 10 min (A0 ≥ 60), checked with loggers on the coldest item</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.9000" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">7/7</tspan> Shut and dried, the dishwasher is the clean store until the next meal's take-out (P0)</text></g>
+</svg>

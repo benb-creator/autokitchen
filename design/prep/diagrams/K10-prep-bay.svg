@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K10 prep bay. Source: K10-two-thousand.md section 3.5 (Sink, Chute + peeler post, Board / serve zone, Mandoline), 3.4 (hand limits), 6 (hygiene). Schematic close-ups, scales per panel about 0.8 px/mm. Simplest readings: the fork-spit lies along the roll axis (y), so the peeler sees the produce turning about its own axis, and the mandoline slices it lengthwise from below, the hand lowering Z one slice per stroke until the spit is 12 mm above the blade; the knife is held in the y-z plane and the board is turned 90 deg by a peg push for cross cuts; the produce is held in the stab nest while the spit is pushed in (not animated). -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K10  PREP BAY — wash, peel, cut and slice with bought gadgets</text>
+<text x="24" y="58" class="m">The bay left of the domino: sink, chute with a peeler post, a board on a lazy susan, a mandoline. No motor of its own.</text>
+<text x="1576" y="28" class="s r b">bay X 0–520 · sink Ø 260 · chute 120 × 200 · board Ø 320</text>
+<text x="1576" y="47" class="s r">0 actuators: everything is moved by the 4-axis hand</text>
+<text x="1576" y="66" class="s r">peeling: spit 30–120 rpm, traversed in y, pressed 5–20 N</text>
+<text x="1576" y="85" class="s r">after prep the board zone becomes the serve and return zone</text>
+<rect x="30" y="100" width="760" height="360" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.2500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="4;1.5;1.5" keyTimes="0.0000;0.2500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="42" y="122" class="s b">1  SINK (rinse cup) — section</text>
+<rect x="810" y="100" width="760" height="360" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#c9ced4;#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.2500;0.5000;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="1.5;4;1.5;1.5" keyTimes="0.0000;0.2500;0.5000;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="822" y="122" class="s b">2  CHUTE + PEELER POST — side section along the spit</text>
+<rect x="30" y="470" width="760" height="370" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#c9ced4;#f28c28;#c9ced4;#c9ced4" keyTimes="0.0000;0.5000;0.7500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="1.5;4;1.5;1.5" keyTimes="0.0000;0.5000;0.7500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="42" y="492" class="s b">3  BOARD ON A LAZY SUSAN — top view</text>
+<rect x="810" y="470" width="760" height="370" rx="8" fill="#fbfbfc" stroke="#c9ced4" stroke-width="1.5"><animate attributeName="stroke" values="#c9ced4;#f28c28;#c9ced4" keyTimes="0.0000;0.7500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-width" values="1.5;4;1.5" keyTimes="0.0000;0.7500;1.0000" dur="24s" repeatCount="indefinite" calcMode="discrete"/></rect>
+<text x="822" y="492" class="s b">4  MANDOLINE on a GN 1/3 — side section</text>
+<rect x="50" y="290" width="120" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="330" y="290" width="150" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<path d="M150 290 L162 410 L338 410 L350 290" fill="#eef5fb" stroke="#3a3f45" stroke-width="2.5" />
+<rect x="232" y="410" width="36" height="18" fill="#bfc8d0" stroke="#3a3f45" stroke-width="1.2" />
+<line x1="250" y1="428" x2="250" y2="450" stroke="#9fb3c6" stroke-width="5" />
+<path d="M60 150 L60 130 M60 140 L150 140 Q250 140 250 175 L250 185" fill="none" stroke="#aab2ba" stroke-width="7" />
+<rect x="240" y="180" width="20" height="10" fill="#8a959f" stroke="#3a3f45" stroke-width="1" />
+<circle cx="156" cy="296" r="5" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<circle cx="344" cy="296" r="5" fill="#f28c28" stroke="#3a3f45" stroke-width="1" />
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.0250;0.1250" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="244" y="190" width="12" height="110" fill="#4aa3df" stroke="#3a3f45" stroke-width="0" opacity="0.75"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1583;0.2333" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="160" y1="294" x2="236" y2="220" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="340" y1="294" x2="264" y2="220" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="160" y1="294" x2="236" y2="235" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="340" y1="294" x2="264" y2="235" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="160" y1="294" x2="236" y2="250" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="340" y1="294" x2="264" y2="250" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="160" y1="294" x2="236" y2="265" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/><line x1="340" y1="294" x2="264" y2="265" stroke="#e04a3a" stroke-width="2" stroke-dasharray="4 3"/></g>
+<clipPath id="c1"><rect x="30" y="125" width="760" height="335"/></clipPath>
+<g clip-path="url(#c1)"><g><animateTransform attributeName="transform" type="translate" values="250 140;250 215;250 215;250 140;250 215;250 215;250 140;250 140" keyTimes="0.0000;0.0208;0.1250;0.1375;0.1583;0.2333;0.2500;1.0000" dur="24s" repeatCount="indefinite" /><line x1="0" y1="-100" x2="0" y2="-10" stroke="#3a3f45" stroke-width="4" /><rect x="-12" y="-12" width="24" height="14" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.1375" dur="24s" repeatCount="indefinite" calcMode="discrete"/><path d="M-45 4 L-40 60 L40 60 L45 4" fill="#e3ebf2" stroke="#3a3f45" stroke-width="2" /><line x1="-40" y1="8" x2="-36" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="-30" y1="8" x2="-26" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="-20" y1="8" x2="-16" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="-10" y1="8" x2="-6" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="0" y1="8" x2="4" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="10" y1="8" x2="14" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="20" y1="8" x2="24" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="30" y1="8" x2="34" y2="58" stroke="#9fb3c6" stroke-width="1" /><line x1="40" y1="8" x2="44" y2="58" stroke="#9fb3c6" stroke-width="1" /><circle cx="-18" cy="46" r="10" fill="#a8743a" stroke="#3a3f45" stroke-width="1" /><circle cx="4" cy="48" r="10" fill="#a8743a" stroke="#3a3f45" stroke-width="1" /><circle cx="22" cy="44" r="9" fill="#a8743a" stroke="#3a3f45" stroke-width="1" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1375;0.2500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="-9" y="2" width="18" height="40" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5" /><text x="30" y="26" class="s" text-anchor="start">sleeve</text></g></g></g>
+<text x="276" y="442" class="s" text-anchor="start">basket strainer → drain</text>
+<text x="100" y="168" class="s c">spout</text>
+<text x="400" y="326" class="s c">rim jets</text>
+<line x1="350" y1="312" x2="344" y2="300" stroke="#777" stroke-width="1" />
+<text x="520" y="160" class="s">bought bar-sink bowl Ø 260</text>
+<text x="520" y="179" class="s">spout: cold, or hot from the</text>
+<text x="520" y="198" class="s">5 L boiler at 85 °C</text>
+<text x="520" y="217" class="s"></text>
+<text x="520" y="236" class="s">produce is washed in the</text>
+<text x="520" y="255" class="s">pot basket under the spout</text>
+<text x="520" y="274" class="s"></text>
+<text x="520" y="293" class="s">4 flat-fan jets (85 °C) in the</text>
+<text x="520" y="312" class="s">rim rinse the sleeve for</text>
+<text x="520" y="331" class="s">3–10 s after every soiled grip</text>
+<text x="520" y="350" class="s"></text>
+<text x="520" y="369" class="s">the deck drains into it</text>
+<rect x="840" y="300" width="154" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1154" y="300" width="140" height="8" fill="#b9c3cc" stroke="#3a3f45" stroke-width="1.5" />
+<line x1="994" y1="308" x2="994" y2="430" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="1154" y1="308" x2="1154" y2="430" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M1154.0 308 L1098.0 330" fill="none" stroke="#7a8a99" stroke-width="3" />
+<text x="1130" y="352" class="s c">spring flap</text>
+<rect x="1010" y="400" width="130" height="46" fill="#e9e2d4" stroke="#3a3f45" stroke-width="1.5" />
+<text x="1074" y="428" class="s c">bin 20 L</text>
+<line x1="992.4" y1="308" x2="992.4" y2="280" stroke="#7a8a99" stroke-width="3" />
+<path d="M992.4 280 l14 -6" fill="none" stroke="#7a8a99" stroke-width="3" />
+<path d="M986.4 310 l-4 6 l8 4 l-8 4 l8 4" fill="none" stroke="#777" stroke-width="1.5" />
+<rect x="1002.4" y="270" width="22" height="5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<text x="946" y="326" class="s c">peeler on a</text>
+<text x="946" y="342" class="s c">sprung bracket</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 -60;0 -60;-60 26;100 26;100 18;-60 18;-60 26;100 26;0 -60;0 -60" keyTimes="0.0000;0.2500;0.2750;0.3750;0.3833;0.3917;0.4000;0.4750;0.5000;1.0000" dur="24s" repeatCount="indefinite" /><line x1="870" y1="220" x2="870" y2="160" stroke="#3a3f45" stroke-width="4" /><rect x="854" y="214" width="32" height="22" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="886" y="219" width="14" height="12" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" /><line x1="900" y1="225" x2="1114" y2="225" stroke="#555" stroke-width="3" /><rect x="984.0" y="205" width="200" height="40" rx="18" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="fill" values="#6aa84f;#6aa84f;#cfe3a8;#cfe3a8" keyTimes="0.0000;0.2917;0.4750;1.0000" dur="24s" repeatCount="indefinite"/></rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2750;0.4750" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 120;0 0;0 120;0 0;0 120;0 0;0 120;0 0;0 120;0 120" keyTimes="0.0000;0.2750;0.3083;0.3088;0.3417;0.3421;0.3750;0.3754;0.4167;0.4171;0.4750;1.0000" dur="24s" repeatCount="indefinite" /><path d="M1009.6 274 q6 10 -2 20 q-6 10 2 20" fill="none" stroke="#6aa84f" stroke-width="3" /></g></g>
+<text x="1370" y="145" class="s c b">seen along the spit</text>
+<circle cx="1370" cy="210" r="26" fill="#cfe3a8" stroke="#3a3f45" stroke-width="1.5" />
+<g><animateTransform attributeName="transform" type="rotate" from="0 1370 210" to="360 1370 210" dur="0.8s" repeatCount="indefinite"/><circle cx="1370" cy="192" r="5" fill="#6aa84f" stroke="#3a3f45" stroke-width="0" /><circle cx="1384" cy="220" r="5" fill="#6aa84f" stroke="#3a3f45" stroke-width="0" /><line x1="1370" y1="210" x2="1396" y2="210" stroke="#555" stroke-width="2" /></g>
+<circle cx="1370" cy="210" r="4" fill="#555" stroke="#3a3f45" stroke-width="0" />
+<rect x="1340" y="240" width="60" height="5" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" />
+<path d="M1360 245 l-4 6 l8 4 l-8 4" fill="none" stroke="#777" stroke-width="1.5" />
+<path d="M1404 190 a 40 40 0 0 1 0 40" fill="none" stroke="#f28c28" stroke-width="2.5" />
+<text x="1432" y="215" class="s" text-anchor="start">30–120 rpm</text>
+<text x="1300" y="300" class="s">fork-spit along the roll axis</text>
+<text x="1300" y="318" class="s">turns the produce; Y moves it</text>
+<text x="1300" y="336" class="s">past the blade; Z presses</text>
+<text x="1300" y="354" class="s">5–20 N. Peel drops into the</text>
+<text x="1300" y="372" class="s">bin through the chute.</text>
+<text x="1130" y="140" class="s c b">← y traverse →</text>
+<circle cx="230" cy="670" r="138" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5" />
+<g><animateTransform attributeName="transform" type="rotate" values="0 230 670;0 230 670;90 230 670;90 230 670;0 230 670;0 230 670" keyTimes="0.0000;0.6083;0.6417;0.7500;0.7504;1.0000" dur="24s" repeatCount="indefinite" /><circle cx="230" cy="670" r="128" fill="#f3ddd8" stroke="#3a3f45" stroke-width="2" /><circle cx="352" cy="670" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="316.267" cy="756.267" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="230" cy="792" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="143.733" cy="756.267" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="108" cy="670" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="143.733" cy="583.733" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="230" cy="548" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><circle cx="316.267" cy="583.733" r="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1" /><ellipse cx="230" cy="670" rx="62" ry="48" fill="#f2e3a6" stroke="#3a3f45" stroke-width="1.5"/><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5167;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="194" y1="624" x2="194" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5375;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="218" y1="624" x2="218" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5583;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="242" y1="624" x2="242" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5792;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="266" y1="624" x2="266" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6583;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="194" y1="624" x2="194" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6792;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="218" y1="624" x2="218" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7000;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="242" y1="624" x2="242" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.7208;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><line x1="266" y1="624" x2="266" y2="716" stroke="#3a3f45" stroke-width="1.5" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.5000;0.6000;0.6500;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;24 0;48 0;72 0;176 0;0 0;0 0;24 0;48 0;72 0;0 0;0 0" keyTimes="0.0000;0.5000;0.5167;0.5375;0.5583;0.5792;0.6000;0.6500;0.6583;0.6792;0.7000;0.7208;0.7500;1.0000" dur="24s" repeatCount="indefinite" /><rect x="190" y="550" width="8" height="70" fill="#555" stroke="#3a3f45" stroke-width="1" /><rect x="191" y="618" width="6" height="100" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" /></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6000;0.6500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="382 630;382 630;362 656;244 800;260 818;382 630" keyTimes="0.0000;0.6000;0.6083;0.6417;0.6500;1.0000" dur="24s" repeatCount="indefinite" /><circle cx="0" cy="0" r="10" fill="none" stroke="#f28c28" stroke-width="3"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.6000;0.6500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="250" y="516" class="s c b">the hand pushes a peg: the board turns 90°</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.5000;0.6000;0.6500;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="250" y="516" class="s c b">knife held in the y–z plane (the hand cannot yaw)</text></g>
+<text x="500" y="540" class="s">PE-HD board Ø 320, red for raw,</text>
+<text x="500" y="559" class="s">green for ready-to-eat; 8 push</text>
+<text x="500" y="578" class="s">pegs on a passive lazy susan.</text>
+<text x="500" y="597" class="s"></text>
+<text x="500" y="616" class="s">Cuts first one way, then the</text>
+<text x="500" y="635" class="s">hand turns the board by a peg</text>
+<text x="500" y="654" class="s">for the cross cuts: dice.</text>
+<text x="500" y="673" class="s"></text>
+<text x="500" y="692" class="s">After prep the board goes into</text>
+<text x="500" y="711" class="s">the dishwasher; the zone, rinsed</text>
+<text x="500" y="730" class="s">by the nozzle rail, becomes the</text>
+<text x="500" y="749" class="s">serve and return zone.</text>
+<rect x="890" y="740" width="280" height="70" fill="#e3ebf2" stroke="#3a3f45" stroke-width="2" />
+<text x="1030" y="800" class="s c">GN 1/3</text>
+<rect x="870" y="700" width="160" height="8" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5" />
+<rect x="1044" y="700" width="160" height="8" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5" />
+<path d="M1030 700 L1044 694" fill="none" stroke="#555" stroke-width="3" />
+<line x1="880" y1="708" x2="900" y2="740" stroke="#3a3f45" stroke-width="2" />
+<line x1="1190" y1="708" x2="1170" y2="740" stroke="#3a3f45" stroke-width="2" />
+<text x="1037" y="728" class="s c">V-blade</text>
+<g><animateTransform attributeName="transform" type="translate" values="-100 0;-100 0;-100 0;60 0;60 0;-100 9;-100 9;60 9;60 9;-100 18;-100 18;60 18;60 18;-100 27;-100 0" keyTimes="0.0000;0.7500;0.7667;0.8167;0.8292;0.8417;0.8417;0.8917;0.9042;0.9167;0.9167;0.9667;0.9792;0.9917;1.0000" dur="24s" repeatCount="indefinite" /><line x1="950" y1="594" x2="950" y2="652" stroke="#3a3f45" stroke-width="4" /><rect x="934" y="652" width="32" height="22" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2" /><rect x="966" y="657" width="14" height="12" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2" /><line x1="980" y1="663" x2="1160" y2="663" stroke="#555" stroke-width="3" /><rect x="990" y="638" width="170" height="60" rx="16" fill="#cfe3a8" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="height" values="60;60;51;42;33;60" keyTimes="0.0000;0.7500;0.8167;0.8917;0.9667;1.0000" dur="24s" repeatCount="indefinite"/></rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7875" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="920" y="770" width="120" height="6" fill="#cfe3a8" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.8625" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="950" y="762" width="120" height="6" fill="#cfe3a8" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.9375" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="980" y="754" width="120" height="6" fill="#cfe3a8" stroke="#3a3f45" stroke-width="1" /></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.9750" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="1037" y="600" class="s c b">spit stops 12 mm above the blade</text></g>
+<text x="1037" y="550" class="s c b">← stroke in y →</text>
+<text x="1240" y="540" class="s">bought V-mandoline with</text>
+<text x="1240" y="559" class="s">slicing and julienne inserts,</text>
+<text x="1240" y="578" class="s">set on a GN 1/3 at the bay front.</text>
+<text x="1240" y="597" class="s"></text>
+<text x="1240" y="616" class="s">The produce stays on the</text>
+<text x="1240" y="635" class="s">fork-spit; each stroke in y</text>
+<text x="1240" y="654" class="s">takes one slice from below,</text>
+<text x="1240" y="673" class="s">then Z lowers by one slice.</text>
+<text x="1240" y="692" class="s"></text>
+<text x="1240" y="711" class="s">Here: cucumber for the salad.</text>
+<rect x="30" y="852" width="1540" height="36" rx="6" fill="#f2f3f5" stroke="#d0d4d9"/>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.2500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">1/4</tspan> Sink: potatoes washed in the pot basket under the spout; then the sleeve is rinsed by four 85 °C rim jets</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2500;0.5000" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">2/4</tspan> Peeler post: the cucumber on the fork-spit turns and moves in y over a bought swivel peeler; peel falls into the bin</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5000;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">3/4</tspan> Board: the knife cuts in the y–z plane; the hand pushes a peg to turn the board 90° for the cross cuts</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0.0000;0.7500" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="44" y="876" class="m"><tspan class="b">4/4</tspan> Mandoline: the cucumber is stroked in y over the V-blade, one slice per stroke, until the spit is 12 mm above it</text></g>
+</svg>
