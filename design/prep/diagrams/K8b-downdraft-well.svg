@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K8b downdraft well and clean-air nook. Source: K8b 2.5 (W well, W nook), 5.1, 5.2. Section X/Z at 0.6 px/mm through the W column. Simplifications: the turner hangs on a short link below the puck (the document says the vessel fork with a 150 mm drop link); the 180 deg turn of the item halfway through the wash is not drawn (both faces face jets anyway); cycle times compressed; the temperature curve is schematic (values from 5.1). -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K8b  Downdraft well and clean-air tool nook</text>
+<text x="24" y="58" class="m">Every item is washed as soon as it is free, during the meal, 40–400 mm below the floor; clean tools wait upstream in filtered air.</text>
+<text x="1576" y="28" class="s r b">well mouth 180 × 340, 450 deep, 8 flat-fan jets</text>
+<text x="1576" y="47" class="s r">exhaust 100 m³/h = 0.45 m/s down through the mouth</text>
+<text x="1576" y="66" class="s r">class R items: ≥ 82 °C for 60 s, logged</text>
+<text x="1576" y="85" class="s r">nook: F7 + H13 filtered air, 45 °C, 20 m³/h</text>
+<text x="24" y="92" class="s b">A  SECTION THROUGH THE WASH COLUMN</text>
+<rect x="100" y="100" width="500" height="440" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="110" y="110" width="480" height="420" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M590 100 l-8 30 l14 30 l-12 30" fill="none" stroke="#555" stroke-width="1.2"/>
+<rect x="106" y="530" width="128" height="280" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="116" y="530" width="108" height="270" fill="#ffffff" stroke="#3a3f45" stroke-width="2"/>
+<rect x="130" y="780" width="80" height="18" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="242" y="798" class="s">strainer 2 mm, drain valve</text>
+<line x1="224" y1="760" x2="330" y2="760" stroke="#9aa1a8" stroke-width="10"/>
+<g><line x1="300" y1="760" x2="345" y2="760" stroke="#9aa1a8" stroke-width="3"/><path d="M345 760 L335.79 763.89 L335.79 756.11 Z" fill="#9aa1a8"/></g>
+<text x="352" y="752" class="s">exhaust 100 m³/h</text>
+<text x="352" y="768" class="s">→ condenser</text>
+<rect x="113" y="597" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="220" y="597" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.77" dur="30s" repeatCount="indefinite" calcMode="discrete"/><path d="M120.0 602.0 l46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path><path d="M220.0 602.0 l-46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path></g>
+<rect x="113" y="652.8" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="220" y="652.8" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.77" dur="30s" repeatCount="indefinite" calcMode="discrete"/><path d="M120.0 657.8 l46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path><path d="M220.0 657.8 l-46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path></g>
+<rect x="113" y="708.6" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="220" y="708.6" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.77" dur="30s" repeatCount="indefinite" calcMode="discrete"/><path d="M120.0 713.6 l46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path><path d="M220.0 713.6 l-46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path></g>
+<rect x="113" y="764.4" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<rect x="220" y="764.4" width="7" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.77" dur="30s" repeatCount="indefinite" calcMode="discrete"/><path d="M120.0 769.4 l46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path><path d="M220.0 769.4 l-46 26 l0 -16 Z" opacity="0.8"><animate attributeName="fill" values="#8fc1e3;#8fc1e3;#4aa3df;#e07a6a;#e07a6a;#e07a6a" keyTimes="0;0.17;0.4;0.5;0.77;1" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path></g>
+<text x="100" y="640" class="s r b">8 jets</text>
+<text x="100" y="656" class="s r">aimed down</text>
+<text x="100" y="672" class="s r">and inwards</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.78" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><line x1="134" y1="490" x2="134" y2="545" stroke="#2b2f33" stroke-width="2.5"/><path d="M134 545 L130.5 536.71 L137.5 536.71 Z" fill="#2b2f33"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.78" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><line x1="170" y1="490" x2="170" y2="545" stroke="#2b2f33" stroke-width="2.5"/><path d="M170 545 L166.5 536.71 L173.5 536.71 Z" fill="#2b2f33"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.78" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><line x1="206" y1="490" x2="206" y2="545" stroke="#2b2f33" stroke-width="2.5"/><path d="M206 545 L202.5 536.71 L209.5 536.71 Z" fill="#2b2f33"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.78" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="236" y="500" class="s b h">air 0.45 m/s down:</text><text x="236" y="516" class="s h">spray cannot rise</text></g>
+<rect x="110" y="110" width="108" height="192" fill="#e4f1ea" stroke="#3a3f45" stroke-width="2"/>
+<text x="164" y="132" class="s c b">NOOK</text>
+<text x="164" y="150" class="s c">clean tools</text>
+<line x1="128" y1="170" x2="128" y2="175" stroke="#3a3f45" stroke-width="3"/>
+<rect x="122" y="175" width="12" height="70" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<line x1="158" y1="170" x2="158" y2="175" stroke="#3a3f45" stroke-width="3"/>
+<rect x="152" y="175" width="12" height="70" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<line x1="188" y1="170" x2="188" y2="175" stroke="#3a3f45" stroke-width="3"/>
+<rect x="182" y="175" width="12" height="70" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/>
+<g><line x1="30" y1="140" x2="108" y2="140" stroke="#3c9a6a" stroke-width="3"/><path d="M108 140 L98.79 143.89 L98.79 136.11 Z" fill="#3c9a6a"/></g>
+<text x="24" y="128" class="s" fill="#3c9a6a">F7 + H13</text>
+<text x="24" y="166" class="s" fill="#3c9a6a">45 °C</text>
+<path d="M200 300 C 240 360 230 430 200 528" fill="none" stroke="#3c9a6a" stroke-width="2.5" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+<text x="240" y="330" class="s h" fill="#3c9a6a">clean air flows</text>
+<text x="240" y="346" class="s h" fill="#3c9a6a">down into the well</text>
+<line x1="110" y1="380" x2="110" y2="530" stroke="#6b4c8a" stroke-width="5"/>
+<text x="116" y="374" class="s">hatch</text>
+<rect x="430.4" y="530" width="159.6" height="6" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/>
+<path d="M437.0 491.0 L437.0 530 L590 530" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<line x1="224" y1="460" x2="430.4" y2="460" stroke="#555" stroke-width="1.2"/><line x1="224" y1="455" x2="224" y2="465" stroke="#555" stroke-width="1.2"/><line x1="430.4" y1="455" x2="430.4" y2="465" stroke="#555" stroke-width="1.2"/><text x="327.2" y="455" class="s c">340: pans need no lid</text>
+<path d="M191.0 110 a9 9 0 0 0 18 0 Z" fill="#2b2f33"/>
+<text x="214" y="128" class="s">camera, white + UV-A</text>
+<path d="M200.0 118 L130.0 360 L270.0 360 Z" fill="#c9b8ff" fill-opacity="0.35" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.79;0.87" dur="30s" repeatCount="indefinite" calcMode="discrete"/></path>
+<g><animateTransform attributeName="transform" type="translate" values="368 272;170 272;170 461;170 461;170 248;170 248;164 194;164 194;368 272;368 272" keyTimes="0;0.07;0.15;0.77;0.82;0.87;0.92;0.95;0.99;1" dur="30s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;0" keyTimes="0;0.95" dur="30s" repeatCount="indefinite" calcMode="discrete"/><line x1="0" y1="57" x2="0" y2="93" stroke="#8fa8c0" stroke-width="4"/><rect x="-6" y="88" width="12" height="16" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/><rect x="-39" y="104" width="78" height="144" fill="#c3d2e1" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="fill" values="#d9b38c;#d9b38c;#c3d2e1;#c3d2e1" keyTimes="0;0.17;0.4;1" dur="30s" repeatCount="indefinite"/></rect></g><circle r="57" fill="#f28c28" fill-opacity="0.85" stroke="#3a3f45" stroke-width="2"/><circle r="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/><text y="-20" class="s c b">P1</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.95" dur="30s" repeatCount="indefinite" calcMode="discrete"/><rect x="125.0" y="298.0" width="78" height="144" fill="#c3d2e1" stroke="#3a3f45" stroke-width="1.5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.17" dur="30s" repeatCount="indefinite" calcMode="discrete"/><text x="368" y="532" class="s c b h">turner used on raw meat</text></g>
+<text x="820" y="92" class="s b">B  ONE ITEM IN THE WELL</text>
+<rect x="820" y="130" width="146.94" height="30" fill="#8fc1e3" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="893.47" y="151" class="s c b">wash 20 s</text>
+<rect x="966.94" y="130" width="58.78" height="30" fill="#4aa3df" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="996.33" y="151" class="s c b">rinse</text>
+<rect x="1025.71" y="130" width="477.55" height="30" fill="#e07a6a" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1264.49" y="151" class="s c b">sanitise 65 s</text>
+<rect x="1503.27" y="130" width="36.73" height="30" fill="#c9b8ff" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1521.63" y="151" class="s c b"></text>
+<line x1="824" y1="166" x2="824" y2="236" stroke="#555" stroke-width="1"/>
+<text x="830" y="236" class="s">60 °C liquor, from the tank</text>
+<line x1="970.94" y1="166" x2="970.94" y2="218" stroke="#555" stroke-width="1"/>
+<text x="976.94" y="218" class="s">85 °C fresh water</text>
+<line x1="1029.71" y1="166" x2="1029.71" y2="200" stroke="#555" stroke-width="1"/>
+<text x="1035.71" y="200" class="s">85 °C hot loop, ≥ 82 °C for 60 s</text>
+<line x1="1507.27" y1="166" x2="1507.27" y2="182" stroke="#555" stroke-width="1"/>
+<text x="1513.27" y="182" class="s">camera</text>
+<g><animateTransform attributeName="transform" type="translate" values="820 0;820 0;966.94 0;1025.71 0;1503.27 0;1503.27 0;1540 0;1540 0" keyTimes="0;0.17;0.4;0.5;0.77;0.79;0.87;1" dur="30s" repeatCount="indefinite"/><path d="M0 126 l-7 -12 l14 0 Z" fill="#3a3f45"/></g>
+<line x1="860" y1="495" x2="1540" y2="495" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="860" y1="495" x2="860" y2="285" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="855" y1="495" x2="860" y2="495" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="852" y="500" class="s r">20</text>
+<line x1="855" y1="395" x2="860" y2="395" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="852" y="400" class="s r">60</text>
+<line x1="855" y1="340" x2="860" y2="340" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="852" y="345" class="s r">82</text>
+<line x1="855" y1="295" x2="860" y2="295" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="852" y="300" class="s r">100</text>
+<text x="852" y="277" class="s r">°C</text>
+<line x1="860" y1="340" x2="1540" y2="340" stroke="#e04a3a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="1540" y="334" class="s r" fill="#e04a3a">82 °C</text>
+<polyline points="860,482.5 875,400 998.78,395 1008.78,335 1054.29,335 1066.29,335 1505.31,335 1540,357.5" fill="none" stroke="#e04a3a" stroke-width="3"/>
+<rect x="1066.29" y="295" width="439.02" height="45" fill="#e04a3a" stroke="none" stroke-width="0" opacity="0.08"/>
+<text x="1279.8" y="315" class="s c b">held ≥ 82 °C for 60 s, return temperature logged</text>
+<text x="1200" y="517" class="s c">item surface temperature</text>
+<circle r="7" fill="#e04a3a" stroke="#3a3f45" stroke-width="1.5"><animateTransform attributeName="transform" type="translate" values="860 482.5;860 482.5;875 400;998.78 395;1008.78 335;1054.29 335;1505.31 335;1505.31 335;1540 357.5;1540 357.5" keyTimes="0;0.17;0.19;0.4;0.42;0.5;0.77;0.79;0.87;1" dur="30s" repeatCount="indefinite"/></circle>
+<text x="820" y="560" class="s b">C  AIR ALWAYS RUNS FROM CLEAN TO DIRTY</text>
+<rect x="830" y="590" width="180" height="56" fill="#e4f1ea" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="920" y="623" class="s c b">tool nook</text>
+<rect x="1050" y="590" width="180" height="56" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1140" y="623" class="s c b">work zone (food)</text>
+<rect x="1290" y="590" width="180" height="56" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1380" y="623" class="s c b">well (down)</text>
+<rect x="1290" y="680" width="180" height="46" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1380" y="708" class="s c b">hob exhaust (rear)</text>
+<line x1="1010" y1="618" x2="1042" y2="618" stroke="#3c9a6a" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="0.8s" repeatCount="indefinite"/></line>
+<path d="M1050 618 l-10 -6 l0 12 Z" fill="#3c9a6a"/>
+<line x1="1230" y1="618" x2="1282" y2="618" stroke="#3c9a6a" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="0.8s" repeatCount="indefinite"/></line>
+<path d="M1290 618 l-10 -6 l0 12 Z" fill="#3c9a6a"/>
+<path d="M1230 630 L1260 703 L1282 703" fill="none" stroke="#3c9a6a" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="0.8s" repeatCount="indefinite"/></path>
+<path d="M1290 703 l-10 -6 l0 12 Z" fill="#3c9a6a"/>
+<text x="830" y="680" class="s">A tool enters the nook only after</text>
+<text x="830" y="698" class="s">the well cycle; it arrives at 80 °C</text>
+<text x="830" y="716" class="s">and is dry in about a minute.</text>
+<text x="830" y="770" class="s">The well is also the produce sink (15 L bath), the cooling bath and the waste port.</text>
+<rect x="0" y="852" width="1600" height="48" fill="#eef1f4"/>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">1/6 </tspan>P1 brings a turner that touched raw meat and lowers it on edge into the well, well below the floor.<animate attributeName="opacity" values="1;0" keyTimes="0;0.17" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">2/6 </tspan>Wash 20 s: 60 °C liquor from the tank through 8 jets; the exhaust pulls air down through the mouth, so spray stays in the well.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.17;0.4" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">3/6 </tspan>Rinse 8 s: fresh 85 °C water.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4;0.5" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">4/6 </tspan>Sanitise (raw-meat items): 85 °C water circulates through the well for 60 s; the surface stays ≥ 82 °C; logged.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.79" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">5/6 </tspan>Lifted under the ceiling camera (white and UV-A light) for a check.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.79;0.87" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">6/6 </tspan>Hung back in the nook, where filtered warm air dries it. That air then flows down into the well.<animate attributeName="opacity" values="0;1" keyTimes="0;0.87" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<rect x="0" y="850" width="1600" height="3" fill="#f28c28" transform="scale(0 1)"><animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="30s" repeatCount="indefinite"/></rect>
+</svg>

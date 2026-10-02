@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K8b hatch with pass tray and dosing dock. Source: K8b 2.1, 2.2 (actuators 9, 10), 2.5 (W hatch, P dosing), 2.8 (interfaces). Panel A front view X/Z at 0.6 px/mm; panel B side section Y/Z at 0.8 px/mm with a break between ceiling and floor. Simplifications: the transport gripper is drawn as a plain hook; the cam link between tilter and port shutter is drawn as a rod; the box size is a GN 1/6-100 (the document does not fix the box size at the dock); dose readout values are an example. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K8b  Hatch, pass tray and dosing dock — how things get in</text>
+<text x="24" y="58" class="m">The transport never enters the tub: it leaves trays on an outer sill and boxes in a dock above the ceiling.</text>
+<text x="1576" y="28" class="s r b">hatch: left wall at floor level, opening 360 × 250</text>
+<text x="1576" y="47" class="s r">pass tray 300 × 360 on two load cells (±2 g)</text>
+<text x="1576" y="66" class="s r">dock tilter 0–150°, load cells 10 kg ±1 g</text>
+<text x="1576" y="85" class="s r">per 4-person meal ≈ 12 boxes, ≈ 8 trays in, ≈ 8 out</text>
+<text x="24" y="100" class="s b">A  HATCH AND PASS TRAY (front view)</text>
+<rect x="388" y="168" width="330" height="444" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="400" y="180" width="318" height="420" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M718 168 l-8 40 l14 40 l-12 40" fill="none" stroke="#555" stroke-width="1.2"/>
+<rect x="406" y="600" width="108" height="150" fill="#ffffff" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="460" y="690" class="s c">well</text>
+<rect x="388" y="450" width="12" height="150" fill="#ffffff" stroke="none" stroke-width="0"/>
+<line x1="400" y1="450" x2="400" y2="600" stroke="#6b4c8a" stroke-width="2"/>
+<rect x="200" y="600" width="188" height="10" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<path d="M240 610 l-8 14 l16 0 Z M350 610 l-8 14 l16 0 Z" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/>
+<text x="294" y="646" class="s c">outer sill, 2 load cells</text>
+<rect x="200" y="450" width="188" height="150" fill="none" stroke="#9aa1a8" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="206" y="474" class="s">transfer zone</text>
+<text x="206" y="490" class="s">room height</text>
+<text x="206" y="506" class="s">900–1150</text>
+<rect x="350" y="404" width="30" height="30" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="345" y="424" class="s r">motor</text>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.07;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;192 0;192 0;0 0;0 0" keyTimes="0;0.2;0.27;0.35;0.42;1" dur="24s" repeatCount="indefinite"/><rect x="200" y="592" width="188" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><path d="M212 592 l6 -6 l64 0 l6 6 Z M300 592 l6 -6 l64 0 l6 6 Z" fill="#ffffff" stroke="#3a3f45" stroke-width="1.2"/></g></g>
+<g><animate attributeName="opacity" values="1;0" keyTimes="0;0.12" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 -200;0 0;0 0;0 -200;0 -200" keyTimes="0;0.05;0.07;0.12;1" dur="24s" repeatCount="indefinite"/><line x1="214" y1="120" x2="214" y2="588" stroke="#555" stroke-width="4"/><path d="M214 588 l-10 0 l0 10" fill="none" stroke="#555" stroke-width="4"/><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.07" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="200" y="592" width="188" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/></g></g></g>
+<text x="196" y="140" class="s r">transport</text>
+<text x="196" y="156" class="s r">(outside)</text>
+<rect x="380" y="450.0" width="8" height="150" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1.5"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -160;0 -160;0 0;0 0" keyTimes="0;0.16;0.19;0.42;0.46;1" dur="24s" repeatCount="indefinite"/></rect>
+<text x="376" y="528" class="s r">shutter</text>
+<g><animateTransform attributeName="transform" type="translate" values="560 380;560 380;460 525;652 525;652 525;460 525;560 380;560 380" keyTimes="0;0.19;0.21;0.27;0.35;0.42;0.44;1" dur="24s" repeatCount="indefinite"/><line x1="-40" y1="10" x2="-60" y2="52" stroke="#8fa8c0" stroke-width="5"/><path d="M-60 52 l0 8" stroke="#8fa8c0" stroke-width="5"/><circle r="57" fill="#f28c28" fill-opacity="0.85" stroke="#3a3f45" stroke-width="2"/><circle r="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/><text y="-18" class="s c b">P1</text></g>
+<text x="560" y="300" class="s c">vessel fork hook</text>
+<text x="820" y="100" class="s b">B  DOSING DOCK ABOVE THE CEILING (side section)</text>
+<rect x="830" y="440" width="700" height="12" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1180" y="439" width="160" height="14" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="840" y="474" class="s">tub ceiling</text>
+<path d="M830 570 l20 -6 l20 6 l20 -6" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="900" y="580" class="s">(break: 700 mm to the floor)</text>
+<rect x="830" y="700" width="700" height="12" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1210" y="712" width="100" height="20" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1320" y="730" class="s b">T</text>
+<path d="M1148 590 L1160 700 L1360 700 L1372 590" fill="#dfe7ef" stroke="#3a3f45" stroke-width="2"/>
+<text x="1130" y="640" class="s r">bowl on T</text>
+<path d="M1170 700 Q1260 700 1350 700 Z" fill="#efe3c4" stroke="#3a3f45" stroke-width="1"><animate attributeName="d" values="M1170 700 Q1260 700 1350 700 Z;M1170 700 Q1260 700 1350 700 Z;M1170 700 Q1260 640 1350 700 Z;M1170 700 Q1260 640 1350 700 Z" keyTimes="0;0.67;0.88;1" dur="24s" repeatCount="indefinite"/></path>
+<rect x="1180" y="442" width="160" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;170 0;170 0;0 0;0 0" keyTimes="0;0.62;0.66;0.88;0.92;1" dur="24s" repeatCount="indefinite"/></rect>
+<text x="1530" y="474" class="s r">port shutter, cam-linked to the tilter</text>
+<rect x="1100" y="388" width="16" height="52" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="1270" y="388" width="16" height="52" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<path d="M1100 388 l8 -10 l8 10 Z M1270 388 l8 -10 l8 10 Z" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/>
+<text x="1090" y="420" class="s r">load cells</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 1260 380;0 1260 380;125 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;127 1260 380;123 1260 380;125 1260 380;0 1260 380;0 1260 380" keyTimes="0;0.62;0.68;0.69;0.7;0.71;0.72;0.74;0.75;0.76;0.78;0.79;0.8;0.81;0.82;0.84;0.85;0.86;0.88;0.92;1" dur="24s" repeatCount="indefinite"/><rect x="1110" y="376" width="164" height="6" fill="#f28c28" stroke="#3a3f45" stroke-width="1.2"/><circle cx="1260" cy="380" r="6" fill="#3a3f45"/><g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 -200;0 -200;0 0;0 0;0 -200" keyTimes="0;0.5;0.58;0.93;1" dur="24s" repeatCount="indefinite"/><path d="M1122 290 L1122 370 L1260 370 L1260 290" fill="#f5f0e1" stroke="#3a3f45" stroke-width="2"/><rect x="1126" y="312" width="130" height="52" fill="#efe3c4"><animate attributeName="height" values="52;52;6;6;6;52" keyTimes="0;0.67;0.88;0.93;0.98;1" dur="24s" repeatCount="indefinite"/><animate attributeName="y" values="312;312;358;358;358;312" keyTimes="0;0.67;0.88;0.93;0.98;1" dur="24s" repeatCount="indefinite"/></rect><line x1="1114" y1="290" x2="1268" y2="290" stroke="#3a3f45" stroke-width="3"/></g></g></g>
+<path d="M1266 400 q-8 120 -6 240" fill="none" stroke="#efe3c4" stroke-width="14" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.68;0.87" dur="24s" repeatCount="indefinite" calcMode="discrete"/></path>
+<path d="M1266 400 q-8 120 -6 240" fill="none" stroke="#c9b78e" stroke-width="2" stroke-dasharray="4 8" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.68;0.87" dur="24s" repeatCount="indefinite" calcMode="discrete"/><animate attributeName="stroke-dashoffset" from="-12" to="0" dur="0.3s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="1110" y="340" class="s r">opened box</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="0 -200;0 -200;0 0;0 -120;0 -120;0 0;0 -200" keyTimes="0;0.5;0.58;0.61;0.9;0.93;1" dur="24s" repeatCount="indefinite"/><line x1="1191" y1="250" x2="1191" y2="278" stroke="#555" stroke-width="4"/><line x1="1114" y1="278" x2="1268" y2="278" stroke="#555" stroke-width="4"/><line x1="1114" y1="278" x2="1114" y2="294" stroke="#555" stroke-width="3"/><line x1="1268" y1="278" x2="1268" y2="294" stroke="#555" stroke-width="3"/></g></g>
+<text x="1100" y="220" class="s r">transport hook</text>
+<text x="1100" y="236" class="s r">(rests on the rim)</text>
+<rect x="1380" y="200" width="150" height="56" fill="#2b2f33" stroke="#3a3f45" stroke-width="1.5"/>
+<text x="1455" y="218" class="s c w">dose</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.68" dur="24s" repeatCount="indefinite" calcMode="discrete"/>0 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.68;0.72" dur="24s" repeatCount="indefinite" calcMode="discrete"/>40 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.72;0.75" dur="24s" repeatCount="indefinite" calcMode="discrete"/>95 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.75;0.78" dur="24s" repeatCount="indefinite" calcMode="discrete"/>150 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.78;0.82" dur="24s" repeatCount="indefinite" calcMode="discrete"/>200 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.82;0.85" dur="24s" repeatCount="indefinite" calcMode="discrete"/>235 g</text>
+<text x="1455" y="246" class="m c b w" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.85;0.94" dur="24s" repeatCount="indefinite" calcMode="discrete"/>250 g ✓</text>
+<text x="1455" y="274" class="s c">±2° shake meters</text>
+<text x="1455" y="290" class="s c">the last grams</text>
+<rect x="0" y="852" width="1600" height="48" fill="#eef1f4"/>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">1/6 </tspan>The transport leaves a pass tray with warm plates on the outer sill; the sill weighs it. Nothing of the transport enters the tub.<animate attributeName="opacity" values="1;0" keyTimes="0;0.16" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">2/6 </tspan>The guillotine shutter rises; P1 hooks the tray with the vessel fork and pulls it in over the well.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.16;0.35" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">3/6 </tspan>Loaded trays go out the same way; the shutter closes.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.35;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">4/6 </tspan>Ingredients come from above: the transport sets an opened box into the tilter of the dock above the ceiling.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.62" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">5/6 </tspan>The tilter turns the box over its long pour edge; the cam opens the port; ±2° shaking and the load cells meter the dose.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.62;0.88" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">6/6 </tspan>The box turns back, the port shutter closes, the transport takes the box away.<animate attributeName="opacity" values="0;1" keyTimes="0;0.88" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<rect x="0" y="850" width="1600" height="3" fill="#f28c28" transform="scale(0 1)"><animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

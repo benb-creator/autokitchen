@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- Storage layout: ambient column = S4 aisle shuttle with the S5-B nest level and the thermoelectric cool section (default rack set). Source: 10-storage-comparison.md 3.1, 3.5, 4.4, 5.3, 6.1-6.3. Side section Y/Z and front view X/Z at 0.34 px/mm. Simplifications: runners and lane walls omitted; the carriage reach in Y is drawn as the box sliding; the nest hand-over (285 mm below the gallery floor) is read as: the carriage lifts the whole nest under the hatch and the gallery hook takes the top empty; level heights from the rack-set table (pitches S 80, M 115, T 165, nest 379, cool section 645). -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">Ambient column: hanging boxes, one carriage, a nest level and a cool section</text>
+<text x="24" y="58" class="m">Lidded GN 1/6 boxes hang by their rims in two rack faces; one carriage in the aisle fetches any box and lifts it to the roof hatch.</text>
+<text x="1576" y="28" class="s r b">650 wide · aisle 188 · S4 z 80–2000</text>
+<text x="1576" y="47" class="s r">72 lidded (30 S, 27 M, 15 T) + 9 cool + ≤ 37 nested empties</text>
+<text x="1576" y="66" class="s r">retrieval worst ≈ 6 s, mean ≈ 4 s · 3 motors, hook passive</text>
+<text x="1576" y="85" class="s r">cool section 8–15 °C: 40 W Peltier, insulated roller shutter</text>
+<text x="24" y="100" class="s b">A  SIDE SECTION (room on the left)</text>
+<line x1="250" y1="830" x2="560" y2="830" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="300" y="185.2" width="186" height="24.8" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="364.48" y="185.2" width="58.28" height="24.8" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="294" y="202.6" class="s r">gallery</text>
+<rect x="300" y="210" width="186" height="620" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2"/>
+<line x1="486" y1="185.2" x2="486" y2="830" stroke="#3a3f45" stroke-width="4"/>
+<text x="494" y="427" class="s">wall</text>
+<rect x="300" y="805.2" width="186" height="24.8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<text x="393" y="822.6" class="s c">drip tray</text>
+<rect x="300" y="210" width="7" height="595.2" fill="#b39b7a" stroke="#3a3f45" stroke-width="1"/>
+<text x="294" y="520" class="s r">door</text>
+<rect x="422.76" y="605.25" width="63.24" height="199.95" fill="#e6f2f8" stroke="#3b7dd8" stroke-width="2"/>
+<rect x="425.24" y="756.84" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="754.84" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="654.54" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="652.54" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="465.75" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="463.75" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="440.95" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="438.95" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="416.15" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="414.15" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="380.5" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="378.5" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="344.85" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="342.85" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="309.2" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="307.2" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="425.24" y="237.9" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="424.62" y="235.9" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<text x="494" y="706" class="s" fill="#3b7dd8">cool</text>
+<text x="494" y="722" class="s" fill="#3b7dd8">section</text>
+<text x="494" y="551" class="s">nest</text>
+<text x="494" y="567" class="s">level</text>
+<rect x="420.76" y="605.25" width="22" height="22" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="306.2" y="756.84" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="754.84" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="705.69" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="703.69" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="654.54" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="652.54" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="603.39" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="601.39" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="552.24" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="550.24" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="516.59" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="514.59" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="445.29" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="443.29" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="409.64" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="407.64" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="384.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="382.84" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="360.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="358.04" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="335.24" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="333.24" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="310.44" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="308.44" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="285.64" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="283.64" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="260.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="258.84" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<rect x="306.2" y="236.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1"/><rect x="305.58" y="234.04" width="56" height="2" fill="#2b2f33" stroke="none" stroke-width="0"/>
+<text x="294" y="303" class="s r b">front face</text>
+<text x="494" y="303" class="s b">rear face</text>
+<rect x="417.76" y="651.75" width="6" height="153.45" fill="#3b7dd8"><animate attributeName="height" values="153.45;153.45;6;6;153.45;153.45" keyTimes="0;0.32;0.34;0.4;0.41;1" dur="30s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="452.52 603.7;452.52 603.7;452.52 602.15;403 602.15;403 400.65;403 400.65;403 602.15;452.52 602.15;452.52 603.7;452.52 603.7" keyTimes="0;0.57;0.58;0.61;0.67;0.74;0.77;0.79;0.8;1" dur="30s" repeatCount="indefinite"/><path d="M-27.5 -102.3 L-24 0 L24 0 L27.5 -102.3" fill="#efe6cf" stroke="#3a3f45" stroke-width="1.5"/><line x1="-27.5" y1="-102.3" x2="27.5" y2="-102.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-94.3" x2="27.5" y2="-94.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-86.3" x2="27.5" y2="-86.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-78.3" x2="27.5" y2="-78.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-70.3" x2="27.5" y2="-70.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-62.3" x2="27.5" y2="-62.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-54.3" x2="27.5" y2="-54.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-46.3" x2="27.5" y2="-46.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-38.3" x2="27.5" y2="-38.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-30.3" x2="27.5" y2="-30.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-22.3" x2="27.5" y2="-22.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-14.3" x2="27.5" y2="-14.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="-6.3" x2="27.5" y2="-6.3" stroke="#b8a77a" stroke-width="1"/><line x1="-27.5" y1="1.7" x2="27.5" y2="1.7" stroke="#b8a77a" stroke-width="1"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="403 259.6;403 306.41;403 306.41;403 259.6;403 259.6;403 754.05;403 754.05;403 259.6;403 259.6;403 603.7;403 603.7;403 400.65;403 400.65;403 603.7;403 603.7;403 259.6;403 259.6;403 513.8;403 513.8" keyTimes="0;0.03;0.11;0.18;0.27;0.32;0.41;0.48;0.53;0.57;0.61;0.67;0.74;0.77;0.8;0.85;0.88;0.93;1" dur="30s" repeatCount="indefinite"/><rect x="-32" y="0" width="64" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><rect x="-6" y="8" width="12" height="16" fill="#f28c28" stroke="#3a3f45" stroke-width="1"/><text y="40" class="s c b h">carriage</text></g>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.23" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="452.52 304.55;452.52 304.55;452.52 303;403 306.41;403 259.6;403 259.6;403 163.5;403 163.5" keyTimes="0;0.07;0.08;0.11;0.18;0.2;0.23;1" dur="30s" repeatCount="indefinite"/><rect x="-27.5" y="-31.0" width="55" height="31.0" fill="#fff2b3" stroke="#3a3f45" stroke-width="1.5"/><rect x="-28.5" y="-33.0" width="57" height="3" fill="#2b2f33"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.52" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="452.52 752.19;452.52 752.19;452.52 750.64;403 754.05;403 754.05;403 259.6;403 259.6;403 163.5;403 163.5" keyTimes="0;0.36;0.37;0.4;0.41;0.48;0.49;0.52;1" dur="30s" repeatCount="indefinite"/><rect x="-27.5" y="-46.5" width="55" height="46.5" fill="#d9ecf7" stroke="#3a3f45" stroke-width="1.5"/><rect x="-28.5" y="-48.5" width="57" height="3" fill="#2b2f33"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.67;0.74" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="403 313.85;403 313.85;403 313.85;403 163.5;403 163.5" keyTimes="0;0.69;0.71;0.74;1" dur="30s" repeatCount="indefinite"/><path d="M-27.5 -22 L-24 0 L24 0 L27.5 -22" fill="#efe6cf" stroke="#3a3f45" stroke-width="2"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.85" dur="30s" repeatCount="indefinite" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" values="403 163.5;403 163.5;403 163.5;403 259.6;403 513.8;333.48 512.25;333.48 513.8;333.48 513.8" keyTimes="0;0.8;0.85;0.88;0.93;0.97;0.98;1" dur="30s" repeatCount="indefinite"/><rect x="-27.5" y="-31.0" width="55" height="31.0" fill="#e8f0d8" stroke="#3a3f45" stroke-width="1.5"/><rect x="-28.5" y="-33.0" width="57" height="3" fill="#2b2f33"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="403 163.5;403 163.5;403 227.05;403 163.5;403 163.5;403 211.55;403 163.5;403 163.5;403 311.99;403 163.5;403 163.5;403 227.05;403 163.5;403 163.5" keyTimes="0;0.18;0.2;0.23;0.48;0.49;0.52;0.69;0.71;0.74;0.85;0.88;0.89;1" dur="30s" repeatCount="indefinite"/><line x1="0" y1="-40" x2="0" y2="-4" stroke="#555" stroke-width="2"/><path d="M-33 -4 L33 -4 M-31 -4 L-31 4 M31 -4 L31 4" fill="none" stroke="#2b2f33" stroke-width="3"/></g>
+<rect x="364.48" y="184.20000000000005" width="58.27999999999997" height="2" fill="#6b4c8a"/>
+<text x="393.62" y="179.2" class="s c">roof hatch</text>
+<text x="640" y="100" class="s b">B  FRONT FACE, 3 LANES</text>
+<rect x="650" y="210" width="201.5" height="595.2" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2"/>
+<rect x="650" y="805.2" width="201.5" height="24.8" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.2"/>
+<line x1="620" y1="830" x2="900" y2="830" stroke="#3a3f45" stroke-width="2.5"/>
+<rect x="656.2" y="756.84" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="756.84" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="756.84" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="705.69" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="705.69" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="705.69" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="654.54" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="654.54" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="654.54" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="603.39" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="603.39" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="603.39" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="552.24" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="552.24" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="552.24" width="55" height="46.5" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="516.59" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="516.59" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="516.59" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="480.94" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="480.94" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="480.94" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="445.29" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="445.29" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="445.29" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="409.64" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="409.64" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="409.64" width="55" height="31" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="384.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="384.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="384.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="360.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="360.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="360.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="335.24" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="335.24" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="335.24" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="310.44" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="310.44" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="310.44" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="285.64" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="285.64" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="285.64" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="260.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="260.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="260.84" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="656.2" y="236.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="723.16" y="236.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="790.12" y="236.04" width="55" height="20.15" fill="#f5f0e1" stroke="#3a3f45" stroke-width="1" opacity="0.55"/>
+<rect x="727.5" y="208" width="50" height="5" fill="#6b4c8a" stroke="none" stroke-width="0"/>
+<text x="683.48" y="822.6" class="s c b">A</text>
+<text x="750.44" y="822.6" class="s c b">B</text>
+<text x="817.4" y="822.6" class="s c b">C</text>
+<text x="750.75" y="202" class="s c">hatch over lane B</text>
+<g><animateTransform attributeName="transform" type="translate" values="750.75 259.6;683.48 306.41;683.48 306.41;750.75 259.6;750.75 259.6;817.71 754.05;817.71 754.05;750.75 259.6;750.75 259.6;750.75 603.7;750.75 603.7;750.75 400.65;750.75 400.65;750.75 603.7;750.75 603.7;750.75 259.6;750.75 259.6;683.48 513.8;683.48 513.8" keyTimes="0;0.03;0.11;0.18;0.27;0.32;0.41;0.48;0.53;0.57;0.61;0.67;0.74;0.77;0.8;0.85;0.88;0.93;1" dur="30s" repeatCount="indefinite"/><rect x="-32" y="0" width="64" height="8" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"/><rect x="-32" y="-30" width="64" height="30" fill="none" stroke="#f28c28" stroke-width="2" stroke-dasharray="4 3"/></g>
+<text x="1000" y="640" class="s">The carriage runs in X (lanes) and Z (levels) and reaches</text>
+<text x="1000" y="658" class="s">into either face in Y; the passive J-hook engages by a 5 mm lift.</text>
+<text x="1000" y="140" class="s b">C  WHAT HANGS WHERE (bottom → top)</text>
+<text x="1000" y="176" class="s b">rear face</text>
+<text x="1016" y="194" class="s">cool section: 3 × T + shutter drum</text>
+<text x="1420" y="194" class="s r">645 mm</text>
+<text x="1016" y="214" class="s">nest level: ≤ 37 empties, no lids</text>
+<text x="1420" y="214" class="s r">379 mm</text>
+<text x="1016" y="234" class="s">3 × S</text>
+<text x="1420" y="234" class="s r">240 mm</text>
+<text x="1016" y="254" class="s">5 × M</text>
+<text x="1420" y="254" class="s r">575 mm</text>
+<text x="1000" y="282" class="s b">front face</text>
+<text x="1016" y="300" class="s">5 × T</text>
+<text x="1420" y="300" class="s r">825 mm</text>
+<text x="1016" y="320" class="s">4 × M</text>
+<text x="1420" y="320" class="s r">460 mm</text>
+<text x="1016" y="340" class="s">7 × S</text>
+<text x="1420" y="340" class="s r">560 mm</text>
+<text x="1000" y="380" class="s">S = GN 1/6-65, M = 1/6-100, T = 1/6-150; the column is full.</text>
+<text x="1000" y="410" class="s b">Box hand-over below the gallery floor:</text>
+<text x="1000" y="428" class="s">lidded box 60 mm · empty from the nest 285 mm</text>
+<text x="1000" y="460" class="s">Boxes never touch each other; every box is within</text>
+<text x="1000" y="478" class="s">one box of a human hand through the door.</text>
+<rect x="0" y="852" width="1600" height="48" fill="#eef1f4"/>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">1/5 </tspan>A lidded box from the rear face: the carriage reaches in, lifts it 5 mm off its runners and brings it up under the roof hatch.<animate attributeName="opacity" values="1;0" keyTimes="0;0.23" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">2/5 </tspan>The gallery hook reaches 60 mm down through the hatch and takes it.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.23;0.27" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">3/5 </tspan>Cool section (8–15 °C): the insulated roller shutter rolls up only while the carriage takes a box out.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.27;0.53" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">4/5 </tspan>Empty boxes live nested without lids in one tall level: the nest comes up, the hook takes the top empty (285 mm down).<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.53;0.8" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">5/5 </tspan>Put-away: the gallery sets a used box on the carriage, which hangs it in a free slot of the front face.<animate attributeName="opacity" values="0;1" keyTimes="0;0.8" dur="30s" repeatCount="indefinite" calcMode="discrete"/></text>
+<rect x="0" y="850" width="1600" height="3" fill="#f28c28" transform="scale(0 1)"><animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="30s" repeatCount="indefinite"/></rect>
+</svg>

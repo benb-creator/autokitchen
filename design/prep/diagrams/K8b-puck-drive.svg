@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K8b puck drive. Source: K8b sections 2.1, 2.2, 2.3 (heads, pucks, R50 rating, release on a peg, fall lane). Panel A side section at 1.2 px/mm, panel B front view of the drive wall at 0.4 px/mm, panel C section at 1 px/mm. Simplifications: magnet blocks drawn as two N/S pairs (the ring has 20 blocks), the four orientation magnets and Hall sensors are omitted; the puck moves in X to reach the peg, which a side section cannot show, so the peg appears only while used; panel C has its own 6 s loop. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="24" y="34" class="l b">K8b  Puck drive — magnets through a closed wall</text>
+<text x="24" y="58" class="m">A magnet head behind the 1.5 mm stainless skin drags a sealed puck inside the tub; the puck carries the tool.</text>
+<text x="1576" y="28" class="s r b">puck Ø190, 1.1 kg · head ring Ø150, 20 N42SH blocks</text>
+<text x="1576" y="47" class="s r">gap 4.0 mm magnet to magnet · glide pads 0.3 MPa</text>
+<text x="1576" y="66" class="s r">planned at R50: clamp 384 N, in plane ≤ 40 N</text>
+<text x="1576" y="85" class="s r">tilt ≤ 12 Nm · rotor ≤ 6 Nm · pull-off 190 N</text>
+<text x="1576" y="104" class="s r">release: peg + head 200 mm down, no motor</text>
+<text x="24" y="100" class="s b">A  SIDE SECTION THROUGH THE DRIVE WALL</text>
+<text x="246" y="128" class="s c b">DRY: door cassette</text>
+<text x="430" y="128" class="s c b">WET: inside the tub</text>
+<rect x="192" y="140" width="108" height="660" fill="#eef0f2" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="192" y="140" width="8" height="660" fill="#c4cad1" stroke="#3a3f45" stroke-width="1.2"/>
+<rect x="300" y="140" width="230" height="660" fill="#f6f7f8" stroke="none" stroke-width="0"/>
+<line x1="220" y1="140" x2="220" y2="800" stroke="#555" stroke-width="6"/>
+<line x1="220" y1="140" x2="220" y2="800" stroke="#ffffff" stroke-width="2" stroke-dasharray="3 5"/>
+<line x1="299" y1="140" x2="299" y2="800" stroke="#5d6a78" stroke-width="3"/>
+<text x="186" y="160" class="s r">décor</text>
+<text x="186" y="176" class="s r">panel</text>
+<text x="186" y="200" class="s r">Z ball</text>
+<text x="186" y="216" class="s r">screw</text>
+<g><line x1="360" y1="760" x2="302" y2="760" stroke="#3a3f45" stroke-width="1.5"/><path d="M302 760 L309.37 756.88 L309.37 763.12 Z" fill="#3a3f45"/></g>
+<text x="366" y="765" class="s">skin 1.5 mm stainless</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -80;0 60;0 0;0 0;0 240;0 240;0 0;0 0;0 -30;0 -30;0 0;0 0" keyTimes="0;0.1;0.21;0.25;0.5;0.58;0.75;0.79;0.81;0.88;0.92;0.98;1" dur="24s" repeatCount="indefinite"/><rect x="232" y="390" width="36" height="80" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/><rect x="268" y="318" width="8" height="224" fill="#5d6a78" stroke="#3a3f45" stroke-width="1.2"/><rect x="276" y="331" width="9" height="18" fill="#d9534f" stroke="#3a3f45" stroke-width="1"/><rect x="276" y="511" width="9" height="18" fill="#3b7dd8" stroke="#3a3f45" stroke-width="1"/><rect x="276" y="318" width="20" height="8" fill="#f3f3e8" stroke="#3a3f45" stroke-width="1"/><rect x="276" y="534" width="20" height="8" fill="#f3f3e8" stroke="#3a3f45" stroke-width="1"/><line x1="220" y1="430" x2="232" y2="430" stroke="#3a3f45" stroke-width="4"/><text x="186" y="424" class="s r">magnet</text><text x="186" y="440" class="s r">head</text><text x="186" y="330" class="s r">glide pads</text><line x1="188" y1="326" x2="276" y2="322" stroke="#555" stroke-width="1"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.48;0.9" dur="24s" repeatCount="indefinite" calcMode="discrete"/><rect x="300" y="286" width="66" height="8" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/><text x="372" y="295" class="s b">peg</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -80;0 60;0 0;0 0;0 0;0 0;0 0;0 -30;0 -30;0 0;0 0" keyTimes="0;0.11;0.22;0.26;0.5;0.75;0.79;0.81;0.88;0.92;0.98;1" dur="24s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0 337 290;0 337 290;-9 337 290;-9 337 290;0 337 290;0 337 290" keyTimes="0;0.58;0.62;0.76;0.79;1" dur="24s" repeatCount="indefinite"/><rect x="300" y="316" width="32" height="228" fill="#dfe7ef" stroke="#3a3f45" stroke-width="2" rx="4"/><rect x="301" y="331" width="8" height="18" fill="#3b7dd8" stroke="#3a3f45" stroke-width="1"/><rect x="301" y="511" width="8" height="18" fill="#d9534f" stroke="#3a3f45" stroke-width="1"/><rect x="300" y="308" width="36" height="10" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1" rx="4"/><rect x="300" y="542" width="36" height="10" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1" rx="4"/><rect x="300" y="370" width="4" height="14" fill="#e8d9a8" stroke="#3a3f45" stroke-width="1"/><rect x="300" y="476" width="4" height="14" fill="#e8d9a8" stroke="#3a3f45" stroke-width="1"/><path d="M318 316 L318 292 Q318 284 326 284 L348 284 Q356 284 356 292 L356 304" fill="none" stroke="#3a3f45" stroke-width="4"/><rect x="332" y="415" width="34" height="30" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><rect x="366" y="423" width="150" height="14" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.5"/><text x="345" y="390" class="s">rotor in welded can</text><text x="345" y="480" class="s">bayonet spigot</text><text x="450" y="416" class="s c">tool</text><text x="345" y="570" class="s">silicone bumper</text><text x="345" y="276" class="s">bail</text></g><g><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.57;0.79" dur="24s" repeatCount="indefinite" calcMode="discrete"/><g><g><line x1="287" y1="340" x2="297" y2="340" stroke="#d9534f" stroke-width="2"/><path d="M297 340 L292.39 341.95 L292.39 338.05 Z" fill="#d9534f"/></g><g><line x1="312" y1="340" x2="302" y2="340" stroke="#d9534f" stroke-width="2"/><path d="M302 340 L306.61 338.05 L306.61 341.95 Z" fill="#d9534f"/></g></g><g><g><line x1="287" y1="520" x2="297" y2="520" stroke="#d9534f" stroke-width="2"/><path d="M297 520 L292.39 521.95 L292.39 518.05 Z" fill="#d9534f"/></g><g><line x1="312" y1="520" x2="302" y2="520" stroke="#d9534f" stroke-width="2"/><path d="M302 520 L306.61 518.05 L306.61 521.95 Z" fill="#d9534f"/></g></g></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/><path d="M440 396 a14 34 0 1 1 0 68" fill="none" stroke="#f28c28" stroke-width="3"/><path d="M440 464 l10 -8 l2 12 Z" fill="#f28c28"/><text x="466" y="462" class="s b">roll</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.61;0.76" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="470" y="640" class="s c b h">poles now push:</text><text x="470" y="658" class="s c h">puck hangs free</text></g>
+<text x="160" y="830" class="s b" fill="#d9534f">N</text>
+<text x="178" y="830" class="s">/</text>
+<text x="190" y="830" class="s b" fill="#3b7dd8">S</text>
+<text x="206" y="830" class="s">magnet poles</text>
+<text x="585" y="100" class="s b">B  FRONT VIEW OF THE DRIVE WALL</text>
+<rect x="585" y="200" width="452" height="280" fill="#f6f7f8" stroke="#3a3f45" stroke-width="2"/>
+<line x1="585" y1="480" x2="1037" y2="480" stroke="#3a3f45" stroke-width="3"/>
+<line x1="585" y1="190" x2="1037" y2="190" stroke="#9aa1a8" stroke-width="4" stroke-dasharray="8 5"/>
+<line x1="585" y1="490" x2="1037" y2="490" stroke="#9aa1a8" stroke-width="4" stroke-dasharray="8 5"/>
+<text x="1037" y="182" class="s r">X rails</text>
+<circle cx="609" cy="348" r="5" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/>
+<circle cx="641" cy="348" r="5" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/>
+<text x="625" y="336" class="s c">pegs</text>
+<g><animateTransform attributeName="transform" type="translate" values="705 0;705 0;765 0;765 0;641 0;641 0;641 0;641 0;641 0;641 0;705 0;705 0" keyTimes="0;0.12;0.25;0.5;0.54;0.57;0.61;0.73;0.78;0.8;0.88;1" dur="24s" repeatCount="indefinite"/><rect x="-14" y="186" width="28" height="308" fill="#d0d4d9" fill-opacity="0.55" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/><text y="215" class="s c">X1</text><g><animateTransform attributeName="transform" type="translate" values="0 340;0 260;0 380;0 380;0 384;0 394;0 474;0 474;0 394;0 384;0 340;0 340" keyTimes="0;0.12;0.25;0.5;0.54;0.57;0.61;0.73;0.78;0.8;0.88;1" dur="24s" repeatCount="indefinite"/><rect x="-24" y="-20" width="48" height="40" fill="#d0d4d9" fill-opacity="0.6" stroke="#555" stroke-width="1.5" stroke-dasharray="5 3"/><circle r="30" fill="none" stroke="#f28c28" stroke-width="2.5" stroke-dasharray="6 4"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="925 0;969 0;897 0;969 0;925 0" keyTimes="0;0.25;0.5;0.75;1" dur="24s" repeatCount="indefinite"/><rect x="-14" y="186" width="28" height="308" fill="#d0d4d9" fill-opacity="0.55" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/><text y="215" class="s c">X2</text><g><animateTransform attributeName="transform" type="translate" values="0 320;0 360;0 292;0 376;0 320" keyTimes="0;0.25;0.5;0.75;1" dur="24s" repeatCount="indefinite"/><rect x="-24" y="-20" width="48" height="40" fill="#d0d4d9" fill-opacity="0.6" stroke="#555" stroke-width="1.5" stroke-dasharray="5 3"/><circle r="30" fill="none" stroke="#f28c28" stroke-width="2.5" stroke-dasharray="6 4"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="705 340;705 260;765 380;765 380;641 384;641 394;641 394;641 384;705 340;705 340" keyTimes="0;0.12;0.25;0.5;0.54;0.57;0.78;0.8;0.88;1" dur="24s" repeatCount="indefinite"/><path d="M-8 -38 L-8 -46 L8 -46 L8 -38" fill="none" stroke="#3a3f45" stroke-width="3"/><circle r="38" fill="#f28c28" fill-opacity="0.9" stroke="#3a3f45" stroke-width="2"><animate attributeName="fill-opacity" values="0.9;0.9;0.45;0.45;0.9;0.9" keyTimes="0;0.57;0.61;0.78;0.78;1" dur="24s" repeatCount="indefinite" calcMode="discrete"/></circle><g><animateTransform attributeName="transform" type="rotate" values="0;0;180;180" keyTimes="0;0.29;0.46;1" dur="24s" repeatCount="indefinite"/><rect x="-4" y="-4" width="56" height="8" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/><rect x="48" y="-12" width="10" height="24" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/></g><circle r="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/><text y="-14" class="s c b">P1</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="925 320;969 360;897 292;969 376;925 320" keyTimes="0;0.25;0.5;0.75;1" dur="24s" repeatCount="indefinite"/><path d="M-8 -38 L-8 -46 L8 -46 L8 -38" fill="none" stroke="#3a3f45" stroke-width="3"/><circle r="38" fill="#f28c28" fill-opacity="0.9" stroke="#3a3f45" stroke-width="2"></circle><circle r="6" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/><text y="-14" class="s c b">P2</text></g>
+<text x="1037" y="512" class="s r">two bridges on shared rails: they cannot pass each other</text>
+<text x="585" y="532" class="s">puck = solid · gantry and head behind the skin = dashed</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.57;0.78" dur="24s" repeatCount="indefinite" calcMode="discrete"/><text x="691" y="404" class="s h b">head 200 mm down: puck stays on the peg</text></g>
+<text x="585" y="560" class="s b">WHAT THE MAGNETS CARRY (R50 = half the calculated figures)</text>
+<text x="585" y="586" class="s">clamp to the wall</text>
+<text x="860" y="586" class="s b">384 N</text>
+<text x="585" y="608" class="s">push sideways while moving</text>
+<text x="860" y="608" class="s b">≥ 40 N</text>
+<text x="585" y="630" class="s">push towards the wall</text>
+<text x="860" y="630" class="s b">unlimited (skids)</text>
+<text x="585" y="652" class="s">tilting moment</text>
+<text x="860" y="652" class="s b">12 Nm</text>
+<text x="585" y="674" class="s">rotor torque (roll)</text>
+<text x="860" y="674" class="s b">6 Nm</text>
+<text x="585" y="712" class="s">So tools are set up so that the work pushes</text>
+<text x="585" y="730" class="s">into the wall, never away from it.</text>
+<text x="1090" y="100" class="s b">C  IF A PUCK DROPS</text>
+<rect x="1110" y="200" width="50" height="580" fill="#eef0f2" stroke="#3a3f45" stroke-width="1.5"/>
+<line x1="1160" y1="200" x2="1160" y2="760" stroke="#5d6a78" stroke-width="3"/>
+<rect x="1160" y="760" width="400" height="20" fill="#2b2f33" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1160" y="758" width="60" height="4" fill="#9aa1a8" stroke="none" stroke-width="0"/>
+<path d="M1240 695 L1240 760 L1500 760 L1500 695" fill="#8fa8c0" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1250" y="730" width="240" height="26" fill="#e8c547" stroke="none" stroke-width="0" opacity="0.7"/>
+<line x1="1160" y1="800" x2="1220" y2="800" stroke="#555" stroke-width="1.2"/><line x1="1160" y1="795" x2="1160" y2="805" stroke="#555" stroke-width="1.2"/><line x1="1220" y1="795" x2="1220" y2="805" stroke="#555" stroke-width="1.2"/><text x="1190" y="817" class="s c">60</text>
+<line x1="1220" y1="800" x2="1560" y2="800" stroke="#555" stroke-width="1.2"/><line x1="1220" y1="795" x2="1220" y2="805" stroke="#555" stroke-width="1.2"/><line x1="1560" y1="795" x2="1560" y2="805" stroke="#555" stroke-width="1.2"/><text x="1390" y="817" class="s c">vessels only here</text>
+<line x1="1580" y1="510" x2="1580" y2="760" stroke="#555" stroke-width="1.2"/><line x1="1575" y1="510" x2="1585" y2="510" stroke="#555" stroke-width="1.2"/><line x1="1575" y1="760" x2="1585" y2="760" stroke="#555" stroke-width="1.2"/><text x="1574" y="640" class="s r">250</text>
+<text x="1556" y="502" class="s r">puck centre at most 250 above the glass</text>
+<line x1="1160" y1="510" x2="1560" y2="510" stroke="#9aa1a8" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1128" y="415" width="24" height="190" fill="#f28c28" stroke="#3a3f45" stroke-width="1.5"><animate attributeName="fill" values="#f28c28;#f28c28;#9aa1a8;#9aa1a8;#f28c28" keyTimes="0;0.33;0.34;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+<g><animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.92;0.96;1" dur="6s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 147;0 147;0 147" keyTimes="0;0.33;0.45;0.9;1" dur="6s" repeatCount="indefinite"/><g transform="translate(0 760)"><g><animateTransform attributeName="transform" type="rotate" values="0 1200 -175;0 1200 -175;0 1200 -175;6 1200 -175;6 1200 -175" keyTimes="0;0.33;0.4;0.5;1" dur="6s" repeatCount="indefinite"/><rect x="1196" y="-180" width="200" height="10" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1.2"/></g><rect x="1162" y="-345" width="34" height="190" fill="#dfe7ef" stroke="#3a3f45" stroke-width="2" rx="4"/><rect x="1162" y="-353" width="38" height="10" fill="#6b4c8a" rx="4"/><rect x="1162" y="-157" width="38" height="10" fill="#6b4c8a" rx="4"/><rect x="1196" y="-186" width="14" height="22" fill="#8fa8c0" stroke="#3a3f45" stroke-width="1"/></g></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.46;0.9;1" dur="6s" repeatCount="indefinite"/><text x="1300" y="380" class="s c b">2.7 J on a silicone bumper,</text><text x="1300" y="398" class="s c">like a pan dropped from 25 cm</text></g>
+<text x="1090" y="140" class="s">Nothing stands in the 60 mm strip next to the</text>
+<text x="1090" y="158" class="s">wall, so a dropped puck slides down the skin</text>
+<text x="1090" y="176" class="s">and lands beside the food, not in it.</text>
+<text x="1120" y="196" class="s c">wall</text>
+<rect x="0" y="852" width="1600" height="48" fill="#eef1f4"/>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">1/4 </tspan>The magnet head behind the closed skin drags the puck in X and Z; the tool rides on the puck. No hole, no seal.<animate attributeName="opacity" values="1;0" keyTimes="0;0.25" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">2/4 </tspan>The head turns its magnet ring: the puck rotor follows and the tool rolls about the axis through the wall.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;0.5" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">3/4 </tspan>Release without a motor: the puck’s bail is hung on a peg, the head goes 200 mm down, the poles push the puck off.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.78" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">4/4 </tspan>Pick-up is the reverse: the head comes back, the puck snaps onto the wall and lifts off the peg.<animate attributeName="opacity" values="0;1" keyTimes="0;0.78" dur="24s" repeatCount="indefinite" calcMode="discrete"/></text>
+<rect x="0" y="850" width="1600" height="3" fill="#f28c28" transform="scale(0 1)"><animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="24s" repeatCount="indefinite"/></rect>
+</svg>

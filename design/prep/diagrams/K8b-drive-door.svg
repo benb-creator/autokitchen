@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<!-- K8b drive door. Source: K8b 2.4 (drop-down pocket door), 1 row 8, 2.2 (door lock). Side section Y/Z at 0.4 px/mm, ramp close-up at 4 px/mm, front view at 0.2 px/mm. Simplifications: the 8 mm sideways move of the ramps is drawn 4 times larger in the side section so that it is visible; the two constant-force spring motors are drawn as one drum; rollers 2 of 4. -->
+<style>text{font-family:system-ui,sans-serif;fill:#2b2f33}.b{font-weight:700}.s{font-size:14px}.m{font-size:16px}.l{font-size:20px}.c{text-anchor:middle}.r{text-anchor:end}.h{stroke:#fff;stroke-width:4;paint-order:stroke}.w{fill:#fff}</style>
+<rect width="1600" height="900" fill="#ffffff"/>
+<clipPath id="bclip"><rect x="880" y="110" width="700" height="440"/></clipPath>
+<text x="24" y="34" class="l b">K8b  Drive door — drops into the plinth, presses onto its gasket</text>
+<text x="24" y="58" class="m">The 40 kg front (skin, gantries, heads) slides straight down 700 mm into a pocket; nothing swings into the room.</text>
+<text x="1576" y="28" class="s r b">door cassette 90 deep, about 40 kg</text>
+<text x="1576" y="47" class="s r">stroke 700 mm down, balanced by constant-force springs</text>
+<text x="1576" y="66" class="s r">hand force &lt; 50 N · 0 mm into the room</text>
+<text x="1576" y="85" class="s r">last 20 mm: ramps move it 8 mm onto the gasket</text>
+<text x="24" y="100" class="s b">A  SIDE SECTION</text>
+<line x1="60" y1="800" x2="820" y2="800" stroke="#3a3f45" stroke-width="3"/>
+<text x="70" y="818" class="s">room floor</text>
+<rect x="540" y="150" width="230" height="10" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="540" y="440" width="230" height="10" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="760" y="150" width="12" height="290" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="540" y="160" width="220" height="280" fill="#f6f7f8" stroke="none" stroke-width="0"/>
+<text x="650" y="300" class="m c b">TUB</text>
+<rect x="500" y="450" width="272" height="350" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="502" y="450" width="44" height="270" fill="#ffffff" stroke="#555" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="640" y="600" class="s c">plinth: electronics,</text>
+<text x="640" y="616" class="s c">pumps, tank</text>
+<text x="524" y="740" class="s c">pocket</text>
+<line x1="507" y1="170" x2="507" y2="720" stroke="#9aa1a8" stroke-width="3"/>
+<line x1="541" y1="170" x2="541" y2="720" stroke="#9aa1a8" stroke-width="3"/>
+<rect x="540" y="164" width="6" height="272" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1"/>
+<text x="560" y="184" class="s">gasket +</text>
+<text x="560" y="200" class="s">metal stop</text>
+<circle cx="620" cy="700" r="22" fill="#d0d4d9" stroke="#3a3f45" stroke-width="1.5"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 620 700.0;0 620 700.0;-540 620 700.0;-540 620 700.0;0 620 700.0;0 620 700.0" keyTimes="0;0.25;0.5;0.65;0.9;1" dur="20s" repeatCount="indefinite"/><line x1="620" y1="678" x2="620" y2="722" stroke="#3a3f45" stroke-width="2"/><line x1="598" y1="700" x2="642" y2="700" stroke="#3a3f45" stroke-width="2"/></g>
+<text x="650" y="705" class="s">constant-force springs</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-12 8;-12 280;-12 280;-12 8;0 0;0 0" keyTimes="0;0.15;0.23;0.5;0.65;0.82;0.88;1" dur="20s" repeatCount="indefinite"/><rect x="504" y="160" width="36" height="280" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/><rect x="504" y="160" width="6" height="280" fill="#b39b7a" stroke="#3a3f45" stroke-width="1"/><line x1="538" y1="160" x2="538" y2="440" stroke="#5d6a78" stroke-width="3"/><circle cx="507" cy="434" r="5" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/><circle cx="541" cy="434" r="5" fill="#2b2f33" stroke="#3a3f45" stroke-width="1"/><rect x="514" y="220" width="18" height="50" fill="#f28c28" stroke="#3a3f45" stroke-width="1"/><text x="522" y="142" class="s c b">door</text></g>
+<line x1="598" y1="700.0" x2="598" y2="434.0" stroke="#3a3f45" stroke-width="1.5" opacity="0"/>
+<text x="480" y="180" class="s r">décor</text>
+<text x="480" y="196" class="s r">panel</text>
+<text x="480" y="230" class="s r">heads</text>
+<text x="480" y="246" class="s r">(inside)</text>
+<line x1="470" y1="440" x2="470" y2="720" stroke="#555" stroke-width="1.2"/><line x1="465" y1="440" x2="475" y2="440" stroke="#555" stroke-width="1.2"/><line x1="465" y1="720" x2="475" y2="720" stroke="#555" stroke-width="1.2"/><text x="464" y="585" class="s r">700</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.65" dur="20s" repeatCount="indefinite" calcMode="discrete"/><g><line x1="380" y1="300" x2="525" y2="300" stroke="#2b2f33" stroke-width="3"/><path d="M525 300 L513.95 304.67 L513.95 295.33 Z" fill="#2b2f33"/></g><text x="370" y="305" class="s r b">tub open</text></g>
+<g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.15" dur="20s" repeatCount="indefinite" calcMode="discrete"/><text x="650" y="240" class="s c b h">pucks on pegs,</text><text x="650" y="256" class="s c h">tools in the nook</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.88" dur="20s" repeatCount="indefinite" calcMode="discrete"/><text x="650" y="240" class="s c b h">pressed and locked</text></g>
+<text x="900" y="100" class="s b">B  CLOSE-UP: THE RAMP AT THE TOP OF THE GUIDE</text>
+<path d="M1100 560 L1100 380.0 L1132.0 300 L1132.0 280" fill="none" stroke="#9aa1a8" stroke-width="22"/>
+<path d="M1100 560 L1100 380.0 L1132.0 300 L1132.0 280" fill="none" stroke="#ffffff" stroke-width="12"/>
+<text x="1080" y="400" class="s r">guide</text>
+<path d="M1140 380.0 l14 0 M1140 300 l14 0" fill="none" stroke="#555" stroke-width="1.2"/>
+<line x1="1160" y1="300" x2="1160" y2="380" stroke="#555" stroke-width="1.2"/><line x1="1155" y1="300" x2="1165" y2="300" stroke="#555" stroke-width="1.2"/><line x1="1155" y1="380" x2="1165" y2="380" stroke="#555" stroke-width="1.2"/><text x="1166" y="345" class="s">20</text>
+<line x1="1100" y1="266" x2="1132" y2="266" stroke="#555" stroke-width="1.2"/><line x1="1100" y1="261" x2="1100" y2="271" stroke="#555" stroke-width="1.2"/><line x1="1132" y1="261" x2="1132" y2="271" stroke="#555" stroke-width="1.2"/><text x="1116" y="261" class="s c">8</text>
+<g clip-path="url(#bclip)"><g><animateTransform attributeName="transform" type="translate" values="1132 300;1132 300;1100 380;1100 600;1100 600;1100 380;1132 300;1132 300" keyTimes="0;0.15;0.23;0.5;0.65;0.82;0.88;1" dur="20s" repeatCount="indefinite"/><line x1="0" y1="0" x2="160" y2="0" stroke="#c4cad1" stroke-width="14"/><rect x="160" y="-120" width="30" height="240" fill="#c4cad1" stroke="#3a3f45" stroke-width="2"/><circle r="9" fill="#2b2f33"/><text x="175" y="-130" class="s c b">door</text></g></g>
+<rect x="1328" y="140" width="30" height="340" fill="#d0d4d9" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1328" y="140" width="8" height="340" fill="#9aa1a8" stroke="#3a3f45" stroke-width="1"/>
+<rect x="1316.0" y="200" width="12" height="220" fill="#6b4c8a" stroke="#3a3f45" stroke-width="1"><animate attributeName="width" values="6;6;12;12;6;6" keyTimes="0;0.15;0.18;0.84;0.88;1" dur="20s" repeatCount="indefinite"/><animate attributeName="x" values="1322.0;1322.0;1316.0;1316.0;1322.0;1322.0" keyTimes="0;0.15;0.18;0.84;0.88;1" dur="20s" repeatCount="indefinite"/></rect>
+<text x="1366" y="260" class="s">tub frame:</text>
+<text x="1366" y="276" class="s">flush gasket</text>
+<text x="1366" y="292" class="s">+ metal stop</text>
+<rect x="880" y="540" width="700" height="20" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="900" y="590" class="s b">C  FRONT VIEW (module 1180 wide)</text>
+<line x1="880" y1="820" x2="1560" y2="820" stroke="#3a3f45" stroke-width="2"/>
+<rect x="1000" y="612" width="153.4" height="91" fill="#f6f7f8" stroke="#3a3f45" stroke-width="1.5"/>
+<rect x="1000" y="703" width="153.4" height="117" fill="#e9ecef" stroke="#3a3f45" stroke-width="1.5"/>
+<clipPath id="fc"><rect x="995" y="607.0" width="163.4" height="213.0"/></clipPath>
+<g clip-path="url(#fc)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 91;0 91;0 0;0 0" keyTimes="0;0.23;0.5;0.65;0.82;1" dur="20s" repeatCount="indefinite"/><rect x="1002" y="612" width="149.4" height="91" fill="#b39b7a" stroke="#3a3f45" stroke-width="1.5"/><text x="1077" y="662.5" class="s c b">door</text></g></g>
+<text x="1172" y="626" class="s">top ≤ 1600: no reaching up</text>
+<text x="1172" y="708" class="s">tub floor 900</text>
+<rect x="0" y="852" width="1600" height="48" fill="#eef1f4"/>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">1/6 </tspan>Before it opens: both pucks hang on their pegs, the tools are in the nook, the lock releases.<animate attributeName="opacity" values="1;0" keyTimes="0;0.15" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">2/6 </tspan>The door rolls off its ramps and comes 8 mm away from the gasket.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.23" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">3/6 </tspan>It slides 700 mm straight down into the plinth pocket; constant-force springs carry its 40 kg (hand &lt; 50 N).<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.23;0.5" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">4/6 </tspan>The tub is open from the front for service or cleaning; nothing sticks out into the room.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.65" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">5/6 </tspan>Closing: up again; in the last 20 mm the rollers climb the ramps and press the door onto the gasket and metal stop.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.65;0.88" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="24" y="876" class="m" opacity="0"><tspan class="b">6/6 </tspan>Locked (guard locking) before any puck moves.<animate attributeName="opacity" values="0;1" keyTimes="0;0.88" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<rect x="0" y="850" width="1600" height="3" fill="#f28c28" transform="scale(0 1)"><animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="20s" repeatCount="indefinite"/></rect>
+</svg>
